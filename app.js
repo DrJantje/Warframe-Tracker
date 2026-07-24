@@ -14,7 +14,7 @@ function check(response) {
 
 const materialNames = new Set(['Lenz', 'Catabolyst', 'Kreska', 'Tatsu', 'Sibear']);
 const activeNightwave = new Set(availability.activeNightwaveItems);
-const settledAt40 = new Set(overrides.settledAt40);
+const confirmedAt40 = new Set(overrides.confirmedAt40 || overrides.settledAt40 || []);
 const isNightwave = (item) => item.route.toLowerCase().includes('nightwave cred offerings');
 const actionableQueue = data.queue.filter((item) => !isNightwave(item) || activeNightwave.has(item.item));
 const hiddenNightwave = data.queue.length - actionableQueue.length;
@@ -40,12 +40,17 @@ function matches(item) {
   return !query || Object.values(item).some((value) => String(value ?? '').toLowerCase().includes(query));
 }
 function queueCard(item, material = false) {
-  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p><p class="steps">${escapeHtml(item.steps)}</p><details><summary>Farm tip</summary><p>${escapeHtml(item.tip)}</p></details>${source(item.source)}</article>`;
+  const arsenal = data.arsenal.find((row) => row.item === item.item);
+  const vaulted = item.item.includes('Prime') && arsenal?.vaulted === 'Yes' ? '<span class="pill violet">VAULTED</span>' : '';
+  const steps = item.steps ? `<p class="steps">${escapeHtml(item.steps)}</p>` : '';
+  const tip = item.tip ? `<details><summary>Farm tip</summary><p>${escapeHtml(item.tip)}</p></details>` : '';
+  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${steps}${tip}${source(item.source)}</article>`;
 }
 function header() {
   const label = views.find(([id]) => id === state.view)?.[1] ?? '';
   const quickWins = actionableQueue.filter((x) => x.ease.startsWith('2')).length;
-  return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialNames.size}</b><span>mats only</span></button><button data-view="rank40"><b>4</b><span>active 40s</span></button></div></section>`;
+  const active40 = data.rank40.filter((x) => x.status === 'Active').length;
+  return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialNames.size}</b><span>mats only</span></button><button data-view="rank40"><b>${active40}</b><span>active 40s</span></button></div></section>`;
 }
 function tabs() {
   return `<nav class="view-tabs" aria-label="Tracker views">${views.map(([id, label, count]) => `<button data-view="${id}" class="${state.view === id ? 'active' : ''}">${label}<span>${count}</span></button>`).join('')}</nav>`;
@@ -72,10 +77,10 @@ function content() {
     return `<section class="card-grid">${rows.map((x) => `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><span class="pill green">OWNED</span></div><div class="need"><span>NEXT</span>${escapeHtml(x.steps)}</div><p class="steps">${escapeHtml(x.tip)}</p>${source(x.source)}</article>`).join('')}</section>`;
   }
   if (state.view === 'rank40') {
-    const rows = data.rank40.map((x) => settledAt40.has(x.item) ? { ...x, status: 'Settled at 40', action: 'Complete — no action needed.', formaPlan: 'Five Forma complete' } : x).filter(matches);
+    const rows = data.rank40.map((x) => confirmedAt40.has(x.item) ? { ...x, status: 'Confirmed at 40', action: 'Complete — no action needed.', formaPlan: 'Five Forma complete (explicitly confirmed)' } : x).filter(matches);
     return `<section class="project-list">${rows.map((x) => `<article class="project ${x.status.toLowerCase().split(' ')[0]}"><div><span class="project-status">${escapeHtml(x.status)}</span><h3>${escapeHtml(x.item)}</h3><p>${escapeHtml(x.type)}</p></div><div><span>ACTION</span><p>${escapeHtml(x.action)}</p></div><div><span>FORMA PLAN</span><p>${escapeHtml(x.formaPlan)}</p></div></article>`).join('')}</section>`;
   }
-  const rows = data.arsenal.map((x) => settledAt40.has(x.item) ? { ...x, state: 'Settled at 40', targetRank: '40' } : x).filter(matches);
+  const rows = data.arsenal.map((x) => confirmedAt40.has(x.item) ? { ...x, state: 'Confirmed at 40', targetRank: '40' } : x).filter(matches);
   const rendered = rows.slice(0, state.visible).map((x) => `<div class="table-row"><strong>${escapeHtml(x.item)}</strong><span>${escapeHtml(x.type)}</span><span>${escapeHtml(x.state)}</span><span>${escapeHtml(x.targetRank)}</span>${source(x.source)}</div>`).join('');
   return `<section class="table-shell"><div class="table-head"><span>Item</span><span>Type</span><span>Status</span><span>Target</span><span>Source</span></div>${rendered}</section>${moreButton(rows.length)}`;
 }

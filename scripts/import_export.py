@@ -81,7 +81,7 @@ def update(folder: Path) -> None:
     export, manifest = load_complete_export(folder)
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
-    settled_at_40 = set(overrides["settledAt40"])
+    settled_at_40 = set(overrides.get("confirmedAt40", overrides.get("settledAt40", [])))
     rank40_by_name = {row["item"]: row for row in payload["rank40"]}
     rank40_names = set(rank40_by_name)
     arsenal = {row["item"]: row for row in payload["arsenal"]}
