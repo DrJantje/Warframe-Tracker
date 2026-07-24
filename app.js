@@ -13,24 +13,28 @@ function check(response) {
 }
 
 const UNVERIFIED = 'Acquisition route not verified yet';
-const activeNightwave = new Set(availability.activeNightwaveItems);
-const inactiveNightwave = new Set(availability.inactiveNightwaveItems || []);
+const activeNightwave = new Set(availability.activeNightwaveItems || []);
 const confirmedAt40 = new Set(overrides.confirmedAt40 || []);
-const isNightwave = (item) => item.route.toLowerCase().includes('nightwave cred offerings');
-const nightwaveCheckedAt = Date.parse(`${availability.checkedAt || ''}T23:59:59Z`);
-const nightwaveDataFresh = Number.isFinite(nightwaveCheckedAt) && Date.now() - nightwaveCheckedAt <= 8 * 24 * 60 * 60 * 1000;
+const isNightwave = (item) => item.availabilityGroup === 'nightwave';
+const nightwaveAliases = { 'Wolf Sledge': ['Wolf Beacon'], Vitrica: ['Nihil’s Oubliette', "Nihil's Oubliette", 'Enter Nihil’s Oubliette Key'] };
+const nightwaveCheckedAt = Date.parse(availability.checkedAt || '');
+const nightwaveAge = Date.now() - nightwaveCheckedAt;
+const nightwaveDataFresh = Number.isFinite(nightwaveCheckedAt) && nightwaveAge >= 0 && nightwaveAge <= 8 * 24 * 60 * 60 * 1000;
+const nightwaveStockVerified = availability.status === 'verified' && nightwaveDataFresh;
 const nightwaveState = (item) => {
   if (!isNightwave(item)) return null;
-  if (!nightwaveDataFresh || availability.nightwaveStatus === 'unknown') return 'unknown';
-  if (activeNightwave.has(item.item)) return 'verified';
-  if (inactiveNightwave.has(item.item)) return 'inactive';
-  return 'unknown';
+  if (!nightwaveStockVerified) return 'unknown';
+  const names = [item.item, ...(nightwaveAliases[item.item] || [])];
+  return names.some((name) => activeNightwave.has(name)) ? 'available' : 'inactive';
 };
-const verifiedQueue = data.queue.filter((item) => item.route !== UNVERIFIED);
-const researchQueue = data.queue.filter((item) => item.route === UNVERIFIED);
-const actionableQueue = verifiedQueue.filter((item) => nightwaveState(item) !== 'inactive');
-const hiddenNightwave = verifiedQueue.filter((item) => nightwaveState(item) === 'inactive').length;
-const unknownNightwave = actionableQueue.filter((item) => nightwaveState(item) === 'unknown').length;
+const nightwaveQueue = data.queue.filter(isNightwave).sort((a, b) => {
+  const order = { available: 0, unknown: 1, inactive: 2 };
+  return order[nightwaveState(a)] - order[nightwaveState(b)] || a.item.localeCompare(b.item);
+});
+const ordinaryQueue = data.queue.filter((item) => !isNightwave(item));
+const verifiedQueue = ordinaryQueue.filter((item) => item.route !== UNVERIFIED);
+const researchQueue = ordinaryQueue.filter((item) => item.route === UNVERIFIED);
+const actionableQueue = verifiedQueue;
 const missingParts = (item) => String(item.missing || '').split(';').map((part) => part.trim()).filter(Boolean);
 const isMaterialOnly = (item) => {
   const parts = missingParts(item);
@@ -40,6 +44,7 @@ const materialQueue = actionableQueue.filter(isMaterialOnly);
 const views = [
   ['next', 'Acquire next', actionableQueue.length],
   ['research', 'Needs research', researchQueue.length],
+  ['nightwave', 'Nightwave', nightwaveQueue.length],
   ['materials', 'Materials', materialQueue.length],
   ['rank40', 'Rank 40', data.rank40.filter((x) => x.status === 'Active').length],
   ['vaulted', 'Vaulted', data.vaulted.length],
@@ -65,7 +70,8 @@ function queueCard(item, material = false) {
   const steps = item.steps ? `<p class="steps">${escapeHtml(item.steps)}</p>` : '';
   const tip = item.tip ? `<details><summary>Farm tip</summary><p>${escapeHtml(item.tip)}</p></details>` : '';
   const nightwave = nightwaveState(item);
-  const nightwavePill = nightwave ? `<span class="pill ${nightwave === 'verified' ? 'green' : nightwave === 'inactive' ? 'violet' : 'amber'}">NIGHTWAVE ${nightwave.toUpperCase()}</span>` : '';
+  const labels = { available: 'AVAILABLE THIS WEEK', unknown: 'AVAILABILITY UNKNOWN', inactive: 'NOT AVAILABLE THIS WEEK' };
+  const nightwavePill = nightwave ? `<span class="pill ${nightwave === 'available' ? 'green' : nightwave === 'inactive' ? 'violet' : 'amber'}">${labels[nightwave]}</span>` : '';
   return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${steps}${tip}${source(item.source)}</article>`;
 }
 function header() {
@@ -94,6 +100,10 @@ function content() {
     const rows = researchQueue.filter(matches);
     return cardsAndMore(rows, rows.map((x) => queueCard(x)));
   }
+  if (state.view === 'nightwave') {
+    const rows = nightwaveQueue.filter(matches);
+    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
+  }
   if (state.view === 'vaulted') {
     const rows = data.vaulted.filter((x) => String(x.missing || '').trim()).filter(matches);
     return cardsAndMore(rows, rows.map((x) => `<article class="item-card muted-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><span class="pill violet">TRADE</span></div><div class="need"><span>MISSING</span>${escapeHtml(x.missing)}</div><p class="steps">${escapeHtml(x.steps)}</p><details><summary>Buying tip</summary><p>${escapeHtml(x.tip)}</p></details>${source(x.source)}</article>`));
@@ -118,7 +128,9 @@ function moreButton(total) {
   return total > state.visible ? '<button class="load-more" id="more">Show 30 more</button>' : '';
 }
 function render() {
-  app.innerHTML = `${header()}${tabs()}${controls()}${content()}<footer><span>Snapshot verified ${escapeHtml(data.meta.exportVerifiedAt)}</span><span>${hiddenNightwave} inactive Nightwave items hidden · ${unknownNightwave} Nightwave items unknown · Ordinary gear → 30</span></footer>`;
+  const availableNightwave = nightwaveQueue.filter((item) => nightwaveState(item) === 'available').length;
+  const unknownNightwave = nightwaveQueue.filter((item) => nightwaveState(item) === 'unknown').length;
+  app.innerHTML = `${header()}${tabs()}${controls()}${content()}<footer><span>Snapshot verified ${escapeHtml(data.meta.exportVerifiedAt)}</span><span>${availableNightwave} Nightwave available · ${unknownNightwave} unknown · Ordinary gear → 30</span></footer>`;
   app.querySelectorAll('[data-view]').forEach((button) => button.addEventListener('click', () => { state.view = button.dataset.view; state.query = ''; state.visible = 30; render(); }));
   app.querySelector('#search')?.addEventListener('input', (event) => { state.query = event.target.value; state.visible = 30; render(); queueMicrotask(() => { const input = app.querySelector('#search'); input?.focus(); input?.setSelectionRange(input.value.length, input.value.length); }); });
   app.querySelector('#type')?.addEventListener('change', (event) => { state.type = event.target.value; state.visible = 30; render(); });
