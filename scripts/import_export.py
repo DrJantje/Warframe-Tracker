@@ -81,7 +81,7 @@ def update(folder: Path) -> None:
     export, manifest = load_complete_export(folder)
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
-    settled_at_40 = set(overrides.get("confirmedAt40", overrides.get("settledAt40", [])))
+    settled_at_40 = set(overrides.get("confirmedAt40", []))
     rank40_by_name = {row["item"]: row for row in payload["rank40"]}
     rank40_names = set(rank40_by_name)
     arsenal = {row["item"]: row for row in payload["arsenal"]}
@@ -138,7 +138,12 @@ def update(folder: Path) -> None:
     payload["vaulted"] = [
         old_vaulted.get(row["item"], queue_row(row))
         for row in payload["arsenal"]
-        if missing_item(row) and row["vaulted"] == "Yes" and row["item"] not in rank40_names
+        if (
+            missing_item(row)
+            and row["vaulted"] == "Yes"
+            and row["item"] not in rank40_names
+            and str(row.get("missing", "")).strip()
+        )
     ]
     payload["vaulted"].sort(key=lambda row: row["item"])
     refreshed_owned = []
