@@ -20,6 +20,11 @@ const companionBreeds = new Set([
   'Sunika Kubrow',
   'Vasca Kavat',
 ]);
+const sourceOverrides = {
+  Hema: 'https://wiki.warframe.com/w/Hema',
+  Corufell: 'https://wiki.warframe.com/w/Corufell',
+  Pennant: 'https://wiki.warframe.com/w/Pennant',
+};
 
 const exact = {
   Acceltra: ['Ur, Uranus — Disruption; Demolisher Infested', 'Kill Demolisher Infested on Ur until the Acceltra blueprint drops.', 'Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.'],
@@ -52,6 +57,58 @@ const exact = {
   Tatsu: ['Market Blueprint + Cetus/Fortuna materials', 'Buy the Tatsu Blueprint from the Market, then obtain 50 Auroxium Alloy and 70 Hespazym Alloy.', 'Mine on the Plains of Eidolon and Orb Vallis, then refine the ores at the matching vendor.'],
   Vitrica: ['Defeat Nihil using Nihil’s Oubliette + Oxium', 'Enter Nihil’s Oubliette with an Enter Nihil’s Oubliette Key, defeat Nihil for the Vitrica Blueprint, then obtain 558 Oxium.', 'The Oubliette and entry key rotate through Nightwave Cred Offerings; farm Oxium Ospreys without letting them self-destruct.'],
   'Kavasa Prime Kubrow Collar': ['Vaulted Void Relics, Prime Resurgence, or player trade', 'Open relics containing the Collar Blueprint, Band, and Buckle, or trade for the missing Prime parts.', 'This is Prime equipment, not a Kubrow breed.'],
+  'Sirius & Orion': ['Uranus Proxima missions / Pontis Tower Secret Vendor', 'Earn the missing blueprints from Scoria’s Angel or The Kuva Wytch, or exchange Emerald or Crimson Talents at the Secret Vendor.', 'Use the matching Talent exchange to finish whichever blueprint does not drop.'],
+  Pride: ['The Kuva Wytch / Pontis Tower Secret Vendor', 'Earn its blueprints from The Kuva Wytch or buy them with Emerald Talents.', 'Spend Emerald Talents only on pieces still listed as missing.'],
+  Wrath: ['Scoria’s Angel / Pontis Tower Secret Vendor', 'Earn its blueprints from Scoria’s Angel or buy them with Crimson Talents.', 'Spend Crimson Talents only on pieces still listed as missing.'],
+  Follie: ['Follie’s Hunt / Aspirant Zorba', 'Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.', 'Use Atramentum to eliminate the last duplicate-heavy gap.'],
+  Enkaus: ['Follie’s Hunt / Aspirant Zorba', 'Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.', 'Use Atramentum to eliminate the last duplicate-heavy gap.'],
+  Nokko: ['Deepmines Bounties / Nightcap in The Airlock', 'Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.', 'Keep the listed Fergolyte crafting requirements intact when choosing vendor purchases.'],
+  Arbucep: ['Deepmines Bounties / Nightcap in The Airlock', 'Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.', 'Keep the listed Fergolyte crafting requirements intact when choosing vendor purchases.'],
+  Amanata: ['Saya’s Visions / Koumei’s Shrine', 'Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.', 'Bank Fate Pearls and purchase only pieces that have not dropped.'],
+  Higasa: ['Saya’s Visions / Koumei’s Shrine', 'Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.', 'Bank Fate Pearls and purchase only pieces that have not dropped.'],
+  'Riot-848': ['Stage Defense, Solstice Square / Flare’s Memorabilia', 'Farm its blueprints from Stage Defense or buy them with Beating Heartstrings.', 'Use Beating Heartstrings to finish the remaining listed pieces.'],
+  Oraxia: ['Isleweaver / Scuttler Husk exchange', 'Earn its blueprints from Isleweaver or purchase missing pieces using Scuttler Husks.', 'Spend Scuttler Husks only after checking which pieces remain missing.'],
+  Scyotid: ['Isleweaver / Scuttler Husk exchange', 'Earn its blueprints from Isleweaver or purchase missing pieces using Scuttler Husks.', 'Spend Scuttler Husks only after checking which pieces remain missing.'],
+  Spinnerex: ['Isleweaver / Scuttler Husk exchange', 'Earn its blueprints from Isleweaver or purchase missing pieces using Scuttler Husks.', 'Spend Scuttler Husks only after checking which pieces remain missing.'],
+  Thalys: ['Isleweaver Scuttler Husk vendor', 'Buy the blueprint using Scuttler Husks and obtain the remaining Temporal Dust needed for crafting.', 'The Missing field shows the current Temporal Dust balance and target.'],
+  Aeolak: ['Chrysalith Tier 5 bounty + Zariman endless missions', 'Main Blueprint from a Tier 5 bounty; Barrel from Void Cascade Rotation C; Receiver and Stock from Void Flood Rotation C.', 'Target only the missions that reward the components still listed above.'],
+  Hespar: ['Chrysalith Tier 4 bounty + Zariman endless missions', 'Main Blueprint from a Tier 4 bounty; Handle from Void Cascade Rotation C; Blade from Void Armageddon Rotation C.', 'Target only the missions that reward the components still listed above.'],
+  Athodai: ['Venus Proxima abandoned derelicts', 'Obtain its Blueprint, Barrel and Receiver from abandoned derelict point-of-interest rewards.', 'Complete the derelict point of interest before extraction.'],
+  'Carmine Penta': ['Corpus Proxima abandoned derelicts', 'Farm its components from applicable Corpus Railjack point-of-interest cache rewards.', 'Complete the derelict point of interest before extraction.'],
+  Epitaph: ['Earth, Venus and Saturn Proxima Void Storms', 'Farm only the missing components from Void Storm rewards.', 'Choose the shortest comfortable Void Storms across the eligible Proxima regions.'],
+  Nautilus: ['Neptune Proxima', 'Farm its components from Neptune Proxima point-of-interest rewards or Arva Vector Defense rotations.', 'Use the route matching the specific components still listed above.'],
+  Mandonel: ['Cavia bounties + Entrati Labs endless missions', 'Main Blueprint from Cavia bounties; components from Persto, Munio and Cambire rewards.', 'Target only the mission rewards corresponding to the missing components.'],
+  Sevagoth: ['Call of the Tempestarii + Void Storms', 'Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.', 'Run the shortest comfortable eligible Void Storm for the remaining components.'],
+  'Spectra Vandal': ['Veil Proxima Grineer abandoned derelicts', 'Farm the missing components from derelict cache rewards.', 'Complete the derelict point of interest before extraction.'],
+  Pennant: ['Railjack commanders', 'Defeat eligible commanders on nodes such as Kasio’s Rest or Flexa. The Blueprint is squad-shared and tradable.', 'Only one squad member needs the Blueprint drop for everyone to receive it.'],
+  Ambassador: ['Corpus Railjack Survival + eligible Railjack enemies', 'Main Blueprint from Survival Rotation C; missing components from the applicable Corpus Railjack enemies.', 'Stay through Rotation C only when the main Blueprint is still missing.'],
+  Cinta: ['Duviri Enigma puzzles / player trade', 'Complete Enigma puzzles in The Duviri Experience or trade for the missing blueprints.', 'Trade only for the final pieces that refuse to drop.'],
+  Dagath: ['Dagath’s Hollow Dojo room + Abyssal Zone', 'Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.', 'Farm Vainthorns in batches, then buy only the listed missing blueprints.'],
+  Dorrclave: ['Dagath’s Hollow Dojo room + Abyssal Zone', 'Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.', 'Farm Vainthorns in batches, then buy only the listed missing blueprints.'],
+  Stahlta: ['Jackal + Granum Void', 'Main Blueprint from Jackal. Barrel from Nightmare Granum Void, Receiver from Normal Granum Void and Stock from Extended Granum Void.', 'Use the Granum Crown tier matching the component still missing.'],
+  Stropha: ['Jackal + Granum Void', 'Main Blueprint from Jackal. Barrel and Blade from Normal, Receiver from Extended and Stock from Nightmare Granum Void.', 'Use the Granum Crown tier matching the component still missing.'],
+  Pathocyst: ['Zealoid Prelate, Exequias on Deimos', 'Farm the Blueprint, two Blades and Subcortex from the boss.', 'Repeat the boss only for the pieces still listed above.'],
+  Kompressa: ['Roky / Ventkids', 'Buy all three blueprints from Roky at Ventkids Rank 5 using Ventkids Standing.', 'This is a direct Standing purchase once Rank 5 is unlocked.'],
+  'Imperator Vandal': ['Balor Fomorian', 'Farm the missing components during Fomorian Sabotage or trade for them.', 'This is a known event-gated route; trade can bypass the wait.'],
+  'Gorgon Wraith': ['Razorback Armada', 'Farm the weapon components during Razorback Armada.', 'This is a known event-gated route.'],
+  'Dera Vandal': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
+  'Karak Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
+  'Latron Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
+  'Snipetron Vandal': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
+  'Strun Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
+  'Twin Vipers Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
+  'Bhaira Hound': ['Sister of Parvos Hound reward / Legs assembly', 'Vanquish Sisters for completed randomized Hounds and Hound component blueprints. Assemble a Hound using the Bhaira Model if that model is still needed for mastery.', 'Check the model on completed Sister Hounds before assembling another Hound.'],
+  Basmu: ['Awaiting event rotation', 'Acquire the Blueprint from the currently verified event or vendor when active; otherwise wait for its event rotation.', 'Known event-gated item; check the active event inventory before farming or trading.'],
+  'Ceti Lacera': ['Awaiting event rotation', 'Acquire the Blueprint from the currently verified event or vendor when active; otherwise wait for its event rotation.', 'Known event-gated item; keep the listed Oxium requirement for crafting.'],
+  Sheev: ['Awaiting event rotation', 'Acquire its components from the currently verified event or vendor when active; otherwise wait for its event rotation.', 'Known event-gated item; farm only the components still listed above.'],
+  Hema: ['Clan Dojo — completed Bio Lab research', 'Replicate the Blueprint from completed Bio Lab research, then build it.', 'No drop farm is required once the clan research is complete.'],
+  Corufell: ['Tyana Pass, Mars — Mirror Defense / Otak', 'The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.', 'Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient.'],
+  Needlenose: ['Roky / Ventkids K-Drive Board', 'Buy the Needlenose Board Blueprint from Roky, obtain the remaining Hespazym Alloy, assemble the K-Drive and level it to 30. No gilding is required.', 'The Missing field preserves the current Hespazym Alloy balance.'],
+  Runway: ['Roky / Ventkids K-Drive Board', 'Buy the Runway Board Blueprint from Roky, obtain the remaining Hespazym Alloy, assemble the K-Drive and level it to 30. No gilding is required.', 'The Missing field preserves the current Hespazym Alloy balance.'],
+  Azima: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
+  Zenistar: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
+  Zenith: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
+  'Sigma & Octantis': ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
   'Wolf Sledge': ['Wolf of Saturn Six; Wolf Beacon', 'Farm all four completed weapon components from the Wolf of Saturn Six.', 'Use Wolf Beacons with a prepared squad.'],
 };
 
@@ -71,6 +128,8 @@ function clean(row) {
   }
   if (truncated(out.route)) out.route = UNVERIFIED;
   if (exact[out.item]) [out.route, out.steps, out.tip] = exact[out.item];
+  if (sourceOverrides[out.item]) out.source = sourceOverrides[out.item];
+  if (out.item === 'Bhaira Hound') out.missing = 'Bhaira Model / completed Hound using the Bhaira Model';
 
   if (/^Coda /.test(out.item) && !/Complete|Rank 40 Projects/.test(out.route || '')) {
     out.route = 'Eleanor in the Höllvania Central Mall — Live Heartcells';
