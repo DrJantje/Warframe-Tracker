@@ -20,6 +20,9 @@ const companionBreeds = new Set([
   'Sunika Kubrow',
   'Vasca Kavat',
 ]);
+const kDriveBoards = new Set(['Bad Baby', 'Feverspine', 'Flatbelly', 'Needlenose', 'Runway']);
+const nightwaveItems = new Set(['Ceramic Dagger', 'Dark Dagger', 'Dark Sword', 'Glaive', 'Jaw Sword', 'Plasma Sword', 'Vitrica', 'Wolf Sledge']);
+const nightwaveTip = 'Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.';
 const sourceOverrides = {
   Hema: 'https://wiki.warframe.com/w/Hema',
   Corufell: 'https://wiki.warframe.com/w/Corufell',
@@ -48,7 +51,7 @@ const exact = {
   'Braton Vandal': ['Elite Sanctuary Onslaught — all rotations', 'Farm the missing Braton Vandal components from any Elite Sanctuary Onslaught rotation.', 'Continue through later zones to stack more rotation rewards per run.'],
   'Lato Vandal': ['Elite Sanctuary Onslaught — all rotations', 'Farm the missing Lato Vandal components from any Elite Sanctuary Onslaught rotation.', 'Continue through later zones to stack more rotation rewards per run.'],
   Scourge: ['Clan Dojo Tenno Lab', 'Replicate the Scourge Blueprint from the Tenno Lab, then build it.', 'Check completed clan research before farming materials.'],
-  Brakk: ['Grustrag Three', 'Defeat the Grustrag Three for the Brakk blueprint and components.', 'Use a Grustrag Three Beacon if you want to force an encounter.'],
+  Brakk: ['Grustrag Three', 'Defeat the Grustrag Three for the Brakk blueprint and components.', 'Support the Corpus against the Grineer across five Invasion missions to earn a Grustrag Three mark, or use a Grustrag Three Beacon.'],
   Despair: ['Stalker', 'Defeat the Stalker until the Despair Blueprint drops.', 'The blueprint is the entire acquisition gate.'],
   Velox: ['Granum Void after The Deadlock Protocol', 'Barrel: Normal Granum Void. Receiver: Extended Granum Void. Reach the top kill tier.', 'Use Xoris heavy throws to free Solaris captives and extend the timer.'],
   Seer: ['Captain Vor on Tolstoj, Mercury', 'Defeat Captain Vor on Tolstoj for the Seer Blueprint and Barrel.', 'Repeat Tolstoj until both missing pieces drop.'],
@@ -88,9 +91,9 @@ const exact = {
   Stahlta: ['Jackal + Granum Void', 'Main Blueprint from Jackal. Barrel from Nightmare Granum Void, Receiver from Normal Granum Void and Stock from Extended Granum Void.', 'Use the Granum Crown tier matching the component still missing.'],
   Stropha: ['Jackal + Granum Void', 'Main Blueprint from Jackal. Barrel and Blade from Normal, Receiver from Extended and Stock from Nightmare Granum Void.', 'Use the Granum Crown tier matching the component still missing.'],
   Pathocyst: ['Zealoid Prelate, Exequias on Deimos', 'Farm the Blueprint, two Blades and Subcortex from the boss.', 'Repeat the boss only for the pieces still listed above.'],
-  Kompressa: ['Roky / Ventkids', 'Buy all three blueprints from Roky at Ventkids Rank 5 using Ventkids Standing.', 'This is a direct Standing purchase once Rank 5 is unlocked.'],
-  'Imperator Vandal': ['Balor Fomorian', 'Farm the missing components during Fomorian Sabotage or trade for them.', 'This is a known event-gated route; trade can bypass the wait.'],
-  'Gorgon Wraith': ['Razorback Armada', 'Farm the weapon components during Razorback Armada.', 'This is a known event-gated route.'],
+  Kompressa: ['Roky / Ventkids Rank 5', 'Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.', 'This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.'],
+  'Imperator Vandal': ['Balor Fomorian', 'Farm the missing components during Fomorian Sabotage or trade for them.', 'During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.'],
+  'Gorgon Wraith': ['Razorback Armada', 'Farm the weapon components during Razorback Armada.', 'During Razorback Armada, farm Cryptographic ALU and build several Razorback Ciphers before repeatedly running the boss.'],
   'Dera Vandal': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
   'Karak Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
   'Latron Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
@@ -103,13 +106,17 @@ const exact = {
   Sheev: ['Awaiting event rotation', 'Acquire its components from the currently verified event or vendor when active; otherwise wait for its event rotation.', 'Known event-gated item; farm only the components still listed above.'],
   Hema: ['Clan Dojo — completed Bio Lab research', 'Replicate the Blueprint from completed Bio Lab research, then build it.', 'No drop farm is required once the clan research is complete.'],
   Corufell: ['Tyana Pass, Mars — Mirror Defense / Otak', 'The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.', 'Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient.'],
-  Needlenose: ['Roky / Ventkids K-Drive Board', 'Buy the Needlenose Board Blueprint from Roky, obtain the remaining Hespazym Alloy, assemble the K-Drive and level it to 30. No gilding is required.', 'The Missing field preserves the current Hespazym Alloy balance.'],
-  Runway: ['Roky / Ventkids K-Drive Board', 'Buy the Runway Board Blueprint from Roky, obtain the remaining Hespazym Alloy, assemble the K-Drive and level it to 30. No gilding is required.', 'The Missing field preserves the current Hespazym Alloy balance.'],
+  Needlenose: ['Roky / Ventkids K-Drive Board', 'Buy the Needlenose Board Blueprint from Roky and obtain the remaining Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.', 'The Missing field preserves the current Hespazym Alloy balance.'],
+  Runway: ['Roky / Ventkids K-Drive Board', 'Buy the Runway Board Blueprint from Roky and obtain the remaining Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.', 'The Missing field preserves the current Hespazym Alloy balance.'],
   Azima: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
   Zenistar: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
   Zenith: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
   'Sigma & Octantis': ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
-  'Wolf Sledge': ['Wolf of Saturn Six; Wolf Beacon', 'Farm all four completed weapon components from the Wolf of Saturn Six.', 'Use Wolf Beacons with a prepared squad.'],
+  'Wolf Sledge': ['Wolf of Saturn Six; Wolf Beacon', 'Farm all four completed weapon components from the Wolf of Saturn Six.', nightwaveTip],
+  Miter: ['Exta, Ceres — Captain Vor and Lieutenant Lech Kril', 'Repeat Exta for the missing Miter Chassis and Handle. Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.', 'Each Miter piece has a 16.67% chance. With Chassis and Handle both missing, there is initially a 33.33% chance that a clear gives one needed piece; after the first drops, the last piece remains 16.67%. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic.'],
+  Detron: ['Zanuka Hunter — death mark or Zanuka Hunter Beacon', 'Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Detron Blueprint and Receiver.', 'Blueprint chance: 17.65%. Receiver chance: 32.35%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.'],
+  Shedu: ['Veil Sentient anomaly — Symbilysts', 'Target the missing Handle; each Shedu part is a 1% Symbilyst drop.', 'The missing Handle is a 1% drop from each Symbilyst. Since Shedu parts are tradeable and only one piece remains, compare the Handle’s trade price before committing to a long Sentient Anomaly farm.'],
+  Snipetron: ['Limited event/vendor rotation', 'Wait for Plague Star, Star Days, or another announced return of the Blueprint.', 'Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.'],
 };
 
 function truncated(value) {
@@ -128,6 +135,9 @@ function clean(row) {
   }
   if (truncated(out.route)) out.route = UNVERIFIED;
   if (exact[out.item]) [out.route, out.steps, out.tip] = exact[out.item];
+  if (nightwaveItems.has(out.item)) out.availabilityGroup = 'nightwave';
+  else delete out.availabilityGroup;
+  if (nightwaveItems.has(out.item) && !['Vitrica', 'Wolf Sledge'].includes(out.item)) out.tip = nightwaveTip;
   if (sourceOverrides[out.item]) out.source = sourceOverrides[out.item];
   if (out.item === 'Bhaira Hound') out.missing = 'Bhaira Model / completed Hound using the Bhaira Model';
 
@@ -164,9 +174,10 @@ function clean(row) {
     out.steps = 'Breed the required companion using the appropriate egg or genetic codes.';
     out.tip = 'Use genetic imprints when a specific breed must be guaranteed.';
   }
-  if (/K-Drive|Ventkids/i.test(`${out.route || ''} ${out.tip || ''}`)) {
-    out.steps = String(out.steps || '').replace(/gild[^.]*\.?/gi, '');
-    out.tip = 'Earn Ventkids Standing through races, buy the component blueprint, assemble, and level it for mastery.';
+  if (kDriveBoards.has(out.item) && !exact[out.item]) {
+    out.route = 'Roky / Ventkids K-Drive Board';
+    out.steps = 'Buy the Board Blueprint from Roky, obtain the listed materials, then assemble the K-Drive and level it to 30. No gilding is required.';
+    out.tip = 'Earn Ventkids Standing through races and buy only the Board Blueprint still needed for mastery.';
   }
   return out;
 }
