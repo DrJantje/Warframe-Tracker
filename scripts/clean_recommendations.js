@@ -1,6 +1,8 @@
 const fs = require('fs');
 const file = 'data/warframe.json';
 const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+const overrides = JSON.parse(fs.readFileSync('data/overrides.json', 'utf8'));
+const confirmedAt40 = new Set(overrides.confirmedAt40 || []);
 const UNVERIFIED = 'Acquisition route not verified yet';
 const fillerRoutes = new Set([
   'Focused two-part farm',
@@ -8,13 +10,23 @@ const fillerRoutes = new Set([
   'Single item-specific drop or vendor gate',
 ]);
 const fillerPhrases = ['Open the item page', 'Farm the rarer part first', 'Batch parts from the same node or faction'];
+const companionBreeds = new Set([
+  'Adarza Kavat',
+  'Chesa Kubrow',
+  'Huras Kubrow',
+  'Raksa Kubrow',
+  'Sahasa Kubrow',
+  'Smeeta Kavat',
+  'Sunika Kubrow',
+  'Vasca Kavat',
+]);
 
 const exact = {
   Acceltra: ['Ur, Uranus — Disruption; Demolisher Infested', 'Kill Demolisher Infested on Ur until the Acceltra blueprint drops.', 'Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.'],
   Akarius: ['Ur, Uranus — Disruption; Demolisher Infested', 'Kill Demolisher Infested on Ur until the Akarius blueprint drops.', 'Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.'],
   Octavia: ['Lua and Deimos component farms', 'Neuroptics: Deimos Survival rotation C. Systems: Lua Crossfire caches. Main blueprint: Octavia’s Anthem.', 'Use loot radar for Lua caches; stay to rotation C on Deimos.'],
-  Protea: ['Granum Void after The Deadlock Protocol', 'Chassis: Extended Granum Void. Neuroptics: Nightmare Granum Void. Reach the top kill tier.', 'Use Xoris heavy throws to free Solaris captives and extend the timer.'],
-  Oberon: ['Railjack point-of-interest rewards', 'Neuroptics: Saturn Proxima. Systems: Earth Proxima. Complete the marked point of interest.', 'Choose short Railjack nodes and finish the side objective before extraction.'],
+  Protea: ['Granum Void after The Deadlock Protocol', 'Neuroptics: Normal Granum Void. Chassis: Extended Granum Void. Systems: Nightmare Granum Void. Reach the top kill tier.', 'Use Xoris heavy throws to free Solaris captives and extend the timer.'],
+  Oberon: ['Railjack point-of-interest rewards', 'Neuroptics and Systems: Earth Proxima point-of-interest rewards. Chassis: Saturn Proxima.', 'Choose short Railjack nodes and finish the side objective before extraction.'],
   Citrine: ['Tyana Pass, Mars — Mirror Defense; Otak pity shop', 'Farm Mirror Defense or buy missing blueprints from Otak with Rania and Belric Crystal Fragments.', 'Collect both crystal colors; spend fragments only on parts still missing.'],
   Steflos: ['Tyana Pass, Mars — Mirror Defense; Otak pity shop', 'Farm the Receiver and Stock or buy them from Otak with crystal fragments.', 'Use Otak to eliminate the last duplicate-heavy gap.'],
   Voruna: ['Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop', 'Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.', 'Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.'],
@@ -27,12 +39,24 @@ const exact = {
   Evensong: ['Brutus, Uranus — Ascension; Ordis pity shop', 'Farm the blueprint or buy it from Ordis with Vestigial Motes.', 'Complete the optional Sister objective for extra Vestigial Motes.'],
   Harmony: ['Brutus, Uranus — Ascension; Ordis pity shop', 'Farm the blueprint or buy it from Ordis with Vestigial Motes.', 'Complete the optional Sister objective for extra Vestigial Motes.'],
   Gauss: ['Kappa, Sedna — Disruption rotation C', 'Farm all three components from rotation C; buy the main blueprint from the Market.', 'From round four onward, defend at least three conduits to keep rotation C.'],
-  Nidus: ['Oestrus, Eris — Infested Salvage rotation C', 'Farm all three components from rotation C; main blueprint: The Glast Gambit.', 'Keep vaporizer coverage high and stay through rotation C.'],
+  Nidus: ['Oestrus, Eris — Infested Salvage, all rotations', 'Update 42 added all three components to every Infested Salvage rotation. Rotation C still has the best odds; main blueprint: The Glast Gambit.', 'Keep vaporizer coverage high; stay through rotation C when practical for the best odds.'],
+  'Braton Vandal': ['Elite Sanctuary Onslaught — all rotations', 'Farm the missing Braton Vandal components from any Elite Sanctuary Onslaught rotation.', 'Continue through later zones to stack more rotation rewards per run.'],
+  'Lato Vandal': ['Elite Sanctuary Onslaught — all rotations', 'Farm the missing Lato Vandal components from any Elite Sanctuary Onslaught rotation.', 'Continue through later zones to stack more rotation rewards per run.'],
+  Scourge: ['Clan Dojo Tenno Lab', 'Replicate the Scourge Blueprint from the Tenno Lab, then build it.', 'Check completed clan research before farming materials.'],
+  Brakk: ['Grustrag Three', 'Defeat the Grustrag Three for the Brakk blueprint and components.', 'Use a Grustrag Three Beacon if you want to force an encounter.'],
+  Despair: ['Stalker', 'Defeat the Stalker until the Despair Blueprint drops.', 'The blueprint is the entire acquisition gate.'],
+  Velox: ['Granum Void after The Deadlock Protocol', 'Barrel: Normal Granum Void. Receiver: Extended Granum Void. Reach the top kill tier.', 'Use Xoris heavy throws to free Solaris captives and extend the timer.'],
+  Seer: ['Captain Vor on Tolstoj, Mercury', 'Defeat Captain Vor on Tolstoj for the Seer Blueprint and Barrel.', 'Repeat Tolstoj until both missing pieces drop.'],
+  Catabolyst: ['Market Blueprint + materials', 'Buy the Catabolyst Blueprint from the Market, then obtain 1 Mutagen Mass and 4 Scintillant.', 'Run Deimos Isolation Vault bounties for Scintillant; use Invasions or Bio Lab blueprints for Mutagen Mass.'],
+  Kreska: ['Market Blueprint + Fortuna materials', 'Buy the Kreska Blueprint from the Market, then obtain 4 Fieldron and 2 Longwinder Lathe Coagulant.', 'Use Corpus Invasions for Fieldron and fish Longwinders in Orb Vallis for the remaining Coagulant.'],
+  Tatsu: ['Market Blueprint + Cetus/Fortuna materials', 'Buy the Tatsu Blueprint from the Market, then obtain 50 Auroxium Alloy and 70 Hespazym Alloy.', 'Mine on the Plains of Eidolon and Orb Vallis, then refine the ores at the matching vendor.'],
+  Vitrica: ['Defeat Nihil using Nihil’s Oubliette + Oxium', 'Enter Nihil’s Oubliette with an Enter Nihil’s Oubliette Key, defeat Nihil for the Vitrica Blueprint, then obtain 558 Oxium.', 'The Oubliette and entry key rotate through Nightwave Cred Offerings; farm Oxium Ospreys without letting them self-destruct.'],
+  'Kavasa Prime Kubrow Collar': ['Vaulted Void Relics, Prime Resurgence, or player trade', 'Open relics containing the Collar Blueprint, Band, and Buckle, or trade for the missing Prime parts.', 'This is Prime equipment, not a Kubrow breed.'],
   'Wolf Sledge': ['Wolf of Saturn Six; Wolf Beacon', 'Farm all four completed weapon components from the Wolf of Saturn Six.', 'Use Wolf Beacons with a prepared squad.'],
 };
 
 function truncated(value) {
-  return typeof value === 'string' && (value.includes('…') || value.includes('...'));
+  return typeof value === 'string' && /\b[A-Za-z]{1,3}(?:…|\.\.\.)$/.test(value.trim());
 }
 
 function clean(row) {
@@ -49,10 +73,10 @@ function clean(row) {
   if (exact[out.item]) [out.route, out.steps, out.tip] = exact[out.item];
 
   if (/^Coda /.test(out.item) && !/Complete|Rank 40 Projects/.test(out.route || '')) {
-    out.route = 'Eleanor in the Hollvania Central Mall — Live Heartcells';
+    out.route = 'Eleanor in the Höllvania Central Mall — Live Heartcells';
     out.missing = 'Completed weapon from Eleanor';
-    out.steps = 'Earn Live Heartcells from Technocyte Coda content, then buy the completed weapon from Eleanor.';
-    out.tip = 'There is no matching weapon Coda to hunt.';
+    out.steps = 'Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.';
+    out.tip = 'Check Eleanor’s rotating elemental bonus before spending Heartcells.';
   } else if (/^Kuva /.test(out.item) && !/Complete|Rank 40 Projects/.test(out.route || '')) {
     out.route = 'Kuva Lich adversary';
     out.missing = 'Completed adversary weapon';
@@ -76,7 +100,7 @@ function clean(row) {
     out.route = 'Warframe anniversary reward';
     out.steps = 'Claim the completed weapon during its anniversary alert.';
     out.tip = '';
-  } else if (/Kubrow|Kavat/.test(out.item) && out.type === 'companion') {
+  } else if (companionBreeds.has(out.item) && out.type === 'companion') {
     out.route = 'Companion breeding in the Orbiter Incubator';
     out.steps = 'Breed the required companion using the appropriate egg or genetic codes.';
     out.tip = 'Use genetic imprints when a specific breed must be guaranteed.';
@@ -89,5 +113,16 @@ function clean(row) {
 }
 
 data.queue = data.queue.map(clean).filter((row) => String(row.missing || '').trim());
-data.arsenal = data.arsenal.map(clean);
+data.vaulted = data.vaulted.map(clean).filter((row) => String(row.missing || '').trim());
+data.arsenal = data.arsenal.map(clean).map((row) => {
+  if (row.item === 'Tenet Envoy' && !confirmedAt40.has(row.item) && row.state === 'Settled at 40') {
+    return {
+      ...row,
+      state: 'Settled at 30/40',
+      targetRank: '30/40',
+      rankRule: 'Acquired and settled at rank 30 or 40; rank 40 and five Forma are not explicitly confirmed.',
+    };
+  }
+  return row;
+});
 fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
