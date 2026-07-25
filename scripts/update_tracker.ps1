@@ -12,6 +12,8 @@ if (-not (Test-Path -LiteralPath $export)) { throw "AlecaFrame export folder not
 
 & $python.Source (Join-Path $repo 'scripts\import_export.py') $export
 if ($LASTEXITCODE -ne 0) { throw 'AlecaFrame import failed.' }
+& $python.Source (Join-Path $repo 'scripts\update_live.py')
+if ($LASTEXITCODE -ne 0) { Write-Warning 'Live availability refresh failed; affected cards will remain unknown.' }
 Push-Location $repo
 try {
   & $node.Source (Join-Path $repo 'scripts\clean_recommendations.js')
@@ -24,7 +26,7 @@ try {
 
 Push-Location $repo
 try {
-  & $git.Source add data/warframe.json data/availability.json data/overrides.json
+  & $git.Source add data/warframe.json data/availability.json data/live.json data/overrides.json
   & $git.Source diff --cached --quiet
   if ($LASTEXITCODE -eq 0) {
     Write-Host 'No tracker changes detected. Nothing was uploaded.'

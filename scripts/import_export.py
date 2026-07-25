@@ -26,7 +26,7 @@ def yes(value: object) -> str:
     return "Yes" if bool(value) else "No"
 
 
-def load_complete_export(folder: Path) -> tuple[dict[str, dict], dict[str, dict]]:
+def load_complete_export(folder: Path) -> tuple[dict[str, dict], dict[str, dict], dict[str, object]]:
     manifest: dict[str, dict] = {}
     parsed: dict[str, object] = {}
     for name in EXPECTED_FILES:
@@ -47,7 +47,46 @@ def load_complete_export(folder: Path) -> tuple[dict[str, dict], dict[str, dict]
     by_name = {row["name"]: row for row in foundry}
     if len(by_name) != len(foundry):
         raise SystemExit("Invalid export: duplicate item names in foundry.json")
-    return by_name, manifest
+    return by_name, manifest, parsed
+
+
+def inventory_counts(payload: object) -> dict[str, int]:
+    counts: dict[str, int] = {}
+
+    def visit(value: object) -> None:
+        if isinstance(value, list):
+            for child in value:
+                visit(child)
+            return
+        if not isinstance(value, dict):
+            return
+        name = next((value.get(key) for key in ("name", "itemName", "displayName") if isinstance(value.get(key), str)), None)
+        count = next((value.get(key) for key in ("count", "quantity", "amount", "itemCount") if isinstance(value.get(key), (int, float))), None)
+        if name and count is not None:
+            counts[name] = counts.get(name, 0) + int(count)
+        for child in value.values():
+            if isinstance(child, (list, dict)):
+                visit(child)
+
+    visit(payload)
+    return counts
+
+
+def base_prime_assemblies(parsed: dict[str, object]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for file_name in ("inventoryParts.json", "inventorySets.json", "inventoryMisc.json"):
+        for name, count in inventory_counts(parsed[file_name]).items():
+            counts[name] = counts.get(name, 0) + count
+    recipes = {
+        "Bronco Prime": ("Bronco Prime Blueprint", "Bronco Prime Barrel", "Bronco Prime Receiver"),
+        "Lex Prime": ("Lex Prime Blueprint", "Lex Prime Barrel", "Lex Prime Receiver"),
+        "Magnus Prime": ("Magnus Prime Blueprint", "Magnus Prime Barrel", "Magnus Prime Receiver"),
+        "Vasto Prime": ("Vasto Prime Blueprint", "Vasto Prime Barrel", "Vasto Prime Receiver"),
+    }
+    return {
+        item: min((counts.get(component, 0) for component in components), default=0)
+        for item, components in recipes.items()
+    }
 
 
 def followup_row(row: dict) -> dict:
@@ -78,7 +117,7 @@ def queue_row(row: dict) -> dict:
 
 
 def update(folder: Path) -> None:
-    export, manifest = load_complete_export(folder)
+    export, manifest, parsed = load_complete_export(folder)
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
     settled_at_40 = set(overrides.get("confirmedAt40", []))
@@ -104,16 +143,21 @@ def update(folder: Path) -> None:
         row["owned"], row["mastered"], row["pendingFoundry"] = yes(owned), yes(mastered), yes(pending)
         row["complete"] = yes(owned or mastered)
         if name in settled_at_40:
-            row.update(state="Settled at 40", targetRank="40", rankRule="Rank 40 verified by user", missing="", ease="1 — Complete", route="Complete")
+            row.update(state="Confirmed at 40", targetRank="40", rankRule="Rank 40 and five total Forma explicitly confirmed.", missing="", ease="1 — Complete", route="Confirmed at 40")
+            if name in rank40_by_name:
+                rank40_by_name[name].update(status="Confirmed at 40", rankRule="Rank 40 and five total Forma explicitly confirmed.", action="Complete — no action needed.", formaPlan="Five total Forma complete")
         elif name in rank40_by_name:
             project = rank40_by_name[name]
             project["owned"], project["mastered"] = yes(owned), yes(mastered)
             if project["status"].startswith("Active"):
-                row.update(state="Rank-40 project — Active", targetRank="40", rankRule=project["rankRule"], missing="", ease="1 — Active project", route="Rank 40 Projects")
+                project["status"] = "Active to 40"
+                row.update(state="Active to 40", targetRank="40", rankRule=project["rankRule"], missing="", ease="1 — Active project", route="Active to 40")
             elif project["status"].startswith("Parked"):
-                row.update(state="Rank-40 project — Parked at 30", targetRank="30", rankRule=project["rankRule"], missing="", ease="6 — Parked", route="Rank 40 Projects")
+                project["status"] = "Parked at 30"
+                row.update(state="Parked at 30", targetRank="30", rankRule=project["rankRule"], missing="", ease="6 — Parked", route="Parked at 30")
             else:
-                row.update(state="Settled at 30/40", targetRank="30/40", rankRule=project["rankRule"], missing="", ease="1 — Complete", route="Complete")
+                project.update(status="Current rank unknown", rankRule="Weapon is acquired, but rank 40 and five Forma are not explicitly confirmed.", action="Verify current rank and Forma count before scheduling more Forma.", formaPlan="Unknown until verified")
+                row.update(state="Current rank unknown", targetRank="Unknown", rankRule=project["rankRule"], missing="", ease="6 — Verify rank", route="Current rank unknown")
         elif pending:
             row.update(state="Owned / in foundry; rank unknown", rankRule="Claim from Foundry, then level to 30.", missing="", ease="1 — Now / no farming", route="Foundry")
         elif mastered:
@@ -166,6 +210,15 @@ def update(folder: Path) -> None:
     payload["meta"]["exportSource"] = "Local AlecaFrame export"
     payload["meta"]["exportManifest"] = manifest
     payload["meta"]["importChanges"] = changes
+    payload["meta"]["relicInventory"] = inventory_counts(parsed["inventoryRelics.json"])
+    payload["meta"]["basePrimeAssemblies"] = base_prime_assemblies(parsed)
+    payload["meta"]["summary"] = {
+        "activeTo40": sum(row["status"] == "Active to 40" for row in payload["rank40"]),
+        "confirmedAt40": sum(row["status"] == "Confirmed at 40" for row in payload["rank40"]),
+        "parkedAt30": sum(row["status"] == "Parked at 30" for row in payload["rank40"]),
+        "currentRankUnknown": sum(row["status"] == "Current rank unknown" for row in payload["rank40"]),
+        "missing": sum(missing_item(row) for row in payload["arsenal"]),
+    }
     DATA.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({
         "items": len(payload["arsenal"]), "queue": len(payload["queue"]),

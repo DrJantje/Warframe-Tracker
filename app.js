@@ -1,7 +1,7 @@
-const [data, availability, overrides] = await Promise.all([
+const [data, availability, nightwaveCatalog] = await Promise.all([
   fetch('./data/warframe.json').then(check),
   fetch('./data/availability.json').then(check),
-  fetch('./data/overrides.json').then(check),
+  fetch('./data/nightwave-items.json').then(check),
 ]).catch((error) => {
   document.querySelector('#app').innerHTML = `<div class="error">Tracker data could not be loaded.<br>${escapeHtml(error.message)}</div>`;
   throw error;
@@ -13,19 +13,29 @@ function check(response) {
 }
 
 const UNVERIFIED = 'Acquisition route not verified yet';
-const activeNightwave = new Set(availability.activeNightwaveItems || []);
-const confirmedAt40 = new Set(overrides.confirmedAt40 || []);
+const normalizeOffering = (value) => String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+blueprint$/i, '').trim();
+const activeNightwave = new Set((availability.activeNightwaveItems || []).map(normalizeOffering));
 const isNightwave = (item) => item.availabilityGroup === 'nightwave';
-const nightwaveAliases = { 'Wolf Sledge': ['Wolf Beacon'], Vitrica: ['Nihil’s Oubliette', "Nihil's Oubliette", 'Enter Nihil’s Oubliette Key'] };
+const nightwaveDefinitions = new Map(nightwaveCatalog.items.map((entry) => [entry.item, entry.offerings]));
 const nightwaveCheckedAt = Date.parse(availability.checkedAt || '');
-const nightwaveAge = Date.now() - nightwaveCheckedAt;
-const nightwaveDataFresh = Number.isFinite(nightwaveCheckedAt) && nightwaveAge >= 0 && nightwaveAge <= 8 * 24 * 60 * 60 * 1000;
-const nightwaveStockVerified = availability.status === 'verified' && nightwaveDataFresh;
+function nextWeeklyReset(checkedAt) {
+  const date = new Date(checkedAt);
+  const daysUntilMonday = ((8 - date.getUTCDay()) % 7) || 7;
+  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate() + daysUntilMonday);
+}
+const nightwaveExpiration = availability.rotationEndsAt
+  ? Date.parse(availability.rotationEndsAt)
+  : Number.isFinite(nightwaveCheckedAt) ? nextWeeklyReset(nightwaveCheckedAt) : NaN;
+const nightwaveStockVerified = availability.status === 'verified'
+  && Number.isFinite(nightwaveCheckedAt)
+  && Number.isFinite(nightwaveExpiration)
+  && Date.now() >= nightwaveCheckedAt
+  && Date.now() < nightwaveExpiration;
 const nightwaveState = (item) => {
   if (!isNightwave(item)) return null;
   if (!nightwaveStockVerified) return 'unknown';
-  const names = [item.item, ...(nightwaveAliases[item.item] || [])];
-  return names.some((name) => activeNightwave.has(name)) ? 'available' : 'inactive';
+  const names = nightwaveDefinitions.get(item.item) || [item.item];
+  return names.some((name) => activeNightwave.has(normalizeOffering(name))) ? 'available' : 'inactive';
 };
 const nightwaveQueue = data.queue.filter(isNightwave).sort((a, b) => {
   const order = { available: 0, unknown: 1, inactive: 2 };
@@ -46,7 +56,7 @@ const views = [
   ['research', 'Needs research', researchQueue.length],
   ['nightwave', 'Nightwave', nightwaveQueue.length],
   ['materials', 'Materials', materialQueue.length],
-  ['rank40', 'Rank 40', data.rank40.filter((x) => x.status === 'Active').length],
+  ['rank40', 'Rank 40', data.rank40.filter((x) => x.status === 'Active to 40').length],
   ['vaulted', 'Vaulted', data.vaulted.length],
   ['owned', 'Owned / Foundry', data.owned.length],
   ['arsenal', 'Full arsenal', data.arsenal.length],
@@ -72,12 +82,20 @@ function queueCard(item, material = false) {
   const nightwave = nightwaveState(item);
   const labels = { available: 'AVAILABLE THIS WEEK', unknown: 'AVAILABILITY UNKNOWN', inactive: 'NOT AVAILABLE THIS WEEK' };
   const nightwavePill = nightwave ? `<span class="pill ${nightwave === 'available' ? 'green' : nightwave === 'inactive' ? 'violet' : 'amber'}">${labels[nightwave]}</span>` : '';
-  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${steps}${tip}${source(item.source)}</article>`;
+  const activeNow = item.liveMatches?.length ? `<span class="pill green">ACTIVE NOW</span>` : '';
+  const live = item.liveMatches?.length ? `<p class="steps">${escapeHtml(item.liveMatches.join(' · '))}</p>` : '';
+  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}${activeNow}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${live}${steps}${tip}${source(item.source)}</article>`;
+}
+function primeDetails(item) {
+  if (!item.primeDetails?.length) return item.primeStatus === 'DATA INCOMPLETE'
+    ? '<p class="steps">Owned relic counts were not retained in this snapshot; the next AlecaFrame import will populate them.</p>'
+    : '';
+  return `<details><summary>Relics for missing parts</summary>${item.primeDetails.map((detail) => `<p><strong>${escapeHtml(detail.part)}</strong>: ${escapeHtml(detail.relic)} · ${escapeHtml(detail.rarity)} · owned ${detail.ownedRelics ?? 'unknown'} · ${escapeHtml(detail.relicSource)} · refine ${escapeHtml(detail.refinement)}</p>`).join('')}</details>`;
 }
 function header() {
   const label = views.find(([id]) => id === state.view)?.[1] ?? '';
   const quickWins = actionableQueue.filter((x) => x.ease.startsWith('2')).length;
-  const active40 = data.rank40.filter((x) => x.status === 'Active').length;
+  const active40 = data.rank40.filter((x) => x.status === 'Active to 40').length;
   return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialQueue.length}</b><span>mats only</span></button><button data-view="rank40"><b>${active40}</b><span>active 40s</span></button></div></section>`;
 }
 function tabs() {
@@ -106,17 +124,21 @@ function content() {
   }
   if (state.view === 'vaulted') {
     const rows = data.vaulted.filter((x) => String(x.missing || '').trim()).filter(matches);
-    return cardsAndMore(rows, rows.map((x) => `<article class="item-card muted-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><span class="pill violet">TRADE</span></div><div class="need"><span>MISSING</span>${escapeHtml(x.missing)}</div><p class="steps">${escapeHtml(x.steps)}</p><details><summary>Buying tip</summary><p>${escapeHtml(x.tip)}</p></details>${source(x.source)}</article>`));
+    return cardsAndMore(rows, rows.map((x) => {
+      const active = x.liveMatches?.length ? '<span class="pill green">ACTIVE NOW</span>' : '';
+      const statusClass = x.primeStatus === 'RESURGENCE ACTIVE' || x.primeStatus === 'OWNED RELICS' || x.primeStatus === 'PERMANENT SPECIAL RELICS' ? 'green' : 'violet';
+      return `<article class="item-card muted-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><div>${active}<span class="pill ${statusClass}">${escapeHtml(x.primeStatus || 'DATA INCOMPLETE')}</span></div></div><div class="need"><span>MISSING</span>${escapeHtml(x.missing)}</div><p class="route">${escapeHtml(x.route)}</p><p class="steps">${escapeHtml(x.steps)}</p>${primeDetails(x)}<details><summary>Farm tip</summary><p>${escapeHtml(x.tip)}</p></details>${source(x.source)}</article>`;
+    }));
   }
   if (state.view === 'owned') {
     const rows = data.owned.filter(matches);
     return `<section class="card-grid">${rows.map((x) => `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><span class="pill green">OWNED</span></div><div class="need"><span>NEXT</span>${escapeHtml(x.steps)}</div><p class="steps">${escapeHtml(x.tip)}</p>${source(x.source)}</article>`).join('')}</section>`;
   }
   if (state.view === 'rank40') {
-    const rows = data.rank40.map((x) => confirmedAt40.has(x.item) ? { ...x, status: 'Confirmed at 40', action: 'Complete — no action needed.', formaPlan: 'Five Forma complete (explicitly confirmed)' } : x).filter(matches);
+    const rows = data.rank40.filter(matches);
     return `<section class="project-list">${rows.map((x) => `<article class="project ${x.status.toLowerCase().split(' ')[0]}"><div><span class="project-status">${escapeHtml(x.status)}</span><h3>${escapeHtml(x.item)}</h3><p>${escapeHtml(x.type)}</p></div><div><span>ACTION</span><p>${escapeHtml(x.action)}</p></div><div><span>FORMA PLAN</span><p>${escapeHtml(x.formaPlan)}</p></div></article>`).join('')}</section>`;
   }
-  const rows = data.arsenal.map((x) => confirmedAt40.has(x.item) ? { ...x, state: 'Confirmed at 40', targetRank: '40' } : x).filter(matches);
+  const rows = data.arsenal.filter(matches);
   const rendered = rows.slice(0, state.visible).map((x) => `<div class="table-row"><strong>${escapeHtml(x.item)}</strong><span>${escapeHtml(x.type)}</span><span>${escapeHtml(x.state)}</span><span>${escapeHtml(x.targetRank)}</span>${source(x.source)}</div>`).join('');
   return `<section class="table-shell"><div class="table-head"><span>Item</span><span>Type</span><span>Status</span><span>Target</span><span>Source</span></div>${rendered}</section>${moreButton(rows.length)}`;
 }

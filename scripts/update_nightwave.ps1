@@ -1,9 +1,20 @@
 $ErrorActionPreference = 'Stop'
 $repo = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $file = Join-Path $repo 'data\availability.json'
+$catalogFile = Join-Path $repo 'data\nightwave-items.json'
 $git = Get-Command git -ErrorAction SilentlyContinue
 
 if (-not $git) { throw 'Git is required. Install Git for Windows, then run this updater again.' }
+
+function Normalize-Offering([string]$name) {
+  return (($name.ToLowerInvariant() -replace '[’‘]', "'" -replace '\s+blueprint$', '').Trim())
+}
+
+$catalog = Get-Content -LiteralPath $catalogFile -Raw | ConvertFrom-Json
+$known = @{}
+foreach ($definition in $catalog.items) {
+  foreach ($offering in $definition.offerings) { $known[(Normalize-Offering $offering)] = $true }
+}
 
 $raw = Read-Host 'Paste the current Cred Offering item names, separated by commas'
 if ([string]::IsNullOrWhiteSpace($raw)) {
@@ -12,6 +23,12 @@ if ([string]::IsNullOrWhiteSpace($raw)) {
   $items = @()
 } else {
   $items = @($raw.Split(',') | ForEach-Object { $_.Trim() } | Where-Object { $_ } | Sort-Object -Unique)
+  $unknown = @($items | Where-Object { -not $known.ContainsKey((Normalize-Offering $_)) })
+  if ($unknown.Count -gt 0) {
+    Write-Warning "Unknown Cred Offering names: $($unknown -join ', ')"
+    $confirm = Read-Host 'Type KEEP UNKNOWN to commit them anyway, or press Enter to cancel'
+    if ($confirm -ne 'KEEP UNKNOWN') { throw 'Nightwave update cancelled.' }
+  }
 }
 
 $rotationEnd = Read-Host 'Optional rotation end in ISO format (press Enter if unknown)'
