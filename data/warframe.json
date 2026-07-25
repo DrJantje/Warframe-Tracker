@@ -1,58 +1,422 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-07-23",
-    "exportVerifiedAt": "2026-07-23 18:56:42 PDT",
+    "snapshotDate": "2026-07-24",
+    "exportVerifiedAt": "2026-07-24 19:52:59 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 1661339,
-        "modified": "2026-07-23T18:48:34.181878-07:00",
-        "sha256": "1a8b3852caa9b37e6c10dfe2e0d7132e40a5169710655a412105aad2379657db"
+        "bytes": 1661290,
+        "modified": "2026-07-24T19:37:43.732856-07:00",
+        "sha256": "c91fa630e21e47504780a68ba6a152189bf45780b9208da460bb4dcd0719c779"
       },
       "inventoryArcanes.json": {
         "bytes": 88305,
-        "modified": "2026-07-23T18:48:35.196298-07:00",
-        "sha256": "6873b76792a04c27f775bca8486663177c37f5aaa2317aae9243934f24205142"
+        "modified": "2026-07-24T19:37:44.567490-07:00",
+        "sha256": "a8db5df10cb015611df4e3029921925e0afbc00ebd4fe3438ac540bd9e5962b7"
       },
       "inventoryMisc.json": {
-        "bytes": 18636,
-        "modified": "2026-07-23T18:48:35.369199-07:00",
-        "sha256": "52dee2834cc754fe5cacf677647b0c030e4261f8e9f7c3f69be7c578a35334e5"
+        "bytes": 19119,
+        "modified": "2026-07-24T19:37:44.749919-07:00",
+        "sha256": "04dbdd8a7b9706f57b7b3864dabb349ffc5e67d4b834e36836ce3758b500fa18"
       },
       "inventoryMods.json": {
-        "bytes": 539267,
-        "modified": "2026-07-23T18:48:35.031449-07:00",
-        "sha256": "8a44178943e9c761a37932a3e37e60fd39418a022b0917197b06919c4fba0b47"
+        "bytes": 542679,
+        "modified": "2026-07-24T19:37:44.379167-07:00",
+        "sha256": "528f2f67caf296ae2f8aad90c52e8ca8bbfb7aadbcfcc030a751399936ced435"
       },
       "inventoryParts.json": {
-        "bytes": 47808,
-        "modified": "2026-07-23T18:48:34.387168-07:00",
-        "sha256": "3d7c365d156a0091f809025bf35d5ff266f33c8679aff62140d931848cfd0642"
+        "bytes": 48304,
+        "modified": "2026-07-24T19:37:43.910496-07:00",
+        "sha256": "a64f12f18e8a53c7f12f77c8bbfd47aa28a199aa869d9d5b323892cd2da3dd6f"
       },
       "inventoryRelics.json": {
-        "bytes": 25811,
-        "modified": "2026-07-23T18:48:34.557867-07:00",
-        "sha256": "70756933d57bb669fc92296b4ef5e13c7741f881173515357da4adfb6a632626"
+        "bytes": 26785,
+        "modified": "2026-07-24T19:37:44.090450-07:00",
+        "sha256": "da7bd1389088f03184ccd7bce43d20aaa6c504873ae20ae4d0289971875a1303"
       },
       "inventorySets.json": {
         "bytes": 139583,
-        "modified": "2026-07-23T18:48:35.758488-07:00",
-        "sha256": "53af062a2920910784cc2abeef1761ff75dc204ad62aae7ed817862282f8eaab"
+        "modified": "2026-07-24T19:37:45.131524-07:00",
+        "sha256": "c96346d1536aa6b0c86ef8caccb04ffde9bd684fcec9e43efb62d00683a2a4ec"
       },
       "rivens.json": {
         "bytes": 88391,
-        "modified": "2026-07-23T18:48:35.772006-07:00",
+        "modified": "2026-07-24T19:37:45.144621-07:00",
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Cantare",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (2/4); Cantare Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cantare Blueprint"
+        ]
+      },
+      {
+        "item": "Catabolyst",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mutagen Mass (6/7); Scintillant (1/5)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Ceti Lacera",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Ceti Lacera Blueprint; Oxium (367/400)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Ceti Lacera Blueprint"
+        ]
+      },
+      {
+        "item": "Cryotra",
+        "before": [
+          "Yes",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Despair",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Despair Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Helstrum",
+        "before": [
+          "Yes",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint; Mutagen Mass (1/5)"
+        ]
+      },
+      {
+        "item": "Kogake Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Kogake Prime Boot (0/2); Kogake Prime Gauntlet (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (0/2)"
+        ]
+      },
+      {
+        "item": "Kreska",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Fieldron (6/10); Longwinder Lathe Coagulant (18/20)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Fieldron (8/10)"
+        ]
+      },
+      {
+        "item": "Lenz",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Fieldron (6/10)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Fieldron (8/10)"
+        ]
+      },
+      {
+        "item": "Machete",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Machete Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Needlenose",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Needlenose Blueprint; Hespazym Alloy (30/40)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Needlenose Blueprint"
+        ]
+      },
+      {
+        "item": "Pangolin Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Quassus Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Quassus Prime Blade (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Quassus Prime Blade (1/2)"
+        ]
+      },
+      {
+        "item": "Runway",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Runway Blueprint; Hespazym Alloy (30/40)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Runway Blueprint"
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (11000/30000)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (12000/30000)"
+        ]
+      },
+      {
+        "item": "Tatsu",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Auroxium Alloy (50/100); Hespazym Alloy (30/100)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Auroxium Alloy (50/100)"
+        ]
+      },
+      {
+        "item": "Tazicor",
+        "before": [
+          "Yes",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vitrica",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vitrica Blueprint; Oxium (367/925)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Vitrica Blueprint"
+        ]
+      },
+      {
+        "item": "Vulcax",
+        "before": [
+          "Yes",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 4,
       "confirmedAt40": 6,
       "parkedAt30": 2,
       "currentRankUnknown": 1,
-      "missing": 324
+      "missing": 321
+    },
+    "relicInventory": {
+      "Axi D6 Intact": 1,
+      "Axi S20 Intact": 2,
+      "Lith A12 Intact": 7,
+      "Lith A12 Radiant": 2,
+      "Lith C14 Exceptional": 1,
+      "Lith C14 Intact": 4,
+      "Lith E2 Intact": 14,
+      "Lith E2 Radiant": 1,
+      "Lith G14 Intact": 16,
+      "Lith K12 Intact": 21,
+      "Lith K12 Radiant": 6,
+      "Lith N18 Intact": 16,
+      "Lith N18 Radiant": 1,
+      "Lith N19 Intact": 18,
+      "Lith N19 Radiant": 1,
+      "Lith Q2 Intact": 4,
+      "Lith Q3 Intact": 5,
+      "Lith S18 Exceptional": 1,
+      "Lith S18 Intact": 4,
+      "Lith T14 Intact": 8,
+      "Lith V11 Intact": 8,
+      "Lith V11 Radiant": 1,
+      "Meso A10 Intact": 6,
+      "Meso A12 Intact": 15,
+      "Meso A9 Intact": 5,
+      "Meso D8 Intact": 33,
+      "Meso E7 Intact": 11,
+      "Meso K8 Intact": 29,
+      "Meso L4 Intact": 6,
+      "Meso L4 Radiant": 3,
+      "Meso L5 Intact": 21,
+      "Meso V13 Intact": 21,
+      "Meso V15 Intact": 32,
+      "Meso V15 Radiant": 2,
+      "Meso X1 Intact": 20,
+      "Meso X1 Radiant": 3,
+      "Meso Y2 Intact": 15,
+      "Neo A16 Intact": 1,
+      "Neo A16 Radiant": 1,
+      "Neo C7 Intact": 13,
+      "Neo C7 Radiant": 1,
+      "Neo C8 Intact": 1,
+      "Neo C9 Intact": 7,
+      "Neo K9 Intact": 7,
+      "Neo N24 Intact": 2,
+      "Neo P10 Intact": 10,
+      "Neo S20 Intact": 9,
+      "Neo T11 Intact": 4,
+      "Neo V11 Intact": 9,
+      "Neo V12 Intact": 4,
+      "Neo Y1 Intact": 16,
+      "Requiem I Intact": 5,
+      "Requiem II Intact": 5,
+      "Requiem III Intact": 5,
+      "Requiem IV Intact": 5
+    },
+    "basePrimeAssemblies": {
+      "Bronco Prime": 0,
+      "Lex Prime": 0,
+      "Magnus Prime": 0,
+      "Vasto Prime": 0
     }
   },
   "queue": [
@@ -121,7 +485,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Mutagen Mass (1/5)",
       "route": "Clan Dojo — completed Bio Lab research",
       "steps": "Replicate the Blueprint from completed Bio Lab research, then build it.",
       "tip": "No drop farm is required once the clan research is complete.",
@@ -164,9 +528,9 @@
       "item": "Lenz",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Fieldron (6/10)",
+      "missing": "Fieldron (8/10)",
       "route": "Clan Dojo Energy Lab + Fieldron",
-      "steps": "Get 4 Fieldron, then build.",
+      "steps": "Get 2 Fieldron, then build.",
       "tip": "Run Corpus Invasions for Fieldron bundles; keep Energy Lab blueprints crafting between invasions.",
       "source": "https://wiki.warframe.com/w/Lenz",
       "vaulted": "No",
@@ -249,7 +613,7 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
+      "missing": "Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes; obtain the remaining Argon Crystals last.",
       "tip": "Complete the optional Sister objective; Argon decays.",
@@ -268,20 +632,6 @@
       "steps": "The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.",
       "tip": "Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient.",
       "source": "https://wiki.warframe.com/w/Corufell",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": []
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Despair",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Despair Blueprint",
-      "route": "Stalker",
-      "steps": "Defeat the Stalker until the Despair Blueprint drops.",
-      "tip": "The blueprint is the entire acquisition gate.",
-      "source": "https://wiki.warframe.com/w/Despair",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": []
@@ -372,26 +722,12 @@
     },
     {
       "ease": "3 — Focused short farm",
-      "item": "Machete",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Machete Blueprint",
-      "route": "Cephalon Simaris Offerings",
-      "steps": "Buy Machete's Blueprint with Simaris Standing, then build.",
-      "tip": "Scan daily targets and use stealth scans to earn Standing faster.",
-      "source": "https://wiki.warframe.com/w/Machete",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": []
-    },
-    {
-      "ease": "3 — Focused short farm",
       "item": "Quassus Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Quassus Prime Blade (0/2)",
+      "missing": "Quassus Prime Blade (1/2)",
       "route": "Void Relic — Lith Q2/Q3",
-      "steps": "Two Blades are still needed. Export holds Lith Q2 ×6 and Lith Q3 ×5; refine and radshare.",
+      "steps": "One Blade is still needed. Export holds Lith Q2 ×4 and Lith Q3 ×5; refine and radshare.",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -630,24 +966,21 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Catabolyst",
-      "type": "secondary",
+      "item": "Cernos Prime",
+      "type": "primary",
       "targetRank": "30",
-      "missing": "Mutagen Mass (6/7); Scintillant (1/5)",
-      "route": "Market Blueprint + materials",
-      "steps": "Buy the Catabolyst Blueprint from the Market, then obtain 1 Mutagen Mass and 4 Scintillant.",
-      "tip": "Run Deimos Isolation Vault bounties for Scintillant; use Invasions or Bio Lab blueprints for Mutagen Mass.",
-      "source": "https://wiki.warframe.com/w/Catabolyst",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": []
+      "missing": "Cernos Prime Blueprint; Cernos Prime Grip; Cernos Prime Lower Limb; Cernos Prime String; Cernos Prime Upper Limb",
+      "route": "Permanent Railjack relic pools",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "ease": "4 — Multi-step farm",
       "item": "Ceti Lacera",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Ceti Lacera Blueprint; Oxium (367/400)",
+      "missing": "Ceti Lacera Blueprint",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "steps": "Not currently obtainable from an active event; Blueprint is tradeable. Obtain 33 Oxium for crafting.",
       "tip": "Recent sources include Operation: Belly of the Beast and Nights of Naberus. Event history does not imply current availability.",
@@ -814,12 +1147,34 @@
     },
     {
       "ease": "4 — Multi-step farm",
+      "item": "Hikou Prime",
+      "type": "secondary",
+      "targetRank": "30",
+      "missing": "Hikou Prime Pouch (0/2); Hikou Prime Stars (0/2)",
+      "route": "Permanent Railjack relic pools",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Kavasa Prime Kubrow Collar",
+      "type": "companion",
+      "targetRank": "30",
+      "missing": "Kavasa Prime Kubrow Collar Blueprint; Kavasa Prime Band; Kavasa Prime Buckle",
+      "route": "Vaulted Void Relics, Prime Resurgence, or player trade",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
+    },
+    {
+      "ease": "4 — Multi-step farm",
       "item": "Kreska",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Fieldron (6/10); Longwinder Lathe Coagulant (18/20)",
+      "missing": "Fieldron (8/10)",
       "route": "Market Blueprint + Fortuna materials",
-      "steps": "Buy the Kreska Blueprint from the Market, then obtain 4 Fieldron and 2 Longwinder Lathe Coagulant.",
+      "steps": "Buy the Kreska Blueprint from the Market, then obtain 2 Fieldron and 2 Longwinder Lathe Coagulant.",
       "tip": "Use Corpus Invasions for Fieldron and fish Longwinders in Orb Vallis for the remaining Coagulant.",
       "source": "https://wiki.warframe.com/w/Kreska",
       "vaulted": "No",
@@ -901,7 +1256,7 @@
       "item": "Needlenose",
       "type": "modular",
       "targetRank": "30",
-      "missing": "Needlenose Blueprint; Hespazym Alloy (30/40)",
+      "missing": "Needlenose Blueprint",
       "route": "Roky / Ventkids K-Drive Board",
       "steps": "Buy the Needlenose Board Blueprint from Roky and obtain the remaining Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.",
       "tip": "The Missing field preserves the current Hespazym Alloy balance.",
@@ -909,6 +1264,17 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": []
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Nyx Prime",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
+      "route": "Permanent Railjack relic pools",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "ease": "4 — Multi-step farm",
@@ -1309,7 +1675,7 @@
       "item": "Runway",
       "type": "modular",
       "targetRank": "30",
-      "missing": "Runway Blueprint; Hespazym Alloy (30/40)",
+      "missing": "Runway Blueprint",
       "route": "Roky / Ventkids K-Drive Board",
       "steps": "Buy the Runway Board Blueprint from Roky and obtain the remaining Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.",
       "tip": "The Missing field preserves the current Hespazym Alloy balance.",
@@ -1387,6 +1753,17 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": []
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Scindo Prime",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Scindo Prime Blueprint; Scindo Prime Handle",
+      "route": "Permanent Railjack relic pools",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "ease": "4 — Multi-step farm",
@@ -1521,7 +1898,7 @@
       "item": "Tatsu",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Auroxium Alloy (50/100); Hespazym Alloy (30/100)",
+      "missing": "Auroxium Alloy (50/100)",
       "route": "Market Blueprint + Cetus/Fortuna materials",
       "steps": "Buy the Tatsu Blueprint from the Market, then obtain 50 Auroxium Alloy and 70 Hespazym Alloy.",
       "tip": "Mine on the Plains of Eidolon and Orb Vallis, then refine the ores at the matching vendor.",
@@ -1658,6 +2035,17 @@
     },
     {
       "ease": "4 — Multi-step farm",
+      "item": "Valkyr Prime",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Valkyr Prime Chassis Blueprint; Valkyr Prime Neuroptics Blueprint; Valkyr Prime Systems Blueprint",
+      "route": "Permanent Railjack relic pools",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
+    },
+    {
+      "ease": "4 — Multi-step farm",
       "item": "Vasca Kavat",
       "type": "companion",
       "targetRank": "30",
@@ -1699,6 +2087,17 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": []
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Venka Prime",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Venka Prime Blades (0/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
+      "route": "Permanent Railjack relic pools",
+      "steps": "Acquire the listed missing parts, build, then level to 30.",
+      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "ease": "4 — Multi-step farm",
@@ -1747,7 +2146,7 @@
       "item": "Vitrica",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Vitrica Blueprint; Oxium (367/925)",
+      "missing": "Vitrica Blueprint",
       "route": "Defeat Nihil using Nihil’s Oubliette + Oxium",
       "steps": "Enter Nihil’s Oubliette with its key and defeat Nihil for the Vitrica Blueprint and obtain 558 Oxium.",
       "tip": "The Oubliette and entry key rotate through Nightwave Cred Offerings; farm Oxium Ospreys without letting them self-destruct.",
@@ -2630,9 +3029,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (11000/30000)",
+      "missing": "Cryotic (12000/30000)",
       "route": "Excavation / Cryotic",
-      "steps": "Get 19,000 Cryotic, then build.",
+      "steps": "Get 18,000 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -3362,62 +3761,6 @@
       "liveMatches": []
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Cernos Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Cernos Prime Blueprint; Cernos Prime Grip; Cernos Prime Lower Limb; Cernos Prime String; Cernos Prime Upper Limb",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.",
-      "tip": "These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Cernos Prime Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Cernos Prime Grip",
-          "relic": "Axi S8",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Cernos Prime Lower Limb",
-          "relic": "Lith C7",
-          "rarity": "Rare",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Cernos Prime String",
-          "relic": "Axi V10",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Cernos Prime Upper Limb",
-          "relic": "Meso N11",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Intact"
-        }
-      ],
-      "liveMatches": []
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Chroma Prime",
       "type": "warframe",
@@ -3877,38 +4220,6 @@
       "liveMatches": []
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Hikou Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Hikou Prime Pouch (0/2); Hikou Prime Stars (0/2)",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.",
-      "tip": "These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Hikou Prime Pouch (0/2)",
-          "relic": "Lith C7",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Hikou Prime Stars (0/2)",
-          "relic": "Axi V10",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Intact"
-        }
-      ],
-      "liveMatches": []
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Hildryn Prime",
       "type": "warframe",
@@ -3984,21 +4295,6 @@
       "liveMatches": []
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Kavasa Prime Kubrow Collar",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Kavasa Prime Kubrow Collar Blueprint; Kavasa Prime Band; Kavasa Prime Buckle",
-      "route": "Vaulted Void Relics, Prime Resurgence, or player trade",
-      "steps": "Open relics containing the Collar Blueprint, Band, and Buckle, or trade for the missing Prime parts.",
-      "tip": "This is Prime equipment, not a Kubrow breed.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "DATA INCOMPLETE",
-      "primeDetails": [],
-      "liveMatches": []
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Knell Prime",
       "type": "secondary",
@@ -4018,7 +4314,7 @@
       "item": "Kogake Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Kogake Prime Boot (0/2); Kogake Prime Gauntlet (0/2)",
+      "missing": "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (0/2)",
       "route": "Vaulted Relics / Prime Resurgence / player trade",
       "steps": "Check owned relics and Prime Resurgence; otherwise buy the missing parts from players.",
       "tip": "Compare part and set prices; buy only the gaps listed in Missing / needed.",
@@ -4269,54 +4565,6 @@
       "liveMatches": []
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Nyx Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.",
-      "tip": "These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Nyx Prime Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Nyx Prime Chassis Blueprint",
-          "relic": "Axi S8",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Nyx Prime Neuroptics Blueprint",
-          "relic": "Meso N11",
-          "rarity": "Rare",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Nyx Prime Systems Blueprint",
-          "relic": "Lith C7",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
-        }
-      ],
-      "liveMatches": []
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Oberon Prime",
       "type": "warframe",
@@ -4479,38 +4727,6 @@
       "vaulted": "Yes",
       "primeStatus": "DATA INCOMPLETE",
       "primeDetails": [],
-      "liveMatches": []
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Scindo Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Scindo Prime Blueprint; Scindo Prime Handle",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.",
-      "tip": "These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Scindo Prime Blueprint",
-          "relic": "Lith C7",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Scindo Prime Handle",
-          "relic": "Meso N11",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Intact"
-        }
-      ],
       "liveMatches": []
     },
     {
@@ -4769,46 +4985,6 @@
       "liveMatches": []
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Valkyr Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Valkyr Prime Chassis Blueprint; Valkyr Prime Neuroptics Blueprint; Valkyr Prime Systems Blueprint",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.",
-      "tip": "These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Valkyr Prime Chassis Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Rare",
-          "ownedRelics": null,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Valkyr Prime Neuroptics Blueprint",
-          "relic": "Meso N11",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Valkyr Prime Systems Blueprint",
-          "relic": "Axi V10",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
-        }
-      ],
-      "liveMatches": []
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Vasto Prime",
       "type": "secondary",
@@ -4866,46 +5042,6 @@
       "vaulted": "Yes",
       "primeStatus": "DATA INCOMPLETE",
       "primeDetails": [],
-      "liveMatches": []
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Venka Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Venka Prime Blades (0/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.",
-      "tip": "These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Venka Prime Blades (0/2)",
-          "relic": "Neo V9",
-          "rarity": "Common",
-          "ownedRelics": null,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Venka Prime Blueprint",
-          "relic": "Axi S8",
-          "rarity": "Uncommon",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Venka Prime Gauntlet (0/2)",
-          "relic": "Axi V10",
-          "rarity": "Rare",
-          "ownedRelics": null,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Radiant"
-        }
-      ],
       "liveMatches": []
     },
     {
@@ -5039,19 +5175,13 @@
       "liveMatches": []
     },
     {
-      "item": "Pangolin Prime",
-      "type": "melee",
+      "item": "Helstrum",
+      "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "source": "https://wiki.warframe.com/w/Pangolin_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "steps": "Check Arsenal; level to 30 if needed.",
+      "tip": "Use Sanctuary Onslaught, Helene, or Hydron; unequip extra weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Legs"
     },
     {
       "item": "Revenant Prime",
@@ -5065,48 +5195,31 @@
       "liveMatches": []
     },
     {
-      "item": "Cryotra",
-      "type": "companion",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Claim finished gear together; level one companion weapon at a time in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Legs",
-      "primeDetails": [],
-      "liveMatches": []
-    },
-    {
-      "item": "Helstrum",
-      "type": "companion",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Claim finished gear together; level one companion weapon at a time in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Legs",
-      "primeDetails": [],
-      "liveMatches": []
-    },
-    {
       "item": "Tazicor",
       "type": "companion",
-      "state": "Ready in Foundry",
+      "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Claim finished gear together; level one companion weapon at a time in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Legs",
-      "primeDetails": [],
-      "liveMatches": []
+      "steps": "Check Arsenal; level to 30 if needed.",
+      "tip": "Use Sanctuary Onslaught, Helene, or Hydron; unequip extra weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Legs"
     },
     {
       "item": "Vulcax",
       "type": "companion",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal; level to 30 if needed.",
+      "tip": "Use Sanctuary Onslaught, Helene, or Hydron; unequip extra weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Legs"
+    },
+    {
+      "item": "Catabolyst",
+      "type": "secondary",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Claim finished gear together; level one companion weapon at a time in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Legs",
-      "primeDetails": [],
-      "liveMatches": []
+      "source": "https://wiki.warframe.com/w/Catabolyst"
     }
   ],
   "rank40": [
@@ -7385,7 +7498,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
+      "missing": "Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
@@ -7517,17 +7630,17 @@
     {
       "item": "Catabolyst",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned / in foundry; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Mutagen Mass (6/7); Scintillant (1/5)",
-      "ease": "4 — Multi-step farm",
-      "route": "Market Blueprint + materials",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Catabolyst",
       "steps": "Buy the Catabolyst Blueprint from the Market, then obtain 1 Mutagen Mass and 4 Scintillant.",
@@ -7780,7 +7893,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Ceti Lacera Blueprint; Oxium (367/400)",
+      "missing": "Ceti Lacera Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
@@ -8405,17 +8518,17 @@
     {
       "item": "Cryotra",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Legs",
       "primeDetails": [],
@@ -8778,15 +8891,15 @@
     {
       "item": "Despair",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Despair Blueprint",
-      "ease": "3 — Focused short farm",
-      "route": "Stalker",
+      "missing": "",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 4,
@@ -8969,7 +9082,7 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Warframe anniversary reward",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
@@ -11371,17 +11484,17 @@
     {
       "item": "Helstrum",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Owned; rank unknown",
       "owned": "Yes",
       "mastered": "No",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Legs",
       "primeDetails": [],
@@ -11396,7 +11509,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Mutagen Mass (1/5)",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo — completed Bio Lab research",
       "vaulted": "No",
@@ -11596,7 +11709,7 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Companion breeding in the Orbiter Incubator",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -12336,7 +12449,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Kogake Prime Boot (0/2); Kogake Prime Gauntlet (0/2)",
+      "missing": "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Vaulted Relics / Prime Resurgence / player trade",
       "vaulted": "Yes",
@@ -12531,14 +12644,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Fieldron (6/10); Longwinder Lathe Coagulant (18/20)",
+      "missing": "Fieldron (8/10)",
       "ease": "4 — Multi-step farm",
       "route": "Market Blueprint + Fortuna materials",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Kreska",
-      "steps": "Buy the Kreska Blueprint from the Market, then obtain 4 Fieldron and 2 Longwinder Lathe Coagulant.",
+      "steps": "Buy the Kreska Blueprint from the Market, then obtain 2 Fieldron and 2 Longwinder Lathe Coagulant.",
       "tip": "Use Corpus Invasions for Fieldron and fish Longwinders in Orb Vallis for the remaining Coagulant.",
       "primeDetails": [],
       "liveMatches": []
@@ -13460,7 +13573,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Fieldron (6/10)",
+      "missing": "Fieldron (8/10)",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Energy Lab + Fieldron",
       "vaulted": "No",
@@ -13608,15 +13721,15 @@
     {
       "item": "Machete",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Machete Blueprint",
-      "ease": "3 — Focused short farm",
-      "route": "Cephalon Simaris Offerings",
+      "missing": "",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -14411,7 +14524,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Needlenose Blueprint; Hespazym Alloy (30/40)",
+      "missing": "Needlenose Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Roky / Ventkids K-Drive Board",
       "vaulted": "No",
@@ -15300,15 +15413,15 @@
     {
       "item": "Pangolin Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -16505,7 +16618,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Quassus Prime Blade (0/2)",
+      "missing": "Quassus Prime Blade (1/2)",
       "ease": "3 — Focused short farm",
       "route": "Void Relic — Lith Q2/Q3",
       "vaulted": "No",
@@ -17016,7 +17129,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Runway Blueprint; Hespazym Alloy (30/40)",
+      "missing": "Runway Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Roky / Ventkids K-Drive Board",
       "vaulted": "No",
@@ -17078,7 +17191,7 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Companion breeding in the Orbiter Incubator",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -17717,7 +17830,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (11000/30000)",
+      "missing": "Cryotic (12000/30000)",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -17953,7 +18066,7 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Companion breeding in the Orbiter Incubator",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -18819,7 +18932,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Auroxium Alloy (50/100); Hespazym Alloy (30/100)",
+      "missing": "Auroxium Alloy (50/100)",
       "ease": "4 — Multi-step farm",
       "route": "Market Blueprint + Cetus/Fortuna materials",
       "vaulted": "No",
@@ -18873,17 +18986,17 @@
     {
       "item": "Tazicor",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Owned; rank unknown",
       "owned": "Yes",
       "mastered": "No",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 3,
       "source": "https://wiki.warframe.com/w/Legs",
       "primeDetails": [],
@@ -18939,7 +19052,7 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Syndicate offering or player trade",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 11,
@@ -19591,7 +19704,7 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -20659,7 +20772,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Vitrica Blueprint; Oxium (367/925)",
+      "missing": "Vitrica Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Defeat Nihil using Nihil’s Oubliette + Oxium",
       "vaulted": "No",
@@ -20860,17 +20973,17 @@
     {
       "item": "Vulcax",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Owned; rank unknown",
       "owned": "Yes",
       "mastered": "No",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Legs",
       "primeDetails": [],
