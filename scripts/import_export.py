@@ -119,6 +119,33 @@ def refresh_step_material_quantities(text: str, missing: str) -> str:
     return text
 
 
+def missing_material_names(missing: str) -> set[str]:
+    names = set()
+    for part in missing.split(";"):
+        match = re.fullmatch(r"\s*(.+?)\s+\([\d,]+/[\d,]+\)\s*", part)
+        if match:
+            names.add(match.group(1))
+    return names
+
+
+def remove_stale_material_clauses(text: str, old_missing: str, new_missing: str) -> str:
+    stale = missing_material_names(old_missing) - missing_material_names(new_missing)
+    for name in sorted(stale, key=len, reverse=True):
+        escaped = re.escape(name)
+        patterns = (
+            rf"\s*;\s*[^.;!?]*\b{escaped}\b",
+            rf"\s*,?\s*(?:and|then)\s+(?:obtain|get|farm|craft|refine|buy)\s+(?:the\s+remaining\s+|[\d,]+\s+)?{escaped}\b[^.;!?]*",
+            rf"\s*,?\s*(?:and|then)\s+[\d,]+\s+{escaped}\b",
+            rf"\b(?:obtain|get|farm|craft|refine|buy)\s+(?:the\s+remaining\s+|[\d,]+\s+)?{escaped}\b[^.;!?]*",
+        )
+        for pattern in patterns:
+            text = re.sub(pattern, "", text, flags=re.IGNORECASE)
+        if re.search(rf"\b{escaped}\b", text, flags=re.IGNORECASE):
+            sentences = re.split(r"(?<=[.!?])\s+", text)
+            text = " ".join(sentence for sentence in sentences if not re.search(rf"\b{escaped}\b", sentence, flags=re.IGNORECASE))
+    return re.sub(r"\s+([.;,])", r"\1", re.sub(r"\s{2,}", " ", text)).strip(" ;,")
+
+
 def base_prime_assemblies(parsed: dict[str, object]) -> dict[str, int]:
     counts: dict[str, int] = {}
     for file_name in ("inventoryParts.json", "inventorySets.json", "inventoryMisc.json"):
@@ -138,17 +165,20 @@ def base_prime_assemblies(parsed: dict[str, object]) -> dict[str, int]:
 
 def followup_row(row: dict) -> dict:
     pending = row["pendingFoundry"] == "Yes"
+    item_type = row["type"]
+    if item_type == "companion":
+        tip = "Level the companion in high-affinity missions."
+    elif item_type in {"primary", "secondary", "melee", "archgun", "archmelee"}:
+        tip = f"Level this {item_type} in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity."
+    else:
+        tip = "Level in Sanctuary Onslaught, Helene, or Hydron."
     return {
         "item": row["item"],
         "type": row["type"],
         "state": "Ready in Foundry" if pending else "Rank unknown — verify in Arsenal",
         "targetRank": row["targetRank"],
-        "steps": "Claim from Foundry; equip and level to 30." if pending else "Check Arsenal; level to 30 if needed.",
-        "tip": (
-            "Claim finished gear together; level one companion weapon at a time in high-affinity missions."
-            if pending
-            else "Use Sanctuary Onslaught, Helene, or Hydron; unequip extra weapons to focus affinity."
-        ),
+        "steps": "Claim from Foundry; equip and level to 30." if pending else "Check Arsenal and level to 30 if needed.",
+        "tip": tip,
         "source": row["source"],
     }
 
@@ -224,12 +254,19 @@ def update(folder: Path) -> None:
                 refreshed_missing = before[3]
             row.update(state="Missing", rankRule="", missing=refreshed_missing)
             if "steps" in row:
+                row["steps"] = remove_stale_material_clauses(row["steps"], before[3], row["missing"])
                 row["steps"] = refresh_relic_quantities(row["steps"], relics)
                 row["steps"] = refresh_step_material_quantities(row["steps"], row["missing"])
             if "tip" in row:
+                row["tip"] = remove_stale_material_clauses(row["tip"], before[3], row["missing"])
                 row["tip"] = refresh_relic_quantities(row["tip"], relics)
             if "steps" in row and name == "Quassus Prime" and "Quassus Prime Blade (1/2)" in row["missing"]:
                 row["steps"] = row["steps"].replace("Two Blades are still needed.", "One Blade is still needed.")
+        if row["state"] != "Missing" and before[3]:
+            if "steps" in row:
+                row["steps"] = remove_stale_material_clauses(row["steps"], before[3], "")
+            if "tip" in row:
+                row["tip"] = remove_stale_material_clauses(row["tip"], before[3], "")
         after = (row["owned"], row["mastered"], row["pendingFoundry"], row.get("missing", ""))
         if before != after:
             changes.append({"item": name, "before": before, "after": after})
@@ -245,7 +282,10 @@ def update(folder: Path) -> None:
     payload["queue"].sort(key=lambda row: (row["ease"], row["item"]))
     arsenal_by_name = {row["item"]: row for row in payload["arsenal"]}
     for row in payload["queue"]:
+        old_missing = row.get("missing", "")
         row["missing"] = arsenal_by_name[row["item"]]["missing"]
+        row["steps"] = remove_stale_material_clauses(row.get("steps", ""), old_missing, row["missing"])
+        row["tip"] = remove_stale_material_clauses(row.get("tip", ""), old_missing, row["missing"])
         row["steps"] = refresh_relic_quantities(row.get("steps", ""), relics)
         row["steps"] = refresh_step_material_quantities(row["steps"], row["missing"])
         row["tip"] = refresh_relic_quantities(row.get("tip", ""), relics)
@@ -263,7 +303,10 @@ def update(folder: Path) -> None:
     ]
     payload["vaulted"].sort(key=lambda row: row["item"])
     for row in payload["vaulted"]:
+        old_missing = row.get("missing", "")
         row["missing"] = arsenal_by_name[row["item"]]["missing"]
+        row["steps"] = remove_stale_material_clauses(row.get("steps", ""), old_missing, row["missing"])
+        row["tip"] = remove_stale_material_clauses(row.get("tip", ""), old_missing, row["missing"])
         row["steps"] = refresh_relic_quantities(row.get("steps", ""), relics)
         row["steps"] = refresh_step_material_quantities(row["steps"], row["missing"])
         row["tip"] = refresh_relic_quantities(row.get("tip", ""), relics)
@@ -275,7 +318,14 @@ def update(folder: Path) -> None:
             continue
         fresh = followup_row(row)
         existing = old_owned.get(row["item"])
-        refreshed_owned.append(existing if existing and existing["state"] == fresh["state"] else fresh)
+        if existing and existing["state"] == fresh["state"]:
+            if not row["pendingFoundry"] == "Yes" and "Claim from Foundry" in existing.get("steps", ""):
+                existing["steps"] = fresh["steps"]
+            if row["type"] != "companion" and "companion weapon" in existing.get("tip", "").lower():
+                existing["tip"] = fresh["tip"]
+            refreshed_owned.append(existing)
+        else:
+            refreshed_owned.append(fresh)
     payload["owned"] = refreshed_owned
     payload["owned"].sort(key=lambda row: (row["state"], row["item"]))
 

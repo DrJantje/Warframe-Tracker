@@ -76,6 +76,18 @@ function materials(row) {
   }).filter(Boolean);
 }
 
+function isCraftingMaterial(name) {
+  return !/(?:Blueprint|Barrel|Receiver|Stock|Blades?|Stars?|Handle|Hilt|Grip|Link|Chassis|Neuroptics|Systems|Harness|Wings|Cerebrum|Carapace|Pouch|Gauntlet|Upper Limb|Lower Limb|String|Band|Buckle|Boot|Ornament|Dull Button|Prime)$/i.test(name);
+}
+
+function craftingMaterials(row) {
+  return materials(row).filter((material) => isCraftingMaterial(material.name));
+}
+
+const knownCraftingMaterials = new Set(
+  [...data.queue, ...data.vaulted, ...data.arsenal].flatMap(craftingMaterials).map((material) => material.name)
+);
+
 function validateGeneratedText(collection, row) {
   for (const [field, value] of strings(row)) {
     if (/…|\.\.\./.test(value)) fail(collection, row, `${field} contains an ellipsis`);
@@ -90,15 +102,25 @@ function validateGeneratedText(collection, row) {
 }
 
 function validateQuantities(collection, row) {
-  for (const material of materials(row)) {
+  const currentMaterials = new Map(craftingMaterials(row).map((material) => [material.name.toLowerCase(), material]));
+  for (const material of craftingMaterials(row)) {
     if (material.owned < 0 || material.required < 0 || material.owned > material.required) {
       fail(collection, row, `${material.name} inventory ${material.owned}/${material.required} is invalid`);
       continue;
     }
     const escaped = material.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const mention = String(row.steps || '').match(new RegExp(`([\\d,]+)\\s+${escaped}`, 'i'));
-    if (mention && Number(mention[1].replaceAll(',', '')) !== material.remaining) {
+    if (String(row.steps || '').trim() && !mention) {
+      fail(collection, row, `${material.name} is missing its remaining quantity in Steps`);
+    } else if (mention && Number(mention[1].replaceAll(',', '')) !== material.remaining) {
       fail(collection, row, `${material.name} Steps quantity ${mention[1]} disagrees with Missing remainder ${material.remaining}`);
+    }
+  }
+  const prose = `${row.steps || ''} ${row.tip || ''}`;
+  for (const name of knownCraftingMaterials) {
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    if (new RegExp(`\\b[\\d,]+\\s+${escaped}\\b`, 'i').test(prose) && !currentMaterials.has(name.toLowerCase())) {
+      fail(collection, row, `${name} has a numeric instruction but is absent from Missing`);
     }
   }
 }
@@ -117,6 +139,15 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     if (positiveKDriveInstruction && !kDriveBoards.has(row.item)) fail(collection, row, 'K-Drive instruction on non-K-Drive item');
     if (nightwaveItems.has(row.item) && row.availabilityGroup !== 'nightwave') fail(collection, row, 'Nightwave item outside Nightwave tab');
     if (collection === 'vaulted' && !validPrimeStatuses.has(row.primeStatus)) fail(collection, row, `invalid Prime status ${row.primeStatus || '(blank)'}`);
+    if (collection === 'owned') {
+      const copy = `${row.steps || ''} ${row.tip || ''}`;
+      if (row.state === 'Rank unknown — verify in Arsenal' && /Claim from Foundry/i.test(copy)) {
+        fail(collection, row, 'rank-unknown card must not say Claim from Foundry');
+      }
+      if (row.type !== 'companion' && /companion weapon/i.test(copy)) {
+        fail(collection, row, `owned advice does not match ${row.type} item type`);
+      }
+    }
   }
 }
 
