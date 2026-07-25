@@ -1,5 +1,5 @@
 const fs = require('fs');
-const file = 'data/warframe.json';
+const file = process.env.WARFRAME_DATA_FILE || 'data/warframe.json';
 const data = JSON.parse(fs.readFileSync(file, 'utf8'));
 const overrides = JSON.parse(fs.readFileSync('data/overrides.json', 'utf8'));
 const live = JSON.parse(fs.readFileSync('data/live.json', 'utf8'));
@@ -108,7 +108,7 @@ const exact = {
   'Twin Vipers Wraith': ['Invasion reward rotation / player trade', 'Watch active Invasions for each missing component or trade for the component.', 'Check both sides of active Invasions before choosing a reward.'],
   'Bhaira Hound': ['Sister of Parvos Hound reward / Legs assembly', 'Vanquish Sisters for completed randomized Hounds and Hound component blueprints. Assemble a Hound using the Bhaira Model if that model is still needed for mastery.', 'Check the model on completed Sister Hounds before assembling another Hound.'],
   Basmu: ['Recurring operation or Nights of Naberus / player trade', 'Not currently obtainable from an active event; Blueprint is tradeable.', 'Recent sources include Operation: Belly of the Beast and Nights of Naberus; it has also returned through other operations. Event history does not imply current availability.'],
-  'Ceti Lacera': ['Recurring operation or Nights of Naberus / player trade', 'Not currently obtainable from an active event; Blueprint is tradeable. Obtain any remaining crafting materials shown in Missing.', 'Recent sources include Operation: Belly of the Beast and Nights of Naberus. Event history does not imply current availability.'],
+  'Ceti Lacera': ['Recurring operation or Nights of Naberus / player trade', 'Not currently obtainable from an active event; Blueprint is tradeable.', 'Recent sources include Operation: Belly of the Beast and Nights of Naberus. Event history does not imply current availability.'],
   Sheev: ['Grineer Invasion reward rotation / player trade', 'Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.', 'Only one component is offered per qualifying Invasion. Check the live Invasion feed before trading.'],
   Hema: ['Clan Dojo — completed Bio Lab research', 'Replicate the Blueprint from completed Bio Lab research. Obtain 4 Mutagen Mass, then build.', 'No drop farm is required once the clan research is complete.'],
   Corufell: ['Tyana Pass, Mars — Mirror Defense / Otak', 'The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.', 'Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient.'],
@@ -226,8 +226,10 @@ function applyDynamicRecommendation(row) {
   const parts = missingParts(row);
   const materials = materialNeeds(row);
   const materialText = naturalList(materials.filter((part) => part.remaining > 0).map((part) => `${part.remaining.toLocaleString('en-US')} ${part.name}`));
-  if (['Catabolyst', 'Kreska', 'Tatsu'].includes(row.item)) {
+  if (row.item === 'Catabolyst') {
     row.steps = `Buy the ${row.item} Blueprint from the Market${materialText ? `, then obtain ${materialText}` : ''}.`;
+  } else if (['Kreska', 'Tatsu'].includes(row.item) && materialText) {
+    row.steps = `Obtain ${materialText}.`;
   } else if (row.item === 'Vitrica') {
     const needsBlueprint = parts.some((part) => normalizeText(part) === 'vitrica');
     const clauses = [];
@@ -268,7 +270,25 @@ function applyDynamicRecommendation(row) {
 
 function relicInventoryCount(relic) {
   const inventory = data.meta.relicInventory;
-  return inventory && Number.isFinite(inventory[relic]) ? inventory[relic] : null;
+  if (!inventory || typeof inventory !== 'object') return null;
+  return Object.entries(inventory)
+    .filter(([name]) => name === relic || name.startsWith(`${relic} `))
+    .reduce((total, [, count]) => total + (Number.isFinite(count) ? count : 0), 0);
+}
+
+function requiredCopies(part) {
+  const match = String(part).match(/ \(([\d,]+)\/([\d,]+)\)$/);
+  return match ? Number(match[2].replaceAll(',', '')) - Number(match[1].replaceAll(',', '')) : 1;
+}
+
+function permanentPrimeInstructions(row) {
+  const farms = row.primeDetails.map((detail) => {
+    const copies = requiredCopies(detail.part);
+    const part = detail.part.replace(/ \([\d,]+\/[\d,]+\)$/, '');
+    return `Farm ${detail.relic} for ${part}${copies > 1 ? ` ×${copies}` : ''}. ${detail.relic} comes from ${detail.relicSource}. Open it ${detail.refinement} because the reward is ${detail.rarity}.`;
+  });
+  row.steps = `${farms.join(' ')} Build ${row.item} and level it to 30.`;
+  row.tip = 'Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.';
 }
 
 function primeDetailsFor(row, catalog) {
@@ -313,8 +333,11 @@ function applyPrimeAvailability(row) {
     row.tip = 'Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.';
   } else if (row.primeStatus === 'PERMANENT SPECIAL RELICS') {
     row.route = 'Permanent Railjack relic pools';
-    row.steps = 'Farm the listed permanent relics from Railjack point-of-interest caches, then open them in Void Fissures.';
-    row.tip = 'These relics are permanently available and are not ordinary Prime Resurgence or Prime Access relics.';
+    permanentPrimeInstructions(row);
+  } else if ((row.primeStatus === 'TRADE ONLY' || row.primeStatus === 'DATA INCOMPLETE') && !row.primeDetails.length) {
+    row.route = 'Currently vaulted — owned relics or player trade';
+    row.steps = 'Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.';
+    row.tip = 'Compare individual part prices with the full set price before buying.';
   }
 }
 
@@ -403,13 +426,21 @@ function clean(row) {
     out.tip = 'The anniversary reward is delivered complete with a weapon slot and Orokin Catalyst.';
   } else if (!out.status && companionBreeds.has(out.item) && out.type === 'companion') {
     out.route = 'Companion breeding in the Orbiter Incubator';
-    out.steps = 'Breed the required companion using the appropriate egg or genetic codes.';
-    out.tip = 'Use genetic imprints when a specific breed must be guaranteed.';
+    if (out.item === 'Vasca Kavat') {
+      out.steps = 'Let an owned Kavat become infected by a Vasca on the Plains at night, make two Vasca imprints, then breed with those imprints and Kavat Genetic Codes.';
+      out.tip = 'Two Vasca imprints guarantee the Vasca breed.';
+    } else if (/Kubrow$/.test(out.item)) {
+      out.steps = `Incubate a Kubrow Egg. Use two ${out.item} genetic imprints to guarantee the breed.`;
+      out.tip = 'Without two matching imprints, the Kubrow breed is random.';
+    } else {
+      out.steps = `Breed a Kavat using Kavat Genetic Codes. Use two ${out.item} imprints to guarantee the breed.`;
+      out.tip = 'Without two matching imprints, the ordinary Kavat breed is random.';
+    }
   }
   if (kDriveBoards.has(out.item) && !exact[out.item]) {
     out.route = 'Roky / Ventkids K-Drive Board';
-    out.steps = 'Buy the Board Blueprint from Roky, obtain the listed materials, then assemble the K-Drive and level it to 30. No gilding is required.';
-    out.tip = 'Earn Ventkids Standing through races and buy only the Board Blueprint still needed for mastery.';
+    out.steps = 'Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.';
+    out.tip = 'Buy only the board blueprint still needed for mastery using Ventkids Standing.';
   }
   applySpecializedType(out);
   applyStablePatternRoute(out);
@@ -496,7 +527,19 @@ const missingRows = data.arsenal.filter((row) => row.state === 'Missing');
 const cards = missingRows.map(cardFromArsenal);
 data.vaulted = cards.filter((row) => row.primeStatus || row.vaulted === 'Yes').sort((a, b) => a.item.localeCompare(b.item));
 data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes').sort((a, b) => a.ease.localeCompare(b.ease) || a.item.localeCompare(b.item));
-data.owned = data.owned.map(clean);
+data.owned = data.owned.map((row) => {
+  const next = { ...row, source: normalizeSource(row.source) };
+  const weapon = ['primary', 'secondary', 'melee', 'archgun', 'archmelee'].includes(next.type);
+  next.steps = next.state === 'Ready in Foundry'
+    ? 'Claim from Foundry; equip and level to 30.'
+    : 'Check Arsenal and level to 30 if needed.';
+  next.tip = weapon
+    ? `Level this ${next.type} in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.`
+    : next.type === 'companion'
+      ? 'Level the companion in high-affinity missions.'
+      : 'Level in Sanctuary Onslaught, Helene, or Hydron.';
+  return next;
+});
 data.meta.summary = {
   activeTo40: data.rank40.filter((row) => row.status === 'Active to 40').length,
   confirmedAt40: data.rank40.filter((row) => row.status === 'Confirmed at 40').length,

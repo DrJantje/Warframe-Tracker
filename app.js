@@ -1,7 +1,8 @@
-const [data, availability, nightwaveCatalog] = await Promise.all([
+const [data, availability, nightwaveCatalog, liveStatus] = await Promise.all([
   fetch('./data/warframe.json').then(check),
   fetch('./data/availability.json').then(check),
   fetch('./data/nightwave-items.json').then(check),
+  fetch('./data/live.json').then(check),
 ]).catch((error) => {
   document.querySelector('#app').innerHTML = `<div class="error">Tracker data could not be loaded.<br>${escapeHtml(error.message)}</div>`;
   throw error;
@@ -57,7 +58,7 @@ const views = [
   ['nightwave', 'Nightwave', nightwaveQueue.length],
   ['materials', 'Materials', materialQueue.length],
   ['rank40', 'Rank 40', data.rank40.filter((x) => x.status === 'Active to 40').length],
-  ['vaulted', 'Vaulted', data.vaulted.length],
+  ['vaulted', 'Primes / Relics', data.vaulted.length],
   ['owned', 'Owned / Foundry', data.owned.length],
   ['arsenal', 'Full arsenal', data.arsenal.length],
 ];
@@ -84,13 +85,28 @@ function queueCard(item, material = false) {
   const nightwavePill = nightwave ? `<span class="pill ${nightwave === 'available' ? 'green' : nightwave === 'inactive' ? 'violet' : 'amber'}">${labels[nightwave]}</span>` : '';
   const activeNow = item.liveMatches?.length ? `<span class="pill green">ACTIVE NOW</span>` : '';
   const live = item.liveMatches?.length ? `<p class="steps">${escapeHtml(item.liveMatches.join(' · '))}</p>` : '';
-  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}${activeNow}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${live}${steps}${tip}${source(item.source)}</article>`;
+  const relics = arsenal?.primeDetails?.length ? primeDetails(arsenal) : '';
+  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}${activeNow}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${live}${steps}${relics}${tip}${source(item.source)}</article>`;
 }
 function primeDetails(item) {
   if (!item.primeDetails?.length) return item.primeStatus === 'DATA INCOMPLETE'
-    ? '<p class="steps">Owned relic counts were not retained in this snapshot; the next AlecaFrame import will populate them.</p>'
+    ? '<p class="steps">Historical relic rewards have not yet been matched to these missing parts. Check owned relics manually or trade for the listed gaps.</p>'
     : '';
   return `<details><summary>Relics for missing parts</summary>${item.primeDetails.map((detail) => `<p><strong>${escapeHtml(detail.part)}</strong>: ${escapeHtml(detail.relic)} · ${escapeHtml(detail.rarity)} · owned ${detail.ownedRelics ?? 'unknown'} · ${escapeHtml(detail.relicSource)} · refine ${escapeHtml(detail.refinement)}</p>`).join('')}</details>`;
+}
+function checkedDate(value) {
+  const date = new Date(value || '');
+  return Number.isFinite(date.getTime())
+    ? date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Los_Angeles' })
+    : 'an unknown date';
+}
+function nightwaveWarning() {
+  if (nightwaveStockVerified) return '';
+  return `<div class="status-warning"><strong>Nightwave availability is unverified.</strong> Inventory has not been verified since ${escapeHtml(checkedDate(availability.checkedAt))}. Individual availability labels cannot currently be trusted; check the in-game Cred Offerings before spending Cred.</div>`;
+}
+function invasionWarning() {
+  if (liveStatus.invasions?.status === 'verified') return '';
+  return `<div class="status-warning"><strong>Live Invasion matching is unavailable.</strong> The feed was last checked ${escapeHtml(checkedDate(liveStatus.checkedAt))}. An item without an ACTIVE NOW badge may still have a relevant reward; check current Invasions in game.</div>`;
 }
 function header() {
   const label = views.find(([id]) => id === state.view)?.[1] ?? '';
@@ -108,7 +124,7 @@ function controls() {
 function content() {
   if (state.view === 'next') {
     const rows = actionableQueue.filter((x) => (state.type === 'all' || x.type === state.type) && matches(x));
-    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
+    return `${invasionWarning()}${cardsAndMore(rows, rows.map((x) => queueCard(x)))}`;
   }
   if (state.view === 'materials') {
     const rows = materialQueue.filter(matches);
@@ -120,7 +136,7 @@ function content() {
   }
   if (state.view === 'nightwave') {
     const rows = nightwaveQueue.filter(matches);
-    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
+    return `${nightwaveWarning()}${cardsAndMore(rows, rows.map((x) => queueCard(x)))}`;
   }
   if (state.view === 'vaulted') {
     const rows = data.vaulted.filter((x) => String(x.missing || '').trim()).filter(matches);

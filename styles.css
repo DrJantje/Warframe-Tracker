@@ -24,6 +24,8 @@ main { width:min(1540px,100%); margin:auto; padding:24px 34px 48px; }
 .view-tabs button.active { color:var(--ink); border-color:var(--cyan); background:rgba(85,216,230,.07); }
 .view-tabs span { margin-left:7px; color:#638087; font:11px ui-monospace,monospace; }
 .controls { display:flex; gap:10px; justify-content:space-between; margin:9px 0 16px; }
+.status-warning { margin:0 0 14px; border:1px solid #765f3b; border-left:3px solid var(--amber); background:#241e15; color:#d9c8aa; padding:12px 14px; font-size:12px; line-height:1.5; }
+.status-warning strong { color:var(--amber); }
 .search { flex:1; max-width:580px; display:flex; align-items:center; gap:9px; border:1px solid var(--line); background:#0b171b; padding:0 14px; }
 .search span { color:var(--cyan); font-size:22px; transform:rotate(-15deg); }
 .search input { width:100%; padding:12px 0; border:0; outline:0; background:transparent; color:var(--ink); }

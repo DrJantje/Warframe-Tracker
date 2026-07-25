@@ -1,10 +1,16 @@
 const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const { spawnSync } = require('child_process');
 
 const data = JSON.parse(fs.readFileSync('data/warframe.json', 'utf8'));
+const primeRules = JSON.parse(fs.readFileSync('data/prime-rules.json', 'utf8'));
+const appSource = fs.readFileSync('app.js', 'utf8');
 const nightwaveCatalog = JSON.parse(fs.readFileSync('data/nightwave-items.json', 'utf8'));
 const UNVERIFIED = 'Acquisition route not verified yet';
 const nightwaveItems = new Set(nightwaveCatalog.items.map((entry) => entry.item));
 const kDriveBoards = new Set(['Bad Baby', 'Feverspine', 'Flatbelly', 'Needlenose', 'Runway']);
+const permanentRailjackItems = new Set(primeRules.permanentRailjackItems);
 const validPrimeStatuses = new Set(['RESURGENCE ACTIVE', 'OWNED RELICS', 'PERMANENT SPECIAL RELICS', 'TRADE ONLY', 'DATA INCOMPLETE']);
 const validRank40Statuses = new Set(['Active to 40', 'Confirmed at 40', 'Parked at 30', 'Current rank unknown']);
 const specializedTypes = {
@@ -139,6 +145,12 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     if (positiveKDriveInstruction && !kDriveBoards.has(row.item)) fail(collection, row, 'K-Drive instruction on non-K-Drive item');
     if (nightwaveItems.has(row.item) && row.availabilityGroup !== 'nightwave') fail(collection, row, 'Nightwave item outside Nightwave tab');
     if (collection === 'vaulted' && !validPrimeStatuses.has(row.primeStatus)) fail(collection, row, `invalid Prime status ${row.primeStatus || '(blank)'}`);
+    if (kDriveBoards.has(row.item) && !craftingMaterials(row).length && /listed materials/i.test(`${row.steps || ''} ${row.tip || ''}`)) {
+      fail(collection, row, 'K-Drive card refers to listed materials when Missing contains none');
+    }
+    if (/appropriate egg or genetic codes/i.test(`${row.steps || ''} ${row.tip || ''}`)) {
+      fail(collection, row, 'companion breeding advice is not item-specific');
+    }
     if (collection === 'owned') {
       const copy = `${row.steps || ''} ${row.tip || ''}`;
       if (row.state === 'Rank unknown — verify in Arsenal' && /Claim from Foundry/i.test(copy)) {
@@ -149,6 +161,57 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
       }
     }
   }
+}
+
+const userFacingCards = new Map([...data.queue, ...data.vaulted].map((row) => [row.item, row]));
+const preservedCorrections = {
+  Cantare: { forbidden: /Argon Crystal/i },
+  'Ceti Lacera': { forbidden: /Oxium|remaining crafting materials/i },
+  Kreska: { steps: 'Obtain 2 Fieldron.', forbidden: /Longwinder/i },
+  Needlenose: { forbidden: /Hespazym Alloy/i },
+  Runway: { forbidden: /Hespazym Alloy/i },
+  Tatsu: { steps: 'Obtain 50 Auroxium Alloy.', forbidden: /Hespazym Alloy/i },
+  Vitrica: { forbidden: /Oxium/i },
+  Hema: { required: /Obtain 4 Mutagen Mass, then build\./i },
+};
+for (const [item, rule] of Object.entries(preservedCorrections)) {
+  const card = userFacingCards.get(item);
+  if (!card) {
+    errors.push(`database/${item}: preserved correction has no user-facing card`);
+    continue;
+  }
+  const copy = `${card.steps || ''} ${card.tip || ''}`;
+  if (rule.steps && card.steps !== rule.steps) fail('database', card, `Steps must remain exactly: ${rule.steps}`);
+  if (rule.required && !rule.required.test(copy)) fail('database', card, 'required corrected instruction is missing');
+  if (rule.forbidden && rule.forbidden.test(copy)) fail('database', card, 'a removed material instruction reappeared');
+}
+for (const [item, requiredSteps] of Object.entries({
+  Catabolyst: 'Claim from Foundry; equip and level to 30.',
+  'Revenant Prime': 'Check Arsenal and level to 30 if needed.',
+})) {
+  const card = data.owned.find((row) => row.item === item);
+  if (!card || card.steps !== requiredSteps) errors.push(`owned/${item}: corrected owned-card Steps regressed`);
+}
+for (const item of permanentRailjackItems) {
+  const card = userFacingCards.get(item);
+  if (!card) {
+    errors.push(`database/${item}: permanent Railjack Prime has no user-facing card`);
+    continue;
+  }
+  if (!card.primeDetails?.length) fail('database', card, 'permanent Railjack Prime lacks relic details');
+  for (const detail of card.primeDetails || []) {
+    if (data.meta.relicInventory && detail.ownedRelics === null) fail('database', card, `${detail.relic} owned count is null despite imported relic inventory`);
+    for (const value of [detail.relic, detail.rarity, detail.refinement, detail.relicSource]) {
+      if (!String(card.steps || '').includes(value)) fail('database', card, `Steps do not expose actionable relic detail: ${value}`);
+    }
+  }
+}
+
+if (!/arsenal\?\.primeDetails\?\.length\s*\?\s*primeDetails\(arsenal\)/.test(appSource)) {
+  errors.push('app/Acquire Next: queueCard does not expose matching Arsenal primeDetails');
+}
+if (/Owned relic counts were not retained in this snapshot/i.test(appSource) || strings(data).some(([, value]) => /Owned relic counts were not retained in this snapshot/i.test(value))) {
+  errors.push('app/Primes: DATA INCOMPLETE falsely says relic inventory was not retained');
 }
 
 for (const row of data.rank40) {
@@ -198,6 +261,26 @@ const dependencies = {
 for (const [item, base] of Object.entries(dependencies)) {
   const row = data.arsenal.find((entry) => entry.item === item);
   if (row?.state === 'Missing' && !parts(row).includes(`${base} (0/2)`)) fail('arsenal', row, `dependency must be ${base} (0/2)`);
+}
+
+const tempDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'warframe-clean-'));
+const tempData = path.join(tempDirectory, 'warframe.json');
+try {
+  fs.copyFileSync('data/warframe.json', tempData);
+  const runCleanup = () => spawnSync(process.execPath, ['scripts/clean_recommendations.js'], {
+    cwd: process.cwd(),
+    env: { ...process.env, WARFRAME_DATA_FILE: tempData },
+    encoding: 'utf8',
+  });
+  const first = runCleanup();
+  if (first.status !== 0) errors.push(`cleanup/idempotence: first pass failed: ${first.stderr.trim()}`);
+  const once = fs.readFileSync(tempData, 'utf8');
+  const second = runCleanup();
+  if (second.status !== 0) errors.push(`cleanup/idempotence: second pass failed: ${second.stderr.trim()}`);
+  const twice = fs.readFileSync(tempData, 'utf8');
+  if (once !== twice) errors.push('cleanup/idempotence: second cleanup pass changed generated JSON');
+} finally {
+  fs.rmSync(tempDirectory, { recursive: true, force: true });
 }
 
 if (errors.length) {
