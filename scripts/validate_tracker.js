@@ -215,6 +215,7 @@ for (const row of data.rank40) {
 }
 
 const cardByName = new Map([...data.queue, ...data.vaulted].map((row) => [row.item, row]));
+const ownedCardByName = new Map(data.owned.map((row) => [row.item, row]));
 const rank40ByName = new Map(data.rank40.map((row) => [row.item, row]));
 for (const row of data.arsenal) {
   const owned = row.owned === 'Yes';
@@ -235,6 +236,12 @@ for (const row of data.arsenal) {
   if (specializedTypes[row.item] && row.type !== specializedTypes[row.item]) fail('arsenal', row, `type ${row.type} should be ${specializedTypes[row.item]}`);
   const project = rank40ByName.get(row.item);
   if (project && row.state !== project.status) fail('arsenal', row, `rank-40 state ${row.state} disagrees with ${project.status}`);
+  const needsOwnedFollowup = !project && (row.pendingFoundry === 'Yes' || (owned && !mastered));
+  const hasOwnedFollowup = ownedCardByName.has(row.item);
+  if (needsOwnedFollowup !== hasOwnedFollowup) {
+    fail('arsenal', row, needsOwnedFollowup ? 'owned/unmastered item lacks an Owned / Foundry card' : 'stale Owned / Foundry card');
+  }
+  if (mastered && hasOwnedFollowup) fail('arsenal', row, 'mastered item must not appear in Owned / Foundry');
   validateGeneratedText('arsenal', row);
   validateQuantities('arsenal', row);
 }

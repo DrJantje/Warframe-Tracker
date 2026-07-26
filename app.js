@@ -1,8 +1,8 @@
 const [data, availability, nightwaveCatalog, liveStatus] = await Promise.all([
-  fetch('./data/warframe.json').then(check),
-  fetch('./data/availability.json').then(check),
-  fetch('./data/nightwave-items.json').then(check),
-  fetch('./data/live.json').then(check),
+  fetch('./data/warframe.json', { cache: 'no-store' }).then(check),
+  fetch('./data/availability.json', { cache: 'no-store' }).then(check),
+  fetch('./data/nightwave-items.json', { cache: 'no-store' }).then(check),
+  fetch('./data/live.json', { cache: 'no-store' }).then(check),
 ]).catch((error) => {
   document.querySelector('#app').innerHTML = `<div class="error">Tracker data could not be loaded.<br>${escapeHtml(error.message)}</div>`;
   throw error;
