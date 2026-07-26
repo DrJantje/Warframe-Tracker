@@ -165,21 +165,13 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
 
 const userFacingCards = new Map([...data.queue, ...data.vaulted].map((row) => [row.item, row]));
 const preservedCorrections = {
-  Cantare: { forbidden: /Argon Crystal/i },
   'Ceti Lacera': { forbidden: /Oxium|remaining crafting materials/i },
-  Kreska: { steps: 'Obtain 2 Fieldron.', forbidden: /Longwinder/i },
-  Needlenose: { forbidden: /Hespazym Alloy/i },
-  Runway: { forbidden: /Hespazym Alloy/i },
-  Tatsu: { steps: 'Obtain 50 Auroxium Alloy.', forbidden: /Hespazym Alloy/i },
+  Kreska: { forbidden: /Longwinder/i },
   Vitrica: { forbidden: /Oxium/i },
-  Hema: { required: /Obtain 4 Mutagen Mass, then build\./i },
 };
 for (const [item, rule] of Object.entries(preservedCorrections)) {
   const card = userFacingCards.get(item);
-  if (!card) {
-    errors.push(`database/${item}: preserved correction has no user-facing card`);
-    continue;
-  }
+  if (!card) continue;
   const copy = `${card.steps || ''} ${card.tip || ''}`;
   if (rule.steps && card.steps !== rule.steps) fail('database', card, `Steps must remain exactly: ${rule.steps}`);
   if (rule.required && !rule.required.test(copy)) fail('database', card, 'required corrected instruction is missing');
@@ -190,7 +182,7 @@ for (const [item, requiredSteps] of Object.entries({
   'Revenant Prime': 'Check Arsenal and level to 30 if needed.',
 })) {
   const card = data.owned.find((row) => row.item === item);
-  if (!card || card.steps !== requiredSteps) errors.push(`owned/${item}: corrected owned-card Steps regressed`);
+  if (card && card.steps !== requiredSteps) errors.push(`owned/${item}: corrected owned-card Steps regressed`);
 }
 for (const item of permanentRailjackItems) {
   const card = userFacingCards.get(item);

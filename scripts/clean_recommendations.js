@@ -230,6 +230,13 @@ function applyDynamicRecommendation(row) {
     row.steps = `Buy the ${row.item} Blueprint from the Market${materialText ? `, then obtain ${materialText}` : ''}.`;
   } else if (['Kreska', 'Tatsu'].includes(row.item) && materialText) {
     row.steps = `Obtain ${materialText}.`;
+  } else if (row.item === 'Cantare' && materialText) {
+    row.steps = `Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain ${materialText} last.`;
+    row.tip = 'Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.';
+  } else if (['Needlenose', 'Runway'].includes(row.item) && materialText) {
+    row.steps = `Buy the ${row.item} Board Blueprint from Roky and obtain ${materialText}. Assemble the K-Drive and level it to 30. No gilding is required.`;
+  } else if (row.item === 'Hema' && materialText) {
+    row.steps = `Replicate the Blueprint from completed Bio Lab research. Obtain ${materialText}, then build.`;
   } else if (row.item === 'Vitrica') {
     const needsBlueprint = parts.some((part) => normalizeText(part) === 'vitrica');
     const clauses = [];
