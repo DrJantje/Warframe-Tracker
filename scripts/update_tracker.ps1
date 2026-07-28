@@ -18,6 +18,8 @@ Push-Location $repo
 try {
   & $node.Source (Join-Path $repo 'scripts\clean_recommendations.js')
   if ($LASTEXITCODE -ne 0) { throw 'Recommendation cleanup failed.' }
+  & $node.Source (Join-Path $repo 'scripts\fix_consistency.js')
+  if ($LASTEXITCODE -ne 0) { throw 'Consistency repair failed.' }
   & $node.Source (Join-Path $repo 'scripts\validate_tracker.js')
   if ($LASTEXITCODE -ne 0) { throw 'Tracker validation failed. Nothing was uploaded.' }
 } finally {
