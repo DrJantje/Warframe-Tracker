@@ -1,0 +1,102 @@
+name: One-time tracker consistency repair
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-tracker-consistency.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch generator and current tracker data
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          importer_path = Path('scripts/import_export.py')
+          importer = importer_path.read_text(encoding='utf-8')
+          old_importer = '''def refresh_relic_quantities(text: str, totals: dict[str, int]) -> str:
+              pattern = re.compile(r"\\b((?:Lith|Meso|Neo|Axi)\\s+[A-Z]\\d+)\\s*[×x]\\s*\\d+\\b")
+              return pattern.sub(lambda match: f"{match.group(1)} ×{totals.get(match.group(1), 0)}", text)
+          '''
+          new_importer = '''def refresh_relic_quantities(text: str, totals: dict[str, int]) -> str:
+              suffix_pattern = re.compile(r"\\b((?:Lith|Meso|Neo|Axi)\\s+[A-Z]\\d+)\\s*[×x]\\s*\\d+\\b")
+              text = suffix_pattern.sub(lambda match: f"{match.group(1)} ×{totals.get(match.group(1), 0)}", text)
+              prefix_pattern = re.compile(
+                  r"\\b\\d+\\s+((?:Lith|Meso|Neo|Axi)\\s+[A-Z]\\d+)(\\s+(?:Intact|Exceptional|Flawless|Radiant))?\\s+(relics?)\\b",
+                  re.IGNORECASE,
+              )
+              return prefix_pattern.sub(
+                  lambda match: f"{totals.get(match.group(1), 0)} {match.group(1)}{match.group(2) or ''} {match.group(3)}",
+                  text,
+              )
+          '''
+          if old_importer not in importer:
+              raise SystemExit('Expected refresh_relic_quantities block was not found')
+          importer_path.write_text(importer.replace(old_importer, new_importer), encoding='utf-8')
+
+          cleaner_path = Path('scripts/clean_recommendations.js')
+          cleaner = cleaner_path.read_text(encoding='utf-8')
+          old_cleaner = '''  } else if (['Needlenose', 'Runway'].includes(row.item) && materialText) {
+              row.steps = `Buy the ${row.item} Board Blueprint from Roky and obtain ${materialText}. Assemble the K-Drive and level it to 30. No gilding is required.`;
+          } else if (row.item === 'Hema' && materialText) {
+          '''
+          new_cleaner = '''  } else if (kDriveBoards.has(row.item) && materialText) {
+              const needsBlueprint = parts.some((part) => normalizeText(part) === normalizeText(`${row.item} Blueprint`));
+              row.steps = needsBlueprint
+                ? `Buy the ${row.item} Board Blueprint from Roky and obtain ${materialText}. Assemble the K-Drive and level it to 30. No gilding is required.`
+                : `Obtain ${materialText}. Assemble the K-Drive and level it to 30. No gilding is required.`;
+              row.tip = needsBlueprint
+                ? 'Buy only the board blueprint still needed for mastery using Ventkids Standing.'
+                : 'The board blueprint is already owned; no gilding is required for mastery.';
+          } else if (row.item === 'Hema' && materialText) {
+          '''
+          if old_cleaner not in cleaner:
+              raise SystemExit('Expected K-Drive recommendation block was not found')
+          cleaner_path.write_text(cleaner.replace(old_cleaner, new_cleaner), encoding='utf-8')
+
+          data_path = Path('data/warframe.json')
+          data = json.loads(data_path.read_text(encoding='utf-8'))
+          neo_t11 = sum(
+              int(count)
+              for name, count in data.get('meta', {}).get('relicInventory', {}).items()
+              if name == 'Neo T11' or name.startswith('Neo T11 ')
+          )
+          if neo_t11 <= 0:
+              raise SystemExit('Neo T11 inventory count was not found')
+
+          for section in ('queue', 'vaulted', 'arsenal'):
+              for row in data.get(section, []):
+                  if row.get('item') == 'Needlenose':
+                      row['steps'] = 'Obtain 10 Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.'
+                      row['tip'] = 'The Needlenose Board Blueprint is already owned; no gilding is required for mastery.'
+                  elif row.get('item') == 'Trumna Prime':
+                      row['steps'] = f'Open the {neo_t11} Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first.'
+
+          data_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          PY
+
+          node scripts/clean_recommendations.js
+          node scripts/validate_tracker.js
+
+      - name: Commit repaired files
+        shell: bash
+        run: |
+          rm .github/workflows/fix-tracker-consistency.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/import_export.py scripts/clean_recommendations.js data/warframe.json .github/workflows/fix-tracker-consistency.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "Fix K-Drive and relic count recommendations"
+            git push origin main
+          fi
