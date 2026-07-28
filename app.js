@@ -8,9 +8,38 @@ const [data, availability, nightwaveCatalog, liveStatus] = await Promise.all([
   throw error;
 });
 
+applyConsistencyFixes(data);
+
 function check(response) {
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.json();
+}
+
+function applyConsistencyFixes(payload) {
+  const relicCount = (relic) => Object.entries(payload.meta?.relicInventory || {})
+    .filter(([name]) => name === relic || name.startsWith(`${relic} `))
+    .reduce((total, [, count]) => total + (Number.isFinite(count) ? count : 0), 0);
+  const remainingMaterial = (missing, material) => {
+    const escaped = material.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const match = String(missing || '').match(new RegExp(`${escaped} \\(([\\d,]+)\\/([\\d,]+)\\)`));
+    return match ? Number(match[2].replaceAll(',', '')) - Number(match[1].replaceAll(',', '')) : null;
+  };
+
+  for (const section of ['queue', 'vaulted', 'arsenal']) {
+    for (const row of payload[section] || []) {
+      if (row.item === 'Needlenose') {
+        const remaining = remainingMaterial(row.missing, 'Hespazym Alloy');
+        if (remaining !== null && remaining > 0 && !/Needlenose Blueprint/.test(row.missing || '')) {
+          row.steps = `Obtain ${remaining.toLocaleString('en-US')} Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.`;
+          row.tip = 'The Needlenose Board Blueprint is already owned; no gilding is required for mastery.';
+        }
+      }
+      if (row.item === 'Trumna Prime') {
+        const count = relicCount('Neo T11');
+        if (count > 0) row.steps = `Open the ${count.toLocaleString('en-US')} Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first.`;
+      }
+    }
+  }
 }
 
 const UNVERIFIED = 'Acquisition route not verified yet';
@@ -83,7 +112,7 @@ function queueCard(item, material = false) {
   const nightwave = nightwaveState(item);
   const labels = { available: 'AVAILABLE THIS WEEK', unknown: 'AVAILABILITY UNKNOWN', inactive: 'NOT AVAILABLE THIS WEEK' };
   const nightwavePill = nightwave ? `<span class="pill ${nightwave === 'available' ? 'green' : nightwave === 'inactive' ? 'violet' : 'amber'}">${labels[nightwave]}</span>` : '';
-  const activeNow = item.liveMatches?.length ? `<span class="pill green">ACTIVE NOW</span>` : '';
+  const activeNow = item.liveMatches?.length ? '<span class="pill green">ACTIVE NOW</span>' : '';
   const live = item.liveMatches?.length ? `<p class="steps">${escapeHtml(item.liveMatches.join(' · '))}</p>` : '';
   const relics = arsenal?.primeDetails?.length ? primeDetails(arsenal) : '';
   return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}${activeNow}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${live}${steps}${relics}${tip}${source(item.source)}</article>`;
