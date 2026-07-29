@@ -28,6 +28,26 @@ const nightwaveItems = new Set(nightwaveCatalog.items.map((entry) => entry.item)
 const permanentRailjackItems = new Set(primeRules.permanentRailjackItems);
 const activeResurgenceItems = new Set(live.primeResurgence.status === 'verified' ? live.primeResurgence.items : []);
 const nightwaveTip = 'Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.';
+const practicalPriorityOverrides = new Map([
+  ['Itzal', 1],
+  ['Scourge', 2],
+  ['Hema', 3],
+  ['Quassus Prime', 10],
+  ['Trumna Prime', 11],
+  ['Heliocor', 20],
+  ['Simulor', 21],
+  ['Cantare', 30],
+  ['Evensong', 31],
+  ['Harmony', 32],
+  ['Seer', 40],
+  ['Pennant', 41],
+  ['Miter', 42],
+  ['Bad Baby', 50],
+  ['Feverspine', 51],
+  ['Runway', 52],
+  ['Acceltra', 60],
+  ['Akarius', 61],
+]);
 const sourceOverrides = {
   Hema: 'https://wiki.warframe.com/w/Hema',
   Corufell: 'https://wiki.warframe.com/w/Corufell',
@@ -142,6 +162,29 @@ function materialNeeds(row) {
     const required = Number(match[3].replaceAll(',', ''));
     return { name: match[1], owned, required, remaining: Math.max(0, required - owned) };
   }).filter(Boolean);
+}
+
+function practicalPriority(row) {
+  if (practicalPriorityOverrides.has(row.item)) return practicalPriorityOverrides.get(row.item);
+
+  const easeTier = Number.parseInt(String(row.ease || '9'), 10) || 9;
+  const missing = missingParts(row);
+  const route = String(row.route || '');
+  let score = easeTier * 100 + missing.length * 5;
+
+  if (/Clan Dojo|Market Blueprint|Cephalon Simaris Offerings/i.test(route)) score -= 35;
+  if (/pity shop|Otak|Yonta|Ordis|Acrithis/i.test(route)) score -= 15;
+  if (/Elite Sanctuary Onslaught/i.test(route)) score += 350;
+  if (/Daily Tribute|anniversary|Limited event|Recurring operation/i.test(route)) score += 500;
+  if (/Invasion reward rotation|Balor Fomorian|Razorback Armada/i.test(route)) score += 250;
+  if (/Lich|Sister of Parvos|Technocyte Coda/i.test(route)) score += 150;
+
+  const materialRows = materialNeeds(row);
+  if (materialRows.length === missing.length && materialRows.length) {
+    const completion = materialRows.reduce((sum, part) => sum + part.owned / Math.max(part.required, 1), 0) / materialRows.length;
+    score -= Math.round(completion * 25);
+  }
+  return score;
 }
 
 function naturalList(values) {
@@ -516,7 +559,7 @@ data.arsenal = data.arsenal.map((row) => {
 
 function cardFromArsenal(row) {
   const old = existingCards.get(row.item) || {};
-  return clean({
+  const card = clean({
     ease: row.ease,
     item: row.item,
     type: row.type,
@@ -528,12 +571,14 @@ function cardFromArsenal(row) {
     source: row.source,
     vaulted: row.vaulted,
   });
+  card.practicalPriority = practicalPriority(card);
+  return card;
 }
 
 const missingRows = data.arsenal.filter((row) => row.state === 'Missing');
 const cards = missingRows.map(cardFromArsenal);
 data.vaulted = cards.filter((row) => row.primeStatus || row.vaulted === 'Yes').sort((a, b) => a.item.localeCompare(b.item));
-data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes').sort((a, b) => a.ease.localeCompare(b.ease) || a.item.localeCompare(b.item));
+data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes').sort((a, b) => a.practicalPriority - b.practicalPriority || a.item.localeCompare(b.item));
 data.owned = data.owned.map((row) => {
   const next = { ...row, source: normalizeSource(row.source) };
   const weapon = ['primary', 'secondary', 'melee', 'archgun', 'archmelee'].includes(next.type);

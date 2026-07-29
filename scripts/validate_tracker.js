@@ -143,7 +143,7 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     validateQuantities(collection, row);
     const positiveKDriveInstruction = /assemble the K-Drive|K-Drive Board|level it to 30\. No gilding/i.test(`${row.route || ''} ${row.steps || ''}`);
     if (positiveKDriveInstruction && !kDriveBoards.has(row.item)) fail(collection, row, 'K-Drive instruction on non-K-Drive item');
-    if (nightwaveItems.has(row.item) && row.availabilityGroup !== 'nightwave') fail(collection, row, 'Nightwave item outside Nightwave tab');
+    if (collection !== 'owned' && nightwaveItems.has(row.item) && row.availabilityGroup !== 'nightwave') fail(collection, row, 'Nightwave item outside Nightwave tab');
     if (collection === 'vaulted' && !validPrimeStatuses.has(row.primeStatus)) fail(collection, row, `invalid Prime status ${row.primeStatus || '(blank)'}`);
     if (kDriveBoards.has(row.item) && !craftingMaterials(row).length && /listed materials/i.test(`${row.steps || ''} ${row.tip || ''}`)) {
       fail(collection, row, 'K-Drive card refers to listed materials when Missing contains none');
@@ -160,6 +160,16 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
         fail(collection, row, `owned advice does not match ${row.type} item type`);
       }
     }
+  }
+}
+
+for (const row of data.queue) {
+  if (!Number.isFinite(row.practicalPriority)) fail('queue', row, 'missing numeric practicalPriority');
+}
+for (let index = 1; index < data.queue.length; index += 1) {
+  if (data.queue[index - 1].practicalPriority > data.queue[index].practicalPriority) {
+    errors.push(`queue order: ${data.queue[index].item} is ahead of an easier practical priority`);
+    break;
   }
 }
 

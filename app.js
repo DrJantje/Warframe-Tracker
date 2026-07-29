@@ -71,7 +71,8 @@ const nightwaveQueue = data.queue.filter(isNightwave).sort((a, b) => {
   const order = { available: 0, unknown: 1, inactive: 2 };
   return order[nightwaveState(a)] - order[nightwaveState(b)] || a.item.localeCompare(b.item);
 });
-const ordinaryQueue = data.queue.filter((item) => !isNightwave(item));
+const practicalOrder = (a, b) => (a.practicalPriority ?? Number.MAX_SAFE_INTEGER) - (b.practicalPriority ?? Number.MAX_SAFE_INTEGER) || a.item.localeCompare(b.item);
+const ordinaryQueue = data.queue.filter((item) => !isNightwave(item)).sort(practicalOrder);
 const verifiedQueue = ordinaryQueue.filter((item) => item.route !== UNVERIFIED);
 const researchQueue = ordinaryQueue.filter((item) => item.route === UNVERIFIED);
 const actionableQueue = verifiedQueue;
