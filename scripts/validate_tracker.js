@@ -11,7 +11,8 @@ const UNVERIFIED = 'Acquisition route not verified yet';
 const nightwaveItems = new Set(nightwaveCatalog.items.map((entry) => entry.item));
 const kDriveBoards = new Set(['Bad Baby', 'Feverspine', 'Flatbelly', 'Needlenose', 'Runway']);
 const permanentRailjackItems = new Set(primeRules.permanentRailjackItems);
-const validPrimeStatuses = new Set(['RESURGENCE ACTIVE', 'OWNED RELICS', 'PERMANENT SPECIAL RELICS', 'TRADE ONLY', 'DATA INCOMPLETE']);
+const nonRelicPrimeItems = new Set(['Gotva Prime', 'War Prime']);
+const validPrimeStatuses = new Set(['RESURGENCE ACTIVE', 'OWNED RELICS', 'PERMANENT SPECIAL RELICS', 'CURRENT RELICS', 'TRADE ONLY', 'DATA INCOMPLETE']);
 const validRank40Statuses = new Set(['Active to 40', 'Confirmed at 40', 'Parked at 30', 'Current rank unknown']);
 const specializedTypes = {
   Bonewidow: 'necramech',
@@ -56,6 +57,14 @@ const specializedTypes = {
   Runway: 'modular',
 };
 const errors = [];
+const relicExactCounts = new Map();
+const relicBaseTotals = new Map();
+for (const [name, rawCount] of Object.entries(data.meta.relicInventory || {})) {
+  const count = Number(rawCount) || 0;
+  relicExactCounts.set(name.toLowerCase(), count);
+  const base = name.replace(/\s+(?:Intact|Exceptional|Flawless|Radiant)$/i, '').toLowerCase();
+  relicBaseTotals.set(base, (relicBaseTotals.get(base) || 0) + count);
+}
 
 function fail(collection, row, message) {
   errors.push(`${collection}/${row.item}: ${message}`);
@@ -66,6 +75,23 @@ function strings(value, path = '') {
   if (Array.isArray(value)) return value.flatMap((child, index) => strings(child, `${path}[${index}]`));
   if (value && typeof value === 'object') return Object.entries(value).flatMap(([key, child]) => strings(child, path ? `${path}.${key}` : key));
   return [];
+}
+
+function validateRelicQuantities(collection, row) {
+  const copy = `${row.steps || ''} ${row.tip || ''}`;
+  for (const match of copy.matchAll(/\b((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+)\s*[×x]\s*(\d+)\b/gi)) {
+    const expected = relicBaseTotals.get(match[1].toLowerCase()) || 0;
+    if (Number(match[2]) !== expected) fail(collection, row, `${match[1]} count is ${match[2]}; export says ${expected}`);
+  }
+  for (const match of copy.matchAll(/\b(\d+)\s+((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+\s+(?:Intact|Exceptional|Flawless|Radiant))\s+relics?\b/gi)) {
+    const expected = relicExactCounts.get(match[2].toLowerCase()) || 0;
+    if (Number(match[1]) !== expected) fail(collection, row, `${match[2]} count is ${match[1]}; export says ${expected}`);
+  }
+  for (const match of copy.matchAll(/\b((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+)\s+(?:Common|Uncommon|Rare)\s+\((?:(\d+)\s+held|(none visible in export))\)/gi)) {
+    const expected = relicBaseTotals.get(match[1].toLowerCase()) || 0;
+    const shown = match[3] ? 0 : Number(match[2]);
+    if (shown !== expected) fail(collection, row, `${match[1]} held count is ${shown}; export says ${expected}`);
+  }
 }
 
 function parts(row) {
@@ -141,6 +167,7 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     if (new Set(normalizedParts).size !== normalizedParts.length) fail(collection, row, 'duplicated component text should be a quantity');
     validateGeneratedText(collection, row);
     validateQuantities(collection, row);
+    validateRelicQuantities(collection, row);
     const positiveKDriveInstruction = /assemble the K-Drive|K-Drive Board|level it to 30\. No gilding/i.test(`${row.route || ''} ${row.steps || ''}`);
     if (positiveKDriveInstruction && !kDriveBoards.has(row.item)) fail(collection, row, 'K-Drive instruction on non-K-Drive item');
     if (collection !== 'owned' && nightwaveItems.has(row.item) && row.availabilityGroup !== 'nightwave') fail(collection, row, 'Nightwave item outside Nightwave tab');
@@ -174,6 +201,15 @@ for (let index = 1; index < data.queue.length; index += 1) {
 }
 
 const userFacingCards = new Map([...data.queue, ...data.vaulted].map((row) => [row.item, row]));
+for (const row of data.queue) {
+  const relicCopy = `${row.route || ''} ${row.steps || ''} ${row.tip || ''}`;
+  if (/\brelics?\b|Void Fissures?|radshare|\bPrime bundled companion weapon/i.test(relicCopy) || row.primeDetails?.length) {
+    fail('queue', row, 'relic-acquired target must be placed in Primes / Relics');
+  }
+  if (/ Prime$/.test(row.item) && !nonRelicPrimeItems.has(row.item)) {
+    fail('queue', row, 'Prime target must be placed in Primes / Relics unless explicitly classified as non-relic');
+  }
+}
 const preservedCorrections = {
   'Ceti Lacera': { forbidden: /Oxium|remaining crafting materials/i },
   Kreska: { forbidden: /Longwinder/i },
@@ -254,6 +290,7 @@ for (const row of data.arsenal) {
   if (mastered && hasOwnedFollowup) fail('arsenal', row, 'mastered item must not appear in Owned / Foundry');
   validateGeneratedText('arsenal', row);
   validateQuantities('arsenal', row);
+  validateRelicQuantities('arsenal', row);
 }
 
 for (const item of nightwaveItems) {

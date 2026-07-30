@@ -172,7 +172,7 @@ function content() {
     const rows = data.vaulted.filter((x) => String(x.missing || '').trim()).filter(matches);
     return cardsAndMore(rows, rows.map((x) => {
       const active = x.liveMatches?.length ? '<span class="pill green">ACTIVE NOW</span>' : '';
-      const statusClass = x.primeStatus === 'RESURGENCE ACTIVE' || x.primeStatus === 'OWNED RELICS' || x.primeStatus === 'PERMANENT SPECIAL RELICS' ? 'green' : 'violet';
+      const statusClass = x.primeStatus === 'RESURGENCE ACTIVE' || x.primeStatus === 'OWNED RELICS' || x.primeStatus === 'PERMANENT SPECIAL RELICS' || x.primeStatus === 'CURRENT RELICS' ? 'green' : 'violet';
       return `<article class="item-card muted-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><div>${active}<span class="pill ${statusClass}">${escapeHtml(x.primeStatus || 'DATA INCOMPLETE')}</span></div></div><div class="need"><span>MISSING</span>${escapeHtml(x.missing)}</div><p class="route">${escapeHtml(x.route)}</p><p class="steps">${escapeHtml(x.steps)}</p>${primeDetails(x)}<details><summary>Farm tip</summary><p>${escapeHtml(x.tip)}</p></details>${source(x.source)}</article>`;
     }));
   }

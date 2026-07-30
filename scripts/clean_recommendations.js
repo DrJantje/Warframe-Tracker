@@ -48,6 +48,8 @@ const practicalPriorityOverrides = new Map([
   ['Acceltra', 60],
   ['Akarius', 61],
 ]);
+const usesRelics = (row) => /Void Relics?|\bPrime bundled companion weapon/i.test(`${row.route || ''} ${row.steps || ''}`)
+  || Boolean(row.primeDetails?.length);
 const sourceOverrides = {
   Hema: 'https://wiki.warframe.com/w/Hema',
   Corufell: 'https://wiki.warframe.com/w/Corufell',
@@ -372,6 +374,8 @@ function applyPrimeAvailability(row) {
     catalog = primeRules.permanentRailjackRelics;
   } else if (row.item === 'Kavasa Prime Kubrow Collar' || row.vaulted === 'Yes') {
     row.primeStatus = data.meta.relicInventory ? 'TRADE ONLY' : 'DATA INCOMPLETE';
+  } else if (usesRelics(row) && row.vaulted !== 'Yes') {
+    row.primeStatus = 'CURRENT RELICS';
   } else {
     delete row.primeStatus;
   }
@@ -512,6 +516,8 @@ data.rank40 = data.rank40.map((row) => {
   applySpecializedType(normalized);
   if (confirmedAt40.has(row.item)) {
     normalized.status = 'Confirmed at 40';
+    normalized.owned = 'Yes';
+    normalized.mastered = 'Yes';
     normalized.rankRule = 'Rank 40 and five total Forma explicitly confirmed.';
     normalized.action = 'Complete — no action needed.';
     normalized.formaPlan = 'Five total Forma complete';
@@ -538,6 +544,9 @@ data.arsenal = data.arsenal.map((row) => {
   if (!project) return row;
   const next = { ...row, state: project.status, missing: '', route: project.status };
   if (project.status === 'Confirmed at 40') {
+    next.owned = 'Yes';
+    next.mastered = 'Yes';
+    next.complete = 'Yes';
     next.targetRank = '40';
     next.rankRule = project.rankRule;
     next.ease = '1 — Complete';
@@ -577,8 +586,8 @@ function cardFromArsenal(row) {
 
 const missingRows = data.arsenal.filter((row) => row.state === 'Missing');
 const cards = missingRows.map(cardFromArsenal);
-data.vaulted = cards.filter((row) => row.primeStatus || row.vaulted === 'Yes').sort((a, b) => a.item.localeCompare(b.item));
-data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes').sort((a, b) => a.practicalPriority - b.practicalPriority || a.item.localeCompare(b.item));
+data.vaulted = cards.filter((row) => row.primeStatus || row.vaulted === 'Yes' || usesRelics(row)).sort((a, b) => a.item.localeCompare(b.item));
+data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes' && !usesRelics(row)).sort((a, b) => a.practicalPriority - b.practicalPriority || a.item.localeCompare(b.item));
 data.owned = data.owned.map((row) => {
   const next = { ...row, source: normalizeSource(row.source) };
   const weapon = ['primary', 'secondary', 'melee', 'archgun', 'archmelee'].includes(next.type);

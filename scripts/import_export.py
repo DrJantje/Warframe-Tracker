@@ -102,9 +102,41 @@ def relic_totals(parsed: dict[str, object]) -> dict[str, int]:
     return totals
 
 
-def refresh_relic_quantities(text: str, totals: dict[str, int]) -> str:
-    pattern = re.compile(r"\b((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+)\s*[×x]\s*\d+\b")
-    return pattern.sub(lambda match: f"{match.group(1)} ×{totals.get(match.group(1), 0)}", text)
+def relic_exact_counts(parsed: dict[str, object]) -> dict[str, int]:
+    exact: dict[str, int] = {}
+    for relic in parsed.get("inventoryRelics.json", []):
+        name = relic.get("name", "")
+        exact[name] = exact.get(name, 0) + int(relic.get("amountOwned") or 0)
+    return exact
+
+
+def refresh_relic_quantities(text: str, totals: dict[str, int], exact: dict[str, int]) -> str:
+    multiplied = re.compile(r"\b((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+)\s*[×x]\s*\d+\b")
+    text = multiplied.sub(lambda match: f"{match.group(1)} ×{totals.get(match.group(1), 0)}", text)
+
+    exact_relic = re.compile(
+        r"\b\d+\s+((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+\s+(?:Intact|Exceptional|Flawless|Radiant))\s+relics?\b",
+        re.IGNORECASE,
+    )
+
+    def replace_exact(match: re.Match) -> str:
+        name = match.group(1)
+        count = exact.get(name, 0)
+        return f"{count} {name} {'relic' if count == 1 else 'relics'}"
+
+    text = exact_relic.sub(replace_exact, text)
+
+    held = re.compile(
+        r"\b((?:Lith|Meso|Neo|Axi)\s+[A-Z]\d+)\s+(Common|Uncommon|Rare)\s+\((?:\d+\s+held|none visible in export)\)",
+        re.IGNORECASE,
+    )
+
+    def replace_held(match: re.Match) -> str:
+        count = totals.get(match.group(1), 0)
+        availability = f"{count} held" if count else "none visible in export"
+        return f"{match.group(1)} {match.group(2)} ({availability})"
+
+    return held.sub(replace_held, text)
 
 
 def refresh_step_material_quantities(text: str, missing: str) -> str:
@@ -196,6 +228,7 @@ def queue_row(row: dict) -> dict:
 def update(folder: Path) -> None:
     export, manifest, parsed = load_complete_export(folder)
     relics = relic_totals(parsed)
+    exact_relics = relic_exact_counts(parsed)
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
     settled_at_40 = set(overrides.get("confirmedAt40", []))
@@ -209,6 +242,7 @@ def update(folder: Path) -> None:
 
     old_queue = {row["item"]: row for row in payload["queue"]}
     old_vaulted = {row["item"]: row for row in payload["vaulted"]}
+    old_cards = {**old_queue, **old_vaulted}
     old_owned = {row["item"]: row for row in payload["owned"]}
     changes = []
 
@@ -221,9 +255,9 @@ def update(folder: Path) -> None:
         row["owned"], row["mastered"], row["pendingFoundry"] = yes(owned), yes(mastered), yes(pending)
         row["complete"] = yes(owned or mastered)
         if name in settled_at_40:
-            row.update(state="Confirmed at 40", targetRank="40", rankRule="Rank 40 and five total Forma explicitly confirmed.", missing="", ease="1 — Complete", route="Confirmed at 40")
+            row.update(owned="Yes", mastered="Yes", complete="Yes", state="Confirmed at 40", targetRank="40", rankRule="Rank 40 and five total Forma explicitly confirmed.", missing="", ease="1 — Complete", route="Confirmed at 40")
             if name in rank40_by_name:
-                rank40_by_name[name].update(status="Confirmed at 40", rankRule="Rank 40 and five total Forma explicitly confirmed.", action="Complete — no action needed.", formaPlan="Five total Forma complete")
+                rank40_by_name[name].update(owned="Yes", mastered="Yes", status="Confirmed at 40", rankRule="Rank 40 and five total Forma explicitly confirmed.", action="Complete — no action needed.", formaPlan="Five total Forma complete")
         elif name in rank40_by_name:
             project = rank40_by_name[name]
             project["owned"], project["mastered"] = yes(owned), yes(mastered)
@@ -255,11 +289,11 @@ def update(folder: Path) -> None:
             row.update(state="Missing", rankRule="", missing=refreshed_missing)
             if "steps" in row:
                 row["steps"] = remove_stale_material_clauses(row["steps"], before[3], row["missing"])
-                row["steps"] = refresh_relic_quantities(row["steps"], relics)
+                row["steps"] = refresh_relic_quantities(row["steps"], relics, exact_relics)
                 row["steps"] = refresh_step_material_quantities(row["steps"], row["missing"])
             if "tip" in row:
                 row["tip"] = remove_stale_material_clauses(row["tip"], before[3], row["missing"])
-                row["tip"] = refresh_relic_quantities(row["tip"], relics)
+                row["tip"] = refresh_relic_quantities(row["tip"], relics, exact_relics)
             if "steps" in row and name == "Quassus Prime" and "Quassus Prime Blade (1/2)" in row["missing"]:
                 row["steps"] = row["steps"].replace("Two Blades are still needed.", "One Blade is still needed.")
         if row["state"] != "Missing" and before[3]:
@@ -275,7 +309,7 @@ def update(folder: Path) -> None:
         return row["owned"] == "No" and row["mastered"] == "No"
 
     payload["queue"] = [
-        old_queue.get(row["item"], queue_row(row))
+        old_cards.get(row["item"], queue_row(row))
         for row in payload["arsenal"]
         if missing_item(row) and row["vaulted"] == "No" and row["item"] not in rank40_names
     ]
@@ -286,13 +320,13 @@ def update(folder: Path) -> None:
         row["missing"] = arsenal_by_name[row["item"]]["missing"]
         row["steps"] = remove_stale_material_clauses(row.get("steps", ""), old_missing, row["missing"])
         row["tip"] = remove_stale_material_clauses(row.get("tip", ""), old_missing, row["missing"])
-        row["steps"] = refresh_relic_quantities(row.get("steps", ""), relics)
+        row["steps"] = refresh_relic_quantities(row.get("steps", ""), relics, exact_relics)
         row["steps"] = refresh_step_material_quantities(row["steps"], row["missing"])
-        row["tip"] = refresh_relic_quantities(row.get("tip", ""), relics)
+        row["tip"] = refresh_relic_quantities(row.get("tip", ""), relics, exact_relics)
         if row["item"] == "Quassus Prime" and "Quassus Prime Blade (1/2)" in row["missing"]:
             row["steps"] = row["steps"].replace("Two Blades are still needed.", "One Blade is still needed.")
     payload["vaulted"] = [
-        old_vaulted.get(row["item"], queue_row(row))
+        old_cards.get(row["item"], queue_row(row))
         for row in payload["arsenal"]
         if (
             missing_item(row)
@@ -307,9 +341,9 @@ def update(folder: Path) -> None:
         row["missing"] = arsenal_by_name[row["item"]]["missing"]
         row["steps"] = remove_stale_material_clauses(row.get("steps", ""), old_missing, row["missing"])
         row["tip"] = remove_stale_material_clauses(row.get("tip", ""), old_missing, row["missing"])
-        row["steps"] = refresh_relic_quantities(row.get("steps", ""), relics)
+        row["steps"] = refresh_relic_quantities(row.get("steps", ""), relics, exact_relics)
         row["steps"] = refresh_step_material_quantities(row["steps"], row["missing"])
-        row["tip"] = refresh_relic_quantities(row.get("tip", ""), relics)
+        row["tip"] = refresh_relic_quantities(row.get("tip", ""), relics, exact_relics)
     refreshed_owned = []
     for row in payload["arsenal"]:
         if row["item"] in rank40_names or not (
