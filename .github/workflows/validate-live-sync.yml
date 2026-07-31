@@ -19,8 +19,10 @@ jobs:
       - name: Check out tracker
         uses: actions/checkout@v4
 
-      - name: Check JavaScript syntax
-        run: node --check app.js
+      - name: Check JavaScript module syntax
+        run: |
+          cp app.js /tmp/warframe-tracker-app.mjs
+          node --check /tmp/warframe-tracker-app.mjs
 
       - name: Validate sync schema
         run: |
