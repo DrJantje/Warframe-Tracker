@@ -1,0 +1,41 @@
+name: Validate live account sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'app.js'
+      - 'data/account-sync.json'
+      - '.github/workflows/validate-live-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tracker
+        uses: actions/checkout@v4
+
+      - name: Check JavaScript syntax
+        run: node --check app.js
+
+      - name: Validate sync schema
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const sync = JSON.parse(fs.readFileSync('data/account-sync.json', 'utf8'));
+          if (sync.schemaVersion !== 1) throw new Error('Unsupported account-sync schemaVersion');
+          if (!Array.isArray(sync.items)) throw new Error('account-sync items must be an array');
+          const names = new Set();
+          for (const row of sync.items) {
+            if (!row || typeof row.item !== 'string' || !row.item.trim()) throw new Error('Every sync row needs an item name');
+            if (names.has(row.item)) throw new Error(`Duplicate sync item: ${row.item}`);
+            names.add(row.item);
+            if (row.owned !== true && row.mastered !== true) throw new Error(`Sync row has no positive evidence: ${row.item}`);
+            if (row.mastered === true && row.owned !== true) throw new Error(`Mastered sync row must also be owned: ${row.item}`);
+          }
+          console.log(`Validated ${sync.items.length} live account-sync rows.`);
+          NODE
