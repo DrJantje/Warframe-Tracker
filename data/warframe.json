@@ -1,69 +1,84 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-07-29",
-    "exportVerifiedAt": "2026-07-29 17:56:13 PDT",
+    "snapshotDate": "2026-07-31",
+    "exportVerifiedAt": "2026-07-31 20:51:27 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 1660940,
-        "modified": "2026-07-29T17:42:46.510504-07:00",
-        "sha256": "e901d2aef79c49e57de6fc0852b48dd30d06e9d41917cf132d617e35ab2cff7a"
+        "bytes": 2168006,
+        "modified": "2026-07-31T20:51:26.700396-07:00",
+        "sha256": "d4b622274f24ba993bcd5c08205d0bda8a0986796154de914b91cd8f7733e810"
       },
       "inventoryArcanes.json": {
-        "bytes": 91290,
-        "modified": "2026-07-29T17:42:47.273542-07:00",
-        "sha256": "63e2f94d3a4d583bb9e020634c8f31f96a514e8f364000c9a4ecd65734744871"
+        "bytes": 91808,
+        "modified": "2026-07-31T18:52:48.433549-07:00",
+        "sha256": "2d7e4308a538e50ca0a5925929364ebb849c135a2baa8ab9557e129ca80f7b22"
       },
       "inventoryMisc.json": {
-        "bytes": 19622,
-        "modified": "2026-07-29T17:42:47.434757-07:00",
-        "sha256": "017d2d26c8ad5275a4c0c789427e49e483f4aafc472f52035621e2e2d32a74ff"
+        "bytes": 24911,
+        "modified": "2026-07-31T20:51:26.702909-07:00",
+        "sha256": "993004a2f8e905c40c848b8f7ebaea626287a3c9cf7118ed98d226b73554b333"
       },
       "inventoryMods.json": {
-        "bytes": 559824,
-        "modified": "2026-07-29T17:42:47.109130-07:00",
-        "sha256": "82a1d6f3d748ba084787dcce376a90d79a6b27ee8b98692eda272717f241e9ca"
+        "bytes": 564161,
+        "modified": "2026-07-31T18:52:48.269503-07:00",
+        "sha256": "e20076e33d3532afa4c7e4e4c1a3eb98c167fe2fd3219405ab90ad7efc8b4427"
       },
       "inventoryParts.json": {
-        "bytes": 47791,
-        "modified": "2026-07-29T17:42:46.668223-07:00",
-        "sha256": "4d4d948a6571f79f3e0d010a9ea56ab46bc1875f8f3b20698c9e654947aa3291"
+        "bytes": 62484,
+        "modified": "2026-07-31T20:51:26.701401-07:00",
+        "sha256": "ce635dd24ce54d5223c07cd7c441f39016c783827e5315c6b8f68ba34ecb217c"
       },
       "inventoryRelics.json": {
-        "bytes": 26781,
-        "modified": "2026-07-29T17:42:46.826416-07:00",
-        "sha256": "35ccc79e42262a92d9736f9fbadf0d19345a8bdc6f5ecd08f6b970680012fcea"
+        "bytes": 33437,
+        "modified": "2026-07-31T20:51:26.701905-07:00",
+        "sha256": "1dd4369655f7a83943b365e6c39d031c9501e8f1ef4aab421356fab5a05eafe2"
       },
       "inventorySets.json": {
-        "bytes": 134058,
-        "modified": "2026-07-29T17:42:47.777666-07:00",
-        "sha256": "d6968b9b4e33d8fd609ade9674866564aa54ff0f549c6876cf62bbe459a02a07"
+        "bytes": 181441,
+        "modified": "2026-07-31T20:51:26.704926-07:00",
+        "sha256": "fab2bac627997aa8ca66c50bccc76e487b6545252de2dcaf66acb9bb79cedd8a"
       },
       "rivens.json": {
         "bytes": 88391,
-        "modified": "2026-07-29T17:42:47.781204-07:00",
+        "modified": "2026-07-31T18:52:48.642415-07:00",
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
     "importChanges": [
       {
-        "item": "Kreska",
+        "item": "Ambassador",
         "before": [
           "No",
           "No",
           "No",
-          "Fieldron (3/10)"
+          "Ambassador Blueprint; Ambassador Stock"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Fieldron (5/10)"
+          "Ambassador Blueprint"
         ]
       },
       {
-        "item": "Needlenose",
+        "item": "Ceramic Dagger",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Citrine",
         "before": [
           "Yes",
           "No",
@@ -71,10 +86,130 @@
           ""
         ],
         "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Feverspine",
+        "before": [
           "No",
           "No",
           "No",
-          "Needlenose Blueprint; Hespazym Alloy (10/40)"
+          "Feverspine Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Frost",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Heliocor",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Heliocor Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Heliocor Blueprint; Gammacor"
+        ]
+      },
+      {
+        "item": "Kompressa",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Kompressa Barrel; Kompressa Blueprint; Kompressa Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Kompressa Barrel; Kompressa Receiver"
+        ]
+      },
+      {
+        "item": "Kreska",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Fieldron (5/10)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Fieldron (7/10)"
+        ]
+      },
+      {
+        "item": "Miter",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Miter Chassis; Miter Handle"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Plasma Sword",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Scyotid",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Scyotid Barrel (1/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Scyotid Barrel (0/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)"
         ]
       },
       {
@@ -83,13 +218,28 @@
           "No",
           "No",
           "No",
-          "Cryotic (10000/30000)"
+          "Cryotic (11000/30000)"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Cryotic (11000/30000)"
+          "Cryotic (11153/30000); Magistar"
+        ]
+      },
+      {
+        "item": "Telos Boltace",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Telos Boltace (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
         ]
       }
     ],
@@ -98,7 +248,7 @@
       "confirmedAt40": 7,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 309
+      "missing": 306
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -111,16 +261,15 @@
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
       "Lith G14 Intact": 19,
-      "Lith K12 Intact": 23,
+      "Lith K12 Intact": 24,
       "Lith K12 Radiant": 6,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
-      "Lith Q2 Intact": 3,
+      "Lith Q2 Intact": 1,
       "Lith Q3 Intact": 9,
-      "Lith S18 Exceptional": 1,
-      "Lith S18 Intact": 5,
+      "Lith S18 Intact": 3,
       "Lith T14 Intact": 10,
       "Lith V11 Intact": 9,
       "Lith V11 Radiant": 1,
@@ -139,8 +288,8 @@
       "Meso X1 Intact": 22,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 18,
-      "Neo A16 Intact": 5,
-      "Neo C7 Intact": 13,
+      "Neo A16 Intact": 4,
+      "Neo C7 Intact": 14,
       "Neo C7 Radiant": 1,
       "Neo C8 Intact": 5,
       "Neo C9 Intact": 13,
@@ -150,7 +299,7 @@
       "Neo S20 Intact": 9,
       "Neo T11 Intact": 6,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 7,
+      "Neo V12 Intact": 8,
       "Neo Y1 Intact": 19,
       "Requiem I Intact": 5,
       "Requiem II Intact": 5,
@@ -215,7 +364,7 @@
       "item": "Heliocor",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Heliocor Blueprint",
+      "missing": "Heliocor Blueprint; Gammacor",
       "route": "Cephalon Simaris Offerings",
       "steps": "Buy Heliocor's Blueprint with Simaris Standing, then build.",
       "tip": "Scan daily targets and use stealth scans to earn Standing faster.",
@@ -316,21 +465,6 @@
       "practicalPriority": 41
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Miter",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Miter Chassis; Miter Handle",
-      "route": "Exta, Ceres — Captain Vor and Lieutenant Lech Kril",
-      "steps": "Repeat Exta for the missing Chassis and Handle. Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.",
-      "tip": "Each Miter piece has a 16.67% chance. With 2 distinct pieces missing, a clear currently has a 33.33% chance to give a needed piece; after the first drops, the last piece remains 16.67%. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic.",
-      "source": "https://wiki.warframe.com/w/Miter",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 42
-    },
-    {
       "ease": "3 — Focused short farm",
       "item": "Bad Baby",
       "type": "modular",
@@ -344,21 +478,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 50
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Feverspine",
-      "type": "modular",
-      "targetRank": "30",
-      "missing": "Feverspine Blueprint",
-      "route": "Roky / Ventkids K-Drive Board",
-      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
-      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing.",
-      "source": "https://wiki.warframe.com/w/Feverspine",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 51
     },
     {
       "ease": "4 — Multi-step farm",
@@ -504,15 +623,15 @@
       "item": "Kreska",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Fieldron (5/10)",
+      "missing": "Fieldron (7/10)",
       "route": "Market Blueprint + Fortuna materials",
-      "steps": "Obtain 5 Fieldron.",
+      "steps": "Obtain 3 Fieldron.",
       "tip": "Use Corpus Invasions for Fieldron.",
       "source": "https://wiki.warframe.com/w/Kreska",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 357
+      "practicalPriority": 352
     },
     {
       "ease": "4 — Multi-step farm",
@@ -539,6 +658,21 @@
       "steps": "Breed a Kavat using Kavat Genetic Codes. Use two Adarza Kavat imprints to guarantee the breed.",
       "tip": "Without two matching imprints, the ordinary Kavat breed is random.",
       "source": "https://wiki.warframe.com/w/Adarza_Kavat",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 405
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Ambassador",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Ambassador Blueprint",
+      "route": "Corpus Railjack Survival + eligible Railjack enemies",
+      "steps": "Main Blueprint from Survival Rotation C; missing components from the applicable Corpus Railjack enemies.",
+      "tip": "Stay through Rotation C only when the main Blueprint is still missing.",
+      "source": "https://wiki.warframe.com/w/Ambassador",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1131,21 +1265,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Telos Boltace",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Telos Boltace (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Telos_Boltace",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Tenet Agendus",
       "type": "melee",
       "targetRank": "30 first; 40 optional",
@@ -1335,21 +1454,6 @@
       "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
       "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
       "source": "https://wiki.warframe.com/w/Amanata",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Ambassador",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Ambassador Blueprint; Ambassador Stock",
-      "route": "Corpus Railjack Survival + eligible Railjack enemies",
-      "steps": "Main Blueprint from Survival Rotation C; missing components from the applicable Corpus Railjack enemies.",
-      "tip": "Stay through Rotation C only when the main Blueprint is still missing.",
-      "source": "https://wiki.warframe.com/w/Ambassador",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1552,21 +1656,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Sibear",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Cryotic (11000/30000)",
-      "route": "Excavation / Cryotic",
-      "steps": "Get 19,000 Cryotic, then build.",
-      "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
-      "source": "https://wiki.warframe.com/w/Sibear",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 496
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Jade",
       "type": "warframe",
       "targetRank": "30",
@@ -1585,7 +1674,7 @@
       "item": "Scyotid",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Scyotid Barrel (1/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)",
+      "missing": "Scyotid Barrel (0/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
       "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
@@ -1792,6 +1881,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Kompressa",
+      "type": "secondary",
+      "targetRank": "30",
+      "missing": "Kompressa Barrel; Kompressa Receiver",
+      "route": "Roky / Ventkids Rank 5",
+      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
+      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
+      "source": "https://wiki.warframe.com/w/Kompressa",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 510
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Sevagoth",
       "type": "warframe",
       "targetRank": "30",
@@ -1800,6 +1904,21 @@
       "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
       "tip": "Run the shortest comfortable eligible Void Storm for the remaining components.",
       "source": "https://wiki.warframe.com/w/Sevagoth",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 510
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Sibear",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Cryotic (11153/30000); Magistar",
+      "route": "Excavation / Cryotic",
+      "steps": "Get 18,847 Cryotic, then build.",
+      "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
+      "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1845,21 +1964,6 @@
       "steps": "Farm all three components from rotation C; buy the main blueprint from the Market.",
       "tip": "From round four onward, defend at least three conduits to keep rotation C.",
       "source": "https://wiki.warframe.com/w/Gauss",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Kompressa",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Kompressa Barrel; Kompressa Blueprint; Kompressa Receiver",
-      "route": "Roky / Ventkids Rank 5",
-      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
-      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
-      "source": "https://wiki.warframe.com/w/Kompressa",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2703,7 +2807,9 @@
       "source": "https://wiki.warframe.com/w/Gorgon_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Razorback Armada"
+      ],
       "practicalPriority": 770
     },
     {
@@ -3224,7 +3330,7 @@
       "targetRank": "30",
       "missing": "Athodai Prime Barrel; Athodai Prime Receiver",
       "route": "Void Relics — Neo A16 / Axi P10",
-      "steps": "Barrel: Neo A16 Rare (5 held). Receiver: Axi P10 Uncommon (none visible in export).",
+      "steps": "Barrel: Neo A16 Rare (4 held). Receiver: Axi P10 Uncommon (none visible in export).",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -4553,7 +4659,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Void Relic — Lith Q2/Q3",
-      "steps": "One Blade is still needed. Export holds Lith Q2 ×3 and Lith Q3 ×9; refine and radshare.",
+      "steps": "One Blade is still needed. Export holds Lith Q2 ×1 and Lith Q3 ×9; refine and radshare.",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -5235,31 +5341,31 @@
   ],
   "owned": [
     {
-      "item": "Ceramic Dagger",
-      "type": "melee",
+      "item": "Feverspine",
+      "type": "modular",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
-    },
-    {
-      "item": "Plasma Sword",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
-    },
-    {
-      "item": "Citrine",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Citrine"
+      "source": "https://wiki.warframe.com/w/Feverspine"
+    },
+    {
+      "item": "Miter",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Miter"
+    },
+    {
+      "item": "Telos Boltace",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Telos_Boltace"
     }
   ],
   "rank40": [
@@ -6156,7 +6262,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Ambassador Blueprint; Ambassador Stock",
+      "missing": "Ambassador Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Corpus Railjack Survival + eligible Railjack enemies",
       "vaulted": "No",
@@ -7826,15 +7932,15 @@
     {
       "item": "Ceramic Dagger",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 3,
@@ -8071,17 +8177,17 @@
     {
       "item": "Citrine",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Tyana Pass, Mars — Mirror Defense; Otak pity shop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Citrine",
       "steps": "Farm Mirror Defense or buy missing blueprints from Otak with Rania and Belric Crystal Fragments.",
@@ -10242,14 +10348,14 @@
     {
       "item": "Feverspine",
       "type": "modular",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Feverspine Blueprint",
-      "ease": "3 — Focused short farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Roky / Ventkids K-Drive Board",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10388,7 +10494,7 @@
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -10978,7 +11084,9 @@
       "steps": "Farm the weapon components during Razorback Armada.",
       "tip": "During Razorback Armada, farm Cryptographic ALU and build several Razorback Ciphers before repeatedly running the boss.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Razorback Armada"
+      ]
     },
     {
       "item": "Gotva Prime",
@@ -11542,7 +11650,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Heliocor Blueprint",
+      "missing": "Heliocor Blueprint; Gammacor",
       "ease": "3 — Focused short farm",
       "route": "Cephalon Simaris Offerings",
       "vaulted": "No",
@@ -12675,7 +12783,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Kompressa Barrel; Kompressa Blueprint; Kompressa Receiver",
+      "missing": "Kompressa Barrel; Kompressa Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Roky / Ventkids Rank 5",
       "vaulted": "No",
@@ -12793,14 +12901,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Fieldron (5/10)",
+      "missing": "Fieldron (7/10)",
       "ease": "4 — Multi-step farm",
       "route": "Market Blueprint + Fortuna materials",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Kreska",
-      "steps": "Obtain 5 Fieldron.",
+      "steps": "Obtain 3 Fieldron.",
       "tip": "Use Corpus Invasions for Fieldron.",
       "primeDetails": [],
       "liveMatches": []
@@ -14300,21 +14408,21 @@
     {
       "item": "Miter",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Miter Chassis; Miter Handle",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Exta, Ceres — Captain Vor and Lieutenant Lech Kril",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Miter",
-      "steps": "Repeat Exta for the missing Chassis and Handle. Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.",
-      "tip": "Each Miter piece has a 16.67% chance. With 2 distinct pieces missing, a clear currently has a 33.33% chance to give a needed piece; after the first drops, the last piece remains 16.67%. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic.",
+      "steps": "Repeat Exta for the missing . Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.",
+      "tip": "Each Miter piece has a 16.67% chance. With 0 distinct pieces missing, a clear currently has a 0.00% chance to give a needed piece. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -16062,15 +16170,15 @@
     {
       "item": "Plasma Sword",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 4,
@@ -17729,7 +17837,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Scyotid Barrel (1/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)",
+      "missing": "Scyotid Barrel (0/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
@@ -18055,7 +18163,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (11000/30000)",
+      "missing": "Cryotic (11153/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -19307,14 +19415,14 @@
     {
       "item": "Telos Boltace",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Telos Boltace (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
