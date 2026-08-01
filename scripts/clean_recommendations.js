@@ -510,6 +510,18 @@ function clean(row) {
 
 const existingCards = new Map([...data.queue, ...data.vaulted].map((row) => [row.item, row]));
 data.arsenal = data.arsenal.map((row) => clean({ ...row, missing: defaultMissing(row) }));
+data.arsenal = data.arsenal.map((row) => {
+  if (row.mastered !== 'Yes' || row.pendingFoundry !== 'Yes') return row;
+  return {
+    ...row,
+    state: row.owned === 'Yes' ? 'Owned + mastered' : 'Mastered; not currently owned',
+    pendingFoundry: 'No',
+    targetRank: row.targetRank === 'Complete' ? '30' : row.targetRank,
+    rankRule: '',
+    ease: '1 — Complete',
+    route: row.route === 'Foundry' ? 'Mastery complete' : row.route,
+  };
+});
 
 data.rank40 = data.rank40.map((row) => {
   const normalized = { ...row };
@@ -588,7 +600,11 @@ const missingRows = data.arsenal.filter((row) => row.state === 'Missing');
 const cards = missingRows.map(cardFromArsenal);
 data.vaulted = cards.filter((row) => row.primeStatus || row.vaulted === 'Yes' || usesRelics(row)).sort((a, b) => a.item.localeCompare(b.item));
 data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes' && !usesRelics(row)).sort((a, b) => a.practicalPriority - b.practicalPriority || a.item.localeCompare(b.item));
-data.owned = data.owned.map((row) => {
+const arsenalByName = new Map(data.arsenal.map((row) => [row.item, row]));
+data.owned = data.owned.filter((row) => {
+  const arsenal = arsenalByName.get(row.item);
+  return arsenal && arsenal.mastered !== 'Yes' && (arsenal.pendingFoundry === 'Yes' || arsenal.owned === 'Yes');
+}).map((row) => {
   const next = { ...row, source: normalizeSource(row.source) };
   const weapon = ['primary', 'secondary', 'melee', 'archgun', 'archmelee'].includes(next.type);
   next.steps = next.state === 'Ready in Foundry'
