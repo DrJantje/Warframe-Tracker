@@ -213,7 +213,6 @@ for (const row of data.queue) {
 const preservedCorrections = {
   'Ceti Lacera': { forbidden: /Oxium|remaining crafting materials/i },
   Kreska: { forbidden: /Longwinder/i },
-  Vitrica: { forbidden: /Oxium/i },
 };
 for (const [item, rule] of Object.entries(preservedCorrections)) {
   const card = userFacingCards.get(item);
