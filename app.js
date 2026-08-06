@@ -169,7 +169,6 @@ const dojoQueue = data.queue.filter(isDojo).sort(practicalOrder);
 const baroQueue = data.queue.filter(isBaro).sort(practicalOrder);
 const ordinaryQueue = data.queue.filter((item) => !isDeferredCategory(item)).sort(practicalOrder);
 const verifiedQueue = ordinaryQueue.filter((item) => item.route !== UNVERIFIED);
-const researchQueue = ordinaryQueue.filter((item) => item.route === UNVERIFIED);
 const actionableQueue = verifiedQueue;
 const missingParts = (item) => String(item.missing || '').split(';').map((part) => part.trim()).filter(Boolean);
 const isMaterialOnly = (item) => {
@@ -179,12 +178,10 @@ const isMaterialOnly = (item) => {
 const materialQueue = actionableQueue.filter(isMaterialOnly);
 const views = [
   ['next', 'Acquire next', actionableQueue.length],
-  ['research', 'Needs research', researchQueue.length],
   ['nightwave', 'Nightwave', nightwaveQueue.length],
   ['dojo', 'Dojo', dojoQueue.length],
   ['baro', 'Baro Ki’Teer', baroQueue.length],
   ['materials', 'Materials', materialQueue.length],
-  ['rank40', 'Rank 40', data.rank40.filter((x) => x.status === 'Active to 40').length],
   ['vaulted', 'Primes / Relics', data.vaulted.length],
   ['owned', 'Owned / Foundry', data.owned.length],
   ['arsenal', 'Full arsenal', data.arsenal.length],
@@ -238,8 +235,7 @@ function invasionWarning() {
 function header() {
   const label = views.find(([id]) => id === state.view)?.[1] ?? '';
   const quickWins = actionableQueue.filter((x) => x.ease.startsWith('2')).length;
-  const active40 = data.rank40.filter((x) => x.status === 'Active to 40').length;
-  return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialQueue.length}</b><span>mats only</span></button><button data-view="rank40"><b>${active40}</b><span>active 40s</span></button></div></section>`;
+  return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialQueue.length}</b><span>mats only</span></button><button data-view="arsenal"><b>${data.arsenal.length}</b><span>arsenal items</span></button></div></section>`;
 }
 function tabs() {
   return `<nav class="view-tabs" aria-label="Tracker views">${views.map(([id, label, count]) => `<button data-view="${id}" class="${state.view === id ? 'active' : ''}">${label}<span>${count}</span></button>`).join('')}</nav>`;
@@ -256,10 +252,6 @@ function content() {
   if (state.view === 'materials') {
     const rows = materialQueue.filter(matches);
     return `<section class="card-grid">${rows.map((x) => queueCard(x, true)).join('')}</section>`;
-  }
-  if (state.view === 'research') {
-    const rows = researchQueue.filter(matches);
-    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
   }
   if (state.view === 'nightwave') {
     const rows = nightwaveQueue.filter(matches);
@@ -284,10 +276,6 @@ function content() {
   if (state.view === 'owned') {
     const rows = data.owned.filter(matches);
     return `<section class="card-grid">${rows.map((x) => `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><span class="pill green">OWNED</span></div><div class="need"><span>NEXT</span>${escapeHtml(x.steps)}</div><p class="steps">${escapeHtml(x.tip)}</p>${source(x.source)}</article>`).join('')}</section>`;
-  }
-  if (state.view === 'rank40') {
-    const rows = data.rank40.filter(matches);
-    return `<section class="project-list">${rows.map((x) => `<article class="project ${x.status.toLowerCase().split(' ')[0]}"><div><span class="project-status">${escapeHtml(x.status)}</span><h3>${escapeHtml(x.item)}</h3><p>${escapeHtml(x.type)}</p></div><div><span>ACTION</span><p>${escapeHtml(x.action)}</p></div><div><span>FORMA PLAN</span><p>${escapeHtml(x.formaPlan)}</p></div></article>`).join('')}</section>`;
   }
   const rows = data.arsenal.filter(matches);
   const rendered = rows.slice(0, state.visible).map((x) => `<div class="table-row"><strong>${escapeHtml(x.item)}</strong><span>${escapeHtml(x.type)}</span><span>${escapeHtml(x.state)}</span><span>${escapeHtml(x.targetRank)}</span>${source(x.source)}</div>`).join('');
