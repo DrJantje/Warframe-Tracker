@@ -443,8 +443,7 @@ function clean(row) {
   }
   if (truncated(out.route)) out.route = UNVERIFIED;
   if (exact[out.item]) [out.route, out.steps, out.tip] = exact[out.item];
-  if (nightwaveItems.has(out.item)) out.availabilityGroup = 'nightwave';
-  else delete out.availabilityGroup;
+  delete out.availabilityGroup;
   if (nightwaveItems.has(out.item) && !['Vitrica', 'Wolf Sledge'].includes(out.item)) out.tip = nightwaveTip;
   if (sourceOverrides[out.item]) out.source = sourceOverrides[out.item];
   out.source = normalizeSource(out.source);
@@ -502,6 +501,9 @@ function clean(row) {
   applyDynamicRecommendation(out);
   applyPrimeAvailability(out);
   applyLiveMatches(out);
+  if (nightwaveItems.has(out.item)) out.availabilityGroup = 'nightwave';
+  else if (/^Baro Ki/i.test(out.route || '')) out.availabilityGroup = 'baro';
+  else if (/Dojo|Dagath.s Hollow/i.test(out.route || '')) out.availabilityGroup = 'dojo';
   for (const field of ['route', 'steps', 'tip', 'rankRule', 'action', 'formaPlan']) {
     if (typeof out[field] === 'string') out[field] = out[field].replace(/…|\.\.\./g, '.').replace(/\.\./g, '.');
   }

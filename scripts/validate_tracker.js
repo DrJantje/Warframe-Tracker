@@ -9,6 +9,7 @@ const appSource = fs.readFileSync('app.js', 'utf8');
 const nightwaveCatalog = JSON.parse(fs.readFileSync('data/nightwave-items.json', 'utf8'));
 const UNVERIFIED = 'Acquisition route not verified yet';
 const nightwaveItems = new Set(nightwaveCatalog.items.map((entry) => entry.item));
+const validAvailabilityGroups = new Set(['nightwave', 'dojo', 'baro']);
 const kDriveBoards = new Set(['Bad Baby', 'Feverspine', 'Flatbelly', 'Needlenose', 'Runway']);
 const permanentRailjackItems = new Set(primeRules.permanentRailjackItems);
 const nonRelicPrimeItems = new Set(['Gotva Prime', 'War Prime']);
@@ -171,6 +172,9 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     const positiveKDriveInstruction = /assemble the K-Drive|K-Drive Board|level it to 30\. No gilding/i.test(`${row.route || ''} ${row.steps || ''}`);
     if (positiveKDriveInstruction && !kDriveBoards.has(row.item)) fail(collection, row, 'K-Drive instruction on non-K-Drive item');
     if (collection !== 'owned' && nightwaveItems.has(row.item) && row.availabilityGroup !== 'nightwave') fail(collection, row, 'Nightwave item outside Nightwave tab');
+    if (collection === 'queue' && /^Baro Ki/i.test(row.route || '') && row.availabilityGroup !== 'baro') fail(collection, row, 'direct Baro item outside Baro tab');
+    if (collection === 'queue' && /Dojo|Dagath.s Hollow/i.test(row.route || '') && row.availabilityGroup !== 'dojo') fail(collection, row, 'Dojo item outside Dojo tab');
+    if (row.availabilityGroup && !validAvailabilityGroups.has(row.availabilityGroup)) fail(collection, row, `invalid availability group ${row.availabilityGroup}`);
     if (collection === 'vaulted' && !validPrimeStatuses.has(row.primeStatus)) fail(collection, row, `invalid Prime status ${row.primeStatus || '(blank)'}`);
     if (kDriveBoards.has(row.item) && !craftingMaterials(row).length && /listed materials/i.test(`${row.steps || ''} ${row.tip || ''}`)) {
       fail(collection, row, 'K-Drive card refers to listed materials when Missing contains none');
@@ -189,6 +193,8 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     }
   }
 }
+
+if (!/isDeferredCategory\(item\)/.test(appSource)) errors.push('app/Acquire Next: deferred categories are not excluded from the ordinary queue');
 
 for (const row of data.queue) {
   if (!Number.isFinite(row.practicalPriority)) fail('queue', row, 'missing numeric practicalPriority');

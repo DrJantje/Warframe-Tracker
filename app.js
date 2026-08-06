@@ -136,6 +136,9 @@ const UNVERIFIED = 'Acquisition route not verified yet';
 const normalizeOffering = (value) => String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+blueprint$/i, '').trim();
 const activeNightwave = new Set((availability.activeNightwaveItems || []).map(normalizeOffering));
 const isNightwave = (item) => item.availabilityGroup === 'nightwave';
+const isDojo = (item) => item.availabilityGroup === 'dojo';
+const isBaro = (item) => item.availabilityGroup === 'baro';
+const isDeferredCategory = (item) => isNightwave(item) || isDojo(item) || isBaro(item);
 const nightwaveDefinitions = new Map(nightwaveCatalog.items.map((entry) => [entry.item, entry.offerings]));
 const nightwaveCheckedAt = Date.parse(availability.checkedAt || '');
 function nextWeeklyReset(checkedAt) {
@@ -162,7 +165,9 @@ const nightwaveQueue = data.queue.filter(isNightwave).sort((a, b) => {
   return order[nightwaveState(a)] - order[nightwaveState(b)] || a.item.localeCompare(b.item);
 });
 const practicalOrder = (a, b) => (a.practicalPriority ?? Number.MAX_SAFE_INTEGER) - (b.practicalPriority ?? Number.MAX_SAFE_INTEGER) || a.item.localeCompare(b.item);
-const ordinaryQueue = data.queue.filter((item) => !isNightwave(item)).sort(practicalOrder);
+const dojoQueue = data.queue.filter(isDojo).sort(practicalOrder);
+const baroQueue = data.queue.filter(isBaro).sort(practicalOrder);
+const ordinaryQueue = data.queue.filter((item) => !isDeferredCategory(item)).sort(practicalOrder);
 const verifiedQueue = ordinaryQueue.filter((item) => item.route !== UNVERIFIED);
 const researchQueue = ordinaryQueue.filter((item) => item.route === UNVERIFIED);
 const actionableQueue = verifiedQueue;
@@ -176,6 +181,8 @@ const views = [
   ['next', 'Acquire next', actionableQueue.length],
   ['research', 'Needs research', researchQueue.length],
   ['nightwave', 'Nightwave', nightwaveQueue.length],
+  ['dojo', 'Dojo', dojoQueue.length],
+  ['baro', 'Baro Ki’Teer', baroQueue.length],
   ['materials', 'Materials', materialQueue.length],
   ['rank40', 'Rank 40', data.rank40.filter((x) => x.status === 'Active to 40').length],
   ['vaulted', 'Primes / Relics', data.vaulted.length],
@@ -257,6 +264,14 @@ function content() {
   if (state.view === 'nightwave') {
     const rows = nightwaveQueue.filter(matches);
     return `${nightwaveWarning()}${cardsAndMore(rows, rows.map((x) => queueCard(x)))}`;
+  }
+  if (state.view === 'dojo') {
+    const rows = dojoQueue.filter(matches);
+    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
+  }
+  if (state.view === 'baro') {
+    const rows = baroQueue.filter(matches);
+    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
   }
   if (state.view === 'vaulted') {
     const rows = data.vaulted.filter((x) => String(x.missing || '').trim()).filter(matches);
