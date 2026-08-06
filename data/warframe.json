@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-04",
-    "exportVerifiedAt": "2026-08-04 21:32:32 PDT",
+    "snapshotDate": "2026-08-05",
+    "exportVerifiedAt": "2026-08-05 17:25:07 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167999,
-        "modified": "2026-08-04T21:32:31.802071-07:00",
-        "sha256": "684de002ba5697f62379a555a20b1b84b2b3d2c4415804b281e0b64c5c00cf1f"
+        "bytes": 2167995,
+        "modified": "2026-08-05T17:25:06.986502-07:00",
+        "sha256": "33f9478207db4a6f394d381e3a2bdb55dde31d6f7056206ba87b02933f4217dc"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-04T21:32:31.809091-07:00",
+        "modified": "2026-08-05T17:25:06.991097-07:00",
         "sha256": "3315c8c40b2bef548626809825c5cb9e02b02f5f765bdab877e9cb65cb5ca2cd"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-04T21:32:31.805522-07:00",
-        "sha256": "62fd6de1087e44c650af7400734731ea1110a85b6ff278034d5681ed0295c4a6"
+        "modified": "2026-08-05T17:25:06.988009-07:00",
+        "sha256": "004df2f7802010abda9975f36b026843e408d740e933008859405634c3294144"
       },
       "inventoryRelics.json": {
         "bytes": 33437,
-        "modified": "2026-08-04T21:32:31.807054-07:00",
+        "modified": "2026-08-05T17:25:06.989517-07:00",
         "sha256": "0156d858ee3c0a42e3fb0b82721d6f06fb092c96fccf2b046edf9a053d4c4f9b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-04T21:32:31.812109-07:00",
-        "sha256": "ce32378a12d81c840fd1d7ed5a8dcbdbbd1ca71927e8e5cfa6a066cba932fa6f"
+        "modified": "2026-08-05T17:25:06.994114-07:00",
+        "sha256": "122a63483730b26c7756fb49a320ec231b83cd20a3ca980149306fa2fb51364e"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,18 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Astilla Prime",
+        "item": "Ambassador",
         "before": [
           "No",
           "No",
           "No",
-          "Astilla Prime Barrel; Astilla Prime Blueprint; Astilla Prime Receiver; Astilla Prime Stock"
+          "Ambassador Blueprint"
         ],
         "after": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Astilla Prime Barrel; Astilla Prime Receiver; Astilla Prime Stock"
+          ""
         ]
       },
       {
@@ -68,26 +68,41 @@
           "No",
           "No",
           "No",
-          "Cantare Blueprint"
+          "Argon Crystal (2/4); Cantare Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Argon Crystal (2/4); Cantare Blueprint"
+          "Argon Crystal (1/4); Cantare Blueprint"
         ]
       },
       {
-        "item": "Coda Motovore",
+        "item": "Carmine Penta",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Carmine Penta Barrel; Carmine Penta Receiver; Carmine Penta Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Carmine Penta Receiver"
+        ]
+      },
+      {
+        "item": "Dark Sword",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dark Sword Blueprint"
         ],
         "after": [
           "Yes",
-          "Yes",
+          "No",
           "No",
           ""
         ]
@@ -108,57 +123,27 @@
         ]
       },
       {
-        "item": "Kreska",
+        "item": "Pride",
         "before": [
           "No",
           "No",
           "No",
-          "Fieldron (9/10)"
+          "Pride Blueprint; Pride Handle; Pride Wrath Blade"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
-          ""
+          "No",
+          "No",
+          "Pride Handle; Pride Wrath Blade"
         ]
       },
       {
-        "item": "Needlenose",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Riot-848",
+        "item": "Seer",
         "before": [
           "No",
           "No",
           "No",
-          "Riot-848 Barrel Blueprint; Riot-848 Receiver Blueprint; Riot-848 Stock Blueprint"
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Runway",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Runway Blueprint"
+          "Seer Barrel; Seer Blueprint"
         ],
         "after": [
           "Yes",
@@ -168,33 +153,18 @@
         ]
       },
       {
-        "item": "Sibear",
+        "item": "Voidrig",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Cryotic (10553/30000); Magistar"
+          ""
         ],
         "after": [
+          "Yes",
+          "Yes",
           "No",
-          "No",
-          "No",
-          "Cryotic (14285/30000); Magistar"
-        ]
-      },
-      {
-        "item": "Vitrica",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vitrica Blueprint; Oxium (745/925)"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Vitrica Blueprint"
+          ""
         ]
       }
     ],
@@ -203,7 +173,7 @@
       "confirmedAt40": 7,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 300
+      "missing": 297
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -349,9 +319,9 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
+      "missing": "Argon Crystal (1/4); Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
@@ -388,21 +358,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 32
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Seer",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Seer Barrel; Seer Blueprint",
-      "route": "Captain Vor on Tolstoj, Mercury",
-      "steps": "Defeat Captain Vor on Tolstoj for the Seer Blueprint and Barrel.",
-      "tip": "Repeat Tolstoj until both missing pieces drop.",
-      "source": "https://wiki.warframe.com/w/Seer",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 40
     },
     {
       "ease": "4 — Multi-step farm",
@@ -455,22 +410,6 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Dark Dagger Blueprint",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
-      "steps": "Buy the 50-Cred Blueprint when it appears, then build.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "vaulted": "No",
-      "availabilityGroup": "nightwave",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 205
-    },
-    {
-      "ease": "2 — Easy buy or build",
-      "item": "Dark Sword",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Dark Sword Blueprint",
       "route": "Nightwave Cred Offerings (weekly rotation)",
       "steps": "Buy the 50-Cred Blueprint when it appears, then build.",
       "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
@@ -553,21 +492,6 @@
       "steps": "Breed a Kavat using Kavat Genetic Codes. Use two Adarza Kavat imprints to guarantee the breed.",
       "tip": "Without two matching imprints, the ordinary Kavat breed is random.",
       "source": "https://wiki.warframe.com/w/Adarza_Kavat",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Ambassador",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Ambassador Blueprint",
-      "route": "Corpus Railjack Survival + eligible Railjack enemies",
-      "steps": "Main Blueprint from Survival Rotation C; missing components from the applicable Corpus Railjack enemies.",
-      "tip": "Stay through Rotation C only when the main Blueprint is still missing.",
-      "source": "https://wiki.warframe.com/w/Ambassador",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1596,6 +1520,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Carmine Penta",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Carmine Penta Receiver",
+      "route": "Pluto or Veil Corpus Proxima abandoned Freightlinker caches",
+      "steps": "Farm the missing Receiver from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
+      "tip": "Activate the Freightlinker terminal and finish the Railjack mission so the cache reward is retained.",
+      "source": "https://wiki.warframe.com/w/Carmine_Penta",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 505
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Coda Caustacyst",
       "type": "melee",
       "targetRank": "30 first; 40 optional",
@@ -1791,6 +1730,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Pride",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Pride Handle; Pride Wrath Blade",
+      "route": "The Kuva Wytch / Pontis Tower Secret Vendor",
+      "steps": "Earn its blueprints from The Kuva Wytch or buy them with Emerald Talents.",
+      "tip": "The Kuva Wytch guarantees one blueprint from the Sirius & Orion/Pride pool; its travel stage supplies Emerald Talents for the vendor.",
+      "source": "https://wiki.warframe.com/w/Pride",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 510
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Sevagoth",
       "type": "warframe",
       "targetRank": "30",
@@ -1836,21 +1790,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Carmine Penta",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Carmine Penta Barrel; Carmine Penta Receiver; Carmine Penta Stock",
-      "route": "Pluto or Veil Corpus Proxima abandoned Freightlinker caches",
-      "steps": "Farm the missing Barrel, Receiver, and Stock from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
-      "tip": "Activate the Freightlinker terminal and finish the Railjack mission so the cache reward is retained.",
-      "source": "https://wiki.warframe.com/w/Carmine_Penta",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Gauss",
       "type": "warframe",
       "targetRank": "30",
@@ -1889,21 +1828,6 @@
       "steps": "Update 42 added all three components to every Infested Salvage rotation. Rotation C still has the best odds; main blueprint: The Glast Gambit.",
       "tip": "Keep vaporizer coverage high; stay through rotation C when practical for the best odds.",
       "source": "https://wiki.warframe.com/w/Nidus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Pride",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Pride Blueprint; Pride Handle; Pride Wrath Blade",
-      "route": "The Kuva Wytch / Pontis Tower Secret Vendor",
-      "steps": "Earn its blueprints from The Kuva Wytch or buy them with Emerald Talents.",
-      "tip": "The Kuva Wytch guarantees one blueprint from the Sirius & Orion/Pride pool; its travel stage supplies Emerald Talents for the vendor.",
-      "source": "https://wiki.warframe.com/w/Pride",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -5196,6 +5120,24 @@
   ],
   "owned": [
     {
+      "item": "Ambassador",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Ambassador"
+    },
+    {
+      "item": "Dark Sword",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
+    },
+    {
       "item": "Runway",
       "type": "modular",
       "state": "Rank unknown — verify in Arsenal",
@@ -5203,6 +5145,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Runway"
+    },
+    {
+      "item": "Seer",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Seer"
     }
   ],
   "rank40": [
@@ -5221,7 +5172,7 @@
       "type": "necramech",
       "status": "Active to 40",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "rankRule": "Acquired at rank 30 baseline; progress to 40 with five total Forma. Current rank/Forma unknown in export.",
       "action": "Verify Forma count; apply/relevel until five total Forma and rank 40.",
       "formaPlan": "Five total Forma; verify existing count"
@@ -6093,14 +6044,14 @@
     {
       "item": "Ambassador",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Ambassador Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Corpus Railjack Survival + eligible Railjack enemies",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7511,14 +7462,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
+      "missing": "Argon Crystal (1/4); Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "primeDetails": [],
       "liveMatches": []
@@ -7551,14 +7502,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Carmine Penta Barrel; Carmine Penta Receiver; Carmine Penta Stock",
+      "missing": "Carmine Penta Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Pluto or Veil Corpus Proxima abandoned Freightlinker caches",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Carmine_Penta",
-      "steps": "Farm the missing Barrel, Receiver, and Stock from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
+      "steps": "Farm the missing Receiver from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
       "tip": "Activate the Freightlinker terminal and finish the Railjack mission so the cache reward is retained.",
       "primeDetails": [],
       "liveMatches": []
@@ -8793,15 +8744,15 @@
     {
       "item": "Dark Sword",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Dark Sword Blueprint",
-      "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 8,
@@ -16081,7 +16032,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Pride Blueprint; Pride Handle; Pride Wrath Blade",
+      "missing": "Pride Handle; Pride Wrath Blade",
       "ease": "5 — Long grind / trade",
       "route": "The Kuva Wytch / Pontis Tower Secret Vendor",
       "vaulted": "No",
@@ -17742,14 +17693,14 @@
     {
       "item": "Seer",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Seer Barrel; Seer Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Captain Vor on Tolstoj, Mercury",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -21004,7 +20955,7 @@
       "type": "necramech",
       "state": "Active to 40",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "40",
       "rankRule": "Acquired at rank 30 baseline; progress to 40 with five total Forma. Current rank/Forma unknown in export.",
