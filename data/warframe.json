@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-05",
-    "exportVerifiedAt": "2026-08-05 17:29:02 PDT",
+    "snapshotDate": "2026-08-06",
+    "exportVerifiedAt": "2026-08-06 18:16:25 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167995,
-        "modified": "2026-08-05T17:25:06.986502-07:00",
-        "sha256": "33f9478207db4a6f394d381e3a2bdb55dde31d6f7056206ba87b02933f4217dc"
+        "bytes": 2167969,
+        "modified": "2026-08-06T18:16:02.224102-07:00",
+        "sha256": "5d3149fbefde79cda558f0e967b51b156117bc07379b5e371117e275247be653"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-05T17:25:06.991097-07:00",
-        "sha256": "3315c8c40b2bef548626809825c5cb9e02b02f5f765bdab877e9cb65cb5ca2cd"
+        "modified": "2026-08-06T18:16:02.228645-07:00",
+        "sha256": "eb3d86a97139f4b8196d3d44173cb21e8e6ff698b9ce1f8303898bb14ae86f12"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-05T17:25:06.988009-07:00",
-        "sha256": "004df2f7802010abda9975f36b026843e408d740e933008859405634c3294144"
+        "modified": "2026-08-06T18:16:02.226127-07:00",
+        "sha256": "6dd36b89cfab3f0632b711ff32c970b35af96c68896793d559a4226af6199e09"
       },
       "inventoryRelics.json": {
         "bytes": 33437,
-        "modified": "2026-08-05T17:25:06.989517-07:00",
-        "sha256": "0156d858ee3c0a42e3fb0b82721d6f06fb092c96fccf2b046edf9a053d4c4f9b"
+        "modified": "2026-08-06T18:16:02.227638-07:00",
+        "sha256": "fe42ac52c99701bad24bb6449559ed763972c274debfdb5dd8867581919808a8"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-05T17:25:06.994114-07:00",
-        "sha256": "122a63483730b26c7756fb49a320ec231b83cd20a3ca980149306fa2fb51364e"
+        "modified": "2026-08-06T18:16:02.230151-07:00",
+        "sha256": "165e201e06b2032d10994f51e7faeb0963e4809b628d65332e5e695219cd2bb7"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,66 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Ambassador",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Bhaira Hound",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Bhaira Model / completed Hound using the Bhaira Model"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Cantare",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (1/4); Cantare Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (0/4); Cantare Blueprint"
+        ]
+      },
+      {
+        "item": "Dark Sword",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
       {
         "item": "Frost",
         "before": [
@@ -61,6 +121,171 @@
           "Yes",
           ""
         ]
+      },
+      {
+        "item": "Kompressa",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Kompressa Barrel; Kompressa Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Kompressa Receiver"
+        ]
+      },
+      {
+        "item": "Lacerten",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Lacerten (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Oberon",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Oberon Neuroptics Blueprint; Oberon Systems Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Runway",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Seer",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (14285/30000); Magistar"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (15325/30000); Magistar"
+        ]
+      },
+      {
+        "item": "Simulor",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Simulor Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal; Simulor Blueprint"
+        ]
+      },
+      {
+        "item": "Stropha",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Stropha Barrel; Stropha Blade; Stropha Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Stropha Barrel; Stropha Receiver"
+        ]
+      },
+      {
+        "item": "Tenet Cycron",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "War Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "War Prime (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Wrath",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Wrath Blade; Wrath Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Wrath Blade"
+        ]
       }
     ],
     "summary": {
@@ -68,7 +293,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 297
+      "missing": 292
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -108,7 +333,7 @@
       "Meso X1 Intact": 22,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 20,
-      "Neo A16 Intact": 3,
+      "Neo A16 Intact": 2,
       "Neo C7 Intact": 15,
       "Neo C7 Radiant": 1,
       "Neo C8 Intact": 5,
@@ -202,7 +427,7 @@
       "item": "Simulor",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Simulor Blueprint",
+      "missing": "Argon Crystal; Simulor Blueprint",
       "route": "Cephalon Simaris Offerings",
       "steps": "Buy Simulor's Blueprint with Simaris Standing, then build.",
       "tip": "Scan daily targets and use stealth scans to earn Standing faster.",
@@ -217,9 +442,9 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (1/4); Cantare Blueprint",
+      "missing": "Argon Crystal (0/4); Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
@@ -1172,14 +1397,14 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "War Prime",
+      "item": "Wrath",
       "type": "melee",
       "targetRank": "30",
-      "missing": "War Prime (completed item)",
-      "route": "Hunhow at Pontis Tower — Hunhow’s Trinkets",
-      "steps": "Buy the Hunhow’s Trinkets Blueprint from Hunhow for 12 Crimson Talents and 12 Emerald Talents, earn the Talents in Uranus Proxima, then craft War Prime.",
-      "tip": "Run the Scoria’s Angel and Kuva Wytch travel stages while farming their weapon pools so both Talent colors progress together.",
-      "source": "https://wiki.warframe.com/w/War_Prime",
+      "missing": "Wrath Blade",
+      "route": "Scoria’s Angel / Pontis Tower Secret Vendor",
+      "steps": "Earn its blueprints from Scoria’s Angel or buy them with Crimson Talents.",
+      "tip": "Scoria’s Angel guarantees one blueprint from the Sirius & Orion/Wrath pool; its travel stage supplies Crimson Talents for the vendor.",
+      "source": "https://wiki.warframe.com/w/Wrath",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1255,21 +1480,6 @@
       "steps": "Farm the missing Cerebrum and Systems from Neptune Proxima abandoned Ice Mine cache B, or from Arva Vector rotations B and C.",
       "tip": "Ice Mine cache B is 6.06% per Nautilus blueprint; Arva Vector rotation B is 4.65% and rotation C is 4.26%.",
       "source": "https://wiki.warframe.com/w/Nautilus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Oberon",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Oberon Neuroptics Blueprint; Oberon Systems Blueprint",
-      "route": "Railjack point-of-interest rewards",
-      "steps": "Neuroptics and Systems: Earth Proxima point-of-interest rewards. Chassis: Saturn Proxima.",
-      "tip": "Choose short Railjack nodes and finish the side objective before extraction.",
-      "source": "https://wiki.warframe.com/w/Oberon",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1364,36 +1574,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Wrath",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Wrath Blade; Wrath Blueprint",
-      "route": "Scoria’s Angel / Pontis Tower Secret Vendor",
-      "steps": "Earn its blueprints from Scoria’s Angel or buy them with Crimson Talents.",
-      "tip": "Scoria’s Angel guarantees one blueprint from the Sirius & Orion/Wrath pool; its travel stage supplies Crimson Talents for the vendor.",
-      "source": "https://wiki.warframe.com/w/Wrath",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Bhaira Hound",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Bhaira Model / completed Hound using the Bhaira Model",
-      "route": "Sister of Parvos Hound reward / Legs assembly",
-      "steps": "Vanquish Sisters for completed randomized Hounds and Hound component blueprints. Assemble a Hound using the Bhaira Model if that model is still needed for mastery.",
-      "tip": "Check the model on completed Sister Hounds before assembling another Hound.",
-      "source": "https://wiki.warframe.com/w/Bhaira_Hound",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 455
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1563,6 +1743,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Kompressa",
+      "type": "secondary",
+      "targetRank": "30",
+      "missing": "Kompressa Receiver",
+      "route": "Roky / Ventkids Rank 5",
+      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
+      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
+      "source": "https://wiki.warframe.com/w/Kompressa",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 505
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Kullervo",
       "type": "warframe",
       "targetRank": "30",
@@ -1638,21 +1833,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Kompressa",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Kompressa Barrel; Kompressa Receiver",
-      "route": "Roky / Ventkids Rank 5",
-      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
-      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
-      "source": "https://wiki.warframe.com/w/Kompressa",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Pride",
       "type": "melee",
       "targetRank": "30",
@@ -1686,11 +1866,26 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (14285/30000); Magistar",
+      "missing": "Cryotic (15325/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 15,715 Cryotic, then build.",
+      "steps": "Get 14,675 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 510
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Stropha",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Stropha Barrel; Stropha Receiver",
+      "route": "Jackal + Granum Void",
+      "steps": "Main Blueprint from Jackal. Barrel and Blade from Normal, Receiver from Extended and Stock from Nightmare Granum Void.",
+      "tip": "Use the Granum Crown tier matching the component still missing.",
+      "source": "https://wiki.warframe.com/w/Stropha",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1781,21 +1976,6 @@
       "steps": "Main Blueprint from Jackal. Barrel from Nightmare Granum Void, Receiver from Normal Granum Void and Stock from Extended Granum Void.",
       "tip": "Use the Granum Crown tier matching the component still missing.",
       "source": "https://wiki.warframe.com/w/Stahlta",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Stropha",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Stropha Barrel; Stropha Blade; Stropha Receiver",
-      "route": "Jackal + Granum Void",
-      "steps": "Main Blueprint from Jackal. Barrel and Blade from Normal, Receiver from Extended and Stock from Nightmare Granum Void.",
-      "tip": "Use the Granum Crown tier matching the component still missing.",
-      "source": "https://wiki.warframe.com/w/Stropha",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1953,21 +2133,6 @@
       "liveMatches": [],
       "availabilityGroup": "dojo",
       "practicalPriority": 525
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Lacerten",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Lacerten (completed item)",
-      "route": "Sister of Parvos Hound reward / Legs assembly",
-      "steps": "Claim a Hound configured with the Bhaira Model; Lacerten is granted automatically.",
-      "tip": "Check the completed Hound model before assembling another one.",
-      "source": "https://wiki.warframe.com/w/Lacerten",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 555
     },
     {
       "ease": "6 — Parked / time-gated",
@@ -2294,21 +2459,6 @@
       "steps": "Farm the missing Lato Vandal components from any Elite Sanctuary Onslaught rotation.",
       "tip": "Continue through later zones to stack more rotation rewards per run.",
       "source": "https://wiki.warframe.com/w/Lato_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 655
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Tenet Cycron",
-      "type": "secondary",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon",
-      "route": "Sister of Parvos adversary",
-      "steps": "Create a Sister carrying the weapon, complete the adversary sequence, and vanquish her.",
-      "tip": "Check the Candidate weapon preview before creating the Sister.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -3034,7 +3184,7 @@
       "targetRank": "30",
       "missing": "Athodai Prime Barrel; Athodai Prime Receiver",
       "route": "Void Relics — Neo A16 / Axi P10",
-      "steps": "Barrel: Neo A16 Rare (3 held). Receiver: Axi P10 Uncommon (none visible in export).",
+      "steps": "Barrel: Neo A16 Rare (2 held). Receiver: Axi P10 Uncommon (none visible in export).",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -5045,40 +5195,49 @@
   ],
   "owned": [
     {
-      "item": "Ambassador",
-      "type": "primary",
+      "item": "Bhaira Hound",
+      "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Ambassador"
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Bhaira_Hound"
     },
     {
-      "item": "Dark Sword",
+      "item": "Lacerten",
+      "type": "companion",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Lacerten"
+    },
+    {
+      "item": "Oberon",
+      "type": "warframe",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Oberon"
+    },
+    {
+      "item": "Tenet Cycron",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+    },
+    {
+      "item": "War Prime",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
-    },
-    {
-      "item": "Runway",
-      "type": "modular",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Runway"
-    },
-    {
-      "item": "Seer",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Seer"
+      "source": "https://wiki.warframe.com/w/War_Prime"
     }
   ],
   "rank40": [
@@ -5969,14 +6128,14 @@
     {
       "item": "Ambassador",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Corpus Railjack Survival + eligible Railjack enemies",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -6850,14 +7009,14 @@
     {
       "item": "Bhaira Hound",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Bhaira Model / completed Hound using the Bhaira Model",
-      "ease": "3 — Focused short farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Sister of Parvos Hound reward / Legs assembly",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7387,14 +7546,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (1/4); Cantare Blueprint",
+      "missing": "Argon Crystal (0/4); Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "primeDetails": [],
       "liveMatches": []
@@ -8670,15 +8829,15 @@
     {
       "item": "Dark Sword",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 8,
@@ -12493,7 +12652,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Kompressa Barrel; Kompressa Receiver",
+      "missing": "Kompressa Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Roky / Ventkids Rank 5",
       "vaulted": "No",
@@ -13224,14 +13383,14 @@
     {
       "item": "Lacerten",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Lacerten (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Sister of Parvos Hound reward / Legs assembly",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -14934,14 +15093,14 @@
     {
       "item": "Oberon",
       "type": "warframe",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Oberon Neuroptics Blueprint; Oberon Systems Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Railjack point-of-interest rewards",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17175,14 +17334,14 @@
     {
       "item": "Runway",
       "type": "modular",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Roky / Ventkids K-Drive Board",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17645,14 +17804,14 @@
     {
       "item": "Seer",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Captain Vor on Tolstoj, Mercury",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17893,7 +18052,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (14285/30000); Magistar",
+      "missing": "Cryotic (15325/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -18015,7 +18174,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Simulor Blueprint",
+      "missing": "Argon Crystal; Simulor Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Cephalon Simaris Offerings",
       "vaulted": "No",
@@ -18534,7 +18693,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Stropha Barrel; Stropha Blade; Stropha Receiver",
+      "missing": "Stropha Barrel; Stropha Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
@@ -19249,14 +19408,14 @@
     {
       "item": "Tenet Cycron",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Sister of Parvos adversary",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -21174,14 +21333,14 @@
     {
       "item": "War Prime",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "War Prime (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Hunhow at Pontis Tower — Hunhow’s Trinkets",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -21264,7 +21423,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Wrath Blade; Wrath Blueprint",
+      "missing": "Wrath Blade",
       "ease": "4 — Multi-step farm",
       "route": "Scoria’s Angel / Pontis Tower Secret Vendor",
       "vaulted": "No",

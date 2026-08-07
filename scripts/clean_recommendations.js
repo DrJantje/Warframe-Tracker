@@ -507,6 +507,7 @@ function clean(row) {
   for (const field of ['route', 'steps', 'tip', 'rankRule', 'action', 'formaPlan']) {
     if (typeof out[field] === 'string') out[field] = out[field].replace(/…|\.\.\./g, '.').replace(/\.\./g, '.');
   }
+  if (out.state && out.state !== 'Missing') out.missing = '';
   return out;
 }
 
