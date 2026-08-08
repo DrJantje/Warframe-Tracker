@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-06",
-    "exportVerifiedAt": "2026-08-06 18:16:25 PDT",
+    "snapshotDate": "2026-08-08",
+    "exportVerifiedAt": "2026-08-08 13:36:55 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167969,
-        "modified": "2026-08-06T18:16:02.224102-07:00",
-        "sha256": "5d3149fbefde79cda558f0e967b51b156117bc07379b5e371117e275247be653"
+        "bytes": 2167984,
+        "modified": "2026-08-08T13:36:55.551435-07:00",
+        "sha256": "c72fa212273ec977bcd36987d2010d6117e247be2f8df879b00b6f99dfe3f213"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-06T18:16:02.228645-07:00",
-        "sha256": "eb3d86a97139f4b8196d3d44173cb21e8e6ff698b9ce1f8303898bb14ae86f12"
+        "modified": "2026-08-08T13:36:55.558485-07:00",
+        "sha256": "f154c2f20bf65fcc1a74d279bb3423e341bef475a0487fcac020785c3b760dd4"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-06T18:16:02.226127-07:00",
-        "sha256": "6dd36b89cfab3f0632b711ff32c970b35af96c68896793d559a4226af6199e09"
+        "modified": "2026-08-08T13:36:55.553951-07:00",
+        "sha256": "10b7425f589a87ab9007aad909770f67f1e86be672ce492f760b0ff1b1b2ac9f"
       },
       "inventoryRelics.json": {
         "bytes": 33437,
-        "modified": "2026-08-06T18:16:02.227638-07:00",
-        "sha256": "fe42ac52c99701bad24bb6449559ed763972c274debfdb5dd8867581919808a8"
+        "modified": "2026-08-08T13:36:55.556963-07:00",
+        "sha256": "29c6a36dd9a7c16e7e4362956e3dc64cc87da265cbb18a3d1cd773021bf3bf7d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-06T18:16:02.230151-07:00",
-        "sha256": "165e201e06b2032d10994f51e7faeb0963e4809b628d65332e5e695219cd2bb7"
+        "modified": "2026-08-08T13:36:55.559990-07:00",
+        "sha256": "8eb509bc3a7a0c98189950310cb34b78e448563e9abf6103f4bd56510a641faa"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,31 +48,31 @@
     },
     "importChanges": [
       {
-        "item": "Ambassador",
+        "item": "Athodai Prime",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Athodai Prime Barrel; Athodai Prime Receiver"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
-          ""
+          "No",
+          "No",
+          "Athodai Prime Receiver"
         ]
       },
       {
         "item": "Bhaira Hound",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Bhaira Model / completed Hound using the Bhaira Model"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -83,26 +83,41 @@
           "No",
           "No",
           "No",
-          "Argon Crystal (1/4); Cantare Blueprint"
+          "Argon Crystal (0/4); Cantare Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Argon Crystal (0/4); Cantare Blueprint"
+          "Cantare Blueprint"
         ]
       },
       {
-        "item": "Dark Sword",
+        "item": "Dagath",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Dagath Blueprint; Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Dorrclave",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dorrclave Blade; Dorrclave Blueprint; Dorrclave Hilt; Dorrclave Hook; Dorrclave String"
         ],
         "after": [
           "Yes",
-          "Yes",
+          "No",
           "No",
           ""
         ]
@@ -128,22 +143,37 @@
           "No",
           "No",
           "No",
-          "Kompressa Barrel; Kompressa Receiver"
+          "Kompressa Receiver"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Kompressa Receiver"
+          "Kompressa Barrel; Kompressa Receiver"
         ]
       },
       {
         "item": "Lacerten",
         "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Machete Wraith",
+        "before": [
           "No",
           "No",
           "No",
-          "Lacerten (completed item)"
+          "Machete Wraith (completed item)"
         ],
         "after": [
           "Yes",
@@ -155,21 +185,6 @@
       {
         "item": "Oberon",
         "before": [
-          "No",
-          "No",
-          "No",
-          "Oberon Neuroptics Blueprint; Oberon Systems Blueprint"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Runway",
-        "before": [
           "Yes",
           "No",
           "No",
@@ -183,33 +198,18 @@
         ]
       },
       {
-        "item": "Seer",
+        "item": "Pride",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Pride Handle; Pride Wrath Blade"
         ],
         "after": [
           "Yes",
           "Yes",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Sibear",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Cryotic (14285/30000); Magistar"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Cryotic (15325/30000); Magistar"
         ]
       },
       {
@@ -218,41 +218,26 @@
           "No",
           "No",
           "No",
-          "Simulor Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Argon Crystal; Simulor Blueprint"
-        ]
-      },
-      {
-        "item": "Stropha",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Stropha Barrel; Stropha Blade; Stropha Receiver"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Stropha Barrel; Stropha Receiver"
+          "Simulor Blueprint"
         ]
       },
       {
         "item": "Tenet Cycron",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Completed weapon"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -260,14 +245,14 @@
       {
         "item": "War Prime",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "War Prime (completed item)"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -278,13 +263,13 @@
           "No",
           "No",
           "No",
-          "Wrath Blade; Wrath Blueprint"
+          "Wrath Blade"
         ],
         "after": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Wrath Blade"
+          ""
         ]
       }
     ],
@@ -293,12 +278,12 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 292
+      "missing": 288
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
       "Axi S20 Intact": 3,
-      "Axi T13 Intact": 1,
+      "Axi T13 Intact": 0,
       "Lith A12 Intact": 7,
       "Lith A12 Radiant": 2,
       "Lith C14 Exceptional": 1,
@@ -313,12 +298,12 @@
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 8,
-      "Lith S18 Intact": 1,
-      "Lith T14 Intact": 10,
+      "Lith Q3 Intact": 6,
+      "Lith S18 Intact": 0,
+      "Lith T14 Intact": 11,
       "Lith V11 Intact": 9,
       "Lith V11 Radiant": 1,
-      "Meso A10 Intact": 6,
+      "Meso A10 Intact": 5,
       "Meso A12 Intact": 19,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 40,
@@ -326,14 +311,14 @@
       "Meso K8 Intact": 33,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 24,
-      "Meso V13 Intact": 24,
+      "Meso L5 Intact": 25,
+      "Meso V13 Intact": 26,
       "Meso V15 Intact": 37,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 22,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 20,
-      "Neo A16 Intact": 2,
+      "Neo A16 Intact": 1,
       "Neo C7 Intact": 15,
       "Neo C7 Radiant": 1,
       "Neo C8 Intact": 5,
@@ -427,7 +412,7 @@
       "item": "Simulor",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Argon Crystal; Simulor Blueprint",
+      "missing": "Simulor Blueprint",
       "route": "Cephalon Simaris Offerings",
       "steps": "Buy Simulor's Blueprint with Simaris Standing, then build.",
       "tip": "Scan daily targets and use stealth scans to earn Standing faster.",
@@ -442,10 +427,10 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (0/4); Cantare Blueprint",
+      "missing": "Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes.",
+      "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
       "primeDetails": [],
@@ -706,22 +691,6 @@
       "steps": "Buy the completed Halikar Wraith when Baro carries it, or trade for an unranked copy.",
       "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "source": "https://wiki.warframe.com/w/Halikar_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Machete Wraith",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Machete Wraith (completed item)",
-      "route": "Baro Ki’Teer rotating inventory / player trade",
-      "steps": "Buy the completed Machete Wraith when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
-      "source": "https://wiki.warframe.com/w/Machete_Wraith",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1397,21 +1366,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Wrath",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Wrath Blade",
-      "route": "Scoria’s Angel / Pontis Tower Secret Vendor",
-      "steps": "Earn its blueprints from Scoria’s Angel or buy them with Crimson Talents.",
-      "tip": "Scoria’s Angel guarantees one blueprint from the Sirius & Orion/Wrath pool; its travel stage supplies Crimson Talents for the vendor.",
-      "source": "https://wiki.warframe.com/w/Wrath",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Amanata",
       "type": "melee",
       "targetRank": "30",
@@ -1743,21 +1697,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Kompressa",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Kompressa Receiver",
-      "route": "Roky / Ventkids Rank 5",
-      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
-      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
-      "source": "https://wiki.warframe.com/w/Kompressa",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Kullervo",
       "type": "warframe",
       "targetRank": "30",
@@ -1833,14 +1772,14 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Pride",
-      "type": "melee",
+      "item": "Kompressa",
+      "type": "secondary",
       "targetRank": "30",
-      "missing": "Pride Handle; Pride Wrath Blade",
-      "route": "The Kuva Wytch / Pontis Tower Secret Vendor",
-      "steps": "Earn its blueprints from The Kuva Wytch or buy them with Emerald Talents.",
-      "tip": "The Kuva Wytch guarantees one blueprint from the Sirius & Orion/Pride pool; its travel stage supplies Emerald Talents for the vendor.",
-      "source": "https://wiki.warframe.com/w/Pride",
+      "missing": "Kompressa Barrel; Kompressa Receiver",
+      "route": "Roky / Ventkids Rank 5",
+      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
+      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
+      "source": "https://wiki.warframe.com/w/Kompressa",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1904,6 +1843,22 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
+      "practicalPriority": 515
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Dagath",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint",
+      "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
+      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
+      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
+      "source": "https://wiki.warframe.com/w/Dagath",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "availabilityGroup": "dojo",
       "practicalPriority": 515
     },
     {
@@ -1994,22 +1949,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Dagath",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Dagath Blueprint; Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint",
-      "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
-      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
-      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
-      "source": "https://wiki.warframe.com/w/Dagath",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "dojo",
       "practicalPriority": 520
     },
     {
@@ -2116,22 +2055,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 525
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Dorrclave",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Dorrclave Blade; Dorrclave Blueprint; Dorrclave Hilt; Dorrclave Hook; Dorrclave String",
-      "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
-      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
-      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
-      "source": "https://wiki.warframe.com/w/Dorrclave",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "dojo",
       "practicalPriority": 525
     },
     {
@@ -2924,14 +2847,16 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Afuris Prime Barrel (0/2); Afuris Prime Blueprint; Afuris Prime Link; Afuris Prime Receiver (0/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
       "source": "https://wiki.warframe.com/w/Afuris_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 520
     },
     {
@@ -3140,41 +3065,14 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Astilla Prime Barrel; Astilla Prime Receiver; Astilla Prime Stock",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Astilla_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Astilla Prime Barrel",
-          "relic": "Meso A6",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Astilla Prime Receiver",
-          "relic": "Meso C10",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Astilla Prime Stock",
-          "relic": "Axi V11",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 515
     },
     {
@@ -3182,16 +3080,16 @@
       "item": "Athodai Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Athodai Prime Barrel; Athodai Prime Receiver",
+      "missing": "Athodai Prime Receiver",
       "route": "Void Relics — Neo A16 / Axi P10",
-      "steps": "Barrel: Neo A16 Rare (2 held). Receiver: Axi P10 Uncommon (none visible in export).",
+      "steps": "Barrel: Neo A16 Rare (1 held). Receiver: Axi P10 Uncommon (none visible in export).",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "CURRENT RELICS",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 410
+      "practicalPriority": 405
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3247,14 +3145,16 @@
       "type": "warframe",
       "targetRank": "30",
       "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint; Baruuk Prime Systems Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
       "source": "https://wiki.warframe.com/w/Baruuk_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 520
     },
     {
@@ -3432,14 +3332,16 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard; Cobra & Crane Prime Hilt",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
       "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 515
     },
     {
@@ -3448,33 +3350,14 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Corinth Prime Receiver; Corinth Prime Stock",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Corinth_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Corinth Prime Receiver",
-          "relic": "Lith G11",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Corinth Prime Stock",
-          "relic": "Axi C8",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 510
     },
     {
@@ -3723,49 +3606,14 @@
       "type": "warframe",
       "targetRank": "30",
       "missing": "Gara Prime Blueprint; Gara Prime Chassis Blueprint; Gara Prime Neuroptics Blueprint; Gara Prime Systems Blueprint",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Gara_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Gara Prime Blueprint",
-          "relic": "Lith G11",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Gara Prime Chassis Blueprint",
-          "relic": "Neo P5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Gara Prime Neuroptics Blueprint",
-          "relic": "Meso C10",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Gara Prime Systems Blueprint",
-          "relic": "Axi C8",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Intact"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 520
     },
     {
@@ -4464,14 +4312,16 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Phantasma Prime Barrel; Phantasma Prime Receiver; Phantasma Prime Stock",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
       "source": "https://wiki.warframe.com/w/Phantasma_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 515
     },
     {
@@ -4513,7 +4363,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Void Relic — Lith Q2/Q3",
-      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×8; refine and radshare.",
+      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×6; refine and radshare.",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -4801,14 +4651,16 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Tatsu Prime Blade; Tatsu Prime Blueprint; Tatsu Prime Handle",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
       "source": "https://wiki.warframe.com/w/Tatsu_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 515
     },
     {
@@ -5075,41 +4927,14 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Volnus Prime Blueprint; Volnus Prime Handle; Volnus Prime Head",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Volnus_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Volnus Prime Blueprint",
-          "relic": "Neo P5",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Volnus Prime Handle",
-          "relic": "Axi V11",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Volnus Prime Head",
-          "relic": "Axi C8",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 515
     },
     {
@@ -5195,49 +5020,31 @@
   ],
   "owned": [
     {
-      "item": "Bhaira Hound",
-      "type": "companion",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Bhaira_Hound"
-    },
-    {
-      "item": "Lacerten",
-      "type": "companion",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Lacerten"
-    },
-    {
-      "item": "Oberon",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Oberon"
-    },
-    {
-      "item": "Tenet Cycron",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30 first; 40 optional",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
-    },
-    {
-      "item": "War Prime",
+      "item": "Dorrclave",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/War_Prime"
+      "source": "https://wiki.warframe.com/w/Dorrclave"
+    },
+    {
+      "item": "Machete Wraith",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Machete_Wraith"
+    },
+    {
+      "item": "Wrath",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Wrath"
     }
   ],
   "rank40": [
@@ -5584,16 +5391,18 @@
       "rankRule": "",
       "missing": "Afuris Prime Barrel (0/2); Afuris Prime Blueprint; Afuris Prime Link; Afuris Prime Receiver (0/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Afuris_Prime",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
     },
     {
       "item": "Agkuza",
@@ -6507,43 +6316,16 @@
       "rankRule": "",
       "missing": "Astilla Prime Barrel; Astilla Prime Receiver; Astilla Prime Stock",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Astilla_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Astilla Prime Barrel",
-          "relic": "Meso A6",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Astilla Prime Receiver",
-          "relic": "Meso C10",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Astilla Prime Stock",
-          "relic": "Axi V11",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        }
-      ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "liveMatches": []
     },
     {
       "item": "Athodai",
@@ -6575,7 +6357,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Athodai Prime Barrel; Athodai Prime Receiver",
+      "missing": "Athodai Prime Receiver",
       "ease": "4 — Multi-step farm",
       "route": "Void Relics — Neo A16 / Axi P10",
       "vaulted": "No",
@@ -6895,16 +6677,18 @@
       "rankRule": "",
       "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint; Baruuk Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Baruuk_Prime",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
     },
     {
       "item": "Basmu",
@@ -7009,14 +6793,14 @@
     {
       "item": "Bhaira Hound",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Sister of Parvos Hound reward / Legs assembly",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7546,15 +7330,15 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (0/4); Cantare Blueprint",
+      "missing": "Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes.",
+      "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -8089,16 +7873,18 @@
       "rankRule": "",
       "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard; Cobra & Crane Prime Hilt",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
     },
     {
       "item": "Coda Bassocyst",
@@ -8422,35 +8208,16 @@
       "rankRule": "",
       "missing": "Corinth Prime Receiver; Corinth Prime Stock",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Corinth_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Corinth Prime Receiver",
-          "relic": "Lith G11",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Corinth Prime Stock",
-          "relic": "Axi C8",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "liveMatches": []
     },
     {
       "item": "Cortege",
@@ -8694,7 +8461,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Dagath Blueprint; Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint",
+      "missing": "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
       "vaulted": "No",
@@ -9275,14 +9042,14 @@
     {
       "item": "Dorrclave",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Dorrclave Blade; Dorrclave Blueprint; Dorrclave Hilt; Dorrclave Hook; Dorrclave String",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10642,51 +10409,16 @@
       "rankRule": "",
       "missing": "Gara Prime Blueprint; Gara Prime Chassis Blueprint; Gara Prime Neuroptics Blueprint; Gara Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Gara_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Gara Prime Blueprint",
-          "relic": "Lith G11",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Gara Prime Chassis Blueprint",
-          "relic": "Neo P5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Gara Prime Neuroptics Blueprint",
-          "relic": "Meso C10",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        },
-        {
-          "part": "Gara Prime Systems Blueprint",
-          "relic": "Axi C8",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Intact"
-        }
-      ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "liveMatches": []
     },
     {
       "item": "Garuda",
@@ -12652,7 +12384,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Kompressa Receiver",
+      "missing": "Kompressa Barrel; Kompressa Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Roky / Ventkids Rank 5",
       "vaulted": "No",
@@ -13383,14 +13115,14 @@
     {
       "item": "Lacerten",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Sister of Parvos Hound reward / Legs assembly",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -13876,14 +13608,14 @@
     {
       "item": "Machete Wraith",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Machete Wraith (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -15093,14 +14825,14 @@
     {
       "item": "Oberon",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Railjack point-of-interest rewards",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -15597,18 +15329,16 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Pangolin_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
+      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "liveMatches": []
     },
     {
       "item": "Pangolin Sword",
@@ -15951,16 +15681,18 @@
       "rankRule": "",
       "missing": "Phantasma Prime Barrel; Phantasma Prime Receiver; Phantasma Prime Stock",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Phantasma_Prime",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
     },
     {
       "item": "Pharaoh Predasite",
@@ -16119,14 +15851,14 @@
     {
       "item": "Pride",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Pride Handle; Pride Wrath Blade",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "The Kuva Wytch / Pontis Tower Secret Vendor",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17179,16 +16911,18 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Revenant_Prime",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
     },
     {
       "item": "Rhino",
@@ -18174,7 +17908,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal; Simulor Blueprint",
+      "missing": "Simulor Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Cephalon Simaris Offerings",
       "vaulted": "No",
@@ -19191,16 +18925,18 @@
       "rankRule": "",
       "missing": "Tatsu Prime Blade; Tatsu Prime Blueprint; Tatsu Prime Handle",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Tatsu_Prime",
-      "primeStatus": "TRADE ONLY",
+      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
+      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
     },
     {
       "item": "Taxon",
@@ -19408,14 +19144,14 @@
     {
       "item": "Tenet Cycron",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Sister of Parvos adversary",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -19952,18 +19688,16 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Titania_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
+      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "liveMatches": []
     },
     {
       "item": "Tombfinger",
@@ -21113,43 +20847,16 @@
       "rankRule": "",
       "missing": "Volnus Prime Blueprint; Volnus Prime Handle; Volnus Prime Head",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Volnus_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Volnus Prime Blueprint",
-          "relic": "Neo P5",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Volnus Prime Handle",
-          "relic": "Axi V11",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Volnus Prime Head",
-          "relic": "Axi C8",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the active Prime Resurgence rotation",
-          "refinement": "Flawless"
-        }
-      ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
-      "liveMatches": [
-        "Prime Resurgence"
-      ]
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "liveMatches": []
     },
     {
       "item": "Volt",
@@ -21333,14 +21040,14 @@
     {
       "item": "War Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Hunhow at Pontis Tower — Hunhow’s Trinkets",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -21417,14 +21124,14 @@
     {
       "item": "Wrath",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Wrath Blade",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Scoria’s Angel / Pontis Tower Secret Vendor",
       "vaulted": "No",
       "pendingFoundry": "No",
