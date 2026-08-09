@@ -139,15 +139,44 @@ def refresh_relic_quantities(text: str, totals: dict[str, int], exact: dict[str,
     return held.sub(replace_held, text)
 
 
+def is_crafting_material(name: str) -> bool:
+    return not re.search(
+        r"(?:Blueprint|Barrel|Receiver|Stock|Blades?|Stars?|Handle|Hilt|Grip|Link|Chassis|Neuroptics|Systems|Harness|Wings|Cerebrum|Carapace|Pouch|Gauntlet|Upper Limb|Lower Limb|String|Band|Buckle|Boot|Ornament|Dull Button|Prime)$",
+        name,
+        flags=re.IGNORECASE,
+    )
+
+
 def refresh_step_material_quantities(text: str, missing: str) -> str:
+    additions: list[str] = []
     for part in missing.split(";"):
-        match = re.fullmatch(r"\s*(.+?)\s+\((\d+)/(\d+)\)\s*", part)
+        match = re.fullmatch(r"\s*(.+?)\s+\(([\d,]+)/([\d,]+)\)\s*", part)
         if not match:
             continue
-        name, owned, required = match.group(1), int(match.group(2)), int(match.group(3))
+        name = match.group(1)
+        owned = int(match.group(2).replace(",", ""))
+        required = int(match.group(3).replace(",", ""))
+        if not is_crafting_material(name):
+            continue
         remaining = required - owned
         escaped = re.escape(name)
-        text = re.sub(rf"\b[\d,]+\s+({escaped})\b", f"{remaining:,} \\1", text, flags=re.IGNORECASE)
+        numeric = re.compile(rf"\b[\d,]+\s+({escaped})\b", flags=re.IGNORECASE)
+        if numeric.search(text):
+            text = numeric.sub(f"{remaining:,} \\1", text)
+        elif re.search(rf"\b{escaped}\b", text, flags=re.IGNORECASE):
+            text = re.sub(rf"\b{escaped}\b", f"{remaining:,} {name}", text, count=1, flags=re.IGNORECASE)
+        else:
+            additions.append(f"{remaining:,} {name}")
+
+    if additions:
+        instruction = "Obtain " + " and ".join(additions)
+        if re.search(r"\bthen build\b", text, flags=re.IGNORECASE):
+            inline_instruction = instruction[0].lower() + instruction[1:]
+            text = re.sub(r"\bthen build\b", f"{inline_instruction}, then build", text, count=1, flags=re.IGNORECASE)
+        elif text.strip():
+            text = f"{text.rstrip()} {instruction}, then build."
+        else:
+            text = f"{instruction}, then build."
     return text
 
 
