@@ -431,6 +431,40 @@ function applyLiveMatches(row) {
   row.liveMatches = [...new Set(matches)];
 }
 
+function isCraftingMaterial(name) {
+  return !/(?:Blueprint|Barrel|Receiver|Stock|Blades?|Stars?|Handle|Hilt|Grip|Link|Chassis|Neuroptics|Systems|Harness|Wings|Cerebrum|Carapace|Pouch|Gauntlet|Upper Limb|Lower Limb|String|Band|Buckle|Boot|Ornament|Dull Button|Prime)$/i.test(name);
+}
+
+function refreshStepMaterialQuantities(steps, missing) {
+  let text = String(steps || '');
+  const additions = [];
+  for (const part of String(missing || '').split(';').map((value) => value.trim()).filter(Boolean)) {
+    const match = part.match(/^(.+?) \(([\d,]+)\/([\d,]+)\)$/);
+    if (!match || !isCraftingMaterial(match[1])) continue;
+    const name = match[1];
+    const owned = Number(match[2].replaceAll(',', ''));
+    const required = Number(match[3].replaceAll(',', ''));
+    const remaining = (required - owned).toLocaleString('en-US');
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const numeric = new RegExp(`\\b[\\d,]+\\s+(${escaped})\\b`, 'i');
+    const named = new RegExp(`\\b${escaped}\\b`, 'i');
+    if (numeric.test(text)) {
+      text = text.replace(new RegExp(`\\b[\\d,]+\\s+(${escaped})\\b`, 'gi'), `${remaining} $1`);
+    } else if (named.test(text)) {
+      text = text.replace(named, `${remaining} ${name}`);
+    } else {
+      additions.push(`${remaining} ${name}`);
+    }
+  }
+  if (!additions.length) return text;
+  const instruction = `Obtain ${additions.join(' and ')}`;
+  if (/\bthen build\b/i.test(text)) {
+    const inline = `${instruction[0].toLowerCase()}${instruction.slice(1)}`;
+    return text.replace(/\bthen build\b/i, `${inline}, then build`);
+  }
+  return text.trim() ? `${text.trim()} ${instruction}, then build.` : `${instruction}, then build.`;
+}
+
 function clean(row) {
   const out = { ...row };
   if (fillerRoutes.has(out.route)) {
@@ -508,6 +542,9 @@ function clean(row) {
     if (typeof out[field] === 'string') out[field] = out[field].replace(/…|\.\.\./g, '.').replace(/\.\./g, '.');
   }
   if (out.state && out.state !== 'Missing') out.missing = '';
+  if (typeof out.steps === 'string' && String(out.missing || '').trim()) {
+    out.steps = refreshStepMaterialQuantities(out.steps, out.missing);
+  }
   return out;
 }
 
