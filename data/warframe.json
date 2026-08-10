@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-09",
-    "exportVerifiedAt": "2026-08-09 14:40:30 PDT",
+    "snapshotDate": "2026-08-10",
+    "exportVerifiedAt": "2026-08-10 12:25:29 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167970,
-        "modified": "2026-08-09T14:40:30.217728-07:00",
-        "sha256": "70ecf365689f9a17f8ec11f70aa09aba15ff5220250b6ca0367f696ae0833cf2"
+        "bytes": 2167957,
+        "modified": "2026-08-10T12:25:29.564098-07:00",
+        "sha256": "045f380b6f6a7317462b270f2c9c4702dc963a4e89d2e3574df6f7f0040947e2"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-09T14:40:30.223263-07:00",
-        "sha256": "5db9034ebdd6d7c69965a086f218b49539ce86817fcf3256295d3555a9c34ec8"
+        "modified": "2026-08-10T12:25:29.569005-07:00",
+        "sha256": "b710d35191f32b6180c615b631390c320080ff5046bfb216e71c3652e2aa48c7"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-09T14:40:30.220242-07:00",
-        "sha256": "d29395e750a509255f641af8aa33797815f3afc708e25419fffe75c026bd329d"
+        "modified": "2026-08-10T12:25:29.565606-07:00",
+        "sha256": "5d110f8a9b7c1f4b3fd5aabbf755395eee3eee9c72cb79d6f5a166872fe6c753"
       },
       "inventoryRelics.json": {
         "bytes": 33439,
-        "modified": "2026-08-09T14:40:30.221753-07:00",
-        "sha256": "31ee62738fda8c369e2266fe7d3df431d086b6d1fce19cc7d128fdd3407ed2de"
+        "modified": "2026-08-10T12:25:29.567499-07:00",
+        "sha256": "a893991f4c8f38619d29983c6211dce3650f2f8b72ac04bca7850b52230c4554"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-09T14:40:30.226084-07:00",
-        "sha256": "7d2b3a6ecb34bb4c65de6ac12e8c732e2102629bbf075841d37f5514fe37fea5"
+        "modified": "2026-08-10T12:25:29.571527-07:00",
+        "sha256": "5e756b1afa869e8cfa72766a97c7ad4d85ad3f1f63fef60649fe55457b28a4da"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,63 +48,33 @@
     },
     "importChanges": [
       {
-        "item": "Afentis Prime",
+        "item": "Baruuk Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Afentis Prime Barrel; Afentis Prime Blueprint"
+          "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint; Baruuk Prime Systems Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Afentis Prime Blueprint"
+          "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
         ]
       },
       {
-        "item": "Athodai",
+        "item": "Coda Synapse",
         "before": [
           "No",
           "No",
           "No",
-          "Athodai Barrel; Athodai Blueprint; Athodai Receiver"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Athodai Barrel; Athodai Blueprint"
-        ]
-      },
-      {
-        "item": "Dorrclave",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
+          "Completed weapon from Eleanor"
         ],
         "after": [
           "Yes",
           "Yes",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Ember Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Ember Prime Blueprint; Ember Prime Neuroptics Blueprint; Ember Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Ember Prime Blueprint; Ember Prime Neuroptics Blueprint"
         ]
       },
       {
@@ -123,12 +93,42 @@
         ]
       },
       {
-        "item": "Kompressa",
+        "item": "Nezha Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Kompressa Barrel; Kompressa Receiver"
+          "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint; Nezha Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Nidus Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nidus Prime Blueprint; Nidus Prime Neuroptics Blueprint; Nidus Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nidus Prime Blueprint; Nidus Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Rakta Ballistica",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Rakta Ballistica (completed item)"
         ],
         "after": [
           "Yes",
@@ -138,78 +138,108 @@
         ]
       },
       {
-        "item": "Kuva Shildeg",
+        "item": "Rakta Cernos",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Rakta Cernos (completed item)"
         ],
         "after": [
           "Yes",
-          "Yes",
           "No",
-          ""
-        ]
-      },
-      {
-        "item": "Machete Wraith",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
           "No",
           ""
         ]
       },
       {
-        "item": "Phantasma Prime",
+        "item": "Sancti Castanas",
         "before": [
           "No",
           "No",
           "No",
-          "Phantasma Prime Barrel; Phantasma Prime Receiver; Phantasma Prime Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Phantasma Prime Receiver; Phantasma Prime Stock"
-        ]
-      },
-      {
-        "item": "Prisma Machete",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Prisma Machete (completed item)"
+          "Sancti Castanas (completed item)"
         ],
         "after": [
           "Yes",
-          "Yes",
+          "No",
           "No",
           ""
         ]
       },
       {
-        "item": "Scourge",
+        "item": "Sancti Magistar",
         "before": [
           "No",
           "No",
           "No",
-          "Scourge Blueprint"
+          "Sancti Magistar (completed item)"
         ],
         "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Sancti Tigris",
+        "before": [
           "No",
           "No",
           "No",
-          "Scourge Blueprint; Nitain Extract (1/2)"
+          "Sancti Tigris (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Secura Dual Cestra",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Secura Dual Cestra (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Secura Lecta",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Secura Lecta (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Secura Penta",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Secura Penta (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
         ]
       },
       {
@@ -218,86 +248,26 @@
           "No",
           "No",
           "No",
-          "Cryotic (15325/30000); Magistar"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Cryotic (22986/30000); Magistar"
-        ]
-      },
-      {
-        "item": "Sirius & Orion",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Sirius & Orion Chassis Blueprint; Sirius & Orion Neuroptics Blueprint"
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Styanax Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Styanax Prime Neuroptics Blueprint; Styanax Prime Systems Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Styanax Prime Systems Blueprint"
+          "Cryotic (25498/30000); Magistar"
         ]
       },
       {
-        "item": "Tatsu Prime",
+        "item": "Simulor",
         "before": [
           "No",
           "No",
           "No",
-          "Tatsu Prime Blade; Tatsu Prime Blueprint; Tatsu Prime Handle"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Tatsu Prime Blade; Tatsu Prime Blueprint"
-        ]
-      },
-      {
-        "item": "Tenet Exec",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Completed weapon"
+          "Simulor Blueprint"
         ],
         "after": [
           "Yes",
-          "Yes",
           "No",
-          ""
-        ]
-      },
-      {
-        "item": "Tenet Livia",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Completed weapon"
-        ],
-        "after": [
-          "Yes",
-          "Yes",
           "No",
           ""
         ]
@@ -308,71 +278,11 @@
           "No",
           "No",
           "No",
-          "Trumna Prime Receiver"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Trumna Prime Barrel; Trumna Prime Receiver; Trumna Prime Stock"
-        ]
-      },
-      {
-        "item": "Valkyr Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Valkyr Prime Chassis Blueprint; Valkyr Prime Neuroptics Blueprint; Valkyr Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Valkyr Prime Chassis Blueprint; Valkyr Prime Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Vauban Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (1/5); Vauban Prime Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Wolf Sledge",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)"
-        ]
-      },
-      {
-        "item": "Wrath",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
         ],
         "after": [
           "Yes",
-          "Yes",
+          "No",
           "No",
           ""
         ]
@@ -383,59 +293,59 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 283
+      "missing": 272
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
       "Axi S20 Intact": 4,
-      "Axi T13 Intact": 0,
-      "Lith A12 Intact": 7,
+      "Axi T13 Intact": 1,
+      "Lith A12 Intact": 10,
       "Lith A12 Radiant": 2,
       "Lith C14 Exceptional": 1,
       "Lith C14 Intact": 4,
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
       "Lith G14 Intact": 17,
-      "Lith K12 Intact": 25,
+      "Lith K12 Intact": 26,
       "Lith K12 Radiant": 6,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 5,
+      "Lith Q3 Intact": 6,
       "Lith S18 Intact": 1,
-      "Lith T14 Intact": 11,
-      "Lith V11 Intact": 11,
+      "Lith T14 Intact": 12,
+      "Lith V11 Intact": 12,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 19,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 40,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 35,
+      "Meso K8 Intact": 37,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 25,
       "Meso V13 Intact": 26,
-      "Meso V15 Intact": 38,
+      "Meso V15 Intact": 40,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 22,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 21,
+      "Meso Y2 Intact": 23,
       "Neo A16 Intact": 2,
       "Neo C7 Intact": 17,
       "Neo C7 Radiant": 1,
       "Neo C8 Intact": 0,
-      "Neo C9 Intact": 15,
+      "Neo C9 Intact": 16,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
-      "Neo P10 Intact": 10,
+      "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 7,
+      "Neo T11 Intact": 8,
       "Neo V11 Intact": 9,
       "Neo V12 Intact": 8,
-      "Neo Y1 Intact": 15,
+      "Neo Y1 Intact": 16,
       "Requiem I Intact": 5,
       "Requiem II Intact": 5,
       "Requiem III Intact": 5,
@@ -511,21 +421,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 20
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Simulor",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Simulor Blueprint",
-      "route": "Cephalon Simaris Offerings",
-      "steps": "Buy Simulor's Blueprint with Simaris Standing, then build.",
-      "tip": "Scan daily targets and use stealth scans to earn Standing faster.",
-      "source": "https://wiki.warframe.com/w/Simulor",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 21
     },
     {
       "ease": "3 — Focused short farm",
@@ -1090,36 +985,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Rakta Ballistica",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Rakta Ballistica (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Rakta_Ballistica",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Rakta Cernos",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Rakta Cernos (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Rakta_Cernos",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Rakta Dark Dagger",
       "type": "melee",
       "targetRank": "30",
@@ -1143,96 +1008,6 @@
       "steps": "Purchase the Blueprint for 60 Pathos Clamps after an Orowyrm run.",
       "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Sancti Castanas",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Sancti Castanas (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Sancti_Castanas",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Sancti Magistar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Sancti Magistar (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Sancti_Magistar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Sancti Tigris",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Sancti Tigris (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Sancti_Tigris",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Secura Dual Cestra",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Secura Dual Cestra (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Secura_Dual_Cestra",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Secura Lecta",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Secura Lecta (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Secura_Lecta",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Secura Penta",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Secura Penta (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Secura_Penta",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1695,21 +1470,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Coda Synapse",
-      "type": "primary",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon from Eleanor",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Coda Tysis",
       "type": "secondary",
       "targetRank": "30 first; 40 optional",
@@ -1849,9 +1609,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (22986/30000); Magistar",
+      "missing": "Cryotic (25498/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 7,014 Cryotic, then build.",
+      "steps": "Get 4,502 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -3173,7 +2933,7 @@
       "item": "Baruuk Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint; Baruuk Prime Systems Blueprint",
+      "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -3184,7 +2944,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4131,7 +3891,7 @@
       "item": "Nezha Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint; Nezha Prime Systems Blueprint",
+      "missing": "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -4140,14 +3900,14 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
       "item": "Nidus Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Nidus Prime Blueprint; Nidus Prime Neuroptics Blueprint; Nidus Prime Systems Blueprint",
+      "missing": "Nidus Prime Blueprint; Nidus Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -4156,7 +3916,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4392,7 +4152,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Void Relic — Lith Q2/Q3",
-      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×5; refine and radshare.",
+      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×6; refine and radshare.",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -4789,22 +4549,6 @@
       "practicalPriority": 515
     },
     {
-      "ease": "3 — Focused short farm",
-      "item": "Trumna Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Trumna Prime Barrel; Trumna Prime Receiver; Trumna Prime Stock",
-      "route": "Void Relic — Neo T11",
-      "steps": "Open the 7 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first.",
-      "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "CURRENT RELICS",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 11
-    },
-    {
       "ease": "4 — Multi-step farm",
       "item": "Valkyr Prime",
       "type": "warframe",
@@ -5039,7 +4783,89 @@
       "practicalPriority": 510
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Rakta Cernos",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Rakta_Cernos"
+    },
+    {
+      "item": "Sancti Castanas",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sancti_Castanas"
+    },
+    {
+      "item": "Sancti Magistar",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sancti_Magistar"
+    },
+    {
+      "item": "Sancti Tigris",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sancti_Tigris"
+    },
+    {
+      "item": "Secura Dual Cestra",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Secura_Dual_Cestra"
+    },
+    {
+      "item": "Secura Lecta",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Secura_Lecta"
+    },
+    {
+      "item": "Secura Penta",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Secura_Penta"
+    },
+    {
+      "item": "Simulor",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Simulor"
+    },
+    {
+      "item": "Trumna Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://www.warframe.com/droptables"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -6668,7 +6494,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint; Baruuk Prime Systems Blueprint",
+      "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -8113,14 +7939,14 @@
     {
       "item": "Coda Synapse",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
       "rankRule": "",
-      "missing": "Completed weapon from Eleanor",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -14503,7 +14329,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint; Nezha Prime Systems Blueprint",
+      "missing": "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -14546,7 +14372,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nidus Prime Blueprint; Nidus Prime Neuroptics Blueprint; Nidus Prime Systems Blueprint",
+      "missing": "Nidus Prime Blueprint; Nidus Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -16654,14 +16480,14 @@
     {
       "item": "Rakta Ballistica",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Rakta Ballistica (completed item)",
-      "ease": "4 — Multi-step farm",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16675,14 +16501,14 @@
     {
       "item": "Rakta Cernos",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Rakta Cernos (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17163,14 +16989,14 @@
     {
       "item": "Sancti Castanas",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sancti Castanas (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17184,14 +17010,14 @@
     {
       "item": "Sancti Magistar",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sancti Magistar (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17205,14 +17031,14 @@
     {
       "item": "Sancti Tigris",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sancti Tigris (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17468,14 +17294,14 @@
     {
       "item": "Secura Dual Cestra",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Secura Dual Cestra (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17489,14 +17315,14 @@
     {
       "item": "Secura Lecta",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Secura Lecta (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17510,14 +17336,14 @@
     {
       "item": "Secura Penta",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Secura Penta (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17779,7 +17605,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (22986/30000); Magistar",
+      "missing": "Cryotic (25498/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -17788,7 +17614,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 7,014 Cryotic, then build."
+      "steps": "Obtain 4,502 Cryotic, then build."
     },
     {
       "item": "Sicarus",
@@ -17896,15 +17722,15 @@
     {
       "item": "Simulor",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Simulor Blueprint",
-      "ease": "3 — Focused short farm",
-      "route": "Cephalon Simaris Offerings",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 5,
@@ -19851,23 +19677,22 @@
     {
       "item": "Trumna Prime",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Trumna Prime Barrel; Trumna Prime Receiver; Trumna Prime Stock",
-      "ease": "3 — Focused short farm",
-      "route": "Void Relic — Neo T11",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 15,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 7 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first.",
-      "primeStatus": "CURRENT RELICS"
+      "steps": "Open the 8 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",
