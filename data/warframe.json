@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-10",
-    "exportVerifiedAt": "2026-08-10 12:25:29 PDT",
+    "exportVerifiedAt": "2026-08-10 22:06:19 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167957,
-        "modified": "2026-08-10T12:25:29.564098-07:00",
-        "sha256": "045f380b6f6a7317462b270f2c9c4702dc963a4e89d2e3574df6f7f0040947e2"
+        "bytes": 2168000,
+        "modified": "2026-08-10T22:06:19.164896-07:00",
+        "sha256": "22dd8286146d0573402ba268057a80424ef33dfdd64eba4248efcd626f9ae470"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-10T12:25:29.569005-07:00",
-        "sha256": "b710d35191f32b6180c615b631390c320080ff5046bfb216e71c3652e2aa48c7"
+        "modified": "2026-08-10T22:06:19.169071-07:00",
+        "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-10T12:25:29.565606-07:00",
-        "sha256": "5d110f8a9b7c1f4b3fd5aabbf755395eee3eee9c72cb79d6f5a166872fe6c753"
+        "modified": "2026-08-10T22:06:19.166563-07:00",
+        "sha256": "ca6ac9f00f939a1c9f4fee7dca7372951e416e66c2b5c7839a3f4ef4800c57aa"
       },
       "inventoryRelics.json": {
-        "bytes": 33439,
-        "modified": "2026-08-10T12:25:29.567499-07:00",
-        "sha256": "a893991f4c8f38619d29983c6211dce3650f2f8b72ac04bca7850b52230c4554"
+        "bytes": 33449,
+        "modified": "2026-08-10T22:06:19.167567-07:00",
+        "sha256": "a1816aa5c557047f02aa1912881d94650fc8007e12ddc342778d0c8797612816"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-10T12:25:29.571527-07:00",
-        "sha256": "5e756b1afa869e8cfa72766a97c7ad4d85ad3f1f63fef60649fe55457b28a4da"
+        "modified": "2026-08-10T22:06:19.171090-07:00",
+        "sha256": "5df0a2ce2a7288c4f590f630ae483f2c3f35d364971cbecec3af4e48dd5268a7"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,27 +48,42 @@
     },
     "importChanges": [
       {
-        "item": "Baruuk Prime",
+        "item": "Afuris Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint; Baruuk Prime Systems Blueprint"
+          "Afuris Prime Barrel (0/2); Afuris Prime Blueprint; Afuris Prime Link; Afuris Prime Receiver (0/2)"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
+          "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)"
         ]
       },
       {
-        "item": "Coda Synapse",
+        "item": "Baruuk Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Completed weapon from Eleanor"
+          "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Dagath",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint"
         ],
         "after": [
           "Yes",
@@ -93,57 +108,12 @@
         ]
       },
       {
-        "item": "Nezha Prime",
+        "item": "Rakta Dark Dagger",
         "before": [
           "No",
           "No",
           "No",
-          "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint; Nezha Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Nezha Prime Blueprint; Nezha Prime Chassis Blueprint; Nezha Prime Neuroptics Blueprint"
-        ]
-      },
-      {
-        "item": "Nidus Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Nidus Prime Blueprint; Nidus Prime Neuroptics Blueprint; Nidus Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Nidus Prime Blueprint; Nidus Prime Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Rakta Ballistica",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Rakta Ballistica (completed item)"
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Rakta Cernos",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Rakta Cernos (completed item)"
+          "Rakta Dark Dagger (completed item)"
         ],
         "after": [
           "Yes",
@@ -155,14 +125,14 @@
       {
         "item": "Sancti Castanas",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Sancti Castanas (completed item)"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -170,59 +140,14 @@
       {
         "item": "Sancti Magistar",
         "before": [
-          "No",
-          "No",
-          "No",
-          "Sancti Magistar (completed item)"
-        ],
-        "after": [
           "Yes",
           "No",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Sancti Tigris",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Sancti Tigris (completed item)"
         ],
         "after": [
           "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Secura Dual Cestra",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Secura Dual Cestra (completed item)"
-        ],
-        "after": [
           "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Secura Lecta",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Secura Lecta (completed item)"
-        ],
-        "after": [
-          "Yes",
-          "No",
           "No",
           ""
         ]
@@ -230,61 +155,61 @@
       {
         "item": "Secura Penta",
         "before": [
-          "No",
-          "No",
-          "No",
-          "Secura Penta (completed item)"
-        ],
-        "after": [
           "Yes",
           "No",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Sibear",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Cryotic (22986/30000); Magistar"
         ],
         "after": [
+          "Yes",
+          "Yes",
           "No",
-          "No",
-          "No",
-          "Cryotic (25498/30000); Magistar"
+          ""
         ]
       },
       {
         "item": "Simulor",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Simulor Blueprint"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
       },
       {
-        "item": "Trumna Prime",
+        "item": "Spectra Vandal",
         "before": [
           "No",
           "No",
           "No",
-          "Trumna Prime Barrel; Trumna Prime Receiver; Trumna Prime Stock"
+          "Spectra Vandal Blueprint; Spectra Vandal Chassis; Spectra Vandal Handle"
         ],
         "after": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Spectra Vandal Chassis; Spectra Vandal Handle"
+        ]
+      },
+      {
+        "item": "Voruna",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Voruna Blueprint; Voruna Chassis Blueprint; Voruna Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint"
         ]
       }
     ],
@@ -293,7 +218,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 272
+      "missing": 270
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
@@ -305,7 +230,7 @@
       "Lith C14 Intact": 4,
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
-      "Lith G14 Intact": 17,
+      "Lith G14 Intact": 18,
       "Lith K12 Intact": 26,
       "Lith K12 Radiant": 6,
       "Lith N18 Intact": 16,
@@ -315,15 +240,15 @@
       "Lith Q2 Intact": 0,
       "Lith Q3 Intact": 6,
       "Lith S18 Intact": 1,
-      "Lith T14 Intact": 12,
+      "Lith T14 Intact": 13,
       "Lith V11 Intact": 12,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 19,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 40,
+      "Meso D8 Intact": 41,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 37,
+      "Meso K8 Intact": 39,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 25,
@@ -332,9 +257,9 @@
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 22,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 23,
+      "Meso Y2 Intact": 24,
       "Neo A16 Intact": 2,
-      "Neo C7 Intact": 17,
+      "Neo C7 Intact": 18,
       "Neo C7 Radiant": 1,
       "Neo C8 Intact": 0,
       "Neo C9 Intact": 16,
@@ -342,14 +267,14 @@
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 8,
+      "Neo T11 Intact": 10,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 8,
+      "Neo V12 Intact": 9,
       "Neo Y1 Intact": 16,
-      "Requiem I Intact": 5,
-      "Requiem II Intact": 5,
-      "Requiem III Intact": 5,
-      "Requiem IV Intact": 5
+      "Requiem I Intact": 10,
+      "Requiem II Intact": 10,
+      "Requiem III Intact": 10,
+      "Requiem IV Intact": 10
     },
     "basePrimeAssemblies": {
       "Bronco Prime": 0,
@@ -985,21 +910,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Rakta Dark Dagger",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Rakta Dark Dagger (completed item)",
-      "route": "Syndicate offering or player trade",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
-      "source": "https://wiki.warframe.com/w/Rakta_Dark_Dagger",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Sampotes",
       "type": "melee",
       "targetRank": "30",
@@ -1350,6 +1260,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Voruna",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint",
+      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.",
+      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
+      "source": "https://wiki.warframe.com/w/Voruna",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 495
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Jade",
       "type": "warframe",
       "targetRank": "30",
@@ -1373,21 +1298,6 @@
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
       "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
       "source": "https://wiki.warframe.com/w/Scyotid",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 500
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Voruna",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Voruna Blueprint; Voruna Chassis Blueprint; Voruna Neuroptics Blueprint",
-      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.",
-      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
-      "source": "https://wiki.warframe.com/w/Voruna",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1621,6 +1531,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Spectra Vandal",
+      "type": "secondary",
+      "targetRank": "30",
+      "missing": "Spectra Vandal Chassis; Spectra Vandal Handle",
+      "route": "Veil Proxima Grineer abandoned derelicts",
+      "steps": "Farm the missing components from derelict cache rewards.",
+      "tip": "Complete the derelict point of interest before extraction.",
+      "source": "https://wiki.warframe.com/w/Spectra_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 510
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Stropha",
       "type": "melee",
       "targetRank": "30",
@@ -1633,22 +1558,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Dagath",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint",
-      "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
-      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
-      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
-      "source": "https://wiki.warframe.com/w/Dagath",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "dojo",
-      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1690,21 +1599,6 @@
       "steps": "Update 42 added all three components to every Infested Salvage rotation. Rotation C still has the best odds; main blueprint: The Glast Gambit.",
       "tip": "Keep vaporizer coverage high; stay through rotation C when practical for the best odds.",
       "source": "https://wiki.warframe.com/w/Nidus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Spectra Vandal",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Spectra Vandal Blueprint; Spectra Vandal Chassis; Spectra Vandal Handle",
-      "route": "Veil Proxima Grineer abandoned derelicts",
-      "steps": "Farm the missing components from derelict cache rewards.",
-      "tip": "Complete the derelict point of interest before extraction.",
-      "source": "https://wiki.warframe.com/w/Spectra_Vandal",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2635,7 +2529,7 @@
       "item": "Afuris Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Afuris Prime Barrel (0/2); Afuris Prime Blueprint; Afuris Prime Link; Afuris Prime Receiver (0/2)",
+      "missing": "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -2646,7 +2540,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2933,7 +2827,7 @@
       "item": "Baruuk Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
+      "missing": "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -2944,7 +2838,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4794,22 +4688,13 @@
       "source": "https://wiki.warframe.com/w/Rakta_Cernos"
     },
     {
-      "item": "Sancti Castanas",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sancti_Castanas"
-    },
-    {
-      "item": "Sancti Magistar",
+      "item": "Rakta Dark Dagger",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sancti_Magistar"
+      "source": "https://wiki.warframe.com/w/Rakta_Dark_Dagger"
     },
     {
       "item": "Sancti Tigris",
@@ -4837,24 +4722,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Secura_Lecta"
-    },
-    {
-      "item": "Secura Penta",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Secura_Penta"
-    },
-    {
-      "item": "Simulor",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Simulor"
     },
     {
       "item": "Trumna Prime",
@@ -5208,7 +5075,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Afuris Prime Barrel (0/2); Afuris Prime Blueprint; Afuris Prime Link; Afuris Prime Receiver (0/2)",
+      "missing": "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -6494,7 +6361,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
+      "missing": "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -8274,14 +8141,14 @@
     {
       "item": "Dagath",
       "type": "warframe",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Dagath’s Hollow Dojo room + Abyssal Zone",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16522,14 +16389,14 @@
     {
       "item": "Rakta Dark Dagger",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Rakta Dark Dagger (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16989,14 +16856,14 @@
     {
       "item": "Sancti Castanas",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17010,14 +16877,14 @@
     {
       "item": "Sancti Magistar",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17336,14 +17203,14 @@
     {
       "item": "Secura Penta",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17722,15 +17589,15 @@
     {
       "item": "Simulor",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 5,
@@ -18005,7 +17872,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Spectra Vandal Blueprint; Spectra Vandal Chassis; Spectra Vandal Handle",
+      "missing": "Spectra Vandal Chassis; Spectra Vandal Handle",
       "ease": "5 — Long grind / trade",
       "route": "Veil Proxima Grineer abandoned derelicts",
       "vaulted": "No",
@@ -19692,7 +19559,7 @@
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 8 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
+      "steps": "Open the 10 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",
@@ -20719,7 +20586,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Voruna Blueprint; Voruna Chassis Blueprint; Voruna Neuroptics Blueprint",
+      "missing": "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
