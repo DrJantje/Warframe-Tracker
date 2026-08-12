@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-11",
-    "exportVerifiedAt": "2026-08-11 19:31:24 PDT",
+    "exportVerifiedAt": "2026-08-11 20:37:03 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167914,
-        "modified": "2026-08-11T19:31:24.504810-07:00",
-        "sha256": "c76de418ac9b9af2e5e78a018275147abf3b49c0ce36367a4f0f330ceeb01dda"
+        "bytes": 2167913,
+        "modified": "2026-08-11T20:37:02.919122-07:00",
+        "sha256": "826bda0115a2e766550dca0ef9031f850dbb794ba04392e210a9db55c1f2767e"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-11T19:31:24.507647-07:00",
+        "modified": "2026-08-11T20:37:02.922128-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-11T19:31:24.506322-07:00",
-        "sha256": "b19da92e1ffc25d050218f17b573fff8d7cb8f4e963b6a94f7ac4a105aca2404"
+        "modified": "2026-08-11T20:37:02.920118-07:00",
+        "sha256": "ec207e3327c46672c6f16c6a1233378f5f986cab685aa7922584a00d6cab8787"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-11T19:31:24.506322-07:00",
-        "sha256": "a589349bea7baed3f35c8b2416cbe5dfd702f0cf76a604983b7a047b661848f4"
+        "modified": "2026-08-11T20:37:02.920618-07:00",
+        "sha256": "ec9d8d4e91a2b84a27c9fac857e103fc6c92858a503a9b4b2c2848917bc102a9"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-11T19:31:24.509156-07:00",
-        "sha256": "bdc123bd998be9a00e4d6dc1c13639d383d57373e225dd32044e8e3e14a82aa3"
+        "modified": "2026-08-11T20:37:02.923851-07:00",
+        "sha256": "505f9bb2a58d6ec9c56389379cbef19591bfff4da0de577d39abff2cc91ee4b7"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,89 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Athodai Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Athodai Prime Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Scourge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Scourge Blueprint; Nitain Extract (1/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Scourge Blueprint"
+        ]
+      },
+      {
+        "item": "Vauban Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (1/5); Vauban Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Venka Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Venka Prime Blades (0/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Venka Prime Blades (1/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)"
+        ]
+      },
+      {
+        "item": "Wolf Sledge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 266
+      "missing": 265
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
@@ -104,7 +180,7 @@
       "Neo T11 Intact": 10,
       "Neo V11 Intact": 9,
       "Neo V12 Intact": 9,
-      "Neo Y1 Intact": 16,
+      "Neo Y1 Intact": 15,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -148,9 +224,9 @@
       "item": "Scourge",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Scourge Blueprint; Nitain Extract (1/2)",
+      "missing": "Scourge Blueprint",
       "route": "Clan Dojo Tenno Lab",
-      "steps": "Replicate the Scourge Blueprint from the Tenno Lab, obtain 1 Nitain Extract, then build it.",
+      "steps": "Replicate the Scourge Blueprint from the Tenno Lab, then build it.",
       "tip": "Check completed clan research before farming materials.",
       "source": "https://wiki.warframe.com/w/Scourge",
       "vaulted": "No",
@@ -1493,6 +1569,22 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Wolf Sledge",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
+      "route": "Wolf of Saturn Six; Wolf Beacon",
+      "steps": "Farm all four completed weapon components from the Wolf of Saturn Six.",
+      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "source": "https://wiki.warframe.com/w/Wolf_Sledge",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "availabilityGroup": "nightwave",
+      "practicalPriority": 520
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Arbucep",
       "type": "archgun",
       "targetRank": "30",
@@ -1504,22 +1596,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 525
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Wolf Sledge",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)",
-      "route": "Wolf of Saturn Six; Wolf Beacon",
-      "steps": "Farm all four completed weapon components from the Wolf of Saturn Six. Obtain 4 Nitain Extract, then build.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
-      "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "nightwave",
       "practicalPriority": 525
     },
     {
@@ -2539,22 +2615,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 515
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Athodai Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Athodai Prime Receiver",
-      "route": "Void Relics — Neo A16 / Axi P10",
-      "steps": "Barrel: Neo A16 Rare (2 held). Receiver: Axi P10 Uncommon (none visible in export).",
-      "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "CURRENT RELICS",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4278,16 +4338,16 @@
       "item": "Vauban Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (1/5); Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 4 Nitain Extract, then build.",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Vauban_Prime",
       "vaulted": "Yes",
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4326,16 +4386,16 @@
       "item": "Venka Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Venka Prime Blades (0/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
+      "missing": "Venka Prime Blades (1/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
       "route": "Permanent Railjack relic pools",
-      "steps": "Farm Neo V9 for Venka Prime Blades ×2. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Venka Prime Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Axi V10 for Venka Prime Gauntlet ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Radiant because the reward is Rare. Build Venka Prime and level it to 30.",
+      "steps": "Farm Neo V9 for Venka Prime Blades. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Venka Prime Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Axi V10 for Venka Prime Gauntlet ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Radiant because the reward is Rare. Build Venka Prime and level it to 30.",
       "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [
         {
-          "part": "Venka Prime Blades (0/2)",
+          "part": "Venka Prime Blades (1/2)",
           "relic": "Neo V9",
           "rarity": "Common",
           "ownedRelics": 0,
@@ -4486,6 +4546,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Athodai"
+    },
+    {
+      "item": "Athodai Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "item": "Epitaph",
@@ -5810,22 +5879,21 @@
     {
       "item": "Athodai Prime",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Athodai Prime Receiver",
-      "ease": "4 — Multi-step farm",
-      "route": "Void Relics — Neo A16 / Axi P10",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
-      "liveMatches": [],
-      "primeStatus": "CURRENT RELICS"
+      "liveMatches": []
     },
     {
       "item": "Atlas",
@@ -16875,14 +16943,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Scourge Blueprint; Nitain Extract (1/2)",
+      "missing": "Scourge Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Clan Dojo Tenno Lab",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Scourge",
-      "steps": "Replicate the Scourge Blueprint from the Tenno Lab, obtain 1 Nitain Extract, then build it.",
+      "steps": "Replicate the Scourge Blueprint from the Tenno Lab, then build it.",
       "tip": "Check completed clan research before farming materials.",
       "primeDetails": [],
       "liveMatches": [],
@@ -19715,7 +19783,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (1/5); Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -19725,7 +19793,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 4 Nitain Extract, then build.",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying."
     },
     {
@@ -19973,7 +20041,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Venka Prime Blades (0/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
+      "missing": "Venka Prime Blades (1/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
       "ease": "4 — Multi-step farm",
       "route": "Permanent Railjack relic pools",
       "vaulted": "No",
@@ -19983,7 +20051,7 @@
       "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [
         {
-          "part": "Venka Prime Blades (0/2)",
+          "part": "Venka Prime Blades (1/2)",
           "relic": "Neo V9",
           "rarity": "Common",
           "ownedRelics": 0,
@@ -20007,7 +20075,7 @@
           "refinement": "Radiant"
         }
       ],
-      "steps": "Farm Neo V9 for Venka Prime Blades ×2. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Venka Prime Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Axi V10 for Venka Prime Gauntlet ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Radiant because the reward is Rare. Build Venka Prime and level it to 30.",
+      "steps": "Farm Neo V9 for Venka Prime Blades. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Venka Prime Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Axi V10 for Venka Prime Gauntlet ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Radiant because the reward is Rare. Build Venka Prime and level it to 30.",
       "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
       "liveMatches": []
     },
@@ -20559,14 +20627,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
       "ease": "5 — Long grind / trade",
       "route": "Wolf of Saturn Six; Wolf Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "steps": "Farm all four completed weapon components from the Wolf of Saturn Six. Obtain 4 Nitain Extract, then build.",
+      "steps": "Farm all four completed weapon components from the Wolf of Saturn Six.",
       "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
       "primeDetails": [],
       "liveMatches": [],
