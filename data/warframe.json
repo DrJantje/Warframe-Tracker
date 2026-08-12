@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-10",
-    "exportVerifiedAt": "2026-08-10 22:06:19 PDT",
+    "snapshotDate": "2026-08-11",
+    "exportVerifiedAt": "2026-08-11 17:39:49 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2168000,
-        "modified": "2026-08-10T22:06:19.164896-07:00",
-        "sha256": "22dd8286146d0573402ba268057a80424ef33dfdd64eba4248efcd626f9ae470"
+        "bytes": 2167942,
+        "modified": "2026-08-11T17:39:48.907902-07:00",
+        "sha256": "21ff8c5e9b5656bf0936d52bde1647e8200358cc720936178e136d1f93158a80"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-10T22:06:19.169071-07:00",
+        "modified": "2026-08-11T17:39:48.911916-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-10T22:06:19.166563-07:00",
-        "sha256": "ca6ac9f00f939a1c9f4fee7dca7372951e416e66c2b5c7839a3f4ef4800c57aa"
+        "modified": "2026-08-11T17:39:48.909913-07:00",
+        "sha256": "b19da92e1ffc25d050218f17b573fff8d7cb8f4e963b6a94f7ac4a105aca2404"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-10T22:06:19.167567-07:00",
-        "sha256": "a1816aa5c557047f02aa1912881d94650fc8007e12ddc342778d0c8797612816"
+        "modified": "2026-08-11T17:39:48.910412-07:00",
+        "sha256": "4a150bfe81a477718f0b29c53d56e002b3bcf424c3b201c3af97b2dfd700cfa4"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-10T22:06:19.171090-07:00",
-        "sha256": "5df0a2ce2a7288c4f590f630ae483f2c3f35d364971cbecec3af4e48dd5268a7"
+        "modified": "2026-08-11T17:39:48.912922-07:00",
+        "sha256": "03ebf0efbd9183ee8c942923c5602a7339edeb05756663d2b73add0e6aed130c"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,48 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Afuris Prime",
+        "item": "Cobra & Crane Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Afuris Prime Barrel (0/2); Afuris Prime Blueprint; Afuris Prime Link; Afuris Prime Receiver (0/2)"
+          "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard; Cobra & Crane Prime Hilt"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)"
-        ]
-      },
-      {
-        "item": "Baruuk Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Baruuk Prime Blueprint; Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
-        ]
-      },
-      {
-        "item": "Dagath",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Dagath Chassis Blueprint; Dagath Neuroptics Blueprint; Dagath Systems Blueprint"
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
+          "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard"
         ]
       },
       {
@@ -108,22 +78,37 @@
         ]
       },
       {
+        "item": "Rakta Cernos",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
         "item": "Rakta Dark Dagger",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Rakta Dark Dagger (completed item)"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
       },
       {
-        "item": "Sancti Castanas",
+        "item": "Sancti Tigris",
         "before": [
           "Yes",
           "No",
@@ -138,7 +123,7 @@
         ]
       },
       {
-        "item": "Sancti Magistar",
+        "item": "Secura Dual Cestra",
         "before": [
           "Yes",
           "No",
@@ -153,7 +138,7 @@
         ]
       },
       {
-        "item": "Secura Penta",
+        "item": "Secura Lecta",
         "before": [
           "Yes",
           "No",
@@ -168,48 +153,63 @@
         ]
       },
       {
-        "item": "Simulor",
+        "item": "Sevagoth",
         "before": [
+          "No",
+          "No",
+          "No",
+          "Sevagoth Neuroptics Blueprint; Sevagoth Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Sevagoth Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (25498/30000); Magistar"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (25198/30000); Magistar"
+        ]
+      },
+      {
+        "item": "Tatsu Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Tatsu Prime Blade; Tatsu Prime Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Tatsu Prime Blade"
+        ]
+      },
+      {
+        "item": "Vitrica",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vitrica Blueprint"
+        ],
+        "after": [
           "Yes",
           "No",
           "No",
           ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Spectra Vandal",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Spectra Vandal Blueprint; Spectra Vandal Chassis; Spectra Vandal Handle"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Spectra Vandal Chassis; Spectra Vandal Handle"
-        ]
-      },
-      {
-        "item": "Voruna",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Voruna Blueprint; Voruna Chassis Blueprint; Voruna Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint"
         ]
       }
     ],
@@ -218,19 +218,19 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 270
+      "missing": 269
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
       "Axi S20 Intact": 4,
       "Axi T13 Intact": 1,
       "Lith A12 Intact": 10,
-      "Lith A12 Radiant": 2,
+      "Lith A12 Radiant": 3,
       "Lith C14 Exceptional": 1,
       "Lith C14 Intact": 4,
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
-      "Lith G14 Intact": 18,
+      "Lith G14 Intact": 20,
       "Lith K12 Intact": 26,
       "Lith K12 Radiant": 6,
       "Lith N18 Intact": 16,
@@ -1078,22 +1078,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Vitrica",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Vitrica Blueprint",
-      "route": "Defeat Nihil using Nihil’s Oubliette",
-      "steps": "Enter Nihil’s Oubliette with its key and defeat Nihil for the Vitrica Blueprint.",
-      "tip": "The Oubliette and entry key rotate through Nightwave Cred Offerings.",
-      "source": "https://wiki.warframe.com/w/Vitrica",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "nightwave",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Vulkar Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1456,6 +1440,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Sevagoth",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Sevagoth Systems Blueprint",
+      "route": "Call of the Tempestarii + Void Storms",
+      "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
+      "tip": "Run the shortest comfortable eligible Void Storm for the remaining components.",
+      "source": "https://wiki.warframe.com/w/Sevagoth",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 505
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Shedu",
       "type": "primary",
       "targetRank": "30",
@@ -1501,27 +1500,12 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Sevagoth",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Sevagoth Neuroptics Blueprint; Sevagoth Systems Blueprint",
-      "route": "Call of the Tempestarii + Void Storms",
-      "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
-      "tip": "Run the shortest comfortable eligible Void Storm for the remaining components.",
-      "source": "https://wiki.warframe.com/w/Sevagoth",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (25498/30000); Magistar",
+      "missing": "Cryotic (25198/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 4,502 Cryotic, then build.",
+      "steps": "Get 4,802 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -3014,7 +2998,7 @@
       "item": "Cobra & Crane Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard; Cobra & Crane Prime Hilt",
+      "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -3025,7 +3009,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4333,7 +4317,7 @@
       "item": "Tatsu Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Tatsu Prime Blade; Tatsu Prime Blueprint",
+      "missing": "Tatsu Prime Blade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -4344,7 +4328,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4679,51 +4663,6 @@
   ],
   "owned": [
     {
-      "item": "Rakta Cernos",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Rakta_Cernos"
-    },
-    {
-      "item": "Rakta Dark Dagger",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Rakta_Dark_Dagger"
-    },
-    {
-      "item": "Sancti Tigris",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sancti_Tigris"
-    },
-    {
-      "item": "Secura Dual Cestra",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Secura_Dual_Cestra"
-    },
-    {
-      "item": "Secura Lecta",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Secura_Lecta"
-    },
-    {
       "item": "Trumna Prime",
       "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
@@ -4731,6 +4670,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://www.warframe.com/droptables"
+    },
+    {
+      "item": "Vitrica",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Vitrica"
     }
   ],
   "rank40": [
@@ -7557,7 +7505,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard; Cobra & Crane Prime Hilt",
+      "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -16368,14 +16316,14 @@
     {
       "item": "Rakta Cernos",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16389,14 +16337,14 @@
     {
       "item": "Rakta Dark Dagger",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16898,14 +16846,14 @@
     {
       "item": "Sancti Tigris",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17161,14 +17109,14 @@
     {
       "item": "Secura Dual Cestra",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17182,14 +17130,14 @@
     {
       "item": "Secura Lecta",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Syndicate offering or player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17308,7 +17256,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Sevagoth Neuroptics Blueprint; Sevagoth Systems Blueprint",
+      "missing": "Sevagoth Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Call of the Tempestarii + Void Storms",
       "vaulted": "No",
@@ -17472,7 +17420,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (25498/30000); Magistar",
+      "missing": "Cryotic (25198/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -17481,7 +17429,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 4,502 Cryotic, then build."
+      "steps": "Obtain 4,802 Cryotic, then build."
     },
     {
       "item": "Sicarus",
@@ -18610,7 +18558,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Tatsu Prime Blade; Tatsu Prime Blueprint",
+      "missing": "Tatsu Prime Blade",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -20438,20 +20386,20 @@
     {
       "item": "Vitrica",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Vitrica Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Defeat Nihil using Nihil’s Oubliette",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Vitrica",
-      "steps": "Enter Nihil’s Oubliette with its key and defeat Nihil for the Vitrica Blueprint.",
+      "steps": ".",
       "tip": "The Oubliette and entry key rotate through Nightwave Cred Offerings.",
       "primeDetails": [],
       "liveMatches": [],
