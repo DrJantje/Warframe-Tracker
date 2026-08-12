@@ -218,7 +218,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 269
+      "missing": 268
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
@@ -281,7 +281,16 @@
       "Lex Prime": 0,
       "Magnus Prime": 0,
       "Vasto Prime": 0
-    }
+    },
+    "manualCorrections": [
+      {
+        "item": "Epitaph",
+        "field": "pendingFoundry",
+        "value": "Yes",
+        "source": "User confirmed active Foundry build in game",
+        "recordedAt": "2026-08-12T00:57:48.105Z"
+      }
+    ]
   },
   "queue": [
     {
@@ -1117,21 +1126,6 @@
       "steps": "Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Blueprint and Receiver.",
       "tip": "Blueprint chance: 17.65%. Receiver chance: 32.35%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.",
       "source": "https://wiki.warframe.com/w/Detron",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Epitaph",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Epitaph Barrel; Epitaph Receiver",
-      "route": "Earth, Venus and Saturn Proxima Void Storms",
-      "steps": "Farm only the missing components from Void Storm rewards.",
-      "tip": "Choose the shortest comfortable Void Storms across the eligible Proxima regions.",
-      "source": "https://wiki.warframe.com/w/Epitaph",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -4662,6 +4656,15 @@
     }
   ],
   "owned": [
+    {
+      "item": "Epitaph",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Epitaph"
+    },
     {
       "item": "Trumna Prime",
       "type": "primary",
@@ -9279,21 +9282,21 @@
     {
       "item": "Epitaph",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Epitaph Barrel; Epitaph Receiver",
-      "ease": "4 — Multi-step farm",
-      "route": "Earth, Venus and Saturn Proxima Void Storms",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Epitaph",
-      "steps": "Farm only the missing components from Void Storm rewards.",
-      "tip": "Choose the shortest comfortable Void Storms across the eligible Proxima regions.",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "primeDetails": [],
       "liveMatches": []
     },
