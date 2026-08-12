@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-11",
-    "exportVerifiedAt": "2026-08-11 17:39:49 PDT",
+    "exportVerifiedAt": "2026-08-11 19:20:00 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167942,
-        "modified": "2026-08-11T17:39:48.907902-07:00",
-        "sha256": "21ff8c5e9b5656bf0936d52bde1647e8200358cc720936178e136d1f93158a80"
+        "bytes": 2167914,
+        "modified": "2026-08-11T19:20:00.190818-07:00",
+        "sha256": "864dc907b5fd6eaeafb1c42ced6558fb851a42754bd2d158009681f34ee23e7d"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-11T17:39:48.911916-07:00",
+        "modified": "2026-08-11T19:20:00.193910-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-11T17:39:48.909913-07:00",
+        "modified": "2026-08-11T19:20:00.192402-07:00",
         "sha256": "b19da92e1ffc25d050218f17b573fff8d7cb8f4e963b6a94f7ac4a105aca2404"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-11T17:39:48.910412-07:00",
+        "modified": "2026-08-11T19:20:00.192402-07:00",
         "sha256": "4a150bfe81a477718f0b29c53d56e002b3bcf424c3b201c3af97b2dfd700cfa4"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-11T17:39:48.912922-07:00",
-        "sha256": "03ebf0efbd9183ee8c942923c5602a7339edeb05756663d2b73add0e6aed130c"
+        "modified": "2026-08-11T19:20:00.194914-07:00",
+        "sha256": "a2c464d58aaa08e218065e9a36d46fb3a386da827adca89f62ae25ec19cc4080"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,168 +48,63 @@
     },
     "importChanges": [
       {
-        "item": "Cobra & Crane Prime",
+        "item": "Athodai",
         "before": [
           "No",
           "No",
           "No",
-          "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard; Cobra & Crane Prime Hilt"
+          "Athodai Barrel; Athodai Blueprint"
         ],
         "after": [
           "No",
           "No",
-          "No",
-          "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard"
-        ]
-      },
-      {
-        "item": "Frost",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
           "Yes",
           ""
         ]
       },
       {
-        "item": "Rakta Cernos",
+        "item": "Gammacor",
         "before": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ],
         "after": [
-          "Yes",
+          "No",
           "Yes",
           "No",
           ""
         ]
       },
       {
-        "item": "Rakta Dark Dagger",
+        "item": "Heliocor",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Heliocor Blueprint; Gammacor"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
+          "No",
+          "Yes",
           ""
         ]
       },
       {
-        "item": "Sancti Tigris",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Secura Dual Cestra",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Secura Lecta",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Sevagoth",
+        "item": "Phantasma Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Sevagoth Neuroptics Blueprint; Sevagoth Systems Blueprint"
+          "Phantasma Prime Receiver; Phantasma Prime Stock"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Sevagoth Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Sibear",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Cryotic (25498/30000); Magistar"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Cryotic (25198/30000); Magistar"
-        ]
-      },
-      {
-        "item": "Tatsu Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Tatsu Prime Blade; Tatsu Prime Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Tatsu Prime Blade"
-        ]
-      },
-      {
-        "item": "Vitrica",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vitrica Blueprint"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
+          "Phantasma Prime Stock"
         ]
       }
     ],
@@ -218,7 +113,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 268
+      "missing": 266
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
@@ -340,21 +235,6 @@
       "liveMatches": [],
       "availabilityGroup": "dojo",
       "practicalPriority": 3
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Heliocor",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Heliocor Blueprint; Gammacor",
-      "route": "Cephalon Simaris Offerings",
-      "steps": "Buy Heliocor's Blueprint with Simaris Standing, then build.",
-      "tip": "Scan daily targets and use stealth scans to earn Standing faster.",
-      "source": "https://wiki.warframe.com/w/Heliocor",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 20
     },
     {
       "ease": "3 — Focused short farm",
@@ -1476,21 +1356,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Athodai",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Athodai Barrel; Athodai Blueprint",
-      "route": "Venus Proxima abandoned derelict cache B",
-      "steps": "Obtain the missing Barrel and Blueprint from Venus Proxima abandoned-derelict cache B.",
-      "tip": "The Blueprint, Barrel and Receiver are each 6.45% rewards in Venus Proxima abandoned-derelict cache B.",
-      "source": "https://wiki.warframe.com/w/Athodai",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3972,7 +3837,7 @@
       "item": "Phantasma Prime",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Phantasma Prime Receiver; Phantasma Prime Stock",
+      "missing": "Phantasma Prime Stock",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -3983,7 +3848,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "4 — Multi-step farm",
@@ -4657,15 +4522,6 @@
   ],
   "owned": [
     {
-      "item": "Epitaph",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Epitaph"
-    },
-    {
       "item": "Trumna Prime",
       "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
@@ -4682,6 +4538,33 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Vitrica"
+    },
+    {
+      "item": "Athodai",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Athodai"
+    },
+    {
+      "item": "Epitaph",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Epitaph"
+    },
+    {
+      "item": "Heliocor",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Heliocor"
     }
   ],
   "rank40": [
@@ -5967,20 +5850,20 @@
     {
       "item": "Athodai",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Athodai Barrel; Athodai Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Venus Proxima abandoned derelict cache B",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Athodai",
-      "steps": "Obtain the missing Barrel and Blueprint from Venus Proxima abandoned-derelict cache B.",
+      "steps": "Obtain the missing  from Venus Proxima abandoned-derelict cache B.",
       "tip": "The Blueprint, Barrel and Receiver are each 6.45% rewards in Venus Proxima abandoned-derelict cache B.",
       "primeDetails": [],
       "liveMatches": []
@@ -9290,13 +9173,13 @@
       "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Earth, Venus and Saturn Proxima Void Storms",
       "vaulted": "No",
       "pendingFoundry": "Yes",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Epitaph",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "steps": "Farm only the missing components from Void Storm rewards.",
+      "tip": "Choose the shortest comfortable Void Storms across the eligible Proxima regions.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -10000,8 +9883,8 @@
     {
       "item": "Gammacor",
       "type": "secondary",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -10880,17 +10763,17 @@
     {
       "item": "Heliocor",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Heliocor Blueprint; Gammacor",
-      "ease": "3 — Focused short farm",
-      "route": "Cephalon Simaris Offerings",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 9,
       "source": "https://wiki.warframe.com/w/Heliocor",
       "primeDetails": [],
@@ -15316,7 +15199,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Phantasma Prime Receiver; Phantasma Prime Stock",
+      "missing": "Phantasma Prime Stock",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
