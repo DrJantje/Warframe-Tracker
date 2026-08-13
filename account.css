@@ -1,0 +1,24 @@
+.brand-mark { text-decoration:none; }
+.account-hero h2 { text-transform:none; }
+.section-title { display:flex; align-items:end; justify-content:space-between; margin:28px 0 12px; }
+.section-title h2 { margin:3px 0 0; }
+.loadout-section:first-child .section-title { margin-top:8px; }
+.build-card { min-height:210px; }
+.build-mods { display:flex; flex-wrap:wrap; gap:6px; margin-top:16px; }
+.build-mods span { border:1px solid #294047; background:#0a171b; color:#bfd1d5; padding:6px 8px; font-size:11px; }
+.build-mods b { color:var(--cyan); font-weight:600; }
+.data-table { border:1px solid var(--line); overflow:auto; }
+.data-head,.data-row { display:grid; grid-template-columns:minmax(210px,1.5fr) repeat(4,minmax(110px,1fr)); gap:16px; min-width:850px; padding:10px 15px; align-items:center; }
+.data-head { position:sticky; top:0; background:#13272d; color:var(--cyan); font:700 10px ui-monospace,monospace; letter-spacing:.12em; text-transform:uppercase; }
+.data-row { border-top:1px solid #1d3035; color:var(--muted); font-size:12px; }
+.data-row span:first-child { color:var(--ink); font-weight:650; }
+.json-preview { overflow:auto; white-space:pre-wrap; color:#9bb9bf; font:11px/1.5 ui-monospace,Consolas,monospace; }
+.focus-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.chatgpt-panel { border:1px solid var(--line); border-left:3px solid var(--violet); background:linear-gradient(135deg,#18172a,#0c181d); padding:28px; }
+.chatgpt-panel h2 { margin:5px 0 8px; font-size:clamp(24px,4vw,42px); }
+.chatgpt-panel textarea { width:100%; min-height:190px; margin:24px 0 12px; resize:vertical; border:1px solid var(--line); background:#081216; color:#d9e7e9; padding:16px; font:12px/1.55 ui-monospace,Consolas,monospace; }
+.action-row { display:flex; gap:9px; flex-wrap:wrap; }
+.action-row button,.action-row a { border:1px solid var(--cyan); background:transparent; color:var(--cyan); padding:10px 14px; text-decoration:none; cursor:pointer; }
+.privacy-box { margin-top:18px; border-top:1px solid var(--line); padding-top:14px; color:#718c92; font-size:11px; line-height:1.55; }
+footer a { color:#638087; }
+@media(max-width:800px){.focus-grid{grid-template-columns:1fr}.sync{display:none}}

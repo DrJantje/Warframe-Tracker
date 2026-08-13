@@ -23,6 +23,7 @@ main { width:min(1540px,100%); margin:auto; padding:24px 34px 48px; }
 .view-tabs button { white-space:nowrap; border:0; border-bottom:2px solid transparent; color:var(--muted); background:transparent; padding:11px 15px; cursor:pointer; }
 .view-tabs button.active { color:var(--ink); border-color:var(--cyan); background:rgba(85,216,230,.07); }
 .view-tabs span { margin-left:7px; color:#638087; font:11px ui-monospace,monospace; }
+.view-tabs .account-link { margin-left:auto; white-space:nowrap; color:var(--violet); border-bottom:2px solid #5e527e; padding:11px 15px; text-decoration:none; font-size:12px; }
 .controls { display:flex; gap:10px; justify-content:space-between; margin:9px 0 16px; }
 .status-warning { margin:0 0 14px; border:1px solid #765f3b; border-left:3px solid var(--amber); background:#241e15; color:#d9c8aa; padding:12px 14px; font-size:12px; line-height:1.5; }
 .status-warning strong { color:var(--amber); }

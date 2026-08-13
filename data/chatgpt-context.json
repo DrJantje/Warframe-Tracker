@@ -1,0 +1,1335 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-13T06:15:15.182365+00:00",
+  "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
+  "instructionsForChatGPT": [
+    "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
+    "When they disagree, state the timestamps and confidence instead of silently choosing one.",
+    "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
+    "Do not infer ownership from recommendations; use the published account files."
+  ],
+  "accountSnapshotAt": "2026-08-13T03:24:20.853Z",
+  "liveState": {
+    "observedAt": "2026-08-13T05:32:40.874Z",
+    "phase": "location",
+    "node": "DOJO",
+    "planet": "CLAN",
+    "mission": "HUB",
+    "missionKey": null,
+    "voidTier": null,
+    "steelPath": false,
+    "matchmaking": "PUBLIC",
+    "focusDuringCurrentCapture": 0,
+    "frameCandidate": "Titania",
+    "frameConfidence": "location-active",
+    "accountSnapshotStatus": "resident-account-observed"
+  },
+  "currentLoadouts": {
+    "NORMAL": {
+      "name": "Titania",
+      "slots": {
+        "Warframe": {
+          "item": "Titania Prime",
+          "category": "Suits",
+          "configuration": "A",
+          "formaApplied": 2,
+          "focusLens": "Tactic Lens Greater",
+          "polarities": [
+            {
+              "slot": 8,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ANY"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [
+            {
+              "color": "ACC_GREEN_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Corrosive Stack Mythic"
+            },
+            {
+              "color": "ACC_GREEN_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Corrosive Stack Mythic"
+            },
+            {
+              "color": "ACC_PURPLE_MYTHIC",
+              "effect": "Archon Crystal Upgrade Equilibrium Mythic"
+            },
+            {
+              "color": "ACC_YELLOW_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Starting Energy Mythic"
+            },
+            {
+              "color": "ACC_YELLOW_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Globe Effect Energy Mythic"
+            }
+          ],
+          "helminthAbility": "Broken Rot Ability",
+          "mods": [
+            {
+              "name": "Streamline",
+              "rank": 5
+            },
+            {
+              "name": "Archon Continuity",
+              "rank": 10
+            },
+            {
+              "name": "Narrow Minded",
+              "rank": 10
+            },
+            {
+              "name": "Razorwing Blitz",
+              "rank": 3
+            },
+            {
+              "name": "Precision Intensify",
+              "rank": 5
+            },
+            {
+              "name": "Primed Flow",
+              "rank": 10
+            },
+            {
+              "name": "Adaptation",
+              "rank": 10
+            },
+            {
+              "name": "Boreal's Hatred",
+              "rank": 5
+            },
+            {
+              "name": "Aerodynamic",
+              "rank": 5
+            },
+            {
+              "name": "Aviator",
+              "rank": 3
+            },
+            {
+              "name": "Arcane Pistoleer",
+              "rank": 5
+            },
+            {
+              "name": "Arcane Impetus",
+              "rank": 5
+            }
+          ]
+        },
+        "Secondary": {
+          "item": "Athodai Prime",
+          "category": "Pistols",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Primed Pistol Gambit",
+              "rank": 10
+            },
+            {
+              "name": "Barrel Diffusion",
+              "rank": 5
+            },
+            {
+              "name": "Hornet Strike",
+              "rank": 10
+            },
+            {
+              "name": "Magnetic Might",
+              "rank": 3
+            }
+          ]
+        },
+        "Primary": {
+          "item": "Coda Synapse",
+          "category": "LongGuns",
+          "configuration": "A",
+          "formaApplied": 4,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_DEFENSE"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Vital Sense",
+              "rank": 5
+            },
+            {
+              "name": "Critical Delay",
+              "rank": 5
+            },
+            {
+              "name": "Split Chamber",
+              "rank": 5
+            },
+            {
+              "name": "Serration",
+              "rank": 10
+            }
+          ]
+        },
+        "Melee": {
+          "item": "Tenet Exec",
+          "category": "Melee",
+          "configuration": "A",
+          "formaApplied": 5,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_TACTIC"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Magnetic Rush",
+              "rank": 3
+            },
+            {
+              "name": "Organ Shatter",
+              "rank": 5
+            },
+            {
+              "name": "Primed Fever Strike",
+              "rank": 8
+            },
+            {
+              "name": "True Steel",
+              "rank": 5
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10
+            },
+            {
+              "name": "Rending Crane",
+              "rank": 3
+            }
+          ]
+        },
+        "Heavy weapon": {
+          "item": "Mausolon",
+          "category": "SpaceGuns",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": []
+        },
+        "Exalted weapon": {
+          "item": "Dex Pixia Prime",
+          "category": "SpecialItems",
+          "configuration": "A",
+          "formaApplied": 7,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ANY"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Pistol Pestilence",
+              "rank": 3
+            },
+            {
+              "name": "Weapon Fire Damage Mod Expert",
+              "rank": 10
+            },
+            {
+              "name": "Frostbite",
+              "rank": 3
+            },
+            {
+              "name": "Lethal Torrent",
+              "rank": 5
+            },
+            {
+              "name": "Magnetic Might",
+              "rank": 3
+            },
+            {
+              "name": "Primed Target Cracker",
+              "rank": 10
+            },
+            {
+              "name": "Galvanized Shot",
+              "rank": 10
+            },
+            {
+              "name": "Galvanized Diffusion",
+              "rank": 10
+            },
+            {
+              "name": "Primed Steady Hands",
+              "rank": 9
+            },
+            {
+              "name": "Secondary Enervate",
+              "rank": 5
+            }
+          ]
+        },
+        "Second exalted or companion weapon": {
+          "item": "Diwata Prime",
+          "category": "SpecialItems",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Primed Fever Strike",
+              "rank": 8
+            },
+            {
+              "name": "Berserker Fury",
+              "rank": 5
+            },
+            {
+              "name": "Amalgam Organ Shatter",
+              "rank": 5
+            },
+            {
+              "name": "Blood Rush",
+              "rank": 8
+            },
+            {
+              "name": "Sacrificial Steel",
+              "rank": 8
+            },
+            {
+              "name": "Sacrificial Pressure",
+              "rank": 8
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10
+            },
+            {
+              "name": "Melee Duplicate",
+              "rank": 2
+            }
+          ]
+        }
+      }
+    },
+    "ARCHWING": {
+      "name": "Loadout 1",
+      "slots": {
+        "Warframe": {
+          "item": "Amesha",
+          "category": "SpaceSuits",
+          "configuration": "A",
+          "formaApplied": 1,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 6,
+              "polarity": "AP_TACTIC"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Auxiliary Power",
+              "rank": 5
+            },
+            {
+              "name": "Energy Inversion",
+              "rank": 3
+            },
+            {
+              "name": "Morphic Transformer",
+              "rank": 3
+            },
+            {
+              "name": "Argon Plating",
+              "rank": 5
+            },
+            {
+              "name": "Hyperion Thrusters",
+              "rank": 6
+            },
+            {
+              "name": "Energy Amplifier",
+              "rank": 5
+            },
+            {
+              "name": "System Reroute",
+              "rank": 8
+            },
+            {
+              "name": "Enhanced Durability",
+              "rank": 5
+            }
+          ]
+        },
+        "Primary": {
+          "item": "Mausolon",
+          "category": "SpaceGuns",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": []
+        },
+        "Melee": {
+          "item": "Centaur",
+          "category": "SpaceMelee",
+          "configuration": "A",
+          "formaApplied": 1,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 4,
+              "polarity": "AP_ATTACK"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Bleeding Edge",
+              "rank": 8
+            },
+            {
+              "name": "Tempered Blade",
+              "rank": 5
+            },
+            {
+              "name": "Critical Meltdown",
+              "rank": 3
+            },
+            {
+              "name": "Furor",
+              "rank": 2
+            },
+            {
+              "name": "Cutting Edge",
+              "rank": 8
+            },
+            {
+              "name": "Extend",
+              "rank": 3
+            },
+            {
+              "name": "Magnetized Core",
+              "rank": 3
+            },
+            {
+              "name": "Blazing Steel",
+              "rank": 5
+            }
+          ]
+        }
+      }
+    },
+    "DATAKNIFE": {
+      "name": "Titania",
+      "slots": {
+        "Warframe": {
+          "item": "Tn Hacking Device Weapon",
+          "category": "DataKnives",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Instant Secure",
+              "rank": 2
+            },
+            {
+              "name": "Immuno Shield",
+              "rank": 2
+            }
+          ]
+        },
+        "Primary": {
+          "item": "Default Harness",
+          "category": "CrewShipHarnesses",
+          "configuration": "A",
+          "formaApplied": 3,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 9,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 10,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 11,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 12,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 13,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 14,
+              "polarity": "AP_ATTACK"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Crew Ship EMPAbility Card",
+              "rank": 8
+            },
+            {
+              "name": "Shatter Burst",
+              "rank": 5
+            },
+            {
+              "name": "Seeker Volley",
+              "rank": 8
+            },
+            {
+              "name": "Breach Quanta",
+              "rank": 5
+            },
+            {
+              "name": "Battle Stations",
+              "rank": 5
+            },
+            {
+              "name": "Void Cloak",
+              "rank": 5
+            },
+            {
+              "name": "Forward Artillery",
+              "rank": 7
+            },
+            {
+              "name": "Warhead",
+              "rank": 8
+            },
+            {
+              "name": "Cruising Speed",
+              "rank": 8
+            },
+            {
+              "name": "Conic Nozzle",
+              "rank": 5
+            },
+            {
+              "name": "Ion Burn",
+              "rank": 5
+            },
+            {
+              "name": "Section Density",
+              "rank": 5
+            },
+            {
+              "name": "Predator",
+              "rank": 5
+            },
+            {
+              "name": "Hyperstrike",
+              "rank": 5
+            },
+            {
+              "name": "Onslaught Matrix",
+              "rank": 5
+            }
+          ]
+        }
+      }
+    },
+    "DRIFTER": {
+      "name": "Loadout 1",
+      "slots": {
+        "Melee": {
+          "item": "Duviri Dual Swords",
+          "category": "DrifterMelee",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": []
+        }
+      }
+    },
+    "KDRIVE": {
+      "name": "Loadout 1",
+      "slots": {
+        "Warframe": {
+          "item": "Hoverboard Suit",
+          "category": "Hoverboards",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [
+            "Runway",
+            "Hoverboard Solaris AEngine",
+            "Hoverboard Solaris AFront",
+            "Hoverboard Solaris AJet"
+          ],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "HBFall Chance Reduction Mod",
+              "rank": 7
+            },
+            {
+              "name": "HBSprint Speed Mod",
+              "rank": 5
+            },
+            {
+              "name": "HBSpeed Mod",
+              "rank": 5
+            }
+          ]
+        }
+      }
+    },
+    "LUNARO": {
+      "name": "Loadout 1",
+      "slots": {
+        "Melee": {
+          "item": "Speedball Weapon Test",
+          "category": "Scoops",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": []
+        }
+      }
+    },
+    "MECH": {
+      "name": "Loadout 1",
+      "slots": {
+        "Warframe": {
+          "item": "Voidrig",
+          "category": "MechSuits",
+          "configuration": "A",
+          "formaApplied": 5,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 9,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 10,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 11,
+              "polarity": "AP_ATTACK"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Necramech Deflection",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Steel Fiber",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Repair",
+              "rank": 3
+            },
+            {
+              "name": "Necramech Redirection",
+              "rank": 10
+            },
+            {
+              "name": "Necramech Thrusters",
+              "rank": 3
+            },
+            {
+              "name": "Necramech Streamline",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Flow",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Vitality",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Rage",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Continuity",
+              "rank": 5
+            },
+            {
+              "name": "Necramech Intensify",
+              "rank": 5
+            }
+          ]
+        },
+        "Heavy weapon": {
+          "item": "Mausolon",
+          "category": "SpaceGuns",
+          "configuration": "B",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": []
+        },
+        "Exalted weapon": {
+          "item": "Exalted Artillery Weapon",
+          "category": "SpecialItems",
+          "configuration": "General Viral",
+          "formaApplied": 2,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Venomous Clip",
+              "rank": 5
+            },
+            {
+              "name": "Polar Magazine",
+              "rank": 5
+            },
+            {
+              "name": "Magnetized Cycle",
+              "rank": 3
+            },
+            {
+              "name": "Hollowed Bullets",
+              "rank": 3
+            },
+            {
+              "name": "Parallax Scope",
+              "rank": 3
+            },
+            {
+              "name": "Dual Rounds",
+              "rank": 5
+            },
+            {
+              "name": "Automatic Trigger",
+              "rank": 5
+            },
+            {
+              "name": "Containment Breach",
+              "rank": 3
+            }
+          ]
+        }
+      }
+    },
+    "NORMAL_PVP": {
+      "name": "Loadout 1",
+      "slots": {
+        "Warframe": {
+          "item": "Nyx",
+          "category": "Suits",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Intensify",
+              "rank": 5
+            },
+            {
+              "name": "Redirection",
+              "rank": 10
+            },
+            {
+              "name": "Vitality",
+              "rank": 10
+            },
+            {
+              "name": "Streamline",
+              "rank": 5
+            },
+            {
+              "name": "Stretch",
+              "rank": 5
+            },
+            {
+              "name": "Dreamer's Bond",
+              "rank": 5
+            }
+          ]
+        },
+        "Melee": {
+          "item": "Broken Scepter",
+          "category": "Melee",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Fury",
+              "rank": 5
+            },
+            {
+              "name": "Organ Shatter",
+              "rank": 5
+            },
+            {
+              "name": "True Steel",
+              "rank": 5
+            },
+            {
+              "name": "Reach",
+              "rank": 3
+            },
+            {
+              "name": "Fever Strike",
+              "rank": 5
+            },
+            {
+              "name": "Volcanic Edge",
+              "rank": 3
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5
+            },
+            {
+              "name": "Shocking Touch",
+              "rank": 5
+            },
+            {
+              "name": "Flailing Branch",
+              "rank": 3
+            }
+          ]
+        }
+      }
+    },
+    "OPERATOR": {
+      "name": "Loadout 2",
+      "slots": {
+        "Primary": {
+          "item": "Operator Amp Weapon",
+          "category": "OperatorAmps",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [
+            "Sent Amp Set1 Grip Part B",
+            "Rahn Prism",
+            "Sent Amp Set2 Chassis Part A"
+          ],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Virtuos Strike",
+              "rank": 3
+            }
+          ]
+        }
+      }
+    },
+    "OPERATOR_ADULT": {
+      "name": "Loadout 1",
+      "slots": {
+        "Primary": {
+          "item": "Operator Amp Weapon",
+          "category": "OperatorAmps",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [
+            "Sent Amp Set1 Grip Part B",
+            "Rahn Prism",
+            "Sent Amp Set2 Chassis Part A"
+          ],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Virtuos Strike",
+              "rank": 3
+            }
+          ]
+        }
+      }
+    },
+    "SENTINEL": {
+      "name": "Titania",
+      "slots": {
+        "Warframe": {
+          "item": "Panzer Vulpaphyla",
+          "category": "KubrowPets",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ATTACK"
+            }
+          ],
+          "modularParts": [
+            "Infested Critter Antigen D",
+            "Infested Critter Mutagen C"
+          ],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Viral Quills",
+              "rank": 3
+            },
+            {
+              "name": "Fetch",
+              "rank": 5
+            },
+            {
+              "name": "Synth Deconstruct",
+              "rank": 5
+            },
+            {
+              "name": "Calculated Redirection",
+              "rank": 10
+            },
+            {
+              "name": "Martyr Symbiosis",
+              "rank": 3
+            },
+            {
+              "name": "Panzer Devolution",
+              "rank": 3
+            },
+            {
+              "name": "Primed Animal Instinct",
+              "rank": 10
+            },
+            {
+              "name": "Resourceful Retriever",
+              "rank": 5
+            },
+            {
+              "name": "Reinforced Bond",
+              "rank": 5
+            },
+            {
+              "name": "Tenacious Bond",
+              "rank": 5
+            }
+          ]
+        },
+        "Primary": {
+          "item": "Akaten",
+          "category": "SentinelWeapons",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Magnetic Rush",
+              "rank": 3
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10
+            }
+          ]
+        },
+        "Second exalted or companion weapon": {
+          "item": "Panzer Vulpaphyla Pet Weapon",
+          "category": "SpecialItems",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Swipe",
+              "rank": 3
+            },
+            {
+              "name": "Magnetic Claws",
+              "rank": 3
+            },
+            {
+              "name": "Cull The Weak",
+              "rank": 5
+            },
+            {
+              "name": "Flame Gland",
+              "rank": 3
+            },
+            {
+              "name": "Radon Claws",
+              "rank": 3
+            },
+            {
+              "name": "Sepsis Claws",
+              "rank": 8
+            },
+            {
+              "name": "Bell Ringer",
+              "rank": 3
+            },
+            {
+              "name": "Bite",
+              "rank": 10
+            },
+            {
+              "name": "Frenzied Posture",
+              "rank": 3
+            }
+          ]
+        }
+      }
+    }
+  },
+  "lastCompletedSession": {
+    "file": "20260813-030444.json",
+    "startedAt": "2026-08-13T03:04:44.769358+00:00",
+    "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+    "durationSeconds": 7200.069,
+    "missionCount": 5,
+    "focusEarnedDuringCapture": 68616,
+    "topGains": [
+      {
+        "item": "Ticor Plate",
+        "delta": 18528
+      },
+      {
+        "item": "Carbides",
+        "delta": 17782
+      },
+      {
+        "item": "Cubic Diodes",
+        "delta": 11182
+      },
+      {
+        "item": "Nano Spores",
+        "delta": 5910
+      },
+      {
+        "item": "Titanium",
+        "delta": 5782
+      },
+      {
+        "item": "Gallos Rods",
+        "delta": 3944
+      },
+      {
+        "item": "Plastids",
+        "delta": 768
+      },
+      {
+        "item": "Void Traces",
+        "delta": 258
+      },
+      {
+        "item": "Komms",
+        "delta": 235
+      },
+      {
+        "item": "Isos",
+        "delta": 182
+      },
+      {
+        "item": "Asterite",
+        "delta": 49
+      },
+      {
+        "item": "Corrupted Holokey",
+        "delta": 29
+      }
+    ],
+    "configurationChangeCount": 2,
+    "errorEventCount": 0
+  },
+  "deeperData": {
+    "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
+    "manifest": "https://drjantje.github.io/Warframe-Tracker/data/account/manifest.json",
+    "equipment": "https://drjantje.github.io/Warframe-Tracker/data/account/equipment.json",
+    "loadouts": "https://drjantje.github.io/Warframe-Tracker/data/account/loadouts.json",
+    "focus": "https://drjantje.github.io/Warframe-Tracker/data/account/focus.json",
+    "currenciesAndResources": "https://drjantje.github.io/Warframe-Tracker/data/account/currencies.json",
+    "mods": "https://drjantje.github.io/Warframe-Tracker/data/account/mods.json",
+    "arcanes": "https://drjantje.github.io/Warframe-Tracker/data/account/arcanes.json",
+    "rivens": "https://drjantje.github.io/Warframe-Tracker/data/account/rivens.json",
+    "sessions": "https://drjantje.github.io/Warframe-Tracker/data/sessions/index.json"
+  },
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

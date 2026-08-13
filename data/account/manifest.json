@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-13T06:14:52.022Z",
+  "sourceModifiedAt": "2026-08-13T03:24:20.853Z",
+  "equipment": 492,
+  "currentLoadouts": 11,
+  "mods": 1137,
+  "arcanes": 185,
+  "rivens": 7,
+  "resources": 1052,
+  "exclusions": [
+    "account IDs",
+    "instance IDs",
+    "premium currency",
+    "hardware flags",
+    "settings",
+    "communications",
+    "mailbox",
+    "trade history",
+    "purchase history",
+    "activity timestamps",
+    "raw cache"
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

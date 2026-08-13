@@ -238,7 +238,7 @@ function header() {
   return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialQueue.length}</b><span>mats only</span></button><button data-view="arsenal"><b>${data.arsenal.length}</b><span>arsenal items</span></button></div></section>`;
 }
 function tabs() {
-  return `<nav class="view-tabs" aria-label="Tracker views">${views.map(([id, label, count]) => `<button data-view="${id}" class="${state.view === id ? 'active' : ''}">${label}<span>${count}</span></button>`).join('')}</nav>`;
+  return `<nav class="view-tabs" aria-label="Tracker views">${views.map(([id, label, count]) => `<button data-view="${id}" class="${state.view === id ? 'active' : ''}">${label}<span>${count}</span></button>`).join('')}<a class="account-link" href="account.html">Builds & sessions ↗</a></nav>`;
 }
 function controls() {
   const types = ['all', ...new Set(actionableQueue.map((x) => x.type))].sort();
