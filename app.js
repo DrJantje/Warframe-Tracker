@@ -1,11 +1,12 @@
 const app = document.querySelector('#app');
 
-const [data, availability, nightwaveCatalog, liveStatus, accountSync] = await Promise.all([
+const [data, availability, nightwaveCatalog, liveStatus, accountSync, accountManifest] = await Promise.all([
   json('./data/warframe.json'),
   json('./data/availability.json'),
   json('./data/nightwave-items.json'),
   json('./data/live.json'),
   json('./data/account-sync.json').catch(() => ({ items: [] })),
+  json('./data/account/manifest.json').catch(() => ({})),
 ]).catch((error) => {
   app.innerHTML = `<div class="error">Tracker data could not be loaded.<br>${escapeHtml(error.message)}</div>`;
   throw error;
@@ -230,14 +231,16 @@ function globalNavigation(active = 'plan') {
 }
 
 function masthead() {
-  return `<header class="masthead"><a class="brand-lockup" href="./#plan/next" aria-label="Jantje's Arsenal home"><img class="brand-mark-image" src="assets/arsenal-mark.png" alt=""><span class="brand-copy"><small>JANTJE'S</small><strong>ARSENAL INTELLIGENCE</strong></span></a>${globalNavigation()}<div class="sync"><i></i><span>Direct sync<br><b>${escapeHtml(formatDate(data.meta.exportVerifiedAt))}</b></span></div></header>`;
+  const capturedAt = accountManifest.sourceModifiedAt || data.meta.exportVerifiedAt;
+  return `<header class="masthead"><a class="brand-lockup" href="./#plan/next" aria-label="Jantje's Arsenal home"><img class="brand-mark-image" src="assets/arsenal-mark.png" alt=""><span class="brand-copy"><small>JANTJE'S</small><strong>ARSENAL INTELLIGENCE</strong></span></a>${globalNavigation()}<div class="sync"><i></i><span>Direct sync<br><b>${escapeHtml(formatDate(capturedAt))}</b></span></div></header>`;
 }
 
 function freshness() {
   const liveStatuses = [liveStatus.invasions, liveStatus.baro, liveStatus.events].filter((row) => row?.status === 'verified').length;
   const sourceText = /Direct read-only/i.test(data.meta.exportSource || '') ? 'Direct DE inventory' : (data.meta.exportSource || 'Inventory source');
+  const capturedAt = accountManifest.sourceModifiedAt || data.meta.exportVerifiedAt;
   return `<section class="freshness-strip" aria-label="Data freshness">
-    <span class="freshness-badge confirmed"><i></i><span><b>Account</b>${escapeHtml(formatDate(data.meta.exportVerifiedAt))}</span></span>
+    <span class="freshness-badge confirmed"><i></i><span><b>Account captured</b>${escapeHtml(formatDate(capturedAt))}</span></span>
     <span class="freshness-badge ${liveStatuses ? 'live' : 'stale'}"><i></i><span><b>World state</b>${liveStatuses}/3 feeds verified</span></span>
     <span class="freshness-badge confirmed"><i></i><span><b>Provenance</b>${escapeHtml(sourceText)}</span></span>
   </section>`;
