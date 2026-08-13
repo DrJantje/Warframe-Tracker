@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-13",
-    "exportVerifiedAt": "2026-08-13 01:00:13 PDT",
+    "exportVerifiedAt": "2026-08-13 01:29:52 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167902,
-        "modified": "2026-08-13T01:00:12.521784-07:00",
-        "sha256": "97734e8a2aa27bbce8742ff2a49d9ff44fe9944479b91900f6e28ed32404f9c2"
+        "bytes": 2167901,
+        "modified": "2026-08-13T01:29:52.393542-07:00",
+        "sha256": "4ba67a8849e5ac3c03fd10a89839289bcc317c39823c658d8fee73d75fefc0be"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-13T01:00:12.524308-07:00",
+        "modified": "2026-08-13T01:29:52.396564-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-13T01:00:12.523304-07:00",
+        "modified": "2026-08-13T01:29:52.395056-07:00",
         "sha256": "519ab36b4505225fc8ce897bdbb85b2094ff6688d6df9346f789045bcb30df78"
       },
       "inventoryRelics.json": {
-        "bytes": 33449,
-        "modified": "2026-08-13T01:00:12.523304-07:00",
-        "sha256": "12c2bf7f325203bdbf5f2882fd210916025c32375b61dc2617ee3540d737f3e2"
+        "bytes": 33451,
+        "modified": "2026-08-13T01:29:52.396564-07:00",
+        "sha256": "25ee85df5a5831049ef74331d9af5ea04bfbbe512109726e5aa5ca700d0bbc6f"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-13T01:00:12.525817-07:00",
+        "modified": "2026-08-13T01:29:52.398575-07:00",
         "sha256": "e97a7ed4b005079687c0bd8298c591a227c51c163614cef962c35c444bc382d7"
       },
       "rivens.json": {
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Athodai",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
       {
         "item": "Bronco Prime",
         "before": [
@@ -87,7 +102,7 @@
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
-      "Axi S20 Intact": 1,
+      "Axi S20 Intact": 0,
       "Axi T13 Intact": 1,
       "Lith A12 Intact": 10,
       "Lith A12 Radiant": 3,
@@ -135,7 +150,7 @@
       "Neo T11 Intact": 11,
       "Neo V11 Intact": 9,
       "Neo V12 Intact": 10,
-      "Neo Y1 Intact": 9,
+      "Neo Y1 Intact": 10,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -4366,15 +4381,6 @@
   ],
   "owned": [
     {
-      "item": "Athodai",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Athodai"
-    },
-    {
       "item": "Hikou Prime",
       "type": "secondary",
       "state": "Ready in Foundry",
@@ -5712,14 +5718,14 @@
     {
       "item": "Athodai",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Venus Proxima abandoned derelict cache B",
       "vaulted": "No",
       "pendingFoundry": "No",

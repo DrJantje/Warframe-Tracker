@@ -1,31 +1,29 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-13T08:00:12.756845+00:00
-Account snapshot: 2026-08-13T08:00:09.601Z
+Generated: 2026-08-13T08:29:52.616656+00:00
+Account snapshot: 2026-08-13T08:27:46.786Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: RAILJACK
-- Planet: PROXIMA
-- Frame observation: Titania (arsenal-selected)
+- Phase: location
+- Location: HUB
+- Planet: TENNO
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 19080
+- Focus during current capture: 27006
 
 ## Current synchronized loadouts and builds
 
-### NORMAL: Titania
+### NORMAL: Lavos Los Manos
 
-#### Warframe: Titania Prime — config A
+#### Warframe: Lavos Prime — config A
 
-- Forma: 2
+- Forma: 0
 - Lens: Tactic Lens Greater
-- Helminth: Broken Rot Ability
-- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
-- Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3), Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
+- Mods: Alchemist Passive Augment Card (rank 3), Serpent Augment Card (rank 3), Umbral Vitality (rank 7), Umbral Intensify (rank 9), Augur Secrets (rank 5), Stretch (rank 5), Umbral Fiber (rank 7), Adaptation (rank 10), Corrosive Projection (rank 5), Arcane Blessing (rank 5), Molt Augmented (rank 5)
 
 #### Secondary: Athodai — config A
 
@@ -47,17 +45,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Forma: 0
 - Mods: none recorded
 
-#### Exalted weapon: Dex Pixia Prime — config A
-
-- Forma: 7
-- Mods: Pistol Pestilence (rank 3), Weapon Fire Damage Mod Expert (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Magnetic Might (rank 3), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 9), Secondary Enervate (rank 5)
-
-#### Second exalted or companion weapon: Diwata Prime — config A
-
-- Forma: 0
-- Mods: Primed Fever Strike (rank 8), Berserker Fury (rank 5), Amalgam Organ Shatter (rank 5), Blood Rush (rank 8), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Primed Reach (rank 10), Melee Duplicate (rank 2)
-
-### SENTINEL: Titania
+### SENTINEL: Lavos Los Manos
 
 #### Warframe: Panzer Vulpaphyla — config A
 
