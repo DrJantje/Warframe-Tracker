@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T07:49:57.606348+00:00",
+  "generatedAt": "2026-08-13T08:00:12.756845+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,20 +8,20 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-13T07:49:53.775Z",
+  "accountSnapshotAt": "2026-08-13T08:00:09.601Z",
   "liveState": {
-    "observedAt": "2026-08-13T07:49:54.359Z",
+    "observedAt": "2026-08-13T08:00:09.610720+00:00",
     "phase": "mission",
     "node": "RAILJACK",
     "planet": "PROXIMA",
-    "mission": "Peregrine Axis (Pluto Proxima) - Axi Void Storm",
-    "missionKey": "CrewBattleNode536",
-    "voidTier": "Axi",
+    "mission": "RAILJACK",
+    "missionKey": null,
+    "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 0,
+    "focusDuringCurrentCapture": 19080,
     "frameCandidate": "Titania",
-    "frameConfidence": "session-carried",
+    "frameConfidence": "arsenal-selected",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
