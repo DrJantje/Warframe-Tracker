@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-13T06:39:51.508946+00:00
-Account snapshot: 2026-08-13T06:39:48.360Z
+Generated: 2026-08-13T07:39:47.181515+00:00
+Account snapshot: 2026-08-13T07:39:43.226Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: Flexa (Veil Proxima) - Axi Void Storm
 - Planet: PROXIMA
-- Frame observation: Titania (arsenal-selected)
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -34,7 +34,7 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Primary: Coda Synapse — config A
 
-- Forma: 4
+- Forma: 5
 - Mods: Vital Sense (rank 5), Critical Delay (rank 5), Split Chamber (rank 5), Serration (rank 10)
 
 #### Melee: Tenet Livia — config A
