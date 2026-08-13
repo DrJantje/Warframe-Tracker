@@ -236,6 +236,8 @@ for (const [item, requiredSteps] of Object.entries({
   if (card && card.steps !== requiredSteps) errors.push(`owned/${item}: corrected owned-card Steps regressed`);
 }
 for (const item of permanentRailjackItems) {
+  const arsenal = data.arsenal.find((row) => row.item === item);
+  if (arsenal && (arsenal.owned === 'Yes' || arsenal.mastered === 'Yes' || arsenal.pendingFoundry === 'Yes')) continue;
   const card = userFacingCards.get(item);
   if (!card) {
     errors.push(`database/${item}: permanent Railjack Prime has no user-facing card`);
