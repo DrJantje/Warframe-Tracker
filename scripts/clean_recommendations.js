@@ -25,9 +25,86 @@ const companionBreeds = new Set([
 ]);
 const kDriveBoards = new Set(['Bad Baby', 'Feverspine', 'Flatbelly', 'Needlenose', 'Runway']);
 const nightwaveItems = new Set(nightwaveCatalog.items.map((entry) => entry.item));
+const permanentNightwaveItems = new Set(
+  nightwaveCatalog.items.filter((entry) => entry.availability === 'permanent').map((entry) => entry.item),
+);
 const permanentRailjackItems = new Set(primeRules.permanentRailjackItems);
 const activeResurgenceItems = new Set(live.primeResurgence.status === 'verified' ? live.primeResurgence.items : []);
 const nightwaveTip = 'Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.';
+const permanentNightwaveTip = 'This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.';
+const permanentWolfBeaconTip = 'Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.';
+const resurgenceRelicSource = 'Varzia for Aya during the current Prime Resurgence rotation';
+const activeResurgenceRelics = {
+  'Lith A9': {
+    source: resurgenceRelicSource,
+    rewards: {
+      'Afuris Prime Receiver': 'Rare',
+      'Phantasma Prime Blueprint': 'Uncommon',
+      'Orthos Prime Blade': 'Uncommon',
+      'Tatsu Prime Blueprint': 'Common',
+      'Cobra & Crane Prime Hilt': 'Common',
+    },
+  },
+  'Lith T13': {
+    source: resurgenceRelicSource,
+    rewards: {
+      'Tatsu Prime Handle': 'Rare',
+      'Revenant Prime Neuroptics Blueprint': 'Uncommon',
+      'Baruuk Prime Chassis Blueprint': 'Uncommon',
+      'Phantasma Prime Receiver': 'Common',
+    },
+  },
+  'Meso R6': {
+    source: resurgenceRelicSource,
+    rewards: {
+      'Revenant Prime Blueprint': 'Rare',
+      'Cobra & Crane Prime Blade': 'Uncommon',
+      'Orthos Prime Blueprint': 'Uncommon',
+      'Afuris Prime Barrel': 'Common',
+    },
+  },
+  'Neo P8': {
+    source: resurgenceRelicSource,
+    rewards: {
+      'Phantasma Prime Barrel': 'Rare',
+      'Revenant Prime Systems Blueprint': 'Uncommon',
+      'Afuris Prime Link': 'Uncommon',
+      'Baruuk Prime Systems Blueprint': 'Common',
+    },
+  },
+  'Axi B9': {
+    source: resurgenceRelicSource,
+    rewards: {
+      'Baruuk Prime Blueprint': 'Rare',
+      'Cobra & Crane Prime Blueprint': 'Uncommon',
+      'Baruuk Prime Neuroptics Blueprint': 'Uncommon',
+      'Afuris Prime Blueprint': 'Common',
+    },
+  },
+  'Axi C9': {
+    source: resurgenceRelicSource,
+    rewards: {
+      'Cobra & Crane Prime Guard': 'Rare',
+      'Tatsu Prime Blade': 'Uncommon',
+      'Phantasma Prime Stock': 'Uncommon',
+      'Revenant Prime Chassis Blueprint': 'Common',
+    },
+  },
+};
+const currentRelicCatalogs = {
+  'Afentis Prime': {
+    'Axi A22': {
+      source: 'Lua/Apollo Disruption rotations B and C',
+      rewards: { 'Afentis Prime Blueprint': 'Rare' },
+    },
+  },
+  'Quassus Prime': {
+    'Lith Q3': {
+      source: 'Void/Hepit Capture or Mars/Olympus Disruption rotations A and B',
+      rewards: { 'Quassus Prime Blade': 'Rare' },
+    },
+  },
+};
 const practicalPriorityOverrides = new Map([
   ['Itzal', 1],
   ['Scourge', 2],
@@ -54,12 +131,16 @@ const sourceOverrides = {
   Hema: 'https://wiki.warframe.com/w/Hema',
   Corufell: 'https://wiki.warframe.com/w/Corufell',
   Pennant: 'https://wiki.warframe.com/w/Pennant',
+  Snipetron: 'https://wiki.warframe.com/w/Snipetron',
   'War Prime': 'https://wiki.warframe.com/w/War_Prime',
 };
 
 const exact = {
-  Acceltra: ['Ur, Uranus — Disruption; Demolisher Infested', 'Kill Demolisher Infested on Ur until the Acceltra blueprint drops.', 'Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.'],
-  Akarius: ['Ur, Uranus — Disruption; Demolisher Infested', 'Kill Demolisher Infested on Ur until the Akarius blueprint drops.', 'Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.'],
+  'Dark Dagger': ['Nightwave Cred Offerings — permanent stock', 'Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.', permanentNightwaveTip],
+  Glaive: ['Nightwave Cred Offerings — permanent stock', 'Buy the Glaive Blueprint for 50 Creds, then build and level it.', permanentNightwaveTip],
+  'Jaw Sword': ['Nightwave Cred Offerings — permanent stock', 'Buy the Jaw Sword Blueprint for 50 Creds, then build and level it.', permanentNightwaveTip],
+  Acceltra: ['Ur, Uranus — Demolisher Infested enemy drop', 'Kill Demolisher Infested on Ur until the Acceltra Blueprint drops.', 'Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.'],
+  Akarius: ['Ur, Uranus — Demolisher Infested enemy drop', 'Kill Demolisher Infested on Ur until the Akarius Blueprint drops.', 'Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.'],
   Octavia: ['Lua and Deimos component farms', 'Neuroptics: Deimos Survival rotation C. Systems: Lua Crossfire caches. Main blueprint: Octavia’s Anthem.', 'Use loot radar for Lua caches; stay to rotation C on Deimos.'],
   Protea: ['Granum Void after The Deadlock Protocol', 'Neuroptics: Normal Granum Void. Chassis: Extended Granum Void. Systems: Nightmare Granum Void. Reach the top kill tier.', 'Use Xoris heavy throws to free Solaris captives and extend the timer.'],
   Oberon: ['Railjack point-of-interest rewards', 'Neuroptics and Systems: Earth Proxima point-of-interest rewards. Chassis: Saturn Proxima.', 'Choose short Railjack nodes and finish the side objective before extraction.'],
@@ -132,7 +213,7 @@ const exact = {
   Basmu: ['Recurring operation or Nights of Naberus / player trade', 'Not currently obtainable from an active event; Blueprint is tradeable.', 'Recent sources include Operation: Belly of the Beast and Nights of Naberus; it has also returned through other operations. Event history does not imply current availability.'],
   'Ceti Lacera': ['Recurring operation or Nights of Naberus / player trade', 'Not currently obtainable from an active event; Blueprint is tradeable.', 'Recent sources include Operation: Belly of the Beast and Nights of Naberus. Event history does not imply current availability.'],
   Sheev: ['Grineer Invasion reward rotation / player trade', 'Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.', 'Only one component is offered per qualifying Invasion. Check the live Invasion feed before trading.'],
-  Hema: ['Clan Dojo — completed Bio Lab research', 'Replicate the Blueprint from completed Bio Lab research. Obtain 4 Mutagen Mass, then build.', 'No drop farm is required once the clan research is complete.'],
+  Hema: ['Clan Dojo Bio Lab', 'If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.', 'The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.'],
   Corufell: ['Tyana Pass, Mars — Mirror Defense / Otak', 'The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.', 'Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient.'],
   Needlenose: ['Roky / Ventkids K-Drive Board', 'Buy the Needlenose Board Blueprint from Roky. Assemble the K-Drive and level it to 30. No gilding is required.', 'Buy the board blueprint from Roky with Ventkids Standing.'],
   Runway: ['Roky / Ventkids K-Drive Board', 'Buy the Runway Board Blueprint from Roky. Assemble the K-Drive and level it to 30. No gilding is required.', 'Buy the board blueprint from Roky with Ventkids Standing.'],
@@ -140,12 +221,39 @@ const exact = {
   Zenistar: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
   Zenith: ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
   'Sigma & Octantis': ['Daily Tribute weapon milestone', 'Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.', 'This is a known login-gated route, not a standing shortcut for first acquisition.'],
-  'Wolf Sledge': ['Wolf of Saturn Six; Wolf Beacon', 'Farm all four completed weapon components from the Wolf of Saturn Six.', nightwaveTip],
+  'Wolf Sledge': ['Nightwave Cred Offerings — permanent Wolf Beacon', 'Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.', permanentWolfBeaconTip],
   Miter: ['Exta, Ceres — Captain Vor and Lieutenant Lech Kril', 'Repeat Exta for the Miter pieces still listed in Missing. Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.', 'Each Miter piece has a 16.67% chance. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic.'],
   Detron: ['Zanuka Hunter — death mark or Zanuka Hunter Beacon', 'Earn a Zanuka Hunter death mark by supporting the Grineer against the Corpus in five Invasion missions, then run eligible Corpus missions or use a Zanuka Hunter Beacon.', 'The Detron Blueprint, components and completed weapon are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.'],
   Shedu: ['Veil Sentient anomaly — Symbilysts', 'Target the missing Handle; each Shedu part is a 1% Symbilyst drop.', 'The missing Handle is a 1% drop from each Symbilyst. Since Shedu parts are tradeable and only one piece remains, compare the Handle’s trade price before committing to a long Sentient Anomaly farm.'],
   Snipetron: ['Limited event/vendor rotation', 'Wait for Plague Star, Star Days, or another announced return of the Blueprint.', 'Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.'],
   'War Prime': ['Hunhow at Pontis Tower — Hunhow’s Trinkets', 'Buy the Hunhow’s Trinkets Blueprint from Hunhow for 12 Crimson Talents and 12 Emerald Talents, earn the Talents in Uranus Proxima, then craft War Prime.', 'Run the Scoria’s Angel and Kuva Wytch travel stages while farming their weapon pools so both Talent colors progress together.'],
+};
+
+const componentFarmRoutes = {
+  Protea: {
+    'Protea Blueprint': 'complete The Deadlock Protocol',
+    'Protea Neuroptics Blueprint': 'Normal Granum Void rotation C',
+    'Protea Chassis Blueprint': 'Extended Granum Void rotation C',
+    'Protea Systems Blueprint': 'Nightmare Granum Void rotation C',
+  },
+  Stahlta: {
+    'Stahlta Blueprint': 'defeat Jackal',
+    'Stahlta Barrel': 'Nightmare Granum Void rotation C',
+    'Stahlta Receiver': 'Normal Granum Void rotation C',
+    'Stahlta Stock': 'Extended Granum Void rotation C',
+  },
+  Stropha: {
+    'Stropha Blueprint': 'defeat Jackal',
+    'Stropha Barrel': 'Normal Granum Void rotation C',
+    'Stropha Blade': 'Normal Granum Void rotation C',
+    'Stropha Receiver': 'Extended Granum Void rotation C',
+    'Stropha Stock': 'Nightmare Granum Void rotation C',
+  },
+  Hespar: {
+    'Hespar Blueprint': 'Chrysalith Tier 4 bounty',
+    'Hespar Handle Blueprint': 'Tuvul Commons Void Cascade rotation C',
+    'Hespar Blade Blueprint': 'Oro Works Void Armageddon rotation C',
+  },
 };
 
 function truncated(value) {
@@ -218,7 +326,7 @@ function defaultMissing(row) {
 const archwings = new Set(['Amesha', 'Elytron', 'Itzal', 'Odonata', 'Odonata Prime']);
 const archguns = new Set(['Arbucep', 'Cortege', 'Corvas', 'Corvas Prime', 'Cyngas', 'Dual Decurion', 'Fluctus', 'Grattler', 'Imperator', 'Imperator Vandal', 'Kuva Ayanga', 'Kuva Grattler', 'Larkspur', 'Larkspur Prime', 'Mandonel', 'Mausolon', 'Morgha', 'Phaedra', 'Prisma Dual Decurions', 'Velocitus']);
 const archmelee = new Set(['Agkuza', 'Centaur', 'Kaszas', 'Knux', 'Onorix', 'Prisma Veritux', 'Rathbone', 'Veritux']);
-const directBaroItems = new Set(['Glaxion Vandal', 'Gotva Prime', 'Halikar Wraith', 'Machete Wraith', 'Mara Detron', 'Prova Vandal', 'Quanta Vandal', 'Supra Vandal', 'Vastilok', 'Vericres', 'Vulkar Wraith', 'Zylok']);
+const directBaroItems = new Set(['Glaxion Vandal', 'Gotva Prime', 'Halikar Wraith', 'Machete Wraith', 'Mara Detron', 'Prova Vandal', 'Quanta Vandal', 'Supra Vandal', 'Vastilok', 'Vericres', 'Viper Wraith', 'Vulkar Wraith', 'Zylok']);
 const sentinelBundledWeapons = {
   'Burst Laser Prime': 'Shade Prime',
   'Deconstructor Prime': 'Helios Prime',
@@ -229,7 +337,7 @@ const sentinelBundledWeapons = {
   Verglas: 'Nautilus',
 };
 const houndBundledWeapons = { Lacerten: 'a Hound configured with the Bhaira Model' };
-const invasionItems = new Set(['Dera Vandal', 'Karak Wraith', 'Latron Wraith', 'Snipetron Vandal', 'Strun Wraith', 'Twin Vipers Wraith', 'Viper Wraith', 'Sheev']);
+const invasionItems = new Set(['Dera Vandal', 'Karak Wraith', 'Latron Wraith', 'Snipetron Vandal', 'Strun Wraith', 'Twin Vipers Wraith', 'Sheev']);
 const primeDependencies = {
   'Akbronco Prime': 'Bronco Prime',
   'Aklex Prime': 'Lex Prime',
@@ -271,7 +379,30 @@ function applyDynamicRecommendation(row) {
   const parts = missingParts(row);
   const materials = materialNeeds(row);
   const materialText = naturalList(materials.filter((part) => part.remaining > 0).map((part) => `${part.remaining.toLocaleString('en-US')} ${part.name}`));
-  if (row.item === 'Catabolyst') {
+  if (componentFarmRoutes[row.item]) {
+    const routes = componentFarmRoutes[row.item];
+    row.steps = parts.map((part) => {
+      const normalizedPart = part.replace(/ \([\d,]+\/[\d,]+\)$/, '');
+      const copies = requiredCopies(part);
+      const label = normalizedPart === `${row.item} Blueprint`
+        ? 'Main Blueprint'
+        : normalizedPart.replace(new RegExp(`^${row.item.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s+`), '');
+      return `${label}${copies > 1 ? ` ×${copies}` : ''}: ${routes[normalizedPart] || 'check the current official drop table'}`;
+    }).join('. ') + '.';
+    if (['Protea', 'Stahlta', 'Stropha'].includes(row.item)) {
+      row.tip = 'Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.';
+    } else if (row.item === 'Hespar') {
+      row.tip = 'Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.';
+    }
+  } else if (row.item === 'Pathocyst') {
+    const needed = parts.map((part) => {
+      const normalizedPart = part.replace(/ \([\d,]+\/[\d,]+\)$/, '').replace(/^Pathocyst\s+/, '');
+      const copies = requiredCopies(part);
+      return `${normalizedPart}${copies > 1 ? ` ×${copies}` : ''}`;
+    });
+    row.steps = `Defeat the Zealoid Prelate for the missing ${naturalList(needed)}.`;
+    row.tip = 'Each kill guarantees one Pathocyst part; Blueprint, Blade, and Subcortex each have equal 33.33% odds.';
+  } else if (row.item === 'Catabolyst') {
     row.steps = `Buy the ${row.item} Blueprint from the Market${materialText ? `, then obtain ${materialText}` : ''}.`;
   } else if (['Kreska', 'Tatsu'].includes(row.item) && materialText) {
     row.steps = `Obtain ${materialText}.`;
@@ -281,7 +412,7 @@ function applyDynamicRecommendation(row) {
   } else if (['Needlenose', 'Runway'].includes(row.item) && materialText) {
     row.steps = `Buy the ${row.item} Board Blueprint from Roky and obtain ${materialText}. Assemble the K-Drive and level it to 30. No gilding is required.`;
   } else if (row.item === 'Hema' && materialText) {
-    row.steps = `Replicate the Blueprint from completed Bio Lab research. Obtain ${materialText}, then build.`;
+    row.steps = `If your clan has completed Hema research, replicate the Blueprint. Obtain ${materialText}, then build.`;
   } else if (row.item === 'Vitrica') {
     const needsBlueprint = parts.some((part) => normalizeText(part) === 'vitrica');
     const clauses = [];
@@ -333,14 +464,22 @@ function requiredCopies(part) {
   return match ? Number(match[2].replaceAll(',', '')) - Number(match[1].replaceAll(',', '')) : 1;
 }
 
-function permanentPrimeInstructions(row) {
+function actionablePrimeInstructions(row, catalogKind) {
   const farms = row.primeDetails.map((detail) => {
     const copies = requiredCopies(detail.part);
     const part = detail.part.replace(/ \([\d,]+\/[\d,]+\)$/, '');
-    return `Farm ${detail.relic} for ${part}${copies > 1 ? ` ×${copies}` : ''}. ${detail.relic} comes from ${detail.relicSource}. Open it ${detail.refinement} because the reward is ${detail.rarity}.`;
+    const target = `${part}${copies > 1 ? ` ×${copies}` : ''}`;
+    if (catalogKind === 'resurgence') {
+      const held = detail.ownedRelics > 0 ? ` You already hold ${detail.ownedRelics}.` : '';
+      return `${target} (${detail.rarity}): buy ${detail.relic} from Varzia for Aya and open it ${detail.refinement} in a four-player share.${held}`;
+    }
+    if (detail.ownedRelics > 0) {
+      return `${target} (${detail.rarity}): use your ${detail.ownedRelics} held ${detail.relic} relic${detail.ownedRelics === 1 ? '' : 's'}; refine one at a time to ${detail.refinement} and open four-player shares until the target drops. Farm more from ${detail.relicSource} only if needed.`;
+    }
+    return `${target} (${detail.rarity}): farm ${detail.relic} from ${detail.relicSource}, then open it ${detail.refinement} in a four-player share.`;
   });
   row.steps = `${farms.join(' ')} Build ${row.item} and level it to 30.`;
-  row.tip = 'Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.';
+  row.tip = 'Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.';
 }
 
 function primeDetailsFor(row, catalog) {
@@ -356,7 +495,7 @@ function primeDetailsFor(row, catalog) {
         rarity,
         ownedRelics: relicInventoryCount(relic),
         relicSource: definition.source,
-        refinement: rarity === 'Rare' ? 'Radiant' : rarity === 'Uncommon' ? 'Flawless' : 'Intact',
+        refinement: rarity === 'Common' ? 'Intact' : 'Radiant',
       });
       break;
     }
@@ -365,13 +504,35 @@ function primeDetailsFor(row, catalog) {
 }
 
 function applyPrimeAvailability(row) {
+  if (row.state && row.state !== 'Missing') {
+    const carriedAcquisitionState = Boolean(row.primeStatus)
+      || Boolean(row.primeDetails?.length)
+      || /Prime Resurgence|Currently vaulted|Permanent Railjack relic pools|Current Void Relic farms/i.test(row.route || '');
+    delete row.primeStatus;
+    row.primeDetails = [];
+    if (carriedAcquisitionState) {
+      if (row.mastered === 'Yes') row.route = 'Mastery complete';
+      else if (row.pendingFoundry === 'Yes') row.route = 'Foundry';
+      else if (row.owned === 'Yes') row.route = 'Already owned';
+      delete row.steps;
+      delete row.tip;
+    }
+    return;
+  }
   let catalog = null;
+  let catalogKind = null;
   if (activeResurgenceItems.has(row.item)) {
     row.primeStatus = 'RESURGENCE ACTIVE';
-    catalog = primeRules.activeResurgenceRelics;
+    catalog = activeResurgenceRelics;
+    catalogKind = 'resurgence';
   } else if (permanentRailjackItems.has(row.item)) {
     row.primeStatus = 'PERMANENT SPECIAL RELICS';
     catalog = primeRules.permanentRailjackRelics;
+    catalogKind = 'permanent';
+  } else if (currentRelicCatalogs[row.item]) {
+    row.primeStatus = 'CURRENT RELICS';
+    catalog = currentRelicCatalogs[row.item];
+    catalogKind = 'current';
   } else if (row.item === 'Kavasa Prime Kubrow Collar' || row.vaulted === 'Yes') {
     row.primeStatus = data.meta.relicInventory ? 'TRADE ONLY' : 'DATA INCOMPLETE';
   } else if (usesRelics(row) && row.vaulted !== 'Yes') {
@@ -381,13 +542,22 @@ function applyPrimeAvailability(row) {
   }
   row.primeDetails = catalog ? primeDetailsFor(row, catalog) : [];
   if (row.primeDetails.some((detail) => detail.ownedRelics > 0)) row.primeStatus = 'OWNED RELICS';
-  if (row.primeStatus === 'RESURGENCE ACTIVE') {
+  if (catalogKind && row.primeDetails.length !== missingParts(row).length) {
+    row.primeStatus = 'DATA INCOMPLETE';
+    row.route = 'Relic catalog refresh required';
+    row.steps = 'Check the official drop tables for every missing part before spending Aya, Void Traces, or Platinum.';
+    row.tip = 'The live item status and local relic-to-part catalog disagree; refresh the catalog before farming.';
+  } else if (catalogKind === 'resurgence') {
     row.route = 'Prime Resurgence — Varzia relics for Aya';
-    row.steps = 'Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.';
-    row.tip = 'Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.';
-  } else if (row.primeStatus === 'PERMANENT SPECIAL RELICS') {
+    actionablePrimeInstructions(row, catalogKind);
+  } else if (catalogKind === 'permanent') {
     row.route = 'Permanent Railjack relic pools';
-    permanentPrimeInstructions(row);
+    actionablePrimeInstructions(row, catalogKind);
+  } else if (catalogKind === 'current') {
+    row.route = row.primeDetails.some((detail) => detail.ownedRelics > 0)
+      ? 'Owned relics first; current Void Relic farms for more'
+      : 'Current Void Relic farms';
+    actionablePrimeInstructions(row, catalogKind);
   } else if ((row.primeStatus === 'TRADE ONLY' || row.primeStatus === 'DATA INCOMPLETE') && !row.primeDetails.length) {
     row.route = 'Currently vaulted — owned relics or player trade';
     row.steps = 'Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.';
@@ -405,10 +575,14 @@ function applyPrimeDependency(row) {
   row.steps = `Build two complete ${base} weapons, then consume both in the ${row.item} recipe${others.length ? ` along with ${naturalList(others)}` : ''}.`;
   row.tip = Number.isFinite(assemblable)
     ? `Current component inventory can assemble ${assemblable} complete ${base} weapon${assemblable === 1 ? '' : 's'}; the recipe requires two.`
-    : `The recipe consumes two completed ${base} weapons. Component-level assembly capacity will be calculated on the next AlecaFrame import.`;
+    : `The recipe consumes two completed ${base} weapons. Component-level assembly capacity will be calculated on the next direct account import.`;
 }
 
 function applyLiveMatches(row) {
+  if (row.state && row.state !== 'Missing') {
+    row.liveMatches = [];
+    return;
+  }
   const matches = [];
   const missing = missingParts(row).map(normalizeText);
   if (live.invasions.status === 'verified') {
@@ -478,7 +652,24 @@ function clean(row) {
   if (truncated(out.route)) out.route = UNVERIFIED;
   if (exact[out.item]) [out.route, out.steps, out.tip] = exact[out.item];
   delete out.availabilityGroup;
-  if (nightwaveItems.has(out.item) && !['Vitrica', 'Wolf Sledge'].includes(out.item)) out.tip = nightwaveTip;
+  if (out.state && out.state !== 'Missing') {
+    // Availability metadata remains useful for filtering, but acquisition copy must not replace a completed item's state.
+  } else if (permanentNightwaveItems.has(out.item) && out.item === 'Wolf Sledge') {
+    out.route = 'Nightwave Cred Offerings — permanent Wolf Beacon';
+    out.steps = 'Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.';
+    out.tip = permanentWolfBeaconTip;
+  } else if (permanentNightwaveItems.has(out.item)) {
+    out.route = 'Nightwave Cred Offerings — permanent stock';
+    out.steps = `Buy the ${out.item} Blueprint for 50 Creds, then build and level it.`;
+    out.tip = permanentNightwaveTip;
+  } else if (nightwaveItems.has(out.item) && out.item !== 'Vitrica') {
+    out.tip = nightwaveTip;
+  }
+  if (out.state && out.state !== 'Missing' && permanentNightwaveItems.has(out.item)) {
+    out.route = out.mastered === 'Yes' ? 'Mastery complete' : out.state;
+    delete out.steps;
+    delete out.tip;
+  }
   if (sourceOverrides[out.item]) out.source = sourceOverrides[out.item];
   out.source = normalizeSource(out.source);
   if (out.item === 'Bhaira Hound') out.missing = 'Bhaira Model / completed Hound using the Bhaira Model';

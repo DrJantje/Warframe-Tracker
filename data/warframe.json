@@ -2,12 +2,12 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-13",
-    "exportVerifiedAt": "2026-08-13 01:54:27 PDT",
-    "exportSource": "Local AlecaFrame export",
+    "exportVerifiedAt": "2026-08-13 02:04:36 PDT",
+    "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167901,
-        "modified": "2026-08-13T01:54:26.483004-07:00",
+        "modified": "2026-08-13T02:03:56.982103-07:00",
         "sha256": "d050b89c16ce3c270855b0be94f74bb0f96327a536ef56869edc0475d751628c"
       },
       "inventoryArcanes.json": {
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-13T01:54:26.488087-07:00",
+        "modified": "2026-08-13T02:03:56.985411-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-13T01:54:26.485568-07:00",
+        "modified": "2026-08-13T02:03:56.983904-07:00",
         "sha256": "519ab36b4505225fc8ce897bdbb85b2094ff6688d6df9346f789045bcb30df78"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-13T01:54:26.486074-07:00",
+        "modified": "2026-08-13T02:03:56.983904-07:00",
         "sha256": "25ee85df5a5831049ef74331d9af5ea04bfbbe512109726e5aa5ca700d0bbc6f"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-13T01:54:26.490103-07:00",
+        "modified": "2026-08-13T02:03:56.986414-07:00",
         "sha256": "e97a7ed4b005079687c0bd8298c591a227c51c163614cef962c35c444bc382d7"
       },
       "rivens.json": {
@@ -180,9 +180,9 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Hema Blueprint",
-      "route": "Clan Dojo — completed Bio Lab research",
-      "steps": "Replicate the Blueprint from completed Bio Lab research. Obtain 4 Mutagen Mass, then build.",
-      "tip": "No drop farm is required once the clan research is complete.",
+      "route": "Clan Dojo Bio Lab",
+      "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
+      "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
       "source": "https://wiki.warframe.com/w/Hema",
       "vaulted": "No",
       "primeDetails": [],
@@ -256,9 +256,9 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Acceltra Blueprint",
-      "route": "Ur, Uranus — Disruption; Demolisher Infested",
-      "steps": "Kill Demolisher Infested on Ur until the Acceltra blueprint drops.",
-      "tip": "Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.",
+      "route": "Ur, Uranus — Demolisher Infested enemy drop",
+      "steps": "Kill Demolisher Infested on Ur until the Acceltra Blueprint drops.",
+      "tip": "Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.",
       "source": "https://wiki.warframe.com/w/Acceltra",
       "vaulted": "No",
       "primeDetails": [],
@@ -271,9 +271,9 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Akarius Blueprint",
-      "route": "Ur, Uranus — Disruption; Demolisher Infested",
-      "steps": "Kill Demolisher Infested on Ur until the Akarius blueprint drops.",
-      "tip": "Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.",
+      "route": "Ur, Uranus — Demolisher Infested enemy drop",
+      "steps": "Kill Demolisher Infested on Ur until the Akarius Blueprint drops.",
+      "tip": "Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.",
       "source": "https://wiki.warframe.com/w/Akarius",
       "vaulted": "No",
       "primeDetails": [],
@@ -286,9 +286,9 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Dark Dagger Blueprint",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
-      "steps": "Buy the 50-Cred Blueprint when it appears, then build.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "route": "Nightwave Cred Offerings — permanent stock",
+      "steps": "Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.",
+      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
       "vaulted": "No",
       "primeDetails": [],
@@ -302,9 +302,9 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Glaive Blueprint",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
-      "steps": "Buy the 50-Cred Blueprint when it appears, then build.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "route": "Nightwave Cred Offerings — permanent stock",
+      "steps": "Buy the Glaive Blueprint for 50 Creds, then build and level it.",
+      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
       "vaulted": "No",
       "primeDetails": [],
@@ -318,9 +318,9 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Jaw Sword Blueprint",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
-      "steps": "Buy the 50-Cred Blueprint when it appears, then build.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "route": "Nightwave Cred Offerings — permanent stock",
+      "steps": "Buy the Jaw Sword Blueprint for 50 Creds, then build and level it.",
+      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
       "vaulted": "No",
       "primeDetails": [],
@@ -921,6 +921,22 @@
     },
     {
       "ease": "4 — Multi-step farm",
+      "item": "Viper Wraith",
+      "type": "secondary",
+      "targetRank": "30",
+      "missing": "Viper Wraith (completed item)",
+      "route": "Baro Ki’Teer rotating inventory / player trade",
+      "steps": "Buy the completed Viper Wraith when Baro carries it, or trade for an unranked copy.",
+      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
+      "source": "https://wiki.warframe.com/w/Viper_Wraith",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "availabilityGroup": "baro",
+      "practicalPriority": 405
+    },
+    {
+      "ease": "4 — Multi-step farm",
       "item": "Vulkar Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -972,8 +988,8 @@
       "targetRank": "30",
       "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Main Blueprint from a Tier 4 bounty; Handle from Void Cascade Rotation C; Blade from Void Armageddon Rotation C.",
-      "tip": "Target only the missions that reward the components still listed above.",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "source": "https://wiki.warframe.com/w/Hespar",
       "vaulted": "No",
       "primeDetails": [],
@@ -1017,8 +1033,8 @@
       "targetRank": "30",
       "missing": "Pathocyst Blade (0/2); Pathocyst Blueprint",
       "route": "Zealoid Prelate, Exequias on Deimos",
-      "steps": "Farm the Blueprint, two Blades and Subcortex from the boss.",
-      "tip": "Repeat the boss only for the pieces still listed above.",
+      "steps": "Defeat the Zealoid Prelate for the missing Blade ×2 and Blueprint.",
+      "tip": "Each kill guarantees one Pathocyst part; Blueprint, Blade, and Subcortex each have equal 33.33% odds.",
       "source": "https://wiki.warframe.com/w/Pathocyst",
       "vaulted": "No",
       "primeDetails": [],
@@ -1032,8 +1048,8 @@
       "targetRank": "30",
       "missing": "Protea Chassis Blueprint; Protea Neuroptics Blueprint",
       "route": "Granum Void after The Deadlock Protocol",
-      "steps": "Neuroptics: Normal Granum Void. Chassis: Extended Granum Void. Systems: Nightmare Granum Void. Reach the top kill tier.",
-      "tip": "Use Xoris heavy throws to free Solaris captives and extend the timer.",
+      "steps": "Chassis Blueprint: Extended Granum Void rotation C. Neuroptics Blueprint: Normal Granum Void rotation C.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "source": "https://wiki.warframe.com/w/Protea",
       "vaulted": "No",
       "primeDetails": [],
@@ -1303,8 +1319,8 @@
       "targetRank": "30",
       "missing": "Stropha Barrel; Stropha Receiver",
       "route": "Jackal + Granum Void",
-      "steps": "Main Blueprint from Jackal. Barrel and Blade from Normal, Receiver from Extended and Stock from Nightmare Granum Void.",
-      "tip": "Use the Granum Crown tier matching the component still missing.",
+      "steps": "Barrel: Normal Granum Void rotation C. Receiver: Extended Granum Void rotation C.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "source": "https://wiki.warframe.com/w/Stropha",
       "vaulted": "No",
       "primeDetails": [],
@@ -1363,8 +1379,8 @@
       "targetRank": "30",
       "missing": "Stahlta Blueprint; Stahlta Receiver; Stahlta Stock",
       "route": "Jackal + Granum Void",
-      "steps": "Main Blueprint from Jackal. Barrel from Nightmare Granum Void, Receiver from Normal Granum Void and Stock from Extended Granum Void.",
-      "tip": "Use the Granum Crown tier matching the component still missing.",
+      "steps": "Main Blueprint: defeat Jackal. Receiver: Normal Granum Void rotation C. Stock: Extended Granum Void rotation C.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "source": "https://wiki.warframe.com/w/Stahlta",
       "vaulted": "No",
       "primeDetails": [],
@@ -1467,9 +1483,9 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
-      "route": "Wolf of Saturn Six; Wolf Beacon",
-      "steps": "Farm all four completed weapon components from the Wolf of Saturn Six.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
+      "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
       "vaulted": "No",
       "primeDetails": [],
@@ -1944,21 +1960,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Viper Wraith",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Viper Wraith (completed item)",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Check active Invasions for Viper Wraith; complete all three missions for the needed reward, or trade for it.",
-      "tip": "Check both sides of the live Invasion feed before trading.",
-      "source": "https://wiki.warframe.com/w/Viper_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 655
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Twin Vipers Wraith",
       "type": "secondary",
       "targetRank": "30",
@@ -2221,7 +2222,7 @@
       "route": "Limited event/vendor rotation",
       "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
-      "source": "https://wiki.warframe.com/w/Conclave%3ASnipetron",
+      "source": "https://wiki.warframe.com/w/Snipetron",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2266,13 +2267,22 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Afentis Prime Blueprint",
-      "route": "Void Relics / player trade",
-      "steps": "Match each missing Prime part to a live relic, refine for Rare rewards, and use shares.",
-      "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
+      "route": "Current Void Relic farms",
+      "steps": "Afentis Prime Blueprint (Rare): farm Axi A22 from Lua/Apollo Disruption rotations B and C, then open it Radiant in a four-player share. Build Afentis Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "CURRENT RELICS",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Afentis Prime Blueprint",
+          "relic": "Axi A22",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Lua/Apollo Disruption rotations B and C",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [],
       "practicalPriority": 405
     },
@@ -2283,12 +2293,29 @@
       "targetRank": "30",
       "missing": "Afuris Prime Link; Afuris Prime Receiver (0/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "steps": "Afuris Prime Link (Uncommon): buy Neo P8 from Varzia for Aya and open it Radiant in a four-player share. Afuris Prime Receiver ×2 (Rare): buy Lith A9 from Varzia for Aya and open it Radiant in a four-player share. Build Afuris Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Afuris_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Afuris Prime Link",
+          "relic": "Neo P8",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Afuris Prime Receiver (0/2)",
+          "relic": "Lith A9",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
@@ -2565,12 +2592,29 @@
       "targetRank": "30",
       "missing": "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "steps": "Baruuk Prime Chassis Blueprint (Uncommon): buy Lith T13 from Varzia for Aya and open it Radiant in a four-player share. Baruuk Prime Neuroptics Blueprint (Uncommon): buy Axi B9 from Varzia for Aya and open it Radiant in a four-player share. Build Baruuk Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Baruuk_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Baruuk Prime Chassis Blueprint",
+          "relic": "Lith T13",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Baruuk Prime Neuroptics Blueprint",
+          "relic": "Axi B9",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
@@ -2679,8 +2723,8 @@
       "targetRank": "30",
       "missing": "Cernos Prime Blueprint; Cernos Prime Grip; Cernos Prime Lower Limb; Cernos Prime String; Cernos Prime Upper Limb",
       "route": "Permanent Railjack relic pools",
-      "steps": "Farm Neo V9 for Cernos Prime Blueprint. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Flawless because the reward is Uncommon. Farm Axi S8 for Cernos Prime Grip. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Intact because the reward is Common. Farm Lith C7 for Cernos Prime Lower Limb. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Radiant because the reward is Rare. Farm Axi V10 for Cernos Prime String. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Intact because the reward is Common. Farm Meso N11 for Cernos Prime Upper Limb. Meso N11 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Intact because the reward is Common. Build Cernos Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Cernos Prime Blueprint (Uncommon): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Cernos Prime Grip (Common): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Intact in a four-player share. Cernos Prime Lower Limb (Rare): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Cernos Prime String (Common): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Intact in a four-player share. Cernos Prime Upper Limb (Common): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Intact in a four-player share. Build Cernos Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
@@ -2691,7 +2735,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Cernos Prime Grip",
@@ -2752,12 +2796,21 @@
       "targetRank": "30",
       "missing": "Cobra & Crane Prime Guard",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "steps": "Cobra & Crane Prime Guard (Rare): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Cobra & Crane Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Cobra & Crane Prime Guard",
+          "relic": "Axi C9",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
@@ -3570,8 +3623,8 @@
       "targetRank": "30",
       "missing": "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
       "route": "Permanent Railjack relic pools",
-      "steps": "Farm Neo V9 for Nyx Prime Blueprint. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Nyx Prime Chassis Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Meso N11 for Nyx Prime Neuroptics Blueprint. Meso N11 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Radiant because the reward is Rare. Farm Lith C7 for Nyx Prime Systems Blueprint. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Flawless because the reward is Uncommon. Build Nyx Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Nyx Prime Blueprint (Common): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Intact in a four-player share. Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
@@ -3590,7 +3643,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Nyx Prime Neuroptics Blueprint",
@@ -3606,7 +3659,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
@@ -3699,12 +3752,21 @@
       "targetRank": "30",
       "missing": "Phantasma Prime Stock",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "steps": "Phantasma Prime Stock (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Phantasma Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Phantasma_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Phantasma Prime Stock",
+          "relic": "Axi C9",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
@@ -3748,13 +3810,22 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
-      "route": "Void Relic — Lith Q2/Q3",
-      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×7; refine and radshare.",
-      "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
+      "route": "Owned relics first; current Void Relic farms for more",
+      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
-      "primeStatus": "CURRENT RELICS",
-      "primeDetails": [],
+      "primeStatus": "OWNED RELICS",
+      "primeDetails": [
+        {
+          "part": "Quassus Prime Blade (1/2)",
+          "relic": "Lith Q3",
+          "rarity": "Rare",
+          "ownedRelics": 7,
+          "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [],
       "practicalPriority": 10
     },
@@ -3829,8 +3900,8 @@
       "targetRank": "30",
       "missing": "Scindo Prime Blueprint; Scindo Prime Handle",
       "route": "Permanent Railjack relic pools",
-      "steps": "Farm Lith C7 for Scindo Prime Blueprint. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Flawless because the reward is Uncommon. Farm Meso N11 for Scindo Prime Handle. Meso N11 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Intact because the reward is Common. Build Scindo Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Scindo Prime Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Scindo Prime Handle (Common): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Intact in a four-player share. Build Scindo Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
@@ -3841,7 +3912,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Scindo Prime Handle",
@@ -4022,12 +4093,21 @@
       "targetRank": "30",
       "missing": "Tatsu Prime Blade",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
+      "steps": "Tatsu Prime Blade (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Tatsu Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Tatsu_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Tatsu Prime Blade",
+          "relic": "Axi C9",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
@@ -4136,8 +4216,8 @@
       "targetRank": "30",
       "missing": "Valkyr Prime Chassis Blueprint; Valkyr Prime Systems Blueprint",
       "route": "Permanent Railjack relic pools",
-      "steps": "Farm Neo V9 for Valkyr Prime Chassis Blueprint. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Radiant because the reward is Rare. Farm Axi V10 for Valkyr Prime Systems Blueprint. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Build Valkyr Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Valkyr Prime Systems Blueprint (Uncommon): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
@@ -4156,7 +4236,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
@@ -4233,8 +4313,8 @@
       "targetRank": "30",
       "missing": "Venka Prime Blades (1/2); Venka Prime Blueprint; Venka Prime Gauntlet (0/2)",
       "route": "Permanent Railjack relic pools",
-      "steps": "Farm Neo V9 for Venka Prime Blades. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Venka Prime Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Axi V10 for Venka Prime Gauntlet ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Radiant because the reward is Rare. Build Venka Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Venka Prime Blades (Common): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Intact in a four-player share. Venka Prime Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Venka Prime Gauntlet ×2 (Rare): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Build Venka Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
@@ -4253,7 +4333,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Venka Prime Gauntlet (0/2)",
@@ -4564,13 +4644,13 @@
       "rankRule": "",
       "missing": "Acceltra Blueprint",
       "ease": "4 — Multi-step farm",
-      "route": "Ur, Uranus — Disruption; Demolisher Infested",
+      "route": "Ur, Uranus — Demolisher Infested enemy drop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Acceltra",
-      "steps": "Kill Demolisher Infested on Ur until the Acceltra blueprint drops.",
-      "tip": "Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.",
+      "steps": "Kill Demolisher Infested on Ur until the Acceltra Blueprint drops.",
+      "tip": "Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -4690,10 +4770,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Aeolak",
-      "steps": "Main Blueprint from a Tier 5 bounty; Barrel from Void Cascade Rotation C; Receiver and Stock from Void Flood Rotation C.",
-      "tip": "Target only the missions that reward the components still listed above.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Main Blueprint from a Tier 5 bounty; Barrel from Void Cascade Rotation C; Receiver and Stock from Void Flood Rotation C.",
+      "tip": "Target only the missions that reward the components still listed above."
     },
     {
       "item": "Afentis",
@@ -4725,14 +4805,25 @@
       "rankRule": "",
       "missing": "Afentis Prime Blueprint",
       "ease": "4 — Multi-step farm",
-      "route": "Void Relics / player trade",
+      "route": "Current Void Relic farms",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://www.warframe.com/droptables",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Afentis Prime Blueprint",
+          "relic": "Axi A22",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Lua/Apollo Disruption rotations B and C",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [],
-      "primeStatus": "CURRENT RELICS"
+      "primeStatus": "CURRENT RELICS",
+      "steps": "Afentis Prime Blueprint (Rare): farm Axi A22 from Lua/Apollo Disruption rotations B and C, then open it Radiant in a four-player share. Build Afentis Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Afuris",
@@ -4770,12 +4861,29 @@
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Afuris_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Afuris Prime Link",
+          "relic": "Neo P8",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Afuris Prime Receiver (0/2)",
+          "relic": "Lith A9",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
+      "steps": "Afuris Prime Link (Uncommon): buy Neo P8 from Varzia for Aya and open it Radiant in a four-player share. Afuris Prime Receiver ×2 (Rare): buy Lith A9 from Varzia for Aya and open it Radiant in a four-player share. Build Afuris Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Agkuza",
@@ -4807,13 +4915,13 @@
       "rankRule": "",
       "missing": "Akarius Blueprint",
       "ease": "4 — Multi-step farm",
-      "route": "Ur, Uranus — Disruption; Demolisher Infested",
+      "route": "Ur, Uranus — Demolisher Infested enemy drop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Akarius",
-      "steps": "Kill Demolisher Infested on Ur until the Akarius blueprint drops.",
-      "tip": "Protect every conduit and prioritize Demolishers; resource boosters do not affect blueprint drops.",
+      "steps": "Kill Demolisher Infested on Ur until the Akarius Blueprint drops.",
+      "tip": "Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -5323,10 +5431,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Ambassador",
-      "steps": "Main Blueprint from Survival Rotation C; missing components from the applicable Corpus Railjack enemies.",
-      "tip": "Stay through Rotation C only when the main Blueprint is still missing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Main Blueprint from Survival Rotation C; missing components from the applicable Corpus Railjack enemies.",
+      "tip": "Stay through Rotation C only when the main Blueprint is still missing."
     },
     {
       "item": "Amesha",
@@ -5716,10 +5824,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Athodai",
-      "steps": "Obtain the missing  from Venus Proxima abandoned-derelict cache B.",
-      "tip": "The Blueprint, Barrel and Receiver are each 6.45% rewards in Venus Proxima abandoned-derelict cache B.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Obtain the missing  from Venus Proxima abandoned-derelict cache B.",
+      "tip": "The Blueprint, Barrel and Receiver are each 6.45% rewards in Venus Proxima abandoned-derelict cache B."
     },
     {
       "item": "Athodai Prime",
@@ -5913,10 +6021,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Bad_Baby",
-      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
-      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
+      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing."
     },
     {
       "item": "Balla",
@@ -6055,12 +6163,29 @@
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Baruuk_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Baruuk Prime Chassis Blueprint",
+          "relic": "Lith T13",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Baruuk Prime Neuroptics Blueprint",
+          "relic": "Axi B9",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
+      "steps": "Baruuk Prime Chassis Blueprint (Uncommon): buy Lith T13 from Varzia for Aya and open it Radiant in a four-player share. Baruuk Prime Neuroptics Blueprint (Uncommon): buy Axi B9 from Varzia for Aya and open it Radiant in a four-player share. Build Baruuk Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Basmu",
@@ -6178,10 +6303,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Bhaira_Hound",
-      "steps": "Vanquish Sisters for completed randomized Hounds and Hound component blueprints. Assemble a Hound using the Bhaira Model if that model is still needed for mastery.",
-      "tip": "Check the model on completed Sister Hounds before assembling another Hound.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Vanquish Sisters for completed randomized Hounds and Hound component blueprints. Assemble a Hound using the Bhaira Model if that model is still needed for mastery.",
+      "tip": "Check the model on completed Sister Hounds before assembling another Hound."
     },
     {
       "item": "Bo",
@@ -6849,10 +6974,10 @@
       "pendingFoundry": "No",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Catabolyst",
-      "steps": "Buy the Catabolyst Blueprint from the Market.",
-      "tip": "Run Deimos Isolation Vault bounties for Scintillant; use Invasions or Bio Lab blueprints for Mutagen Mass.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Catabolyst Blueprint from the Market.",
+      "tip": "Run Deimos Isolation Vault bounties for Scintillant; use Invasions or Bio Lab blueprints for Mutagen Mass."
     },
     {
       "item": "Catchmoon",
@@ -6965,7 +7090,6 @@
       "pendingFoundry": "No",
       "minimumMr": 3,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave"
@@ -7032,7 +7156,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Cernos Prime Grip",
@@ -7067,8 +7191,8 @@
           "refinement": "Intact"
         }
       ],
-      "steps": "Farm Neo V9 for Cernos Prime Blueprint. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Flawless because the reward is Uncommon. Farm Axi S8 for Cernos Prime Grip. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Intact because the reward is Common. Farm Lith C7 for Cernos Prime Lower Limb. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Radiant because the reward is Rare. Farm Axi V10 for Cernos Prime String. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Intact because the reward is Common. Farm Meso N11 for Cernos Prime Upper Limb. Meso N11 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Intact because the reward is Common. Build Cernos Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Cernos Prime Blueprint (Uncommon): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Cernos Prime Grip (Common): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Intact in a four-player share. Cernos Prime Lower Limb (Rare): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Cernos Prime String (Common): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Intact in a four-player share. Cernos Prime Upper Limb (Common): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Intact in a four-player share. Build Cernos Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
     {
@@ -7210,10 +7334,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Citrine",
-      "steps": "Farm Mirror Defense or buy missing blueprints from Otak with Rania and Belric Crystal Fragments.",
-      "tip": "Collect both crystal colors; spend fragments only on parts still missing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Farm Mirror Defense or buy missing blueprints from Otak with Rania and Belric Crystal Fragments.",
+      "tip": "Collect both crystal colors; spend fragments only on parts still missing."
     },
     {
       "item": "Cobra & Crane",
@@ -7251,12 +7375,21 @@
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Cobra & Crane Prime Guard",
+          "relic": "Axi C9",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
+      "steps": "Cobra & Crane Prime Guard (Rare): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Cobra & Crane Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Coda Bassocyst",
@@ -7505,10 +7638,10 @@
       "pendingFoundry": "No",
       "minimumMr": 17,
       "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
+      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells."
     },
     {
       "item": "Coda Tysis",
@@ -7626,10 +7759,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Corufell",
-      "steps": "The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.",
-      "tip": "Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "The Receiver is a Tyana Pass Rotation B reward or can be bought from Otak using crystal fragments.",
+      "tip": "Buy the Receiver from Otak if duplicate Rotation B rewards become inefficient."
     },
     {
       "item": "Corvas",
@@ -7840,10 +7973,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Dagath",
-      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
-      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
+      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
       "availabilityGroup": "dojo"
     },
     {
@@ -7936,14 +8069,15 @@
       "rankRule": "",
       "missing": "Dark Dagger Blueprint",
       "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
+      "route": "Nightwave Cred Offerings — permanent stock",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 2,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -7981,7 +8115,6 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave"
@@ -8102,10 +8235,10 @@
       "pendingFoundry": "No",
       "minimumMr": 4,
       "source": "https://wiki.warframe.com/w/Despair",
-      "steps": "Defeat the Stalker until the Despair Blueprint drops.",
-      "tip": "The blueprint is the entire acquisition gate.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Defeat the Stalker until the Despair Blueprint drops.",
+      "tip": "The blueprint is the entire acquisition gate."
     },
     {
       "item": "Destreza",
@@ -8288,10 +8421,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Dex_Furis",
-      "steps": "Claim the completed weapon during its anniversary alert.",
-      "tip": "The anniversary reward is delivered complete with a weapon slot and Orokin Catalyst.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Claim the completed weapon during its anniversary alert.",
+      "tip": "The anniversary reward is delivered complete with a weapon slot and Orokin Catalyst."
     },
     {
       "item": "Dex Nikana",
@@ -8427,10 +8560,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Dorrclave",
-      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
-      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the blueprints in Dagath’s Hollow using Vainthorns earned from Abyssal Zone Exterminate missions.",
+      "tip": "Farm Vainthorns in batches, then buy only the listed missing blueprints.",
       "availabilityGroup": "dojo"
     },
     {
@@ -9030,10 +9163,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Epitaph",
-      "steps": "Farm only the missing components from Void Storm rewards.",
-      "tip": "Choose the shortest comfortable Void Storms across the eligible Proxima regions.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Farm only the missing components from Void Storm rewards.",
+      "tip": "Choose the shortest comfortable Void Storms across the eligible Proxima regions."
     },
     {
       "item": "Epitaph Prime",
@@ -9046,16 +9179,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Epitaph_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Equinox",
@@ -9366,10 +9496,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Feverspine",
-      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
-      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
+      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing."
     },
     {
       "item": "Flatbelly",
@@ -9387,10 +9517,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Flatbelly",
-      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
-      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Board Blueprint from Roky, assemble the K-Drive, and level it to 30. No gilding is required.",
+      "tip": "Buy only the board blueprint still needed for mastery using Ventkids Standing."
     },
     {
       "item": "Fluctus",
@@ -9661,16 +9791,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Galariak_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Galatine",
@@ -9944,14 +10071,15 @@
       "rankRule": "",
       "missing": "Glaive Blueprint",
       "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
+      "route": "Nightwave Cred Offerings — permanent stock",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the Glaive Blueprint for 50 Creds, then build and level it.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -10553,7 +10681,8 @@
       "minimumMr": 3,
       "source": "https://wiki.warframe.com/w/Heat_Dagger",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "availabilityGroup": "nightwave"
     },
     {
       "item": "Heat Sword",
@@ -10572,7 +10701,8 @@
       "minimumMr": 3,
       "source": "https://wiki.warframe.com/w/Heat_Sword",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "availabilityGroup": "nightwave"
     },
     {
       "item": "Hec Hound",
@@ -10721,13 +10851,13 @@
       "rankRule": "",
       "missing": "Hema Blueprint",
       "ease": "2 — Easy buy or build",
-      "route": "Clan Dojo — completed Bio Lab research",
+      "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Hema",
-      "steps": "Replicate the Blueprint from completed Bio Lab research. Obtain 4 Mutagen Mass, then build.",
-      "tip": "No drop farm is required once the clan research is complete.",
+      "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
+      "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "dojo"
@@ -10748,8 +10878,8 @@
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Main Blueprint from a Tier 4 bounty; Handle from Void Cascade Rotation C; Blade from Void Armageddon Rotation C.",
-      "tip": "Target only the missions that reward the components still listed above.",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -10804,15 +10934,12 @@
       "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Permanent Railjack relic pools",
+      "route": "Foundry",
       "vaulted": "No",
       "pendingFoundry": "Yes",
       "minimumMr": 4,
       "source": "https://www.warframe.com/droptables",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [],
-      "steps": " Build Hikou Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
       "liveMatches": []
     },
     {
@@ -10910,10 +11037,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Huras_Kubrow",
-      "steps": "Incubate a Kubrow Egg. Use two Huras Kubrow genetic imprints to guarantee the breed.",
-      "tip": "Without two matching imprints, the Kubrow breed is random.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Incubate a Kubrow Egg. Use two Huras Kubrow genetic imprints to guarantee the breed.",
+      "tip": "Without two matching imprints, the Kubrow breed is random."
     },
     {
       "item": "Hydroid",
@@ -11184,16 +11311,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Ivara_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Jade",
@@ -11284,14 +11408,15 @@
       "rankRule": "",
       "missing": "Jaw Sword Blueprint",
       "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings (weekly rotation)",
+      "route": "Nightwave Cred Offerings — permanent stock",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the Jaw Sword Blueprint for 50 Creds, then build and level it.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -11541,16 +11666,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Khora_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Klamora Prism",
@@ -11745,10 +11867,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Kompressa",
-      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
-      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Kompressa Blueprint, Barrel Blueprint and Receiver Blueprint from Roky using Ventkids Standing, craft the two components, then build the weapon.",
+      "tip": "This is a direct weapon purchase and crafting route, not K-Drive assembly or mastery."
     },
     {
       "item": "Kompressa Prime",
@@ -11863,10 +11985,10 @@
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Kreska",
-      "steps": "Obtain 2 Fieldron.",
-      "tip": "Use Corpus Invasions for Fieldron.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Obtain 2 Fieldron.",
+      "tip": "Use Corpus Invasions for Fieldron."
     },
     {
       "item": "Krohkur",
@@ -12482,10 +12604,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Lacerten",
-      "steps": "Claim a Hound configured with the Bhaira Model; Lacerten is granted automatically.",
-      "tip": "Check the completed Hound model before assembling another one.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Claim a Hound configured with the Bhaira Model; Lacerten is granted automatically.",
+      "tip": "Check the completed Hound model before assembling another one."
     },
     {
       "item": "Laetum",
@@ -12975,10 +13097,10 @@
       "pendingFoundry": "No",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Machete_Wraith",
-      "steps": "Buy the completed Machete Wraith when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the completed Machete Wraith when Baro carries it, or trade for an unranked copy.",
+      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "availabilityGroup": "baro"
     },
     {
@@ -13253,16 +13375,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Mesa_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Mewan",
@@ -13378,10 +13497,10 @@
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Miter",
-      "steps": "Repeat Exta for the missing . Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.",
-      "tip": "Each Miter piece has a 16.67% chance. With 0 distinct pieces missing, a clear currently has a 0.00% chance to give a needed piece. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Repeat Exta for the missing . Each completed mission awards one of six equally weighted weapon rewards: the five Miter pieces or the Twin Gremlins Blueprint.",
+      "tip": "Each Miter piece has a 16.67% chance. With 0 distinct pieces missing, a clear currently has a 0.00% chance to give a needed piece. Focus Captain Vor first, then complete Lieutenant Lech Kril’s armor mechanic."
     },
     {
       "item": "Mk1-Bo",
@@ -13744,16 +13863,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nautilus_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Needlenose",
@@ -13771,10 +13887,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Needlenose",
-      "steps": "Buy the Needlenose Board Blueprint from Roky. Assemble the K-Drive and level it to 30. No gilding is required.",
-      "tip": "Buy the board blueprint from Roky with Ventkids Standing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Needlenose Board Blueprint from Roky. Assemble the K-Drive and level it to 30. No gilding is required.",
+      "tip": "Buy the board blueprint from Roky with Ventkids Standing."
     },
     {
       "item": "Nekros",
@@ -13806,16 +13922,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nekros_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Nepheri",
@@ -14153,7 +14266,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Nyx Prime Neuroptics Blueprint",
@@ -14169,11 +14282,11 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         }
       ],
-      "steps": "Farm Neo V9 for Nyx Prime Blueprint. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Nyx Prime Chassis Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Meso N11 for Nyx Prime Neuroptics Blueprint. Meso N11 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Radiant because the reward is Rare. Farm Lith C7 for Nyx Prime Systems Blueprint. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Flawless because the reward is Uncommon. Build Nyx Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Nyx Prime Blueprint (Common): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Intact in a four-player share. Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
     {
@@ -14192,10 +14305,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Oberon",
-      "steps": "Neuroptics and Systems: Earth Proxima point-of-interest rewards. Chassis: Saturn Proxima.",
-      "tip": "Choose short Railjack nodes and finish the side objective before extraction.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Neuroptics and Systems: Earth Proxima point-of-interest rewards. Chassis: Saturn Proxima.",
+      "tip": "Choose short Railjack nodes and finish the side objective before extraction."
     },
     {
       "item": "Oberon Prime",
@@ -14270,16 +14383,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Octavia_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Ocucor",
@@ -14683,15 +14793,12 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Pangolin_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
       "liveMatches": []
     },
     {
@@ -14711,7 +14818,8 @@
       "minimumMr": 3,
       "source": "https://wiki.warframe.com/w/Pangolin_Sword",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "availabilityGroup": "nightwave"
     },
     {
       "item": "Panthera",
@@ -14884,8 +14992,8 @@
       "pendingFoundry": "No",
       "minimumMr": 9,
       "source": "https://wiki.warframe.com/w/Pathocyst",
-      "steps": "Farm the Blueprint, two Blades and Subcortex from the boss.",
-      "tip": "Repeat the boss only for the pieces still listed above.",
+      "steps": "Defeat the Zealoid Prelate for the missing Blade ×2 and Blueprint.",
+      "tip": "Each kill guarantees one Pathocyst part; Blueprint, Blade, and Subcortex each have equal 33.33% odds.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -15041,12 +15149,21 @@
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Phantasma_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Phantasma Prime Stock",
+          "relic": "Axi C9",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
+      "steps": "Phantasma Prime Stock (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Phantasma Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Pharaoh Predasite",
@@ -15140,7 +15257,6 @@
       "pendingFoundry": "No",
       "minimumMr": 4,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave"
@@ -15218,10 +15334,10 @@
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Pride",
-      "steps": "Earn its blueprints from The Kuva Wytch or buy them with Emerald Talents.",
-      "tip": "The Kuva Wytch guarantees one blueprint from the Sirius & Orion/Pride pool; its travel stage supplies Emerald Talents for the vendor.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Earn its blueprints from The Kuva Wytch or buy them with Emerald Talents.",
+      "tip": "The Kuva Wytch guarantees one blueprint from the Sirius & Orion/Pride pool; its travel stage supplies Emerald Talents for the vendor."
     },
     {
       "item": "Prime Laser Rifle",
@@ -15304,10 +15420,10 @@
       "pendingFoundry": "No",
       "minimumMr": 9,
       "source": "https://wiki.warframe.com/w/Prisma_Dual_Cleavers",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
+      "tip": "Check Baro’s current relay stock before trading.",
       "availabilityGroup": "baro"
     },
     {
@@ -15436,10 +15552,10 @@
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Prisma_Machete",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
+      "tip": "Check Baro’s current relay stock before trading.",
       "availabilityGroup": "baro"
     },
     {
@@ -15631,8 +15747,8 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Protea",
-      "steps": "Neuroptics: Normal Granum Void. Chassis: Extended Granum Void. Systems: Nightmare Granum Void. Reach the top kill tier.",
-      "tip": "Use Xoris heavy throws to free Solaris captives and extend the timer.",
+      "steps": "Chassis Blueprint: Extended Granum Void rotation C. Neuroptics Blueprint: Normal Granum Void rotation C.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -15647,16 +15763,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Protea_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Prova",
@@ -15906,14 +16019,25 @@
       "rankRule": "",
       "missing": "Quassus Prime Blade (1/2)",
       "ease": "3 — Focused short farm",
-      "route": "Void Relic — Lith Q2/Q3",
+      "route": "Owned relics first; current Void Relic farms for more",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://www.warframe.com/droptables",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Quassus Prime Blade (1/2)",
+          "relic": "Lith Q3",
+          "rarity": "Rare",
+          "ownedRelics": 7,
+          "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [],
-      "primeStatus": "CURRENT RELICS"
+      "primeStatus": "OWNED RELICS",
+      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Quatz",
@@ -16028,10 +16152,10 @@
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Rakta_Ballistica",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Rakta Cernos",
@@ -16049,10 +16173,10 @@
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Rakta_Cernos",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Rakta Dark Dagger",
@@ -16070,10 +16194,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Rakta_Dark_Dagger",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Raplak Prism",
@@ -16265,18 +16389,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Revenant_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
+      "liveMatches": []
     },
     {
       "item": "Rhino",
@@ -16335,10 +16454,10 @@
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Riot-848",
-      "steps": "Farm its blueprints from Stage Defense or buy them with Beating Heartstrings.",
-      "tip": "Stage Defense gives one Beating Heartstring per three waves normally or two on Steel Path. Rewards follow AABCAABC. Use Flare’s shop to finish the final pieces.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Farm its blueprints from Stage Defense or buy them with Beating Heartstrings.",
+      "tip": "Stage Defense gives one Beating Heartstring per three waves normally or two on Steel Path. Rewards follow AABCAABC. Use Flare’s shop to finish the final pieces."
     },
     {
       "item": "Ripkas",
@@ -16435,10 +16554,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Runway",
-      "steps": "Buy the Runway Board Blueprint from Roky. Assemble the K-Drive and level it to 30. No gilding is required.",
-      "tip": "Buy the board blueprint from Roky with Ventkids Standing.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the Runway Board Blueprint from Roky. Assemble the K-Drive and level it to 30. No gilding is required.",
+      "tip": "Buy the board blueprint from Roky with Ventkids Standing."
     },
     {
       "item": "Ruvox",
@@ -16470,16 +16589,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Sagek_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Sahasa Kubrow",
@@ -16497,10 +16613,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Sahasa_Kubrow",
-      "steps": "Incubate a Kubrow Egg. Use two Sahasa Kubrow genetic imprints to guarantee the breed.",
-      "tip": "Without two matching imprints, the Kubrow breed is random.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Incubate a Kubrow Egg. Use two Sahasa Kubrow genetic imprints to guarantee the breed.",
+      "tip": "Without two matching imprints, the Kubrow breed is random."
     },
     {
       "item": "Sampotes",
@@ -16537,10 +16653,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Sancti_Castanas",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Sancti Magistar",
@@ -16558,10 +16674,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Sancti_Magistar",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Sancti Tigris",
@@ -16579,10 +16695,10 @@
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Sancti_Tigris",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Sarofang",
@@ -16673,16 +16789,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Saryn_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Scindo",
@@ -16727,7 +16840,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Scindo Prime Handle",
@@ -16738,8 +16851,8 @@
           "refinement": "Intact"
         }
       ],
-      "steps": "Farm Lith C7 for Scindo Prime Blueprint. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Flawless because the reward is Uncommon. Farm Meso N11 for Scindo Prime Handle. Meso N11 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Intact because the reward is Common. Build Scindo Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Scindo Prime Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Scindo Prime Handle (Common): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Intact in a four-player share. Build Scindo Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
     {
@@ -16842,10 +16955,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Secura_Dual_Cestra",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Secura Lecta",
@@ -16863,10 +16976,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Secura_Lecta",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Secura Penta",
@@ -16884,10 +16997,10 @@
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Secura_Penta",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Seer",
@@ -16905,10 +17018,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Seer",
-      "steps": "Defeat Captain Vor on Tolstoj for the Seer Blueprint and Barrel.",
-      "tip": "Repeat Tolstoj until both missing pieces drop.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Defeat Captain Vor on Tolstoj for the Seer Blueprint and Barrel.",
+      "tip": "Repeat Tolstoj until both missing pieces drop."
     },
     {
       "item": "Sepfahn",
@@ -16983,10 +17096,10 @@
       "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Sevagoth",
-      "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
-      "tip": "Run the shortest comfortable eligible Void Storm for the remaining components.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
+      "tip": "Run the shortest comfortable eligible Void Storm for the remaining components."
     },
     {
       "item": "Sevagoth Prime",
@@ -16999,16 +17112,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Sevagoth_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Shade",
@@ -17086,10 +17196,10 @@
       "pendingFoundry": "Yes",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Shedu",
-      "steps": "Target the missing Handle; each Shedu part is a 1% Symbilyst drop.",
-      "tip": "The missing Handle is a 1% drop from each Symbilyst. Since Shedu parts are tradeable and only one piece remains, compare the Handle’s trade price before committing to a long Sentient Anomaly farm.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Target the missing Handle; each Shedu part is a 1% Symbilyst drop.",
+      "tip": "The missing Handle is a 1% drop from each Symbilyst. Since Shedu parts are tradeable and only one piece remains, compare the Handle’s trade price before committing to a long Sentient Anomaly farm."
     },
     {
       "item": "Sheev",
@@ -17289,10 +17399,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Sirius_%26_Orion",
-      "steps": "Earn the missing blueprints from Scoria’s Angel or The Kuva Wytch, or exchange Emerald or Crimson Talents at the Secret Vendor.",
-      "tip": "Scoria’s Angel guarantees a blueprint from the Sirius & Orion/Wrath pool. The Kuva Wytch guarantees one from the Sirius & Orion/Pride pool. The travel stage supplies Crimson or Emerald Talents for the vendor.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Earn the missing blueprints from Scoria’s Angel or The Kuva Wytch, or exchange Emerald or Crimson Talents at the Secret Vendor.",
+      "tip": "Scoria’s Angel guarantees a blueprint from the Sirius & Orion/Wrath pool. The Kuva Wytch guarantees one from the Sirius & Orion/Pride pool. The travel stage supplies Crimson or Emerald Talents for the vendor."
     },
     {
       "item": "Skana",
@@ -17386,10 +17496,10 @@
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Smeeta_Kavat",
-      "steps": "Breed a Kavat using Kavat Genetic Codes. Use two Smeeta Kavat imprints to guarantee the breed.",
-      "tip": "Without two matching imprints, the ordinary Kavat breed is random.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Breed a Kavat using Kavat Genetic Codes. Use two Smeeta Kavat imprints to guarantee the breed.",
+      "tip": "Without two matching imprints, the ordinary Kavat breed is random."
     },
     {
       "item": "Snipetron",
@@ -17406,7 +17516,7 @@
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
-      "source": "https://wiki.warframe.com/w/Conclave%3ASnipetron",
+      "source": "https://wiki.warframe.com/w/Snipetron",
       "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
       "primeDetails": [],
@@ -17547,10 +17657,10 @@
       "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Spectra_Vandal",
-      "steps": "Farm the missing components from derelict cache rewards.",
-      "tip": "Complete the derelict point of interest before extraction.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Farm the missing components from derelict cache rewards.",
+      "tip": "Complete the derelict point of interest before extraction."
     },
     {
       "item": "Spinnerex",
@@ -17668,8 +17778,8 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stahlta",
-      "steps": "Main Blueprint from Jackal. Barrel from Nightmare Granum Void, Receiver from Normal Granum Void and Stock from Extended Granum Void.",
-      "tip": "Use the Granum Crown tier matching the component still missing.",
+      "steps": "Main Blueprint: defeat Jackal. Receiver: Normal Granum Void rotation C. Stock: Extended Granum Void rotation C.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -17708,10 +17818,10 @@
       "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Steflos",
-      "steps": "Farm the Receiver and Stock or buy them from Otak with crystal fragments.",
-      "tip": "Use Otak to eliminate the last duplicate-heavy gap.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Farm the Receiver and Stock or buy them from Otak with crystal fragments.",
+      "tip": "Use Otak to eliminate the last duplicate-heavy gap."
     },
     {
       "item": "Stinger",
@@ -17789,8 +17899,8 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stropha",
-      "steps": "Main Blueprint from Jackal. Barrel and Blade from Normal, Receiver from Extended and Stock from Nightmare Granum Void.",
-      "tip": "Use the Granum Crown tier matching the component still missing.",
+      "steps": "Barrel: Normal Granum Void rotation C. Receiver: Extended Granum Void rotation C.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -18263,10 +18373,10 @@
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Tatsu",
-      "steps": "Obtain 50 Auroxium Alloy.",
-      "tip": "Mine on the Plains of Eidolon, then refine the ore in Cetus.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Obtain 50 Auroxium Alloy.",
+      "tip": "Mine on the Plains of Eidolon, then refine the ore in Cetus."
     },
     {
       "item": "Tatsu Prime",
@@ -18285,12 +18395,21 @@
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Tatsu_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [],
+      "primeDetails": [
+        {
+          "part": "Tatsu Prime Blade",
+          "relic": "Axi C9",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
-      "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing."
+      "steps": "Tatsu Prime Blade (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Tatsu Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Taxon",
@@ -18387,10 +18506,10 @@
       "pendingFoundry": "No",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Telos_Akbolto",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Telos Boltace",
@@ -18408,10 +18527,10 @@
       "pendingFoundry": "No",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Telos_Boltace",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Telos Boltor",
@@ -18429,10 +18548,10 @@
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Telos_Boltor",
-      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
-      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from its aligned Syndicate at the required rank, or trade for it.",
+      "tip": "Syndicate weapons are delivered complete; compare the Standing cost with the current player-trade price."
     },
     {
       "item": "Temple",
@@ -18511,10 +18630,10 @@
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "steps": "Create a Sister carrying the weapon, complete the adversary sequence, and vanquish her.",
-      "tip": "Check the Candidate weapon preview before creating the Sister.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Create a Sister carrying the weapon, complete the adversary sequence, and vanquish her.",
+      "tip": "Check the Candidate weapon preview before creating the Sister."
     },
     {
       "item": "Tenet Detron",
@@ -18595,10 +18714,10 @@
       "pendingFoundry": "No",
       "minimumMr": 16,
       "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
-      "tip": "Check the weekly element and bonus before spending Holokeys.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
+      "tip": "Check the weekly element and bonus before spending Holokeys."
     },
     {
       "item": "Tenet Ferrox",
@@ -18700,10 +18819,10 @@
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
-      "tip": "Check the weekly element and bonus before spending Holokeys.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
+      "tip": "Check the weekly element and bonus before spending Holokeys."
     },
     {
       "item": "Tenet Plinx",
@@ -19042,15 +19161,12 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Titania_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
       "liveMatches": []
     },
     {
@@ -19490,11 +19606,11 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         }
       ],
-      "steps": "Farm Neo V9 for Valkyr Prime Chassis Blueprint. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Radiant because the reward is Rare. Farm Axi V10 for Valkyr Prime Systems Blueprint. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Build Valkyr Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Valkyr Prime Systems Blueprint (Uncommon): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
     {
@@ -19890,7 +20006,7 @@
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Flawless"
+          "refinement": "Radiant"
         },
         {
           "part": "Venka Prime Gauntlet (0/2)",
@@ -19901,8 +20017,8 @@
           "refinement": "Radiant"
         }
       ],
-      "steps": "Farm Neo V9 for Venka Prime Blades. Neo V9 comes from Veil Proxima Railjack point-of-interest caches. Open it Intact because the reward is Common. Farm Axi S8 for Venka Prime Blueprint. Axi S8 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Flawless because the reward is Uncommon. Farm Axi V10 for Venka Prime Gauntlet ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Radiant because the reward is Rare. Build Venka Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
+      "steps": "Venka Prime Blades (Common): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Intact in a four-player share. Venka Prime Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Venka Prime Gauntlet ×2 (Rare): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Build Venka Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
     {
@@ -20092,15 +20208,16 @@
       "rankRule": "",
       "missing": "Viper Wraith (completed item)",
       "ease": "4 — Multi-step farm",
-      "route": "Invasion reward rotation / player trade",
+      "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 4,
       "source": "https://wiki.warframe.com/w/Viper_Wraith",
-      "steps": "Check active Invasions for Viper Wraith; complete all three missions for the needed reward, or trade for it.",
-      "tip": "Check both sides of the live Invasion feed before trading.",
+      "steps": "Buy the completed Viper Wraith when Baro carries it, or trade for an unranked copy.",
+      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "availabilityGroup": "baro"
     },
     {
       "item": "Vitrica",
@@ -20118,10 +20235,10 @@
       "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Vitrica",
-      "steps": ".",
-      "tip": "The Oubliette and entry key rotate through Nightwave Cred Offerings.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": ".",
+      "tip": "The Oubliette and entry key rotate through Nightwave Cred Offerings.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -20233,16 +20350,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Volt_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Voruna",
@@ -20433,16 +20547,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Wisp_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Wolf Sledge",
@@ -20455,13 +20566,13 @@
       "rankRule": "",
       "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
       "ease": "5 — Long grind / trade",
-      "route": "Wolf of Saturn Six; Wolf Beacon",
+      "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "steps": "Farm all four completed weapon components from the Wolf of Saturn Six.",
-      "tip": "Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
+      "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave"
@@ -20482,10 +20593,10 @@
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Wrath",
-      "steps": "Earn its blueprints from Scoria’s Angel or buy them with Crimson Talents.",
-      "tip": "Scoria’s Angel guarantees one blueprint from the Sirius & Orion/Wrath pool; its travel stage supplies Crimson Talents for the vendor.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Earn its blueprints from Scoria’s Angel or buy them with Crimson Talents.",
+      "tip": "Scoria’s Angel guarantees one blueprint from the Sirius & Orion/Wrath pool; its travel stage supplies Crimson Talents for the vendor."
     },
     {
       "item": "Wukong",
@@ -20517,16 +20628,13 @@
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Wukong_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Wyrm",
@@ -20761,10 +20869,10 @@
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Category:Daily_Tribute_Rewards",
-      "steps": "Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.",
-      "tip": "This is a known login-gated route, not a standing shortcut for first acquisition.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.",
+      "tip": "This is a known login-gated route, not a standing shortcut for first acquisition."
     },
     {
       "item": "Zephyr",
@@ -20864,10 +20972,10 @@
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Zylok",
-      "steps": "Buy the completed Zylok when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "primeDetails": [],
       "liveMatches": [],
+      "steps": "Buy the completed Zylok when Baro carries it, or trade for an unranked copy.",
+      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "availabilityGroup": "baro"
     },
     {

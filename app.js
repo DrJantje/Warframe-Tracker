@@ -1,41 +1,102 @@
+const app = document.querySelector('#app');
+
 const [data, availability, nightwaveCatalog, liveStatus, accountSync] = await Promise.all([
-  fetch('./data/warframe.json', { cache: 'no-store' }).then(check),
-  fetch('./data/availability.json', { cache: 'no-store' }).then(check),
-  fetch('./data/nightwave-items.json', { cache: 'no-store' }).then(check),
-  fetch('./data/live.json', { cache: 'no-store' }).then(check),
-  fetch('./data/account-sync.json', { cache: 'no-store' }).then(check).catch(() => ({ items: [] })),
+  json('./data/warframe.json'),
+  json('./data/availability.json'),
+  json('./data/nightwave-items.json'),
+  json('./data/live.json'),
+  json('./data/account-sync.json').catch(() => ({ items: [] })),
 ]).catch((error) => {
-  document.querySelector('#app').innerHTML = `<div class="error">Tracker data could not be loaded.<br>${escapeHtml(error.message)}</div>`;
+  app.innerHTML = `<div class="error">Tracker data could not be loaded.<br>${escapeHtml(error.message)}</div>`;
   throw error;
 });
 
 applyAccountSync(data, accountSync);
 applyConsistencyFixes(data);
 
-function check(response) {
-  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-  return response.json();
+const UNVERIFIED = 'Acquisition route not verified yet';
+const nightwaveDefinitions = new Map(nightwaveCatalog.items.map((entry) => [entry.item, entry]));
+const activeNightwave = new Set((availability.activeNightwaveItems || []).map(normalizeOffering));
+const isNightwave = (item) => item.availabilityGroup === 'nightwave';
+const isDojo = (item) => item.availabilityGroup === 'dojo';
+const isBaro = (item) => item.availabilityGroup === 'baro';
+const isDeferredCategory = (item) => isNightwave(item) || isDojo(item) || isBaro(item);
+const practicalOrder = (a, b) => (a.practicalPriority ?? Number.MAX_SAFE_INTEGER) - (b.practicalPriority ?? Number.MAX_SAFE_INTEGER) || a.item.localeCompare(b.item);
+const ordinaryQueue = data.queue.filter((item) => !isDeferredCategory(item)).sort(practicalOrder);
+const actionableQueue = ordinaryQueue.filter((item) => item.route !== UNVERIFIED);
+const vendorQueue = data.queue.filter(isDeferredCategory).sort(practicalOrder);
+const missingParts = (item) => String(item.missing || '').split(';').map((part) => part.trim()).filter(Boolean);
+const isMaterialOnly = (item) => {
+  const parts = missingParts(item);
+  return parts.length > 0 && parts.every((part) => /\(\d[\d,]*\/\d[\d,]*\)$/.test(part));
+};
+const materialQueue = actionableQueue.filter(isMaterialOnly);
+const state = { view: routeView(), query: '', type: 'all', vendor: 'all', visible: 24 };
+const views = [
+  ['next', 'Next moves', actionableQueue.length],
+  ['relics', 'Primes & relics', data.vaulted.length],
+  ['vendors', 'Vendors', vendorQueue.length],
+  ['foundry', 'Foundry & leveling', data.owned.length + materialQueue.length],
+  ['all', 'All items', data.arsenal.length],
+];
+
+function json(url) {
+  return fetch(url, { cache: 'no-store' }).then((response) => {
+    if (!response.ok) throw new Error(`${response.status} ${url}`);
+    return response.json();
+  });
+}
+
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
+}
+
+function normalizeOffering(value) {
+  return String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+blueprint$/i, '').trim();
+}
+
+function parseDate(value) {
+  const direct = new Date(value || '');
+  if (Number.isFinite(direct.getTime())) return direct;
+  const normalized = String(value || '').replace(' PDT', '-07:00').replace(' PST', '-08:00').replace(' ', 'T');
+  return new Date(normalized);
+}
+
+function formatDate(value, includeTime = true) {
+  const date = parseDate(value);
+  if (!Number.isFinite(date.getTime())) return 'unknown';
+  return date.toLocaleString('en-US', includeTime
+    ? { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }
+    : { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/Los_Angeles' });
+}
+
+function routeView() {
+  const match = location.hash.match(/^#plan\/(next|relics|vendors|foundry|all)/);
+  return match?.[1] || 'next';
+}
+
+function setRoute(view) {
+  const next = `#plan/${view}`;
+  if (location.hash === next) render();
+  else location.hash = next;
+}
+
+function fmt(value) {
+  return Number(value || 0).toLocaleString('en-US');
 }
 
 function applyAccountSync(payload, sync) {
   const liveItems = Array.isArray(sync?.items) ? sync.items : [];
   if (!liveItems.length) return;
-
   const arsenalByName = new Map((payload.arsenal || []).map((row) => [row.item, row]));
   const rank40Names = new Set((payload.rank40 || []).map((row) => row.item));
-  const liveByName = new Map(liveItems.map((row) => [row.item, row]));
-
   for (const live of liveItems) {
     const row = arsenalByName.get(live.item);
     if (!row) continue;
-
     if (live.owned) row.owned = 'Yes';
     if (live.mastered) row.mastered = 'Yes';
     row.liveXp = Number(live.xp || 0);
     row.formaApplied = Number(live.formaApplied || 0);
-
-    // The live cache may add positive evidence, but absence or low XP must
-    // never erase mastery already recorded by the acquisition tracker.
     if (row.mastered === 'Yes') {
       row.complete = 'Yes';
       row.missing = '';
@@ -54,54 +115,33 @@ function applyAccountSync(payload, sync) {
       }
     }
   }
-
   const stillNeedsAcquisition = (card) => {
     const row = arsenalByName.get(card.item);
     return !row || (row.owned !== 'Yes' && row.mastered !== 'Yes');
   };
   payload.queue = (payload.queue || []).filter(stillNeedsAcquisition);
   payload.vaulted = (payload.vaulted || []).filter(stillNeedsAcquisition);
-
-  const ownedByName = new Map(
-    (payload.owned || [])
-      .filter((card) => arsenalByName.get(card.item)?.mastered !== 'Yes')
-      .map((card) => [card.item, card]),
-  );
+  const ownedByName = new Map((payload.owned || []).filter((card) => arsenalByName.get(card.item)?.mastered !== 'Yes').map((card) => [card.item, card]));
   for (const live of liveItems) {
     const row = arsenalByName.get(live.item);
-    if (!row || row.owned !== 'Yes' || row.mastered === 'Yes' || rank40Names.has(row.item)) continue;
-    if (!ownedByName.has(row.item)) {
-      const weaponTypes = new Set(['primary', 'secondary', 'melee', 'archgun', 'archmelee']);
-      ownedByName.set(row.item, {
-        item: row.item,
-        type: row.type,
-        state: 'Owned; rank unknown',
-        targetRank: '30',
-        steps: 'Check Arsenal and level to 30 if needed.',
-        tip: weaponTypes.has(row.type)
-          ? `Level this ${row.type} in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.`
-          : 'Level in Sanctuary Onslaught, Helene, or Hydron.',
-        source: row.source,
-      });
-    }
+    if (!row || row.owned !== 'Yes' || row.mastered === 'Yes' || rank40Names.has(row.item) || ownedByName.has(row.item)) continue;
+    ownedByName.set(row.item, {
+      item: row.item,
+      type: row.type,
+      state: 'Owned; rank unknown',
+      targetRank: '30',
+      steps: 'Check Arsenal and level to 30 if needed.',
+      tip: 'Equip it in a high-affinity mission and reduce competing equipment if you want to focus the affinity.',
+      source: row.source,
+    });
   }
   payload.owned = [...ownedByName.values()].sort((a, b) => a.item.localeCompare(b.item));
-
-  if (sync.generatedAt) {
-    payload.meta.accountSyncAt = sync.generatedAt;
-    payload.meta.accountSyncSourceSha256 = sync.sourceSha256 || null;
-    const date = new Date(sync.generatedAt);
-    if (Number.isFinite(date.getTime())) {
-      const parts = Object.fromEntries(
-        new Intl.DateTimeFormat('en-US', {
-          timeZone: 'America/Los_Angeles',
-          year: 'numeric',
-          month: '2-digit',
-          day: '2-digit',
-        }).formatToParts(date).map(({ type, value }) => [type, value]),
-      );
-      payload.meta.snapshotDate = `${parts.year}-${parts.month}-${parts.day}`;
-    }
+  if (!sync.generatedAt) return;
+  payload.meta.accountSyncAt = sync.generatedAt;
+  const auxiliary = parseDate(sync.generatedAt);
+  const primary = parseDate(payload.meta.exportVerifiedAt || payload.meta.snapshotDate);
+  if (Number.isFinite(auxiliary.getTime()) && (!Number.isFinite(primary.getTime()) || auxiliary > primary)) {
+    payload.meta.snapshotDate = auxiliary.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
   }
 }
 
@@ -114,188 +154,237 @@ function applyConsistencyFixes(payload) {
     const match = String(missing || '').match(new RegExp(`${escaped} \\(([\\d,]+)\\/([\\d,]+)\\)`));
     return match ? Number(match[2].replaceAll(',', '')) - Number(match[1].replaceAll(',', '')) : null;
   };
-
   for (const section of ['queue', 'vaulted', 'arsenal']) {
     for (const row of payload[section] || []) {
       if (row.item === 'Needlenose') {
         const remaining = remainingMaterial(row.missing, 'Hespazym Alloy');
         if (remaining !== null && remaining > 0 && !/Needlenose Blueprint/.test(row.missing || '')) {
           row.steps = `Obtain ${remaining.toLocaleString('en-US')} Hespazym Alloy. Assemble the K-Drive and level it to 30. No gilding is required.`;
-          row.tip = 'The Needlenose Board Blueprint is already owned; no gilding is required for mastery.';
+          row.tip = 'The Board Blueprint is already owned; no gilding is required for mastery.';
         }
       }
       if (row.item === 'Trumna Prime') {
         const count = relicCount('Neo T11');
-        if (count > 0) row.steps = `Open the ${count.toLocaleString('en-US')} Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first.`;
+        if (count > 0) row.steps = `Open the ${count.toLocaleString('en-US')} Neo T11 Intact relics in this snapshot; the Receiver is Rare, so refine first.`;
       }
     }
   }
 }
 
-const UNVERIFIED = 'Acquisition route not verified yet';
-const normalizeOffering = (value) => String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+blueprint$/i, '').trim();
-const activeNightwave = new Set((availability.activeNightwaveItems || []).map(normalizeOffering));
-const isNightwave = (item) => item.availabilityGroup === 'nightwave';
-const isDojo = (item) => item.availabilityGroup === 'dojo';
-const isBaro = (item) => item.availabilityGroup === 'baro';
-const isDeferredCategory = (item) => isNightwave(item) || isDojo(item) || isBaro(item);
-const nightwaveDefinitions = new Map(nightwaveCatalog.items.map((entry) => [entry.item, entry.offerings]));
-const nightwaveCheckedAt = Date.parse(availability.checkedAt || '');
+function sourceLabel(url) {
+  if (!url) return 'Source unavailable';
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname === 'wiki.warframe.com') return 'Official Warframe Wiki';
+    if (parsed.hostname.endsWith('warframe.com')) return 'Digital Extremes';
+    return parsed.hostname.replace(/^www\./, '');
+  } catch {
+    return 'Source note';
+  }
+}
+
+function source(url) {
+  return url ? `<a class="source" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel(url))} <span aria-hidden="true">↗</span></a>` : '';
+}
+
+function pill(text, kind = '') {
+  return `<span class="pill ${kind}">${escapeHtml(text)}</span>`;
+}
+
+function matches(item) {
+  const query = state.query.trim().toLowerCase();
+  return !query || Object.values(item).some((value) => String(value ?? '').toLowerCase().includes(query));
+}
+
 function nextWeeklyReset(checkedAt) {
   const date = new Date(checkedAt);
   const daysUntilMonday = ((8 - date.getUTCDay()) % 7) || 7;
   return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate() + daysUntilMonday);
 }
-const nightwaveExpiration = availability.rotationEndsAt
-  ? Date.parse(availability.rotationEndsAt)
-  : Number.isFinite(nightwaveCheckedAt) ? nextWeeklyReset(nightwaveCheckedAt) : NaN;
+
+const nightwaveCheckedAt = Date.parse(availability.checkedAt || '');
+const nightwaveExpiration = availability.rotationEndsAt ? Date.parse(availability.rotationEndsAt) : Number.isFinite(nightwaveCheckedAt) ? nextWeeklyReset(nightwaveCheckedAt) : NaN;
 const nightwaveStockVerified = availability.status === 'verified'
   && Number.isFinite(nightwaveCheckedAt)
   && Number.isFinite(nightwaveExpiration)
   && Date.now() >= nightwaveCheckedAt
   && Date.now() < nightwaveExpiration;
-const nightwaveState = (item) => {
-  if (!isNightwave(item)) return null;
-  if (!nightwaveStockVerified) return 'unknown';
-  const names = nightwaveDefinitions.get(item.item) || [item.item];
-  return names.some((name) => activeNightwave.has(normalizeOffering(name))) ? 'available' : 'inactive';
-};
-const nightwaveQueue = data.queue.filter(isNightwave).sort((a, b) => {
-  const order = { available: 0, unknown: 1, inactive: 2 };
-  return order[nightwaveState(a)] - order[nightwaveState(b)] || a.item.localeCompare(b.item);
-});
-const practicalOrder = (a, b) => (a.practicalPriority ?? Number.MAX_SAFE_INTEGER) - (b.practicalPriority ?? Number.MAX_SAFE_INTEGER) || a.item.localeCompare(b.item);
-const dojoQueue = data.queue.filter(isDojo).sort(practicalOrder);
-const baroQueue = data.queue.filter(isBaro).sort(practicalOrder);
-const ordinaryQueue = data.queue.filter((item) => !isDeferredCategory(item)).sort(practicalOrder);
-const verifiedQueue = ordinaryQueue.filter((item) => item.route !== UNVERIFIED);
-const actionableQueue = verifiedQueue;
-const missingParts = (item) => String(item.missing || '').split(';').map((part) => part.trim()).filter(Boolean);
-const isMaterialOnly = (item) => {
-  const parts = missingParts(item);
-  return parts.length > 0 && parts.every((part) => /\(\d[\d,]*\/\d[\d,]*\)$/.test(part));
-};
-const materialQueue = actionableQueue.filter(isMaterialOnly);
-const views = [
-  ['next', 'Acquire next', actionableQueue.length],
-  ['nightwave', 'Nightwave', nightwaveQueue.length],
-  ['dojo', 'Dojo', dojoQueue.length],
-  ['baro', 'Baro Ki’Teer', baroQueue.length],
-  ['materials', 'Materials', materialQueue.length],
-  ['vaulted', 'Primes / Relics', data.vaulted.length],
-  ['owned', 'Owned / Foundry', data.owned.length],
-  ['arsenal', 'Full arsenal', data.arsenal.length],
-];
-const state = { view: 'next', query: '', type: 'all', visible: 30 };
-const app = document.querySelector('#app');
 
-function escapeHtml(value) {
-  return String(value ?? '').replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
+function nightwaveState(item) {
+  if (!isNightwave(item)) return null;
+  const definition = nightwaveDefinitions.get(item.item) || {};
+  if (definition.availability === 'permanent') return 'permanent';
+  if (!nightwaveStockVerified) return 'unknown';
+  const names = definition.offerings || [item.item];
+  return names.some((name) => activeNightwave.has(normalizeOffering(name))) ? 'available' : 'inactive';
 }
-function source(url) {
-  return url ? `<a class="source" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">Source ↗</a>` : '';
+
+function globalNavigation(active = 'plan') {
+  const links = [
+    ['plan', './#plan/next', 'Plan'],
+    ['arsenal', 'account.html#arsenal/current', 'Arsenal'],
+    ['sessions', 'account.html#sessions', 'Sessions'],
+    ['ask', 'account.html#ask', 'Ask'],
+  ];
+  return `<nav class="global-nav" aria-label="Main navigation">${links.map(([id, href, label]) => `<a class="global-nav-link ${active === id ? 'active' : ''}" href="${href}" ${active === id ? 'aria-current="page"' : ''}>${label}</a>`).join('')}</nav>`;
 }
-function matches(item) {
-  const query = state.query.trim().toLowerCase();
-  return !query || Object.values(item).some((value) => String(value ?? '').toLowerCase().includes(query));
+
+function masthead() {
+  return `<header class="masthead"><a class="brand-lockup" href="./#plan/next" aria-label="Jantje's Arsenal home"><img class="brand-mark-image" src="assets/arsenal-mark.png" alt=""><span class="brand-copy"><small>JANTJE'S</small><strong>ARSENAL INTELLIGENCE</strong></span></a>${globalNavigation()}<div class="sync"><i></i><span>Direct sync<br><b>${escapeHtml(formatDate(data.meta.exportVerifiedAt))}</b></span></div></header>`;
 }
-function queueCard(item, material = false) {
-  const arsenal = data.arsenal.find((row) => row.item === item.item);
-  const vaulted = item.item.includes('Prime') && arsenal?.vaulted === 'Yes' ? '<span class="pill violet">VAULTED</span>' : '';
-  const steps = item.steps ? `<p class="steps">${escapeHtml(item.steps)}</p>` : '';
-  const tip = item.tip ? `<details><summary>Farm tip</summary><p>${escapeHtml(item.tip)}</p></details>` : '';
-  const nightwave = nightwaveState(item);
-  const labels = { available: 'AVAILABLE THIS WEEK', unknown: 'AVAILABILITY UNKNOWN', inactive: 'NOT AVAILABLE THIS WEEK' };
-  const nightwavePill = nightwave ? `<span class="pill ${nightwave === 'available' ? 'green' : nightwave === 'inactive' ? 'violet' : 'amber'}">${labels[nightwave]}</span>` : '';
-  const activeNow = item.liveMatches?.length ? '<span class="pill green">ACTIVE NOW</span>' : '';
-  const live = item.liveMatches?.length ? `<p class="steps">${escapeHtml(item.liveMatches.join(' · '))}</p>` : '';
-  const relics = arsenal?.primeDetails?.length ? primeDetails(arsenal) : '';
-  return `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(item.item)}</h3><p class="meta">${escapeHtml(item.type)} · Rank ${escapeHtml(item.targetRank)}</p></div><div>${vaulted}${nightwavePill}${activeNow}<span class="pill ${material ? 'amber' : ''}">${material ? 'MATERIALS' : escapeHtml(item.ease.split('—')[0].trim())}</span></div></div><div class="need"><span>NEEDED</span>${escapeHtml(item.missing)}</div><p class="route">${escapeHtml(item.route)}</p>${live}${steps}${relics}${tip}${source(item.source)}</article>`;
+
+function freshness() {
+  const liveStatuses = [liveStatus.invasions, liveStatus.baro, liveStatus.events].filter((row) => row?.status === 'verified').length;
+  const sourceText = /Direct read-only/i.test(data.meta.exportSource || '') ? 'Direct DE inventory' : (data.meta.exportSource || 'Inventory source');
+  return `<section class="freshness-strip" aria-label="Data freshness">
+    <span class="freshness-badge confirmed"><i></i><span><b>Account</b>${escapeHtml(formatDate(data.meta.exportVerifiedAt))}</span></span>
+    <span class="freshness-badge ${liveStatuses ? 'live' : 'stale'}"><i></i><span><b>World state</b>${liveStatuses}/3 feeds verified</span></span>
+    <span class="freshness-badge confirmed"><i></i><span><b>Provenance</b>${escapeHtml(sourceText)}</span></span>
+  </section>`;
 }
+
+function hero() {
+  const lead = actionableQueue[0];
+  const ready = data.owned.filter((row) => row.state === 'Ready in Foundry').length;
+  const missing = data.meta?.summary?.missing ?? [...data.queue, ...data.vaulted].length;
+  const title = state.view === 'next' && lead ? `${lead.item} is the next clean win.` : views.find(([id]) => id === state.view)?.[1] || 'Plan';
+  const lede = state.view === 'next' && lead ? lead.route : 'Verified routes, exact account gaps, and the shortest useful next action.';
+  return `<section class="hero scanner-hero"><div class="hero-copy"><p class="eyebrow">${state.view === 'next' ? 'RECOMMENDED NEXT MOVE' : 'ACQUISITION PLAN'}</p><h1>${escapeHtml(title)}</h1><p class="lede">${escapeHtml(lede)}</p>${lead && state.view === 'next' ? `<a class="primary-action" href="#target-${slug(lead.item)}">Open the route</a>` : ''}</div><div class="stat-row">
+    <a href="#plan/next"><b>${fmt(actionableQueue.length)}</b><span>verified farms</span></a>
+    <a href="#plan/foundry"><b>${fmt(ready)}</b><span>ready to claim</span></a>
+    <a href="#plan/vendors"><b>${fmt(vendorQueue.length)}</b><span>vendor gates</span></a>
+    <a href="#plan/all"><b>${fmt(missing)}</b><span>mastery gaps</span></a>
+  </div></section>`;
+}
+
+function secondaryNavigation() {
+  return `<nav class="view-tabs" aria-label="Plan views">${views.map(([id, label, count]) => `<a href="#plan/${id}" class="${state.view === id ? 'active' : ''}" ${state.view === id ? 'aria-current="page"' : ''}>${escapeHtml(label)}<span>${fmt(count)}</span></a>`).join('')}</nav>`;
+}
+
+function controls(rows = []) {
+  const types = ['all', ...new Set(rows.map((row) => row.type).filter(Boolean))].sort();
+  const type = state.view === 'next' ? `<select id="type" aria-label="Filter by equipment type">${types.map((value) => `<option value="${escapeHtml(value)}" ${state.type === value ? 'selected' : ''}>${value === 'all' ? 'All equipment types' : friendlyType(value)}</option>`).join('')}</select>` : '';
+  return `<section class="controls"><label class="search"><span aria-hidden="true">⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="Search ${escapeHtml(views.find(([id]) => id === state.view)?.[1] || 'items')}" aria-label="Search current view"></label>${type}</section>`;
+}
+
+function friendlyType(value) {
+  const labels = { primary: 'Primary', secondary: 'Secondary', melee: 'Melee', warframe: 'Warframe', companion: 'Companion', archgun: 'Archgun', archmelee: 'Archmelee', archwing: 'Archwing', necramech: 'Necramech', modular: 'Modular' };
+  return labels[String(value).toLowerCase()] || String(value || 'Other').replace(/([a-z])([A-Z])/g, '$1 $2');
+}
+
+function slug(value) {
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 function primeDetails(item) {
   if (!item.primeDetails?.length) return item.primeStatus === 'DATA INCOMPLETE'
-    ? '<p class="steps">Historical relic rewards have not yet been matched to these missing parts. Check owned relics manually or trade for the listed gaps.</p>'
+    ? '<p class="steps">Historical relic rewards have not been matched to these gaps. Check owned relics or trade only for the listed pieces.</p>'
     : '';
-  return `<details><summary>Relics for missing parts</summary>${item.primeDetails.map((detail) => `<p><strong>${escapeHtml(detail.part)}</strong>: ${escapeHtml(detail.relic)} · ${escapeHtml(detail.rarity)} · owned ${detail.ownedRelics ?? 'unknown'} · ${escapeHtml(detail.relicSource)} · refine ${escapeHtml(detail.refinement)}</p>`).join('')}</details>`;
-}
-function checkedDate(value) {
-  const date = new Date(value || '');
-  return Number.isFinite(date.getTime())
-    ? date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Los_Angeles' })
-    : 'an unknown date';
-}
-function nightwaveWarning() {
-  if (nightwaveStockVerified) return '';
-  return `<div class="status-warning"><strong>Nightwave availability is unverified.</strong> Inventory has not been verified since ${escapeHtml(checkedDate(availability.checkedAt))}. Individual availability labels cannot currently be trusted; check the in-game Cred Offerings before spending Cred.</div>`;
-}
-function invasionWarning() {
-  if (liveStatus.invasions?.status === 'verified') return '';
-  return `<div class="status-warning"><strong>Live Invasion matching is unavailable.</strong> The feed was last checked ${escapeHtml(checkedDate(liveStatus.checkedAt))}. An item without an ACTIVE NOW badge may still have a relevant reward; check current Invasions in game.</div>`;
-}
-function header() {
-  const label = views.find(([id]) => id === state.view)?.[1] ?? '';
-  const quickWins = actionableQueue.filter((x) => x.ease.startsWith('2')).length;
-  return `<header class="masthead"><div class="brand-mark">WF</div><div class="brand-copy"><span>JANTJE'S ARSENAL</span><h1>Acquisition Tracker</h1></div><div class="sync"><i></i> Updated ${escapeHtml(data.meta.snapshotDate)}</div></header><section class="hero"><div><p class="eyebrow">CURRENT OBJECTIVE</p><h2>${state.view === 'next' ? 'Choose the next clean win.' : escapeHtml(label)}</h2><p class="lede">Only the information needed to decide, farm, and move on.</p></div><div class="stat-row"><button data-view="next"><b>${actionableQueue.length}</b><span>active targets</span></button><button data-view="next"><b>${quickWins}</b><span>quick wins</span></button><button data-view="materials"><b>${materialQueue.length}</b><span>mats only</span></button><button data-view="arsenal"><b>${data.arsenal.length}</b><span>arsenal items</span></button></div></section>`;
-}
-function tabs() {
-  return `<nav class="view-tabs" aria-label="Tracker views">${views.map(([id, label, count]) => `<button data-view="${id}" class="${state.view === id ? 'active' : ''}">${label}<span>${count}</span></button>`).join('')}<a class="account-link" href="account.html">Builds & sessions ↗</a></nav>`;
-}
-function controls() {
-  const types = ['all', ...new Set(actionableQueue.map((x) => x.type))].sort();
-  return `<section class="controls"><label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="Search…" aria-label="Search current view"></label>${state.view === 'next' ? `<select id="type" aria-label="Filter by type">${types.map((type) => `<option value="${escapeHtml(type)}" ${state.type === type ? 'selected' : ''}>${type === 'all' ? 'All types' : escapeHtml(type)}</option>`).join('')}</select>` : ''}</section>`;
-}
-function content() {
-  if (state.view === 'next') {
-    const rows = actionableQueue.filter((x) => (state.type === 'all' || x.type === state.type) && matches(x));
-    return `${invasionWarning()}${cardsAndMore(rows, rows.map((x) => queueCard(x)))}`;
-  }
-  if (state.view === 'materials') {
-    const rows = materialQueue.filter(matches);
-    return `<section class="card-grid">${rows.map((x) => queueCard(x, true)).join('')}</section>`;
-  }
-  if (state.view === 'nightwave') {
-    const rows = nightwaveQueue.filter(matches);
-    return `${nightwaveWarning()}${cardsAndMore(rows, rows.map((x) => queueCard(x)))}`;
-  }
-  if (state.view === 'dojo') {
-    const rows = dojoQueue.filter(matches);
-    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
-  }
-  if (state.view === 'baro') {
-    const rows = baroQueue.filter(matches);
-    return cardsAndMore(rows, rows.map((x) => queueCard(x)));
-  }
-  if (state.view === 'vaulted') {
-    const rows = data.vaulted.filter((x) => String(x.missing || '').trim()).filter(matches);
-    return cardsAndMore(rows, rows.map((x) => {
-      const active = x.liveMatches?.length ? '<span class="pill green">ACTIVE NOW</span>' : '';
-      const statusClass = x.primeStatus === 'RESURGENCE ACTIVE' || x.primeStatus === 'OWNED RELICS' || x.primeStatus === 'PERMANENT SPECIAL RELICS' || x.primeStatus === 'CURRENT RELICS' ? 'green' : 'violet';
-      return `<article class="item-card muted-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><div>${active}<span class="pill ${statusClass}">${escapeHtml(x.primeStatus || 'DATA INCOMPLETE')}</span></div></div><div class="need"><span>MISSING</span>${escapeHtml(x.missing)}</div><p class="route">${escapeHtml(x.route)}</p><p class="steps">${escapeHtml(x.steps)}</p>${primeDetails(x)}<details><summary>Farm tip</summary><p>${escapeHtml(x.tip)}</p></details>${source(x.source)}</article>`;
-    }));
-  }
-  if (state.view === 'owned') {
-    const rows = data.owned.filter(matches);
-    return `<section class="card-grid">${rows.map((x) => `<article class="item-card"><div class="item-topline"><div><h3>${escapeHtml(x.item)}</h3><p class="meta">${escapeHtml(x.type)} · Rank ${escapeHtml(x.targetRank)}</p></div><span class="pill green">OWNED</span></div><div class="need"><span>NEXT</span>${escapeHtml(x.steps)}</div><p class="steps">${escapeHtml(x.tip)}</p>${source(x.source)}</article>`).join('')}</section>`;
-  }
-  const rows = data.arsenal.filter(matches);
-  const rendered = rows.slice(0, state.visible).map((x) => `<div class="table-row"><strong>${escapeHtml(x.item)}</strong><span>${escapeHtml(x.type)}</span><span>${escapeHtml(x.state)}</span><span>${escapeHtml(x.targetRank)}</span>${source(x.source)}</div>`).join('');
-  return `<section class="table-shell"><div class="table-head"><span>Item</span><span>Type</span><span>Status</span><span>Target</span><span>Source</span></div>${rendered}</section>${moreButton(rows.length)}`;
-}
-function cardsAndMore(rows, rendered) {
-  if (!rows.length) return '<div class="empty">No matching items.</div>';
-  return `<section class="card-grid">${rendered.slice(0, state.visible).join('')}</section>${moreButton(rows.length)}`;
-}
-function moreButton(total) {
-  return total > state.visible ? '<button class="load-more" id="more">Show 30 more</button>' : '';
-}
-function render() {
-  const availableNightwave = nightwaveQueue.filter((item) => nightwaveState(item) === 'available').length;
-  const unknownNightwave = nightwaveQueue.filter((item) => nightwaveState(item) === 'unknown').length;
-  app.innerHTML = `${header()}${tabs()}${controls()}${content()}<footer><span>Snapshot verified ${escapeHtml(data.meta.exportVerifiedAt)}</span><span>${availableNightwave} Nightwave available · ${unknownNightwave} unknown · Ordinary gear → 30</span></footer>`;
-  app.querySelectorAll('[data-view]').forEach((button) => button.addEventListener('click', () => { state.view = button.dataset.view; state.query = ''; state.visible = 30; render(); }));
-  app.querySelector('#search')?.addEventListener('input', (event) => { state.query = event.target.value; state.visible = 30; render(); queueMicrotask(() => { const input = app.querySelector('#search'); input?.focus(); input?.setSelectionRange(input.value.length, input.value.length); }); });
-  app.querySelector('#type')?.addEventListener('change', (event) => { state.type = event.target.value; state.visible = 30; render(); });
-  app.querySelector('#more')?.addEventListener('click', () => { state.visible += 30; render(); });
+  return `<details><summary>Relics for the missing parts</summary><div class="detail-stack">${item.primeDetails.map((detail) => `<p><strong>${escapeHtml(detail.part)}</strong><span>${escapeHtml(detail.relic)} · ${escapeHtml(detail.rarity)} · ${fmt(detail.ownedRelics ?? 0)} owned · refine ${escapeHtml(detail.refinement)}</span><small>${escapeHtml(detail.relicSource)}</small></p>`).join('')}</div></details>`;
 }
 
+function queueCard(item, options = {}) {
+  const arsenal = data.arsenal.find((row) => row.item === item.item);
+  const nightwave = nightwaveState(item);
+  const labels = { permanent: 'PERMANENT STOCK', available: 'AVAILABLE NOW', unknown: 'ROTATION UNVERIFIED', inactive: 'NOT IN ROTATION' };
+  const statusKind = nightwave === 'permanent' || nightwave === 'available' ? 'green' : nightwave === 'unknown' ? 'amber' : 'violet';
+  const live = item.liveMatches?.length ? `${pill('ACTIVE NOW', 'green')}<p class="live-match">${escapeHtml(item.liveMatches.join(' · '))}</p>` : '';
+  const vaulted = item.item.includes('Prime') && arsenal?.vaulted === 'Yes' ? pill('VAULTED', 'violet') : '';
+  const priority = Number.isFinite(item.practicalPriority) && item.practicalPriority < 100 ? pill(`PRIORITY ${item.practicalPriority}`) : '';
+  const material = options.material ? pill('MATERIALS ONLY', 'amber') : '';
+  const relics = arsenal?.primeDetails?.length ? primeDetails(arsenal) : '';
+  return `<article class="item-card ${options.featured ? 'featured-card' : ''}" id="target-${slug(item.item)}"><div class="item-topline"><div><p class="eyebrow">${escapeHtml(friendlyType(item.type))} · TARGET RANK ${escapeHtml(item.targetRank)}</p><h2>${escapeHtml(item.item)}</h2></div><div class="pill-cluster">${vaulted}${priority}${material}${nightwave ? pill(labels[nightwave], statusKind) : ''}</div></div>
+    <div class="need"><span>ACCOUNT GAP</span>${escapeHtml(item.missing)}</div>
+    <div class="route-block"><span>WHERE</span><strong>${escapeHtml(item.route)}</strong></div>
+    ${item.steps ? `<p class="steps">${escapeHtml(item.steps)}</p>` : ''}${live}${relics}
+    ${item.tip ? `<div class="tip"><span>RUN IT SMARTER</span><p>${escapeHtml(item.tip)}</p></div>` : ''}
+    <div class="card-footer">${source(item.source)}<span>Checked ${escapeHtml(formatDate(data.meta.exportVerifiedAt, false))}</span></div>
+  </article>`;
+}
+
+function warning(kind, title, copy) {
+  return `<div class="status-warning ${kind}"><strong>${escapeHtml(title)}</strong> ${escapeHtml(copy)}</div>`;
+}
+
+function invasionWarning() {
+  if (liveStatus.invasions?.status === 'verified') return '';
+  return warning('amber', 'Live Invasion matching is unavailable.', `The account routes are still valid, but ACTIVE NOW badges may be incomplete. World state last checked ${formatDate(liveStatus.checkedAt)}.`);
+}
+
+function nightwaveWarning(rows) {
+  const rotating = rows.some((row) => isNightwave(row) && nightwaveState(row) !== 'permanent');
+  if (!rotating || nightwaveStockVerified) return '';
+  return warning('amber', 'Rotating Nightwave stock is unverified.', `Permanent stock is safe; check the in-game Cred Offerings for rotating items. Last manual inventory: ${formatDate(availability.checkedAt)}.`);
+}
+
+function cards(rows, options = {}) {
+  const visible = rows.slice(0, state.visible);
+  if (!visible.length) return '<div class="empty">No matching targets. The void has, for once, filed its paperwork.</div>';
+  return `<section class="card-grid">${visible.map((row, index) => queueCard(row, { ...options, featured: options.featureFirst && index === 0 })).join('')}</section>${rows.length > state.visible ? `<button class="load-more" id="more">Show ${Math.min(24, rows.length - state.visible)} more</button>` : ''}`;
+}
+
+function vendorView() {
+  const vendorTypes = [
+    ['all', 'All vendors'], ['nightwave', 'Nightwave'], ['dojo', 'Dojo'], ['baro', 'Baro Ki’Teer'],
+  ];
+  const rows = vendorQueue.filter((row) => state.vendor === 'all' || (state.vendor === 'nightwave' && isNightwave(row)) || (state.vendor === 'dojo' && isDojo(row)) || (state.vendor === 'baro' && isBaro(row))).filter(matches);
+  return `<section class="section-toolbar"><div><p class="eyebrow">TIME AND ACCESS GATES</p><h2>Vendors</h2></div><div class="filter-chips">${vendorTypes.map(([id, label]) => `<button data-vendor="${id}" class="${state.vendor === id ? 'active' : ''}">${label}</button>`).join('')}</div></section>${nightwaveWarning(rows)}${cards(rows)}`;
+}
+
+function foundryView() {
+  const owned = data.owned.filter(matches);
+  const materials = materialQueue.filter(matches);
+  return `<section class="section-toolbar"><div><p class="eyebrow">ALREADY IN MOTION</p><h2>Claim, build, and level</h2><p>These need less farming and more follow-through.</p></div></section>
+    ${owned.length ? `<section class="card-grid compact-grid">${owned.map((row) => `<article class="item-card followup-card"><div class="item-topline"><div><p class="eyebrow">${escapeHtml(friendlyType(row.type))}</p><h2>${escapeHtml(row.item)}</h2></div>${pill(row.state === 'Ready in Foundry' ? 'READY TO CLAIM' : 'OWNED', 'green')}</div><div class="route-block"><span>NEXT ACTION</span><strong>${escapeHtml(row.steps)}</strong></div><div class="tip"><span>LEVELING</span><p>${escapeHtml(row.tip)}</p></div><div class="card-footer">${source(row.source)}</div></article>`).join('')}</section>` : ''}
+    ${materials.length ? `<section class="section-title"><div><p class="eyebrow">MATERIALS ONLY</p><h2>The blueprint grind is already dead</h2></div></section>${cards(materials, { material: true })}` : ''}
+    ${!owned.length && !materials.length ? '<div class="empty">No matching Foundry or leveling follow-ups.</div>' : ''}`;
+}
+
+function allItemsView() {
+  const rows = data.arsenal.filter(matches);
+  const visible = rows.slice(0, state.visible);
+  return `<section class="data-table collection-table" role="table" aria-label="Full arsenal"><div class="data-head" role="row"><span>Item</span><span>Type</span><span>Account state</span><span>Target</span><span>Reference</span></div>${visible.map((row) => `<div class="data-row" role="row"><strong>${escapeHtml(row.item)}</strong><span>${escapeHtml(friendlyType(row.type))}</span><span>${escapeHtml(row.state)}</span><span>${escapeHtml(row.targetRank)}</span>${source(row.source)}</div>`).join('')}</section>${rows.length > state.visible ? '<button class="load-more" id="more">Show 24 more</button>' : ''}`;
+}
+
+function content() {
+  if (state.view === 'vendors') return vendorView();
+  if (state.view === 'foundry') return foundryView();
+  if (state.view === 'all') return allItemsView();
+  if (state.view === 'relics') {
+    const rows = data.vaulted.filter((row) => String(row.missing || '').trim()).filter(matches);
+    return `<section class="section-toolbar"><div><p class="eyebrow">PRIME PARTS AND RELICS</p><h2>Open what you own. Trade only for the bastard holdouts.</h2></div></section>${cards(rows)}`;
+  }
+  const rows = actionableQueue.filter((row) => (state.type === 'all' || row.type === state.type) && matches(row));
+  return `${invasionWarning()}${cards(rows, { featureFirst: true })}`;
+}
+
+function footer() {
+  return `<footer><span>Sanitized account derivative · no IDs, Platinum, raw payloads, or authentication data</span><span><a href="chatgpt-context.md">ChatGPT context</a> · <a href="llms.txt">AI index</a> · Rules reviewed ${escapeHtml(formatDate(data.meta.exportVerifiedAt, false))}</span></footer>`;
+}
+
+function bind() {
+  app.querySelector('#search')?.addEventListener('input', (event) => {
+    state.query = event.target.value;
+    state.visible = 24;
+    render();
+    queueMicrotask(() => {
+      const input = app.querySelector('#search');
+      input?.focus();
+      input?.setSelectionRange(input.value.length, input.value.length);
+    });
+  });
+  app.querySelector('#type')?.addEventListener('change', (event) => { state.type = event.target.value; state.visible = 24; render(); });
+  app.querySelector('#more')?.addEventListener('click', () => { state.visible += 24; render(); });
+  app.querySelectorAll('[data-vendor]').forEach((button) => button.addEventListener('click', () => { state.vendor = button.dataset.vendor; state.visible = 24; render(); }));
+}
+
+function render() {
+  state.view = routeView();
+  const rows = state.view === 'next' ? actionableQueue : state.view === 'relics' ? data.vaulted : state.view === 'vendors' ? vendorQueue : state.view === 'foundry' ? [...data.owned, ...materialQueue] : data.arsenal;
+  app.innerHTML = `${masthead()}${freshness()}${hero()}${secondaryNavigation()}${controls(rows)}${content()}${footer()}`;
+  bind();
+}
+
+window.addEventListener('hashchange', () => { state.query = ''; state.visible = 24; render(); });
+if (!location.hash) history.replaceState(null, '', '#plan/next');
 render();

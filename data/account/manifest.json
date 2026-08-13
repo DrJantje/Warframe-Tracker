@@ -1,16 +1,59 @@
 {
-  "schemaVersion": 2,
-  "generatedAt": "2026-08-13T08:54:26.523Z",
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-13T09:03:57.032Z",
   "sourceModifiedAt": "2026-08-13T08:52:20.531Z",
   "equipment": 493,
   "currentLoadouts": 11,
-  "mods": 1137,
-  "arcanes": 185,
-  "rivens": 7,
+  "mods": 1199,
+  "modUniqueNames": 831,
+  "modCopies": 2514,
+  "arcanes": 208,
+  "arcaneUniqueNames": 152,
+  "arcaneCopies": 370,
+  "rivens": 17,
+  "rivenRows": 10,
   "resources": 1066,
+  "dataProvenance": {
+    "equipment": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "current item-name catalog plus tracker catalog"
+    },
+    "loadouts": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "current item-name catalog plus tracker catalog"
+    },
+    "focus": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
+    },
+    "resources": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "current item-name catalog plus tracker catalog"
+    },
+    "mods": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "current item-name catalog plus static tracker mod metadata"
+    },
+    "arcanes": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
+    },
+    "rivens": {
+      "capturedAt": "2026-08-13T08:52:20.531Z",
+      "ownershipSource": "direct read-only Digital Extremes account snapshot",
+      "metadataSource": "direct fingerprints; trait values intentionally not decoded"
+    },
+    "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
+  },
   "exclusions": [
     "account IDs",
-    "instance IDs",
+    "source instance IDs",
     "premium currency",
     "hardware flags",
     "settings",
@@ -18,7 +61,7 @@
     "mailbox",
     "trade history",
     "purchase history",
-    "activity timestamps",
+    "unrelated activity history",
     "raw cache"
   ],
   "privacy": {

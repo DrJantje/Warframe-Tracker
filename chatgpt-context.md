@@ -1,6 +1,6 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-13T08:54:26.750153+00:00
+Generated: 2026-08-13T09:03:57.226234+00:00
 Account snapshot: 2026-08-13T08:52:20.531Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
@@ -17,50 +17,58 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### NORMAL: Lavos Los Manos
+### Arsenal: Lavos Los Manos
 
 #### Warframe: Lavos Prime — config A
 
 - Forma: 0
-- Lens: Tactic Lens Greater
-- Mods: Alchemist Passive Augment Card (rank 3), Serpent Augment Card (rank 3), Umbral Vitality (rank 7), Umbral Intensify (rank 9), Augur Secrets (rank 5), Stretch (rank 5), Umbral Fiber (rank 7), Adaptation (rank 10), Corrosive Projection (rank 5), Arcane Blessing (rank 5), Molt Augmented (rank 5)
+- Lens: Greater Naramon Lens
+- Mods: Valence Formation (rank 3), Swift Bite (rank 3), Umbral Vitality (rank 7), Umbral Intensify (rank 9), Augur Secrets (rank 5), Stretch (rank 5), Umbral Fiber (rank 7), Adaptation (rank 10), Corrosive Projection (rank 5)
+- Arcanes: Arcane Blessing (rank 5), Molt Augmented (rank 5)
 
 #### Secondary: Tenet Cycron — config A
 
 - Forma: 5
-- Mods: Weapon Fire Damage Mod Expert (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3), Cascadia Flare (rank 5)
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
 
 #### Primary: Coda Synapse — config A
 
 - Forma: 5
 - Mods: Vital Sense (rank 5), Critical Delay (rank 5), Split Chamber (rank 5), Serration (rank 10)
+- Arcanes: none recorded
 
 #### Melee: Tenet Livia — config A
 
 - Forma: 1
 - Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 
-- Forma: 0
-- Mods: none recorded
+- Forma: 3
+- Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
+- Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### SENTINEL: Lavos Los Manos
+### Companion: Lavos Los Manos
 
-#### Warframe: Panzer Vulpaphyla — config A
+#### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Arcanes: none recorded
 
-#### Primary: Akaten — config A
+#### Companion weapon: Akaten — config A
 
 - Forma: 0
 - Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10)
+- Arcanes: none recorded
 
-#### Second exalted or companion weapon: Panzer Vulpaphyla Pet Weapon — config A
+#### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
 
 - Forma: 0
 - Mods: Swipe (rank 3), Magnetic Claws (rank 3), Cull The Weak (rank 5), Flame Gland (rank 3), Radon Claws (rank 3), Sepsis Claws (rank 8), Bell Ringer (rank 3), Bite (rank 10), Frenzied Posture (rank 3)
+- Arcanes: none recorded
 
 ## Last completed session
 
@@ -68,10 +76,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Duration seconds: 7200.069
 - Missions: 5
 - Focus earned: 68616
+- Notable acquisitions: Oberon Chassis Blueprint (+4), Harrow Chassis Blueprint (+3), Afuris Prime Barrel (+2), Meso K8 Intact (+2), Bronco Prime Receiver (+1), Burston Prime Receiver (+1), Cobra & Crane Prime Blade (+1), Epitaph Barrel (+1), Epitaph Receiver (+1), Gyre Prime Systems Blueprint (+1), Lex Prime Barrel (+1), Lith C7 Intact (+1), Meso K8 Radiant (+1), Meso V13 Intact (+1), Meso V13 Radiant (+1), Neo C9 Intact (+1)
 
 ## Deeper files
 
 - [dashboard](https://drjantje.github.io/Warframe-Tracker/account.html)
+- [acquisitionTracker](https://drjantje.github.io/Warframe-Tracker/data/warframe.json)
 - [manifest](https://drjantje.github.io/Warframe-Tracker/data/account/manifest.json)
 - [equipment](https://drjantje.github.io/Warframe-Tracker/data/account/equipment.json)
 - [loadouts](https://drjantje.github.io/Warframe-Tracker/data/account/loadouts.json)

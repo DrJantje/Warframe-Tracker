@@ -5,10 +5,60 @@ const { spawnSync } = require('child_process');
 
 const data = JSON.parse(fs.readFileSync('data/warframe.json', 'utf8'));
 const primeRules = JSON.parse(fs.readFileSync('data/prime-rules.json', 'utf8'));
+const live = JSON.parse(fs.readFileSync('data/live.json', 'utf8'));
 const appSource = fs.readFileSync('app.js', 'utf8');
 const nightwaveCatalog = JSON.parse(fs.readFileSync('data/nightwave-items.json', 'utf8'));
 const UNVERIFIED = 'Acquisition route not verified yet';
 const nightwaveItems = new Set(nightwaveCatalog.items.map((entry) => entry.item));
+const permanentNightwaveItems = new Set(nightwaveCatalog.items.filter((entry) => entry.availability === 'permanent').map((entry) => entry.item));
+const requiredPermanentNightwaveBlueprints = new Set([
+  'Ceramic Dagger',
+  'Dark Dagger',
+  'Dark Sword',
+  'Glaive',
+  'Heat Dagger',
+  'Heat Sword',
+  'Jaw Sword',
+  'Pangolin Sword',
+  'Plasma Sword',
+]);
+const activeResurgenceItems = new Set(live.primeResurgence.status === 'verified' ? live.primeResurgence.items : []);
+const expectedActiveResurgenceRelics = new Set(['Lith A9', 'Lith T13', 'Meso R6', 'Neo P8', 'Axi B9', 'Axi C9']);
+const currentRelicExpectations = {
+  'Afentis Prime': { part: 'Afentis Prime Blueprint', relic: 'Axi A22', rarity: 'Rare' },
+  'Quassus Prime': { part: 'Quassus Prime Blade', relic: 'Lith Q3', rarity: 'Rare' },
+};
+const componentRouteExpectations = {
+  Protea: {
+    'Protea Blueprint': /Main Blueprint: complete The Deadlock Protocol/i,
+    'Protea Neuroptics Blueprint': /Neuroptics Blueprint: Normal Granum Void rotation C/i,
+    'Protea Chassis Blueprint': /Chassis Blueprint: Extended Granum Void rotation C/i,
+    'Protea Systems Blueprint': /Systems Blueprint: Nightmare Granum Void rotation C/i,
+  },
+  Stahlta: {
+    'Stahlta Blueprint': /Main Blueprint: defeat Jackal/i,
+    'Stahlta Barrel': /Barrel: Nightmare Granum Void rotation C/i,
+    'Stahlta Receiver': /Receiver: Normal Granum Void rotation C/i,
+    'Stahlta Stock': /Stock: Extended Granum Void rotation C/i,
+  },
+  Stropha: {
+    'Stropha Blueprint': /Main Blueprint: defeat Jackal/i,
+    'Stropha Barrel': /Barrel: Normal Granum Void rotation C/i,
+    'Stropha Blade': /Blade: Normal Granum Void rotation C/i,
+    'Stropha Receiver': /Receiver: Extended Granum Void rotation C/i,
+    'Stropha Stock': /Stock: Nightmare Granum Void rotation C/i,
+  },
+  Pathocyst: {
+    'Pathocyst Blueprint': /\bBlueprint\b/i,
+    'Pathocyst Blade': /\bBlade\b/i,
+    'Pathocyst Subcortex': /\bSubcortex\b/i,
+  },
+  Hespar: {
+    'Hespar Blueprint': /Main Blueprint: Chrysalith Tier 4 bounty/i,
+    'Hespar Handle Blueprint': /Handle Blueprint: Tuvul Commons Void Cascade rotation C/i,
+    'Hespar Blade Blueprint': /Blade Blueprint: Oro Works Void Armageddon rotation C/i,
+  },
+};
 const validAvailabilityGroups = new Set(['nightwave', 'dojo', 'baro']);
 const kDriveBoards = new Set(['Bad Baby', 'Feverspine', 'Flatbelly', 'Needlenose', 'Runway']);
 const permanentRailjackItems = new Set(primeRules.permanentRailjackItems);
@@ -176,6 +226,18 @@ for (const collection of ['queue', 'vaulted', 'owned']) {
     if (collection === 'queue' && /Dojo|Dagath.s Hollow/i.test(row.route || '') && row.availabilityGroup !== 'dojo') fail(collection, row, 'Dojo item outside Dojo tab');
     if (row.availabilityGroup && !validAvailabilityGroups.has(row.availabilityGroup)) fail(collection, row, `invalid availability group ${row.availabilityGroup}`);
     if (collection === 'vaulted' && !validPrimeStatuses.has(row.primeStatus)) fail(collection, row, `invalid Prime status ${row.primeStatus || '(blank)'}`);
+    const userCopy = `${row.route || ''} ${row.steps || ''} ${row.tip || ''}`;
+    if (/listed current relics|per-part refinement shown below/i.test(userCopy)) {
+      fail(collection, row, 'copy refers to relic details that may not be rendered');
+    }
+    if (/next AlecaFrame import/i.test(userCopy)) fail(collection, row, 'legacy AlecaFrame wording is user-facing');
+    if (/Conclave%3A/i.test(String(row.source || ''))) fail(collection, row, 'source points to a Conclave namespace page');
+    if (/Open it Flawless because the reward is Uncommon/i.test(userCopy)) {
+      fail(collection, row, 'Uncommon relic advice presents Flawless as categorically optimal');
+    }
+    if (row.primeDetails?.some((detail) => detail.rarity === 'Uncommon' && detail.refinement !== 'Radiant')) {
+      fail(collection, row, 'Uncommon Prime reward is not configured for the highest per-relic chance');
+    }
     if (kDriveBoards.has(row.item) && !craftingMaterials(row).length && /listed materials/i.test(`${row.steps || ''} ${row.tip || ''}`)) {
       fail(collection, row, 'K-Drive card refers to listed materials when Missing contains none');
     }
@@ -286,6 +348,12 @@ for (const row of data.arsenal) {
   }
   if (row.state === 'Owned + mastered' && (!owned || !mastered)) fail('arsenal', row, 'Owned + mastered state contradicts flags');
   if (row.state === 'Mastered; not currently owned' && (owned || !mastered)) fail('arsenal', row, 'mastered-only state contradicts flags');
+  if (row.state !== 'Missing' && (row.primeStatus || row.primeDetails?.length)) {
+    fail('arsenal', row, 'non-missing item carries stale Prime acquisition status or relic details');
+  }
+  if (mastered && /Prime Resurgence|Currently vaulted|relic pools/i.test(row.route || '')) {
+    fail('arsenal', row, 'mastered item still exposes a Prime acquisition route');
+  }
   if (specializedTypes[row.item] && row.type !== specializedTypes[row.item]) fail('arsenal', row, `type ${row.type} should be ${specializedTypes[row.item]}`);
   const project = rank40ByName.get(row.item);
   if (project && row.state !== project.status) fail('arsenal', row, `rank-40 state ${row.state} disagrees with ${project.status}`);
@@ -303,6 +371,69 @@ for (const row of data.arsenal) {
 for (const item of nightwaveItems) {
   const row = cardByName.get(item);
   if (row && row.availabilityGroup !== 'nightwave') fail('database', row, 'Nightwave-dependent item outside Nightwave tab');
+}
+for (const item of permanentNightwaveItems) {
+  const row = cardByName.get(item);
+  if (!row) continue;
+  const copy = `${row.route || ''} ${row.steps || ''} ${row.tip || ''}`;
+  if (!/permanent/i.test(copy) || /weekly rotation|when it appears/i.test(copy)) {
+    fail('database', row, 'permanent Nightwave weapon still presented as a weekly rotation');
+  }
+}
+for (const item of requiredPermanentNightwaveBlueprints) {
+  if (!permanentNightwaveItems.has(item)) errors.push(`catalog/${item}: Update 43.5 permanent Nightwave Blueprint is missing`);
+}
+if (!permanentNightwaveItems.has('Wolf Sledge')) errors.push('catalog/Wolf Sledge: permanent Wolf Beacon is missing');
+const wolf = cardByName.get('Wolf Sledge');
+if (wolf) {
+  const copy = `${wolf.route || ''} ${wolf.steps || ''} ${wolf.tip || ''}`;
+  if (!/permanent Wolf Beacon/i.test(copy) || !/25%/i.test(copy) || /rotate weekly/i.test(copy)) {
+    fail('database', wolf, 'Wolf Sledge must expose permanent Wolf Beacon and equal 25% component odds');
+  }
+}
+
+for (const item of activeResurgenceItems) {
+  const row = cardByName.get(item);
+  if (!row) continue;
+  if (!row.primeDetails?.length) fail('database', row, 'active Prime Resurgence target lacks relic details');
+  const listedRelics = new Set((row.primeDetails || []).map((detail) => detail.relic));
+  for (const relic of listedRelics) {
+    if (!expectedActiveResurgenceRelics.has(relic)) fail('database', row, `stale Prime Resurgence relic ${relic}`);
+  }
+  for (const part of parts(row).map((value) => value.replace(/ \([\d,]+\/[\d,]+\)$/, ''))) {
+    if (!(row.primeDetails || []).some((detail) => detail.part.replace(/ \([\d,]+\/[\d,]+\)$/, '') === part)) {
+      fail('database', row, `active Prime Resurgence part lacks a mapped relic: ${part}`);
+    }
+  }
+}
+
+for (const [item, expected] of Object.entries(currentRelicExpectations)) {
+  const row = cardByName.get(item);
+  if (!row) continue;
+  const detail = (row.primeDetails || []).find((entry) => entry.part.replace(/ \([\d,]+\/[\d,]+\)$/, '') === expected.part);
+  if (!detail) fail('database', row, `${expected.part} lacks current relic detail`);
+  else if (detail.relic !== expected.relic || detail.rarity !== expected.rarity) {
+    fail('database', row, `${expected.part} must map to ${expected.relic} ${expected.rarity}`);
+  }
+}
+
+for (const [item, expectations] of Object.entries(componentRouteExpectations)) {
+  const row = cardByName.get(item);
+  if (!row) continue;
+  const needed = new Set(parts(row).map((value) => value.replace(/ \([\d,]+\/[\d,]+\)$/, '')));
+  for (const [part, pattern] of Object.entries(expectations)) {
+    if (needed.has(part) && !pattern.test(row.steps || '')) fail('database', row, `Steps omit route for ${part}`);
+    if (!needed.has(part) && pattern.test(row.steps || '')) fail('database', row, `Steps tell the player to farm already-owned ${part}`);
+  }
+}
+
+const viperWraith = cardByName.get('Viper Wraith');
+if (viperWraith && (!/^Baro Ki/i.test(viperWraith.route || '') || /Invasion/i.test(`${viperWraith.route || ''} ${viperWraith.steps || ''}`))) {
+  fail('database', viperWraith, 'Viper Wraith acquisition must use Baro, not Invasions');
+}
+const snipetron = cardByName.get('Snipetron');
+if (snipetron && snipetron.source !== 'https://wiki.warframe.com/w/Snipetron') {
+  fail('database', snipetron, 'source must use the canonical PvE Snipetron page');
 }
 
 const dependencies = {

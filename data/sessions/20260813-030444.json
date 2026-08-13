@@ -1,5 +1,4 @@
 {
-  "accountCheckpointCount": 5,
   "configurationChanges": [
     {
       "at": "2026-08-13T03:21:21.587861+00:00",
@@ -28,77 +27,30 @@
       "helminthAfter": "Broken Rot Ability"
     }
   ],
-  "focusCounterAtCaptureEnd": 188070,
-  "settingsWriteCount": 24,
-  "startedAt": "2026-08-13T03:04:44.769358+00:00",
-  "schemaVersion": 1,
   "focusEarnedDuringCapture": 68616,
-  "missions": [
+  "focusCounterAtCaptureStart": 119454,
+  "schemaVersion": 1,
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+  "focusCounterAtCaptureEnd": 188070,
+  "durationSeconds": 7200.069,
+  "negativeItemDeltas": [
     {
-      "startedAt": "2026-08-13T03:04:51.927000+00:00",
-      "endedAt": "2026-08-13T03:20:45.956000+00:00",
-      "durationSeconds": 954.029,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode550",
-      "label": "Nsu Grid (Veil Proxima) - Axi Void Storm",
-      "missionKey": "CrewBattleNode550",
-      "missionInstance": null,
-      "voidTier": "Axi",
-      "steelPath": false
+      "item": "Cipher",
+      "delta": -20
     },
     {
-      "startedAt": "2026-08-13T03:26:20.876000+00:00",
-      "endedAt": "2026-08-13T03:43:22.108000+00:00",
-      "durationSeconds": 1021.232,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
+      "item": "Meso R6 Intact",
+      "delta": -3
     },
     {
-      "startedAt": "2026-08-13T03:55:48.374000+00:00",
-      "endedAt": "2026-08-13T04:16:48.741000+00:00",
-      "durationSeconds": 1260.367,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
+      "item": "Meso Y2 Intact",
+      "delta": -2
     },
     {
-      "startedAt": "2026-08-13T04:19:20.181000+00:00",
-      "endedAt": "2026-08-13T04:28:15.870000+00:00",
-      "durationSeconds": 535.689,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-13T04:31:11.850000+00:00",
-      "endedAt": "2026-08-13T04:49:42.151000+00:00",
-      "durationSeconds": 1110.301,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
+      "item": "Axi V14 Intact",
+      "delta": -1
     }
   ],
-  "errorEventCount": 0,
-  "accountBlobUnavailableCount": 5,
-  "durationSeconds": 7200.069,
-  "missionCount": 5,
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -325,26 +277,301 @@
       "delta": 1
     }
   ],
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
-  "negativeItemDeltas": [
+  "missions": [
     {
-      "item": "Cipher",
-      "delta": -20
+      "startedAt": "2026-08-13T03:04:51.927000+00:00",
+      "endedAt": "2026-08-13T03:20:45.956000+00:00",
+      "durationSeconds": 954.029,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode550",
+      "label": "Nsu Grid (Veil Proxima) - Axi Void Storm",
+      "missionKey": "CrewBattleNode550",
+      "missionInstance": null,
+      "voidTier": "Axi",
+      "steelPath": false
     },
     {
-      "item": "Meso R6 Intact",
-      "delta": -3
+      "startedAt": "2026-08-13T03:26:20.876000+00:00",
+      "endedAt": "2026-08-13T03:43:22.108000+00:00",
+      "durationSeconds": 1021.232,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
     },
     {
-      "item": "Meso Y2 Intact",
-      "delta": -2
+      "startedAt": "2026-08-13T03:55:48.374000+00:00",
+      "endedAt": "2026-08-13T04:16:48.741000+00:00",
+      "durationSeconds": 1260.367,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
     },
     {
-      "item": "Axi V14 Intact",
-      "delta": -1
+      "startedAt": "2026-08-13T04:19:20.181000+00:00",
+      "endedAt": "2026-08-13T04:28:15.870000+00:00",
+      "durationSeconds": 535.689,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-13T04:31:11.850000+00:00",
+      "endedAt": "2026-08-13T04:49:42.151000+00:00",
+      "durationSeconds": 1110.301,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
     }
   ],
-  "focusCounterAtCaptureStart": 119454,
+  "missionCount": 5,
+  "errorEventCount": 0,
+  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "notableAcquisitions": [
+    {
+      "item": "Oberon Chassis Blueprint",
+      "delta": 4
+    },
+    {
+      "item": "Harrow Chassis Blueprint",
+      "delta": 3
+    },
+    {
+      "item": "Afuris Prime Barrel",
+      "delta": 2
+    },
+    {
+      "item": "Meso K8 Intact",
+      "delta": 2
+    },
+    {
+      "item": "Bronco Prime Receiver",
+      "delta": 1
+    },
+    {
+      "item": "Burston Prime Receiver",
+      "delta": 1
+    },
+    {
+      "item": "Cobra & Crane Prime Blade",
+      "delta": 1
+    },
+    {
+      "item": "Epitaph Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Epitaph Receiver",
+      "delta": 1
+    },
+    {
+      "item": "Gyre Prime Systems Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Lex Prime Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Lith C7 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Meso K8 Radiant",
+      "delta": 1
+    },
+    {
+      "item": "Meso V13 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Meso V13 Radiant",
+      "delta": 1
+    },
+    {
+      "item": "Neo C9 Intact",
+      "delta": 1
+    }
+  ],
+  "railjackSalvage": [
+    {
+      "item": "Zetki Apoc Mk II",
+      "delta": 7
+    },
+    {
+      "item": "Zetki Cryophon Mk II",
+      "delta": 4
+    },
+    {
+      "item": "Zetki Plating Mk II",
+      "delta": 4
+    },
+    {
+      "item": "Vidar Photor Mk II",
+      "delta": 3
+    },
+    {
+      "item": "Zetki Carcinnox Mk II",
+      "delta": 3
+    },
+    {
+      "item": "Lavan Apoc Mk II",
+      "delta": 2
+    },
+    {
+      "item": "Lavan Plating Mk II",
+      "delta": 2
+    },
+    {
+      "item": "Vidar Cryophon Mk II",
+      "delta": 2
+    },
+    {
+      "item": "Zetki Pulsar Mk II",
+      "delta": 2
+    },
+    {
+      "item": "Lavan Cryophon Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Lavan Engines Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Lavan Photor Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Lavan Pulsar Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Vidar Apoc Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Vidar Cryophon Mk III",
+      "delta": 1
+    },
+    {
+      "item": "Vidar Engines Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Vidar Plating Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Vidar Plating Mk III",
+      "delta": 1
+    },
+    {
+      "item": "Zetki Cryophon Mk III",
+      "delta": 1
+    },
+    {
+      "item": "Zetki Engines Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Zetki Photor Mk II",
+      "delta": 1
+    },
+    {
+      "item": "Zetki Plating Mk III",
+      "delta": 1
+    },
+    {
+      "item": "Zetki Pulsar Mk III",
+      "delta": 1
+    },
+    {
+      "item": "Zetki Shield Array Mk II",
+      "delta": 1
+    }
+  ],
+  "resourceGains": [
+    {
+      "item": "Ticor Plate",
+      "delta": 18528
+    },
+    {
+      "item": "Carbides",
+      "delta": 17782
+    },
+    {
+      "item": "Cubic Diodes",
+      "delta": 11182
+    },
+    {
+      "item": "Nano Spores",
+      "delta": 5910
+    },
+    {
+      "item": "Titanium",
+      "delta": 5782
+    },
+    {
+      "item": "Gallos Rods",
+      "delta": 3944
+    },
+    {
+      "item": "Plastids",
+      "delta": 768
+    },
+    {
+      "item": "Void Traces",
+      "delta": 258
+    },
+    {
+      "item": "Komms",
+      "delta": 235
+    },
+    {
+      "item": "Isos",
+      "delta": 182
+    },
+    {
+      "item": "Asterite",
+      "delta": 49
+    },
+    {
+      "item": "Corrupted Holokey",
+      "delta": 29
+    },
+    {
+      "item": "Detonite Ampule",
+      "delta": 26
+    },
+    {
+      "item": "Nullstones",
+      "delta": 4
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": 4
+    },
+    {
+      "item": "Tellurium",
+      "delta": 2
+    }
+  ],
   "privacy": {
     "sanitized": true,
     "excluded": [

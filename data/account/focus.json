@@ -1,64 +1,226 @@
 {
-  "activeSchool": "Power Focus Ability",
+  "activeSchool": "Zenurik",
   "schools": {
-    "AP_POWER": 512041,
-    "AP_ATTACK": 208055,
-    "AP_DEFENSE": 19176,
-    "AP_WARD": 189445,
-    "AP_TACTIC": 485967
+    "Zenurik": 512041,
+    "Madurai": 208055,
+    "Vazarin": 19176,
+    "Unairu": 189445,
+    "Naramon": 485967
   },
   "unlockedNodes": [
-    "Power Focus Ability",
-    "Energy Over Time Focus Upgrade",
-    "Free Ability Casts Focus Upgrade",
-    "Blast Slow Focus Upgrade",
-    "Dash Bubble Focus Upgrade",
-    "Disarming Projection Upgrade",
-    "Power Field Focus Upgrade",
-    "Energy Restore Focus Upgrade",
-    "Slow Headshot Damage Focus Upgrade",
-    "Disarmed Energy Upgrade",
-    "Energy Pool Focus Upgrade",
-    "Attack Focus Ability",
-    "Physical Damage Focus Upgrade",
-    "Power Snap Focus Upgrade",
-    "Cloak Attack Charge Focus Upgrade",
-    "More Ammo Focus Upgrade",
-    "Consecutive Efficieny Upgrade",
-    "Ghost Wave Upgrade",
-    "Attack Efficiency Focus Upgrade",
-    "Consecutive Power Upgrade",
-    "Regen Ammo Focus Upgrade",
-    "Ghostly Touch Upgrade",
-    "Defense Focus Ability",
-    "Radial Xp Focus Upgrade",
-    "Health Max Focus Upgrade",
-    "Health Regen Focus Upgrade",
-    "Tactic Focus Ability",
-    "Power Ultimate Upgrade",
-    "Ward Focus Ability",
-    "Power Ultimate Number Upgrade",
-    "Melee Combo Focus Upgrade",
-    "Knockdown Immunity Focus Upgrade",
-    "Power Ultimate Blind Upgrade",
-    "Power Ultimate Buff Upgrade",
-    "Power Ultimate Chain Upgrade",
-    "Move Speed Focus Upgrade",
-    "Invulnerable Return Focus Upgrade",
-    "Second Chance Damage Buff Focus Upgrade",
-    "Second Chance Focus Upgrade"
+    {
+      "name": "Zenurik Way",
+      "school": "Zenurik",
+      "level": null
+    },
+    {
+      "name": "Energy Pulse",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Inner Might",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Temporal Drag",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Wellspring",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Disarming Sling",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Hardened Wellspring",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Void Siphon",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Temporal Shot",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "No Quarter",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Void Flow",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Madurai Way",
+      "school": "Madurai",
+      "level": null
+    },
+    {
+      "name": "Phoenix Talons",
+      "school": "Madurai",
+      "level": 3
+    },
+    {
+      "name": "Power Transfer",
+      "school": "Madurai",
+      "level": 3
+    },
+    {
+      "name": "Void Strike",
+      "school": "Madurai",
+      "level": 3
+    },
+    {
+      "name": "Inner Gaze",
+      "school": "Madurai",
+      "level": 3
+    },
+    {
+      "name": "Chained Sling",
+      "school": "Madurai",
+      "level": 2
+    },
+    {
+      "name": "Contamination Wave",
+      "school": "Madurai",
+      "level": 2
+    },
+    {
+      "name": "Void Fuel",
+      "school": "Madurai",
+      "level": 3
+    },
+    {
+      "name": "Sling Strength",
+      "school": "Madurai",
+      "level": 1
+    },
+    {
+      "name": "Eternal Gaze",
+      "school": "Madurai",
+      "level": 3
+    },
+    {
+      "name": "Distilled Contamination",
+      "school": "Madurai",
+      "level": 1
+    },
+    {
+      "name": "Vazarin Way",
+      "school": "Vazarin",
+      "level": null
+    },
+    {
+      "name": "Mending Unity",
+      "school": "Vazarin",
+      "level": 0
+    },
+    {
+      "name": "Enduring Tides",
+      "school": "Vazarin",
+      "level": 3
+    },
+    {
+      "name": "Rejuvenating Tides",
+      "school": "Vazarin",
+      "level": 3
+    },
+    {
+      "name": "Naramon Way",
+      "school": "Naramon",
+      "level": null
+    },
+    {
+      "name": "Lorak Tauron Strike",
+      "school": "Zenurik",
+      "level": 2
+    },
+    {
+      "name": "Unairu Way",
+      "school": "Unairu",
+      "level": null
+    },
+    {
+      "name": "Spectral Pages",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Power Spike",
+      "school": "Naramon",
+      "level": 0
+    },
+    {
+      "name": "Poise",
+      "school": "Unairu",
+      "level": 0
+    },
+    {
+      "name": "Brilliant Insight",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Boundless Energy",
+      "school": "Zenurik",
+      "level": 3
+    },
+    {
+      "name": "Prismatic Beam",
+      "school": "Zenurik",
+      "level": 2
+    },
+    {
+      "name": "Mind Step",
+      "school": "Naramon",
+      "level": 2
+    },
+    {
+      "name": "Reinforced Return",
+      "school": "Unairu",
+      "level": 0
+    },
+    {
+      "name": "Vengeance",
+      "school": "Unairu",
+      "level": 1
+    },
+    {
+      "name": "Last Gasp",
+      "school": "Unairu",
+      "level": 3
+    }
   ],
   "intrinsicsAndSkills": {
-    "LPP_DRIFTER": 120000,
-    "LPS_DRIFT_RIDING": 7,
-    "LPP_SPACE": 53800,
-    "LPS_COMMAND": 10,
-    "LPS_ENGINEERING": 9,
-    "LPS_GUNNERY": 10,
-    "LPS_PILOTING": 10,
-    "LPS_TACTICAL": 10,
-    "LPS_DRIFT_OPPORTUNITY": 10,
-    "LPS_DRIFT_COMBAT": 7,
-    "LPS_DRIFT_ENDURANCE": 10
+    "railjack": {
+      "Tactical": 10,
+      "Piloting": 10,
+      "Gunnery": 10,
+      "Engineering": 9,
+      "Command": 10
+    },
+    "drifter": {
+      "Riding": 7,
+      "Opportunity": 10,
+      "Combat": 7,
+      "Endurance": 10
+    },
+    "progressCounters": {
+      "railjack": 53800,
+      "drifter": 120000
+    }
   }
 }

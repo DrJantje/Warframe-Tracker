@@ -397,7 +397,7 @@ def update(folder: Path) -> None:
     payload["meta"]["exportVerifiedAt"] = now.strftime("%Y-%m-%d %H:%M:%S PDT")
     # Keep machine-specific paths out of the public tracker data.
     payload["meta"].pop("exportFolder", None)
-    payload["meta"]["exportSource"] = "Local AlecaFrame export"
+    payload["meta"]["exportSource"] = "Direct read-only account inventory pull from Digital Extremes"
     payload["meta"]["exportManifest"] = manifest
     payload["meta"]["importChanges"] = changes
     payload["meta"]["relicInventory"] = inventory_counts(parsed["inventoryRelics.json"])
