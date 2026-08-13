@@ -1,19 +1,19 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-13T09:03:57.226234+00:00
-Account snapshot: 2026-08-13T08:52:20.531Z
+Generated: 2026-08-13T09:23:22.634990+00:00
+Account snapshot: 2026-08-13T09:21:17.359Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: Profit Margin (Pluto Proxima) - Axi Void Storm
-- Planet: PROXIMA
-- Frame observation: Titania (arsenal-active)
+- Phase: location
+- Location: HUB
+- Planet: CLAN
+- Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 27006
+- Focus during current capture: 59773
 
 ## Current synchronized loadouts and builds
 
@@ -40,8 +40,8 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Melee: Tenet Livia — config A
 
-- Forma: 1
-- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10)
+- Forma: 2
+- Mods: True Steel (rank 5), Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
