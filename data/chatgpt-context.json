@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T08:29:52.616656+00:00",
+  "generatedAt": "2026-08-13T08:35:22.542993+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,13 +8,13 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-13T08:27:46.786Z",
+  "accountSnapshotAt": "2026-08-13T08:33:17.520Z",
   "liveState": {
-    "observedAt": "2026-08-13T08:28:43.668Z",
-    "phase": "location",
-    "node": "RELAY",
-    "planet": "TENNO",
-    "mission": "HUB",
+    "observedAt": "2026-08-13T08:35:00.598Z",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
@@ -86,26 +86,91 @@
           ]
         },
         "Secondary": {
-          "item": "Athodai",
+          "item": "Tenet Cycron",
           "category": "Pistols",
           "configuration": "A",
-          "formaApplied": 0,
+          "formaApplied": 5,
           "focusLens": null,
-          "polarities": [],
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Hornet Strike",
+              "name": "Weapon Fire Damage Mod Expert",
               "rank": 10
             },
             {
-              "name": "Creeping Bullseye",
+              "name": "Pistol Pestilence",
+              "rank": 3
+            },
+            {
+              "name": "Frostbite",
+              "rank": 3
+            },
+            {
+              "name": "Lethal Torrent",
               "rank": 5
             },
             {
-              "name": "Barrel Diffusion",
+              "name": "Primed Pistol Gambit",
+              "rank": 10
+            },
+            {
+              "name": "Primed Target Cracker",
+              "rank": 10
+            },
+            {
+              "name": "Galvanized Diffusion",
+              "rank": 10
+            },
+            {
+              "name": "Galvanized Shot",
+              "rank": 10
+            },
+            {
+              "name": "Ruinous Extension",
+              "rank": 3
+            },
+            {
+              "name": "Cascadia Flare",
               "rank": 5
             }
           ]

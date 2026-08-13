@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-13T08:29:52.616656+00:00
-Account snapshot: 2026-08-13T08:27:46.786Z
+Generated: 2026-08-13T08:35:22.542993+00:00
+Account snapshot: 2026-08-13T08:33:17.520Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: TENNO
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
 - Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -25,10 +25,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Lens: Tactic Lens Greater
 - Mods: Alchemist Passive Augment Card (rank 3), Serpent Augment Card (rank 3), Umbral Vitality (rank 7), Umbral Intensify (rank 9), Augur Secrets (rank 5), Stretch (rank 5), Umbral Fiber (rank 7), Adaptation (rank 10), Corrosive Projection (rank 5), Arcane Blessing (rank 5), Molt Augmented (rank 5)
 
-#### Secondary: Athodai — config A
+#### Secondary: Tenet Cycron — config A
 
-- Forma: 0
-- Mods: Hornet Strike (rank 10), Creeping Bullseye (rank 5), Barrel Diffusion (rank 5)
+- Forma: 5
+- Mods: Weapon Fire Damage Mod Expert (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3), Cascadia Flare (rank 5)
 
 #### Primary: Coda Synapse — config A
 
