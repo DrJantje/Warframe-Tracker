@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-12",
-    "exportVerifiedAt": "2026-08-12 00:34:19 PDT",
+    "exportVerifiedAt": "2026-08-12 20:24:21 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167911,
-        "modified": "2026-08-12T00:34:18.681852-07:00",
-        "sha256": "69f1fd752e8c6bfe1238099fe9e180e402e2b01c50aa4cc283036bb470b21411"
+        "bytes": 2167909,
+        "modified": "2026-08-12T20:24:20.960859-07:00",
+        "sha256": "e4416e3ced3c2d1628b8ab3b7ee4d0c6309f3f96fcfd6a66f78fd5f26deb9a77"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-12T00:34:18.685372-07:00",
+        "modified": "2026-08-12T20:24:20.964381-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-12T00:34:18.683361-07:00",
-        "sha256": "3d54fd7ad1527c6c2e76f8f68070e0a80aebe03c95a25f89b069ecf983793cb5"
+        "modified": "2026-08-12T20:24:20.962365-07:00",
+        "sha256": "542a2cd17951a9911e93b39671060692f0fa0deb5e626e67e210859ae5f28fef"
       },
       "inventoryRelics.json": {
-        "bytes": 33451,
-        "modified": "2026-08-12T00:34:18.684365-07:00",
-        "sha256": "4fb6cf6db7345768b424b2768debd26e90758229e0edbe48018e6b980805fb5e"
+        "bytes": 33449,
+        "modified": "2026-08-12T20:24:20.963374-07:00",
+        "sha256": "847a3bec173b68b4ed4771f82137a5955e721284ff4c1c1dbb22363771a908c0"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-12T00:34:18.686879-07:00",
-        "sha256": "b3ec8fb7b9183e94cf6be80a28b06439057c19271129a0ce54280685fdf87022"
+        "modified": "2026-08-12T20:24:20.965888-07:00",
+        "sha256": "841ed1f68c7ad5967be782189c3a1eec8d7a7770f41a84f3dad0d8e3dd168fa1"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,7 +48,22 @@
     },
     "importChanges": [
       {
-        "item": "Trumna Prime",
+        "item": "Athodai Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Bonewidow",
         "before": [
           "Yes",
           "No",
@@ -63,11 +78,26 @@
         ]
       },
       {
-        "item": "Vitrica",
+        "item": "Cantare",
         "before": [
+          "No",
+          "No",
+          "No",
+          "Cantare Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (2/4); Cantare Blueprint"
+        ]
+      },
+      {
+        "item": "Epitaph",
+        "before": [
+          "No",
+          "No",
           "Yes",
-          "No",
-          "No",
           ""
         ],
         "after": [
@@ -76,6 +106,81 @@
           "No",
           ""
         ]
+      },
+      {
+        "item": "Heliocor",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Itzal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Itzal Wings Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Nami Skyla Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Blueprint; Nami Skyla Prime Handle (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Handle (0/2)"
+        ]
+      },
+      {
+        "item": "Sevagoth",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Sevagoth Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (25198/30000); Magistar"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (25698/30000); Magistar"
+        ]
       }
     ],
     "summary": {
@@ -83,11 +188,11 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 265
+      "missing": 263
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
-      "Axi S20 Intact": 4,
+      "Axi S20 Intact": 1,
       "Axi T13 Intact": 1,
       "Lith A12 Intact": 10,
       "Lith A12 Radiant": 3,
@@ -106,12 +211,12 @@
       "Lith Q3 Intact": 6,
       "Lith S18 Intact": 1,
       "Lith T14 Intact": 13,
-      "Lith V11 Intact": 12,
+      "Lith V11 Intact": 13,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 19,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 41,
+      "Meso D8 Intact": 44,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 39,
       "Meso L4 Intact": 6,
@@ -120,14 +225,14 @@
       "Meso V13 Intact": 27,
       "Meso V15 Intact": 40,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 22,
+      "Meso X1 Intact": 23,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 25,
-      "Neo A16 Intact": 2,
-      "Neo C7 Intact": 18,
-      "Neo C7 Radiant": 1,
+      "Meso Y2 Intact": 27,
+      "Neo A16 Intact": 0,
+      "Neo C7 Intact": 17,
+      "Neo C7 Radiant": 0,
       "Neo C8 Intact": 0,
-      "Neo C9 Intact": 17,
+      "Neo C9 Intact": 18,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
@@ -135,7 +240,7 @@
       "Neo T11 Intact": 10,
       "Neo V11 Intact": 9,
       "Neo V12 Intact": 10,
-      "Neo Y1 Intact": 10,
+      "Neo Y1 Intact": 9,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -158,22 +263,6 @@
     ]
   },
   "queue": [
-    {
-      "ease": "2 — Easy buy or build",
-      "item": "Itzal",
-      "type": "archwing",
-      "targetRank": "30",
-      "missing": "Itzal Wings Blueprint",
-      "route": "Clan Dojo Tenno Lab",
-      "steps": "Replicate the missing Itzal Wings Blueprint, then build.",
-      "tip": "Check completed lab research first; replicate the blueprint before farming materials.",
-      "source": "https://wiki.warframe.com/w/Itzal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "dojo",
-      "practicalPriority": 1
-    },
     {
       "ease": "3 — Focused short farm",
       "item": "Scourge",
@@ -211,10 +300,10 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Cantare Blueprint",
+      "missing": "Argon Crystal (2/4); Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
+      "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
       "primeDetails": [],
@@ -1284,21 +1373,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Sevagoth",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Sevagoth Systems Blueprint",
-      "route": "Call of the Tempestarii + Void Storms",
-      "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
-      "tip": "Run the shortest comfortable eligible Void Storm for the remaining components.",
-      "source": "https://wiki.warframe.com/w/Sevagoth",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Shedu",
       "type": "primary",
       "targetRank": "30",
@@ -1332,9 +1406,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (25198/30000); Magistar",
+      "missing": "Cryotic (25698/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 4,802 Cryotic, then build.",
+      "steps": "Get 4,302 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -3566,7 +3640,7 @@
       "item": "Nami Skyla Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Blueprint; Nami Skyla Prime Handle (0/2)",
+      "missing": "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Handle (0/2)",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -3575,7 +3649,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4476,6 +4550,15 @@
   ],
   "owned": [
     {
+      "item": "Athodai Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://www.warframe.com/droptables"
+    },
+    {
       "item": "Athodai",
       "type": "secondary",
       "state": "Ready in Foundry",
@@ -4485,31 +4568,22 @@
       "source": "https://wiki.warframe.com/w/Athodai"
     },
     {
-      "item": "Athodai Prime",
-      "type": "secondary",
+      "item": "Itzal",
+      "type": "archwing",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://www.warframe.com/droptables"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Epitaph",
-      "type": "secondary",
+      "item": "Sevagoth",
+      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Epitaph"
-    },
-    {
-      "item": "Heliocor",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Heliocor"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Sevagoth"
     }
   ],
   "rank40": [
@@ -4518,7 +4592,7 @@
       "type": "necramech",
       "status": "Active to 40",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "rankRule": "Acquired at rank 30 baseline; progress to 40 with five total Forma. Current rank/Forma unknown in export.",
       "action": "Verify Forma count; apply/relevel until five total Forma and rank 40.",
       "formaPlan": "Five total Forma; verify existing count"
@@ -5816,17 +5890,17 @@
     {
       "item": "Athodai Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
@@ -6441,7 +6515,7 @@
       "type": "necramech",
       "state": "Active to 40",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "40",
       "rankRule": "Acquired at rank 30 baseline; progress to 40 with five total Forma. Current rank/Forma unknown in export.",
@@ -6794,15 +6868,15 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cantare Blueprint",
+      "missing": "Argon Crystal (2/4); Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
+      "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -9109,17 +9183,17 @@
     {
       "item": "Epitaph",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Earth, Venus and Saturn Proxima Void Storms",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Epitaph",
       "steps": "Farm only the missing components from Void Storm rewards.",
@@ -10707,17 +10781,17 @@
     {
       "item": "Heliocor",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 9,
       "source": "https://wiki.warframe.com/w/Heliocor",
       "primeDetails": [],
@@ -11247,22 +11321,21 @@
     {
       "item": "Itzal",
       "type": "archwing",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Itzal Wings Blueprint",
-      "ease": "2 — Easy buy or build",
-      "route": "Clan Dojo Tenno Lab",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Itzal",
       "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "dojo"
+      "liveMatches": []
     },
     {
       "item": "Ivara",
@@ -13771,7 +13844,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Blueprint; Nami Skyla Prime Handle (0/2)",
+      "missing": "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Handle (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -17080,17 +17153,17 @@
     {
       "item": "Sevagoth",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sevagoth Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Call of the Tempestarii + Void Storms",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Sevagoth",
       "steps": "Main Blueprint from the quest; components from Neptune, Pluto and Veil Proxima Void Storms.",
@@ -17250,7 +17323,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (25198/30000); Magistar",
+      "missing": "Cryotic (25698/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -17259,7 +17332,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 4,802 Cryotic, then build."
+      "steps": "Obtain 4,302 Cryotic, then build."
     },
     {
       "item": "Sicarus",
