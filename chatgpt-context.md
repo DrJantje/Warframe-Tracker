@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-13T06:15:15.182365+00:00
-Account snapshot: 2026-08-13T03:24:20.853Z
+Generated: 2026-08-13T06:39:51.508946+00:00
+Account snapshot: 2026-08-13T06:39:48.360Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: CLAN
-- Frame observation: Titania (location-active)
+- Phase: mission
+- Location: Flexa (Veil Proxima) - Axi Void Storm
+- Planet: PROXIMA
+- Frame observation: Titania (arsenal-selected)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -25,22 +25,22 @@ Use this as the player's current sanitized account and session context. Live obs
 - Lens: Tactic Lens Greater
 - Helminth: Broken Rot Ability
 - Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
-- Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3), Arcane Pistoleer (rank 5), Arcane Impetus (rank 5)
+- Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3), Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
 
-#### Secondary: Athodai Prime — config A
+#### Secondary: Athodai — config A
 
 - Forma: 0
-- Mods: Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10), Magnetic Might (rank 3)
+- Mods: Hornet Strike (rank 10), Creeping Bullseye (rank 5), Barrel Diffusion (rank 5)
 
 #### Primary: Coda Synapse — config A
 
 - Forma: 4
 - Mods: Vital Sense (rank 5), Critical Delay (rank 5), Split Chamber (rank 5), Serration (rank 10)
 
-#### Melee: Tenet Exec — config A
+#### Melee: Tenet Livia — config A
 
-- Forma: 5
-- Mods: Magnetic Rush (rank 3), Organ Shatter (rank 5), Primed Fever Strike (rank 8), True Steel (rank 5), Pressure Point (rank 5), Primed Reach (rank 10), Rending Crane (rank 3)
+- Forma: 1
+- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10)
 
 #### Heavy weapon: Mausolon — config A
 

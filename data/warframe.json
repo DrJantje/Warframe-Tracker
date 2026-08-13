@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-12",
-    "exportVerifiedAt": "2026-08-12 20:24:21 PDT",
+    "exportVerifiedAt": "2026-08-12 23:39:51 PDT",
     "exportSource": "Local AlecaFrame export",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167909,
-        "modified": "2026-08-12T20:24:20.960859-07:00",
-        "sha256": "e4416e3ced3c2d1628b8ab3b7ee4d0c6309f3f96fcfd6a66f78fd5f26deb9a77"
+        "bytes": 2167902,
+        "modified": "2026-08-12T23:39:51.238509-07:00",
+        "sha256": "59ec40e8a01280abb6316ec369cfef939d22c791d8577d09873c8bc5bc9e4952"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-12T20:24:20.964381-07:00",
+        "modified": "2026-08-12T23:39:51.240516-07:00",
         "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-12T20:24:20.962365-07:00",
-        "sha256": "542a2cd17951a9911e93b39671060692f0fa0deb5e626e67e210859ae5f28fef"
+        "modified": "2026-08-12T23:39:51.239009-07:00",
+        "sha256": "16e9c431e23fd21e03c961df4bf51027e2987d79747a59f64cd7370d5b517f49"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-12T20:24:20.963374-07:00",
-        "sha256": "847a3bec173b68b4ed4771f82137a5955e721284ff4c1c1dbb22363771a908c0"
+        "modified": "2026-08-12T23:39:51.240516-07:00",
+        "sha256": "50499764f4d09bb98825b2cf25998cd58c3e7aaed3034e43c0b922c9cf03748f"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-12T20:24:20.965888-07:00",
-        "sha256": "841ed1f68c7ad5967be782189c3a1eec8d7a7770f41a84f3dad0d8e3dd168fa1"
+        "modified": "2026-08-12T23:39:51.243031-07:00",
+        "sha256": "7b56a36b13743208e772d9cff8eff99577b67356d8f3f0d97cc9b8b59ca52c88"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,7 +48,22 @@
     },
     "importChanges": [
       {
-        "item": "Athodai Prime",
+        "item": "Afuris Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Afuris Prime Link; Afuris Prime Receiver (0/2)"
+        ]
+      },
+      {
+        "item": "Athodai",
         "before": [
           "No",
           "No",
@@ -63,7 +78,7 @@
         ]
       },
       {
-        "item": "Bonewidow",
+        "item": "Athodai Prime",
         "before": [
           "Yes",
           "No",
@@ -74,6 +89,21 @@
           "Yes",
           "Yes",
           "No",
+          ""
+        ]
+      },
+      {
+        "item": "Bronco Prime",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "Yes",
           ""
         ]
       },
@@ -83,52 +113,37 @@
           "No",
           "No",
           "No",
-          "Cantare Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Argon Crystal (2/4); Cantare Blueprint"
-        ]
-      },
-      {
-        "item": "Epitaph",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
-          ""
+          "No",
+          "No",
+          "Argon Crystal (1/4); Cantare Blueprint"
         ]
       },
       {
-        "item": "Heliocor",
+        "item": "Cobra & Crane Prime",
         "before": [
           "No",
           "No",
-          "Yes",
-          ""
+          "No",
+          "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
-          ""
+          "No",
+          "No",
+          "Cobra & Crane Prime Guard"
         ]
       },
       {
-        "item": "Itzal",
+        "item": "Hikou Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Itzal Wings Blueprint"
+          "Hikou Prime Pouch (0/2); Hikou Prime Stars (0/2)"
         ],
         "after": [
           "No",
@@ -138,27 +153,27 @@
         ]
       },
       {
-        "item": "Nami Skyla Prime",
+        "item": "Lex Prime",
         "before": [
+          "Yes",
+          "Yes",
           "No",
-          "No",
-          "No",
-          "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Blueprint; Nami Skyla Prime Handle (0/2)"
+          ""
         ],
         "after": [
-          "No",
-          "No",
-          "No",
-          "Nami Skyla Prime Blade (0/2); Nami Skyla Prime Handle (0/2)"
+          "Yes",
+          "Yes",
+          "Yes",
+          ""
         ]
       },
       {
-        "item": "Sevagoth",
+        "item": "Shedu",
         "before": [
           "No",
           "No",
           "No",
-          "Sevagoth Systems Blueprint"
+          "Shedu Handle"
         ],
         "after": [
           "No",
@@ -168,18 +183,33 @@
         ]
       },
       {
-        "item": "Sibear",
+        "item": "Spectra Vandal",
         "before": [
           "No",
           "No",
           "No",
-          "Cryotic (25198/30000); Magistar"
+          "Spectra Vandal Chassis; Spectra Vandal Handle"
         ],
         "after": [
           "No",
           "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Styanax Prime",
+        "before": [
           "No",
-          "Cryotic (25698/30000); Magistar"
+          "No",
+          "No",
+          "Styanax Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
         ]
       }
     ],
@@ -188,7 +218,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 263
+      "missing": 259
     },
     "relicInventory": {
       "Axi D6 Intact": 1,
@@ -208,7 +238,7 @@
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 6,
+      "Lith Q3 Intact": 7,
       "Lith S18 Intact": 1,
       "Lith T14 Intact": 13,
       "Lith V11 Intact": 13,
@@ -218,16 +248,16 @@
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 44,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 39,
+      "Meso K8 Intact": 41,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 26,
-      "Meso V13 Intact": 27,
+      "Meso V13 Intact": 28,
       "Meso V15 Intact": 40,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 23,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 27,
+      "Meso Y2 Intact": 25,
       "Neo A16 Intact": 0,
       "Neo C7 Intact": 17,
       "Neo C7 Radiant": 0,
@@ -300,9 +330,9 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
+      "missing": "Argon Crystal (1/4); Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
@@ -1373,21 +1403,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Shedu",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Shedu Handle",
-      "route": "Veil Sentient anomaly — Symbilysts",
-      "steps": "Target the missing Handle; each Shedu part is a 1% Symbilyst drop.",
-      "tip": "The missing Handle is a 1% drop from each Symbilyst. Since Shedu parts are tradeable and only one piece remains, compare the Handle’s trade price before committing to a long Sentient Anomaly farm.",
-      "source": "https://wiki.warframe.com/w/Shedu",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Spinnerex",
       "type": "melee",
       "targetRank": "30",
@@ -1411,21 +1426,6 @@
       "steps": "Get 4,302 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Spectra Vandal",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Spectra Vandal Chassis; Spectra Vandal Handle",
-      "route": "Veil Proxima Grineer abandoned derelicts",
-      "steps": "Farm the missing components from derelict cache rewards.",
-      "tip": "Complete the derelict point of interest before extraction.",
-      "source": "https://wiki.warframe.com/w/Spectra_Vandal",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2416,7 +2416,7 @@
       "item": "Afuris Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)",
+      "missing": "Afuris Prime Link; Afuris Prime Receiver (0/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -2427,7 +2427,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2885,7 +2885,7 @@
       "item": "Cobra & Crane Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard",
+      "missing": "Cobra & Crane Prime Guard",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "steps": "Buy the listed current relics from Varzia for Aya, then open them in Void Fissures.",
       "tip": "Use the per-part refinement shown below; spend Aya only on relics containing pieces still missing.",
@@ -2896,7 +2896,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3313,39 +3313,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 515
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Hikou Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Hikou Prime Pouch (0/2); Hikou Prime Stars (0/2)",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Farm Lith C7 for Hikou Prime Pouch ×2. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Intact because the reward is Common. Farm Axi V10 for Hikou Prime Stars ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Intact because the reward is Common. Build Hikou Prime and level it to 30.",
-      "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Hikou Prime Pouch (0/2)",
-          "relic": "Lith C7",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Hikou Prime Stars (0/2)",
-          "relic": "Axi V10",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Intact"
-        }
-      ],
-      "liveMatches": [],
-      "practicalPriority": 410
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3917,7 +3884,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Void Relic — Lith Q2/Q3",
-      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×6; refine and radshare.",
+      "steps": "One Blade is still needed. Export holds Lith Q2 ×0 and Lith Q3 ×7; refine and radshare.",
       "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -4150,22 +4117,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 510
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Styanax Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Styanax Prime Systems Blueprint",
-      "route": "Void Relics / player trade",
-      "steps": "Match each missing Prime part to a live relic, refine for Rare rewards, and use shares.",
-      "tip": "Use intact relics for Commons; use Radiant four-player shares for Rares.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "CURRENT RELICS",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 305
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4550,22 +4501,22 @@
   ],
   "owned": [
     {
-      "item": "Athodai Prime",
+      "item": "Athodai",
       "type": "secondary",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://www.warframe.com/droptables"
+      "source": "https://wiki.warframe.com/w/Athodai"
     },
     {
-      "item": "Athodai",
+      "item": "Hikou Prime",
       "type": "secondary",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Athodai"
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "item": "Itzal",
@@ -4584,6 +4535,33 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Sevagoth"
+    },
+    {
+      "item": "Shedu",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Shedu"
+    },
+    {
+      "item": "Spectra Vandal",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Spectra_Vandal"
+    },
+    {
+      "item": "Styanax Prime",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://www.warframe.com/droptables"
     }
   ],
   "rank40": [
@@ -4928,7 +4906,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Afuris Prime Barrel (0/2); Afuris Prime Link; Afuris Prime Receiver (0/2)",
+      "missing": "Afuris Prime Link; Afuris Prime Receiver (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -5869,17 +5847,17 @@
     {
       "item": "Athodai",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Venus Proxima abandoned derelict cache B",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Athodai",
       "steps": "Obtain the missing  from Venus Proxima abandoned-derelict cache B.",
@@ -5890,15 +5868,15 @@
     {
       "item": "Athodai Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -6673,7 +6651,7 @@
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -6868,14 +6846,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
+      "missing": "Argon Crystal (1/4); Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "primeDetails": [],
       "liveMatches": []
@@ -7409,7 +7387,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cobra & Crane Prime Blade; Cobra & Crane Prime Guard",
+      "missing": "Cobra & Crane Prime Guard",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -10962,39 +10940,22 @@
     {
       "item": "Hikou Prime",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Hikou Prime Pouch (0/2); Hikou Prime Stars (0/2)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Permanent Railjack relic pools",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 4,
       "source": "https://www.warframe.com/droptables",
       "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Hikou Prime Pouch (0/2)",
-          "relic": "Lith C7",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Intact"
-        },
-        {
-          "part": "Hikou Prime Stars (0/2)",
-          "relic": "Axi V10",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Intact"
-        }
-      ],
-      "steps": "Farm Lith C7 for Hikou Prime Pouch ×2. Lith C7 comes from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards. Open it Intact because the reward is Common. Farm Axi V10 for Hikou Prime Stars ×2. Axi V10 comes from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards. Open it Intact because the reward is Common. Build Hikou Prime and level it to 30.",
+      "primeDetails": [],
+      "steps": " Build Hikou Prime and level it to 30.",
       "tip": "Do not spend Void Traces refining Common rewards. Compare trade prices only if farming the final copies becomes inefficient.",
       "liveMatches": []
     },
@@ -13029,7 +12990,7 @@
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -17256,17 +17217,17 @@
     {
       "item": "Shedu",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Shedu Handle",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Veil Sentient anomaly — Symbilysts",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Shedu",
       "steps": "Target the missing Handle; each Shedu part is a 1% Symbilyst drop.",
@@ -17717,17 +17678,17 @@
     {
       "item": "Spectra Vandal",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Spectra Vandal Chassis; Spectra Vandal Handle",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Veil Proxima Grineer abandoned derelicts",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Spectra_Vandal",
       "steps": "Farm the missing components from derelict cache rewards.",
@@ -18099,22 +18060,21 @@
     {
       "item": "Styanax Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Styanax Prime Systems Blueprint",
-      "ease": "3 — Focused short farm",
-      "route": "Void Relics / player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
-      "liveMatches": [],
-      "primeStatus": "CURRENT RELICS"
+      "liveMatches": []
     },
     {
       "item": "Sun & Moon",

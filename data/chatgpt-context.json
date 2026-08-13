@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T06:15:15.182365+00:00",
+  "generatedAt": "2026-08-13T06:39:51.508946+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,21 +8,21 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-13T03:24:20.853Z",
+  "accountSnapshotAt": "2026-08-13T06:39:48.360Z",
   "liveState": {
-    "observedAt": "2026-08-13T05:32:40.874Z",
-    "phase": "location",
-    "node": "DOJO",
-    "planet": "CLAN",
-    "mission": "HUB",
-    "missionKey": null,
-    "voidTier": null,
+    "observedAt": "2026-08-13T06:38:34.267Z",
+    "phase": "mission",
+    "node": "RAILJACK",
+    "planet": "PROXIMA",
+    "mission": "Flexa (Veil Proxima) - Axi Void Storm",
+    "missionKey": "CrewBattleNode553_VoidStorm",
+    "voidTier": "Axi",
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "location-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "arsenal-selected",
+    "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -114,13 +114,13 @@
               "rank": 5
             },
             {
-              "name": "Arcane Impetus",
+              "name": "Arcane Velocity",
               "rank": 5
             }
           ]
         },
         "Secondary": {
-          "item": "Athodai Prime",
+          "item": "Athodai",
           "category": "Pistols",
           "configuration": "A",
           "formaApplied": 0,
@@ -131,20 +131,16 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Pistol Gambit",
-              "rank": 10
-            },
-            {
-              "name": "Barrel Diffusion",
-              "rank": 5
-            },
-            {
               "name": "Hornet Strike",
               "rank": 10
             },
             {
-              "name": "Magnetic Might",
-              "rank": 3
+              "name": "Creeping Bullseye",
+              "rank": 5
+            },
+            {
+              "name": "Barrel Diffusion",
+              "rank": 5
             }
           ]
         },
@@ -195,31 +191,15 @@
           ]
         },
         "Melee": {
-          "item": "Tenet Exec",
+          "item": "Tenet Livia",
           "category": "Melee",
           "configuration": "A",
-          "formaApplied": 5,
+          "formaApplied": 1,
           "focusLens": null,
           "polarities": [
             {
               "slot": 7,
               "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_TACTIC"
             }
           ],
           "modularParts": [],
@@ -227,11 +207,7 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Magnetic Rush",
-              "rank": 3
-            },
-            {
-              "name": "Organ Shatter",
+              "name": "Pressure Point",
               "rank": 5
             },
             {
@@ -239,20 +215,8 @@
               "rank": 8
             },
             {
-              "name": "True Steel",
-              "rank": 5
-            },
-            {
-              "name": "Pressure Point",
-              "rank": 5
-            },
-            {
               "name": "Primed Reach",
               "rank": 10
-            },
-            {
-              "name": "Rending Crane",
-              "rank": 3
             }
           ]
         },
