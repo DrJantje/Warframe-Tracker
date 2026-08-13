@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T07:47:51.174008+00:00",
+  "generatedAt": "2026-08-13T07:49:57.606348+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,20 +8,20 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-13T07:42:52.605Z",
+  "accountSnapshotAt": "2026-08-13T07:49:53.775Z",
   "liveState": {
-    "observedAt": "2026-08-13T07:47:20.418Z",
+    "observedAt": "2026-08-13T07:49:54.359Z",
     "phase": "mission",
     "node": "RAILJACK",
     "planet": "PROXIMA",
-    "mission": "Flexa (Veil Proxima) - Axi Void Storm",
-    "missionKey": "CrewBattleNode553_VoidStorm",
-    "voidTier": "VoidT4",
+    "mission": "Peregrine Axis (Pluto Proxima) - Axi Void Storm",
+    "missionKey": "CrewBattleNode536",
+    "voidTier": "Axi",
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 2954,
+    "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "session-carried",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
