@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-15T22:16:14.117625+00:00",
+  "generatedAt": "2026-08-15T22:49:52.514390+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-15T22:14:10.896Z",
+  "accountSnapshotAt": "2026-08-15T22:47:49.654Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-15T22:14:10.896Z",
+      "capturedAt": "2026-08-15T22:47:49.654Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-15T22:15:33.992Z",
-    "phase": "mission",
-    "node": "ORDIS NEXT",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-08-15T22:49:07.672Z",
+    "phase": "location",
+    "node": "SANCTUM",
+    "planet": "DEIMOS",
+    "mission": "HUB",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-selected",
+    "frameConfidence": "sync-awaiting-snapshot",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -180,12 +180,12 @@
           "item": "Tenet Glaxion",
           "category": "LongGuns",
           "configuration": "A",
-          "formaApplied": 3,
+          "formaApplied": 4,
           "focusLens": null,
           "polarities": [
             {
               "slot": 0,
-              "polarity": "AP_UNIVERSAL"
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 1,
@@ -279,9 +279,9 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-132",
+          "buildRef": "melee-131",
           "resolutionStatus": "exact-build-ref",
-          "item": "Tenet Agendus",
+          "item": "Tenet Grigori",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -297,17 +297,17 @@
               "kind": "mod"
             },
             {
-              "name": "Primed Fever Strike",
-              "rank": 8,
-              "kind": "mod"
-            },
-            {
               "name": "Primed Reach",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Eleventh Storm",
+              "name": "Primed Fever Strike",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Reaping Spiral",
               "rank": 3,
               "kind": "mod"
             }

@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-15T22:16:14.117625+00:00
-Account snapshot: 2026-08-15T22:14:10.896Z
+Generated: 2026-08-15T22:49:52.514390+00:00
+Account snapshot: 2026-08-15T22:47:49.654Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-selected)
+- Phase: location
+- Location: HUB
+- Planet: DEIMOS
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -30,14 +30,14 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Primary: Tenet Glaxion — config A
 
-- Forma: 3
+- Forma: 4
 - Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
 - Arcanes: Primary Debilitate (rank 5)
 
-#### Melee: Tenet Agendus — config A
+#### Melee: Tenet Grigori — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10), Eleventh Storm (rank 3)
+- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Primed Fever Strike (rank 8), Reaping Spiral (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
