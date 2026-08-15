@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-15T21:31:14.320304+00:00",
+  "generatedAt": "2026-08-15T22:16:14.117625+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,49 +8,49 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-15T21:29:08.338Z",
+  "accountSnapshotAt": "2026-08-15T22:14:10.896Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-15T21:29:08.338Z",
+      "capturedAt": "2026-08-15T22:14:10.896Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-15T21:29:08.340563+00:00",
+    "observedAt": "2026-08-15T22:15:33.992Z",
     "phase": "mission",
-    "node": "PLAYER SHIP",
+    "node": "ORDIS NEXT",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
     "missionKey": null,
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameConfidence": "arsenal-selected",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -225,13 +225,13 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Vile Acceleration",
+              "name": "Vital Sense",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Thermite Rounds",
-              "rank": 3,
+              "name": "Photon Overcharge",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -240,8 +240,8 @@
               "kind": "mod"
             },
             {
-              "name": "Vital Sense",
-              "rank": 5,
+              "name": "Thermite Rounds",
+              "rank": 3,
               "kind": "mod"
             },
             {

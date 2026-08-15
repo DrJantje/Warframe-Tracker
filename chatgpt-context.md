@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-15T21:31:14.320304+00:00
-Account snapshot: 2026-08-15T21:29:08.338Z
+Generated: 2026-08-15T22:16:14.117625+00:00
+Account snapshot: 2026-08-15T22:14:10.896Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Frame observation: Titania (arsenal-selected)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -31,7 +31,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Primary: Tenet Glaxion — config A
 
 - Forma: 3
-- Mods: Vile Acceleration (rank 5), Thermite Rounds (rank 3), Critical Delay (rank 5), Vital Sense (rank 5), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
+- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
 - Arcanes: Primary Debilitate (rank 5)
 
 #### Melee: Tenet Agendus — config A
