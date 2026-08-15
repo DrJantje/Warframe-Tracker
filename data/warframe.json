@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-13",
-    "exportVerifiedAt": "2026-08-13 17:35:56 PDT",
+    "snapshotDate": "2026-08-14",
+    "exportVerifiedAt": "2026-08-14 17:35:28 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167901,
-        "modified": "2026-08-13T17:35:55.740998-07:00",
-        "sha256": "1cc567b4e1fd456f1879034b434460ec8e267da3fc151d46596f6a685c2440e7"
+        "bytes": 2167924,
+        "modified": "2026-08-14T17:35:27.932007-07:00",
+        "sha256": "70fbe08ef96b27e45ea4d5db880d939a0b2b349969b9108130ab0d0daa83f0e1"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-13T17:35:55.743011-07:00",
-        "sha256": "e99b1636cc8c9bc2ec12d2607d72d17cbe0d9946318b4be0ba72210d2d67549c"
+        "modified": "2026-08-14T17:35:27.938064-07:00",
+        "sha256": "cfb300a2766faf7423d6ae5bf4f978b95064cf494234a1c3f264e3d7bf8526a1"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-13T17:35:55.741501-07:00",
-        "sha256": "519ab36b4505225fc8ce897bdbb85b2094ff6688d6df9346f789045bcb30df78"
+        "modified": "2026-08-14T17:35:27.934031-07:00",
+        "sha256": "bc031dc8516774cffbf469d808002b26bd5bf4c31b092d1e0f2bb36c4760eb15"
       },
       "inventoryRelics.json": {
-        "bytes": 33451,
-        "modified": "2026-08-13T17:35:55.741501-07:00",
-        "sha256": "25ee85df5a5831049ef74331d9af5ea04bfbbe512109726e5aa5ca700d0bbc6f"
+        "bytes": 33449,
+        "modified": "2026-08-14T17:35:27.935549-07:00",
+        "sha256": "3acd1d4b57cc24dde3c019aec6ca5f32da0b885f98fdf48c67ddb89268ac0eb4"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-13T17:35:55.744525-07:00",
-        "sha256": "e97a7ed4b005079687c0bd8298c591a227c51c163614cef962c35c444bc382d7"
+        "modified": "2026-08-14T17:35:27.941088-07:00",
+        "sha256": "9b8906241349a1ce2b1d8499b967f8929b2baa7fba7b607e04e21eb22ce20a5c"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,6 +48,21 @@
     },
     "importChanges": [
       {
+        "item": "Akbronco Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Bronco Prime (0/2)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
         "item": "Bronco Prime",
         "before": [
           "Yes",
@@ -56,25 +71,175 @@
           ""
         ],
         "after": [
+          "No",
           "Yes",
-          "Yes",
-          "Yes",
+          "No",
           ""
         ]
       },
       {
-        "item": "Lex Prime",
+        "item": "Cantare",
         "before": [
-          "Yes",
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (1/4); Cantare Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (0/4); Cantare Blueprint"
+        ]
+      },
+      {
+        "item": "Carmine Penta",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Carmine Penta Receiver"
+        ],
+        "after": [
           "Yes",
           "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Coda Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon from Eleanor"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hikou Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
           ""
         ],
         "after": [
           "Yes",
           "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Itzal",
+        "before": [
+          "No",
+          "No",
           "Yes",
           ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Nautilus",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nautilus Cerebrum; Nautilus Systems"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Nyx Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Pennant",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Pennant Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Shedu",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Spectra Vandal",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Valkyr Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Valkyr Prime Chassis Blueprint; Valkyr Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Valkyr Prime Chassis Blueprint"
         ]
       }
     ],
@@ -83,12 +248,12 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 259
+      "missing": 254
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
       "Axi S20 Intact": 0,
-      "Axi T13 Intact": 1,
+      "Axi T13 Intact": 0,
       "Lith A12 Intact": 10,
       "Lith A12 Radiant": 3,
       "Lith C14 Exceptional": 1,
@@ -109,20 +274,20 @@
       "Lith V11 Intact": 13,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 19,
+      "Meso A12 Intact": 20,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 45,
+      "Meso D8 Intact": 47,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 41,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 26,
+      "Meso L5 Intact": 27,
       "Meso V13 Intact": 28,
-      "Meso V15 Intact": 40,
+      "Meso V15 Intact": 42,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 23,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 25,
+      "Meso Y2 Intact": 26,
       "Neo A16 Intact": 0,
       "Neo C7 Intact": 17,
       "Neo C7 Radiant": 0,
@@ -139,7 +304,7 @@
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
-      "Requiem IV Intact": 10
+      "Requiem IV Intact": 9
     },
     "basePrimeAssemblies": {
       "Bronco Prime": 0,
@@ -195,9 +360,9 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (1/4); Cantare Blueprint",
+      "missing": "Argon Crystal (0/4); Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
@@ -234,21 +399,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 32
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Pennant",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Pennant Blueprint",
-      "route": "Railjack commanders",
-      "steps": "Defeat eligible commanders on nodes such as Kasio’s Rest or Flexa. The Blueprint is squad-shared and tradable.",
-      "tip": "Only one squad member needs the Blueprint drop for everyone to receive it.",
-      "source": "https://wiki.warframe.com/w/Pennant",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 41
     },
     {
       "ease": "4 — Multi-step farm",
@@ -998,21 +1148,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Nautilus",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Nautilus Cerebrum; Nautilus Systems",
-      "route": "Neptune Proxima abandoned Ice Mine caches / Arva Vector",
-      "steps": "Farm the missing Cerebrum and Systems from Neptune Proxima abandoned Ice Mine cache B, or from Arva Vector rotations B and C.",
-      "tip": "Ice Mine cache B is 6.06% per Nautilus blueprint; Arva Vector rotation B is 4.65% and rotation C is 4.26%.",
-      "source": "https://wiki.warframe.com/w/Nautilus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Octavia",
       "type": "warframe",
       "targetRank": "30",
@@ -1133,38 +1268,8 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Carmine Penta",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Carmine Penta Receiver",
-      "route": "Pluto or Veil Corpus Proxima abandoned Freightlinker caches",
-      "steps": "Farm the missing Receiver from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
-      "tip": "Activate the Freightlinker terminal and finish the Railjack mission so the cache reward is retained.",
-      "source": "https://wiki.warframe.com/w/Carmine_Penta",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Coda Caustacyst",
       "type": "melee",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon from Eleanor",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Coda Hema",
-      "type": "primary",
       "targetRank": "30 first; 40 optional",
       "missing": "Completed weapon from Eleanor",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
@@ -2352,28 +2457,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 520
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Akbronco Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Bronco Prime (0/2)",
-      "route": "Void Relics / player trade",
-      "steps": "Build two complete Bronco Prime weapons, then consume both in the Akbronco Prime recipe.",
-      "tip": "Current component inventory can assemble 0 complete Bronco Prime weapons; the recipe requires two.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "basePrimeDependency": {
-        "item": "Bronco Prime",
-        "required": 2,
-        "completeOwned": 0,
-        "assemblable": 0
-      },
-      "primeStatus": "CURRENT RELICS",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3621,22 +3704,14 @@
       "item": "Nyx Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
+      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
       "route": "Permanent Railjack relic pools",
-      "steps": "Nyx Prime Blueprint (Common): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Intact in a four-player share. Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [
-        {
-          "part": "Nyx Prime Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Intact"
-        },
         {
           "part": "Nyx Prime Chassis Blueprint",
           "relic": "Axi S8",
@@ -3663,7 +3738,7 @@
         }
       ],
       "liveMatches": [],
-      "practicalPriority": 420
+      "practicalPriority": 415
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4214,9 +4289,9 @@
       "item": "Valkyr Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Valkyr Prime Chassis Blueprint; Valkyr Prime Systems Blueprint",
+      "missing": "Valkyr Prime Chassis Blueprint",
       "route": "Permanent Railjack relic pools",
-      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Valkyr Prime Systems Blueprint (Uncommon): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
+      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -4229,18 +4304,10 @@
           "ownedRelics": 0,
           "relicSource": "Veil Proxima Railjack point-of-interest caches",
           "refinement": "Radiant"
-        },
-        {
-          "part": "Valkyr Prime Systems Blueprint",
-          "relic": "Axi V10",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
-      "practicalPriority": 410
+      "practicalPriority": 405
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4446,22 +4513,67 @@
   ],
   "owned": [
     {
-      "item": "Hikou Prime",
+      "item": "Akbronco Prime",
       "type": "secondary",
-      "state": "Ready in Foundry",
+      "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
+      "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://www.warframe.com/droptables"
     },
     {
+      "item": "Carmine Penta",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Carmine_Penta"
+    },
+    {
+      "item": "Coda Hema",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+    },
+    {
       "item": "Itzal",
       "type": "archwing",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Itzal"
+    },
+    {
+      "item": "Shedu",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Shedu"
+    },
+    {
+      "item": "Nautilus",
+      "type": "companion",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Itzal"
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Nautilus"
+    },
+    {
+      "item": "Pennant",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pennant"
     },
     {
       "item": "Sevagoth",
@@ -4471,24 +4583,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Sevagoth"
-    },
-    {
-      "item": "Shedu",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Shedu"
-    },
-    {
-      "item": "Spectra Vandal",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Spectra_Vandal"
     },
     {
       "item": "Styanax Prime",
@@ -5029,15 +5123,15 @@
     {
       "item": "Akbronco Prime",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Bronco Prime (0/2)",
-      "ease": "4 — Multi-step farm",
-      "route": "Void Relics / player trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
@@ -5048,11 +5142,8 @@
         "completeOwned": 0,
         "assemblable": 0
       },
-      "steps": "Build two complete Bronco Prime weapons, then consume both in the Akbronco Prime recipe.",
-      "tip": "Current component inventory can assemble 0 complete Bronco Prime weapons; the recipe requires two.",
       "primeDetails": [],
-      "liveMatches": [],
-      "primeStatus": "CURRENT RELICS"
+      "liveMatches": []
     },
     {
       "item": "Akjagara",
@@ -6628,8 +6719,8 @@
     {
       "item": "Bronco Prime",
       "type": "secondary",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
@@ -6827,14 +6918,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (1/4); Cantare Blueprint",
+      "missing": "Argon Crystal (0/4); Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 3 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "primeDetails": [],
       "liveMatches": []
@@ -6861,20 +6952,20 @@
     {
       "item": "Carmine Penta",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Carmine Penta Receiver",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Pluto or Veil Corpus Proxima abandoned Freightlinker caches",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Carmine_Penta",
-      "steps": "Farm the missing Receiver from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
+      "steps": "Farm the missing  from Pluto or Veil Corpus Proxima abandoned Freightlinker cache B.",
       "tip": "Activate the Freightlinker terminal and finish the Railjack mission so the cache reward is retained.",
       "primeDetails": [],
       "liveMatches": []
@@ -7478,14 +7569,14 @@
     {
       "item": "Coda Hema",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon from Eleanor",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10926,17 +11017,17 @@
     {
       "item": "Hikou Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 4,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
@@ -11265,17 +11356,17 @@
     {
       "item": "Itzal",
       "type": "archwing",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Itzal",
       "primeDetails": [],
@@ -13834,20 +13925,20 @@
     {
       "item": "Nautilus",
       "type": "companion",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Nautilus Cerebrum; Nautilus Systems",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Neptune Proxima abandoned Ice Mine caches / Arva Vector",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nautilus",
-      "steps": "Farm the missing Cerebrum and Systems from Neptune Proxima abandoned Ice Mine cache B, or from Arva Vector rotations B and C.",
+      "steps": "Farm the missing  from Neptune Proxima abandoned Ice Mine cache B, or from Arva Vector rotations B and C.",
       "tip": "Ice Mine cache B is 6.06% per Nautilus blueprint; Arva Vector rotation B is 4.65% and rotation C is 4.26%.",
       "primeDetails": [],
       "liveMatches": []
@@ -14243,7 +14334,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
+      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Permanent Railjack relic pools",
       "vaulted": "No",
@@ -14252,14 +14343,6 @@
       "source": "https://www.warframe.com/droptables",
       "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [
-        {
-          "part": "Nyx Prime Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Intact"
-        },
         {
           "part": "Nyx Prime Chassis Blueprint",
           "relic": "Axi S8",
@@ -14285,7 +14368,7 @@
           "refinement": "Radiant"
         }
       ],
-      "steps": "Nyx Prime Blueprint (Common): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Intact in a four-player share. Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
@@ -15000,17 +15083,17 @@
     {
       "item": "Pennant",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Pennant Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Railjack commanders",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Pennant",
       "steps": "Defeat eligible commanders on nodes such as Kasio’s Rest or Flexa. The Blueprint is squad-shared and tradable.",
@@ -17183,17 +17266,17 @@
     {
       "item": "Shedu",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Veil Sentient anomaly — Symbilysts",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Shedu",
       "primeDetails": [],
@@ -17644,17 +17727,17 @@
     {
       "item": "Spectra Vandal",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Veil Proxima Grineer abandoned derelicts",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Spectra_Vandal",
       "primeDetails": [],
@@ -19583,7 +19666,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Valkyr Prime Chassis Blueprint; Valkyr Prime Systems Blueprint",
+      "missing": "Valkyr Prime Chassis Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Permanent Railjack relic pools",
       "vaulted": "No",
@@ -19599,17 +19682,9 @@
           "ownedRelics": 0,
           "relicSource": "Veil Proxima Railjack point-of-interest caches",
           "refinement": "Radiant"
-        },
-        {
-          "part": "Valkyr Prime Systems Blueprint",
-          "relic": "Axi V10",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Radiant"
         }
       ],
-      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Valkyr Prime Systems Blueprint (Uncommon): farm Axi V10 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
+      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },

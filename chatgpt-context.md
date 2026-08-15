@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-14T00:35:56.023614+00:00
-Account snapshot: 2026-08-14T00:33:50.346Z
+Generated: 2026-08-15T00:35:28.227400+00:00
+Account snapshot: 2026-08-15T00:35:23.622Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,38 +10,34 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (server-sent)
+- Frame observation: Titania (mission-active)
 - Steel Path: no
-- Matchmaking: PUBLIC
+- Matchmaking: SOLO
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Lavos Los Manos
+### Arsenal: Mesa
 
-#### Warframe: Lavos Prime — config A
+#### Warframe: Titania Prime — config A
+
+- Forma: 2
+- Lens: Greater Naramon Lens
+- Helminth: Xata's Whisper
+- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
+- Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
+- Arcanes: Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
+
+#### Primary: Shedu — config A
 
 - Forma: 0
-- Lens: Greater Naramon Lens
-- Mods: Valence Formation (rank 3), Swift Bite (rank 3), Umbral Vitality (rank 7), Umbral Intensify (rank 9), Augur Secrets (rank 5), Stretch (rank 5), Umbral Fiber (rank 7), Adaptation (rank 10), Corrosive Projection (rank 5)
-- Arcanes: Arcane Blessing (rank 5), Molt Augmented (rank 5)
-
-#### Secondary: Tenet Cycron — config A
-
-- Forma: 5
-- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
-- Arcanes: Cascadia Flare (rank 5)
-
-#### Primary: Coda Synapse — config A
-
-- Forma: 5
-- Mods: Vital Sense (rank 5), Critical Delay (rank 5), Split Chamber (rank 5), Serration (rank 10)
+- Mods: Split Chamber (rank 5), Serration (rank 10), Critical Delay (rank 5)
 - Arcanes: none recorded
 
 #### Melee: Tenet Livia — config A
 
-- Forma: 2
-- Mods: True Steel (rank 5), Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10)
+- Forma: 5
+- Mods: Organ Shatter (rank 5), True Steel (rank 5), Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -50,7 +46,19 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### Companion: Lavos Los Manos
+#### Exalted weapon: Dex Pixia Prime — config A
+
+- Forma: 7
+- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Magnetic Might (rank 3), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 9)
+- Arcanes: Secondary Enervate (rank 5)
+
+#### Second exalted weapon: Diwata Prime — config A
+
+- Forma: 0
+- Mods: Gladiator Rush (rank 5), Gladiator Might (rank 5), Pressure Point (rank 5), Sacrificial Steel (rank 8), Blood Rush (rank 10), Weeping Wounds (rank 5), Sundering Strike (rank 5), Primed Reach (rank 10)
+- Arcanes: Melee Doughty (rank 5)
+
+### Companion: Mesa
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -58,10 +66,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Akaten — config A
+#### Companion weapon: Stinger — config A
 
 - Forma: 0
-- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10)
+- Mods: Continuous Misery (rank 3), Rime Rounds (rank 3), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
