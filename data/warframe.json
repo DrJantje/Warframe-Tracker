@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-14",
-    "exportVerifiedAt": "2026-08-14 17:35:28 PDT",
+    "snapshotDate": "2026-08-15",
+    "exportVerifiedAt": "2026-08-15 14:16:31 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167924,
-        "modified": "2026-08-14T17:35:27.932007-07:00",
-        "sha256": "70fbe08ef96b27e45ea4d5db880d939a0b2b349969b9108130ab0d0daa83f0e1"
+        "bytes": 2167782,
+        "modified": "2026-08-15T14:16:30.597426-07:00",
+        "sha256": "22f0acceefb3740696f8c5d00e4853ed67a76bccb35182501246906f9d594df2"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-14T17:35:27.938064-07:00",
-        "sha256": "cfb300a2766faf7423d6ae5bf4f978b95064cf494234a1c3f264e3d7bf8526a1"
+        "modified": "2026-08-15T14:16:30.601646-07:00",
+        "sha256": "5bc996b2703db79b0a933d50630162dec6d2b4e6ed74acc9899e6cf3c9762b08"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-14T17:35:27.934031-07:00",
-        "sha256": "bc031dc8516774cffbf469d808002b26bd5bf4c31b092d1e0f2bb36c4760eb15"
+        "modified": "2026-08-15T14:16:30.599430-07:00",
+        "sha256": "8fa4489a0fc0e3862145aedff73c933f834d147a6bd82063931885c743fd49d4"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-14T17:35:27.935549-07:00",
-        "sha256": "3acd1d4b57cc24dde3c019aec6ca5f32da0b885f98fdf48c67ddb89268ac0eb4"
+        "modified": "2026-08-15T14:16:30.600433-07:00",
+        "sha256": "06a794fd9fb5f58cb535cc53346e535afbe9ab7c3286f9b67f85224895174688"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-14T17:35:27.941088-07:00",
-        "sha256": "9b8906241349a1ce2b1d8499b967f8929b2baa7fba7b607e04e21eb22ce20a5c"
+        "modified": "2026-08-15T14:16:30.603661-07:00",
+        "sha256": "bdabe92d476d694067fb2bddcaf7fe4cefb66aae426c925f474c84cd4e1c971c"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -50,20 +50,20 @@
       {
         "item": "Akbronco Prime",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Bronco Prime (0/2)"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
       },
       {
-        "item": "Bronco Prime",
+        "item": "Atlas",
         "before": [
           "Yes",
           "Yes",
@@ -83,26 +83,26 @@
           "No",
           "No",
           "No",
-          "Argon Crystal (1/4); Cantare Blueprint"
+          "Argon Crystal (0/4); Cantare Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Argon Crystal (0/4); Cantare Blueprint"
+          "Argon Crystal (2/4); Cantare Blueprint"
         ]
       },
       {
         "item": "Carmine Penta",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Carmine Penta Receiver"
+          ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -110,24 +110,9 @@
       {
         "item": "Coda Hema",
         "before": [
-          "No",
-          "No",
-          "No",
-          "Completed weapon from Eleanor"
-        ],
-        "after": [
           "Yes",
           "No",
           "No",
-          ""
-        ]
-      },
-      {
-        "item": "Hikou Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
           ""
         ],
         "after": [
@@ -138,18 +123,18 @@
         ]
       },
       {
-        "item": "Itzal",
+        "item": "Hema",
         "before": [
           "No",
           "No",
-          "Yes",
-          ""
+          "No",
+          "Hema Blueprint"
         ],
         "after": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Hema Blueprint; Forma Blueprint"
         ]
       },
       {
@@ -157,29 +142,14 @@
         "before": [
           "No",
           "No",
-          "No",
-          "Nautilus Cerebrum; Nautilus Systems"
-        ],
-        "after": [
-          "No",
-          "No",
           "Yes",
           ""
-        ]
-      },
-      {
-        "item": "Nyx Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Nyx Prime Blueprint; Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint"
         ],
         "after": [
+          "Yes",
+          "Yes",
           "No",
-          "No",
-          "No",
-          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint"
+          ""
         ]
       },
       {
@@ -187,37 +157,22 @@
         "before": [
           "No",
           "No",
-          "No",
-          "Pennant Blueprint"
+          "Yes",
+          ""
         ],
         "after": [
-          "No",
-          "No",
           "Yes",
+          "Yes",
+          "No",
           ""
         ]
       },
       {
         "item": "Shedu",
         "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
           "Yes",
           "No",
           "No",
-          ""
-        ]
-      },
-      {
-        "item": "Spectra Vandal",
-        "before": [
-          "No",
-          "No",
-          "Yes",
           ""
         ],
         "after": [
@@ -228,18 +183,78 @@
         ]
       },
       {
-        "item": "Valkyr Prime",
+        "item": "Tenet Agendus",
         "before": [
           "No",
           "No",
           "No",
-          "Valkyr Prime Chassis Blueprint; Valkyr Prime Systems Blueprint"
+          "Completed weapon"
         ],
         "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Tenet Ferrox",
+        "before": [
           "No",
           "No",
           "No",
-          "Valkyr Prime Chassis Blueprint"
+          "Completed weapon"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Tenet Glaxion",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Tenet Grigori",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Verglas",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Verglas (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
         ]
       }
     ],
@@ -248,7 +263,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 254
+      "missing": 249
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -271,12 +286,12 @@
       "Lith Q3 Intact": 7,
       "Lith S18 Intact": 1,
       "Lith T14 Intact": 13,
-      "Lith V11 Intact": 13,
+      "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 20,
+      "Meso A12 Intact": 21,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 47,
+      "Meso D8 Intact": 48,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 41,
       "Meso L4 Intact": 6,
@@ -344,7 +359,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Forma Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -360,9 +375,9 @@
       "item": "Cantare",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Argon Crystal (0/4); Cantare Blueprint",
+      "missing": "Argon Crystal (2/4); Cantare Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
       "vaulted": "No",
@@ -964,51 +979,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Tenet Agendus",
-      "type": "melee",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon",
-      "route": "Ergo Glast relay stock — Corrupted Holokeys",
-      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
-      "tip": "Check the weekly element and bonus before spending Holokeys.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Tenet Ferrox",
-      "type": "primary",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon",
-      "route": "Ergo Glast relay stock — Corrupted Holokeys",
-      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
-      "tip": "Check the weekly element and bonus before spending Holokeys.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Tenet Grigori",
-      "type": "melee",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon",
-      "route": "Ergo Glast relay stock — Corrupted Holokeys",
-      "steps": "Buy the completed weapon from Ergo Glast when its rotating bonus is acceptable.",
-      "tip": "Check the weekly element and bonus before spending Holokeys.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Vasca Kavat",
       "type": "companion",
       "targetRank": "30",
@@ -1036,21 +1006,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Verglas",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Verglas (completed item)",
-      "route": "Nautilus bundled companion weapon",
-      "steps": "Obtain Nautilus; Verglas is granted automatically with it.",
-      "tip": "The bundled weapon uses its own companion inventory slot.",
-      "source": "https://wiki.warframe.com/w/Verglas",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
       "practicalPriority": 405
     },
     {
@@ -1976,21 +1931,6 @@
     {
       "ease": "5 — Long grind / trade",
       "item": "Tenet Flux Rifle",
-      "type": "primary",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon",
-      "route": "Sister of Parvos adversary",
-      "steps": "Create a Sister carrying the weapon, complete the adversary sequence, and vanquish her.",
-      "tip": "Check the Candidate weapon preview before creating the Sister.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 655
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Tenet Glaxion",
       "type": "primary",
       "targetRank": "30 first; 40 optional",
       "missing": "Completed weapon",
@@ -4513,33 +4453,6 @@
   ],
   "owned": [
     {
-      "item": "Akbronco Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://www.warframe.com/droptables"
-    },
-    {
-      "item": "Carmine Penta",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Carmine_Penta"
-    },
-    {
-      "item": "Coda Hema",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30 first; 40 optional",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
-    },
-    {
       "item": "Itzal",
       "type": "archwing",
       "state": "Rank unknown — verify in Arsenal",
@@ -4549,31 +4462,31 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Shedu",
+      "item": "Tenet Agendus",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+    },
+    {
+      "item": "Tenet Ferrox",
       "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
+      "targetRank": "30 first; 40 optional",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Shedu"
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
     },
     {
-      "item": "Nautilus",
-      "type": "companion",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Nautilus"
-    },
-    {
-      "item": "Pennant",
+      "item": "Tenet Grigori",
       "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pennant"
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
     },
     {
       "item": "Sevagoth",
@@ -5123,15 +5036,15 @@
     {
       "item": "Akbronco Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
@@ -5143,7 +5056,9 @@
         "assemblable": 0
       },
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Build two complete Bronco Prime weapons, then consume both in the Akbronco Prime recipe.",
+      "tip": "Current component inventory can assemble 0 complete Bronco Prime weapons; the recipe requires two."
     },
     {
       "item": "Akjagara",
@@ -5942,8 +5857,8 @@
     {
       "item": "Atlas",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -6918,14 +6833,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Argon Crystal (0/4); Cantare Blueprint",
+      "missing": "Argon Crystal (2/4); Cantare Blueprint",
       "ease": "3 — Focused short farm",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 4 Argon Crystal last.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
       "primeDetails": [],
       "liveMatches": []
@@ -6952,14 +6867,14 @@
     {
       "item": "Carmine Penta",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Pluto or Veil Corpus Proxima abandoned Freightlinker caches",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7569,14 +7484,14 @@
     {
       "item": "Coda Hema",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10940,7 +10855,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Forma Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
@@ -13925,17 +13840,17 @@
     {
       "item": "Nautilus",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Neptune Proxima abandoned Ice Mine caches / Arva Vector",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nautilus",
       "steps": "Farm the missing  from Neptune Proxima abandoned Ice Mine cache B, or from Arva Vector rotations B and C.",
@@ -15083,17 +14998,17 @@
     {
       "item": "Pennant",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Railjack commanders",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Pennant",
       "steps": "Defeat eligible commanders on nodes such as Kasio’s Rest or Flexa. The Blueprint is squad-shared and tradable.",
@@ -17266,14 +17181,14 @@
     {
       "item": "Shedu",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Veil Sentient anomaly — Symbilysts",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18658,14 +18573,14 @@
     {
       "item": "Tenet Agendus",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Ergo Glast relay stock — Corrupted Holokeys",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18805,14 +18720,14 @@
     {
       "item": "Tenet Ferrox",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Ergo Glast relay stock — Corrupted Holokeys",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18847,14 +18762,14 @@
     {
       "item": "Tenet Glaxion",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
       "rankRule": "",
-      "missing": "Completed weapon",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Sister of Parvos adversary",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18868,14 +18783,14 @@
     {
       "item": "Tenet Grigori",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Ergo Glast relay stock — Corrupted Holokeys",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -20118,14 +20033,14 @@
     {
       "item": "Verglas",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Verglas (completed item)",
-      "ease": "4 — Multi-step farm",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Nautilus bundled companion weapon",
       "vaulted": "No",
       "pendingFoundry": "No",
