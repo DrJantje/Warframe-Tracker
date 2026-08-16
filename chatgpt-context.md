@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-15T23:14:22.229324+00:00
-Account snapshot: 2026-08-15T23:12:16.019Z
+Generated: 2026-08-16T05:50:13.893843+00:00
+Account snapshot: 2026-08-16T02:03:56.597Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: DEIMOS
-- Frame observation: Titania (location-active)
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
