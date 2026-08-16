@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-16",
-    "exportVerifiedAt": "2026-08-16 08:46:40 PDT",
+    "exportVerifiedAt": "2026-08-16 10:53:32 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167769,
-        "modified": "2026-08-16T08:46:39.802747-07:00",
-        "sha256": "41b8a6599ec14ce14adf9d6828cc2206c6c3e789a1ef559e67a98a4b0ea94330"
+        "modified": "2026-08-16T10:53:32.393885-07:00",
+        "sha256": "fc8ee8a187402bb8d998513d1d549646903644a599dd80c8cef376464f70ac07"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-16T08:46:39.806931-07:00",
+        "modified": "2026-08-16T10:53:32.396396-07:00",
         "sha256": "64b20779b6285d02d1dcda261056535c7a80d552f89d1f66044f6afa24079b61"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-16T08:46:39.804254-07:00",
+        "modified": "2026-08-16T10:53:32.394389-07:00",
         "sha256": "8fa4489a0fc0e3862145aedff73c933f834d147a6bd82063931885c743fd49d4"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-16T08:46:39.805257-07:00",
+        "modified": "2026-08-16T10:53:32.395896-07:00",
         "sha256": "59db24baa97ec1e59fd0ff23628081ca1e5c2589c653a2bd8f10b252399752d3"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-16T08:46:39.808941-07:00",
+        "modified": "2026-08-16T10:53:32.397909-07:00",
         "sha256": "bdabe92d476d694067fb2bddcaf7fe4cefb66aae426c925f474c84cd4e1c971c"
       },
       "rivens.json": {
@@ -48,123 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Evensong",
+        "item": "Sibear",
         "before": [
           "No",
           "No",
           "No",
-          "Evensong Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Sarofang",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Sarofang Blade; Sarofang Handle"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Sevagoth",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Strun Wraith",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Strun Wraith Barrel; Strun Wraith Blueprint; Strun Wraith Receiver; Strun Wraith Stock"
+          "Cryotic (25698/30000); Magistar"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock"
-        ]
-      },
-      {
-        "item": "Sunika Kubrow",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Sunika Kubrow breeding result"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Tenet Ferrox",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Tenet Grigori",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Voruna",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint"
+          "Cryotic (26858/30000); Magistar"
         ]
       }
     ],
@@ -1227,9 +1122,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (25698/30000); Magistar",
+      "missing": "Cryotic (26858/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 4,302 Cryotic, then build.",
+      "steps": "Get 3,142 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -17104,7 +16999,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (25698/30000); Magistar",
+      "missing": "Cryotic (26858/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -17113,7 +17008,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 4,302 Cryotic, then build."
+      "steps": "Obtain 3,142 Cryotic, then build."
     },
     {
       "item": "Sicarus",
