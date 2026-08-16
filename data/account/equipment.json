@@ -4459,8 +4459,8 @@
     "buildRef": "longguns-102",
     "name": "Coda Hema",
     "category": "LongGuns",
-    "xp": 554949,
-    "formaApplied": 4,
+    "xp": 1329300,
+    "formaApplied": 5,
     "focusLens": null,
     "polarities": [
       {
@@ -4478,6 +4478,10 @@
       {
         "slot": 3,
         "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 1,
+        "polarity": "AP_ATTACK"
       }
     ],
     "modularParts": [],
@@ -4488,8 +4492,8 @@
         "name": "A",
         "mods": [
           {
-            "name": "Malignant Force",
-            "rank": 3,
+            "name": "Hellfire",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -6888,7 +6892,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 80392153,
+    "xp": 104032152,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -7198,7 +7202,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 270795201,
+    "xp": 294435200,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -8879,6 +8883,61 @@
           {
             "name": "Iron Phoenix",
             "rank": 3,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "longguns-106",
+    "name": "Evensong",
+    "category": "LongGuns",
+    "xp": 661003,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Malignant Force",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "High Voltage",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Serration",
+            "rank": 10,
             "kind": "mod"
           }
         ],
@@ -12781,8 +12840,8 @@
             "kind": "mod"
           },
           {
-            "name": "Morphic Transformer",
-            "rank": 3,
+            "name": "Argon Plating",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -18185,7 +18244,7 @@
     "buildRef": "suits-017",
     "name": "Nekros Prime",
     "category": "Suits",
-    "xp": 44405435,
+    "xp": 44454494,
     "formaApplied": 4,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -19583,7 +19642,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 9627963,
+    "xp": 9866267,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -20479,7 +20538,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 423575869,
+    "xp": 442667003,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -20635,7 +20694,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 408350574,
+    "xp": 427400388,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -24183,6 +24242,61 @@
           {
             "name": "Hell's Chamber",
             "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "melee-133",
+    "name": "Sarofang",
+    "category": "Melee",
+    "xp": 660609,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Primed Fever Strike",
+            "rank": 8,
+            "kind": "mod"
+          },
+          {
+            "name": "Pressure Point",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Reach",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Rending Crane",
+            "rank": 3,
             "kind": "mod"
           }
         ],
@@ -27869,12 +27983,28 @@
     "buildRef": "melee-132",
     "name": "Tenet Agendus",
     "category": "Melee",
-    "xp": 479547,
-    "formaApplied": 1,
+    "xp": 477603,
+    "formaApplied": 5,
     "focusLens": null,
     "polarities": [
       {
         "slot": 7,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 5,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 6,
+        "polarity": "AP_TACTIC"
+      },
+      {
+        "slot": 4,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 3,
         "polarity": "AP_ATTACK"
       }
     ],
@@ -27885,6 +28015,16 @@
         "index": 0,
         "name": "A",
         "mods": [
+          {
+            "name": "Organ Shatter",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "True Steel",
+            "rank": 5,
+            "kind": "mod"
+          },
           {
             "name": "Magnetic Rush",
             "rank": 3,
@@ -28394,7 +28534,7 @@
     "buildRef": "longguns-105",
     "name": "Tenet Ferrox",
     "category": "LongGuns",
-    "xp": 501651,
+    "xp": 573867,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -28572,7 +28712,7 @@
     "buildRef": "melee-131",
     "name": "Tenet Grigori",
     "category": "Melee",
-    "xp": 833166,
+    "xp": 902781,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -28949,7 +29089,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 120983732,
+    "xp": 144623880,
     "formaApplied": 2,
     "focusLens": "Greater Naramon Lens",
     "polarities": [

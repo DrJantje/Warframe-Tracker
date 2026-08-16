@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-16",
-    "exportVerifiedAt": "2026-08-16 11:48:23 PDT",
+    "exportVerifiedAt": "2026-08-16 14:36:02 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167769,
-        "modified": "2026-08-16T11:48:23.132049-07:00",
-        "sha256": "fc8ee8a187402bb8d998513d1d549646903644a599dd80c8cef376464f70ac07"
+        "bytes": 2167767,
+        "modified": "2026-08-16T14:36:02.230289-07:00",
+        "sha256": "f15e5e0ddba5d4a0cf22a1a2edfce91922a2c5fa287ddfa9259086b7d2865086"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-16T11:48:23.133556-07:00",
-        "sha256": "64b20779b6285d02d1dcda261056535c7a80d552f89d1f66044f6afa24079b61"
+        "modified": "2026-08-16T14:36:02.236317-07:00",
+        "sha256": "c8cbe3dea4f338d0c3d4c225a45f3aee331eff70be59733c80890de0f7d3860a"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-16T11:48:23.133053-07:00",
+        "modified": "2026-08-16T14:36:02.232300-07:00",
         "sha256": "8fa4489a0fc0e3862145aedff73c933f834d147a6bd82063931885c743fd49d4"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-16T11:48:23.133556-07:00",
-        "sha256": "59db24baa97ec1e59fd0ff23628081ca1e5c2589c653a2bd8f10b252399752d3"
+        "modified": "2026-08-16T14:36:02.233807-07:00",
+        "sha256": "f0e720a04d6dead8b5e9ed83fd62c499318f84886b4d40fbd69bdd165bacf3d5"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-16T11:48:23.135572-07:00",
-        "sha256": "bdabe92d476d694067fb2bddcaf7fe4cefb66aae426c925f474c84cd4e1c971c"
+        "modified": "2026-08-16T14:36:02.239839-07:00",
+        "sha256": "c80829708ed23bc25de3048a6dddef7a87cff6bcf6fba3bea616e615225494e8"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,7 +46,98 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Evensong",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Jade",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Jade Chassis Blueprint; Jade Neuroptics Blueprint; Jade Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Jade Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Nyx Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Sarofang",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Strun Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Strun Wraith Barrel; Strun Wraith Receiver"
+        ]
+      },
+      {
+        "item": "Voruna",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Lua Thrax Plasm (8/50)"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
@@ -82,18 +173,18 @@
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 48,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 43,
+      "Meso K8 Intact": 44,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 28,
-      "Meso V13 Intact": 29,
+      "Meso L5 Intact": 30,
+      "Meso V13 Intact": 30,
       "Meso V15 Intact": 43,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 24,
+      "Meso X1 Intact": 25,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 27,
+      "Meso Y2 Intact": 28,
       "Neo A16 Intact": 1,
-      "Neo C7 Intact": 17,
+      "Neo C7 Intact": 18,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 1,
       "Neo C9 Intact": 19,
@@ -922,10 +1013,25 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Voruna",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Lua Thrax Plasm (8/50)",
+      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 42 Lua Thrax Plasm.",
+      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
+      "source": "https://wiki.warframe.com/w/Voruna",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 486
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Jade",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Jade Chassis Blueprint; Jade Neuroptics Blueprint; Jade Systems Blueprint",
+      "missing": "Jade Neuroptics Blueprint",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "steps": "Farm Jade components or buy missing pieces from Ordis with Vestigial Motes.",
       "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
@@ -933,7 +1039,7 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 500
+      "practicalPriority": 490
     },
     {
       "ease": "5 — Long grind / trade",
@@ -945,21 +1051,6 @@
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
       "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
       "source": "https://wiki.warframe.com/w/Scyotid",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 500
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Voruna",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint",
-      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 42 Lua Thrax Plasm.",
-      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
-      "source": "https://wiki.warframe.com/w/Voruna",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1779,6 +1870,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Strun Wraith",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Strun Wraith Barrel; Strun Wraith Receiver",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Strun_Wraith",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 760
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Gorgon Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1817,21 +1923,6 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "source": "https://wiki.warframe.com/w/Karak_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 765
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Strun Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Strun_Wraith",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -3388,9 +3479,9 @@
       "item": "Nyx Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
+      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint",
       "route": "Permanent Railjack relic pools",
-      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -3411,18 +3502,10 @@
           "ownedRelics": 0,
           "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
           "refinement": "Radiant"
-        },
-        {
-          "part": "Nyx Prime Systems Blueprint",
-          "relic": "Lith C7",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
-      "practicalPriority": 415
+      "practicalPriority": 410
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4213,24 +4296,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level the companion in high-affinity missions.",
       "source": "https://wiki.warframe.com/w/Sunika_Kubrow"
-    },
-    {
-      "item": "Evensong",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Evensong"
-    },
-    {
-      "item": "Sarofang",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sarofang"
     },
     {
       "item": "Styanax Prime",
@@ -9051,17 +9116,17 @@
     {
       "item": "Evensong",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Evensong",
       "steps": "Farm the blueprint or buy it from Ordis with Vestigial Motes.",
@@ -11069,7 +11134,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Jade Chassis Blueprint; Jade Neuroptics Blueprint; Jade Systems Blueprint",
+      "missing": "Jade Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
@@ -13984,7 +14049,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint",
+      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Permanent Railjack relic pools",
       "vaulted": "No",
@@ -14008,17 +14073,9 @@
           "ownedRelics": 0,
           "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
           "refinement": "Radiant"
-        },
-        {
-          "part": "Nyx Prime Systems Blueprint",
-          "relic": "Lith C7",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards",
-          "refinement": "Radiant"
         }
       ],
-      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Nyx Prime Systems Blueprint (Uncommon): farm Lith C7 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
@@ -16436,17 +16493,17 @@
     {
       "item": "Sarofang",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Sarofang",
       "steps": "Farm the Blade and Handle or buy them from Yonta with Lua Thrax Plasm.",
@@ -17687,7 +17744,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock",
+      "missing": "Strun Wraith Barrel; Strun Wraith Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -20092,7 +20149,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint",
+      "missing": "Lua Thrax Plasm (8/50)",
       "ease": "5 — Long grind / trade",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
