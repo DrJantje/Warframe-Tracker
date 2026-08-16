@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-16T06:13:24.439869+00:00
-Account snapshot: 2026-08-16T02:03:56.597Z
+Generated: 2026-08-16T15:46:40.070756+00:00
+Account snapshot: 2026-08-16T15:46:35.955Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-active)
+- Location: CONCLAVE
+- Planet: unknown
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,16 +28,16 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
 - Arcanes: Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
 
-#### Primary: Tenet Glaxion — config A
+#### Primary: Coda Hema — config A
 
 - Forma: 4
-- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
-- Arcanes: Primary Debilitate (rank 5)
+- Mods: Malignant Force (rank 3), High Voltage (rank 3), Cryo Rounds (rank 5), Split Chamber (rank 5), Serration (rank 10)
+- Arcanes: none recorded
 
-#### Melee: Tenet Grigori — config A
+#### Melee: Tenet Agendus — config A
 
-- Forma: 0
-- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Primed Fever Strike (rank 8), Reaping Spiral (rank 3)
+- Forma: 1
+- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10), Eleventh Storm (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

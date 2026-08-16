@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-15",
-    "exportVerifiedAt": "2026-08-15 23:13:24 PDT",
+    "snapshotDate": "2026-08-16",
+    "exportVerifiedAt": "2026-08-16 08:46:40 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167781,
-        "modified": "2026-08-15T23:13:24.204433-07:00",
-        "sha256": "fb7208ab7869c68412915341caadd8c06e05f49e61101d6ea7b7b62aabfb2b63"
+        "bytes": 2167769,
+        "modified": "2026-08-16T08:46:39.802747-07:00",
+        "sha256": "41b8a6599ec14ce14adf9d6828cc2206c6c3e789a1ef559e67a98a4b0ea94330"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-15T23:13:24.206964-07:00",
-        "sha256": "ed7f4653858f270b52375bc22fed517be8f927d5c82601513d15238db8d661b1"
+        "modified": "2026-08-16T08:46:39.806931-07:00",
+        "sha256": "64b20779b6285d02d1dcda261056535c7a80d552f89d1f66044f6afa24079b61"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-15T23:13:24.205454-07:00",
+        "modified": "2026-08-16T08:46:39.804254-07:00",
         "sha256": "8fa4489a0fc0e3862145aedff73c933f834d147a6bd82063931885c743fd49d4"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-15T23:13:24.205958-07:00",
-        "sha256": "308841204c59e78a4c039992700fda3027a9a0d476fd22b359b2103170dc6c80"
+        "modified": "2026-08-16T08:46:39.805257-07:00",
+        "sha256": "59db24baa97ec1e59fd0ff23628081ca1e5c2589c653a2bd8f10b252399752d3"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-15T23:13:24.207469-07:00",
+        "modified": "2026-08-16T08:46:39.808941-07:00",
         "sha256": "bdabe92d476d694067fb2bddcaf7fe4cefb66aae426c925f474c84cd4e1c971c"
       },
       "rivens.json": {
@@ -46,17 +46,138 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Evensong",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Evensong Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sarofang",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Sarofang Blade; Sarofang Handle"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sevagoth",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Strun Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Strun Wraith Barrel; Strun Wraith Blueprint; Strun Wraith Receiver; Strun Wraith Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock"
+        ]
+      },
+      {
+        "item": "Sunika Kubrow",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Sunika Kubrow breeding result"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Tenet Ferrox",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Tenet Grigori",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Voruna",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 249
+      "missing": 246
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
-      "Axi S20 Intact": 0,
+      "Axi S20 Intact": 1,
       "Axi T13 Intact": 0,
       "Lith A12 Intact": 10,
       "Lith A12 Radiant": 3,
@@ -82,17 +203,17 @@
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 48,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 41,
+      "Meso K8 Intact": 43,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 27,
-      "Meso V13 Intact": 28,
-      "Meso V15 Intact": 42,
+      "Meso L5 Intact": 28,
+      "Meso V13 Intact": 29,
+      "Meso V15 Intact": 43,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 24,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 26,
-      "Neo A16 Intact": 0,
+      "Meso Y2 Intact": 27,
+      "Neo A16 Intact": 1,
       "Neo C7 Intact": 17,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 1,
@@ -173,21 +294,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 30
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Evensong",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Evensong Blueprint",
-      "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm the blueprint or buy it from Ordis with Vestigial Motes.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
-      "source": "https://wiki.warframe.com/w/Evensong",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 31
     },
     {
       "ease": "3 — Focused short farm",
@@ -296,21 +402,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 305
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Sarofang",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Sarofang Blade; Sarofang Handle",
-      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
-      "steps": "Farm the Blade and Handle or buy them from Yonta with Lua Thrax Plasm.",
-      "tip": "Use Lua Thrax Plasm for the final missing component.",
-      "source": "https://wiki.warframe.com/w/Sarofang",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 395
     },
     {
       "ease": "4 — Multi-step farm",
@@ -722,21 +813,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Sunika Kubrow",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Sunika Kubrow breeding result",
-      "route": "Companion breeding in the Orbiter Incubator",
-      "steps": "Incubate a Kubrow Egg. Use two Sunika Kubrow genetic imprints to guarantee the breed.",
-      "tip": "Without two matching imprints, the Kubrow breed is random.",
-      "source": "https://wiki.warframe.com/w/Sunika_Kubrow",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Supra Vandal",
       "type": "primary",
       "targetRank": "30",
@@ -967,21 +1043,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Voruna",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint",
-      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.",
-      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
-      "source": "https://wiki.warframe.com/w/Voruna",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 495
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Jade",
       "type": "warframe",
       "targetRank": "30",
@@ -1005,6 +1066,21 @@
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
       "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
       "source": "https://wiki.warframe.com/w/Scyotid",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 500
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Voruna",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint",
+      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 42 Lua Thrax Plasm.",
+      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
+      "source": "https://wiki.warframe.com/w/Voruna",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1869,6 +1945,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Strun Wraith",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Strun_Wraith",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 765
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Dera Vandal",
       "type": "primary",
       "targetRank": "30",
@@ -1922,21 +2013,6 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 770
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Strun Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Strun Wraith Barrel; Strun Wraith Blueprint; Strun Wraith Receiver; Strun Wraith Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Strun_Wraith",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -4251,31 +4327,31 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Tenet Ferrox",
+      "item": "Sunika Kubrow",
+      "type": "companion",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Sunika_Kubrow"
+    },
+    {
+      "item": "Evensong",
       "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30 first; 40 optional",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
-    },
-    {
-      "item": "Tenet Grigori",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30 first; 40 optional",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
-    },
-    {
-      "item": "Sevagoth",
-      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Sevagoth"
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Evensong"
+    },
+    {
+      "item": "Sarofang",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sarofang"
     },
     {
       "item": "Styanax Prime",
@@ -9096,17 +9172,17 @@
     {
       "item": "Evensong",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Evensong Blueprint",
-      "ease": "3 — Focused short farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Evensong",
       "steps": "Farm the blueprint or buy it from Ordis with Vestigial Motes.",
@@ -16481,17 +16557,17 @@
     {
       "item": "Sarofang",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sarofang Blade; Sarofang Handle",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Sarofang",
       "steps": "Farm the Blade and Handle or buy them from Yonta with Lua Thrax Plasm.",
@@ -16861,17 +16937,17 @@
     {
       "item": "Sevagoth",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Call of the Tempestarii + Void Storms",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Sevagoth",
       "primeDetails": [],
@@ -17732,7 +17808,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Strun Wraith Barrel; Strun Wraith Blueprint; Strun Wraith Receiver; Strun Wraith Stock",
+      "missing": "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -17842,14 +17918,14 @@
     {
       "item": "Sunika Kubrow",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sunika Kubrow breeding result",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18500,14 +18576,14 @@
     {
       "item": "Tenet Ferrox",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Ergo Glast relay stock — Corrupted Holokeys",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18563,14 +18639,14 @@
     {
       "item": "Tenet Grigori",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Ergo Glast relay stock — Corrupted Holokeys",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -20137,14 +20213,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Voruna Chassis Blueprint; Voruna Neuroptics Blueprint",
+      "missing": "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Voruna",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 42 Lua Thrax Plasm.",
       "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
       "primeDetails": [],
       "liveMatches": []

@@ -3647,7 +3647,7 @@
     "buildRef": "spacemelee-004",
     "name": "Centaur",
     "category": "SpaceMelee",
-    "xp": 663568,
+    "xp": 666680,
     "formaApplied": 1,
     "focusLens": null,
     "polarities": [
@@ -4459,12 +4459,24 @@
     "buildRef": "longguns-102",
     "name": "Coda Hema",
     "category": "LongGuns",
-    "xp": 0,
-    "formaApplied": 1,
+    "xp": 102969,
+    "formaApplied": 4,
     "focusLens": null,
     "polarities": [
       {
         "slot": 6,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 5,
+        "polarity": "AP_DEFENSE"
+      },
+      {
+        "slot": 4,
+        "polarity": "AP_DEFENSE"
+      },
+      {
+        "slot": 3,
         "polarity": "AP_ATTACK"
       }
     ],
@@ -4477,7 +4489,12 @@
         "mods": [
           {
             "name": "Malignant Force",
-            "rank": 2,
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "High Voltage",
+            "rank": 3,
             "kind": "mod"
           },
           {
@@ -5003,7 +5020,7 @@
     "buildRef": "longguns-095",
     "name": "Coda Synapse",
     "category": "LongGuns",
-    "xp": 309514,
+    "xp": 1180768,
     "formaApplied": 6,
     "focusLens": null,
     "polarities": [
@@ -6871,7 +6888,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 61435934,
+    "xp": 78855466,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -7181,7 +7198,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 251838982,
+    "xp": 269258514,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -12747,7 +12764,7 @@
     "buildRef": "spacesuits-004",
     "name": "Itzal",
     "category": "SpaceSuits",
-    "xp": 5733,
+    "xp": 30265,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -16567,7 +16584,7 @@
     "buildRef": "spaceguns-002",
     "name": "Mausolon",
     "category": "SpaceGuns",
-    "xp": 11855443,
+    "xp": 11881012,
     "formaApplied": 3,
     "focusLens": null,
     "polarities": [
@@ -19566,7 +19583,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 9471124,
+    "xp": 9627963,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -20462,7 +20479,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 407313277,
+    "xp": 422375098,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -20618,7 +20635,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 392652237,
+    "xp": 407170764,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -22846,6 +22863,82 @@
     ]
   },
   {
+    "buildRef": "specialitems-046",
+    "name": "Reaper",
+    "category": "SpecialItems",
+    "xp": 1485560,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Streamline",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Steel Fiber",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Stretch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Boreal's Hatred",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Vitality",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Intensify",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Molt Augmented",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Molt Efficiency",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-071",
     "name": "Reconifex",
     "category": "LongGuns",
@@ -24725,6 +24818,77 @@
     ]
   },
   {
+    "buildRef": "suits-056",
+    "name": "Sevagoth",
+    "category": "Suits",
+    "xp": 1502598,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Streamline",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Stretch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Boreal's Hatred",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Vitality",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Energy Siphon",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Molt Augmented",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Molt Efficiency",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "suits-029",
     "name": "Sevagoth Prime",
     "category": "Suits",
@@ -24936,6 +25100,40 @@
             "kind": "mod"
           }
         ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "specialitems-047",
+    "name": "Shadow Claws",
+    "category": "SpecialItems",
+    "xp": 1485560,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -26673,6 +26871,40 @@
     ]
   },
   {
+    "buildRef": "kubrowpets-013",
+    "name": "Sunika Kubrow",
+    "category": "KubrowPets",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-079",
     "name": "Supra",
     "category": "LongGuns",
@@ -27637,10 +27869,15 @@
     "buildRef": "melee-132",
     "name": "Tenet Agendus",
     "category": "Melee",
-    "xp": 2826808,
-    "formaApplied": 0,
+    "xp": 32571,
+    "formaApplied": 1,
     "focusLens": null,
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 7,
+        "polarity": "AP_ATTACK"
+      }
+    ],
     "modularParts": [],
     "archonShards": [],
     "configurations": [
@@ -27648,6 +27885,11 @@
         "index": 0,
         "name": "A",
         "mods": [
+          {
+            "name": "Magnetic Rush",
+            "rank": 3,
+            "kind": "mod"
+          },
           {
             "name": "Pressure Point",
             "rank": 5,
@@ -27815,7 +28057,7 @@
     "buildRef": "pistols-065",
     "name": "Tenet Cycron",
     "category": "Pistols",
-    "xp": 2743510,
+    "xp": 2998917,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -28152,7 +28394,7 @@
     "buildRef": "longguns-105",
     "name": "Tenet Ferrox",
     "category": "LongGuns",
-    "xp": 0,
+    "xp": 501651,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -28207,8 +28449,8 @@
     "buildRef": "longguns-104",
     "name": "Tenet Glaxion",
     "category": "LongGuns",
-    "xp": 225313,
-    "formaApplied": 4,
+    "xp": 1010122,
+    "formaApplied": 5,
     "focusLens": null,
     "polarities": [
       {
@@ -28233,7 +28475,7 @@
       },
       {
         "slot": 5,
-        "polarity": "AP_UNIVERSAL"
+        "polarity": "AP_ATTACK"
       },
       {
         "slot": 6,
@@ -28330,10 +28572,31 @@
     "buildRef": "melee-131",
     "name": "Tenet Grigori",
     "category": "Melee",
-    "xp": 199296,
-    "formaApplied": 0,
+    "xp": 833166,
+    "formaApplied": 5,
     "focusLens": null,
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 7,
+        "polarity": "AP_TACTIC"
+      },
+      {
+        "slot": 5,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 4,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 3,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 2,
+        "polarity": "AP_DEFENSE"
+      }
+    ],
     "modularParts": [],
     "archonShards": [],
     "configurations": [
@@ -28341,6 +28604,26 @@
         "index": 0,
         "name": "A",
         "mods": [
+          {
+            "name": "Volcanic Edge",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "True Steel",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Magnetic Rush",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Virulent Scourge",
+            "rank": 3,
+            "kind": "mod"
+          },
           {
             "name": "Pressure Point",
             "rank": 5,
@@ -28666,7 +28949,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 102027083,
+    "xp": 119447045,
     "formaApplied": 2,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
