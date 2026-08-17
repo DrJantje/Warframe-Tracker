@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-17T00:17:45.999344+00:00",
+  "generatedAt": "2026-08-17T00:46:02.234496+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-17T00:15:40.981865+00:00",
+    "observedAt": "2026-08-17T00:42:46.322111+00:00",
     "phase": "location",
     "node": "DRIFTER'S CAMP",
     "planet": "EARTH",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameConfidence": "location-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
