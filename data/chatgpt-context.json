@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-17T19:30:44.254623+00:00",
+  "generatedAt": "2026-08-17T19:38:22.273642+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,18 +48,18 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-17T19:28:57.421Z",
-    "phase": "location",
-    "node": "DRIFTER'S CAMP",
-    "planet": "EARTH",
-    "mission": "HUB",
+    "observedAt": "2026-08-17T19:37:15.417Z",
+    "phase": "mission",
+    "node": "1999Hub",
+    "planet": "",
+    "mission": "CONCLAVE",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
-    "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameCandidate": "Ash",
+    "frameConfidence": "arsenal-selected",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
