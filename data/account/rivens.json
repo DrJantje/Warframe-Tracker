@@ -1,5 +1,32 @@
 [
   {
+    "rivenRef": "riven-010",
+    "name": "Burston Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Burston",
+    "weaponType": "Rifle",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_DEFENSE",
+    "rerolls": 0,
+    "minimumMastery": 10,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Fire Damage Mod"
+      },
+      {
+        "trait": "Weapon Ammo Max Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Fire Rate Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-003",
     "name": "Hind Riven",
     "unveiled": true,
@@ -20,6 +47,29 @@
       },
       {
         "trait": "Weapon Fire Iterations Mod"
+      }
+    ],
+    "negativeTraits": [],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "riven-011",
+    "name": "Hind Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Hind",
+    "weaponType": "Rifle",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_ATTACK",
+    "rerolls": 0,
+    "minimumMastery": 11,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Fire Rate Mod"
+      },
+      {
+        "trait": "Weapon Faction Damage Infested"
       }
     ],
     "negativeTraits": [],
@@ -186,7 +236,23 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "veiled-011",
+    "rivenRef": "veiled-013",
+    "name": "Veiled Kitgun Riven",
+    "unveiled": false,
+    "owned": 1,
+    "weapon": null,
+    "weaponType": "Kitgun",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": null,
+    "rerolls": 0,
+    "minimumMastery": 0,
+    "positiveTraits": [],
+    "negativeTraits": [],
+    "detailsStatus": "current direct aggregate"
+  },
+  {
+    "rivenRef": "veiled-012",
     "name": "Veiled Melee Riven",
     "unveiled": false,
     "owned": 6,
@@ -202,26 +268,10 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-010",
-    "name": "Veiled Rifle Riven",
-    "unveiled": false,
-    "owned": 1,
-    "weapon": null,
-    "weaponType": "Rifle",
-    "rank": 0,
-    "maximumRank": 8,
-    "polarity": null,
-    "rerolls": 0,
-    "minimumMastery": 0,
-    "positiveTraits": [],
-    "negativeTraits": [],
-    "detailsStatus": "current direct aggregate"
-  },
-  {
-    "rivenRef": "veiled-012",
+    "rivenRef": "veiled-014",
     "name": "Veiled Zaw Riven",
     "unveiled": false,
-    "owned": 2,
+    "owned": 3,
     "weapon": null,
     "weaponType": "Zaw",
     "rank": 0,
