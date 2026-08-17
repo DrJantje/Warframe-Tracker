@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-17",
-    "exportVerifiedAt": "2026-08-17 11:46:05 PDT",
+    "exportVerifiedAt": "2026-08-17 12:09:28 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167790,
-        "modified": "2026-08-17T11:46:04.805108-07:00",
-        "sha256": "f92ebf1a1af4e131f559f79b1a0d42b81236ce21efe573ce06b0a24c5806635b"
+        "bytes": 2167842,
+        "modified": "2026-08-17T12:09:27.867430-07:00",
+        "sha256": "543e6db4510761ac6b65fd5c63048add54add1d6e7f31a9b2016a6a7e4483d11"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-17T11:46:04.809762-07:00",
+        "modified": "2026-08-17T12:09:27.871458-07:00",
         "sha256": "9624994d173b974f4a18f1893fad92a27511948d271e8f3385033f26b0208370"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-17T11:46:04.806623-07:00",
+        "modified": "2026-08-17T12:09:27.869439-07:00",
         "sha256": "78a379eab309124830bab8ea6b1f5a17695282e0f513d6e493d8b3c3974fbe34"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-17T11:46:04.808254-07:00",
+        "modified": "2026-08-17T12:09:27.870449-07:00",
         "sha256": "c98b2d70411d898d1ff0b4794991fc36422d941f0fd27ad43394ccdda176cca6"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-17T11:46:04.812779-07:00",
+        "modified": "2026-08-17T12:09:27.872960-07:00",
         "sha256": "70587b7083f49908f5e5be875a408d009dd86c4f71e2f65c0fcb5acc66c757b0"
       },
       "rivens.json": {
@@ -48,151 +48,16 @@
     },
     "importChanges": [
       {
-        "item": "Akarius",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Akarius Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Cantare",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Cobra & Crane Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Harmony",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Harmony Blueprint"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Hema",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Hema Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Hema Blueprint; Forma Blueprint"
-        ]
-      },
-      {
-        "item": "Jade",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Jade Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Masseter Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Masseter Prime Blade; Masseter Prime Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Masseter Prime Blade"
-        ]
-      },
-      {
-        "item": "Nidus",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Nidus Chassis Blueprint; Nidus Neuroptics Blueprint; Nidus Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Nidus Neuroptics Blueprint; Nidus Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Sevagoth",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
         "item": "Styanax Prime",
         "before": [
-          "No",
-          "No",
           "Yes",
+          "No",
+          "No",
           ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -4287,15 +4152,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Itzal"
-    },
-    {
-      "item": "Styanax Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://www.warframe.com/droptables"
     },
     {
       "item": "Sunika Kubrow",
@@ -17820,15 +17676,15 @@
     {
       "item": "Styanax Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
