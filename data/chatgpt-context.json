@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-17T00:03:41.332965+00:00",
+  "generatedAt": "2026-08-17T00:17:45.999344+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-17T00:02:49.557Z",
+  "accountSnapshotAt": "2026-08-17T00:15:40.980Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-17T00:02:49.557Z",
+      "capturedAt": "2026-08-17T00:15:40.980Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-17T00:03:25.742Z",
+    "observedAt": "2026-08-17T00:15:40.981865+00:00",
     "phase": "location",
     "node": "DRIFTER'S CAMP",
     "planet": "EARTH",
@@ -59,8 +59,8 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "account-snapshot-confirmed",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -169,6 +169,105 @@
             },
             {
               "name": "Arcane Velocity",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
+        },
+        "Secondary": {
+          "buildRef": "pistols-021",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Dual Toxocyst",
+          "category": "Pistols",
+          "configuration": "A",
+          "formaApplied": 3,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_UNIVERSAL"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Heated Charge",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Frostbite",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Pistol Pestilence",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Target Cracker",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Pistol Gambit",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Lethal Torrent",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Shot",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Diffusion",
+              "rank": 10,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": [
+            {
+              "name": "Cascadia Flare",
               "rank": 5,
               "kind": "arcane"
             }
