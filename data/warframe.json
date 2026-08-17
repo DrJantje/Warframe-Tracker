@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-16",
-    "exportVerifiedAt": "2026-08-16 14:36:02 PDT",
+    "exportVerifiedAt": "2026-08-16 17:02:55 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167767,
-        "modified": "2026-08-16T14:36:02.230289-07:00",
-        "sha256": "f15e5e0ddba5d4a0cf22a1a2edfce91922a2c5fa287ddfa9259086b7d2865086"
+        "bytes": 2167792,
+        "modified": "2026-08-16T17:02:54.245957-07:00",
+        "sha256": "c1558393964fc924db5aefa4b5f6d1fb7d0d9b851db2e5991875a3f036de09dc"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-16T14:36:02.236317-07:00",
+        "modified": "2026-08-16T17:02:54.250567-07:00",
         "sha256": "c8cbe3dea4f338d0c3d4c225a45f3aee331eff70be59733c80890de0f7d3860a"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-16T14:36:02.232300-07:00",
+        "modified": "2026-08-16T17:02:54.247553-07:00",
         "sha256": "8fa4489a0fc0e3862145aedff73c933f834d147a6bd82063931885c743fd49d4"
       },
       "inventoryRelics.json": {
         "bytes": 33449,
-        "modified": "2026-08-16T14:36:02.233807-07:00",
+        "modified": "2026-08-16T17:02:54.249061-07:00",
         "sha256": "f0e720a04d6dead8b5e9ed83fd62c499318f84886b4d40fbd69bdd165bacf3d5"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-16T14:36:02.239839-07:00",
-        "sha256": "c80829708ed23bc25de3048a6dddef7a87cff6bcf6fba3bea616e615225494e8"
+        "modified": "2026-08-16T17:02:54.254083-07:00",
+        "sha256": "eaee58caa839647983957cbd2d662ad35a8bea8a2225164ade4a19ce8980417c"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,93 +48,33 @@
     },
     "importChanges": [
       {
-        "item": "Evensong",
+        "item": "Cantare",
         "before": [
+          "No",
+          "No",
+          "No",
+          "Argon Crystal (2/4); Cantare Blueprint"
+        ],
+        "after": [
           "No",
           "No",
           "Yes",
           ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
         ]
       },
       {
-        "item": "Jade",
+        "item": "Cobra & Crane Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Jade Chassis Blueprint; Jade Neuroptics Blueprint; Jade Systems Blueprint"
+          "Cobra & Crane Prime Guard"
         ],
         "after": [
-          "No",
-          "No",
-          "No",
-          "Jade Neuroptics Blueprint"
-        ]
-      },
-      {
-        "item": "Nyx Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint; Nyx Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint"
-        ]
-      },
-      {
-        "item": "Sarofang",
-        "before": [
           "No",
           "No",
           "Yes",
           ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Strun Wraith",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Strun Wraith Barrel; Strun Wraith Receiver; Strun Wraith Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Strun Wraith Barrel; Strun Wraith Receiver"
-        ]
-      },
-      {
-        "item": "Voruna",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Voruna Chassis Blueprint; Lua Thrax Plasm (8/50); Voruna Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Lua Thrax Plasm (8/50)"
         ]
       }
     ],
@@ -143,7 +83,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 246
+      "missing": 244
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -249,21 +189,6 @@
       "liveMatches": [],
       "availabilityGroup": "dojo",
       "practicalPriority": 3
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Cantare",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
-      "route": "Brutus, Uranus — Ascension; Ordis pity shop",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
-      "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 30
     },
     {
       "ease": "3 — Focused short farm",
@@ -2649,33 +2574,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Cobra & Crane Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Cobra & Crane Prime Guard",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Cobra & Crane Prime Guard (Rare): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Cobra & Crane Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Cobra & Crane Prime Guard",
-          "relic": "Axi C9",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Corinth Prime",
       "type": "primary",
       "targetRank": "30",
@@ -4296,6 +4194,24 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level the companion in high-affinity missions.",
       "source": "https://wiki.warframe.com/w/Sunika_Kubrow"
+    },
+    {
+      "item": "Cantare",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0"
+    },
+    {
+      "item": "Cobra & Crane Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime"
     },
     {
       "item": "Styanax Prime",
@@ -6627,21 +6543,21 @@
     {
       "item": "Cantare",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Argon Crystal (2/4); Cantare Blueprint",
-      "ease": "3 — Focused short farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://www.warframe.com/en/patch-notes/pc/36-0-0",
-      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes. Obtain 2 Argon Crystal last.",
-      "tip": "Complete the optional Sister objective for extra Vestigial Motes; Argon Crystals decay.",
+      "steps": "Farm or buy the blueprint from Ordis with Vestigial Motes.",
+      "tip": "Complete the optional Sister objective for extra Vestigial Motes.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -7167,35 +7083,21 @@
     {
       "item": "Cobra & Crane Prime",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Cobra & Crane Prime Guard",
-      "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Cobra & Crane Prime Guard",
-          "relic": "Axi C9",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Cobra & Crane Prime Guard (Rare): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Cobra & Crane Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Coda Bassocyst",
