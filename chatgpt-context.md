@@ -1,6 +1,6 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-19T10:05:15.621967+00:00
+Generated: 2026-08-19T10:06:21.078288+00:00
 Account snapshot: 2026-08-19T10:03:10.012Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
@@ -74,11 +74,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-08-13T03:04:44.769358+00:00
-- Duration seconds: 7200.069
-- Missions: 5
-- Focus earned: 68616
-- Notable acquisitions: Oberon Chassis Blueprint (+4), Harrow Chassis Blueprint (+3), Afuris Prime Barrel (+2), Meso K8 Intact (+2), Bronco Prime Receiver (+1), Burston Prime Receiver (+1), Cobra & Crane Prime Blade (+1), Epitaph Barrel (+1), Epitaph Receiver (+1), Gyre Prime Systems Blueprint (+1), Lex Prime Barrel (+1), Lith C7 Intact (+1), Meso K8 Radiant (+1), Meso V13 Intact (+1), Meso V13 Radiant (+1), Neo C9 Intact (+1)
+- Started: 2026-08-19T09:29:35.287515+00:00
+- Duration seconds: 2201.95
+- Missions: 3
+- Focus earned: 0
+- Notable acquisitions: Ascaris Prime (+2), Blueprint (+1), Meso A12 Intact (+1), Meso D8 Intact (+1), Uriel Systems Blueprint (+1)
 
 ## Deeper files
 

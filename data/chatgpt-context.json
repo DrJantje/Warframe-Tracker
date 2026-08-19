@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-19T10:05:15.621967+00:00",
+  "generatedAt": "2026-08-19T10:06:21.078288+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-19T10:03:10.012852+00:00",
+    "observedAt": "2026-08-19T10:06:16.218340+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -1616,180 +1616,116 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260813-030444.json",
-    "startedAt": "2026-08-13T03:04:44.769358+00:00",
-    "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
-    "durationSeconds": 7200.069,
-    "missionCount": 5,
-    "focusEarnedDuringCapture": 68616,
+    "file": "20260819-092935.json",
+    "startedAt": "2026-08-19T09:29:35.287515+00:00",
+    "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
+    "durationSeconds": 2201.95,
+    "missionCount": 3,
+    "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Ticor Plate",
-        "delta": 18528
+        "item": "Circuit Effect",
+        "delta": 484
       },
       {
-        "item": "Carbides",
-        "delta": 17782
+        "item": "Agnovidisc",
+        "delta": 436
       },
       {
-        "item": "Cubic Diodes",
-        "delta": 11182
+        "item": "Servoris",
+        "delta": 76
       },
       {
-        "item": "Nano Spores",
-        "delta": 5910
+        "item": "Lyroic Bridge",
+        "delta": 35
       },
       {
-        "item": "Titanium",
-        "delta": 5782
+        "item": "Steel Essence",
+        "delta": 16
       },
       {
-        "item": "Gallos Rods",
-        "delta": 3944
+        "item": "Ascaris Prime",
+        "delta": 2
       },
       {
-        "item": "Plastids",
-        "delta": 768
+        "item": "Ren Hypercore",
+        "delta": 2
       },
       {
-        "item": "Void Traces",
-        "delta": 258
+        "item": "Riven Sliver",
+        "delta": 2
       },
       {
-        "item": "Komms",
-        "delta": 235
+        "item": "Blueprint",
+        "delta": 1
       },
       {
-        "item": "Isos",
-        "delta": 182
+        "item": "Meso A12 Intact",
+        "delta": 1
       },
       {
-        "item": "Asterite",
-        "delta": 49
+        "item": "Meso D8 Intact",
+        "delta": 1
       },
       {
-        "item": "Corrupted Holokey",
-        "delta": 29
+        "item": "Uriel Systems Blueprint",
+        "delta": 1
       }
     ],
     "notableAcquisitions": [
       {
-        "item": "Oberon Chassis Blueprint",
-        "delta": 4
-      },
-      {
-        "item": "Harrow Chassis Blueprint",
-        "delta": 3
-      },
-      {
-        "item": "Afuris Prime Barrel",
+        "item": "Ascaris Prime",
         "delta": 2
       },
       {
-        "item": "Meso K8 Intact",
-        "delta": 2
-      },
-      {
-        "item": "Bronco Prime Receiver",
+        "item": "Blueprint",
         "delta": 1
       },
       {
-        "item": "Burston Prime Receiver",
+        "item": "Meso A12 Intact",
         "delta": 1
       },
       {
-        "item": "Cobra & Crane Prime Blade",
+        "item": "Meso D8 Intact",
         "delta": 1
       },
       {
-        "item": "Epitaph Barrel",
-        "delta": 1
-      },
-      {
-        "item": "Epitaph Receiver",
-        "delta": 1
-      },
-      {
-        "item": "Gyre Prime Systems Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Lex Prime Barrel",
-        "delta": 1
-      },
-      {
-        "item": "Lith C7 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso K8 Radiant",
-        "delta": 1
-      },
-      {
-        "item": "Meso V13 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso V13 Radiant",
-        "delta": 1
-      },
-      {
-        "item": "Neo C9 Intact",
+        "item": "Uriel Systems Blueprint",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Ticor Plate",
-        "delta": 18528
+        "item": "Circuit Effect",
+        "delta": 484
       },
       {
-        "item": "Carbides",
-        "delta": 17782
+        "item": "Agnovidisc",
+        "delta": 436
       },
       {
-        "item": "Cubic Diodes",
-        "delta": 11182
+        "item": "Servoris",
+        "delta": 76
       },
       {
-        "item": "Nano Spores",
-        "delta": 5910
+        "item": "Lyroic Bridge",
+        "delta": 35
       },
       {
-        "item": "Titanium",
-        "delta": 5782
+        "item": "Steel Essence",
+        "delta": 16
       },
       {
-        "item": "Gallos Rods",
-        "delta": 3944
+        "item": "Ren Hypercore",
+        "delta": 2
       },
       {
-        "item": "Plastids",
-        "delta": 768
-      },
-      {
-        "item": "Void Traces",
-        "delta": 258
-      },
-      {
-        "item": "Komms",
-        "delta": 235
-      },
-      {
-        "item": "Isos",
-        "delta": 182
-      },
-      {
-        "item": "Asterite",
-        "delta": 49
-      },
-      {
-        "item": "Corrupted Holokey",
-        "delta": 29
+        "item": "Riven Sliver",
+        "delta": 2
       }
     ],
-    "railjackSalvageCount": 44,
-    "configurationChangeCount": 2,
+    "railjackSalvageCount": 0,
+    "configurationChangeCount": 0,
     "errorEventCount": 0
   },
   "deeperData": {
