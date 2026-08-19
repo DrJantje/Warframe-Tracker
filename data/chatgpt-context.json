@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-18T06:17:48.479991+00:00",
+  "generatedAt": "2026-08-19T02:39:04.841355+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-17T19:28:41.474Z",
+  "accountSnapshotAt": "2026-08-19T02:39:00.249Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-17T19:28:41.474Z",
+      "capturedAt": "2026-08-19T02:39:00.249Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-17T20:04:03.528041+00:00",
-    "phase": "location",
-    "node": "DRIFTER'S CAMP",
-    "planet": "EARTH",
-    "mission": "HUB",
+    "observedAt": "2026-08-19T02:39:00.258140+00:00",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "frameConfidence": "mission-active",
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -174,58 +174,31 @@
             }
           ]
         },
-        "Primary": {
-          "buildRef": "longguns-105",
+        "Secondary": {
+          "buildRef": "pistols-080",
           "resolutionStatus": "exact-build-ref",
-          "item": "Tenet Ferrox",
-          "category": "LongGuns",
+          "item": "Velox",
+          "category": "Pistols",
           "configuration": "A",
-          "formaApplied": 4,
+          "formaApplied": 0,
           "focusLens": null,
-          "polarities": [
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_TACTIC"
-            }
-          ],
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Critical Delay",
+              "name": "Barrel Diffusion",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Galvanized Aptitude",
+              "name": "Hornet Strike",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Malignant Force",
-              "rank": 2,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Chamber",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Serration",
+              "name": "Primed Heated Charge",
               "rank": 10,
               "kind": "mod"
             }
@@ -233,9 +206,9 @@
           "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-134",
+          "buildRef": "melee-136",
           "resolutionStatus": "exact-build-ref",
-          "item": "Cobra & Crane Prime",
+          "item": "Glaive",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -246,23 +219,8 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Pressure Point",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
               "name": "Primed Reach",
               "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Drifting Contact",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Virulent Scourge",
-              "rank": 3,
               "kind": "mod"
             },
             {
@@ -271,7 +229,22 @@
               "kind": "mod"
             },
             {
-              "name": "Eleventh Storm",
+              "name": "Carnis Mandible",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Magnetic Rush",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Astral Twilight",
               "rank": 3,
               "kind": "mod"
             }
@@ -546,6 +519,11 @@
             {
               "name": "Auxiliary Power",
               "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Energy Inversion",
+              "rank": 3,
               "kind": "mod"
             },
             {
@@ -1469,13 +1447,13 @@
           "mods": [],
           "arcanes": [
             {
-              "name": "Virtuos Strike",
-              "rank": 3,
+              "name": "Eternal Onslaught",
+              "rank": 5,
               "kind": "arcane"
             },
             {
-              "name": "Virtuos Shadow",
-              "rank": 3,
+              "name": "Eternal Eradicate",
+              "rank": 2,
               "kind": "arcane"
             }
           ]
@@ -1601,8 +1579,8 @@
               "kind": "mod"
             },
             {
-              "name": "Flame Gland",
-              "rank": 3,
+              "name": "Maul",
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -1626,7 +1604,7 @@
               "kind": "mod"
             },
             {
-              "name": "Frenzied Posture",
+              "name": "Balanced Posture",
               "rank": 3,
               "kind": "mod"
             }

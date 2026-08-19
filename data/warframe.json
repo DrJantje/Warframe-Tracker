@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-17",
-    "exportVerifiedAt": "2026-08-17 23:17:48 PDT",
+    "snapshotDate": "2026-08-18",
+    "exportVerifiedAt": "2026-08-18 19:39:05 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167840,
-        "modified": "2026-08-17T23:17:48.244625-07:00",
-        "sha256": "1436291f52f3e526c8051ed973bc3e8bfdebc1fbdee2c0180b8d1558f3b67c5d"
+        "bytes": 2167880,
+        "modified": "2026-08-18T19:39:04.587653-07:00",
+        "sha256": "1f55387bc04dbe7175304b9cea0608621ed44a7bbb34ca4119bcbb50e76346e4"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-17T23:17:48.247908-07:00",
-        "sha256": "b1630cb34b378cf9403383875eb6d2bd9c0b3b96d7541e59b8f7567bd8ecd5d5"
+        "modified": "2026-08-18T19:39:04.592194-07:00",
+        "sha256": "6f67c46f21c952c97df8dae85c3c39df3dad6f9be057ef4affc7ed49fa27c57b"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-17T23:17:48.246149-07:00",
-        "sha256": "78a379eab309124830bab8ea6b1f5a17695282e0f513d6e493d8b3c3974fbe34"
+        "modified": "2026-08-18T19:39:04.590182-07:00",
+        "sha256": "b303ff66dfb771f73a12ca7792d9def4d59e975ec586cf451a895a40390f46a3"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-17T23:17:48.246149-07:00",
-        "sha256": "c98b2d70411d898d1ff0b4794991fc36422d941f0fd27ad43394ccdda176cca6"
+        "modified": "2026-08-18T19:39:04.590685-07:00",
+        "sha256": "2dbb027020f18226ea0d1215865795c13f7fc8199de2cd6fb1cdb37c090bc709"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-17T23:17:48.248912-07:00",
-        "sha256": "70587b7083f49908f5e5be875a408d009dd86c4f71e2f65c0fcb5acc66c757b0"
+        "modified": "2026-08-18T19:39:04.595211-07:00",
+        "sha256": "ece12b913caf9c9b78265a2b757a2ab05386ac7db69c02334568585f0b75c3d5"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,18 +46,214 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Akarius",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Chesa Kubrow",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Chesa Kubrow breeding result"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Cobra & Crane Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Coda Tysis",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon from Eleanor"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Glaive",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Glaive Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint; Forma Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint"
+        ]
+      },
+      {
+        "item": "Protea",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Protea Chassis Blueprint; Protea Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sheev",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Sheev Blade; Sheev Blueprint; Sheev Heatsink; Sheev Hilt"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Sheev Blade; Sheev Hilt"
+        ]
+      },
+      {
+        "item": "Stahlta",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Stahlta Blueprint; Stahlta Receiver; Stahlta Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Stahlta Blueprint"
+        ]
+      },
+      {
+        "item": "Stropha",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Stropha Barrel; Stropha Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sunika Kubrow",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Valkyr Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Valkyr Prime Chassis Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Velox",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Velox Barrel; Velox Receiver"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 241
+      "missing": 234
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
       "Axi S20 Intact": 1,
-      "Axi T13 Intact": 0,
+      "Axi T13 Intact": 1,
       "Lith A12 Intact": 10,
       "Lith A12 Radiant": 3,
       "Lith C14 Exceptional": 1,
@@ -65,7 +261,7 @@
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
       "Lith G14 Intact": 20,
-      "Lith K12 Intact": 26,
+      "Lith K12 Intact": 27,
       "Lith K12 Radiant": 6,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
@@ -78,32 +274,32 @@
       "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 21,
+      "Meso A12 Intact": 24,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 48,
+      "Meso D8 Intact": 50,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 45,
+      "Meso K8 Intact": 46,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 31,
-      "Meso V13 Intact": 30,
-      "Meso V15 Intact": 43,
+      "Meso L5 Intact": 32,
+      "Meso V13 Intact": 31,
+      "Meso V15 Intact": 44,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 25,
+      "Meso X1 Intact": 27,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 28,
-      "Neo A16 Intact": 3,
-      "Neo C7 Intact": 18,
+      "Neo A16 Intact": 4,
+      "Neo C7 Intact": 14,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 1,
-      "Neo C9 Intact": 20,
+      "Neo C9 Intact": 15,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 12,
+      "Neo T11 Intact": 13,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 12,
+      "Neo V12 Intact": 13,
       "Neo Y1 Intact": 10,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
@@ -148,7 +344,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -182,22 +378,6 @@
       "missing": "Dark Dagger Blueprint",
       "route": "Nightwave Cred Offerings — permanent stock",
       "steps": "Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.",
-      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "nightwave",
-      "practicalPriority": 205
-    },
-    {
-      "ease": "2 — Easy buy or build",
-      "item": "Glaive",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Glaive Blueprint",
-      "route": "Nightwave Cred Offerings — permanent stock",
-      "steps": "Buy the Glaive Blueprint for 50 Creds, then build and level it.",
       "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
       "vaulted": "No",
@@ -277,21 +457,6 @@
       "steps": "Purchase the Blueprint for 50 Pathos Clamps after an Orowyrm run.",
       "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Chesa Kubrow",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Chesa Kubrow breeding result",
-      "route": "Companion breeding in the Orbiter Incubator",
-      "steps": "Incubate a Kubrow Egg. Use two Chesa Kubrow genetic imprints to guarantee the breed.",
-      "tip": "Without two matching imprints, the Kubrow breed is random.",
-      "source": "https://wiki.warframe.com/w/Chesa_Kubrow",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -832,21 +997,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Protea",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Protea Chassis Blueprint; Protea Neuroptics Blueprint",
-      "route": "Granum Void after The Deadlock Protocol",
-      "steps": "Chassis Blueprint: Extended Granum Void rotation C. Neuroptics Blueprint: Normal Granum Void rotation C.",
-      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
-      "source": "https://wiki.warframe.com/w/Protea",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Thalys",
       "type": "melee",
       "targetRank": "30",
@@ -855,21 +1005,6 @@
       "steps": "Buy the Blueprint from Acrithis using Scuttler Husks and obtain 48 Temporal Dust from Murmur enemies during Isleweaver.",
       "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
       "source": "https://wiki.warframe.com/w/Thalys",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Velox",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Velox Barrel; Velox Receiver",
-      "route": "Granum Void after The Deadlock Protocol",
-      "steps": "Barrel: Normal Granum Void. Receiver: Extended Granum Void. Reach the top kill tier.",
-      "tip": "Use Xoris heavy throws to free Solaris captives and extend the timer.",
-      "source": "https://wiki.warframe.com/w/Velox",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -938,21 +1073,6 @@
     {
       "ease": "5 — Long grind / trade",
       "item": "Coda Pox",
-      "type": "secondary",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon from Eleanor",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Coda Tysis",
       "type": "secondary",
       "targetRank": "30 first; 40 optional",
       "missing": "Completed weapon from Eleanor",
@@ -1043,6 +1163,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Stahlta",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Stahlta Blueprint",
+      "route": "Jackal + Granum Void",
+      "steps": "Main Blueprint: defeat Jackal.",
+      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
+      "source": "https://wiki.warframe.com/w/Stahlta",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 505
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Nidus",
       "type": "warframe",
       "targetRank": "30",
@@ -1073,21 +1208,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Stropha",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Stropha Barrel; Stropha Receiver",
-      "route": "Jackal + Granum Void",
-      "steps": "Barrel: Normal Granum Void rotation C. Receiver: Extended Granum Void rotation C.",
-      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
-      "source": "https://wiki.warframe.com/w/Stropha",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Gauss",
       "type": "warframe",
       "targetRank": "30",
@@ -1111,21 +1231,6 @@
       "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Stahlta",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Stahlta Blueprint; Stahlta Receiver; Stahlta Stock",
-      "route": "Jackal + Granum Void",
-      "steps": "Main Blueprint: defeat Jackal. Receiver: Normal Granum Void rotation C. Stock: Extended Granum Void rotation C.",
-      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
-      "source": "https://wiki.warframe.com/w/Stahlta",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1719,6 +1824,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Sheev",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Sheev Blade; Sheev Hilt",
+      "route": "Grineer Invasion reward rotation / player trade",
+      "steps": "Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.",
+      "tip": "Only one component is offered per qualifying Invasion. Check the live Invasion feed before trading.",
+      "source": "https://wiki.warframe.com/w/Sheev",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 760
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Strun Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1802,21 +1922,6 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "source": "https://wiki.warframe.com/w/Latron_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 770
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Sheev",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Sheev Blade; Sheev Blueprint; Sheev Heatsink; Sheev Hilt",
-      "route": "Grineer Invasion reward rotation / player trade",
-      "steps": "Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.",
-      "tip": "Only one component is offered per qualifying Invasion. Check the live Invasion feed before trading.",
-      "source": "https://wiki.warframe.com/w/Sheev",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -3874,31 +3979,6 @@
       "practicalPriority": 515
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Valkyr Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Valkyr Prime Chassis Blueprint",
-      "route": "Permanent Railjack relic pools",
-      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Valkyr Prime Chassis Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Vasto Prime",
       "type": "secondary",
@@ -4102,13 +4182,31 @@
   ],
   "owned": [
     {
-      "item": "Cobra & Crane Prime",
+      "item": "Chesa Kubrow",
+      "type": "companion",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Chesa_Kubrow"
+    },
+    {
+      "item": "Coda Tysis",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+    },
+    {
+      "item": "Glaive",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Cobra_%26_Crane_Prime"
+      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
     },
     {
       "item": "Itzal",
@@ -4120,22 +4218,13 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Sunika Kubrow",
-      "type": "companion",
+      "item": "Velox",
+      "type": "secondary",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Sunika_Kubrow"
-    },
-    {
-      "item": "Akarius",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Akarius"
+      "source": "https://wiki.warframe.com/w/Velox"
     },
     {
       "item": "Jade",
@@ -4145,6 +4234,33 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Jade"
+    },
+    {
+      "item": "Protea",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Protea"
+    },
+    {
+      "item": "Stropha",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Stropha"
+    },
+    {
+      "item": "Valkyr Prime",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://www.warframe.com/droptables"
     }
   ],
   "rank40": [
@@ -4554,17 +4670,17 @@
     {
       "item": "Akarius",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Ur, Uranus — Demolisher Infested enemy drop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Akarius",
       "steps": "Kill Demolisher Infested on Ur until the Akarius Blueprint drops.",
@@ -6884,14 +7000,14 @@
     {
       "item": "Chesa Kubrow",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Chesa Kubrow breeding result",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7007,15 +7123,15 @@
     {
       "item": "Cobra & Crane Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -7278,14 +7394,14 @@
     {
       "item": "Coda Tysis",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon from Eleanor",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -9695,23 +9811,21 @@
     {
       "item": "Glaive",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Glaive Blueprint",
-      "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings — permanent stock",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Owned; rank unknown",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Buy the Glaive Blueprint for 50 Creds, then build and level it.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -10481,7 +10595,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
@@ -15350,20 +15464,20 @@
     {
       "item": "Protea",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Protea Chassis Blueprint; Protea Neuroptics Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Granum Void after The Deadlock Protocol",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Protea",
-      "steps": "Chassis Blueprint: Extended Granum Void rotation C. Neuroptics Blueprint: Normal Granum Void rotation C.",
+      "steps": ".",
       "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
@@ -16826,7 +16940,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Sheev Blade; Sheev Blueprint; Sheev Heatsink; Sheev Hilt",
+      "missing": "Sheev Blade; Sheev Hilt",
       "ease": "5 — Long grind / trade",
       "route": "Grineer Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -17387,14 +17501,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Stahlta Blueprint; Stahlta Receiver; Stahlta Stock",
+      "missing": "Stahlta Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stahlta",
-      "steps": "Main Blueprint: defeat Jackal. Receiver: Normal Granum Void rotation C. Stock: Extended Granum Void rotation C.",
+      "steps": "Main Blueprint: defeat Jackal.",
       "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
@@ -17502,20 +17616,20 @@
     {
       "item": "Stropha",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Stropha Barrel; Stropha Receiver",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stropha",
-      "steps": "Barrel: Normal Granum Void rotation C. Receiver: Extended Granum Void rotation C.",
+      "steps": ".",
       "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
@@ -17680,14 +17794,14 @@
     {
       "item": "Sunika Kubrow",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18958,7 +19072,7 @@
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 12 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
+      "steps": "Open the 13 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",
@@ -19193,32 +19307,20 @@
     {
       "item": "Valkyr Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Valkyr Prime Chassis Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Permanent Railjack relic pools",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://www.warframe.com/droptables",
-      "primeStatus": "PERMANENT SPECIAL RELICS",
-      "primeDetails": [
-        {
-          "part": "Valkyr Prime Chassis Blueprint",
-          "relic": "Neo V9",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Veil Proxima Railjack point-of-interest caches",
-          "refinement": "Radiant"
-        }
-      ],
-      "steps": "Valkyr Prime Chassis Blueprint (Rare): farm Neo V9 from Veil Proxima Railjack point-of-interest caches, then open it Radiant in a four-player share. Build Valkyr Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
+      "primeDetails": [],
       "liveMatches": []
     },
     {
@@ -19485,14 +19587,14 @@
     {
       "item": "Velox",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Velox Barrel; Velox Receiver",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Granum Void after The Deadlock Protocol",
       "vaulted": "No",
       "pendingFoundry": "No",

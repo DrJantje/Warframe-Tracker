@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-18T06:17:48.479991+00:00
-Account snapshot: 2026-08-17T19:28:41.474Z
+Generated: 2026-08-19T02:39:04.841355+00:00
+Account snapshot: 2026-08-19T02:39:00.249Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: EARTH
-- Frame observation: Titania (sync-awaiting-snapshot)
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,16 +28,16 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
 - Arcanes: Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
 
-#### Primary: Tenet Ferrox — config A
-
-- Forma: 4
-- Mods: Critical Delay (rank 5), Galvanized Aptitude (rank 10), Malignant Force (rank 2), Galvanized Chamber (rank 10), Serration (rank 10)
-- Arcanes: none recorded
-
-#### Melee: Cobra & Crane Prime — config A
+#### Secondary: Velox — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Drifting Contact (rank 3), Virulent Scourge (rank 3), Primed Fever Strike (rank 8), Eleventh Storm (rank 3)
+- Mods: Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Heated Charge (rank 10)
+- Arcanes: none recorded
+
+#### Melee: Glaive — config A
+
+- Forma: 0
+- Mods: Primed Reach (rank 10), Primed Fever Strike (rank 8), Carnis Mandible (rank 5), Magnetic Rush (rank 3), Pressure Point (rank 5), Astral Twilight (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -69,7 +69,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
 
 - Forma: 0
-- Mods: Swipe (rank 3), Magnetic Claws (rank 3), Cull The Weak (rank 5), Flame Gland (rank 3), Radon Claws (rank 3), Sepsis Claws (rank 8), Bell Ringer (rank 3), Bite (rank 10), Frenzied Posture (rank 3)
+- Mods: Swipe (rank 3), Magnetic Claws (rank 3), Cull The Weak (rank 5), Maul (rank 10), Radon Claws (rank 3), Sepsis Claws (rank 8), Bell Ringer (rank 3), Bite (rank 10), Balanced Posture (rank 3)
 - Arcanes: none recorded
 
 ## Last completed session

@@ -294,6 +294,56 @@
     ]
   },
   {
+    "buildRef": "pistols-079",
+    "name": "Akarius",
+    "category": "Pistols",
+    "xp": 3368883,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Primed Heated Charge",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Frostbite",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "sentinelweapons-011",
     "name": "Akaten",
     "category": "SentinelWeapons",
@@ -3894,6 +3944,40 @@
     ]
   },
   {
+    "buildRef": "kubrowpets-014",
+    "name": "Chesa Kubrow",
+    "category": "KubrowPets",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "suits-050",
     "name": "Chroma",
     "category": "Suits",
@@ -4067,7 +4151,7 @@
     "buildRef": "melee-134",
     "name": "Cobra & Crane Prime",
     "category": "Melee",
-    "xp": 12920,
+    "xp": 595711,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -4286,13 +4370,13 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 37094729,
+    "xp": 37840849,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
       {
         "slot": 0,
-        "polarity": "AP_TACTIC"
+        "polarity": "AP_ATTACK"
       },
       {
         "slot": 1,
@@ -4304,7 +4388,7 @@
       },
       {
         "slot": 3,
-        "polarity": "AP_ATTACK"
+        "polarity": "AP_TACTIC"
       },
       {
         "slot": 4,
@@ -4345,13 +4429,13 @@
             "kind": "mod"
           },
           {
-            "name": "Primed Chilling Grasp",
-            "rank": 10,
+            "name": "Toxic Barrage",
+            "rank": 3,
             "kind": "mod"
           },
           {
-            "name": "Toxic Barrage",
-            "rank": 3,
+            "name": "Primed Charged Shell",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -4393,11 +4477,6 @@
         "index": 1,
         "name": "B",
         "mods": [
-          {
-            "name": "Primed Chilling Grasp",
-            "rank": 10,
-            "kind": "mod"
-          },
           {
             "name": "Vigilante Armaments",
             "rank": 5,
@@ -5221,6 +5300,51 @@
     ]
   },
   {
+    "buildRef": "pistols-078",
+    "name": "Coda Tysis",
+    "category": "Pistols",
+    "xp": 266407,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Heated Charge",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-036",
     "name": "Convectrix",
     "category": "LongGuns",
@@ -5540,7 +5664,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -5964,7 +6088,7 @@
     "buildRef": "longguns-064",
     "name": "Daikyu Prime",
     "category": "LongGuns",
-    "xp": 1169969,
+    "xp": 2373472,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -5976,13 +6100,18 @@
         "name": "A",
         "mods": [
           {
-            "name": "Split Chamber",
-            "rank": 5,
+            "name": "Galvanized Scope",
+            "rank": 1,
             "kind": "mod"
           },
           {
-            "name": "Malignant Force",
-            "rank": 3,
+            "name": "Galvanized Aptitude",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Galvanized Chamber",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -6014,7 +6143,7 @@
     "buildRef": "suits-030",
     "name": "Dante",
     "category": "Suits",
-    "xp": 34163602,
+    "xp": 34220738,
     "formaApplied": 4,
     "focusLens": "Greater Vazarin Lens",
     "polarities": [
@@ -6133,8 +6262,8 @@
             "kind": "mod"
           },
           {
-            "name": "Amar's Anguish",
-            "rank": 5,
+            "name": "Sure Footed",
+            "rank": 3,
             "kind": "mod"
           }
         ],
@@ -7007,7 +7136,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 113981984,
+    "xp": 116748044,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -7369,7 +7498,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 304385032,
+    "xp": 307151092,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -10523,6 +10652,71 @@
     ]
   },
   {
+    "buildRef": "melee-136",
+    "name": "Glaive",
+    "category": "Melee",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Primed Reach",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Fever Strike",
+            "rank": 8,
+            "kind": "mod"
+          },
+          {
+            "name": "Carnis Mandible",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Magnetic Rush",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Pressure Point",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Astral Twilight",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-040",
     "name": "Glaxion",
     "category": "LongGuns",
@@ -11624,7 +11818,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -12304,7 +12498,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -13050,7 +13244,7 @@
     "buildRef": "spacesuits-004",
     "name": "Itzal",
     "category": "SpaceSuits",
-    "xp": 30265,
+    "xp": 326545,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -13064,6 +13258,11 @@
           {
             "name": "Auxiliary Power",
             "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Energy Inversion",
+            "rank": 3,
             "kind": "mod"
           },
           {
@@ -13690,7 +13889,7 @@
     "buildRef": "melee-048",
     "name": "Kestrel Prime",
     "category": "Melee",
-    "xp": 1278918,
+    "xp": 2482421,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -13702,22 +13901,32 @@
         "name": "A",
         "mods": [
           {
+            "name": "Volcanic Edge",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
             "name": "Primed Fever Strike",
             "rank": 8,
             "kind": "mod"
           },
           {
-            "name": "Pressure Point",
+            "name": "North Wind",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Drifting Contact",
-            "rank": 3,
+            "name": "Weeping Wounds",
+            "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Volcanic Edge",
+            "name": "Primed Reach",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Astral Twilight",
             "rank": 3,
             "kind": "mod"
           }
@@ -17213,7 +17422,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -17250,7 +17459,7 @@
     "buildRef": "suits-015",
     "name": "Mesa Prime",
     "category": "Suits",
-    "xp": 47967589,
+    "xp": 49654372,
     "formaApplied": 2,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -17345,7 +17554,7 @@
         "arcanes": [
           {
             "name": "Arcane Hot Shot",
-            "rank": 2,
+            "rank": 3,
             "kind": "arcane"
           },
           {
@@ -18471,7 +18680,7 @@
     "buildRef": "suits-017",
     "name": "Nekros Prime",
     "category": "Suits",
-    "xp": 44475037,
+    "xp": 47446713,
     "formaApplied": 4,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -18814,8 +19023,8 @@
     "buildRef": "specialitems-028",
     "name": "Noctua",
     "category": "SpecialItems",
-    "xp": 44702242,
-    "formaApplied": 5,
+    "xp": 57136,
+    "formaApplied": 6,
     "focusLens": null,
     "polarities": [
       {
@@ -18844,7 +19053,7 @@
       },
       {
         "slot": 6,
-        "polarity": "AP_UNIVERSAL"
+        "polarity": "AP_ANY"
       },
       {
         "slot": 7,
@@ -18900,6 +19109,11 @@
           {
             "name": "Galvanized Diffusion",
             "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Lethal Momentum",
+            "rank": 2,
             "kind": "mod"
           }
         ],
@@ -19722,7 +19936,7 @@
     "buildRef": "pistols-043",
     "name": "Onos",
     "category": "Pistols",
-    "xp": 9628048,
+    "xp": 10858557,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -19734,22 +19948,22 @@
         "name": "A",
         "mods": [
           {
-            "name": "Accelerated Isotope",
-            "rank": 3,
-            "kind": "mod"
-          },
-          {
             "name": "Lethal Torrent",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Target Cracker",
-            "rank": 5,
+            "name": "Magnetic Might",
+            "rank": 3,
             "kind": "mod"
           },
           {
             "name": "Galvanized Diffusion",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Galvanized Shot",
             "rank": 10,
             "kind": "mod"
           },
@@ -19759,12 +19973,18 @@
             "kind": "mod"
           },
           {
-            "name": "Hornet Strike",
+            "name": "Primed Target Cracker",
             "rank": 10,
             "kind": "mod"
           }
         ],
-        "arcanes": [],
+        "arcanes": [
+          {
+            "name": "Secondary Merciless",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
         "helminthAbility": null
       },
       {
@@ -19869,7 +20089,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 10058170,
+    "xp": 11341613,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -19886,13 +20106,13 @@
         "mods": [],
         "arcanes": [
           {
-            "name": "Virtuos Strike",
-            "rank": 3,
+            "name": "Eternal Onslaught",
+            "rank": 5,
             "kind": "arcane"
           },
           {
-            "name": "Virtuos Shadow",
-            "rank": 3,
+            "name": "Eternal Eradicate",
+            "rank": 2,
             "kind": "arcane"
           }
         ],
@@ -20765,7 +20985,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 450572906,
+    "xp": 456753184,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -20921,7 +21141,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 435071831,
+    "xp": 440983107,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -20948,8 +21168,8 @@
             "kind": "mod"
           },
           {
-            "name": "Flame Gland",
-            "rank": 3,
+            "name": "Maul",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -20973,7 +21193,7 @@
             "kind": "mod"
           },
           {
-            "name": "Frenzied Posture",
+            "name": "Balanced Posture",
             "rank": 3,
             "kind": "mod"
           }
@@ -21657,7 +21877,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -22014,7 +22234,7 @@
     "buildRef": "melee-061",
     "name": "Praedos",
     "category": "Melee",
-    "xp": 26335679,
+    "xp": 26425159,
     "formaApplied": 2,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -22908,7 +23128,7 @@
     "buildRef": "pistols-011",
     "name": "Quatz",
     "category": "Pistols",
-    "xp": 479666,
+    "xp": 807460,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -23408,7 +23628,7 @@
     "buildRef": "specialitems-006",
     "name": "Regulators Prime",
     "category": "SpecialItems",
-    "xp": 34787230,
+    "xp": 36461764,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -23858,7 +24078,7 @@
     "buildRef": "melee-035",
     "name": "Ripkas",
     "category": "Melee",
-    "xp": 13873256,
+    "xp": 16777466,
     "formaApplied": 2,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -24329,7 +24549,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -24897,7 +25117,7 @@
     "buildRef": "pistols-069",
     "name": "Secura Dual Cestra",
     "category": "Pistols",
-    "xp": 455398,
+    "xp": 908264,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -26229,7 +26449,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -26420,7 +26640,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -26452,7 +26672,7 @@
     "buildRef": "longguns-008",
     "name": "Soma",
     "category": "LongGuns",
-    "xp": 1999351,
+    "xp": 2452029,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27110,7 +27330,7 @@
     "buildRef": "suits-056",
     "name": "Styanax Prime",
     "category": "Suits",
-    "xp": 922428,
+    "xp": 1997667,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27230,7 +27450,7 @@
     "buildRef": "kubrowpets-013",
     "name": "Sunika Kubrow",
     "category": "KubrowPets",
-    "xp": 0,
+    "xp": 6926901,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27240,7 +27460,23 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Fetch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Resourceful Retriever",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Animal Instinct",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -27264,7 +27500,7 @@
     "buildRef": "specialitems-048",
     "name": "Sunika Pet Weapon",
     "category": "SpecialItems",
-    "xp": 0,
+    "xp": 6731822,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27274,7 +27510,53 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Magnetic Strike",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Magnetic Claws",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Cull The Weak",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Flame Gland",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Radon Claws",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Bite",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Sepsis Claws",
+            "rank": 8,
+            "kind": "mod"
+          },
+          {
+            "name": "Maul",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Balanced Posture",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -28133,7 +28415,7 @@
     "buildRef": "longguns-088",
     "name": "Telos Boltor",
     "category": "LongGuns",
-    "xp": 1060596,
+    "xp": 1510776,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -28830,8 +29112,8 @@
     "buildRef": "longguns-105",
     "name": "Tenet Ferrox",
     "category": "LongGuns",
-    "xp": 163277,
-    "formaApplied": 4,
+    "xp": 2933132,
+    "formaApplied": 5,
     "focusLens": null,
     "polarities": [
       {
@@ -28849,6 +29131,10 @@
       {
         "slot": 2,
         "polarity": "AP_TACTIC"
+      },
+      {
+        "slot": 0,
+        "polarity": "AP_TACTIC"
       }
     ],
     "modularParts": [],
@@ -28859,13 +29145,18 @@
         "name": "A",
         "mods": [
           {
+            "name": "Hellfire",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
             "name": "Critical Delay",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Galvanized Aptitude",
-            "rank": 10,
+            "name": "Cryo Rounds",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -28874,8 +29165,13 @@
             "kind": "mod"
           },
           {
-            "name": "Galvanized Chamber",
-            "rank": 10,
+            "name": "Vital Sense",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -28907,7 +29203,7 @@
     "buildRef": "longguns-104",
     "name": "Tenet Glaxion",
     "category": "LongGuns",
-    "xp": 1010122,
+    "xp": 1149438,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -29407,7 +29703,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 154573858,
+    "xp": 157339918,
     "formaApplied": 2,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -31256,6 +31552,56 @@
     ]
   },
   {
+    "buildRef": "pistols-080",
+    "name": "Velox",
+    "category": "Pistols",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Barrel Diffusion",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Heated Charge",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "specialitems-016",
     "name": "Venari",
     "category": "SpecialItems",
@@ -31377,7 +31723,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -31528,11 +31874,6 @@
           {
             "name": "Bite",
             "rank": 10,
-            "kind": "mod"
-          },
-          {
-            "name": "Maul",
-            "rank": 9,
             "kind": "mod"
           },
           {
@@ -32263,7 +32604,7 @@
           },
           {
             "name": "Maul",
-            "rank": 9,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -34140,7 +34481,7 @@
     "buildRef": "suits-010",
     "name": "Zephyr",
     "category": "Suits",
-    "xp": 900685,
+    "xp": 2132382,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -34152,13 +34493,18 @@
         "name": "A",
         "mods": [
           {
+            "name": "Augur Message",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
             "name": "Stretch",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Vitality",
-            "rank": 10,
+            "name": "Umbral Intensify",
+            "rank": 9,
             "kind": "mod"
           },
           {
@@ -34167,25 +34513,25 @@
             "kind": "mod"
           },
           {
-            "name": "Vigor",
-            "rank": 5,
+            "name": "Archon Continuity",
+            "rank": 10,
             "kind": "mod"
           },
           {
-            "name": "Physique",
+            "name": "Dreamer's Bond",
             "rank": 5,
             "kind": "mod"
           }
         ],
         "arcanes": [
           {
-            "name": "Arcane Barrier",
-            "rank": 1,
+            "name": "Molt Augmented",
+            "rank": 5,
             "kind": "arcane"
           },
           {
-            "name": "Theorem Contagion",
-            "rank": 2,
+            "name": "Molt Efficiency",
+            "rank": 5,
             "kind": "arcane"
           }
         ],
