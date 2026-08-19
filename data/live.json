@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-19T09:35:21.947000Z",
-      "worldStateAt": "2026-08-19T09:34:53Z",
-      "ageSecondsAtCheck": 29
+      "checkedAt": "2026-08-19T09:53:55.969000Z",
+      "worldStateAt": "2026-08-19T09:53:47Z",
+      "ageSecondsAtCheck": 9
     },
     "fallback": {
       "provider": "WarframeStat.us",
@@ -22,9 +22,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-19T09:35:21.947000Z",
-      "worldStateAt": "2026-08-19T09:34:53Z",
-      "ageSecondsAtCheck": 29
+      "checkedAt": "2026-08-19T09:53:55.969000Z",
+      "worldStateAt": "2026-08-19T09:53:47Z",
+      "ageSecondsAtCheck": 9
     },
     "rewards": [
       "Dera Vandal Blueprint",
@@ -161,9 +161,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -33805,
+        "count": -34171,
         "requiredRuns": 38000,
-        "completion": 5.51973684210526,
+        "completion": 5.038157894736845,
         "completed": false
       },
       {
@@ -249,9 +249,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -6596,
+        "count": -6918,
         "requiredRuns": 34000,
-        "completion": 40.300000000000004,
+        "completion": 39.826470588235296,
         "completed": false
       },
       {
@@ -315,9 +315,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -22124,
+        "count": -22488,
         "requiredRuns": 30000,
-        "completion": 26.25333333333333,
+        "completion": 25.039999999999996,
         "completed": false
       },
       {
@@ -348,9 +348,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -20649,
+        "count": -23364,
         "requiredRuns": 33000,
-        "completion": 37.42727272727273,
+        "completion": 29.200000000000003,
         "completed": false
       },
       {
@@ -381,9 +381,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -5355,
+        "count": -7801,
         "requiredRuns": 30000,
-        "completion": 82.15,
+        "completion": 73.99666666666667,
         "completed": false
       },
       {
@@ -414,9 +414,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -337,
+        "count": -522,
         "requiredRuns": 43000,
-        "completion": 99.21627906976744,
+        "completion": 98.78604651162792,
         "completed": false
       },
       {
@@ -447,9 +447,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -83,
+        "count": -174,
         "requiredRuns": 39000,
-        "completion": 99.78717948717949,
+        "completion": 99.55384615384615,
         "completed": false
       }
     ],
@@ -461,9 +461,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-19T09:35:21.947000Z",
-      "worldStateAt": "2026-08-19T09:34:53Z",
-      "ageSecondsAtCheck": 29
+      "checkedAt": "2026-08-19T09:53:55.969000Z",
+      "worldStateAt": "2026-08-19T09:53:47Z",
+      "ageSecondsAtCheck": 9
     },
     "id": "cetusCycle1787133240000",
     "state": "night",
@@ -476,10 +476,10 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787140800947",
+      "id": "earthCycle1787140800969",
       "state": "day",
-      "activation": "2026-08-19T08:00:00.947000Z",
-      "expiry": "2026-08-19T12:00:00.947000Z",
+      "activation": "2026-08-19T08:00:00.969000Z",
+      "expiry": "2026-08-19T12:00:00.969000Z",
       "isDay": true
     },
     "cetus": {
@@ -493,11 +493,11 @@
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787132408000",
-      "state": "warm",
-      "activation": "2026-08-19T09:33:00Z",
-      "expiry": "2026-08-19T09:40:08Z",
-      "isWarm": true
+      "id": "vallisCycle1787133608000",
+      "state": "cold",
+      "activation": "2026-08-19T09:40:00Z",
+      "expiry": "2026-08-19T10:00:08Z",
+      "isWarm": false
     },
     "cambion": {
       "id": "cambionCycle1787133240000",
@@ -514,7 +514,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-19T09:35:21.947916+00:00",
+  "checkedAt": "2026-08-19T09:53:55.969687+00:00",
   "baro": {
     "status": "verified",
     "active": false,
