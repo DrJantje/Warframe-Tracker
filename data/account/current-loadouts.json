@@ -1,12 +1,12 @@
 {
   "NORMAL": {
-    "index": 9,
-    "name": "Titania",
+    "index": 10,
+    "name": "Mesa",
     "favorite": false,
     "slots": {
       "s": {
-        "buildRef": "suits-019",
-        "item": "Titania Prime",
+        "buildRef": "suits-030",
+        "item": "Dante",
         "category": "Suits",
         "configIndex": 0,
         "configuration": "A"
@@ -33,15 +33,8 @@
         "configuration": "A"
       },
       "a": {
-        "buildRef": "specialitems-011",
-        "item": "Dex Pixia Prime",
-        "category": "SpecialItems",
-        "configIndex": 0,
-        "configuration": "A"
-      },
-      "b": {
-        "buildRef": "specialitems-012",
-        "item": "Diwata Prime",
+        "buildRef": "specialitems-028",
+        "item": "Noctua",
         "category": "SpecialItems",
         "configIndex": 0,
         "configuration": "A"
@@ -77,8 +70,8 @@
     }
   },
   "DATAKNIFE": {
-    "index": 10,
-    "name": "Titania",
+    "index": 11,
+    "name": "Mesa",
     "favorite": false,
     "slots": {
       "s": {
@@ -217,14 +210,21 @@
     }
   },
   "SENTINEL": {
-    "index": 10,
-    "name": "Titania",
+    "index": 11,
+    "name": "Mesa",
     "favorite": false,
     "slots": {
       "s": {
         "buildRef": "kubrowpets-006",
         "item": "Panzer Vulpaphyla",
         "category": "KubrowPets",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "l": {
+        "buildRef": "sentinelweapons-018",
+        "item": "Verglas",
+        "category": "SentinelWeapons",
         "configIndex": 0,
         "configuration": "A"
       },
