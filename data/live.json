@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-19T09:53:55.969000Z",
-      "worldStateAt": "2026-08-19T09:53:47Z",
-      "ageSecondsAtCheck": 9
+      "checkedAt": "2026-08-19T10:05:16.114000Z",
+      "worldStateAt": "2026-08-19T10:04:35Z",
+      "ageSecondsAtCheck": 41
     },
     "fallback": {
       "provider": "WarframeStat.us",
@@ -22,9 +22,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-19T09:53:55.969000Z",
-      "worldStateAt": "2026-08-19T09:53:47Z",
-      "ageSecondsAtCheck": 9
+      "checkedAt": "2026-08-19T10:05:16.114000Z",
+      "worldStateAt": "2026-08-19T10:04:35Z",
+      "ageSecondsAtCheck": 41
     },
     "rewards": [
       "Dera Vandal Blueprint",
@@ -161,9 +161,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -34171,
+        "count": -34365,
         "requiredRuns": 38000,
-        "completion": 5.038157894736845,
+        "completion": 4.782894736842103,
         "completed": false
       },
       {
@@ -249,9 +249,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -6918,
+        "count": -7075,
         "requiredRuns": 34000,
-        "completion": 39.826470588235296,
+        "completion": 39.595588235294116,
         "completed": false
       },
       {
@@ -315,9 +315,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -22488,
+        "count": -22707,
         "requiredRuns": 30000,
-        "completion": 25.039999999999996,
+        "completion": 24.31,
         "completed": false
       },
       {
@@ -348,9 +348,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -23364,
+        "count": -24718,
         "requiredRuns": 33000,
-        "completion": 29.200000000000003,
+        "completion": 25.096969696969694,
         "completed": false
       },
       {
@@ -381,9 +381,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -7801,
+        "count": -9057,
         "requiredRuns": 30000,
-        "completion": 73.99666666666667,
+        "completion": 69.80999999999999,
         "completed": false
       },
       {
@@ -414,9 +414,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -522,
+        "count": -620,
         "requiredRuns": 43000,
-        "completion": 98.78604651162792,
+        "completion": 98.55813953488372,
         "completed": false
       },
       {
@@ -447,9 +447,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -174,
+        "count": -212,
         "requiredRuns": 39000,
-        "completion": 99.55384615384615,
+        "completion": 99.45641025641025,
         "completed": false
       }
     ],
@@ -461,60 +461,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-19T09:53:55.969000Z",
-      "worldStateAt": "2026-08-19T09:53:47Z",
-      "ageSecondsAtCheck": 9
+      "checkedAt": "2026-08-19T10:05:16.114000Z",
+      "worldStateAt": "2026-08-19T10:04:35Z",
+      "ageSecondsAtCheck": 41
     },
-    "id": "cetusCycle1787133240000",
-    "state": "night",
-    "activation": "2026-08-19T09:04:00Z",
-    "expiry": "2026-08-19T09:54:00Z",
-    "isDay": false,
+    "id": "cetusCycle1787139240000",
+    "state": "day",
+    "activation": "2026-08-19T09:54:00Z",
+    "expiry": "2026-08-19T11:34:00Z",
+    "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-08-19T09:54:02.326000Z",
+    "syndicateExpiry": "2026-08-19T12:24:01.201000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787140800969",
+      "id": "earthCycle1787140800114",
       "state": "day",
-      "activation": "2026-08-19T08:00:00.969000Z",
-      "expiry": "2026-08-19T12:00:00.969000Z",
+      "activation": "2026-08-19T08:00:00.114000Z",
+      "expiry": "2026-08-19T12:00:00.114000Z",
       "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1787133240000",
-      "state": "night",
-      "activation": "2026-08-19T09:04:00Z",
-      "expiry": "2026-08-19T09:54:00Z",
-      "isDay": false,
+      "id": "cetusCycle1787139240000",
+      "state": "day",
+      "activation": "2026-08-19T09:54:00Z",
+      "expiry": "2026-08-19T11:34:00Z",
+      "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-08-19T09:54:02.326000Z",
+      "syndicateExpiry": "2026-08-19T12:24:01.201000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787133608000",
-      "state": "cold",
-      "activation": "2026-08-19T09:40:00Z",
-      "expiry": "2026-08-19T10:00:08Z",
-      "isWarm": false
+      "id": "vallisCycle1787134008000",
+      "state": "warm",
+      "activation": "2026-08-19T10:00:00Z",
+      "expiry": "2026-08-19T10:06:48Z",
+      "isWarm": true
     },
     "cambion": {
-      "id": "cambionCycle1787133240000",
-      "state": "vome",
-      "activation": "2026-08-19T09:04:00Z",
-      "expiry": "2026-08-19T09:54:00Z"
+      "id": "cambionCycle1787139240000",
+      "state": "fass",
+      "activation": "2026-08-19T09:54:00Z",
+      "expiry": "2026-08-19T11:34:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1787133240000",
-      "state": "grineer",
-      "activation": "2026-08-19T07:24:00Z",
-      "expiry": "2026-08-19T09:54:00Z",
-      "isCorpus": false
+      "id": "zarimanCycle1787142240000",
+      "state": "corpus",
+      "activation": "2026-08-19T09:54:00Z",
+      "expiry": "2026-08-19T12:24:00Z",
+      "isCorpus": true
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-19T09:53:55.969687+00:00",
+  "checkedAt": "2026-08-19T10:05:16.114527+00:00",
   "baro": {
     "status": "verified",
     "active": false,
