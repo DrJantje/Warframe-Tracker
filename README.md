@@ -28,3 +28,14 @@ The original eight-file AlecaFrame export remains useful for data that `lastData
 3. The updater validates the eight JSON files, refreshes the normalized tracker snapshot, preserves manual Rank-40 overrides, commits the result, and pushes it to GitHub Pages.
 
 Raw AlecaFrame exports are read locally and are not uploaded. The published repository contains only the normalized tracker snapshot, the compact positive account-sync feed, and game-related acquisition data.
+
+## Live world state
+
+GitHub Pages refreshes `data/live.json` every five minutes from Digital
+Extremes' raw [`worldState.php`](https://api.warframe.com/cdn/worldState.php)
+feed. Invasions are parsed directly, and Cetus day/night is derived locally
+from the `CetusSyndicate` expiry using WFCD's current 100-minute day / 50-minute
+night logic. WarframeStat.us is retained only as an explicit fallback.
+
+The page displays the provider, fetch time, payload age, and Cetus countdown,
+and refreshes the published live payload once per minute while open.

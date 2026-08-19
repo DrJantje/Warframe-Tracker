@@ -1,6 +1,6 @@
 const app = document.querySelector('#app');
 
-const [data, availability, nightwaveCatalog, liveStatus, accountSync, accountManifest] = await Promise.all([
+const [data, availability, nightwaveCatalog, initialLiveStatus, accountSync, accountManifest] = await Promise.all([
   json('./data/warframe.json'),
   json('./data/availability.json'),
   json('./data/nightwave-items.json'),
@@ -12,8 +12,11 @@ const [data, availability, nightwaveCatalog, liveStatus, accountSync, accountMan
   throw error;
 });
 
+let liveStatus = initialLiveStatus;
+
 applyAccountSync(data, accountSync);
 applyConsistencyFixes(data);
+applyLiveWorldState(data, liveStatus);
 
 const UNVERIFIED = 'Acquisition route not verified yet';
 const nightwaveDefinitions = new Map(nightwaveCatalog.items.map((entry) => [entry.item, entry]));
@@ -69,6 +72,26 @@ function formatDate(value, includeTime = true) {
   return date.toLocaleString('en-US', includeTime
     ? { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }
     : { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/Los_Angeles' });
+}
+
+function duration(milliseconds) {
+  if (!Number.isFinite(milliseconds)) return 'unknown';
+  let seconds = Math.max(0, Math.ceil(milliseconds / 1000));
+  const hours = Math.floor(seconds / 3600);
+  seconds -= hours * 3600;
+  const minutes = Math.floor(seconds / 60);
+  seconds -= minutes * 60;
+  return hours
+    ? `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
+    : `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+
+function ageLabel(value) {
+  const age = Date.now() - Date.parse(value || '');
+  if (!Number.isFinite(age)) return 'age unknown';
+  if (age < 60_000) return `${Math.max(0, Math.floor(age / 1000))}s old`;
+  if (age < 3_600_000) return `${Math.floor(age / 60_000)}m old`;
+  return `${Math.floor(age / 3_600_000)}h old`;
 }
 
 function routeView() {
@@ -172,6 +195,32 @@ function applyConsistencyFixes(payload) {
   }
 }
 
+function normalizeLiveText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/\bblueprint\b/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function applyLiveWorldState(payload, live) {
+  const rewards = live?.invasions?.status === 'verified'
+    ? (live.invasions.rewards || []).filter(Boolean)
+    : [];
+  for (const section of ['queue', 'vaulted', 'arsenal']) {
+    for (const row of payload[section] || []) {
+      const existing = (row.liveMatches || []).filter((match) => !String(match).startsWith('Invasion:'));
+      const missing = String(row.missing || '').split(';').map(normalizeLiveText).filter(Boolean);
+      const matches = rewards.filter((reward) => {
+        const normalized = normalizeLiveText(reward);
+        return normalized && missing.some((part) => normalized.includes(part) || part.includes(normalized));
+      });
+      row.liveMatches = [...new Set([...existing, ...matches.map((reward) => `Invasion: ${reward}`)])];
+    }
+  }
+}
+
 function sourceLabel(url) {
   if (!url) return 'Source unavailable';
   try {
@@ -236,12 +285,22 @@ function masthead() {
 }
 
 function freshness() {
-  const liveStatuses = [liveStatus.invasions, liveStatus.baro, liveStatus.events].filter((row) => row?.status === 'verified').length;
+  const worldState = liveStatus.worldState || {};
+  const sourceInfo = worldState.source || liveStatus.invasions?.source || {};
+  const worldStateHealthy = worldState.status === 'verified';
+  const sourceType = sourceInfo.type === 'primary' ? 'DE PRIMARY' : 'FALLBACK';
+  const provider = sourceInfo.provider || 'World state unavailable';
+  const sourceLink = sourceInfo.url
+    ? `<a href="${escapeHtml(sourceInfo.url)}" target="_blank" rel="noreferrer">${escapeHtml(provider)}</a>`
+    : escapeHtml(provider);
+  const cetus = liveStatus.cetusCycle || {};
   const sourceText = /Direct read-only/i.test(data.meta.exportSource || '') ? 'Direct DE inventory' : (data.meta.exportSource || 'Inventory source');
   const capturedAt = accountManifest.sourceModifiedAt || data.meta.exportVerifiedAt;
   return `<section class="freshness-strip" aria-label="Data freshness">
     <span class="freshness-badge confirmed"><i></i><span><b>Account captured</b>${escapeHtml(formatDate(capturedAt))}</span></span>
-    <span class="freshness-badge ${liveStatuses ? 'live' : 'stale'}"><i></i><span><b>World state</b>${liveStatuses}/3 feeds verified</span></span>
+    <span class="freshness-badge ${worldStateHealthy ? 'live' : 'stale'}"><i></i><span><b>${sourceType}</b>${sourceLink}</span></span>
+    <span class="freshness-badge ${worldStateHealthy ? 'live' : 'stale'}"><i></i><span><b>Fetched ${escapeHtml(formatDate(sourceInfo.checkedAt || liveStatus.checkedAt))}</b><span data-worldstate-age>${escapeHtml(ageLabel(sourceInfo.checkedAt || liveStatus.checkedAt))}</span></span></span>
+    <span class="freshness-badge ${liveStatus.cetusCycle?.status === 'verified' ? 'live' : 'stale'}"><i></i><span><b>Cetus ${escapeHtml(String(cetus.state || 'unknown').toUpperCase())}</b><span data-cetus-countdown>${escapeHtml(duration(Date.parse(cetus.expiry || '') - Date.now()))}</span></span></span>
     <span class="freshness-badge confirmed"><i></i><span><b>Provenance</b>${escapeHtml(sourceText)}</span></span>
   </section>`;
 }
@@ -311,7 +370,8 @@ function warning(kind, title, copy) {
 
 function invasionWarning() {
   if (liveStatus.invasions?.status === 'verified') return '';
-  return warning('amber', 'Live Invasion matching is unavailable.', `The account routes are still valid, but ACTIVE NOW badges may be incomplete. World state last checked ${formatDate(liveStatus.checkedAt)}.`);
+  const sourceInfo = liveStatus.worldState?.source || liveStatus.invasions?.source || {};
+  return warning('amber', 'Cetus timing and live Invasion matching are unavailable.', `The account routes are still valid, but Invasion ACTIVE NOW badges are withheld. Last usable source: ${sourceInfo.provider || 'none'} at ${formatDate(sourceInfo.checkedAt || liveStatus.checkedAt)}.`);
 }
 
 function nightwaveWarning(rows) {
@@ -362,7 +422,7 @@ function content() {
 }
 
 function footer() {
-  return `<footer><span>Sanitized account derivative · no IDs, Platinum, raw payloads, or authentication data</span><span><a href="chatgpt-context.md">ChatGPT context</a> · <a href="llms.txt">AI index</a> · Rules reviewed ${escapeHtml(formatDate(data.meta.exportVerifiedAt, false))}</span></footer>`;
+  return `<footer><span>Sanitized account derivative · no IDs, Platinum, raw payloads, or authentication data</span><span>World state: ${escapeHtml(liveStatus.worldState?.source?.provider || 'unavailable')} · <a href="chatgpt-context.md">ChatGPT context</a> · <a href="llms.txt">AI index</a> · Rules reviewed ${escapeHtml(formatDate(data.meta.exportVerifiedAt, false))}</span></footer>`;
 }
 
 function bind() {
@@ -386,8 +446,31 @@ function render() {
   const rows = state.view === 'next' ? actionableQueue : state.view === 'relics' ? data.vaulted : state.view === 'vendors' ? vendorQueue : state.view === 'foundry' ? [...data.owned, ...materialQueue] : data.arsenal;
   app.innerHTML = `${masthead()}${freshness()}${hero()}${secondaryNavigation()}${controls(rows)}${content()}${footer()}`;
   bind();
+  updateLiveClocks();
 }
 
 window.addEventListener('hashchange', () => { state.query = ''; state.visible = 24; render(); });
 if (!location.hash) history.replaceState(null, '', '#plan/next');
 render();
+
+function updateLiveClocks() {
+  const sourceInfo = liveStatus.worldState?.source || liveStatus.invasions?.source || {};
+  const cycle = liveStatus.cetusCycle || {};
+  app.querySelector('[data-worldstate-age]')?.replaceChildren(ageLabel(sourceInfo.checkedAt || liveStatus.checkedAt));
+  app.querySelector('[data-cetus-countdown]')?.replaceChildren(duration(Date.parse(cycle.expiry || '') - Date.now()));
+}
+
+async function refreshLiveStatus() {
+  try {
+    const next = await json(`./data/live.json?worldstate=${Date.now()}`);
+    if (Date.parse(next.checkedAt || '') <= Date.parse(liveStatus.checkedAt || '')) return;
+    liveStatus = next;
+    applyLiveWorldState(data, liveStatus);
+    render();
+  } catch (error) {
+    console.warn('World-state refresh failed; retaining the last verified payload.', error);
+  }
+}
+
+setInterval(updateLiveClocks, 1000);
+setInterval(refreshLiveStatus, 60_000);
