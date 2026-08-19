@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-18",
-    "exportVerifiedAt": "2026-08-18 21:11:08 PDT",
+    "snapshotDate": "2026-08-19",
+    "exportVerifiedAt": "2026-08-19 02:25:47 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167878,
-        "modified": "2026-08-18T21:11:07.984400-07:00",
-        "sha256": "53b8ad07078673e6c434ed7165aa50bfbb5221b3c67af15800236f38f87c1aff"
+        "bytes": 2167879,
+        "modified": "2026-08-19T02:25:47.113154-07:00",
+        "sha256": "2b4ca03be3a6f72d5f4cbce6529992777ad1b2eab200e2606e332f4e5d52e3ff"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-18T21:11:07.986409-07:00",
+        "modified": "2026-08-19T02:25:47.119215-07:00",
         "sha256": "f9465485f11c1f1b992ca53f35604aa79b3add8859b6b2f3544b92d22ca23f36"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-18T21:11:07.985904-07:00",
-        "sha256": "b303ff66dfb771f73a12ca7792d9def4d59e975ec586cf451a895a40390f46a3"
+        "modified": "2026-08-19T02:25:47.115170-07:00",
+        "sha256": "4b03d69be2a9f2715c8eccd2f55c04c76b6614f601017afab9477e532660cf35"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-18T21:11:07.986409-07:00",
-        "sha256": "bfca7e9d42f6c6944e6c078dd054bc17b6fc4a5f7dc319d10855ed407137acc4"
+        "modified": "2026-08-19T02:25:47.116681-07:00",
+        "sha256": "a2cafe984f5ee22061fd04546029811dc289ca34ce2a8405f2a9c827c70da089"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-18T21:11:07.988948-07:00",
-        "sha256": "ece12b913caf9c9b78265a2b757a2ab05386ac7db69c02334568585f0b75c3d5"
+        "modified": "2026-08-19T02:25:47.120724-07:00",
+        "sha256": "9770a32ecbe089d99111861132c81ac3c7feb9dfe2401d86728fe928778e61ee"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,149 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Coda Tysis",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Glaive",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Higasa",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Higasa Barrel; Higasa Blueprint; Higasa Receiver; Higasa Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Higasa Barrel; Higasa Receiver; Higasa Stock"
+        ]
+      },
+      {
+        "item": "Revenant",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Stahlta",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Stahlta Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Stropha",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Thalys",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Thalys Blueprint; Temporal Dust (52/100)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Thalys Blueprint"
+        ]
+      },
+      {
+        "item": "Velox",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Voruna",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Lua Thrax Plasm (8/50)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Lua Thrax Plasm (15/50)"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 234
+      "missing": 233
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -85,7 +221,7 @@
       "Meso K8 Intact": 46,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 32,
+      "Meso L5 Intact": 33,
       "Meso V13 Intact": 31,
       "Meso V15 Intact": 44,
       "Meso V15 Radiant": 2,
@@ -647,6 +783,21 @@
     },
     {
       "ease": "4 — Multi-step farm",
+      "item": "Thalys",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Thalys Blueprint",
+      "route": "Isleweaver Scuttler Husk vendor",
+      "steps": "Buy the blueprint using Scuttler Husks and obtain the remaining Temporal Dust shown in Missing.",
+      "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
+      "source": "https://wiki.warframe.com/w/Thalys",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 405
+    },
+    {
+      "ease": "4 — Multi-step farm",
       "item": "Vasca Kavat",
       "type": "companion",
       "targetRank": "30",
@@ -800,34 +951,19 @@
       "practicalPriority": 410
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Thalys",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Thalys Blueprint; Temporal Dust (52/100)",
-      "route": "Isleweaver Scuttler Husk vendor",
-      "steps": "Buy the Blueprint from Acrithis using Scuttler Husks and obtain 48 Temporal Dust from Murmur enemies during Isleweaver.",
-      "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
-      "source": "https://wiki.warframe.com/w/Thalys",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Voruna",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Lua Thrax Plasm (8/50)",
+      "missing": "Lua Thrax Plasm (15/50)",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 42 Lua Thrax Plasm.",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 35 Lua Thrax Plasm.",
       "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
       "source": "https://wiki.warframe.com/w/Voruna",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 486
+      "practicalPriority": 482
     },
     {
       "ease": "5 — Long grind / trade",
@@ -967,21 +1103,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Stahlta",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Stahlta Blueprint",
-      "route": "Jackal + Granum Void",
-      "steps": "Main Blueprint: defeat Jackal.",
-      "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
-      "source": "https://wiki.warframe.com/w/Stahlta",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Nidus",
       "type": "warframe",
       "targetRank": "30",
@@ -1020,6 +1141,21 @@
       "steps": "Farm all three components from rotation C; buy the main blueprint from the Market.",
       "tip": "From round four onward, defend at least three conduits to keep rotation C.",
       "source": "https://wiki.warframe.com/w/Gauss",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 515
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Higasa",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Higasa Barrel; Higasa Receiver; Higasa Stock",
+      "route": "Saya’s Visions / Koumei’s Shrine",
+      "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
+      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
+      "source": "https://wiki.warframe.com/w/Higasa",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1080,21 +1216,6 @@
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
       "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
       "source": "https://wiki.warframe.com/w/Follie",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Higasa",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Higasa Barrel; Higasa Blueprint; Higasa Receiver; Higasa Stock",
-      "route": "Saya’s Visions / Koumei’s Shrine",
-      "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
-      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
-      "source": "https://wiki.warframe.com/w/Higasa",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1713,7 +1834,9 @@
       "source": "https://wiki.warframe.com/w/Dera_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Dera Vandal Blueprint"
+      ],
       "practicalPriority": 770
     },
     {
@@ -1728,7 +1851,9 @@
       "source": "https://wiki.warframe.com/w/Latron_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Latron Wraith Receiver"
+      ],
       "practicalPriority": 770
     },
     {
@@ -3995,24 +4120,6 @@
       "source": "https://wiki.warframe.com/w/Chesa_Kubrow"
     },
     {
-      "item": "Coda Tysis",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30 first; 40 optional",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
-    },
-    {
-      "item": "Glaive",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
-    },
-    {
       "item": "Itzal",
       "type": "archwing",
       "state": "Rank unknown — verify in Arsenal",
@@ -4022,13 +4129,13 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Velox",
-      "type": "secondary",
+      "item": "Stropha",
+      "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Velox"
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Stropha"
     },
     {
       "item": "Jade",
@@ -4049,13 +4156,13 @@
       "source": "https://wiki.warframe.com/w/Protea"
     },
     {
-      "item": "Stropha",
-      "type": "melee",
+      "item": "Stahlta",
+      "type": "primary",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Stropha"
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Stahlta"
     },
     {
       "item": "Valkyr Prime",
@@ -7198,14 +7305,14 @@
     {
       "item": "Coda Tysis",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7769,7 +7876,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Dera Vandal Blueprint"
+      ]
     },
     {
       "item": "Despair",
@@ -9615,15 +9724,15 @@
     {
       "item": "Glaive",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Owned; rank unknown",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -10442,7 +10551,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Higasa Barrel; Higasa Blueprint; Higasa Receiver; Higasa Stock",
+      "missing": "Higasa Barrel; Higasa Receiver; Higasa Stock",
       "ease": "5 — Long grind / trade",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
@@ -12376,7 +12485,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Latron Wraith Receiver"
+      ]
     },
     {
       "item": "Lavos",
@@ -15896,8 +16007,8 @@
     {
       "item": "Revenant",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -17299,20 +17410,20 @@
     {
       "item": "Stahlta",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Stahlta Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stahlta",
-      "steps": "Main Blueprint: defeat Jackal.",
+      "steps": ".",
       "tip": "Enter the Granum Void tier matching the listed component and reach rotation C; use Xoris heavy throws to free Solaris captives and extend the timer.",
       "primeDetails": [],
       "liveMatches": []
@@ -17420,17 +17531,17 @@
     {
       "item": "Stropha",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stropha",
       "steps": ".",
@@ -18511,14 +18622,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Thalys Blueprint; Temporal Dust (52/100)",
+      "missing": "Thalys Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Isleweaver Scuttler Husk vendor",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Thalys",
-      "steps": "Buy the Blueprint from Acrithis using Scuttler Husks and obtain 48 Temporal Dust from Murmur enemies during Isleweaver.",
+      "steps": "Buy the blueprint using Scuttler Husks and obtain the remaining Temporal Dust shown in Missing.",
       "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
       "primeDetails": [],
       "liveMatches": []
@@ -19391,14 +19502,14 @@
     {
       "item": "Velox",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Granum Void after The Deadlock Protocol",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -19881,14 +19992,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Lua Thrax Plasm (8/50)",
+      "missing": "Lua Thrax Plasm (15/50)",
       "ease": "5 — Long grind / trade",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Voruna",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 42 Lua Thrax Plasm.",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 35 Lua Thrax Plasm.",
       "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
       "primeDetails": [],
       "liveMatches": []
