@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 02:25:47 PDT",
+    "exportVerifiedAt": "2026-08-19 02:35:21 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167879,
-        "modified": "2026-08-19T02:25:47.113154-07:00",
-        "sha256": "2b4ca03be3a6f72d5f4cbce6529992777ad1b2eab200e2606e332f4e5d52e3ff"
+        "bytes": 2167876,
+        "modified": "2026-08-19T02:35:21.125759-07:00",
+        "sha256": "983e9f0b94939da5d1db75da31dd7a59b25db82a49ff350f7fbdeb55b895328f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T02:25:47.119215-07:00",
-        "sha256": "f9465485f11c1f1b992ca53f35604aa79b3add8859b6b2f3544b92d22ca23f36"
+        "modified": "2026-08-19T02:35:21.129799-07:00",
+        "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T02:25:47.115170-07:00",
+        "modified": "2026-08-19T02:35:21.127267-07:00",
         "sha256": "4b03d69be2a9f2715c8eccd2f55c04c76b6614f601017afab9477e532660cf35"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T02:25:47.116681-07:00",
+        "modified": "2026-08-19T02:35:21.128792-07:00",
         "sha256": "a2cafe984f5ee22061fd04546029811dc289ca34ce2a8405f2a9c827c70da089"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T02:25:47.120724-07:00",
-        "sha256": "9770a32ecbe089d99111861132c81ac3c7feb9dfe2401d86728fe928778e61ee"
+        "modified": "2026-08-19T02:35:21.131309-07:00",
+        "sha256": "0ac5479724959a3f64ed715cd5c16e66bbf71cbe7a46ef265d3eca9cfec5ee72"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,72 +48,27 @@
     },
     "importChanges": [
       {
-        "item": "Coda Tysis",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Glaive",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Higasa",
+        "item": "Afuris Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Higasa Barrel; Higasa Blueprint; Higasa Receiver; Higasa Stock"
+          "Afuris Prime Link; Afuris Prime Receiver (0/2)"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Higasa Barrel; Higasa Receiver; Higasa Stock"
+          "Afuris Prime Link; Afuris Prime Receiver (1/2)"
         ]
       },
       {
-        "item": "Revenant",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Stahlta",
+        "item": "Phantasma Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Stahlta Blueprint"
+          "Phantasma Prime Stock"
         ],
         "after": [
           "No",
@@ -123,47 +78,32 @@
         ]
       },
       {
-        "item": "Stropha",
+        "item": "Scyotid",
         "before": [
           "No",
           "No",
-          "Yes",
-          ""
+          "No",
+          "Scyotid Barrel (0/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)"
         ],
         "after": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Scyotid Barrel (0/2); Scyotid Gauntlet (0/2)"
         ]
       },
       {
-        "item": "Thalys",
+        "item": "Tatsu Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Thalys Blueprint; Temporal Dust (52/100)"
+          "Tatsu Prime Blade"
         ],
         "after": [
           "No",
           "No",
-          "No",
-          "Thalys Blueprint"
-        ]
-      },
-      {
-        "item": "Velox",
-        "before": [
           "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
           ""
         ]
       },
@@ -173,13 +113,13 @@
           "No",
           "No",
           "No",
-          "Lua Thrax Plasm (8/50)"
+          "Lua Thrax Plasm (15/50)"
         ],
         "after": [
           "No",
           "No",
-          "No",
-          "Lua Thrax Plasm (15/50)"
+          "Yes",
+          ""
         ]
       }
     ],
@@ -188,7 +128,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 233
+      "missing": 230
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -952,25 +892,10 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Voruna",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Lua Thrax Plasm (15/50)",
-      "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 35 Lua Thrax Plasm.",
-      "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
-      "source": "https://wiki.warframe.com/w/Voruna",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 482
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Scyotid",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Scyotid Barrel (0/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)",
+      "missing": "Scyotid Barrel (0/2); Scyotid Gauntlet (0/2)",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
       "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
@@ -978,7 +903,7 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 500
+      "practicalPriority": 495
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2054,9 +1979,9 @@
       "item": "Afuris Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Afuris Prime Link; Afuris Prime Receiver (0/2)",
+      "missing": "Afuris Prime Link; Afuris Prime Receiver (1/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Afuris Prime Link (Uncommon): buy Neo P8 from Varzia for Aya and open it Radiant in a four-player share. Afuris Prime Receiver ×2 (Rare): buy Lith A9 from Varzia for Aya and open it Radiant in a four-player share. Build Afuris Prime and level it to 30.",
+      "steps": "Afuris Prime Link (Uncommon): buy Neo P8 from Varzia for Aya and open it Radiant in a four-player share. Afuris Prime Receiver (Rare): buy Lith A9 from Varzia for Aya and open it Radiant in a four-player share. Build Afuris Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Afuris_Prime",
       "vaulted": "Yes",
@@ -2071,7 +1996,7 @@
           "refinement": "Radiant"
         },
         {
-          "part": "Afuris Prime Receiver (0/2)",
+          "part": "Afuris Prime Receiver (1/2)",
           "relic": "Lith A9",
           "rarity": "Rare",
           "ownedRelics": 0,
@@ -3444,33 +3369,6 @@
       "practicalPriority": 520
     },
     {
-      "ease": "5 — Long grind / trade",
-      "item": "Phantasma Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Phantasma Prime Stock",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Phantasma Prime Stock (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Phantasma Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://wiki.warframe.com/w/Phantasma_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Phantasma Prime Stock",
-          "relic": "Axi C9",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "practicalPriority": 505
-    },
-    {
       "ease": "4 — Multi-step farm",
       "item": "Prime Laser Rifle",
       "type": "companion",
@@ -3783,33 +3681,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Tatsu Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Tatsu Prime Blade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Tatsu Prime Blade (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Tatsu Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://wiki.warframe.com/w/Tatsu_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Tatsu Prime Blade",
-          "relic": "Axi C9",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4147,6 +4018,15 @@
       "source": "https://wiki.warframe.com/w/Jade"
     },
     {
+      "item": "Phantasma Prime",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Phantasma_Prime"
+    },
+    {
       "item": "Protea",
       "type": "warframe",
       "state": "Ready in Foundry",
@@ -4165,6 +4045,15 @@
       "source": "https://wiki.warframe.com/w/Stahlta"
     },
     {
+      "item": "Tatsu Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Tatsu_Prime"
+    },
+    {
       "item": "Valkyr Prime",
       "type": "warframe",
       "state": "Ready in Foundry",
@@ -4172,6 +4061,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://www.warframe.com/droptables"
+    },
+    {
+      "item": "Voruna",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Voruna"
     }
   ],
   "rank40": [
@@ -4527,7 +4425,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Afuris Prime Link; Afuris Prime Receiver (0/2)",
+      "missing": "Afuris Prime Link; Afuris Prime Receiver (1/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -4545,7 +4443,7 @@
           "refinement": "Radiant"
         },
         {
-          "part": "Afuris Prime Receiver (0/2)",
+          "part": "Afuris Prime Receiver (1/2)",
           "relic": "Lith A9",
           "rarity": "Rare",
           "ownedRelics": 0,
@@ -4556,7 +4454,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Afuris Prime Link (Uncommon): buy Neo P8 from Varzia for Aya and open it Radiant in a four-player share. Afuris Prime Receiver ×2 (Rare): buy Lith A9 from Varzia for Aya and open it Radiant in a four-player share. Build Afuris Prime and level it to 30.",
+      "steps": "Afuris Prime Link (Uncommon): buy Neo P8 from Varzia for Aya and open it Radiant in a four-player share. Afuris Prime Receiver (Rare): buy Lith A9 from Varzia for Aya and open it Radiant in a four-player share. Build Afuris Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -14780,35 +14678,21 @@
     {
       "item": "Phantasma Prime",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Phantasma Prime Stock",
-      "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Phantasma_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Phantasma Prime Stock",
-          "relic": "Axi C9",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Phantasma Prime Stock (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Phantasma Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Pharaoh Predasite",
@@ -16572,7 +16456,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Scyotid Barrel (0/2); Scyotid Blueprint; Scyotid Gauntlet (0/2)",
+      "missing": "Scyotid Barrel (0/2); Scyotid Gauntlet (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
@@ -18026,35 +17910,21 @@
     {
       "item": "Tatsu Prime",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Tatsu Prime Blade",
-      "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Tatsu_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Tatsu Prime Blade",
-          "relic": "Axi C9",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Tatsu Prime Blade (Uncommon): buy Axi C9 from Varzia for Aya and open it Radiant in a four-player share. Build Tatsu Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Taxon",
@@ -19986,20 +19856,20 @@
     {
       "item": "Voruna",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Lua Thrax Plasm (15/50)",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Voruna",
-      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with 35 Lua Thrax Plasm.",
+      "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.",
       "tip": "Circulus pays more Lua Thrax Plasm; stay for later rotations when stable.",
       "primeDetails": [],
       "liveMatches": []

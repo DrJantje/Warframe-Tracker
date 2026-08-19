@@ -1,32 +1,30 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-19T09:25:47.429530+00:00
-Account snapshot: 2026-08-19T07:23:01.519Z
+Generated: 2026-08-19T09:35:21.417798+00:00
+Account snapshot: 2026-08-19T09:35:18.052Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: orbiter
-- Location: LOADOUT
-- Planet: unknown
+- Phase: location
+- Location: HUB
+- Planet: DEIMOS
 - Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 9472
+- Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Mesa
+### Arsenal: Uriel
 
-#### Warframe: Mesa Prime — config Heat
+#### Warframe: Uriel — config A
 
-- Forma: 2
-- Lens: Greater Unairu Lens
-- Helminth: Xata's Whisper
-- Archon shards: ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
-- Mods: Archon Continuity (rank 10), Precision Intensify (rank 5), Fleeting Expertise (rank 5), Primed Flow (rank 10), Streamline (rank 5), Adaptation (rank 10), Archon Vitality (rank 10), Equilibrium (rank 10), Growing Power (rank 5), Mesa's Waltz (rank 3)
-- Arcanes: Arcane Hot Shot (rank 3), Arcane Velocity (rank 5)
+- Forma: 5
+- Archon shards: ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Duration Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Duration Mythic, ACC_YELLOW Archon Crystal Upgrade Warframe Parkour Velocity
+- Mods: Archon Vitality (rank 10), Archon Continuity (rank 10), Blind Rage (rank 10), Umbral Intensify (rank 10), Stretch (rank 5), Equilibrium (rank 10), Primed Flow (rank 10), Overextended (rank 5), Growing Power (rank 5), Cunning Drift (rank 5)
+- Arcanes: Arcane Hot Shot (rank 3), Arcane Camisado (rank 5)
 
 #### Secondary: Coda Tysis — config A
 
@@ -34,11 +32,19 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Frostbite (rank 3), Hornet Strike (rank 10), Primed Heated Charge (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Stropha — config A
+#### Primary: Coda Bubonico — config A
 
-- Forma: 0
-- Mods: Magnetic Rush (rank 3), True Steel (rank 5), Pressure Point (rank 5), Primed Reach (rank 10), High Noon (rank 3)
-- Arcanes: none recorded
+- Forma: 5
+- Lens: Greater Unairu Lens
+- Mods: Scattering Inferno (rank 3), Toxic Barrage (rank 3), Shotgun Elementalist (rank 5), Primed Charged Shell (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
+
+#### Melee: Praedos — config A
+
+- Forma: 2
+- Lens: Greater Unairu Lens
+- Mods: Weeping Wounds (rank 5), Drifting Contact (rank 3), Condition Overload (rank 5), Primed Reach (rank 10), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Sovereign Outcast (rank 3)
+- Arcanes: Melee Exposure (rank 2)
 
 #### Heavy weapon: Mausolon — config A
 
@@ -46,13 +52,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-#### Exalted weapon: Regulators Prime — config Heat
-
-- Forma: 5
-- Mods: Primed Heated Charge (rank 10), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 9)
-- Arcanes: Cascadia Flare (rank 5)
-
-### Companion: Mesa
+### Companion: Uriel
 
 #### Companion: Panzer Vulpaphyla — config A
 

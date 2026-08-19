@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-19T09:25:47.429530+00:00",
+  "generatedAt": "2026-08-19T09:35:21.417798+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,141 +8,143 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-19T07:23:01.519Z",
+  "accountSnapshotAt": "2026-08-19T09:35:18.052Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-19T07:23:01.519Z",
+      "capturedAt": "2026-08-19T09:35:18.052Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-19T09:19:15.307Z",
-    "phase": "orbiter",
-    "node": "ORBITER",
-    "planet": "",
-    "mission": "LOADOUT",
+    "observedAt": "2026-08-19T09:35:18.066558+00:00",
+    "phase": "location",
+    "node": "SANCTUM",
+    "planet": "DEIMOS",
+    "mission": "HUB",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 9472,
+    "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
     "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
-      "name": "Mesa",
+      "name": "Uriel",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-015",
+          "buildRef": "suits-047",
           "resolutionStatus": "exact-build-ref",
-          "item": "Mesa Prime",
+          "item": "Uriel",
           "category": "Suits",
-          "configuration": "Heat",
-          "formaApplied": 2,
-          "focusLens": "Greater Unairu Lens",
+          "configuration": "A",
+          "formaApplied": 5,
+          "focusLens": null,
           "polarities": [
             {
+              "slot": 1,
+              "polarity": "AP_ATTACK"
+            },
+            {
               "slot": 2,
-              "polarity": "AP_TACTIC"
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 5,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 7,
               "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_TACTIC"
             }
           ],
           "modularParts": [],
           "archonShards": [
             {
-              "color": "ACC_ORANGE_MYTHIC",
-              "effect": "Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic"
-            },
-            {
-              "color": "ACC_ORANGE_MYTHIC",
-              "effect": "Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic"
-            },
-            {
-              "color": "ACC_ORANGE_MYTHIC",
-              "effect": "Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic"
-            },
-            {
-              "color": "ACC_ORANGE_MYTHIC",
-              "effect": "Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic"
+              "color": "ACC_YELLOW_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Casting Speed Mythic"
             },
             {
               "color": "ACC_YELLOW_MYTHIC",
               "effect": "Archon Crystal Upgrade Warframe Casting Speed Mythic"
+            },
+            {
+              "color": "ACC_RED_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Ability Duration Mythic"
+            },
+            {
+              "color": "ACC_RED_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Ability Duration Mythic"
+            },
+            {
+              "color": "ACC_YELLOW",
+              "effect": "Archon Crystal Upgrade Warframe Parkour Velocity"
             }
           ],
-          "helminthAbility": "Xata's Whisper",
+          "helminthAbility": null,
           "mods": [
+            {
+              "name": "Archon Vitality",
+              "rank": 10,
+              "kind": "mod"
+            },
             {
               "name": "Archon Continuity",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Precision Intensify",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Fleeting Expertise",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Flow",
+              "name": "Blind Rage",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Streamline",
+              "name": "Umbral Intensify",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Stretch",
               "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Adaptation",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Archon Vitality",
-              "rank": 10,
               "kind": "mod"
             },
             {
@@ -151,13 +153,23 @@
               "kind": "mod"
             },
             {
+              "name": "Primed Flow",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Overextended",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
               "name": "Growing Power",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Mesa's Waltz",
-              "rank": 3,
+              "name": "Cunning Drift",
+              "rank": 5,
               "kind": "mod"
             }
           ],
@@ -168,7 +180,7 @@
               "kind": "arcane"
             },
             {
-              "name": "Arcane Velocity",
+              "name": "Arcane Camisado",
               "rank": 5,
               "kind": "arcane"
             }
@@ -210,31 +222,144 @@
           ],
           "arcanes": []
         },
-        "Melee": {
-          "buildRef": "melee-137",
+        "Primary": {
+          "buildRef": "longguns-069",
           "resolutionStatus": "exact-build-ref",
-          "item": "Stropha",
-          "category": "Melee",
+          "item": "Coda Bubonico",
+          "category": "LongGuns",
           "configuration": "A",
-          "formaApplied": 0,
-          "focusLens": null,
-          "polarities": [],
+          "formaApplied": 5,
+          "focusLens": "Greater Unairu Lens",
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_ATTACK"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Magnetic Rush",
+              "name": "Scattering Inferno",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "True Steel",
+              "name": "Toxic Barrage",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Shotgun Elementalist",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Pressure Point",
+              "name": "Primed Charged Shell",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Ravage",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Critical Deceleration",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Hell",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Savvy",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Acceleration",
+              "rank": 10,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": [
+            {
+              "name": "Primary Merciless",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
+        },
+        "Melee": {
+          "buildRef": "melee-061",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Praedos",
+          "category": "Melee",
+          "configuration": "A",
+          "formaApplied": 2,
+          "focusLens": "Greater Unairu Lens",
+          "polarities": [
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Weeping Wounds",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Drifting Contact",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Condition Overload",
               "rank": 5,
               "kind": "mod"
             },
@@ -244,12 +369,28 @@
               "kind": "mod"
             },
             {
-              "name": "High Noon",
+              "name": "Sacrificial Steel",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Sacrificial Pressure",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Sovereign Outcast",
               "rank": 3,
               "kind": "mod"
             }
           ],
-          "arcanes": []
+          "arcanes": [
+            {
+              "name": "Melee Exposure",
+              "rank": 2,
+              "kind": "arcane"
+            }
+          ]
         },
         "Heavy weapon": {
           "buildRef": "spaceguns-002",
@@ -324,110 +465,6 @@
               "rank": 5,
               "kind": "arcane"
             },
-            {
-              "name": "Cascadia Flare",
-              "rank": 5,
-              "kind": "arcane"
-            }
-          ]
-        },
-        "Exalted weapon": {
-          "buildRef": "specialitems-006",
-          "resolutionStatus": "exact-build-ref",
-          "item": "Regulators Prime",
-          "category": "SpecialItems",
-          "configuration": "Heat",
-          "formaApplied": 5,
-          "focusLens": null,
-          "polarities": [
-            {
-              "slot": 0,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_TACTIC"
-            }
-          ],
-          "modularParts": [],
-          "archonShards": [],
-          "helminthAbility": null,
-          "mods": [
-            {
-              "name": "Primed Heated Charge",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Lethal Torrent",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Pistol Gambit",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Target Cracker",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Pistol Pestilence",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Frostbite",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Shot",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Diffusion",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Steady Hands",
-              "rank": 9,
-              "kind": "mod"
-            }
-          ],
-          "arcanes": [
             {
               "name": "Cascadia Flare",
               "rank": 5,
@@ -637,7 +674,7 @@
     },
     "DATAKNIFE": {
       "modeName": "Parazon and Plexus",
-      "name": "Mesa",
+      "name": "Uriel",
       "slots": {
         "Parazon": {
           "buildRef": "dataknives-001",
@@ -1400,7 +1437,7 @@
     },
     "SENTINEL": {
       "modeName": "Companion",
-      "name": "Mesa",
+      "name": "Uriel",
       "slots": {
         "Companion": {
           "buildRef": "kubrowpets-006",
