@@ -441,6 +441,16 @@ main {
   font-weight: 650;
 }
 
+.freshness-badge a {
+  color: var(--cyan-bright);
+  text-decoration: none;
+}
+
+.freshness-badge a:hover,
+.freshness-badge a:focus-visible {
+  text-decoration: underline;
+}
+
 .freshness-badge.live > i {
   background: var(--cyan);
   box-shadow: 0 0 13px rgba(93, 219, 231, .78);

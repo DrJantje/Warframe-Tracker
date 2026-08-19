@@ -6,10 +6,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
+from worldstate import (
+    FALLBACK_WORLD_STATE_URL,
+    PRIMARY_WORLD_STATE_URL,
+    direct_world_state,
+    fallback_world_state,
+)
+
 ROOT = Path(__file__).resolve().parents[1]
 LIVE = ROOT / "data" / "live.json"
 TRACKER = ROOT / "data" / "warframe.json"
-HEADERS = {"User-Agent": "Warframe-Tracker/1.0"}
+HEADERS = {
+    "User-Agent": "Warframe-Tracker/2.0",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+}
 
 
 def fetch_json(url: str) -> object:
@@ -24,22 +35,6 @@ def fetch_text(url: str) -> str:
         return response.read().decode("utf-8", errors="replace")
 
 
-def reward_names(invasions: object) -> list[str]:
-    names: set[str] = set()
-    if not isinstance(invasions, list):
-        return []
-    for invasion in invasions:
-        if not isinstance(invasion, dict) or invasion.get("completed"):
-            continue
-        for side in ("attacker", "defender"):
-            reward = invasion.get(side, {}).get("reward", {})
-            if isinstance(reward, dict):
-                value = reward.get("asString") or reward.get("itemString")
-                if isinstance(value, str) and value.strip():
-                    names.add(value.strip())
-    return sorted(names)
-
-
 def event_names(events: object) -> list[str]:
     if not isinstance(events, list):
         return []
@@ -52,23 +47,39 @@ def event_names(events: object) -> list[str]:
 
 def update() -> None:
     tracker = json.loads(TRACKER.read_text(encoding="utf-8"))
-    now = datetime.now(timezone.utc).isoformat()
-    output = {
-        "checkedAt": now,
-        "invasions": {"status": "unknown", "rewards": [], "source": "https://api.warframestat.us/pc/invasions"},
+    checked_at = datetime.now(timezone.utc)
+    checked_ms = int(checked_at.timestamp() * 1000)
+    fallback = None
+    primary_error = None
+
+    try:
+        output = direct_world_state(fetch_json(PRIMARY_WORLD_STATE_URL), checked_ms)
+        print("World state: Digital Extremes primary feed")
+    except Exception as error:
+        primary_error = error
+        print(f"Digital Extremes world state unavailable: {error}")
+        try:
+            fallback = fetch_json(FALLBACK_WORLD_STATE_URL)
+            output = fallback_world_state(fallback, checked_ms)
+            print("World state: WarframeStat.us fallback")
+        except Exception as fallback_error:
+            raise RuntimeError(
+                f"No usable world state. Digital Extremes: {primary_error}; "
+                f"WarframeStat.us fallback: {fallback_error}"
+            ) from fallback_error
+
+    output.update({
+        "schemaVersion": 2,
+        "checkedAt": checked_at.isoformat(),
         "baro": {"status": "unknown", "active": False, "endsAt": None, "items": [], "source": "https://api.warframestat.us/pc/voidTrader"},
         "events": {"status": "unknown", "items": [], "source": "https://api.warframestat.us/pc/events"},
         "primeResurgence": {"status": "unknown", "items": [], "source": "https://www.warframe.com/en/prime-resurgence"},
-    }
+    })
 
     try:
-        invasions = fetch_json(output["invasions"]["source"])
-        output["invasions"].update(status="verified", rewards=reward_names(invasions))
-    except Exception as error:
-        print(f"Live Invasions unavailable: {error}")
-
-    try:
-        trader = fetch_json(output["baro"]["source"])
+        if fallback is None:
+            fallback = fetch_json(FALLBACK_WORLD_STATE_URL)
+        trader = fallback.get("voidTrader", {}) if isinstance(fallback, dict) else {}
         inventory = trader.get("inventory", []) if isinstance(trader, dict) else []
         items = sorted({
             str(entry.get("item") or "").strip()
@@ -85,7 +96,9 @@ def update() -> None:
         print(f"Live Baro inventory unavailable: {error}")
 
     try:
-        events = fetch_json(output["events"]["source"])
+        if fallback is None:
+            fallback = fetch_json(FALLBACK_WORLD_STATE_URL)
+        events = fallback.get("events", []) if isinstance(fallback, dict) else []
         output["events"].update(status="verified", items=event_names(events))
     except Exception as error:
         print(f"Live events unavailable: {error}")
@@ -102,7 +115,13 @@ def update() -> None:
         print(f"Prime Resurgence inventory unavailable: {error}")
 
     LIVE.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(json.dumps(output, indent=2, ensure_ascii=False))
+    print(json.dumps({
+        "checkedAt": output["checkedAt"],
+        "source": output["worldState"]["source"],
+        "invasions": output["invasions"]["activeCount"],
+        "cetus": output["cetusCycle"]["state"],
+        "cetusExpiry": output["cetusCycle"]["expiry"],
+    }, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
