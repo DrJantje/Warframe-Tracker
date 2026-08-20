@@ -4404,7 +4404,7 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 39593625,
+    "xp": 39627463,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -5337,7 +5337,7 @@
     "buildRef": "pistols-078",
     "name": "Coda Tysis",
     "category": "Pistols",
-    "xp": 289658,
+    "xp": 483586,
     "formaApplied": 2,
     "focusLens": null,
     "polarities": [
@@ -7184,7 +7184,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 119727497,
+    "xp": 119969926,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -7546,7 +7546,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 310130545,
+    "xp": 310372974,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -20132,7 +20132,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 11432327,
+    "xp": 11436009,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -21028,7 +21028,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 465046434,
+    "xp": 465731750,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -21184,7 +21184,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 449191620,
+    "xp": 449874507,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -21824,7 +21824,7 @@
     "buildRef": "longguns-107",
     "name": "Phantasma Prime",
     "category": "LongGuns",
-    "xp": 289658,
+    "xp": 453936,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -22642,13 +22642,49 @@
     "buildRef": "suits-026",
     "name": "Protea Prime",
     "category": "Suits",
-    "xp": 2339177,
-    "formaApplied": 1,
+    "xp": 563592,
+    "formaApplied": 2,
     "focusLens": null,
     "polarities": [
       {
-        "slot": 5,
+        "slot": 0,
+        "polarity": "AP_TACTIC"
+      },
+      {
+        "slot": 1,
+        "polarity": "AP_UNIVERSAL"
+      },
+      {
+        "slot": 2,
+        "polarity": "AP_ANY"
+      },
+      {
+        "slot": 3,
         "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 4,
+        "polarity": "AP_TACTIC"
+      },
+      {
+        "slot": 5,
+        "polarity": "AP_UNIVERSAL"
+      },
+      {
+        "slot": 6,
+        "polarity": "AP_UNIVERSAL"
+      },
+      {
+        "slot": 7,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 8,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 9,
+        "polarity": "AP_UNIVERSAL"
       }
     ],
     "modularParts": [],
@@ -22656,26 +22692,16 @@
     "configurations": [
       {
         "index": 0,
-        "name": "A",
+        "name": "Range",
         "mods": [
-          {
-            "name": "Augur Secrets",
-            "rank": 5,
-            "kind": "mod"
-          },
-          {
-            "name": "Augur Reach",
-            "rank": 5,
-            "kind": "mod"
-          },
           {
             "name": "Augur Message",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Archon Vitality",
-            "rank": 10,
+            "name": "Overextended",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -22702,6 +22728,11 @@
             "name": "Growing Power",
             "rank": 5,
             "kind": "mod"
+          },
+          {
+            "name": "Cunning Drift",
+            "rank": 5,
+            "kind": "mod"
           }
         ],
         "arcanes": [
@@ -22709,15 +22740,77 @@
             "name": "Molt Augmented",
             "rank": 5,
             "kind": "arcane"
+          },
+          {
+            "name": "Arcane Sculptor",
+            "rank": 1,
+            "kind": "arcane"
           }
         ],
         "helminthAbility": null
       },
       {
         "index": 1,
-        "name": "B",
-        "mods": [],
-        "arcanes": [],
+        "name": "Strength",
+        "mods": [
+          {
+            "name": "Constitution",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Stretch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Archon Vitality",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Blind Rage",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Flow",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Equilibrium",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Archon Continuity",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Growing Power",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Power Drift",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Molt Efficiency",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Arcane Sculptor",
+            "rank": 1,
+            "kind": "arcane"
+          }
+        ],
         "helminthAbility": null
       },
       {
@@ -27125,7 +27218,7 @@
     "buildRef": "melee-137",
     "name": "Stropha",
     "category": "Melee",
-    "xp": 0,
+    "xp": 29934,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -28211,7 +28304,7 @@
     "buildRef": "melee-138",
     "name": "Tatsu Prime",
     "category": "Melee",
-    "xp": 289658,
+    "xp": 453652,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -29834,7 +29927,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 160319371,
+    "xp": 160561800,
     "formaApplied": 2,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -30926,7 +31019,7 @@
     "buildRef": "suits-047",
     "name": "Uriel",
     "category": "Suits",
-    "xp": 8105992,
+    "xp": 8224956,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
