@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T03:18:14.777000Z",
-      "worldStateAt": "2026-08-20T03:17:37Z",
-      "ageSecondsAtCheck": 38
+      "checkedAt": "2026-08-20T03:47:28.935000Z",
+      "worldStateAt": "2026-08-20T03:47:19Z",
+      "ageSecondsAtCheck": 10
     },
     "fallback": {
       "provider": "WarframeStat.us",
@@ -22,9 +22,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T03:18:14.777000Z",
-      "worldStateAt": "2026-08-20T03:17:37Z",
-      "ageSecondsAtCheck": 38
+      "checkedAt": "2026-08-20T03:47:28.935000Z",
+      "worldStateAt": "2026-08-20T03:47:19Z",
+      "ageSecondsAtCheck": 10
     },
     "rewards": [
       "Dera Vandal Blueprint",
@@ -72,43 +72,10 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -26075,
+        "count": -26644,
         "requiredRuns": 34000,
-        "completion": 11.65441176470588,
+        "completion": 10.817647058823532,
         "completed": false
-      },
-      {
-        "id": "6a856e3a039ad7a59723d88b",
-        "activation": "2026-08-19T08:50:02.016000Z",
-        "node": "Neso (Neptune)",
-        "nodeKey": "SolNode62",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Fieldron",
-                "key": "/Lotus/Types/Items/Research/EnergyComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Fieldron"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -43359,
-        "requiredRuns": 43000,
-        "completion": -0.8348837209302351,
-        "completed": true
       },
       {
         "id": "6a85928eadfa740ada2638af",
@@ -237,9 +204,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -22073,
+        "count": -26421,
         "requiredRuns": 35000,
-        "completion": 36.93428571428572,
+        "completion": 24.511428571428574,
         "completed": false
       },
       {
@@ -270,9 +237,42 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -1252,
+        "count": -2125,
         "requiredRuns": 33000,
-        "completion": 96.2060606060606,
+        "completion": 93.56060606060606,
+        "completed": false
+      },
+      {
+        "id": "6a867712f815c586991ff6e3",
+        "activation": "2026-08-20T03:40:02.280000Z",
+        "node": "Metis (Jupiter)",
+        "nodeKey": "SolNode126",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "Mutagen Mass"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": -4,
+        "requiredRuns": 46000,
+        "completion": 99.99130434782609,
         "completed": false
       },
       {
@@ -303,13 +303,13 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -1247,
+        "count": -1824,
         "requiredRuns": 49000,
-        "completion": 97.45510204081633,
+        "completion": 96.27755102040815,
         "completed": false
       }
     ],
-    "activeCount": 4
+    "activeCount": 5
   },
   "cetusCycle": {
     "status": "verified",
@@ -317,60 +317,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T03:18:14.777000Z",
-      "worldStateAt": "2026-08-20T03:17:37Z",
-      "ageSecondsAtCheck": 38
+      "checkedAt": "2026-08-20T03:47:28.935000Z",
+      "worldStateAt": "2026-08-20T03:47:19Z",
+      "ageSecondsAtCheck": 10
     },
-    "id": "cetusCycle1787196180000",
-    "state": "night",
-    "activation": "2026-08-20T02:33:00Z",
-    "expiry": "2026-08-20T03:23:00Z",
-    "isDay": false,
+    "id": "cetusCycle1787202180000",
+    "state": "day",
+    "activation": "2026-08-20T03:23:00Z",
+    "expiry": "2026-08-20T05:03:00Z",
+    "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-08-20T03:23:54.450000Z",
+    "syndicateExpiry": "2026-08-20T05:53:53.325000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787198400777",
+      "id": "earthCycle1787198400935",
       "state": "day",
-      "activation": "2026-08-20T00:00:00.777000Z",
-      "expiry": "2026-08-20T04:00:00.777000Z",
+      "activation": "2026-08-20T00:00:00.935000Z",
+      "expiry": "2026-08-20T04:00:00.935000Z",
       "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1787196180000",
-      "state": "night",
-      "activation": "2026-08-20T02:33:00Z",
-      "expiry": "2026-08-20T03:23:00Z",
-      "isDay": false,
+      "id": "cetusCycle1787202180000",
+      "state": "day",
+      "activation": "2026-08-20T03:23:00Z",
+      "expiry": "2026-08-20T05:03:00Z",
+      "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-08-20T03:23:54.450000Z",
+      "syndicateExpiry": "2026-08-20T05:53:53.325000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787196008000",
-      "state": "cold",
-      "activation": "2026-08-20T03:00:00Z",
-      "expiry": "2026-08-20T03:20:08Z",
-      "isWarm": false
+      "id": "vallisCycle1787198008000",
+      "state": "warm",
+      "activation": "2026-08-20T03:46:00Z",
+      "expiry": "2026-08-20T03:53:28Z",
+      "isWarm": true
     },
     "cambion": {
-      "id": "cambionCycle1787196180000",
-      "state": "vome",
-      "activation": "2026-08-20T02:33:00Z",
-      "expiry": "2026-08-20T03:23:00Z"
+      "id": "cambionCycle1787202180000",
+      "state": "fass",
+      "activation": "2026-08-20T03:23:00Z",
+      "expiry": "2026-08-20T05:03:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1787196240000",
-      "state": "corpus",
-      "activation": "2026-08-20T00:54:00Z",
-      "expiry": "2026-08-20T03:24:00Z",
-      "isCorpus": true
+      "id": "zarimanCycle1787205240000",
+      "state": "grineer",
+      "activation": "2026-08-20T03:24:00Z",
+      "expiry": "2026-08-20T05:54:00Z",
+      "isCorpus": false
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-20T03:18:14.777223+00:00",
+  "checkedAt": "2026-08-20T03:47:28.935055+00:00",
   "baro": {
     "status": "verified",
     "active": false,
