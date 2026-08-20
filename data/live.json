@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T01:59:34.528000Z",
-      "worldStateAt": "2026-08-20T01:59:19Z",
-      "ageSecondsAtCheck": 16
+      "checkedAt": "2026-08-20T02:33:06.844000Z",
+      "worldStateAt": "2026-08-20T02:32:37Z",
+      "ageSecondsAtCheck": 30
     },
     "fallback": {
       "provider": "WarframeStat.us",
@@ -22,14 +22,15 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T01:59:34.528000Z",
-      "worldStateAt": "2026-08-20T01:59:19Z",
-      "ageSecondsAtCheck": 16
+      "checkedAt": "2026-08-20T02:33:06.844000Z",
+      "worldStateAt": "2026-08-20T02:32:37Z",
+      "ageSecondsAtCheck": 30
     },
     "rewards": [
       "Dera Vandal Blueprint",
       "Fieldron",
-      "Latron Wraith Receiver"
+      "Latron Wraith Receiver",
+      "Mutagen Mass"
     ],
     "items": [
       {
@@ -71,9 +72,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -24407,
+        "count": -25111,
         "requiredRuns": 34000,
-        "completion": 14.10735294117647,
+        "completion": 13.072058823529414,
         "completed": false
       },
       {
@@ -302,9 +303,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -10363,
+        "count": -15575,
         "requiredRuns": 35000,
-        "completion": 70.39142857142858,
+        "completion": 55.49999999999999,
         "completed": false
       },
       {
@@ -335,13 +336,46 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -456,
+        "count": -852,
         "requiredRuns": 33000,
-        "completion": 98.61818181818181,
+        "completion": 97.41818181818182,
+        "completed": false
+      },
+      {
+        "id": "6a86576e7071f34f2056c0d6",
+        "activation": "2026-08-20T02:30:49.449000Z",
+        "node": "Galatea (Neptune)",
+        "nodeKey": "SolNode1",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 2,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "2 Mutagen Mass"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": 0,
+        "requiredRuns": 49000,
+        "completion": 100.0,
         "completed": false
       }
     ],
-    "activeCount": 3
+    "activeCount": 4
   },
   "cetusCycle": {
     "status": "verified",
@@ -349,49 +383,49 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T01:59:34.528000Z",
-      "worldStateAt": "2026-08-20T01:59:19Z",
-      "ageSecondsAtCheck": 16
+      "checkedAt": "2026-08-20T02:33:06.844000Z",
+      "worldStateAt": "2026-08-20T02:32:37Z",
+      "ageSecondsAtCheck": 30
     },
-    "id": "cetusCycle1787193180000",
-    "state": "day",
-    "activation": "2026-08-20T00:53:00Z",
-    "expiry": "2026-08-20T02:33:00Z",
-    "isDay": true,
+    "id": "cetusCycle1787196180000",
+    "state": "night",
+    "activation": "2026-08-20T02:33:00Z",
+    "expiry": "2026-08-20T03:23:00Z",
+    "isDay": false,
     "derivedFrom": "CetusSyndicate expiry",
     "syndicateExpiry": "2026-08-20T03:23:54.450000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787198400528",
+      "id": "earthCycle1787198400844",
       "state": "day",
-      "activation": "2026-08-20T00:00:00.528000Z",
-      "expiry": "2026-08-20T04:00:00.528000Z",
+      "activation": "2026-08-20T00:00:00.844000Z",
+      "expiry": "2026-08-20T04:00:00.844000Z",
       "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1787193180000",
-      "state": "day",
-      "activation": "2026-08-20T00:53:00Z",
-      "expiry": "2026-08-20T02:33:00Z",
-      "isDay": true,
+      "id": "cetusCycle1787196180000",
+      "state": "night",
+      "activation": "2026-08-20T02:33:00Z",
+      "expiry": "2026-08-20T03:23:00Z",
+      "isDay": false,
       "derivedFrom": "CetusSyndicate expiry",
       "syndicateExpiry": "2026-08-20T03:23:54.450000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787191208000",
-      "state": "cold",
-      "activation": "2026-08-20T01:40:00Z",
-      "expiry": "2026-08-20T02:00:08Z",
-      "isWarm": false
+      "id": "vallisCycle1787193208000",
+      "state": "warm",
+      "activation": "2026-08-20T02:26:00Z",
+      "expiry": "2026-08-20T02:33:28Z",
+      "isWarm": true
     },
     "cambion": {
-      "id": "cambionCycle1787193180000",
-      "state": "fass",
-      "activation": "2026-08-20T00:53:00Z",
-      "expiry": "2026-08-20T02:33:00Z"
+      "id": "cambionCycle1787196180000",
+      "state": "vome",
+      "activation": "2026-08-20T02:33:00Z",
+      "expiry": "2026-08-20T03:23:00Z"
     },
     "zariman": {
       "id": "zarimanCycle1787196240000",
@@ -402,7 +436,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-20T01:59:34.528528+00:00",
+  "checkedAt": "2026-08-20T02:33:06.844163+00:00",
   "baro": {
     "status": "verified",
     "active": false,
