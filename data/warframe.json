@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 20:48:14 PDT",
+    "exportVerifiedAt": "2026-08-19 20:59:06 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167829,
-        "modified": "2026-08-19T20:48:14.338069-07:00",
-        "sha256": "139cb9f00fc505048ce257993026b07e3dd3b4a9f2904c6b7132f5f4f4ae4b28"
+        "modified": "2026-08-19T20:59:05.989585-07:00",
+        "sha256": "7195e4ccf96871393ad4644e01212af8498bbf2b952188143f6e12da59bdbbc5"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T20:48:14.340609-07:00",
+        "modified": "2026-08-19T20:59:05.992596-07:00",
         "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T20:48:14.339076-07:00",
+        "modified": "2026-08-19T20:59:05.991092-07:00",
         "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T20:48:14.340105-07:00",
-        "sha256": "e0661863bf9853313ea45557089e5034da17a905b3b115d42509dc744ae046c8"
+        "modified": "2026-08-19T20:59:05.991592-07:00",
+        "sha256": "1ce4d247eb6577ac907032d5c46f3b9c377893913a823e0953dfdb1e5ea67a74"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T20:48:14.342119-07:00",
+        "modified": "2026-08-19T20:59:05.994105-07:00",
         "sha256": "b1081a789402cd824f680683e73cd916f415b65388c259225a0f9acf9b46a472"
       },
       "rivens.json": {
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint; Forma Blueprint"
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -94,7 +109,7 @@
       "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 27,
+      "Meso A12 Intact": 28,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 54,
       "Meso E7 Intact": 11,
@@ -102,7 +117,7 @@
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 33,
-      "Meso V13 Intact": 31,
+      "Meso V13 Intact": 32,
       "Meso V15 Intact": 46,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 27,
@@ -164,7 +179,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Forma Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -10328,7 +10343,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Forma Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",

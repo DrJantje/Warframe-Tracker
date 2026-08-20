@@ -1,8 +1,4 @@
 {
-  "focusCounterAtCaptureStart": 119454,
-  "durationSeconds": 7200.069,
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
-  "errorEventCount": 0,
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -229,7 +225,37 @@
       "delta": 1
     }
   ],
-  "schemaVersion": 1,
+  "errorEventCount": 0,
+  "focusCounterAtCaptureStart": 119454,
+  "configurationChanges": [
+    {
+      "at": "2026-08-13T03:21:21.587861+00:00",
+      "item": "Coda Synapse",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Sinister Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-13T04:50:15.860755+00:00",
+      "item": "Titania Prime",
+      "configuration": "A",
+      "added": [
+        "Arcane Velocity"
+      ],
+      "removed": [
+        "Arcane Impetus"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Broken Rot Ability",
+      "helminthAfter": "Broken Rot Ability"
+    }
+  ],
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
   "missions": [
     {
       "startedAt": "2026-08-13T03:04:51.927000+00:00",
@@ -293,36 +319,9 @@
     }
   ],
   "focusEarnedDuringCapture": 68616,
-  "configurationChanges": [
-    {
-      "at": "2026-08-13T03:21:21.587861+00:00",
-      "item": "Coda Synapse",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Sinister Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-13T04:50:15.860755+00:00",
-      "item": "Titania Prime",
-      "configuration": "A",
-      "added": [
-        "Arcane Velocity"
-      ],
-      "removed": [
-        "Arcane Impetus"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Broken Rot Ability",
-      "helminthAfter": "Broken Rot Ability"
-    }
-  ],
   "focusCounterAtCaptureEnd": 188070,
-  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "durationSeconds": 7200.069,
+  "schemaVersion": 1,
   "missionCount": 5,
   "negativeItemDeltas": [
     {
@@ -342,6 +341,7 @@
       "delta": -1
     }
   ],
+  "startedAt": "2026-08-13T03:04:44.769358+00:00",
   "notableAcquisitions": [
     {
       "item": "Oberon Chassis Blueprint",
