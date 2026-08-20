@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-20T08:28:47.307002+00:00",
+  "generatedAt": "2026-08-20T08:44:44.591650+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-20T08:28:43.867637+00:00",
+    "observedAt": "2026-08-20T08:44:40.035255+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
@@ -1587,117 +1587,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260819-092935.json",
-    "startedAt": "2026-08-19T09:29:35.287515+00:00",
-    "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
-    "durationSeconds": 2201.95,
-    "missionCount": 3,
+    "file": "20260820-080744.json",
+    "startedAt": "2026-08-20T08:07:44.517786+00:00",
+    "stoppedAt": "2026-08-20T08:44:41.063925+00:00",
+    "durationSeconds": 2216.546,
+    "missionCount": 2,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Circuit Effect",
-        "delta": 484
-      },
-      {
-        "item": "Agnovidisc",
-        "delta": 436
-      },
-      {
-        "item": "Servoris",
-        "delta": 76
-      },
-      {
-        "item": "Lyroic Bridge",
-        "delta": 35
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 16
-      },
-      {
-        "item": "Ascaris Prime",
-        "delta": 2
-      },
-      {
-        "item": "Ren Hypercore",
-        "delta": 2
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 2
-      },
-      {
-        "item": "Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Meso A12 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso D8 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Uriel Systems Blueprint",
-        "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Ascaris Prime",
-        "delta": 2
-      },
-      {
-        "item": "Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Meso A12 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso D8 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Uriel Systems Blueprint",
-        "delta": 1
-      }
-    ],
-    "resourceGains": [
-      {
-        "item": "Circuit Effect",
-        "delta": 484
-      },
-      {
-        "item": "Agnovidisc",
-        "delta": 436
-      },
-      {
-        "item": "Servoris",
-        "delta": 76
-      },
-      {
-        "item": "Lyroic Bridge",
-        "delta": 35
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 16
-      },
-      {
-        "item": "Ren Hypercore",
-        "delta": 2
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 2
-      }
-    ],
+    "topGains": [],
+    "notableAcquisitions": [],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 0
+    "errorEventCount": 2
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
