@@ -2,12 +2,12 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 20:59:06 PDT",
+    "exportVerifiedAt": "2026-08-19 21:04:04 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167829,
-        "modified": "2026-08-19T20:59:05.989585-07:00",
+        "modified": "2026-08-19T21:04:04.072331-07:00",
         "sha256": "7195e4ccf96871393ad4644e01212af8498bbf2b952188143f6e12da59bdbbc5"
       },
       "inventoryArcanes.json": {
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T20:59:05.992596-07:00",
+        "modified": "2026-08-19T21:04:04.076348-07:00",
         "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T20:59:05.991092-07:00",
+        "modified": "2026-08-19T21:04:04.073838-07:00",
         "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T20:59:05.991592-07:00",
+        "modified": "2026-08-19T21:04:04.075345-07:00",
         "sha256": "1ce4d247eb6577ac907032d5c46f3b9c377893913a823e0953dfdb1e5ea67a74"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T20:59:05.994105-07:00",
+        "modified": "2026-08-19T21:04:04.078365-07:00",
         "sha256": "b1081a789402cd824f680683e73cd916f415b65388c259225a0f9acf9b46a472"
       },
       "rivens.json": {
@@ -47,21 +47,6 @@
       }
     },
     "importChanges": [
-      {
-        "item": "Hema",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Hema Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Hema Blueprint; Forma Blueprint"
-        ]
-      },
       {
         "item": "Uriel",
         "before": [
@@ -1699,7 +1684,9 @@
       "source": "https://wiki.warframe.com/w/Karak_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Karak Wraith Blueprint"
+      ],
       "practicalPriority": 765
     },
     {
@@ -1748,7 +1735,9 @@
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Barrel"
+      ],
       "practicalPriority": 770
     },
     {
@@ -1868,7 +1857,9 @@
       "source": "https://wiki.warframe.com/w/Snipetron",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Barrel"
+      ],
       "practicalPriority": 1105
     },
     {
@@ -10970,7 +10961,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Karak Wraith Blueprint"
+      ]
     },
     {
       "item": "Karyst",
@@ -16986,7 +16979,9 @@
       "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Barrel"
+      ]
     },
     {
       "item": "Snipetron Vandal",
@@ -17007,7 +17002,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Barrel"
+      ]
     },
     {
       "item": "Sobek",

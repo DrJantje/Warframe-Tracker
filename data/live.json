@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T03:59:06.651000Z",
-      "worldStateAt": "2026-08-20T03:59:01Z",
-      "ageSecondsAtCheck": 6
+      "checkedAt": "2026-08-20T04:04:04.855000Z",
+      "worldStateAt": "2026-08-20T04:03:31Z",
+      "ageSecondsAtCheck": 34
     },
     "fallback": {
       "provider": "WarframeStat.us",
@@ -22,15 +22,17 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T03:59:06.651000Z",
-      "worldStateAt": "2026-08-20T03:59:01Z",
-      "ageSecondsAtCheck": 6
+      "checkedAt": "2026-08-20T04:04:04.855000Z",
+      "worldStateAt": "2026-08-20T04:03:31Z",
+      "ageSecondsAtCheck": 34
     },
     "rewards": [
       "Dera Vandal Blueprint",
       "Fieldron",
+      "Karak Wraith Blueprint",
       "Latron Wraith Receiver",
-      "Mutagen Mass"
+      "Mutagen Mass",
+      "Snipetron Vandal Barrel"
     ],
     "items": [
       {
@@ -72,9 +74,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -26826,
+        "count": -26922,
         "requiredRuns": 34000,
-        "completion": 10.549999999999999,
+        "completion": 10.408823529411764,
         "completed": false
       },
       {
@@ -109,6 +111,50 @@
         "requiredRuns": 43000,
         "completion": -0.15116279069766758,
         "completed": true
+      },
+      {
+        "id": "6a85aeafe0103474245fc34d",
+        "activation": "2026-08-20T04:07:39.106000Z",
+        "node": "Outer Terminus (Pluto)",
+        "nodeKey": "SolNode72",
+        "desc": "Grineer Invasion Generic",
+        "attacker": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Karak Wraith Blueprint",
+                "key": "/Lotus/Types/Recipes/Weapons/KarakWraithBlueprint"
+              }
+            ],
+            "credits": 0,
+            "asString": "Karak Wraith Blueprint"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Snipetron Vandal Barrel",
+                "key": "/Lotus/Types/Recipes/Weapons/WeaponParts/SnipetronVandalBarrel"
+              }
+            ],
+            "credits": 0,
+            "asString": "Snipetron Vandal Barrel"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": false,
+        "count": 0,
+        "requiredRuns": 46000,
+        "completion": 50.0,
+        "completed": false
       },
       {
         "id": "6a85c4f37f307eedc3ce0035",
@@ -204,9 +250,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -27878,
+        "count": -28595,
         "requiredRuns": 35000,
-        "completion": 20.348571428571425,
+        "completion": 18.300000000000004,
         "completed": false
       },
       {
@@ -237,9 +283,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -3493,
+        "count": -4173,
         "requiredRuns": 33000,
-        "completion": 89.4151515151515,
+        "completion": 87.35454545454544,
         "completed": false
       },
       {
@@ -270,9 +316,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -82,
+        "count": -145,
         "requiredRuns": 46000,
-        "completion": 99.82173913043478,
+        "completion": 99.68478260869566,
         "completed": false
       },
       {
@@ -303,13 +349,13 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -2167,
+        "count": -2285,
         "requiredRuns": 49000,
-        "completion": 95.57755102040817,
+        "completion": 95.33673469387756,
         "completed": false
       }
     ],
-    "activeCount": 5
+    "activeCount": 6
   },
   "cetusCycle": {
     "status": "verified",
@@ -317,9 +363,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T03:59:06.651000Z",
-      "worldStateAt": "2026-08-20T03:59:01Z",
-      "ageSecondsAtCheck": 6
+      "checkedAt": "2026-08-20T04:04:04.855000Z",
+      "worldStateAt": "2026-08-20T04:03:31Z",
+      "ageSecondsAtCheck": 34
     },
     "id": "cetusCycle1787202180000",
     "state": "day",
@@ -332,11 +378,11 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787198400651",
-      "state": "day",
-      "activation": "2026-08-20T00:00:00.651000Z",
-      "expiry": "2026-08-20T04:00:00.651000Z",
-      "isDay": true
+      "id": "earthCycle1787212800855",
+      "state": "night",
+      "activation": "2026-08-20T04:00:00.855000Z",
+      "expiry": "2026-08-20T08:00:00.855000Z",
+      "isDay": false
     },
     "cetus": {
       "id": "cetusCycle1787202180000",
@@ -370,7 +416,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-20T03:59:06.651155+00:00",
+  "checkedAt": "2026-08-20T04:04:04.855414+00:00",
   "baro": {
     "status": "verified",
     "active": false,
