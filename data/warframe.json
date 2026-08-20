@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 21:32:26 PDT",
+    "exportVerifiedAt": "2026-08-19 21:43:01 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167829,
-        "modified": "2026-08-19T21:32:26.216258-07:00",
-        "sha256": "0064265ba924980a97d651e9861cf072fbba487db7e0c78af396de5b5b1d7d44"
+        "bytes": 2167826,
+        "modified": "2026-08-19T21:43:00.247140-07:00",
+        "sha256": "cb421e8e58be1280477a36a011d99c5aad0557e520e765fb7ac1f91628b114f9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T21:32:26.219271-07:00",
+        "modified": "2026-08-19T21:43:00.250668-07:00",
         "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T21:32:26.217765-07:00",
+        "modified": "2026-08-19T21:43:00.248649-07:00",
         "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T21:32:26.218269-07:00",
-        "sha256": "86d284efdda2f09925b14e311dcc89f711276bb792594bc6d4de202c495fec55"
+        "modified": "2026-08-19T21:43:00.249157-07:00",
+        "sha256": "3084d5d1e961fa0ec43fbdc7edb967a8ec7daafc1a8c8b368458ea6035c35faf"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T21:32:26.220789-07:00",
+        "modified": "2026-08-19T21:43:00.253699-07:00",
         "sha256": "3c12fd3b2d671a2d2aecfff78303d975030ce49b287302d10d0577a2df72cf63"
       },
       "rivens.json": {
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Koumei",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Koumei Blueprint; Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint"
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -102,7 +117,7 @@
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 34,
-      "Meso V13 Intact": 32,
+      "Meso V13 Intact": 33,
       "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 27,
@@ -1028,6 +1043,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Koumei",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint",
+      "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
+      "steps": "Run Saya’s Visions and buy missing Koumei blueprints with Fate Pearls.",
+      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
+      "source": "https://wiki.warframe.com/w/Koumei",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 515
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Mandonel",
       "type": "archgun",
       "targetRank": "30",
@@ -1081,21 +1111,6 @@
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
       "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
       "source": "https://wiki.warframe.com/w/Follie",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Koumei",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Koumei Blueprint; Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint",
-      "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
-      "steps": "Run Saya’s Visions and buy missing Koumei blueprints with Fate Pearls.",
-      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
-      "source": "https://wiki.warframe.com/w/Koumei",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -11425,7 +11440,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Koumei Blueprint; Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint",
+      "missing": "Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
       "vaulted": "No",
