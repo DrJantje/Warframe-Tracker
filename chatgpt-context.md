@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-19T10:06:21.078288+00:00
-Account snapshot: 2026-08-19T10:03:10.012Z
+Generated: 2026-08-20T01:25:59.016036+00:00
+Account snapshot: 2026-08-20T01:25:55.031Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Phase: location
+- Location: HUB
+- Planet: ZARIMAN
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,23 +28,21 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Secondary: Coda Tysis — config A
 
-- Forma: 1
-- Mods: Frostbite (rank 3), Hornet Strike (rank 10), Primed Heated Charge (rank 10)
+- Forma: 2
+- Mods: Sure Shot (rank 5), Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Heated Charge (rank 10)
 - Arcanes: none recorded
 
-#### Primary: Coda Bubonico — config A
+#### Primary: Phantasma Prime — config A
 
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Scattering Inferno (rank 3), Toxic Barrage (rank 3), Shotgun Elementalist (rank 5), Primed Charged Shell (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
+- Forma: 0
+- Mods: Hell's Chamber (rank 5), Primed Charged Shell (rank 10), Primed Point Blank (rank 10), Chilling Reload (rank 3)
+- Arcanes: none recorded
 
-#### Melee: Praedos — config A
+#### Melee: Tatsu Prime — config A
 
-- Forma: 2
-- Lens: Greater Unairu Lens
-- Mods: Weeping Wounds (rank 5), Drifting Contact (rank 3), Condition Overload (rank 5), Primed Reach (rank 10), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Sovereign Outcast (rank 3)
-- Arcanes: Melee Exposure (rank 2)
+- Forma: 0
+- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Magnetic Rush (rank 3), Primed Fever Strike (rank 8)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 

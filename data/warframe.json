@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 03:06:21 PDT",
+    "exportVerifiedAt": "2026-08-19 18:25:59 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167876,
-        "modified": "2026-08-19T03:06:20.789905-07:00",
-        "sha256": "2ca7ab30f39c0dd354a5751f90ee4aaa1578042c9e1dfe0bea5d246b73f925ec"
+        "bytes": 2167829,
+        "modified": "2026-08-19T18:25:58.633776-07:00",
+        "sha256": "58cb0c2014868b0c6866c932f8dc2e57e36229d8a22cdfa055a635d3b5713dfa"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T03:06:20.793932-07:00",
+        "modified": "2026-08-19T18:25:58.641287-07:00",
         "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T03:06:20.792422-07:00",
-        "sha256": "4b03d69be2a9f2715c8eccd2f55c04c76b6614f601017afab9477e532660cf35"
+        "modified": "2026-08-19T18:25:58.636758-07:00",
+        "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T03:06:20.793427-07:00",
+        "modified": "2026-08-19T18:25:58.638772-07:00",
         "sha256": "555a35792b060623f679d2bab89c1c6c2f8a9844bdc72ce26a9402376c6cb593"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T03:06:20.796959-07:00",
-        "sha256": "0ac5479724959a3f64ed715cd5c16e66bbf71cbe7a46ef265d3eca9cfec5ee72"
+        "modified": "2026-08-19T18:25:58.643962-07:00",
+        "sha256": "b1081a789402cd824f680683e73cd916f415b65388c259225a0f9acf9b46a472"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,7 +46,53 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Phantasma Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Tatsu Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Uriel",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
@@ -3924,6 +3970,15 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
+      "item": "Phantasma Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Phantasma_Prime"
+    },
+    {
       "item": "Stropha",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -3933,6 +3988,15 @@
       "source": "https://wiki.warframe.com/w/Stropha"
     },
     {
+      "item": "Tatsu Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Tatsu_Prime"
+    },
+    {
       "item": "Jade",
       "type": "warframe",
       "state": "Ready in Foundry",
@@ -3940,15 +4004,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Jade"
-    },
-    {
-      "item": "Phantasma Prime",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Phantasma_Prime"
     },
     {
       "item": "Protea",
@@ -3967,15 +4022,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Stahlta"
-    },
-    {
-      "item": "Tatsu Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Tatsu_Prime"
     },
     {
       "item": "Valkyr Prime",
@@ -14602,17 +14648,17 @@
     {
       "item": "Phantasma Prime",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Phantasma_Prime",
       "primeDetails": [],
@@ -17834,17 +17880,17 @@
     {
       "item": "Tatsu Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Tatsu_Prime",
       "primeDetails": [],
@@ -18963,7 +19009,7 @@
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
