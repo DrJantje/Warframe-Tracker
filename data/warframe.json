@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 21:04:04 PDT",
+    "exportVerifiedAt": "2026-08-19 21:18:28 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167829,
-        "modified": "2026-08-19T21:04:04.072331-07:00",
-        "sha256": "7195e4ccf96871393ad4644e01212af8498bbf2b952188143f6e12da59bdbbc5"
+        "modified": "2026-08-19T21:18:28.094096-07:00",
+        "sha256": "95de710bfb8c6e1d58c5f48174f86348939d8ce9ee98abca56d9fe7247e2dc94"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T21:04:04.076348-07:00",
+        "modified": "2026-08-19T21:18:28.097211-07:00",
         "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T21:04:04.073838-07:00",
+        "modified": "2026-08-19T21:18:28.095705-07:00",
         "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T21:04:04.075345-07:00",
-        "sha256": "1ce4d247eb6577ac907032d5c46f3b9c377893913a823e0953dfdb1e5ea67a74"
+        "modified": "2026-08-19T21:18:28.096708-07:00",
+        "sha256": "86d284efdda2f09925b14e311dcc89f711276bb792594bc6d4de202c495fec55"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T21:04:04.078365-07:00",
-        "sha256": "b1081a789402cd824f680683e73cd916f415b65388c259225a0f9acf9b46a472"
+        "modified": "2026-08-19T21:18:28.098728-07:00",
+        "sha256": "3c12fd3b2d671a2d2aecfff78303d975030ce49b287302d10d0577a2df72cf63"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (27858/30000); Magistar"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (27758/30000); Magistar"
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -101,9 +116,9 @@
       "Meso K8 Intact": 47,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 33,
+      "Meso L5 Intact": 34,
       "Meso V13 Intact": 32,
-      "Meso V15 Intact": 46,
+      "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 27,
       "Meso X1 Radiant": 3,
@@ -112,7 +127,7 @@
       "Neo C7 Intact": 14,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 1,
-      "Neo C9 Intact": 15,
+      "Neo C9 Intact": 13,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
@@ -986,9 +1001,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (27858/30000); Magistar",
+      "missing": "Cryotic (27758/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 2,142 Cryotic, then build.",
+      "steps": "Get 2,242 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -16709,7 +16724,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (27858/30000); Magistar",
+      "missing": "Cryotic (27758/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -16718,7 +16733,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 2,142 Cryotic, then build."
+      "steps": "Obtain 2,242 Cryotic, then build."
     },
     {
       "item": "Sicarus",
