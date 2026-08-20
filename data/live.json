@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T04:18:28.827000Z",
-      "worldStateAt": "2026-08-20T04:17:55Z",
-      "ageSecondsAtCheck": 34
+      "checkedAt": "2026-08-20T04:32:27.045000Z",
+      "worldStateAt": "2026-08-20T04:32:19Z",
+      "ageSecondsAtCheck": 8
     },
     "fallback": {
       "provider": "WarframeStat.us",
@@ -22,9 +22,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T04:18:28.827000Z",
-      "worldStateAt": "2026-08-20T04:17:55Z",
-      "ageSecondsAtCheck": 34
+      "checkedAt": "2026-08-20T04:32:27.045000Z",
+      "worldStateAt": "2026-08-20T04:32:19Z",
+      "ageSecondsAtCheck": 8
     },
     "rewards": [
       "Dera Vandal Blueprint",
@@ -74,9 +74,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -27235,
+        "count": -27585,
         "requiredRuns": 34000,
-        "completion": 9.948529411764707,
+        "completion": 9.433823529411766,
         "completed": false
       },
       {
@@ -151,9 +151,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": 274,
+        "count": 549,
         "requiredRuns": 46000,
-        "completion": 50.29782608695652,
+        "completion": 50.596739130434784,
         "completed": false
       },
       {
@@ -250,9 +250,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -30851,
+        "count": -32996,
         "requiredRuns": 35000,
-        "completion": 11.854285714285718,
+        "completion": 5.7257142857142895,
         "completed": false
       },
       {
@@ -283,9 +283,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -6217,
+        "count": -8287,
         "requiredRuns": 33000,
-        "completion": 81.16060606060607,
+        "completion": 74.88787878787879,
         "completed": false
       },
       {
@@ -316,9 +316,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -395,
+        "count": -576,
         "requiredRuns": 46000,
-        "completion": 99.1413043478261,
+        "completion": 98.74782608695652,
         "completed": false
       },
       {
@@ -349,9 +349,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -2610,
+        "count": -2788,
         "requiredRuns": 49000,
-        "completion": 94.6734693877551,
+        "completion": 94.31020408163265,
         "completed": false
       }
     ],
@@ -363,9 +363,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-20T04:18:28.827000Z",
-      "worldStateAt": "2026-08-20T04:17:55Z",
-      "ageSecondsAtCheck": 34
+      "checkedAt": "2026-08-20T04:32:27.045000Z",
+      "worldStateAt": "2026-08-20T04:32:19Z",
+      "ageSecondsAtCheck": 8
     },
     "id": "cetusCycle1787202180000",
     "state": "day",
@@ -378,10 +378,10 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787212800827",
+      "id": "earthCycle1787212800045",
       "state": "night",
-      "activation": "2026-08-20T04:00:00.827000Z",
-      "expiry": "2026-08-20T08:00:00.827000Z",
+      "activation": "2026-08-20T04:00:00.045000Z",
+      "expiry": "2026-08-20T08:00:00.045000Z",
       "isDay": false
     },
     "cetus": {
@@ -395,11 +395,11 @@
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787199608000",
-      "state": "warm",
-      "activation": "2026-08-20T04:13:00Z",
-      "expiry": "2026-08-20T04:20:08Z",
-      "isWarm": true
+      "id": "vallisCycle1787200808000",
+      "state": "cold",
+      "activation": "2026-08-20T04:20:00Z",
+      "expiry": "2026-08-20T04:40:08Z",
+      "isWarm": false
     },
     "cambion": {
       "id": "cambionCycle1787202180000",
@@ -416,7 +416,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-20T04:18:28.827232+00:00",
+  "checkedAt": "2026-08-20T04:32:27.045742+00:00",
   "baro": {
     "status": "verified",
     "active": false,

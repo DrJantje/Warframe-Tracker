@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-20T04:18:28.384776+00:00",
+  "generatedAt": "2026-08-20T04:32:26.531283+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-20T04:16:23.594Z",
+  "accountSnapshotAt": "2026-08-20T04:30:21.906Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-20T04:16:23.594Z",
+      "capturedAt": "2026-08-20T04:30:21.906Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-20T04:18:14.612Z",
+    "observedAt": "2026-08-20T04:32:19.164Z",
     "phase": "mission",
-    "node": "ORDIS NEXT",
+    "node": "CETUS INVASION",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode212_ActiveMission",
+    "missionKey": "SolNode451_Hard",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -256,49 +256,33 @@
           "arcanes": []
         },
         "Primary": {
-          "buildRef": "longguns-012",
+          "buildRef": "longguns-065",
           "resolutionStatus": "exact-build-ref",
-          "item": "Torid",
+          "item": "Coda Bassocyst",
           "category": "LongGuns",
           "configuration": "A",
-          "formaApplied": 6,
-          "focusLens": null,
+          "formaApplied": 5,
+          "focusLens": "Greater Unairu Lens",
           "polarities": [
             {
-              "slot": 0,
+              "slot": 7,
               "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_DEFENSE"
             },
             {
               "slot": 3,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_ATTACK"
+              "polarity": "AP_DEFENSE"
             },
             {
               "slot": 5,
-              "polarity": "AP_TACTIC"
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 6,
               "polarity": "AP_DEFENSE"
             },
             {
-              "slot": 7,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_UNIVERSAL"
+              "slot": 0,
+              "polarity": "AP_TACTIC"
             }
           ],
           "modularParts": [],
@@ -306,54 +290,54 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Serration",
+              "name": "Primed Charged Shell",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Firestorm",
+              "name": "Toxic Barrage",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Rifle Elementalist",
+              "name": "Shotgun Barrage",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Hunter Munitions",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Vital Sense",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Critical Delay",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Cryo Rounds",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Chamber",
+              "name": "Primed Chilling Grasp",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Vigilante Supplies",
+              "name": "Ravage",
               "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Critical Deceleration",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Savvy",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Hell",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Acceleration",
+              "rank": 10,
               "kind": "mod"
             }
           ],
           "arcanes": [
             {
-              "name": "Primary Merciless",
+              "name": "Primary Deadhead",
               "rank": 5,
               "kind": "arcane"
             }

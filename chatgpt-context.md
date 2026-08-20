@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-20T04:18:28.384776+00:00
-Account snapshot: 2026-08-20T04:16:23.594Z
+Generated: 2026-08-20T04:32:26.531283+00:00
+Account snapshot: 2026-08-20T04:30:21.906Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -34,11 +34,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Frostbite (rank 3), Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Heated Charge (rank 10)
 - Arcanes: none recorded
 
-#### Primary: Torid — config A
+#### Primary: Coda Bassocyst — config A
 
-- Forma: 6
-- Mods: Serration (rank 10), Firestorm (rank 3), Rifle Elementalist (rank 5), Hunter Munitions (rank 5), Vital Sense (rank 5), Critical Delay (rank 5), Cryo Rounds (rank 5), Galvanized Chamber (rank 10), Vigilante Supplies (rank 5)
-- Arcanes: Primary Merciless (rank 5)
+- Forma: 5
+- Lens: Greater Unairu Lens
+- Mods: Primed Charged Shell (rank 10), Toxic Barrage (rank 3), Shotgun Barrage (rank 5), Primed Chilling Grasp (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Deadhead (rank 5)
 
 #### Melee: Stropha — config A
 
