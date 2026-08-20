@@ -1,5 +1,52 @@
 {
+  "missionCount": 3,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "durationSeconds": 2201.95,
+  "configurationChanges": [],
+  "focusCounterAtCaptureEnd": 9472,
   "focusEarnedDuringCapture": 0,
+  "missions": [
+    {
+      "startedAt": "2026-08-19T08:56:58.953000+00:00",
+      "endedAt": "2026-08-19T09:34:10.783000+00:00",
+      "durationSeconds": 2231.83,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode309_ActiveMission",
+      "missionInstance": 9,
+      "voidTier": "VoidT6",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-19T09:36:15.869000+00:00",
+      "endedAt": "2026-08-19T09:51:21.423000+00:00",
+      "durationSeconds": 905.554,
+      "type": "DESCENDIA",
+      "node": "SolNode250",
+      "label": null,
+      "missionKey": "SolNode250_Hard",
+      "missionInstance": 10,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-19T10:01:35.797000+00:00",
+      "endedAt": "2026-08-19T10:06:17.237337+00:00",
+      "durationSeconds": 281.44,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 10,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "focusCounterAtCaptureStart": 9472,
+  "equipmentAdded": [],
   "negativeItemDeltas": [
     {
       "item": "Ignia",
@@ -18,7 +65,7 @@
       "delta": -4
     }
   ],
-  "startedAt": "2026-08-19T09:29:35.287515+00:00",
+  "errorEventCount": 0,
   "positiveItemDeltas": [
     {
       "item": "Circuit Effect",
@@ -69,55 +116,8 @@
       "delta": 1
     }
   ],
-  "missionCount": 3,
-  "equipmentRemoved": [],
-  "configurationChanges": [],
-  "missions": [
-    {
-      "startedAt": "2026-08-19T08:56:58.953000+00:00",
-      "endedAt": "2026-08-19T09:34:10.783000+00:00",
-      "durationSeconds": 2231.83,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode309_ActiveMission",
-      "missionInstance": 9,
-      "voidTier": "VoidT6",
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-19T09:36:15.869000+00:00",
-      "endedAt": "2026-08-19T09:51:21.423000+00:00",
-      "durationSeconds": 905.554,
-      "type": "DESCENDIA",
-      "node": "SolNode250",
-      "label": null,
-      "missionKey": "SolNode250_Hard",
-      "missionInstance": 10,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-19T10:01:35.797000+00:00",
-      "endedAt": "2026-08-19T10:06:17.237337+00:00",
-      "durationSeconds": 281.44,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 10,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "schemaVersion": 1,
-  "errorEventCount": 0,
-  "durationSeconds": 2201.95,
+  "startedAt": "2026-08-19T09:29:35.287515+00:00",
   "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
-  "focusCounterAtCaptureStart": 9472,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 9472,
   "notableAcquisitions": [
     {
       "item": "Ascaris Prime",
