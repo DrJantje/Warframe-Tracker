@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-19",
-    "exportVerifiedAt": "2026-08-19 22:11:50 PDT",
+    "snapshotDate": "2026-08-20",
+    "exportVerifiedAt": "2026-08-20 01:28:47 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167826,
-        "modified": "2026-08-19T22:11:50.154031-07:00",
-        "sha256": "cb421e8e58be1280477a36a011d99c5aad0557e520e765fb7ac1f91628b114f9"
+        "bytes": 2167772,
+        "modified": "2026-08-20T01:28:46.979329-07:00",
+        "sha256": "4926323b31579eef108eb735edcb91b91595aa4db89d2e572c8d47000d902ccb"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-19T22:11:50.159068-07:00",
+        "modified": "2026-08-20T01:28:46.984919-07:00",
         "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-19T22:11:50.156556-07:00",
+        "modified": "2026-08-20T01:28:46.982354-07:00",
         "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-19T22:11:50.158064-07:00",
-        "sha256": "3084d5d1e961fa0ec43fbdc7edb967a8ec7daafc1a8c8b368458ea6035c35faf"
+        "modified": "2026-08-20T01:28:46.983875-07:00",
+        "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-19T22:11:50.161598-07:00",
+        "modified": "2026-08-20T01:28:46.988569-07:00",
         "sha256": "3c12fd3b2d671a2d2aecfff78303d975030ce49b287302d10d0577a2df72cf63"
       },
       "rivens.json": {
@@ -47,6 +47,51 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Stahlta",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Stropha",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Styanax",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -101,13 +146,13 @@
       "Meso K8 Intact": 47,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 34,
+      "Meso L5 Intact": 35,
       "Meso V13 Intact": 33,
       "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 27,
+      "Meso X1 Intact": 28,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 30,
+      "Meso Y2 Intact": 31,
       "Neo A16 Intact": 4,
       "Neo C7 Intact": 14,
       "Neo C7 Radiant": 0,
@@ -3946,13 +3991,13 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Stropha",
-      "type": "melee",
+      "item": "Stahlta",
+      "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Stropha"
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Stahlta"
     },
     {
       "item": "Jade",
@@ -3971,15 +4016,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Protea"
-    },
-    {
-      "item": "Stahlta",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Stahlta"
     },
     {
       "item": "Valkyr Prime",
@@ -17228,17 +17264,17 @@
     {
       "item": "Stahlta",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Stahlta",
       "steps": ".",
@@ -17349,14 +17385,14 @@
     {
       "item": "Stropha",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -17470,8 +17506,8 @@
     {
       "item": "Styanax",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
