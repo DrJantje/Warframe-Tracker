@@ -288,7 +288,7 @@ function freshness() {
   const worldState = liveStatus.worldState || {};
   const sourceInfo = worldState.source || liveStatus.invasions?.source || {};
   const worldStateHealthy = worldState.status === 'verified';
-  const sourceType = sourceInfo.type === 'primary' ? 'DE PRIMARY' : 'FALLBACK';
+  const sourceType = worldStateHealthy ? 'DE PRIMARY' : 'LAST GOOD DE';
   const provider = sourceInfo.provider || 'World state unavailable';
   const sourceLink = sourceInfo.url
     ? `<a href="${escapeHtml(sourceInfo.url)}" target="_blank" rel="noreferrer">${escapeHtml(provider)}</a>`
