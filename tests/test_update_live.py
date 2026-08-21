@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import io
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
 
@@ -33,7 +35,8 @@ class UpdateLiveTests(unittest.TestCase):
                 patch.object(update_live, "TRACKER", tracker_path),
                 patch.object(update_live, "fetch_json", side_effect=RuntimeError("HTTP 403")),
             ):
-                self.assertFalse(update_live.update())
+                with redirect_stdout(io.StringIO()):
+                    self.assertFalse(update_live.update())
             self.assertEqual(live_path.read_bytes(), before)
 
     def test_primary_failure_rejects_invalid_snapshot(self) -> None:
@@ -47,8 +50,9 @@ class UpdateLiveTests(unittest.TestCase):
                 patch.object(update_live, "TRACKER", tracker_path),
                 patch.object(update_live, "fetch_json", side_effect=RuntimeError("HTTP 403")),
             ):
-                with self.assertRaisesRegex(RuntimeError, "last-known-good"):
-                    update_live.update()
+                with redirect_stdout(io.StringIO()):
+                    with self.assertRaisesRegex(RuntimeError, "last-known-good"):
+                        update_live.update()
 
 
 if __name__ == "__main__":
