@@ -31,11 +31,12 @@ Raw AlecaFrame exports are read locally and are not uploaded. The published repo
 
 ## Live world state
 
-GitHub Pages refreshes `data/live.json` every five minutes from Digital
+GitHub Pages refreshes `data/live.json` hourly from Digital
 Extremes' raw [`worldState.php`](https://api.warframe.com/cdn/worldState.php)
 feed. Invasions are parsed directly, and Cetus day/night is derived locally
 from the `CetusSyndicate` expiry using WFCD's current 100-minute day / 50-minute
-night logic. WarframeStat.us is retained only as an explicit fallback.
+night logic. Temporary upstream failures retain the last valid DE snapshot and
+do not block deployment of the rest of the tracker.
 
 The page displays the provider, fetch time, payload age, and Cetus countdown,
 and refreshes the published live payload once per minute while open.

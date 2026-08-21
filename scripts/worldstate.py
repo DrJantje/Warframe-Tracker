@@ -8,7 +8,6 @@ from pathlib import Path
 from typing import Any
 
 PRIMARY_WORLD_STATE_URL = "https://api.warframe.com/cdn/worldState.php"
-FALLBACK_WORLD_STATE_URL = "https://api.warframestat.us/pc"
 
 DATA_DIR = Path(__file__).resolve().parent / "worldstate_data"
 SOL_NODES = json.loads((DATA_DIR / "solNodes.json").read_text(encoding="utf-8"))
@@ -322,7 +321,6 @@ def direct_world_state(raw: Any, checked_ms: int | None = None) -> dict[str, Any
             "freshness": freshness,
             "buildLabel": raw.get("BuildLabel"),
             "source": source,
-            "fallback": {"provider": "WarframeStat.us", "url": FALLBACK_WORLD_STATE_URL},
         },
         "invasions": {
             "status": status,
@@ -334,59 +332,3 @@ def direct_world_state(raw: Any, checked_ms: int | None = None) -> dict[str, Any
         "cetusCycle": {"status": status, "source": source, **cycles["cetus"]},
         "cycles": cycles,
     }
-
-
-def fallback_world_state(raw: Any, checked_ms: int | None = None) -> dict[str, Any]:
-    if not isinstance(raw, dict):
-        raise ValueError("WarframeStat.us fallback world state must be an object")
-    checked_ms = checked_ms if checked_ms is not None else utc_now_ms()
-    world_state_ms = parse_time(raw.get("timestamp"))
-    source = source_metadata("WarframeStat.us", "fallback", FALLBACK_WORLD_STATE_URL, checked_ms, world_state_ms)
-    age = source.get("ageSecondsAtCheck")
-    status = "verified" if age is None or age <= 600 else "stale"
-    invasions = raw.get("invasions") if isinstance(raw.get("invasions"), list) else []
-    cycles = {}
-    for name, field in {
-        "earth": "earthCycle",
-        "cetus": "cetusCycle",
-        "vallis": "vallisCycle",
-        "cambion": "cambionCycle",
-        "zariman": "zarimanCycle",
-    }.items():
-        value = raw.get(field)
-        if isinstance(value, dict):
-            cycles[name] = dict(value)
-    cetus = cycles.get("cetus") or {}
-    return {
-        "worldState": {
-            "status": status,
-            "freshness": "fallback" if status == "verified" else "stale",
-            "buildLabel": None,
-            "source": source,
-            "fallback": {"provider": "WarframeStat.us", "url": FALLBACK_WORLD_STATE_URL},
-        },
-        "invasions": {
-            "status": status,
-            "source": source,
-            "rewards": fallback_reward_names(invasions),
-            "items": invasions,
-            "activeCount": sum(not invasion.get("completed") for invasion in invasions),
-        },
-        "cetusCycle": {"status": status, "source": source, **cetus},
-        "cycles": cycles,
-    }
-
-
-def fallback_reward_names(invasions: list[dict[str, Any]]) -> list[str]:
-    names = set()
-    for invasion in invasions:
-        if not isinstance(invasion, dict) or invasion.get("completed"):
-            continue
-        for side_name in ("attacker", "defender"):
-            reward = (invasion.get(side_name) or {}).get("reward") or {}
-            names.update(str(item) for item in reward.get("items", []) if item)
-            names.update(str(item.get("type")) for item in reward.get("countedItems", []) if item.get("type"))
-            label = reward.get("asString") or reward.get("itemString")
-            if isinstance(label, str) and label.strip():
-                names.add(re.sub(r"^\s*[\d,]+\s*[x×]?\s+", "", label.strip()))
-    return sorted(names)

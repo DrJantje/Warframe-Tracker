@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from worldstate import direct_world_state, fallback_world_state  # noqa: E402
+from worldstate import direct_world_state  # noqa: E402
 
 
 def extended_date(value: str) -> dict:
@@ -82,21 +82,9 @@ class WorldStateTests(unittest.TestCase):
         self.assertEqual(cetus["activation"], "2026-08-19T02:24:00Z")
         self.assertEqual(parsed["cycles"]["cambion"]["state"], "fass")
 
-    def test_fallback_is_explicit(self) -> None:
-        fallback = {
-            "timestamp": "2026-08-19T03:17:00Z",
-            "invasions": [],
-            "cetusCycle": {
-                "id": "cetus-fallback",
-                "state": "day",
-                "activation": "2026-08-19T02:24:00Z",
-                "expiry": "2026-08-19T04:04:00Z",
-            },
-        }
-        parsed = fallback_world_state(fallback, self.now_ms)
-        self.assertEqual(parsed["worldState"]["source"]["provider"], "WarframeStat.us")
-        self.assertEqual(parsed["worldState"]["source"]["type"], "fallback")
-        self.assertEqual(parsed["worldState"]["freshness"], "fallback")
+    def test_no_dead_fallback_metadata(self) -> None:
+        parsed = direct_world_state(self.raw, self.now_ms)
+        self.assertNotIn("fallback", parsed["worldState"])
 
 
 if __name__ == "__main__":
