@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-22",
-    "exportVerifiedAt": "2026-08-22 13:40:46 PDT",
+    "exportVerifiedAt": "2026-08-22 14:32:16 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167756,
-        "modified": "2026-08-22T13:40:45.697987-07:00",
-        "sha256": "9e2cd39de9986edf2a12c14066db29a3aca7325541e0da9aadbb5bf436a25099"
+        "modified": "2026-08-22T14:32:15.712022-07:00",
+        "sha256": "f9858967da6c8476c00736e8793fb06c768fc60dd85e49caafcb0480eb9c494b"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-22T13:40:45.699999-07:00",
-        "sha256": "c0e7ba36620e26af81f4110163038c960da35e692c267e869f99efd598d7d032"
+        "modified": "2026-08-22T14:32:15.715250-07:00",
+        "sha256": "5d4377322bf8a2fc53694e92d97a1e6cb8aecb84934ccdecf1c15b6bc8bca51b"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-22T13:40:45.698492-07:00",
+        "modified": "2026-08-22T14:32:15.713734-07:00",
         "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-22T13:40:45.699999-07:00",
+        "modified": "2026-08-22T14:32:15.714742-07:00",
         "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-22T13:40:45.702019-07:00",
+        "modified": "2026-08-22T14:32:15.716254-07:00",
         "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
@@ -48,11 +48,11 @@
     },
     "importChanges": [
       {
-        "item": "Edun",
+        "item": "Koumei",
         "before": [
-          "No",
-          "No",
           "Yes",
+          "No",
+          "No",
           ""
         ],
         "after": [
@@ -74,21 +74,6 @@
           "Yes",
           "Yes",
           "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Voruna",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
           ""
         ]
       }
@@ -3892,15 +3877,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Itzal"
-    },
-    {
-      "item": "Koumei",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Koumei"
     }
   ],
   "rank40": [
@@ -11318,14 +11294,14 @@
     {
       "item": "Koumei",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
       "vaulted": "No",
       "pendingFoundry": "No",

@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-22T20:40:45.972259+00:00
-Account snapshot: 2026-08-22T20:40:42.939Z
+Generated: 2026-08-22T21:32:15.996427+00:00
+Account snapshot: 2026-08-22T21:30:11.539Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,34 +10,29 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: location
 - Location: HUB
 - Planet: VENUS
-- Frame observation: Titania (location-active)
+- Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 173863
+- Focus during current capture: 377425
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Leveling
+### Arsenal: Titania
 
-#### Warframe: Koumei — config A
-
-- Forma: 0
-- Mods: Stretch (rank 5), Primed Flow (rank 10), Fast Deflection (rank 5), Continuity (rank 5), Blind Rage (rank 10), Growing Power (rank 5)
-- Arcanes: Arcane Sculptor (rank 1), Arcane Impetus (rank 5)
-
-#### Primary: Coda Bubonico — config A
-
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Scattering Inferno (rank 3), Toxic Barrage (rank 3), Shotgun Elementalist (rank 5), Primed Charged Shell (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
-
-#### Melee: Praedos — config A
+#### Warframe: Titania Prime — config A
 
 - Forma: 2
-- Lens: Greater Unairu Lens
-- Mods: Weeping Wounds (rank 5), Drifting Contact (rank 3), Condition Overload (rank 5), Primed Reach (rank 10), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Sovereign Outcast (rank 3)
-- Arcanes: Melee Exposure (rank 3)
+- Lens: Greater Naramon Lens
+- Helminth: Xata's Whisper
+- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
+- Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
+- Arcanes: Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
+
+#### Melee: Prova Vandal — config A
+
+- Forma: 0
+- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10), Sundering Weave (rank 3)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 
@@ -45,18 +40,24 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### Companion: Leveling
+#### Exalted weapon: Dex Pixia Prime — config A
+
+- Forma: 7
+- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Magnetic Might (rank 3), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 9)
+- Arcanes: Secondary Enervate (rank 5)
+
+#### Second exalted weapon: Diwata Prime — config A
+
+- Forma: 0
+- Mods: Gladiator Rush (rank 5), Gladiator Might (rank 5), Pressure Point (rank 5), Sacrificial Steel (rank 8), Blood Rush (rank 10), Weeping Wounds (rank 5), Sundering Strike (rank 5), Primed Reach (rank 10)
+- Arcanes: Melee Doughty (rank 5)
+
+### Companion: Titania
 
 #### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
-- Arcanes: none recorded
-
-#### Companion weapon: Lacerten — config A
-
-- Forma: 0
-- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A

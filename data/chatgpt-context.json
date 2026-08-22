@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T20:40:45.972259+00:00",
+  "generatedAt": "2026-08-22T21:32:15.996427+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-22T20:40:42.939Z",
+  "accountSnapshotAt": "2026-08-22T21:30:11.539Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-22T20:40:42.939Z",
+      "capturedAt": "2026-08-22T21:30:11.539Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-22T20:40:45.276672+00:00",
+    "observedAt": "2026-08-22T21:30:11.540514+00:00",
     "phase": "location",
     "node": "FORTUNA",
     "planet": "VENUS",
@@ -57,31 +57,81 @@
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 173863,
+    "focusDuringCurrentCapture": 377425,
     "frameCandidate": "Titania",
-    "frameConfidence": "location-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "account-snapshot-confirmed",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
-      "name": "Leveling",
+      "name": "Titania",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-056",
+          "buildRef": "suits-019",
           "resolutionStatus": "exact-build-ref",
-          "item": "Koumei",
+          "item": "Titania Prime",
           "category": "Suits",
           "configuration": "A",
-          "formaApplied": 0,
-          "focusLens": null,
-          "polarities": [],
+          "formaApplied": 2,
+          "focusLens": "Greater Naramon Lens",
+          "polarities": [
+            {
+              "slot": 8,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_ANY"
+            }
+          ],
           "modularParts": [],
-          "archonShards": [],
-          "helminthAbility": null,
+          "archonShards": [
+            {
+              "color": "ACC_GREEN_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Corrosive Stack Mythic"
+            },
+            {
+              "color": "ACC_GREEN_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Corrosive Stack Mythic"
+            },
+            {
+              "color": "ACC_PURPLE_MYTHIC",
+              "effect": "Archon Crystal Upgrade Equilibrium Mythic"
+            },
+            {
+              "color": "ACC_YELLOW_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Starting Energy Mythic"
+            },
+            {
+              "color": "ACC_YELLOW_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Globe Effect Energy Mythic"
+            }
+          ],
+          "helminthAbility": "Xata's Whisper",
           "mods": [
             {
-              "name": "Stretch",
+              "name": "Streamline",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Archon Continuity",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Narrow Minded",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Razorwing Blitz",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Precision Intensify",
               "rank": 5,
               "kind": "mod"
             },
@@ -91,178 +141,60 @@
               "kind": "mod"
             },
             {
-              "name": "Fast Deflection",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Continuity",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Blind Rage",
+              "name": "Adaptation",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Growing Power",
+              "name": "Boreal's Hatred",
               "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Aerodynamic",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Aviator",
+              "rank": 3,
               "kind": "mod"
             }
           ],
           "arcanes": [
             {
-              "name": "Arcane Sculptor",
-              "rank": 1,
-              "kind": "arcane"
-            },
-            {
-              "name": "Arcane Impetus",
+              "name": "Arcane Pistoleer",
               "rank": 5,
               "kind": "arcane"
-            }
-          ]
-        },
-        "Primary": {
-          "buildRef": "longguns-069",
-          "resolutionStatus": "exact-build-ref",
-          "item": "Coda Bubonico",
-          "category": "LongGuns",
-          "configuration": "A",
-          "formaApplied": 5,
-          "focusLens": "Greater Unairu Lens",
-          "polarities": [
-            {
-              "slot": 0,
-              "polarity": "AP_ATTACK"
             },
             {
-              "slot": 1,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_ATTACK"
-            }
-          ],
-          "modularParts": [],
-          "archonShards": [],
-          "helminthAbility": null,
-          "mods": [
-            {
-              "name": "Scattering Inferno",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Toxic Barrage",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Shotgun Elementalist",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Charged Shell",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Ravage",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Critical Deceleration",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Hell",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Savvy",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Acceleration",
-              "rank": 10,
-              "kind": "mod"
-            }
-          ],
-          "arcanes": [
-            {
-              "name": "Primary Merciless",
+              "name": "Arcane Velocity",
               "rank": 5,
               "kind": "arcane"
             }
           ]
         },
         "Melee": {
-          "buildRef": "melee-061",
+          "buildRef": "melee-139",
           "resolutionStatus": "exact-build-ref",
-          "item": "Praedos",
+          "item": "Prova Vandal",
           "category": "Melee",
           "configuration": "A",
-          "formaApplied": 2,
-          "focusLens": "Greater Unairu Lens",
-          "polarities": [
-            {
-              "slot": 3,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_TACTIC"
-            }
-          ],
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Weeping Wounds",
+              "name": "Pressure Point",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Drifting Contact",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Condition Overload",
-              "rank": 5,
+              "name": "Primed Fever Strike",
+              "rank": 8,
               "kind": "mod"
             },
             {
@@ -271,28 +203,12 @@
               "kind": "mod"
             },
             {
-              "name": "Sacrificial Steel",
-              "rank": 8,
-              "kind": "mod"
-            },
-            {
-              "name": "Sacrificial Pressure",
-              "rank": 8,
-              "kind": "mod"
-            },
-            {
-              "name": "Sovereign Outcast",
+              "name": "Sundering Weave",
               "rank": 3,
               "kind": "mod"
             }
           ],
-          "arcanes": [
-            {
-              "name": "Melee Exposure",
-              "rank": 3,
-              "kind": "arcane"
-            }
-          ]
+          "arcanes": []
         },
         "Heavy weapon": {
           "buildRef": "spaceguns-002",
@@ -369,6 +285,172 @@
             },
             {
               "name": "Cascadia Flare",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
+        },
+        "Exalted weapon": {
+          "buildRef": "specialitems-011",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Dex Pixia Prime",
+          "category": "SpecialItems",
+          "configuration": "A",
+          "formaApplied": 7,
+          "focusLens": null,
+          "polarities": [
+            {
+              "slot": 0,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 1,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ANY"
+            },
+            {
+              "slot": 5,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Pistol Pestilence",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Heated Charge",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Frostbite",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Lethal Torrent",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Magnetic Might",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Target Cracker",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Shot",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Diffusion",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Steady Hands",
+              "rank": 9,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": [
+            {
+              "name": "Secondary Enervate",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
+        },
+        "Second exalted weapon": {
+          "buildRef": "specialitems-012",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Diwata Prime",
+          "category": "SpecialItems",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Gladiator Rush",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Gladiator Might",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Sacrificial Steel",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Blood Rush",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Weeping Wounds",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Sundering Strike",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": [
+            {
+              "name": "Melee Doughty",
               "rank": 5,
               "kind": "arcane"
             }
@@ -576,7 +658,7 @@
     },
     "DATAKNIFE": {
       "modeName": "Parazon and Plexus",
-      "name": "Leveling",
+      "name": "Titania",
       "slots": {
         "Parazon": {
           "buildRef": "dataknives-001",
@@ -1339,7 +1421,7 @@
     },
     "SENTINEL": {
       "modeName": "Companion",
-      "name": "Leveling",
+      "name": "Titania",
       "slots": {
         "Companion": {
           "buildRef": "kubrowpets-006",
@@ -1422,37 +1504,6 @@
             {
               "name": "Tenacious Bond",
               "rank": 5,
-              "kind": "mod"
-            }
-          ],
-          "arcanes": []
-        },
-        "Companion weapon": {
-          "buildRef": "sentinelweapons-017",
-          "resolutionStatus": "exact-build-ref",
-          "item": "Lacerten",
-          "category": "SentinelWeapons",
-          "configuration": "A",
-          "formaApplied": 0,
-          "focusLens": null,
-          "polarities": [],
-          "modularParts": [],
-          "archonShards": [],
-          "helminthAbility": null,
-          "mods": [
-            {
-              "name": "Magnetic Rush",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Pressure Point",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Reach",
-              "rank": 10,
               "kind": "mod"
             }
           ],
