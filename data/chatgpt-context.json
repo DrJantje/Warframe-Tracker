@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T21:32:15.996427+00:00",
+  "generatedAt": "2026-08-22T22:54:19.797940+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,51 +8,51 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-22T21:30:11.539Z",
+  "accountSnapshotAt": "2026-08-22T22:52:14.555Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-22T21:30:11.539Z",
+      "capturedAt": "2026-08-22T22:52:14.555Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-22T21:30:11.540514+00:00",
-    "phase": "location",
-    "node": "FORTUNA",
-    "planet": "VENUS",
-    "mission": "HUB",
+    "observedAt": "2026-08-22T22:52:14.556107+00:00",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
@@ -175,26 +175,40 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-139",
+          "buildRef": "melee-061",
           "resolutionStatus": "exact-build-ref",
-          "item": "Prova Vandal",
+          "item": "Praedos",
           "category": "Melee",
           "configuration": "A",
-          "formaApplied": 0,
-          "focusLens": null,
-          "polarities": [],
+          "formaApplied": 2,
+          "focusLens": "Greater Unairu Lens",
+          "polarities": [
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Pressure Point",
+              "name": "Weeping Wounds",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Primed Fever Strike",
-              "rank": 8,
+              "name": "Drifting Contact",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Condition Overload",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -203,12 +217,28 @@
               "kind": "mod"
             },
             {
-              "name": "Sundering Weave",
+              "name": "Sacrificial Steel",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Sacrificial Pressure",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Sovereign Outcast",
               "rank": 3,
               "kind": "mod"
             }
           ],
-          "arcanes": []
+          "arcanes": [
+            {
+              "name": "Melee Exposure",
+              "rank": 3,
+              "kind": "arcane"
+            }
+          ]
         },
         "Heavy weapon": {
           "buildRef": "spaceguns-002",

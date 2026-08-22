@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-22T21:32:15.996427+00:00
-Account snapshot: 2026-08-22T21:30:11.539Z
+Generated: 2026-08-22T22:54:19.797940+00:00
+Account snapshot: 2026-08-22T22:52:14.555Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: VENUS
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
 - Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -28,11 +28,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
 - Arcanes: Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
 
-#### Melee: Prova Vandal — config A
+#### Melee: Praedos — config A
 
-- Forma: 0
-- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10), Sundering Weave (rank 3)
-- Arcanes: none recorded
+- Forma: 2
+- Lens: Greater Unairu Lens
+- Mods: Weeping Wounds (rank 5), Drifting Contact (rank 3), Condition Overload (rank 5), Primed Reach (rank 10), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Sovereign Outcast (rank 3)
+- Arcanes: Melee Exposure (rank 3)
 
 #### Heavy weapon: Mausolon — config A
 
