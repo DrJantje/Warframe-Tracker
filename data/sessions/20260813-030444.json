@@ -1,7 +1,36 @@
 {
+  "configurationChanges": [
+    {
+      "at": "2026-08-13T03:21:21.587861+00:00",
+      "item": "Coda Synapse",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Sinister Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-13T04:50:15.860755+00:00",
+      "item": "Titania Prime",
+      "configuration": "A",
+      "added": [
+        "Arcane Velocity"
+      ],
+      "removed": [
+        "Arcane Impetus"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Broken Rot Ability",
+      "helminthAfter": "Broken Rot Ability"
+    }
+  ],
+  "schemaVersion": 1,
+  "durationSeconds": 7200.069,
+  "focusEarnedDuringCapture": 68616,
   "errorEventCount": 0,
-  "focusCounterAtCaptureEnd": 188070,
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
   "missions": [
     {
       "startedAt": "2026-08-13T03:04:51.927000+00:00",
@@ -64,38 +93,9 @@
       "steelPath": false
     }
   ],
-  "missionCount": 5,
-  "configurationChanges": [
-    {
-      "at": "2026-08-13T03:21:21.587861+00:00",
-      "item": "Coda Synapse",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Sinister Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-13T04:50:15.860755+00:00",
-      "item": "Titania Prime",
-      "configuration": "A",
-      "added": [
-        "Arcane Velocity"
-      ],
-      "removed": [
-        "Arcane Impetus"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Broken Rot Ability",
-      "helminthAfter": "Broken Rot Ability"
-    }
-  ],
-  "schemaVersion": 1,
-  "durationSeconds": 7200.069,
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
   "focusCounterAtCaptureStart": 119454,
+  "missionCount": 5,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -114,7 +114,6 @@
       "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 68616,
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -342,6 +341,7 @@
     }
   ],
   "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "focusCounterAtCaptureEnd": 188070,
   "notableAcquisitions": [
     {
       "item": "Oberon Chassis Blueprint",

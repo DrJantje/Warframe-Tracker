@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T02:26:02.113481+00:00",
+  "generatedAt": "2026-08-22T03:10:41.140571+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,18 +48,18 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-22T02:23:57.823Z",
-    "phase": "location",
-    "node": "RELAY",
-    "planet": "TENNO",
-    "mission": "HUB",
+    "observedAt": "2026-08-22T03:10:36.114669+00:00",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "location-active",
+    "frameConfidence": "sync-awaiting-snapshot",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1508,18 +1508,44 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260820-080744.json",
-    "startedAt": "2026-08-20T08:07:44.517786+00:00",
-    "stoppedAt": "2026-08-20T08:44:41.063925+00:00",
-    "durationSeconds": 2216.546,
-    "missionCount": 2,
+    "file": "20260822-012405.json",
+    "startedAt": "2026-08-22T01:24:05.753111+00:00",
+    "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+    "durationSeconds": 6390.914,
+    "missionCount": 6,
     "focusEarnedDuringCapture": 0,
-    "topGains": [],
+    "topGains": [
+      {
+        "item": "Koumei Helmet",
+        "delta": 1
+      },
+      {
+        "item": "Voidplume Crest",
+        "delta": 1
+      },
+      {
+        "item": "Voidplume Down",
+        "delta": 1
+      }
+    ],
     "notableAcquisitions": [],
-    "resourceGains": [],
+    "resourceGains": [
+      {
+        "item": "Koumei Helmet",
+        "delta": 1
+      },
+      {
+        "item": "Voidplume Crest",
+        "delta": 1
+      },
+      {
+        "item": "Voidplume Down",
+        "delta": 1
+      }
+    ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 0,
-    "errorEventCount": 2
+    "configurationChangeCount": 2,
+    "errorEventCount": 4
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
