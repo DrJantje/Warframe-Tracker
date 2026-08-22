@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T01:37:13.143411+00:00",
+  "generatedAt": "2026-08-22T01:38:43.328203+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-22T01:37:08.638Z",
+    "observedAt": "2026-08-22T01:38:31.292Z",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
-    "frameConfidence": "sync-awaiting-snapshot",
+    "frameConfidence": "server-sent",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
