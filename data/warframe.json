@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-21",
-    "exportVerifiedAt": "2026-08-21 20:10:41 PDT",
+    "snapshotDate": "2026-08-22",
+    "exportVerifiedAt": "2026-08-22 09:18:22 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167762,
-        "modified": "2026-08-21T20:10:40.769085-07:00",
-        "sha256": "f8c3ffd3d71df7e06d6a724cae2f2a57a8d08903dc317a33cdb91f682664bce6"
+        "bytes": 2167759,
+        "modified": "2026-08-22T09:18:22.261988-07:00",
+        "sha256": "92dcef445d295e54216d17205b1116ef72334ee17fe89f8db9db214abd90787f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-21T20:10:40.779183-07:00",
+        "modified": "2026-08-22T09:18:22.266850-07:00",
         "sha256": "81ea4bc809b8066b61aee750c7aeafbb5e2df9cd1af0d3bdacda5ff1195aa1f3"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-21T20:10:40.770608-07:00",
-        "sha256": "6a50858b5afce28ac5502c0bce1da95dcfd888008af52b5e21b79b363295877d"
+        "modified": "2026-08-22T09:18:22.264169-07:00",
+        "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-21T20:10:40.772119-07:00",
+        "modified": "2026-08-22T09:18:22.265844-07:00",
         "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-21T20:10:40.782470-07:00",
-        "sha256": "961704d1d21c5910cc82e75eaa9f2f6c1ac1c2e4f7840911d45885154708b00d"
+        "modified": "2026-08-22T09:18:22.269933-07:00",
+        "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,81 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Amanata",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Arbucep",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock"
+        ]
+      },
+      {
+        "item": "Higasa",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Protea",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Prova Vandal",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -59,6 +134,36 @@
           "Yes",
           "Yes",
           "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Valkyr Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Voruna",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
           ""
         ]
       }
@@ -967,6 +1072,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Arbucep",
+      "type": "archgun",
+      "targetRank": "30",
+      "missing": "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock",
+      "route": "Deepmines Bounties / Nightcap in The Airlock",
+      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
+      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
+      "source": "https://wiki.warframe.com/w/Arbucep",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 520
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Cinta",
       "type": "primary",
       "targetRank": "30",
@@ -1055,21 +1175,6 @@
       "liveMatches": [],
       "availabilityGroup": "nightwave",
       "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Arbucep",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock",
-      "route": "Deepmines Bounties / Nightcap in The Airlock",
-      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
-      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
-      "source": "https://wiki.warframe.com/w/Arbucep",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 525
     },
     {
       "ease": "6 — Parked / time-gated",
@@ -1518,9 +1623,7 @@
       "source": "https://wiki.warframe.com/w/Twin_Vipers_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Twin Vipers Wraith Blueprint"
-      ],
+      "liveMatches": [],
       "practicalPriority": 660
     },
     {
@@ -1655,9 +1758,7 @@
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Receiver"
-      ],
+      "liveMatches": [],
       "practicalPriority": 770
     },
     {
@@ -1777,9 +1878,7 @@
       "source": "https://wiki.warframe.com/w/Snipetron",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Receiver"
-      ],
+      "liveMatches": [],
       "practicalPriority": 1105
     },
     {
@@ -3848,6 +3947,15 @@
   ],
   "owned": [
     {
+      "item": "Amanata",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Amanata"
+    },
+    {
       "item": "Chesa Kubrow",
       "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
@@ -3855,15 +3963,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level the companion in high-affinity missions.",
       "source": "https://wiki.warframe.com/w/Chesa_Kubrow"
-    },
-    {
-      "item": "Higasa",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Higasa"
     },
     {
       "item": "Itzal",
@@ -3884,22 +3983,22 @@
       "source": "https://wiki.warframe.com/w/Koumei"
     },
     {
-      "item": "Prova Vandal",
-      "type": "melee",
+      "item": "Valkyr Prime",
+      "type": "warframe",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Prova_Vandal"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
-      "item": "Amanata",
-      "type": "melee",
-      "state": "Ready in Foundry",
+      "item": "Voruna",
+      "type": "warframe",
+      "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Amanata"
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Voruna"
     },
     {
       "item": "Edun",
@@ -3909,33 +4008,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
-    },
-    {
-      "item": "Protea",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Protea"
-    },
-    {
-      "item": "Valkyr Prime",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://www.warframe.com/droptables"
-    },
-    {
-      "item": "Voruna",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Voruna"
     }
   ],
   "rank40": [
@@ -4834,17 +4906,17 @@
     {
       "item": "Amanata",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 2,
       "source": "https://wiki.warframe.com/w/Amanata",
       "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
@@ -5018,7 +5090,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock",
+      "missing": "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock",
       "ease": "5 — Long grind / trade",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "vaulted": "No",
@@ -10307,14 +10379,14 @@
     {
       "item": "Higasa",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -15125,17 +15197,17 @@
     {
       "item": "Protea",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Granum Void after The Deadlock Protocol",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Protea",
       "steps": ".",
@@ -15184,14 +15256,14 @@
     {
       "item": "Prova Vandal",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16911,9 +16983,7 @@
       "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Receiver"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Snipetron Vandal",
@@ -16934,9 +17004,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Receiver"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Sobek",
@@ -18877,9 +18945,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Twin Vipers Wraith Blueprint"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Tysis",
@@ -18960,17 +19026,17 @@
     {
       "item": "Valkyr Prime",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
@@ -19724,17 +19790,17 @@
     {
       "item": "Voruna",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Voruna",
       "steps": "Farm Conjunction Survival or buy missing blueprints from Yonta with Lua Thrax Plasm.",

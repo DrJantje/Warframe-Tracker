@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-22T03:10:41.140571+00:00
-Account snapshot: 2026-08-22T02:23:53.945Z
+Generated: 2026-08-22T16:18:22.559350+00:00
+Account snapshot: 2026-08-22T16:18:17.580Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -19,11 +19,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Arsenal: Leveling
 
-#### Warframe: Koumei — config A
+#### Warframe: Protea — config A
 
 - Forma: 0
-- Mods: Stretch (rank 5), Primed Flow (rank 10), Fast Deflection (rank 5), Continuity (rank 5), Blind Rage (rank 10), Growing Power (rank 5)
-- Arcanes: Arcane Sculptor (rank 1), Arcane Impetus (rank 5)
+- Mods: Streamline (rank 5), Stretch (rank 5), Boreal's Hatred (rank 5), Vitality (rank 10), Intensify (rank 5), Dreamer's Bond (rank 5)
+- Arcanes: Molt Efficiency (rank 5), Arcane Sculptor (rank 1)
 
 #### Secondary: Tenet Cycron — config A
 
