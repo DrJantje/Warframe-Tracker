@@ -1,29 +1,29 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-22T16:44:24.572378+00:00
-Account snapshot: 2026-08-22T16:44:16.080Z
+Generated: 2026-08-22T20:40:45.972259+00:00
+Account snapshot: 2026-08-22T20:40:42.939Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Phase: location
+- Location: HUB
+- Planet: VENUS
+- Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 0
+- Focus during current capture: 173863
 
 ## Current synchronized loadouts and builds
 
 ### Arsenal: Leveling
 
-#### Warframe: Voruna — config A
+#### Warframe: Koumei — config A
 
 - Forma: 0
-- Mods: Steel Fiber (rank 10), Vitality (rank 10), Intensify (rank 5), Stretch (rank 5), Boreal's Hatred (rank 5), Physique (rank 5)
-- Arcanes: Molt Augmented (rank 5), Molt Efficiency (rank 5)
+- Mods: Stretch (rank 5), Primed Flow (rank 10), Fast Deflection (rank 5), Continuity (rank 5), Blind Rage (rank 10), Growing Power (rank 5)
+- Arcanes: Arcane Sculptor (rank 1), Arcane Impetus (rank 5)
 
 #### Primary: Coda Bubonico — config A
 

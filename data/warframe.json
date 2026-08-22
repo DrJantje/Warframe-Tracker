@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-22",
-    "exportVerifiedAt": "2026-08-22 09:44:24 PDT",
+    "exportVerifiedAt": "2026-08-22 13:40:46 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167758,
-        "modified": "2026-08-22T09:44:24.311294-07:00",
-        "sha256": "9e60c6097e53e2e70756f3b58cf40674219e274b5e2cf02a23809e1985f6f667"
+        "bytes": 2167756,
+        "modified": "2026-08-22T13:40:45.697987-07:00",
+        "sha256": "9e2cd39de9986edf2a12c14066db29a3aca7325541e0da9aadbb5bf436a25099"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-22T09:44:24.314468-07:00",
-        "sha256": "81ea4bc809b8066b61aee750c7aeafbb5e2df9cd1af0d3bdacda5ff1195aa1f3"
+        "modified": "2026-08-22T13:40:45.699999-07:00",
+        "sha256": "c0e7ba36620e26af81f4110163038c960da35e692c267e869f99efd598d7d032"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-22T09:44:24.312946-07:00",
+        "modified": "2026-08-22T13:40:45.698492-07:00",
         "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-22T09:44:24.312946-07:00",
+        "modified": "2026-08-22T13:40:45.699999-07:00",
         "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-22T09:44:24.315553-07:00",
+        "modified": "2026-08-22T13:40:45.702019-07:00",
         "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
@@ -48,45 +48,15 @@
     },
     "importChanges": [
       {
-        "item": "Amanata",
+        "item": "Edun",
         "before": [
+          "No",
+          "No",
           "Yes",
-          "No",
-          "No",
           ""
         ],
         "after": [
           "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Arbucep",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Arbucep Barrel; Arbucep Receiver; Arbucep Stock"
-        ]
-      },
-      {
-        "item": "Protea",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
           "Yes",
           "No",
           ""
@@ -108,7 +78,7 @@
         ]
       },
       {
-        "item": "Valkyr Prime",
+        "item": "Voruna",
         "before": [
           "Yes",
           "No",
@@ -1713,7 +1683,9 @@
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Blueprint"
+      ],
       "practicalPriority": 770
     },
     {
@@ -1833,7 +1805,9 @@
       "source": "https://wiki.warframe.com/w/Snipetron",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Blueprint"
+      ],
       "practicalPriority": 1105
     },
     {
@@ -3927,24 +3901,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Koumei"
-    },
-    {
-      "item": "Voruna",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Voruna"
-    },
-    {
-      "item": "Edun",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     }
   ],
   "rank40": [
@@ -8387,17 +8343,17 @@
     {
       "item": "Edun",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -16920,7 +16876,9 @@
       "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Blueprint"
+      ]
     },
     {
       "item": "Snipetron Vandal",
@@ -16941,7 +16899,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Blueprint"
+      ]
     },
     {
       "item": "Sobek",
@@ -19727,14 +19687,14 @@
     {
       "item": "Voruna",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Yuvarium or Circulus, Lua — Conjunction Survival; Yonta pity shop",
       "vaulted": "No",
       "pendingFoundry": "No",

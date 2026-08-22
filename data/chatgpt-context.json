@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T16:44:24.572378+00:00",
+  "generatedAt": "2026-08-22T20:40:45.972259+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-22T16:44:16.080Z",
+  "accountSnapshotAt": "2026-08-22T20:40:42.939Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-22T16:44:16.080Z",
+      "capturedAt": "2026-08-22T20:40:42.939Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-22T16:44:19.528601+00:00",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-08-22T20:40:45.276672+00:00",
+    "phase": "location",
+    "node": "FORTUNA",
+    "planet": "VENUS",
+    "mission": "HUB",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 0,
+    "focusDuringCurrentCapture": 173863,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "frameConfidence": "location-active",
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -68,9 +68,9 @@
       "name": "Leveling",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-058",
+          "buildRef": "suits-056",
           "resolutionStatus": "exact-build-ref",
-          "item": "Voruna",
+          "item": "Koumei",
           "category": "Suits",
           "configuration": "A",
           "formaApplied": 0,
@@ -81,44 +81,44 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Steel Fiber",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Vitality",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Intensify",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
               "name": "Stretch",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Boreal's Hatred",
+              "name": "Primed Flow",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Fast Deflection",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Physique",
+              "name": "Continuity",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Blind Rage",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Growing Power",
               "rank": 5,
               "kind": "mod"
             }
           ],
           "arcanes": [
             {
-              "name": "Molt Augmented",
-              "rank": 5,
+              "name": "Arcane Sculptor",
+              "rank": 1,
               "kind": "arcane"
             },
             {
-              "name": "Molt Efficiency",
+              "name": "Arcane Impetus",
               "rank": 5,
               "kind": "arcane"
             }
