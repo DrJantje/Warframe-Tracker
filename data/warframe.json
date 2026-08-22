@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-20",
-    "exportVerifiedAt": "2026-08-20 01:44:44 PDT",
+    "snapshotDate": "2026-08-21",
+    "exportVerifiedAt": "2026-08-21 18:37:13 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167772,
-        "modified": "2026-08-20T01:44:44.322863-07:00",
-        "sha256": "4926323b31579eef108eb735edcb91b91595aa4db89d2e572c8d47000d902ccb"
+        "bytes": 2167767,
+        "modified": "2026-08-21T18:37:12.765198-07:00",
+        "sha256": "7a20cfcb5107e2f266727bd3130338d3731f6193c14440b9b8c2765c9d3a91ac"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-20T01:44:44.324862-07:00",
-        "sha256": "d20b203f8d3b8e3f9d777c8bdfe9efd192ba94f9334cffff10ab1e965dbe875e"
+        "modified": "2026-08-21T18:37:12.770722-07:00",
+        "sha256": "81ea4bc809b8066b61aee750c7aeafbb5e2df9cd1af0d3bdacda5ff1195aa1f3"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-20T01:44:44.323866-07:00",
-        "sha256": "cc5ac67bb415c2ed0fea1622f2346990d387b3eb99d3a06a7e0d999196260bbd"
+        "modified": "2026-08-21T18:37:12.766705-07:00",
+        "sha256": "6a50858b5afce28ac5502c0bce1da95dcfd888008af52b5e21b79b363295877d"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-20T01:44:44.323866-07:00",
+        "modified": "2026-08-21T18:37:12.768713-07:00",
         "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-20T01:44:44.325863-07:00",
-        "sha256": "3c12fd3b2d671a2d2aecfff78303d975030ce49b287302d10d0577a2df72cf63"
+        "modified": "2026-08-21T18:37:12.773748-07:00",
+        "sha256": "961704d1d21c5910cc82e75eaa9f2f6c1ac1c2e4f7840911d45885154708b00d"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,201 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Amanata",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Amanata Blade (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Arbucep",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Arbucep Barrel; Arbucep Blueprint; Dull Button (0/5); Arbucep Receiver; Arbucep Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock"
+        ]
+      },
+      {
+        "item": "Dera Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dera Vandal Barrel; Dera Vandal Blueprint; Dera Vandal Receiver; Dera Vandal Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Dera Vandal Barrel; Dera Vandal Receiver; Dera Vandal Stock"
+        ]
+      },
+      {
+        "item": "Edun",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Edun Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint; Forma Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint"
+        ]
+      },
+      {
+        "item": "Higasa",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Higasa Barrel; Higasa Receiver; Higasa Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Jade",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Karak Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Karak Wraith Barrel; Karak Wraith Blueprint; Karak Wraith Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Karak Wraith Barrel; Karak Wraith Stock"
+        ]
+      },
+      {
+        "item": "Koumei",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ]
+      },
+      {
+        "item": "Prova Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prova Vandal (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Stahlta",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Trinity Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Trinity Prime Blueprint; Trinity Prime Neuroptics Blueprint; Trinity Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Trinity Prime Blueprint; Trinity Prime Chassis Blueprint; Trinity Prime Neuroptics Blueprint; Trinity Prime Systems Blueprint"
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -68,7 +263,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 230
+      "missing": 225
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -164,7 +359,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -254,21 +449,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Amanata",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Amanata Blade (0/2)",
-      "route": "Saya’s Visions / Koumei’s Shrine",
-      "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
-      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
-      "source": "https://wiki.warframe.com/w/Amanata",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Argo & Vel",
       "type": "melee",
       "targetRank": "30",
@@ -288,21 +468,6 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Azothane Blueprint",
-      "route": "Duviri — Pathos Clamps",
-      "steps": "Purchase the Blueprint for 50 Pathos Clamps after an Orowyrm run.",
-      "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Edun",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Edun Blueprint",
       "route": "Duviri — Pathos Clamps",
       "steps": "Purchase the Blueprint for 50 Pathos Clamps after an Orowyrm run.",
       "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
@@ -577,22 +742,6 @@
       "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
       "tip": "Check Baro’s current relay stock before trading.",
       "source": "https://wiki.warframe.com/w/Prisma_Veritux",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Prova Vandal",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Prova Vandal (completed item)",
-      "route": "Baro Ki’Teer rotating inventory / player trade",
-      "steps": "Buy the completed Prova Vandal when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
-      "source": "https://wiki.warframe.com/w/Prova_Vandal",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1013,51 +1162,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Higasa",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Higasa Barrel; Higasa Receiver; Higasa Stock",
-      "route": "Saya’s Visions / Koumei’s Shrine",
-      "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
-      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
-      "source": "https://wiki.warframe.com/w/Higasa",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Koumei",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint",
-      "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
-      "steps": "Run Saya’s Visions and buy missing Koumei blueprints with Fate Pearls.",
-      "tip": "Bank Fate Pearls and purchase only pieces that have not dropped.",
-      "source": "https://wiki.warframe.com/w/Koumei",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Mandonel",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Mandonel Barrel; Mandonel Receiver; Mandonel Stock",
-      "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
-      "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
-      "source": "https://wiki.warframe.com/w/Mandonel",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Cinta",
       "type": "primary",
       "targetRank": "30",
@@ -1103,6 +1207,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Mandonel",
+      "type": "archgun",
+      "targetRank": "30",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
+      "route": "Cavia bounties + Entrati Labs endless missions",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
+      "source": "https://wiki.warframe.com/w/Mandonel",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 520
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Nokko",
       "type": "warframe",
       "targetRank": "30",
@@ -1137,7 +1256,7 @@
       "item": "Arbucep",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Arbucep Barrel; Arbucep Blueprint; Dull Button (0/5); Arbucep Receiver; Arbucep Stock",
+      "missing": "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
       "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
@@ -1594,7 +1713,9 @@
       "source": "https://wiki.warframe.com/w/Twin_Vipers_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Twin Vipers Wraith Blueprint"
+      ],
       "practicalPriority": 660
     },
     {
@@ -1607,6 +1728,21 @@
       "steps": "Farm the missing Braton Vandal components from any Elite Sanctuary Onslaught rotation.",
       "tip": "Continue through later zones to stack more rotation rewards per run.",
       "source": "https://wiki.warframe.com/w/Braton_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 760
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Karak Wraith",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Karak Wraith Barrel; Karak Wraith Stock",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Karak_Wraith",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1644,6 +1780,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Dera Vandal",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Dera Vandal Barrel; Dera Vandal Receiver; Dera Vandal Stock",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Dera_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 765
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Gorgon Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1674,40 +1825,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Karak Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Karak Wraith Barrel; Karak Wraith Blueprint; Karak Wraith Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Karak_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Karak Wraith Blueprint"
-      ],
-      "practicalPriority": 765
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Dera Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Dera Vandal Barrel; Dera Vandal Blueprint; Dera Vandal Receiver; Dera Vandal Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Dera_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Dera Vandal Blueprint"
-      ],
-      "practicalPriority": 770
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Latron Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1718,9 +1835,7 @@
       "source": "https://wiki.warframe.com/w/Latron_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Latron Wraith Receiver"
-      ],
+      "liveMatches": [],
       "practicalPriority": 770
     },
     {
@@ -1736,7 +1851,7 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [
-        "Invasion: Snipetron Vandal Barrel"
+        "Invasion: Snipetron Vandal Receiver"
       ],
       "practicalPriority": 770
     },
@@ -1858,7 +1973,7 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [
-        "Invasion: Snipetron Vandal Barrel"
+        "Invasion: Snipetron Vandal Receiver"
       ],
       "practicalPriority": 1105
     },
@@ -3713,7 +3828,7 @@
       "item": "Trinity Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Trinity Prime Blueprint; Trinity Prime Neuroptics Blueprint; Trinity Prime Systems Blueprint",
+      "missing": "Trinity Prime Blueprint; Trinity Prime Chassis Blueprint; Trinity Prime Neuroptics Blueprint; Trinity Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -3722,7 +3837,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 520
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3946,22 +4061,49 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
-      "item": "Stahlta",
-      "type": "primary",
+      "item": "Prova Vandal",
+      "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Stahlta"
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prova_Vandal"
     },
     {
-      "item": "Jade",
+      "item": "Amanata",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Amanata"
+    },
+    {
+      "item": "Edun",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
+      "item": "Higasa",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Higasa"
+    },
+    {
+      "item": "Koumei",
       "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Jade"
+      "source": "https://wiki.warframe.com/w/Koumei"
     },
     {
       "item": "Protea",
@@ -4887,17 +5029,17 @@
     {
       "item": "Amanata",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Amanata Blade (0/2)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 2,
       "source": "https://wiki.warframe.com/w/Amanata",
       "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
@@ -5071,7 +5213,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Arbucep Barrel; Arbucep Blueprint; Dull Button (0/5); Arbucep Receiver; Arbucep Stock",
+      "missing": "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock",
       "ease": "5 — Long grind / trade",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "vaulted": "No",
@@ -7683,7 +7825,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Dera Vandal Barrel; Dera Vandal Blueprint; Dera Vandal Receiver; Dera Vandal Stock",
+      "missing": "Dera Vandal Barrel; Dera Vandal Receiver; Dera Vandal Stock",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -7693,9 +7835,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Dera Vandal Blueprint"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Despair",
@@ -8433,17 +8573,17 @@
     {
       "item": "Edun",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Edun Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Duviri — Pathos Clamps",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -10325,7 +10465,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
@@ -10362,17 +10502,17 @@
     {
       "item": "Higasa",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Higasa Barrel; Higasa Receiver; Higasa Stock",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 2,
       "source": "https://wiki.warframe.com/w/Higasa",
       "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
@@ -10798,17 +10938,17 @@
     {
       "item": "Jade",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Brutus, Uranus — Ascension; Ordis pity shop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Jade",
       "steps": "Farm Jade components or buy missing pieces from Ordis with Vestigial Motes.",
@@ -10942,7 +11082,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Karak Wraith Barrel; Karak Wraith Blueprint; Karak Wraith Stock",
+      "missing": "Karak Wraith Barrel; Karak Wraith Stock",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -10952,9 +11092,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Karak Wraith Blueprint"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Karyst",
@@ -11410,17 +11548,17 @@
     {
       "item": "Koumei",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Koumei Chassis Blueprint; Koumei Neuroptics Blueprint; Koumei Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Koumei",
       "steps": "Run Saya’s Visions and buy missing Koumei blueprints with Fate Pearls.",
@@ -12304,9 +12442,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Latron Wraith Receiver"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Lavos",
@@ -12693,14 +12829,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
@@ -15243,14 +15379,14 @@
     {
       "item": "Prova Vandal",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prova Vandal (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16971,7 +17107,7 @@
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
       "primeDetails": [],
       "liveMatches": [
-        "Invasion: Snipetron Vandal Barrel"
+        "Invasion: Snipetron Vandal Receiver"
       ]
     },
     {
@@ -16994,7 +17130,7 @@
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
       "liveMatches": [
-        "Invasion: Snipetron Vandal Barrel"
+        "Invasion: Snipetron Vandal Receiver"
       ]
     },
     {
@@ -17219,14 +17355,14 @@
     {
       "item": "Stahlta",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Jackal + Granum Void",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18732,7 +18868,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Trinity Prime Blueprint; Trinity Prime Neuroptics Blueprint; Trinity Prime Systems Blueprint",
+      "missing": "Trinity Prime Blueprint; Trinity Prime Chassis Blueprint; Trinity Prime Neuroptics Blueprint; Trinity Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -18936,7 +19072,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Twin Vipers Wraith Blueprint"
+      ]
     },
     {
       "item": "Tysis",

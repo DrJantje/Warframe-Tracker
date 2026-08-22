@@ -132,8 +132,8 @@
       "favorite": false,
       "slots": {
         "s": {
-          "buildRef": "suits-054",
-          "item": "Styanax Prime",
+          "buildRef": "suits-025",
+          "item": "Octavia Prime",
           "category": "Suits",
           "configIndex": 0,
           "configuration": "A"
@@ -394,6 +394,13 @@
           "buildRef": "pistols-078",
           "item": "Coda Tysis",
           "category": "Pistols",
+          "configIndex": 0,
+          "configuration": "A"
+        },
+        "l": {
+          "buildRef": "longguns-108",
+          "item": "Stahlta",
+          "category": "LongGuns",
           "configIndex": 0,
           "configuration": "A"
         },
@@ -737,6 +744,41 @@
           "buildRef": "spaceguns-002",
           "item": "Mausolon",
           "category": "SpaceGuns",
+          "configIndex": 0,
+          "configuration": "A"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "name": "Jade",
+      "favorite": false,
+      "slots": {
+        "s": {
+          "buildRef": "suits-055",
+          "item": "Jade",
+          "category": "Suits",
+          "configIndex": 0,
+          "configuration": "A"
+        },
+        "m": {
+          "buildRef": "melee-139",
+          "item": "Prova Vandal",
+          "category": "Melee",
+          "configIndex": 0,
+          "configuration": "A"
+        },
+        "h": {
+          "buildRef": "spaceguns-002",
+          "item": "Mausolon",
+          "category": "SpaceGuns",
+          "configIndex": 0,
+          "configuration": "A"
+        },
+        "a": {
+          "buildRef": "specialitems-050",
+          "item": "Glory",
+          "category": "SpecialItems",
           "configIndex": 0,
           "configuration": "A"
         }
@@ -1151,6 +1193,27 @@
           "configuration": "A"
         }
       }
+    },
+    {
+      "index": 18,
+      "name": "Jade",
+      "favorite": false,
+      "slots": {
+        "s": {
+          "buildRef": "dataknives-001",
+          "item": "Tn Hacking Device Weapon",
+          "category": "DataKnives",
+          "configIndex": 0,
+          "configuration": "A"
+        },
+        "l": {
+          "buildRef": "crewshipharnesses-001",
+          "item": "Default Harness",
+          "category": "CrewShipHarnesses",
+          "configIndex": 0,
+          "configuration": "A"
+        }
+      }
     }
   ],
   "DRIFTER": [
@@ -1160,8 +1223,8 @@
       "favorite": false,
       "slots": {
         "m": {
-          "buildRef": "driftermelee-001",
-          "item": "Duviri Dual Swords",
+          "buildRef": "driftermelee-002",
+          "item": "Dax Duviri Polearm Spear Player Weapon",
           "category": "DrifterMelee",
           "configIndex": 0,
           "configuration": "A"
@@ -1765,6 +1828,27 @@
           "buildRef": "sentinelweapons-018",
           "item": "Verglas",
           "category": "SentinelWeapons",
+          "configIndex": 0,
+          "configuration": "A"
+        },
+        "b": {
+          "buildRef": "specialitems-029",
+          "item": "Panzer Vulpaphyla Pet Weapon",
+          "category": "SpecialItems",
+          "configIndex": 0,
+          "configuration": "A"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "name": "Jade",
+      "favorite": false,
+      "slots": {
+        "s": {
+          "buildRef": "kubrowpets-006",
+          "item": "Panzer Vulpaphyla",
+          "category": "KubrowPets",
           "configIndex": 0,
           "configuration": "A"
         },
