@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-22T16:18:22.559350+00:00
-Account snapshot: 2026-08-22T16:18:17.580Z
+Generated: 2026-08-22T16:44:24.572378+00:00
+Account snapshot: 2026-08-22T16:44:16.080Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (sync-awaiting-snapshot)
+- Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -19,29 +19,25 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Arsenal: Leveling
 
-#### Warframe: Protea — config A
+#### Warframe: Voruna — config A
 
 - Forma: 0
-- Mods: Streamline (rank 5), Stretch (rank 5), Boreal's Hatred (rank 5), Vitality (rank 10), Intensify (rank 5), Dreamer's Bond (rank 5)
-- Arcanes: Molt Efficiency (rank 5), Arcane Sculptor (rank 1)
+- Mods: Steel Fiber (rank 10), Vitality (rank 10), Intensify (rank 5), Stretch (rank 5), Boreal's Hatred (rank 5), Physique (rank 5)
+- Arcanes: Molt Augmented (rank 5), Molt Efficiency (rank 5)
 
-#### Secondary: Tenet Cycron — config A
+#### Primary: Coda Bubonico — config A
 
 - Forma: 5
-- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
-- Arcanes: Cascadia Flare (rank 5)
+- Lens: Greater Unairu Lens
+- Mods: Scattering Inferno (rank 3), Toxic Barrage (rank 3), Shotgun Elementalist (rank 5), Primed Charged Shell (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
 
-#### Primary: Higasa — config A
+#### Melee: Praedos — config A
 
-- Forma: 0
-- Mods: none recorded
-- Arcanes: none recorded
-
-#### Melee: Prova Vandal — config A
-
-- Forma: 0
-- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 8), Primed Reach (rank 10), Sundering Weave (rank 3)
-- Arcanes: none recorded
+- Forma: 2
+- Lens: Greater Unairu Lens
+- Mods: Weeping Wounds (rank 5), Drifting Contact (rank 3), Condition Overload (rank 5), Primed Reach (rank 10), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Sovereign Outcast (rank 3)
+- Arcanes: Melee Exposure (rank 3)
 
 #### Heavy weapon: Mausolon — config A
 
@@ -71,11 +67,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-08-22T01:24:05.753111+00:00
-- Duration seconds: 6390.914
-- Missions: 6
+- Started: 2026-08-22T15:39:53.829909+00:00
+- Duration seconds: 3868.268
+- Missions: 5
 - Focus earned: 0
-- Notable acquisitions: none recorded
+- Notable acquisitions: Blueprint (+1)
 
 ## Deeper files
 

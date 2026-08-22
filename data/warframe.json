@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-22",
-    "exportVerifiedAt": "2026-08-22 09:18:22 PDT",
+    "exportVerifiedAt": "2026-08-22 09:44:24 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167759,
-        "modified": "2026-08-22T09:18:22.261988-07:00",
-        "sha256": "92dcef445d295e54216d17205b1116ef72334ee17fe89f8db9db214abd90787f"
+        "bytes": 2167758,
+        "modified": "2026-08-22T09:44:24.311294-07:00",
+        "sha256": "9e60c6097e53e2e70756f3b58cf40674219e274b5e2cf02a23809e1985f6f667"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-22T09:18:22.266850-07:00",
+        "modified": "2026-08-22T09:44:24.314468-07:00",
         "sha256": "81ea4bc809b8066b61aee750c7aeafbb5e2df9cd1af0d3bdacda5ff1195aa1f3"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-22T09:18:22.264169-07:00",
+        "modified": "2026-08-22T09:44:24.312946-07:00",
         "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-22T09:18:22.265844-07:00",
+        "modified": "2026-08-22T09:44:24.312946-07:00",
         "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-22T09:18:22.269933-07:00",
+        "modified": "2026-08-22T09:44:24.315553-07:00",
         "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
@@ -50,14 +50,14 @@
       {
         "item": "Amanata",
         "before": [
-          "No",
-          "No",
           "Yes",
+          "No",
+          "No",
           ""
         ],
         "after": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ]
@@ -68,55 +68,25 @@
           "No",
           "No",
           "No",
-          "Arbucep Barrel; Arbucep Blueprint; Dull Button (3/5); Arbucep Receiver; Arbucep Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock"
-        ]
-      },
-      {
-        "item": "Higasa",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
-          ""
+          "No",
+          "No",
+          "Arbucep Barrel; Arbucep Receiver; Arbucep Stock"
         ]
       },
       {
         "item": "Protea",
         "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
           "Yes",
           "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Prova Vandal",
-        "before": [
-          "Yes",
-          "No",
           "No",
           ""
         ],
         "after": [
-          "Yes",
+          "No",
           "Yes",
           "No",
           ""
@@ -140,29 +110,14 @@
       {
         "item": "Valkyr Prime",
         "before": [
-          "No",
-          "No",
           "Yes",
+          "No",
+          "No",
           ""
         ],
         "after": [
           "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Voruna",
-        "before": [
-          "No",
-          "No",
           "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
           "No",
           ""
         ]
@@ -1057,6 +1012,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Arbucep",
+      "type": "archgun",
+      "targetRank": "30",
+      "missing": "Arbucep Barrel; Arbucep Receiver; Arbucep Stock",
+      "route": "Deepmines Bounties / Nightcap in The Airlock",
+      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
+      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
+      "source": "https://wiki.warframe.com/w/Arbucep",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 515
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Gauss",
       "type": "warframe",
       "targetRank": "30",
@@ -1069,21 +1039,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Arbucep",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock",
-      "route": "Deepmines Bounties / Nightcap in The Airlock",
-      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
-      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
-      "source": "https://wiki.warframe.com/w/Arbucep",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3947,15 +3902,6 @@
   ],
   "owned": [
     {
-      "item": "Amanata",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Amanata"
-    },
-    {
       "item": "Chesa Kubrow",
       "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
@@ -3981,15 +3927,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Koumei"
-    },
-    {
-      "item": "Valkyr Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://www.warframe.com/droptables"
     },
     {
       "item": "Voruna",
@@ -4906,14 +4843,14 @@
     {
       "item": "Amanata",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -5090,7 +5027,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Arbucep Barrel; Arbucep Blueprint; Arbucep Receiver; Arbucep Stock",
+      "missing": "Arbucep Barrel; Arbucep Receiver; Arbucep Stock",
       "ease": "5 — Long grind / trade",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "vaulted": "No",
@@ -15197,8 +15134,8 @@
     {
       "item": "Protea",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
@@ -19026,15 +18963,15 @@
     {
       "item": "Valkyr Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,

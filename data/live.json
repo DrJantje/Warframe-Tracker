@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T16:18:23.147000Z",
-      "worldStateAt": "2026-08-22T16:17:54Z",
-      "ageSecondsAtCheck": 29
+      "checkedAt": "2026-08-22T16:44:24.943000Z",
+      "worldStateAt": "2026-08-22T16:44:00Z",
+      "ageSecondsAtCheck": 25
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T16:18:23.147000Z",
-      "worldStateAt": "2026-08-22T16:17:54Z",
-      "ageSecondsAtCheck": 29
+      "checkedAt": "2026-08-22T16:44:24.943000Z",
+      "worldStateAt": "2026-08-22T16:44:00Z",
+      "ageSecondsAtCheck": 25
     },
     "rewards": [
       "Detonite Injector",
@@ -111,9 +111,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -2164,
+        "count": -2408,
         "requiredRuns": 48000,
-        "completion": 47.74583333333333,
+        "completion": 47.49166666666667,
         "completed": false
       },
       {
@@ -155,9 +155,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 43709,
+        "count": 44383,
         "requiredRuns": 49000,
-        "completion": 94.60102040816327,
+        "completion": 95.28877551020408,
         "completed": false
       },
       {
@@ -232,9 +232,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -9595,
+        "count": -9998,
         "requiredRuns": 46000,
-        "completion": 39.57065217391305,
+        "completion": 39.13260869565217,
         "completed": false
       },
       {
@@ -265,9 +265,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -19933,
+        "count": -20437,
         "requiredRuns": 30000,
-        "completion": 33.556666666666665,
+        "completion": 31.876666666666665,
         "completed": false
       },
       {
@@ -463,10 +463,10 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -33556,
+        "count": -35052,
         "requiredRuns": 35000,
-        "completion": 4.125714285714288,
-        "completed": false
+        "completion": -0.14857142857143124,
+        "completed": true
       },
       {
         "id": "6a89883a3014f20f9d28430a",
@@ -496,9 +496,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -7812,
+        "count": -8495,
         "requiredRuns": 30000,
-        "completion": 73.96000000000001,
+        "completion": 71.68333333333334,
         "completed": false
       },
       {
@@ -529,13 +529,13 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -24277,
+        "count": -28547,
         "requiredRuns": 41000,
-        "completion": 40.78780487804878,
+        "completion": 30.373170731707322,
         "completed": false
       }
     ],
-    "activeCount": 7
+    "activeCount": 6
   },
   "cetusCycle": {
     "status": "verified",
@@ -543,9 +543,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T16:18:23.147000Z",
-      "worldStateAt": "2026-08-22T16:17:54Z",
-      "ageSecondsAtCheck": 29
+      "checkedAt": "2026-08-22T16:44:24.943000Z",
+      "worldStateAt": "2026-08-22T16:44:00Z",
+      "ageSecondsAtCheck": 25
     },
     "id": "cetusCycle1787418180000",
     "state": "day",
@@ -558,10 +558,10 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787428800147",
+      "id": "earthCycle1787428800943",
       "state": "day",
-      "activation": "2026-08-22T16:00:00.147000Z",
-      "expiry": "2026-08-22T20:00:00.147000Z",
+      "activation": "2026-08-22T16:00:00.943000Z",
+      "expiry": "2026-08-22T20:00:00.943000Z",
       "isDay": true
     },
     "cetus": {
@@ -575,10 +575,10 @@
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787415608000",
+      "id": "vallisCycle1787417208000",
       "state": "warm",
-      "activation": "2026-08-22T16:13:00Z",
-      "expiry": "2026-08-22T16:20:08Z",
+      "activation": "2026-08-22T16:40:00Z",
+      "expiry": "2026-08-22T16:46:48Z",
       "isWarm": true
     },
     "cambion": {
@@ -596,7 +596,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-22T16:18:23.147395+00:00",
+  "checkedAt": "2026-08-22T16:44:24.943658+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
