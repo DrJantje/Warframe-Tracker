@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-21",
-    "exportVerifiedAt": "2026-08-21 18:38:43 PDT",
+    "exportVerifiedAt": "2026-08-21 19:26:02 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167767,
-        "modified": "2026-08-21T18:38:42.919384-07:00",
-        "sha256": "7a20cfcb5107e2f266727bd3130338d3731f6193c14440b9b8c2765c9d3a91ac"
+        "bytes": 2167762,
+        "modified": "2026-08-21T19:26:01.697059-07:00",
+        "sha256": "f8c3ffd3d71df7e06d6a724cae2f2a57a8d08903dc317a33cdb91f682664bce6"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-21T18:38:42.922407-07:00",
+        "modified": "2026-08-21T19:26:01.703616-07:00",
         "sha256": "81ea4bc809b8066b61aee750c7aeafbb5e2df9cd1af0d3bdacda5ff1195aa1f3"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-21T18:38:42.920898-07:00",
+        "modified": "2026-08-21T19:26:01.699572-07:00",
         "sha256": "6a50858b5afce28ac5502c0bce1da95dcfd888008af52b5e21b79b363295877d"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-21T18:38:42.921404-07:00",
+        "modified": "2026-08-21T19:26:01.702104-07:00",
         "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-21T18:38:42.925208-07:00",
+        "modified": "2026-08-21T19:26:01.706634-07:00",
         "sha256": "961704d1d21c5910cc82e75eaa9f2f6c1ac1c2e4f7840911d45885154708b00d"
       },
       "rivens.json": {
@@ -47,6 +47,36 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Higasa",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Koumei",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
       {
         "item": "Uriel",
         "before": [
@@ -3857,6 +3887,15 @@
       "source": "https://wiki.warframe.com/w/Chesa_Kubrow"
     },
     {
+      "item": "Higasa",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Higasa"
+    },
+    {
       "item": "Itzal",
       "type": "archwing",
       "state": "Rank unknown — verify in Arsenal",
@@ -3864,6 +3903,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Itzal"
+    },
+    {
+      "item": "Koumei",
+      "type": "warframe",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Koumei"
     },
     {
       "item": "Prova Vandal",
@@ -3891,24 +3939,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
-    },
-    {
-      "item": "Higasa",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Higasa"
-    },
-    {
-      "item": "Koumei",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Koumei"
     },
     {
       "item": "Protea",
@@ -10307,17 +10337,17 @@
     {
       "item": "Higasa",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Saya’s Visions / Koumei’s Shrine",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 2,
       "source": "https://wiki.warframe.com/w/Higasa",
       "steps": "Farm its blueprints and components from Shrine Defense or buy the missing pieces with Fate Pearls.",
@@ -11353,17 +11383,17 @@
     {
       "item": "Koumei",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Saya’s Visions, Earth — Shrine Defense; Fate Pearl shop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Koumei",
       "steps": "Run Saya’s Visions and buy missing Koumei blueprints with Fate Pearls.",

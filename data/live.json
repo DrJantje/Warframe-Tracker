@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T01:38:43.849000Z",
-      "worldStateAt": "2026-08-22T01:38:39Z",
-      "ageSecondsAtCheck": 5
+      "checkedAt": "2026-08-22T02:26:02.808000Z",
+      "worldStateAt": "2026-08-22T02:25:27Z",
+      "ageSecondsAtCheck": 36
     }
   },
   "invasions": {
@@ -18,14 +18,13 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T01:38:43.849000Z",
-      "worldStateAt": "2026-08-22T01:38:39Z",
-      "ageSecondsAtCheck": 5
+      "checkedAt": "2026-08-22T02:26:02.808000Z",
+      "worldStateAt": "2026-08-22T02:25:27Z",
+      "ageSecondsAtCheck": 36
     },
     "rewards": [
       "Detonite Injector",
       "Fieldron",
-      "Infested Alad Coordinate",
       "Mutagen Mass",
       "Snipetron Vandal Receiver",
       "Twin Vipers Wraith Blueprint"
@@ -70,9 +69,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": 29882,
+        "count": 31368,
         "requiredRuns": 46000,
-        "completion": 82.4804347826087,
+        "completion": 84.09565217391304,
         "completed": false
       },
       {
@@ -147,9 +146,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 23803,
+        "count": 24762,
         "requiredRuns": 49000,
-        "completion": 74.28877551020408,
+        "completion": 75.2673469387755,
         "completed": false
       },
       {
@@ -213,9 +212,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -21632,
+        "count": -22673,
         "requiredRuns": 30000,
-        "completion": 27.893333333333338,
+        "completion": 24.423333333333332,
         "completed": false
       },
       {
@@ -323,9 +322,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -648,
+        "count": -946,
         "requiredRuns": 46000,
-        "completion": 49.29565217391305,
+        "completion": 48.971739130434784,
         "completed": false
       },
       {
@@ -389,10 +388,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -40901,
+        "count": -47609,
         "requiredRuns": 47000,
-        "completion": 12.976595744680852,
-        "completed": false
+        "completion": -1.2957446808510742,
+        "completed": true
       },
       {
         "id": "6a88cb8e8b508e0b7bd9c608",
@@ -422,9 +421,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -3533,
+        "count": -4374,
         "requiredRuns": 30000,
-        "completion": 88.22333333333333,
+        "completion": 85.42,
         "completed": false
       },
       {
@@ -455,9 +454,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -8179,
+        "count": -16801,
         "requiredRuns": 40000,
-        "completion": 79.55250000000001,
+        "completion": 57.9975,
         "completed": false
       },
       {
@@ -488,13 +487,13 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -213,
+        "count": -507,
         "requiredRuns": 38000,
-        "completion": 99.43947368421053,
+        "completion": 98.66578947368421,
         "completed": false
       }
     ],
-    "activeCount": 8
+    "activeCount": 7
   },
   "cetusCycle": {
     "status": "verified",
@@ -502,49 +501,49 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T01:38:43.849000Z",
-      "worldStateAt": "2026-08-22T01:38:39Z",
-      "ageSecondsAtCheck": 5
+      "checkedAt": "2026-08-22T02:26:02.808000Z",
+      "worldStateAt": "2026-08-22T02:25:27Z",
+      "ageSecondsAtCheck": 36
     },
-    "id": "cetusCycle1787364180000",
-    "state": "day",
-    "activation": "2026-08-22T00:23:00Z",
-    "expiry": "2026-08-22T02:03:00Z",
-    "isDay": true,
+    "id": "cetusCycle1787367180000",
+    "state": "night",
+    "activation": "2026-08-22T02:03:00Z",
+    "expiry": "2026-08-22T02:53:00Z",
+    "isDay": false,
     "derivedFrom": "CetusSyndicate expiry",
     "syndicateExpiry": "2026-08-22T02:53:33.071000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787371200849",
+      "id": "earthCycle1787371200808",
       "state": "day",
-      "activation": "2026-08-22T00:00:00.849000Z",
-      "expiry": "2026-08-22T04:00:00.849000Z",
+      "activation": "2026-08-22T00:00:00.808000Z",
+      "expiry": "2026-08-22T04:00:00.808000Z",
       "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1787364180000",
-      "state": "day",
-      "activation": "2026-08-22T00:23:00Z",
-      "expiry": "2026-08-22T02:03:00Z",
-      "isDay": true,
+      "id": "cetusCycle1787367180000",
+      "state": "night",
+      "activation": "2026-08-22T02:03:00Z",
+      "expiry": "2026-08-22T02:53:00Z",
+      "isDay": false,
       "derivedFrom": "CetusSyndicate expiry",
       "syndicateExpiry": "2026-08-22T02:53:33.071000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787362808000",
-      "state": "warm",
-      "activation": "2026-08-22T01:33:00Z",
-      "expiry": "2026-08-22T01:40:08Z",
-      "isWarm": true
+      "id": "vallisCycle1787365608000",
+      "state": "cold",
+      "activation": "2026-08-22T02:06:00Z",
+      "expiry": "2026-08-22T02:26:48Z",
+      "isWarm": false
     },
     "cambion": {
-      "id": "cambionCycle1787364180000",
-      "state": "fass",
-      "activation": "2026-08-22T00:23:00Z",
-      "expiry": "2026-08-22T02:03:00Z"
+      "id": "cambionCycle1787367180000",
+      "state": "vome",
+      "activation": "2026-08-22T02:03:00Z",
+      "expiry": "2026-08-22T02:53:00Z"
     },
     "zariman": {
       "id": "zarimanCycle1787367180000",
@@ -555,7 +554,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-22T01:38:43.849909+00:00",
+  "checkedAt": "2026-08-22T02:26:02.808223+00:00",
   "baro": {
     "status": "unknown",
     "active": false,

@@ -1,30 +1,41 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-22T01:38:43.328203+00:00
-Account snapshot: 2026-08-22T01:37:07.922Z
+Generated: 2026-08-22T02:26:02.113481+00:00
+Account snapshot: 2026-08-22T02:23:53.945Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: unknown (server-sent)
+- Phase: location
+- Location: HUB
+- Planet: TENNO
+- Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Jade
+### Arsenal: Leveling
 
-#### Warframe: Jade — config A
+#### Warframe: Koumei — config A
 
-- Forma: 3
-- Lens: Greater Unairu Lens
-- Mods: Constitution (rank 3), Streamline (rank 5), Stretch (rank 5), Primed Flow (rank 10), Archon Continuity (rank 10), Umbral Intensify (rank 10), Augur Reach (rank 5), Blind Rage (rank 10), Aerodynamic (rank 5), Aviator (rank 3), Growing Power (rank 5)
-- Arcanes: Arcane Velocity (rank 5), Molt Augmented (rank 5)
+- Forma: 0
+- Mods: Stretch (rank 5), Primed Flow (rank 10), Fast Deflection (rank 5), Continuity (rank 5), Blind Rage (rank 10), Growing Power (rank 5)
+- Arcanes: Arcane Sculptor (rank 1), Arcane Impetus (rank 5)
+
+#### Secondary: Tenet Cycron — config A
+
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
+
+#### Primary: Higasa — config A
+
+- Forma: 0
+- Mods: none recorded
+- Arcanes: none recorded
 
 #### Melee: Prova Vandal — config A
 
@@ -38,18 +49,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-#### Exalted weapon: Glory — config A
-
-- Forma: 4
-- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Anemic Agility (rank 5), Primed Target Cracker (rank 10), Hornet Strike (rank 10), Galvanized Diffusion (rank 10), Lethal Momentum (rank 2)
-- Arcanes: Secondary Enervate (rank 5)
-
-### Companion: Jade
+### Companion: Leveling
 
 #### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Arcanes: none recorded
+
+#### Companion weapon: Lacerten — config A
+
+- Forma: 0
+- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
