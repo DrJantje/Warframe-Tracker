@@ -1,29 +1,40 @@
 {
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 6,
   "focusCounterAtCaptureStart": 0,
-  "configurationChanges": [
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 6390.914,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "equipmentRemoved": [],
+  "negativeItemDeltas": [
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Ferrite",
+      "delta": -8821
     },
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
     }
   ],
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -99,36 +110,26 @@
       "incomplete": true
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
+  "configurationChanges": [
     {
-      "item": "Ferrite",
-      "delta": -8821
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Alloy Plate",
-      "delta": -5670
-    },
-    {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
   "equipmentAdded": [
@@ -141,9 +142,9 @@
       "item": "Higasa"
     }
   ],
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "equipmentRemoved": [],
   "errorEventCount": 4,
+  "missionCount": 6,
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
   "positiveItemDeltas": [
     {
       "item": "Koumei Helmet",
@@ -158,8 +159,7 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 6390.914,
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
