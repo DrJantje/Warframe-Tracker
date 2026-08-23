@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T22:54:20.208000Z",
-      "worldStateAt": "2026-08-22T22:53:54Z",
-      "ageSecondsAtCheck": 26
+      "checkedAt": "2026-08-23T01:25:49.981000Z",
+      "worldStateAt": "2026-08-23T01:25:00Z",
+      "ageSecondsAtCheck": 50
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T22:54:20.208000Z",
-      "worldStateAt": "2026-08-22T22:53:54Z",
-      "ageSecondsAtCheck": 26
+      "checkedAt": "2026-08-23T01:25:49.981000Z",
+      "worldStateAt": "2026-08-23T01:25:00Z",
+      "ageSecondsAtCheck": 50
     },
     "rewards": [
       "Detonite Injector",
@@ -69,9 +69,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -5737,
+        "count": -7322,
         "requiredRuns": 48000,
-        "completion": 44.02395833333333,
+        "completion": 42.37291666666667,
         "completed": false
       },
       {
@@ -157,9 +157,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -3962,
+        "count": -7162,
         "requiredRuns": 38000,
-        "completion": 44.78684210526316,
+        "completion": 40.57631578947368,
         "completed": false
       },
       {
@@ -201,9 +201,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -14898,
+        "count": -16769,
         "requiredRuns": 46000,
-        "completion": 33.80652173913043,
+        "completion": 31.772826086956517,
         "completed": false
       },
       {
@@ -234,42 +234,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -27471,
+        "count": -30024,
         "requiredRuns": 30000,
-        "completion": 8.430000000000003,
-        "completed": false
-      },
-      {
-        "id": "6a893c0ea61b98980fd1cca1",
-        "activation": "2026-08-22T06:05:01.876000Z",
-        "node": "Sorath (Europa)",
-        "nodeKey": "SolNode214",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 2,
-                "type": "Mutagen Mass",
-                "key": "/Lotus/Types/Items/Research/BioComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "2 Mutagen Mass"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -41615,
-        "requiredRuns": 41000,
-        "completion": -1.4999999999999902,
+        "completion": -0.07999999999999119,
         "completed": true
       },
       {
@@ -306,6 +273,39 @@
         "completed": true
       },
       {
+        "id": "6a89883a3014f20f9d28430a",
+        "activation": "2026-08-22T11:30:02.234000Z",
+        "node": "War (Mars)",
+        "nodeKey": "SolNode99",
+        "desc": "Infested Invasion Boss",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "Mutagen Mass"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "vsInfestation": true,
+        "count": -21003,
+        "requiredRuns": 30000,
+        "completion": 29.990000000000006,
+        "completed": false
+      },
+      {
         "id": "6a89883a3014f20f9d28430b",
         "activation": "2026-08-22T11:30:02.234000Z",
         "node": "Ara (Mars)",
@@ -337,39 +337,6 @@
         "requiredRuns": 35000,
         "completion": -0.14857142857143124,
         "completed": true
-      },
-      {
-        "id": "6a89883a3014f20f9d28430a",
-        "activation": "2026-08-22T11:30:02.234000Z",
-        "node": "War (Mars)",
-        "nodeKey": "SolNode99",
-        "desc": "Infested Invasion Boss",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 1,
-                "type": "Mutagen Mass",
-                "key": "/Lotus/Types/Items/Research/BioComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "Mutagen Mass"
-          },
-          "faction": "Grineer",
-          "factionKey": "Grineer"
-        },
-        "vsInfestation": true,
-        "count": -17725,
-        "requiredRuns": 30000,
-        "completion": 40.91666666666667,
-        "completed": false
       },
       {
         "id": "6a8998a29988000370f4b0e0",
@@ -405,7 +372,7 @@
         "completed": true
       }
     ],
-    "activeCount": 5
+    "activeCount": 4
   },
   "cetusCycle": {
     "status": "verified",
@@ -413,60 +380,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-22T22:54:20.208000Z",
-      "worldStateAt": "2026-08-22T22:53:54Z",
-      "ageSecondsAtCheck": 26
+      "checkedAt": "2026-08-23T01:25:49.981000Z",
+      "worldStateAt": "2026-08-23T01:25:00Z",
+      "ageSecondsAtCheck": 50
     },
-    "id": "cetusCycle1787445180000",
+    "id": "cetusCycle1787454180000",
     "state": "day",
-    "activation": "2026-08-22T22:53:00Z",
-    "expiry": "2026-08-23T00:33:00Z",
+    "activation": "2026-08-23T01:23:00Z",
+    "expiry": "2026-08-23T03:03:00Z",
     "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-08-23T01:23:22.944000Z",
+    "syndicateExpiry": "2026-08-23T03:53:21.819000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1787443200208",
-      "state": "night",
-      "activation": "2026-08-22T20:00:00.208000Z",
-      "expiry": "2026-08-23T00:00:00.208000Z",
-      "isDay": false
+      "id": "earthCycle1787457600981",
+      "state": "day",
+      "activation": "2026-08-23T00:00:00.981000Z",
+      "expiry": "2026-08-23T04:00:00.981000Z",
+      "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1787445180000",
+      "id": "cetusCycle1787454180000",
       "state": "day",
-      "activation": "2026-08-22T22:53:00Z",
-      "expiry": "2026-08-23T00:33:00Z",
+      "activation": "2026-08-23T01:23:00Z",
+      "expiry": "2026-08-23T03:03:00Z",
       "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-08-23T01:23:22.944000Z",
+      "syndicateExpiry": "2026-08-23T03:53:21.819000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1787439608000",
-      "state": "warm",
-      "activation": "2026-08-22T22:53:00Z",
-      "expiry": "2026-08-22T23:00:08Z",
-      "isWarm": true
+      "id": "vallisCycle1787448808000",
+      "state": "cold",
+      "activation": "2026-08-23T01:13:00Z",
+      "expiry": "2026-08-23T01:33:28Z",
+      "isWarm": false
     },
     "cambion": {
-      "id": "cambionCycle1787445180000",
+      "id": "cambionCycle1787454180000",
       "state": "fass",
-      "activation": "2026-08-22T22:53:00Z",
-      "expiry": "2026-08-23T00:33:00Z"
+      "activation": "2026-08-23T01:23:00Z",
+      "expiry": "2026-08-23T03:03:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1787448180000",
-      "state": "corpus",
-      "activation": "2026-08-22T22:53:00Z",
-      "expiry": "2026-08-23T01:23:00Z",
-      "isCorpus": true
+      "id": "zarimanCycle1787457180000",
+      "state": "grineer",
+      "activation": "2026-08-23T01:23:00Z",
+      "expiry": "2026-08-23T03:53:00Z",
+      "isCorpus": false
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-22T22:54:20.208078+00:00",
+  "checkedAt": "2026-08-23T01:25:49.981058+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
