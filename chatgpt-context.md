@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-25T05:37:56.578956+00:00
-Account snapshot: 2026-08-25T05:37:56.150Z
+Generated: 2026-08-25T05:40:02.722193+00:00
+Account snapshot: 2026-08-24T23:45:12.988Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -17,7 +17,7 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Titania
+### Arsenal: E.D.A
 
 #### Warframe: Titania Prime — config A
 
@@ -28,18 +28,29 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Streamline (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Adaptation (rank 10), Boreal's Hatred (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
 - Arcanes: Arcane Pistoleer (rank 5), Arcane Velocity (rank 5)
 
-#### Melee: Praedos — config A
+#### Secondary: Akarius — config A
+
+- Forma: 0
+- Mods: Primed Heated Charge (rank 10), Frostbite (rank 3), Hornet Strike (rank 10)
+- Arcanes: none recorded
+
+#### Primary: Fulmin — config A
 
 - Forma: 2
-- Lens: Greater Unairu Lens
-- Mods: Weeping Wounds (rank 5), Drifting Contact (rank 3), Condition Overload (rank 5), Primed Reach (rank 10), Sacrificial Steel (rank 8), Sacrificial Pressure (rank 8), Sovereign Outcast (rank 3)
-- Arcanes: Melee Exposure (rank 3)
+- Mods: Vigilante Armaments (rank 5), Cryo Rounds (rank 5), Malignant Force (rank 3), Point Strike (rank 5), Vital Sense (rank 5), Split Chamber (rank 5), Serration (rank 10)
+- Arcanes: none recorded
 
-#### Heavy weapon: Mausolon — config A
+#### Melee: Stropha — config A
 
-- Forma: 3
-- Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
-- Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
+- Forma: 0
+- Mods: Magnetic Rush (rank 3), True Steel (rank 5), Pressure Point (rank 5), Primed Reach (rank 10), High Noon (rank 3)
+- Arcanes: none recorded
+
+#### Heavy weapon: Grattler — config A
+
+- Forma: 0
+- Mods: Hollowed Bullets (rank 3), Rubedo-Lined Barrel (rank 5), Electrified Barrel (rank 5), Combustion Rounds (rank 5), Dual Rounds (rank 5), Parallax Scope (rank 3)
+- Arcanes: none recorded
 
 #### Exalted weapon: Dex Pixia Prime — config A
 
@@ -53,12 +64,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Gladiator Rush (rank 5), Gladiator Might (rank 5), Pressure Point (rank 5), Sacrificial Steel (rank 8), Blood Rush (rank 10), Weeping Wounds (rank 5), Sundering Strike (rank 5), Primed Reach (rank 10)
 - Arcanes: Melee Doughty (rank 5)
 
-### Companion: Titania
+### Companion: E.D.A
 
 #### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Arcanes: none recorded
+
+#### Companion weapon: Stinger — config A
+
+- Forma: 0
+- Mods: Continuous Misery (rank 3), Rime Rounds (rank 3), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
