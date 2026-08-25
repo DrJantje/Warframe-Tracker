@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T05:49:19.285080+00:00",
+  "generatedAt": "2026-08-25T06:36:01.300222+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,18 +48,18 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-25T05:49:16.604785+00:00",
+    "observedAt": "2026-08-25T06:35:57.114956+00:00",
     "phase": "mission",
-    "node": "PLAYER SHIP",
+    "node": "PORTRAIT",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode252_Hard",
+    "missionKey": "SolNode236",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "location-active",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
@@ -1604,116 +1604,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260822-200807.json",
-    "startedAt": "2026-08-22T20:08:07.929878+00:00",
-    "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-    "durationSeconds": 19058.296,
-    "missionCount": 11,
+    "file": "20260825-054443.json",
+    "startedAt": "2026-08-25T05:44:43.297926+00:00",
+    "stoppedAt": "2026-08-25T06:35:57.629708+00:00",
+    "durationSeconds": 3074.332,
+    "missionCount": 2,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Alloy Plate",
-        "delta": 31262
-      },
-      {
-        "item": "Polymer Bundle",
-        "delta": 16544
-      },
-      {
-        "item": "Circuit Effect",
-        "delta": 14100
-      },
-      {
-        "item": "Fieldron Sample",
-        "delta": 348
-      },
-      {
-        "item": "Fergolyte",
-        "delta": 68
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 16
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 15
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 14
-      },
-      {
-        "item": "Muck Bonnet",
-        "delta": 4
-      },
-      {
-        "item": "Reeking Puffball ",
-        "delta": 3
-      },
-      {
-        "item": "Violet's Bane",
-        "delta": 3
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 2
-      }
-    ],
+    "topGains": [],
     "notableAcquisitions": [],
-    "resourceGains": [
-      {
-        "item": "Alloy Plate",
-        "delta": 31262
-      },
-      {
-        "item": "Polymer Bundle",
-        "delta": 16544
-      },
-      {
-        "item": "Circuit Effect",
-        "delta": 14100
-      },
-      {
-        "item": "Fieldron Sample",
-        "delta": 348
-      },
-      {
-        "item": "Fergolyte",
-        "delta": 68
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 16
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 15
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 14
-      },
-      {
-        "item": "Muck Bonnet",
-        "delta": 4
-      },
-      {
-        "item": "Reeking Puffball ",
-        "delta": 3
-      },
-      {
-        "item": "Violet's Bane",
-        "delta": 3
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 2
-      }
-    ],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 3,
-    "errorEventCount": 7
+    "configurationChangeCount": 0,
+    "errorEventCount": 1
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
