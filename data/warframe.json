@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-22",
-    "exportVerifiedAt": "2026-08-22 21:06:01 PDT",
+    "snapshotDate": "2026-08-24",
+    "exportVerifiedAt": "2026-08-24 22:31:20 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167754,
-        "modified": "2026-08-22T21:06:01.182877-07:00",
-        "sha256": "6b0507333deff183de58e13b539b1518f49f74e93c7a496baba1e4f86bdac27b"
+        "bytes": 2167857,
+        "modified": "2026-08-24T22:31:19.872096-07:00",
+        "sha256": "f1a28ea61ac0dfd839c45edcad6fffbdd51bec82ab93a25d7442e0aee434914d"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-22T21:06:01.186406-07:00",
-        "sha256": "c9107c56f67af8ff6ade3a82a4d2b6400b4554d675048eb5017162b12a5ae032"
+        "modified": "2026-08-24T22:31:19.879192-07:00",
+        "sha256": "20c86c4b31628d62d6c087386709af2a2f3abc2672df5f06c07d3801127ef9e6"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-22T21:06:01.184384-07:00",
+        "modified": "2026-08-24T22:31:19.874635-07:00",
         "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-22T21:06:01.185899-07:00",
-        "sha256": "81d2eb2a152eb6de7d1927fa91725699f6469752359f0ecd84b99ae7c067ecdc"
+        "modified": "2026-08-24T22:31:19.877173-07:00",
+        "sha256": "a1779560c42420fbd8474a3ed2b68b6891aaa754109d3841c83bea82b4b8b391"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-22T21:06:01.188918-07:00",
+        "modified": "2026-08-24T22:31:19.882204-07:00",
         "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
@@ -46,7 +46,113 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Frost",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Hespar",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)"
+        ]
+      },
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Mandonel Receiver; Mandonel Stock"
+        ]
+      },
+      {
+        "item": "Nokko",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nokko Blueprint; Nokko Chassis Blueprint; Nokko Neuroptics Blueprint; Nokko Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nokko Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (27758/30000); Magistar"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (28490/30000); Magistar"
+        ]
+      },
+      {
+        "item": "Snipetron Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Snipetron Vandal Barrel; Snipetron Vandal Blueprint; Snipetron Vandal Receiver; Snipetron Vandal Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Snipetron Vandal Barrel; Snipetron Vandal Receiver; Snipetron Vandal Stock"
+        ]
+      },
+      {
+        "item": "Valkyr",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
@@ -73,38 +179,38 @@
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
       "Lith Q3 Intact": 7,
-      "Lith S18 Intact": 1,
+      "Lith S18 Intact": 2,
       "Lith T14 Intact": 13,
       "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 28,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 54,
+      "Meso D8 Intact": 55,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 47,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 35,
-      "Meso V13 Intact": 33,
+      "Meso L5 Intact": 36,
+      "Meso V13 Intact": 35,
       "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 28,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 31,
-      "Neo A16 Intact": 4,
-      "Neo C7 Intact": 14,
+      "Neo A16 Intact": 6,
+      "Neo C7 Intact": 23,
       "Neo C7 Radiant": 0,
-      "Neo C8 Intact": 1,
-      "Neo C9 Intact": 13,
+      "Neo C8 Intact": 4,
+      "Neo C9 Intact": 17,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 13,
+      "Neo T11 Intact": 15,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 13,
-      "Neo Y1 Intact": 10,
+      "Neo V12 Intact": 17,
+      "Neo Y1 Intact": 11,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -725,21 +831,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Hespar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
-      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
-      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
-      "source": "https://wiki.warframe.com/w/Hespar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Octavia",
       "type": "warframe",
       "targetRank": "30",
@@ -767,6 +858,21 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Hespar",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)",
+      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 13 Thrax Plasm ×13: check the current official drop table.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
+      "source": "https://wiki.warframe.com/w/Hespar",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 415
     },
     {
       "ease": "5 — Long grind / trade",
@@ -861,6 +967,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Nokko",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Nokko Systems Blueprint",
+      "route": "Deepmines Bounties / Nightcap in The Airlock",
+      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
+      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
+      "source": "https://wiki.warframe.com/w/Nokko",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 505
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Oraxia",
       "type": "warframe",
       "targetRank": "30",
@@ -924,9 +1045,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (27758/30000); Magistar",
+      "missing": "Cryotic (28490/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 2,242 Cryotic, then build.",
+      "steps": "Get 1,510 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -959,6 +1080,21 @@
       "steps": "Farm all three components from rotation C; buy the main blueprint from the Market.",
       "tip": "From round four onward, defend at least three conduits to keep rotation C.",
       "source": "https://wiki.warframe.com/w/Gauss",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 515
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Mandonel",
+      "type": "archgun",
+      "targetRank": "30",
+      "missing": "Mandonel Barrel; Mandonel Receiver; Mandonel Stock",
+      "route": "Cavia bounties + Entrati Labs endless missions",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
+      "source": "https://wiki.warframe.com/w/Mandonel",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1004,36 +1140,6 @@
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
       "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
       "source": "https://wiki.warframe.com/w/Follie",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Mandonel",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
-      "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
-      "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
-      "source": "https://wiki.warframe.com/w/Mandonel",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Nokko",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Nokko Blueprint; Nokko Chassis Blueprint; Nokko Neuroptics Blueprint; Nokko Systems Blueprint",
-      "route": "Deepmines Bounties / Nightcap in The Airlock",
-      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
-      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
-      "source": "https://wiki.warframe.com/w/Nokko",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1577,7 +1683,9 @@
       "source": "https://wiki.warframe.com/w/Dera_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Dera Vandal Barrel"
+      ],
       "practicalPriority": 765
     },
     {
@@ -1612,6 +1720,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Snipetron Vandal",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Snipetron Vandal Barrel; Snipetron Vandal Receiver; Snipetron Vandal Stock",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 765
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Latron Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1623,23 +1746,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 770
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Snipetron Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Snipetron Vandal Barrel; Snipetron Vandal Blueprint; Snipetron Vandal Receiver; Snipetron Vandal Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Blueprint"
-      ],
       "practicalPriority": 770
     },
     {
@@ -1759,9 +1865,7 @@
       "source": "https://wiki.warframe.com/w/Snipetron",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Blueprint"
-      ],
+      "liveMatches": [],
       "practicalPriority": 1105
     },
     {
@@ -7550,7 +7654,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Dera Vandal Barrel"
+      ]
     },
     {
       "item": "Despair",
@@ -10202,14 +10308,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)",
       "ease": "4 — Multi-step farm",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 13 Thrax Plasm ×13: check the current official drop table.",
       "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
@@ -12544,14 +12650,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
@@ -13455,7 +13561,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nokko Blueprint; Nokko Chassis Blueprint; Nokko Neuroptics Blueprint; Nokko Systems Blueprint",
+      "missing": "Nokko Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "vaulted": "No",
@@ -16551,7 +16657,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (27758/30000); Magistar",
+      "missing": "Cryotic (28490/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -16560,7 +16666,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 2,242 Cryotic, then build."
+      "steps": "Obtain 1,510 Cryotic, then build."
     },
     {
       "item": "Sicarus",
@@ -16821,9 +16927,7 @@
       "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
       "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Blueprint"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Snipetron Vandal",
@@ -16834,7 +16938,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Snipetron Vandal Barrel; Snipetron Vandal Blueprint; Snipetron Vandal Receiver; Snipetron Vandal Stock",
+      "missing": "Snipetron Vandal Barrel; Snipetron Vandal Receiver; Snipetron Vandal Stock",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -16844,9 +16948,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Blueprint"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Sobek",
@@ -18633,7 +18735,7 @@
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 13 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
+      "steps": "Open the 15 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",
@@ -18849,8 +18951,8 @@
     {
       "item": "Valkyr",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
