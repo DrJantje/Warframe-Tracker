@@ -1,5 +1,32 @@
 [
   {
+    "rivenRef": "riven-012",
+    "name": "Ambassador Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Ambassador",
+    "weaponType": "Rifle",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_ATTACK",
+    "rerolls": 0,
+    "minimumMastery": 13,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Puncture Depth Mod"
+      },
+      {
+        "trait": "Weapon Recoil Reduction Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Proc Time Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-010",
     "name": "Burston Riven",
     "unveiled": true,
@@ -236,7 +263,7 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "veiled-013",
+    "rivenRef": "veiled-014",
     "name": "Veiled Kitgun Riven",
     "unveiled": false,
     "owned": 1,
@@ -252,10 +279,10 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-012",
+    "rivenRef": "veiled-013",
     "name": "Veiled Melee Riven",
     "unveiled": false,
-    "owned": 7,
+    "owned": 8,
     "weapon": null,
     "weaponType": "Melee",
     "rank": 0,
@@ -268,7 +295,7 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-014",
+    "rivenRef": "veiled-015",
     "name": "Veiled Zaw Riven",
     "unveiled": false,
     "owned": 3,

@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-24",
-    "exportVerifiedAt": "2026-08-24 22:31:20 PDT",
+    "exportVerifiedAt": "2026-08-24 22:37:54 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167857,
-        "modified": "2026-08-24T22:31:19.872096-07:00",
-        "sha256": "f1a28ea61ac0dfd839c45edcad6fffbdd51bec82ab93a25d7442e0aee434914d"
+        "bytes": 2167853,
+        "modified": "2026-08-24T22:37:54.169461-07:00",
+        "sha256": "ccd7d2a47ea4bb642dbbf4cbedc1da7f87233c496fa173c1bd342edb9049cfd5"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-24T22:31:19.879192-07:00",
-        "sha256": "20c86c4b31628d62d6c087386709af2a2f3abc2672df5f06c07d3801127ef9e6"
+        "modified": "2026-08-24T22:37:54.176505-07:00",
+        "sha256": "d66814f8de14f67e3b683c10580efd64f55993ab77f2a7a3dd9cd26aa05f058b"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-24T22:31:19.874635-07:00",
+        "modified": "2026-08-24T22:37:54.171971-07:00",
         "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-24T22:31:19.877173-07:00",
-        "sha256": "a1779560c42420fbd8474a3ed2b68b6891aaa754109d3841c83bea82b4b8b391"
+        "modified": "2026-08-24T22:37:54.173488-07:00",
+        "sha256": "2519a4c49dc13b696aaa15613bbe76509860765393649fc9c2ac26699984e916"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-24T22:31:19.882204-07:00",
+        "modified": "2026-08-24T22:37:54.179013-07:00",
         "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
@@ -48,63 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Frost",
+        "item": "Jaw Sword",
         "before": [
-          "Yes",
-          "Yes",
           "No",
+          "No",
+          "No",
+          "Jaw Sword Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
           ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Hespar",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Hespar Blade Blueprint; Hespar Handle Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)"
-        ]
-      },
-      {
-        "item": "Mandonel",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Mandonel Barrel; Mandonel Receiver; Mandonel Stock"
-        ]
-      },
-      {
-        "item": "Nokko",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Nokko Blueprint; Nokko Chassis Blueprint; Nokko Neuroptics Blueprint; Nokko Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Nokko Systems Blueprint"
         ]
       },
       {
@@ -113,43 +68,13 @@
           "No",
           "No",
           "No",
-          "Cryotic (27758/30000); Magistar"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Cryotic (28490/30000); Magistar"
-        ]
-      },
-      {
-        "item": "Snipetron Vandal",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Snipetron Vandal Barrel; Snipetron Vandal Blueprint; Snipetron Vandal Receiver; Snipetron Vandal Stock"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Snipetron Vandal Barrel; Snipetron Vandal Receiver; Snipetron Vandal Stock"
-        ]
-      },
-      {
-        "item": "Valkyr",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
-          "Yes",
-          "No",
-          ""
+          "Cryotic (27758/30000); Magistar"
         ]
       }
     ],
@@ -158,7 +83,7 @@
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 225
+      "missing": 224
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -186,31 +111,31 @@
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 28,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 55,
+      "Meso D8 Intact": 54,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 47,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 36,
+      "Meso L5 Intact": 35,
       "Meso V13 Intact": 35,
       "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 28,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 31,
-      "Neo A16 Intact": 6,
-      "Neo C7 Intact": 23,
+      "Neo A16 Intact": 4,
+      "Neo C7 Intact": 17,
       "Neo C7 Radiant": 0,
-      "Neo C8 Intact": 4,
-      "Neo C9 Intact": 17,
+      "Neo C8 Intact": 1,
+      "Neo C9 Intact": 16,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 15,
+      "Neo T11 Intact": 14,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 17,
-      "Neo Y1 Intact": 11,
+      "Neo V12 Intact": 14,
+      "Neo Y1 Intact": 10,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -288,22 +213,6 @@
       "missing": "Dark Dagger Blueprint",
       "route": "Nightwave Cred Offerings — permanent stock",
       "steps": "Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.",
-      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "nightwave",
-      "practicalPriority": 205
-    },
-    {
-      "ease": "2 — Easy buy or build",
-      "item": "Jaw Sword",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Jaw Sword Blueprint",
-      "route": "Nightwave Cred Offerings — permanent stock",
-      "steps": "Buy the Jaw Sword Blueprint for 50 Creds, then build and level it.",
       "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
       "vaulted": "No",
@@ -1045,9 +954,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (28490/30000); Magistar",
+      "missing": "Cryotic (27758/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 1,510 Cryotic, then build.",
+      "steps": "Get 2,242 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -3950,6 +3859,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Itzal"
+    },
+    {
+      "item": "Jaw Sword",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
     }
   ],
   "rank40": [
@@ -10837,23 +10755,21 @@
     {
       "item": "Jaw Sword",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Jaw Sword Blueprint",
-      "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings — permanent stock",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Owned / in foundry; rank unknown",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Buy the Jaw Sword Blueprint for 50 Creds, then build and level it.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -16657,7 +16573,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (28490/30000); Magistar",
+      "missing": "Cryotic (27758/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -16666,7 +16582,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 1,510 Cryotic, then build."
+      "steps": "Obtain 2,242 Cryotic, then build."
     },
     {
       "item": "Sicarus",
@@ -18735,7 +18651,7 @@
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 15 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
+      "steps": "Open the 14 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",

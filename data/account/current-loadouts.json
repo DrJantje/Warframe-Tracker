@@ -1,7 +1,7 @@
 {
   "NORMAL": {
-    "index": 9,
-    "name": "Titania",
+    "index": 14,
+    "name": "E.D.A",
     "favorite": false,
     "slots": {
       "s": {
@@ -11,16 +11,30 @@
         "configIndex": 0,
         "configuration": "A"
       },
+      "p": {
+        "buildRef": "pistols-079",
+        "item": "Akarius",
+        "category": "Pistols",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "l": {
+        "buildRef": "longguns-002",
+        "item": "Fulmin",
+        "category": "LongGuns",
+        "configIndex": 0,
+        "configuration": "A"
+      },
       "m": {
-        "buildRef": "melee-061",
-        "item": "Praedos",
+        "buildRef": "melee-137",
+        "item": "Stropha",
         "category": "Melee",
         "configIndex": 0,
         "configuration": "A"
       },
       "h": {
-        "buildRef": "spaceguns-002",
-        "item": "Mausolon",
+        "buildRef": "spaceguns-004",
+        "item": "Grattler",
         "category": "SpaceGuns",
         "configIndex": 0,
         "configuration": "A"
@@ -70,8 +84,8 @@
     }
   },
   "DATAKNIFE": {
-    "index": 10,
-    "name": "Titania",
+    "index": 15,
+    "name": "E.D.A",
     "favorite": false,
     "slots": {
       "s": {
@@ -210,14 +224,21 @@
     }
   },
   "SENTINEL": {
-    "index": 10,
-    "name": "Titania",
+    "index": 15,
+    "name": "E.D.A",
     "favorite": false,
     "slots": {
       "s": {
         "buildRef": "kubrowpets-006",
         "item": "Panzer Vulpaphyla",
         "category": "KubrowPets",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "l": {
+        "buildRef": "sentinelweapons-010",
+        "item": "Stinger",
+        "category": "SentinelWeapons",
         "configIndex": 0,
         "configuration": "A"
       },
