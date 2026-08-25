@@ -1,31 +1,102 @@
 {
-  "schemaVersion": 1,
-  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "focusCounterAtCaptureStart": 119454,
   "durationSeconds": 7200.069,
-  "focusCounterAtCaptureEnd": 188070,
-  "negativeItemDeltas": [
+  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "configurationChanges": [
     {
-      "item": "Cipher",
-      "delta": -20
+      "at": "2026-08-13T03:21:21.587861+00:00",
+      "item": "Coda Synapse",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Sinister Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Meso R6 Intact",
-      "delta": -3
-    },
-    {
-      "item": "Meso Y2 Intact",
-      "delta": -2
-    },
-    {
-      "item": "Axi V14 Intact",
-      "delta": -1
+      "at": "2026-08-13T04:50:15.860755+00:00",
+      "item": "Titania Prime",
+      "configuration": "A",
+      "added": [
+        "Arcane Velocity"
+      ],
+      "removed": [
+        "Arcane Impetus"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Broken Rot Ability",
+      "helminthAfter": "Broken Rot Ability"
     }
   ],
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
   "missionCount": 5,
-  "errorEventCount": 0,
-  "focusCounterAtCaptureStart": 119454,
+  "missions": [
+    {
+      "startedAt": "2026-08-13T03:04:51.927000+00:00",
+      "endedAt": "2026-08-13T03:20:45.956000+00:00",
+      "durationSeconds": 954.029,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode550",
+      "label": "Nsu Grid (Veil Proxima) - Axi Void Storm",
+      "missionKey": "CrewBattleNode550",
+      "missionInstance": null,
+      "voidTier": "Axi",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-13T03:26:20.876000+00:00",
+      "endedAt": "2026-08-13T03:43:22.108000+00:00",
+      "durationSeconds": 1021.232,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-13T03:55:48.374000+00:00",
+      "endedAt": "2026-08-13T04:16:48.741000+00:00",
+      "durationSeconds": 1260.367,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-13T04:19:20.181000+00:00",
+      "endedAt": "2026-08-13T04:28:15.870000+00:00",
+      "durationSeconds": 535.689,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-13T04:31:11.850000+00:00",
+      "endedAt": "2026-08-13T04:49:42.151000+00:00",
+      "durationSeconds": 1110.301,
+      "type": "RAILJACK",
+      "node": "CrewBattleNode530",
+      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
+      "missionKey": "CrewBattleNode530",
+      "missionInstance": null,
+      "voidTier": "Meso",
+      "steelPath": false
+    }
+  ],
+  "focusCounterAtCaptureEnd": 188070,
   "focusEarnedDuringCapture": 68616,
+  "errorEventCount": 0,
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -252,94 +323,23 @@
       "delta": 1
     }
   ],
-  "missions": [
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
     {
-      "startedAt": "2026-08-13T03:04:51.927000+00:00",
-      "endedAt": "2026-08-13T03:20:45.956000+00:00",
-      "durationSeconds": 954.029,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode550",
-      "label": "Nsu Grid (Veil Proxima) - Axi Void Storm",
-      "missionKey": "CrewBattleNode550",
-      "missionInstance": null,
-      "voidTier": "Axi",
-      "steelPath": false
+      "item": "Cipher",
+      "delta": -20
     },
     {
-      "startedAt": "2026-08-13T03:26:20.876000+00:00",
-      "endedAt": "2026-08-13T03:43:22.108000+00:00",
-      "durationSeconds": 1021.232,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
+      "item": "Meso R6 Intact",
+      "delta": -3
     },
     {
-      "startedAt": "2026-08-13T03:55:48.374000+00:00",
-      "endedAt": "2026-08-13T04:16:48.741000+00:00",
-      "durationSeconds": 1260.367,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
+      "item": "Meso Y2 Intact",
+      "delta": -2
     },
     {
-      "startedAt": "2026-08-13T04:19:20.181000+00:00",
-      "endedAt": "2026-08-13T04:28:15.870000+00:00",
-      "durationSeconds": 535.689,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-13T04:31:11.850000+00:00",
-      "endedAt": "2026-08-13T04:49:42.151000+00:00",
-      "durationSeconds": 1110.301,
-      "type": "RAILJACK",
-      "node": "CrewBattleNode530",
-      "label": "Kasio's Rest (Saturn Proxima) - Meso Void Storm",
-      "missionKey": "CrewBattleNode530",
-      "missionInstance": null,
-      "voidTier": "Meso",
-      "steelPath": false
-    }
-  ],
-  "configurationChanges": [
-    {
-      "at": "2026-08-13T03:21:21.587861+00:00",
-      "item": "Coda Synapse",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Sinister Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-13T04:50:15.860755+00:00",
-      "item": "Titania Prime",
-      "configuration": "A",
-      "added": [
-        "Arcane Velocity"
-      ],
-      "removed": [
-        "Arcane Impetus"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Broken Rot Ability",
-      "helminthAfter": "Broken Rot Ability"
+      "item": "Axi V14 Intact",
+      "delta": -1
     }
   ],
   "notableAcquisitions": [
