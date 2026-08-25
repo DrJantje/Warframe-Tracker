@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-24",
-    "exportVerifiedAt": "2026-08-24 22:42:33 PDT",
+    "exportVerifiedAt": "2026-08-24 22:47:00 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167853,
-        "modified": "2026-08-24T22:42:33.009353-07:00",
-        "sha256": "ccd7d2a47ea4bb642dbbf4cbedc1da7f87233c496fa173c1bd342edb9049cfd5"
+        "bytes": 2167856,
+        "modified": "2026-08-24T22:46:59.876203-07:00",
+        "sha256": "4ce990a9cef8c1a769a13f9d7bd53f7ab593a0b638cfd243b7d9e316c5edafef"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-24T22:42:33.012374-07:00",
-        "sha256": "d66814f8de14f67e3b683c10580efd64f55993ab77f2a7a3dd9cd26aa05f058b"
+        "modified": "2026-08-24T22:46:59.879223-07:00",
+        "sha256": "20c86c4b31628d62d6c087386709af2a2f3abc2672df5f06c07d3801127ef9e6"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-24T22:42:33.011366-07:00",
+        "modified": "2026-08-24T22:46:59.877714-07:00",
         "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-24T22:42:33.011869-07:00",
-        "sha256": "2519a4c49dc13b696aaa15613bbe76509860765393649fc9c2ac26699984e916"
+        "modified": "2026-08-24T22:46:59.877714-07:00",
+        "sha256": "a1779560c42420fbd8474a3ed2b68b6891aaa754109d3841c83bea82b4b8b391"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-24T22:42:33.013883-07:00",
+        "modified": "2026-08-24T22:46:59.880229-07:00",
         "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Acceltra",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Acceltra Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (27758/30000); Magistar"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (28490/30000); Magistar"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 224
+      "missing": 223
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -80,31 +111,31 @@
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 28,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 54,
+      "Meso D8 Intact": 55,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 47,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 35,
+      "Meso L5 Intact": 36,
       "Meso V13 Intact": 35,
       "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 28,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 31,
-      "Neo A16 Intact": 4,
-      "Neo C7 Intact": 17,
+      "Neo A16 Intact": 6,
+      "Neo C7 Intact": 23,
       "Neo C7 Radiant": 0,
-      "Neo C8 Intact": 1,
-      "Neo C9 Intact": 16,
+      "Neo C8 Intact": 4,
+      "Neo C9 Intact": 17,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 14,
+      "Neo T11 Intact": 15,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 14,
-      "Neo Y1 Intact": 10,
+      "Neo V12 Intact": 17,
+      "Neo Y1 Intact": 11,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -158,21 +189,6 @@
       "liveMatches": [],
       "availabilityGroup": "dojo",
       "practicalPriority": 3
-    },
-    {
-      "ease": "1 — Now / no farming",
-      "item": "Acceltra",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Acceltra Blueprint",
-      "route": "Ur, Uranus — Demolisher Infested enemy drop",
-      "steps": "Kill Demolisher Infested on Ur until the Acceltra Blueprint drops.",
-      "tip": "Kill the Demolisher before it reaches the conduit. This is an enemy Blueprint drop, not a rotation reward, and resource boosters do not affect it.",
-      "source": "https://wiki.warframe.com/w/Acceltra",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 60
     },
     {
       "ease": "2 — Easy buy or build",
@@ -923,9 +939,9 @@
       "item": "Sibear",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Cryotic (27758/30000); Magistar",
+      "missing": "Cryotic (28490/30000); Magistar",
       "route": "Excavation / Cryotic",
-      "steps": "Get 2,242 Cryotic, then build.",
+      "steps": "Get 1,510 Cryotic, then build.",
       "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
       "source": "https://wiki.warframe.com/w/Sibear",
       "vaulted": "No",
@@ -3830,6 +3846,15 @@
       "source": "https://wiki.warframe.com/w/Itzal"
     },
     {
+      "item": "Acceltra",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Acceltra"
+    },
+    {
       "item": "Jaw Sword",
       "type": "melee",
       "state": "Ready in Foundry",
@@ -3975,17 +4000,17 @@
     {
       "item": "Acceltra",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Acceltra Blueprint",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Ur, Uranus — Demolisher Infested enemy drop",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Acceltra",
       "steps": "Kill Demolisher Infested on Ur until the Acceltra Blueprint drops.",
@@ -16542,7 +16567,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (27758/30000); Magistar",
+      "missing": "Cryotic (28490/30000); Magistar",
       "ease": "5 — Long grind / trade",
       "route": "Excavation / Cryotic",
       "vaulted": "No",
@@ -16551,7 +16576,7 @@
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 2,242 Cryotic, then build."
+      "steps": "Obtain 1,510 Cryotic, then build."
     },
     {
       "item": "Sicarus",
@@ -18620,7 +18645,7 @@
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 14 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
+      "steps": "Open the 15 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",
