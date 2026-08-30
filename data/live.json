@@ -7,8 +7,8 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-30T19:42:26.974000Z",
-      "worldStateAt": "2026-08-30T19:41:40Z",
+      "checkedAt": "2026-08-30T22:23:30.352000Z",
+      "worldStateAt": "2026-08-30T22:22:43Z",
       "ageSecondsAtCheck": 47
     }
   },
@@ -18,14 +18,13 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-30T19:42:26.974000Z",
-      "worldStateAt": "2026-08-30T19:41:40Z",
+      "checkedAt": "2026-08-30T22:23:30.352000Z",
+      "worldStateAt": "2026-08-30T22:22:43Z",
       "ageSecondsAtCheck": 47
     },
     "rewards": [
       "Detonite Injector",
-      "Fieldron",
-      "Infested Alad Coordinate"
+      "Fieldron"
     ],
     "items": [
       {
@@ -155,9 +154,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 507,
+        "count": 1676,
         "requiredRuns": 42000,
-        "completion": 50.60357142857143,
+        "completion": 51.99523809523809,
         "completed": false
       },
       {
@@ -188,10 +187,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -29199,
+        "count": -30050,
         "requiredRuns": 30000,
-        "completion": 2.6699999999999946,
-        "completed": false
+        "completion": -0.16666666666667052,
+        "completed": true
       },
       {
         "id": "6a9359e6b07d02458828599a",
@@ -221,43 +220,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -25647,
+        "count": -29396,
         "requiredRuns": 30000,
-        "completion": 14.510000000000002,
+        "completion": 2.0133333333333336,
         "completed": false
-      },
-      {
-        "id": "6a93947e44aa730001fa2fc5",
-        "activation": "2026-08-30T02:25:01.764000Z",
-        "node": "Metis (Jupiter)",
-        "nodeKey": "SolNode126",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Fieldron",
-                "key": "/Lotus/Types/Items/Research/EnergyComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Fieldron"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -34225,
-        "requiredRuns": 34000,
-        "completion": -0.6617647058823506,
-        "completed": true
       },
       {
         "id": "6a93b9ff0e9e17e16cb9f130",
@@ -423,6 +389,39 @@
         "requiredRuns": 34000,
         "completion": -2.0000000000000018,
         "completed": true
+      },
+      {
+        "id": "6a9493f76d820840834b2d51",
+        "activation": "2026-08-30T22:10:06.014000Z",
+        "node": "Cypress (Pluto)",
+        "nodeKey": "SolNode56",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Fieldron",
+                "key": "/Lotus/Types/Items/Research/EnergyComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Fieldron"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": -42,
+        "requiredRuns": 32000,
+        "completion": 99.86874999999999,
+        "completed": false
       }
     ],
     "activeCount": 3
@@ -433,60 +432,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-30T19:42:26.974000Z",
-      "worldStateAt": "2026-08-30T19:41:40Z",
+      "checkedAt": "2026-08-30T22:23:30.352000Z",
+      "worldStateAt": "2026-08-30T22:22:43Z",
       "ageSecondsAtCheck": 47
     },
-    "id": "cetusCycle1788120060000",
+    "id": "cetusCycle1788129060000",
     "state": "day",
-    "activation": "2026-08-30T18:21:00Z",
-    "expiry": "2026-08-30T20:01:00Z",
+    "activation": "2026-08-30T20:51:00Z",
+    "expiry": "2026-08-30T22:31:00Z",
     "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-08-30T20:51:58.555000Z",
+    "syndicateExpiry": "2026-08-30T23:21:57.430000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1788120000974",
-      "state": "day",
-      "activation": "2026-08-30T16:00:00.974000Z",
-      "expiry": "2026-08-30T20:00:00.974000Z",
-      "isDay": true
+      "id": "earthCycle1788134400352",
+      "state": "night",
+      "activation": "2026-08-30T20:00:00.352000Z",
+      "expiry": "2026-08-31T00:00:00.352000Z",
+      "isDay": false
     },
     "cetus": {
-      "id": "cetusCycle1788120060000",
+      "id": "cetusCycle1788129060000",
       "state": "day",
-      "activation": "2026-08-30T18:21:00Z",
-      "expiry": "2026-08-30T20:01:00Z",
+      "activation": "2026-08-30T20:51:00Z",
+      "expiry": "2026-08-30T22:31:00Z",
       "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-08-30T20:51:58.555000Z",
+      "syndicateExpiry": "2026-08-30T23:21:57.430000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1788119208000",
+      "id": "vallisCycle1788128808000",
       "state": "cold",
-      "activation": "2026-08-30T19:26:00Z",
-      "expiry": "2026-08-30T19:46:48Z",
+      "activation": "2026-08-30T22:06:00Z",
+      "expiry": "2026-08-30T22:26:48Z",
       "isWarm": false
     },
     "cambion": {
-      "id": "cambionCycle1788120060000",
+      "id": "cambionCycle1788129060000",
       "state": "fass",
-      "activation": "2026-08-30T18:21:00Z",
-      "expiry": "2026-08-30T20:01:00Z"
+      "activation": "2026-08-30T20:51:00Z",
+      "expiry": "2026-08-30T22:31:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1788123120000",
-      "state": "grineer",
-      "activation": "2026-08-30T18:22:00Z",
-      "expiry": "2026-08-30T20:52:00Z",
-      "isCorpus": false
+      "id": "zarimanCycle1788132120000",
+      "state": "corpus",
+      "activation": "2026-08-30T20:52:00Z",
+      "expiry": "2026-08-30T23:22:00Z",
+      "isCorpus": true
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-30T19:42:26.974806+00:00",
+  "checkedAt": "2026-08-30T22:23:30.352878+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
