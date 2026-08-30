@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-24",
-    "exportVerifiedAt": "2026-08-24 23:36:01 PDT",
+    "snapshotDate": "2026-08-30",
+    "exportVerifiedAt": "2026-08-30 12:42:26 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167856,
-        "modified": "2026-08-24T23:36:01.008868-07:00",
-        "sha256": "4ce990a9cef8c1a769a13f9d7bd53f7ab593a0b638cfd243b7d9e316c5edafef"
+        "bytes": 2167752,
+        "modified": "2026-08-30T12:42:26.040415-07:00",
+        "sha256": "57933d44b8b6ddfe65932d284ffbc0c45caa8b100105c2425c27b117a3286da4"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-24T23:36:01.011920-07:00",
-        "sha256": "20c86c4b31628d62d6c087386709af2a2f3abc2672df5f06c07d3801127ef9e6"
+        "modified": "2026-08-30T12:42:26.044914-07:00",
+        "sha256": "488be8fe5c3beee2a7e43b2845188298ab6060610d5eab0117549ce1474e61c2"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-24T23:36:01.010396-07:00",
-        "sha256": "6db1e3d0dbea8f76c0a3d04256411fda3f1cb8f6583547565776ce462f51e357"
+        "modified": "2026-08-30T12:42:26.042414-07:00",
+        "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-24T23:36:01.010396-07:00",
-        "sha256": "a1779560c42420fbd8474a3ed2b68b6891aaa754109d3841c83bea82b4b8b391"
+        "modified": "2026-08-30T12:42:26.043915-07:00",
+        "sha256": "9640d8bff56442922332841d0c551a447099a75e930be0e1c04d261ec45942f0"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-24T23:36:01.012928-07:00",
-        "sha256": "fe9248626d78ebd204371244e309ebbfc94332b68b0d6c2d582c5df570f963fc"
+        "modified": "2026-08-30T12:42:26.047417-07:00",
+        "sha256": "7b45a3604080ece9bebfc8fe77ac811c2c2a8ccc1df500e5fed68118b8c90258"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,17 +46,228 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Acceltra",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Arbucep",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Arbucep Barrel; Arbucep Receiver; Arbucep Stock"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Chesa Kubrow",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Coda Hirudo",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon from Eleanor"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Dera Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dera Vandal Barrel; Dera Vandal Receiver; Dera Vandal Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Dera Vandal Receiver; Dera Vandal Stock"
+        ]
+      },
+      {
+        "item": "Itzal",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Jaw Sword",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Karyst Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Karyst Prime Blade; Karyst Prime Blueprint; Karyst Prime Handle"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Karyst Prime Blade; Karyst Prime Handle"
+        ]
+      },
+      {
+        "item": "Magistar",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Nokko",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nokko Systems Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Octavia",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Octavia Neuroptics Blueprint; Octavia Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Oraxia",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Neuroptics Blueprint; Oraxia Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Sibear",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Cryotic (28490/30000); Magistar"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Voruna",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 223
+      "missing": 218
     },
     "relicInventory": {
-      "Axi D6 Intact": 0,
-      "Axi S20 Intact": 1,
+      "Axi D6 Intact": 2,
+      "Axi S20 Intact": 4,
       "Axi T13 Intact": 1,
       "Lith A12 Intact": 10,
       "Lith A12 Radiant": 3,
@@ -66,7 +277,7 @@
       "Lith E2 Radiant": 1,
       "Lith G14 Intact": 20,
       "Lith K12 Intact": 27,
-      "Lith K12 Radiant": 6,
+      "Lith K12 Radiant": 7,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
       "Lith N19 Intact": 18,
@@ -74,37 +285,37 @@
       "Lith Q2 Intact": 0,
       "Lith Q3 Intact": 7,
       "Lith S18 Intact": 2,
-      "Lith T14 Intact": 13,
+      "Lith T14 Intact": 14,
       "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 28,
+      "Meso A12 Intact": 30,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 55,
+      "Meso D8 Intact": 56,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 47,
+      "Meso K8 Intact": 49,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 36,
-      "Meso V13 Intact": 35,
+      "Meso L5 Intact": 37,
+      "Meso V13 Intact": 37,
       "Meso V15 Intact": 47,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 28,
+      "Meso X1 Intact": 30,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 31,
+      "Meso Y2 Intact": 32,
       "Neo A16 Intact": 6,
-      "Neo C7 Intact": 23,
+      "Neo C7 Intact": 24,
       "Neo C7 Radiant": 0,
-      "Neo C8 Intact": 4,
+      "Neo C8 Intact": 6,
       "Neo C9 Intact": 17,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
-      "Neo T11 Intact": 15,
+      "Neo T11 Intact": 18,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 17,
-      "Neo Y1 Intact": 11,
+      "Neo V12 Intact": 19,
+      "Neo Y1 Intact": 12,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -694,21 +905,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Octavia",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Octavia Neuroptics Blueprint; Octavia Systems Blueprint",
-      "route": "Lua and Deimos component farms",
-      "steps": "Neuroptics: Deimos Survival rotation C. Systems: Lua Crossfire caches. Main blueprint: Octavia’s Anthem.",
-      "tip": "Use loot radar for Lua caches; stay to rotation C on Deimos.",
-      "source": "https://wiki.warframe.com/w/Octavia",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Pathocyst",
       "type": "melee",
       "targetRank": "30",
@@ -754,22 +950,22 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Coda Caustacyst",
-      "type": "melee",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon from Eleanor",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
+      "item": "Oraxia",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint",
+      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
+      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
+      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
+      "source": "https://wiki.warframe.com/w/Oraxia",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 505
+      "practicalPriority": 500
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Coda Hirudo",
+      "item": "Coda Caustacyst",
       "type": "melee",
       "targetRank": "30 first; 40 optional",
       "missing": "Completed weapon from Eleanor",
@@ -830,36 +1026,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Nokko",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Nokko Systems Blueprint",
-      "route": "Deepmines Bounties / Nightcap in The Airlock",
-      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
-      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
-      "source": "https://wiki.warframe.com/w/Nokko",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Oraxia",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Neuroptics Blueprint; Oraxia Systems Blueprint",
-      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
-      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
-      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
-      "source": "https://wiki.warframe.com/w/Oraxia",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Rauta",
       "type": "primary",
       "targetRank": "30",
@@ -902,36 +1068,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Sibear",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Cryotic (28490/30000); Magistar",
-      "route": "Excavation / Cryotic",
-      "steps": "Get 1,510 Cryotic, then build.",
-      "tip": "Run Excavation with a full squad; Hieracon is efficient, and a resource booster doubles Cryotic.",
-      "source": "https://wiki.warframe.com/w/Sibear",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Arbucep",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Arbucep Barrel; Arbucep Receiver; Arbucep Stock",
-      "route": "Deepmines Bounties / Nightcap in The Airlock",
-      "steps": "Farm the blueprints from Deepmines Bounties or buy them from Nightcap using Fergolyte.",
-      "tip": "Deepmines Bounties award 11–15 Fergolyte normally or 15–19 on Steel Path. Extra fully analyzed mushrooms can be composted into Fergolyte. Buy only pieces that did not drop.",
-      "source": "https://wiki.warframe.com/w/Arbucep",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1491,6 +1627,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Dera Vandal",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Dera Vandal Receiver; Dera Vandal Stock",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Dera_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 760
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Karak Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1533,23 +1684,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 760
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Dera Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Dera Vandal Barrel; Dera Vandal Receiver; Dera Vandal Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Dera_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Dera Vandal Barrel"
-      ],
-      "practicalPriority": 765
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2755,7 +2889,7 @@
       "item": "Karyst Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Karyst Prime Blade; Karyst Prime Blueprint; Karyst Prime Handle",
+      "missing": "Karyst Prime Blade; Karyst Prime Handle",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2764,7 +2898,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "4 — Multi-step farm",
@@ -3797,40 +3931,22 @@
   ],
   "owned": [
     {
-      "item": "Chesa Kubrow",
-      "type": "companion",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Chesa_Kubrow"
-    },
-    {
-      "item": "Itzal",
-      "type": "archwing",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Itzal"
-    },
-    {
-      "item": "Acceltra",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Acceltra"
-    },
-    {
-      "item": "Jaw Sword",
+      "item": "Coda Hirudo",
       "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+    },
+    {
+      "item": "Octavia",
+      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Octavia"
     }
   ],
   "rank40": [
@@ -3969,17 +4085,17 @@
     {
       "item": "Acceltra",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Ur, Uranus — Demolisher Infested enemy drop",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 8,
       "source": "https://wiki.warframe.com/w/Acceltra",
       "steps": "Kill Demolisher Infested on Ur until the Acceltra Blueprint drops.",
@@ -4907,14 +5023,14 @@
     {
       "item": "Arbucep",
       "type": "archgun",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Arbucep Barrel; Arbucep Receiver; Arbucep Stock",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -6570,14 +6686,14 @@
     {
       "item": "Chesa Kubrow",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -6817,14 +6933,14 @@
     {
       "item": "Coda Hirudo",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon from Eleanor",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7525,7 +7641,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Dera Vandal Barrel; Dera Vandal Receiver; Dera Vandal Stock",
+      "missing": "Dera Vandal Receiver; Dera Vandal Stock",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -7535,9 +7651,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Dera Vandal Barrel"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Despair",
@@ -10583,15 +10697,15 @@
     {
       "item": "Itzal",
       "type": "archwing",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -10718,17 +10832,17 @@
     {
       "item": "Jaw Sword",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Owned / in foundry; rank unknown",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
       "primeDetails": [],
@@ -10822,7 +10936,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Karyst Prime Blade; Karyst Prime Blueprint; Karyst Prime Handle",
+      "missing": "Karyst Prime Blade; Karyst Prime Handle",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -12463,8 +12577,8 @@
     {
       "item": "Magistar",
       "type": "melee",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -13434,14 +13548,14 @@
     {
       "item": "Nokko",
       "type": "warframe",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nokko Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Deepmines Bounties / Nightcap in The Airlock",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -13654,17 +13768,17 @@
     {
       "item": "Octavia",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Octavia Neuroptics Blueprint; Octavia Systems Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Lua and Deimos component farms",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Octavia",
       "steps": "Neuroptics: Deimos Survival rotation C. Systems: Lua Crossfire caches. Main blueprint: Octavia’s Anthem.",
@@ -13953,7 +14067,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Neuroptics Blueprint; Oraxia Systems Blueprint",
+      "missing": "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
@@ -16530,22 +16644,22 @@
     {
       "item": "Sibear",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Cryotic (28490/30000); Magistar",
-      "ease": "5 — Long grind / trade",
-      "route": "Excavation / Cryotic",
+      "missing": "",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Sibear",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Obtain 1,510 Cryotic, then build."
+      "steps": "."
     },
     {
       "item": "Sicarus",
@@ -18614,7 +18728,7 @@
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Open the 15 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
+      "steps": "Open the 18 Neo T11 Intact relics in the export; Receiver is Rare. Refine to Radiant first."
     },
     {
       "item": "Twin Basolk",
@@ -19613,8 +19727,8 @@
     {
       "item": "Voruna",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",

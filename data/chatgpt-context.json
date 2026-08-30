@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T06:36:01.300222+00:00",
+  "generatedAt": "2026-08-30T19:42:26.365506+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,52 +8,52 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-25T05:49:16.595Z",
+  "accountSnapshotAt": "2026-08-30T19:42:22.766Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-25T05:49:16.595Z",
+      "capturedAt": "2026-08-30T19:42:22.766Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-25T06:35:57.114956+00:00",
-    "phase": "mission",
-    "node": "PORTRAIT",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
-    "missionKey": "SolNode236",
+    "observedAt": "2026-08-30T19:42:22.774979+00:00",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
+    "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
@@ -65,7 +65,7 @@
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
-      "name": "Titania",
+      "name": "Leveling",
       "slots": {
         "Warframe": {
           "buildRef": "suits-019",
@@ -73,8 +73,8 @@
           "item": "Titania Prime",
           "category": "Suits",
           "configuration": "A",
-          "formaApplied": 2,
-          "focusLens": "Greater Naramon Lens",
+          "formaApplied": 3,
+          "focusLens": "Greater Madurai Lens",
           "polarities": [
             {
               "slot": 8,
@@ -83,6 +83,10 @@
             {
               "slot": 6,
               "polarity": "AP_ANY"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_UMBRA"
             }
           ],
           "modularParts": [],
@@ -131,8 +135,8 @@
               "kind": "mod"
             },
             {
-              "name": "Precision Intensify",
-              "rank": 5,
+              "name": "Umbral Intensify",
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -175,7 +179,7 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-061",
+          "buildRef": "melee-060",
           "resolutionStatus": "exact-build-ref",
           "item": "Praedos",
           "category": "Melee",
@@ -218,12 +222,12 @@
             },
             {
               "name": "Sacrificial Steel",
-              "rank": 8,
+              "rank": 10,
               "kind": "mod"
             },
             {
               "name": "Sacrificial Pressure",
-              "rank": 8,
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -430,36 +434,26 @@
           "item": "Diwata Prime",
           "category": "SpecialItems",
           "configuration": "A",
-          "formaApplied": 0,
+          "formaApplied": 1,
           "focusLens": null,
-          "polarities": [],
+          "polarities": [
+            {
+              "slot": 6,
+              "polarity": "AP_ATTACK"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Gladiator Rush",
+              "name": "Shocking Touch",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Gladiator Might",
+              "name": "Fury",
               "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Pressure Point",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Sacrificial Steel",
-              "rank": 8,
-              "kind": "mod"
-            },
-            {
-              "name": "Blood Rush",
-              "rank": 10,
               "kind": "mod"
             },
             {
@@ -468,19 +462,34 @@
               "kind": "mod"
             },
             {
-              "name": "Sundering Strike",
+              "name": "Galvanized Elementalist",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Blood Rush",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Body Count",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Primed Reach",
-              "rank": 10,
+              "name": "Condition Overload",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Steel",
+              "rank": 9,
               "kind": "mod"
             }
           ],
           "arcanes": [
             {
-              "name": "Melee Doughty",
+              "name": "Melee Influence",
               "rank": 5,
               "kind": "arcane"
             }
@@ -493,14 +502,19 @@
       "name": "Loadout 1",
       "slots": {
         "Archwing": {
-          "buildRef": "spacesuits-004",
+          "buildRef": "spacesuits-002",
           "resolutionStatus": "exact-build-ref",
-          "item": "Itzal",
+          "item": "Amesha",
           "category": "SpaceSuits",
           "configuration": "A",
-          "formaApplied": 0,
+          "formaApplied": 1,
           "focusLens": null,
-          "polarities": [],
+          "polarities": [
+            {
+              "slot": 6,
+              "polarity": "AP_TACTIC"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
@@ -516,13 +530,13 @@
               "kind": "mod"
             },
             {
-              "name": "Argon Plating",
-              "rank": 5,
+              "name": "Morphic Transformer",
+              "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Hyperion Thrusters",
-              "rank": 8,
+              "name": "Argon Plating",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -688,7 +702,7 @@
     },
     "DATAKNIFE": {
       "modeName": "Parazon and Plexus",
-      "name": "Titania",
+      "name": "Leveling",
       "slots": {
         "Parazon": {
           "buildRef": "dataknives-001",
@@ -704,18 +718,18 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Khra",
+              "name": "Drive-Duster",
+              "rank": 2,
+              "kind": "mod"
+            },
+            {
+              "name": "Byteryte",
               "rank": 1,
               "kind": "mod"
             },
             {
-              "name": "Oull",
-              "rank": 1,
-              "kind": "mod"
-            },
-            {
-              "name": "Vome",
-              "rank": 3,
+              "name": "Anti-V",
+              "rank": 2,
               "kind": "mod"
             }
           ],
@@ -1103,7 +1117,7 @@
           "resolutionStatus": "exact-build-ref",
           "item": "Mausolon",
           "category": "SpaceGuns",
-          "configuration": "B",
+          "configuration": "A",
           "formaApplied": 3,
           "focusLens": null,
           "polarities": [
@@ -1125,27 +1139,7 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Dual Rounds",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Containment Breach",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
               "name": "Automatic Trigger",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Rubedo-Lined Barrel",
-              "rank": 8,
-              "kind": "mod"
-            },
-            {
-              "name": "Combustion Rounds",
               "rank": 5,
               "kind": "mod"
             },
@@ -1155,13 +1149,33 @@
               "kind": "mod"
             },
             {
-              "name": "Parallax Scope",
+              "name": "Hollowed Bullets",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Hollowed Bullets",
-              "rank": 3,
+              "name": "Dual Rounds",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Combustion Rounds",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Venomous Clip",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Polar Magazine",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Rubedo-Lined Barrel",
+              "rank": 8,
               "kind": "mod"
             }
           ],
@@ -1451,7 +1465,7 @@
     },
     "SENTINEL": {
       "modeName": "Companion",
-      "name": "Titania",
+      "name": "Leveling",
       "slots": {
         "Companion": {
           "buildRef": "kubrowpets-006",
@@ -1534,6 +1548,37 @@
             {
               "name": "Tenacious Bond",
               "rank": 5,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": []
+        },
+        "Companion weapon": {
+          "buildRef": "sentinelweapons-017",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Lacerten",
+          "category": "SentinelWeapons",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Magnetic Rush",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10,
               "kind": "mod"
             }
           ],

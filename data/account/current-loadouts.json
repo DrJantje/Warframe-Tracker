@@ -1,7 +1,7 @@
 {
   "NORMAL": {
-    "index": 9,
-    "name": "Titania",
+    "index": 3,
+    "name": "Leveling",
     "favorite": false,
     "slots": {
       "s": {
@@ -12,7 +12,7 @@
         "configuration": "A"
       },
       "m": {
-        "buildRef": "melee-061",
+        "buildRef": "melee-060",
         "item": "Praedos",
         "category": "Melee",
         "configIndex": 0,
@@ -47,8 +47,8 @@
     "favorite": false,
     "slots": {
       "s": {
-        "buildRef": "spacesuits-004",
-        "item": "Itzal",
+        "buildRef": "spacesuits-002",
+        "item": "Amesha",
         "category": "SpaceSuits",
         "configIndex": 0,
         "configuration": "A"
@@ -70,8 +70,8 @@
     }
   },
   "DATAKNIFE": {
-    "index": 10,
-    "name": "Titania",
+    "index": 4,
+    "name": "Leveling",
     "favorite": false,
     "slots": {
       "s": {
@@ -148,8 +148,8 @@
         "buildRef": "spaceguns-002",
         "item": "Mausolon",
         "category": "SpaceGuns",
-        "configIndex": 1,
-        "configuration": "B"
+        "configIndex": 0,
+        "configuration": "A"
       },
       "a": {
         "buildRef": "specialitems-015",
@@ -210,14 +210,21 @@
     }
   },
   "SENTINEL": {
-    "index": 10,
-    "name": "Titania",
+    "index": 4,
+    "name": "Leveling",
     "favorite": false,
     "slots": {
       "s": {
         "buildRef": "kubrowpets-006",
         "item": "Panzer Vulpaphyla",
         "category": "KubrowPets",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "l": {
+        "buildRef": "sentinelweapons-017",
+        "item": "Lacerten",
+        "category": "SentinelWeapons",
         "configIndex": 0,
         "configuration": "A"
       },
