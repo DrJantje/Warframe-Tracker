@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-30T22:23:30.352000Z",
-      "worldStateAt": "2026-08-30T22:22:43Z",
-      "ageSecondsAtCheck": 47
+      "checkedAt": "2026-08-30T22:43:24.818000Z",
+      "worldStateAt": "2026-08-30T22:42:31Z",
+      "ageSecondsAtCheck": 54
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-30T22:23:30.352000Z",
-      "worldStateAt": "2026-08-30T22:22:43Z",
-      "ageSecondsAtCheck": 47
+      "checkedAt": "2026-08-30T22:43:24.818000Z",
+      "worldStateAt": "2026-08-30T22:42:31Z",
+      "ageSecondsAtCheck": 54
     },
     "rewards": [
       "Detonite Injector",
@@ -154,9 +154,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 1676,
+        "count": 1792,
         "requiredRuns": 42000,
-        "completion": 51.99523809523809,
+        "completion": 52.13333333333333,
         "completed": false
       },
       {
@@ -220,43 +220,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -29396,
+        "count": -29811,
         "requiredRuns": 30000,
-        "completion": 2.0133333333333336,
+        "completion": 0.6299999999999972,
         "completed": false
-      },
-      {
-        "id": "6a93b9ff0e9e17e16cb9f130",
-        "activation": "2026-08-30T05:05:02.643000Z",
-        "node": "Ananke (Jupiter)",
-        "nodeKey": "SolNode73",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Fieldron",
-                "key": "/Lotus/Types/Items/Research/EnergyComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Fieldron"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -44766,
-        "requiredRuns": 44000,
-        "completion": -1.740909090909093,
-        "completed": true
       },
       {
         "id": "6a93b9ff0e9e17e16cb9f12f",
@@ -289,6 +256,39 @@
         "count": -31125,
         "requiredRuns": 31000,
         "completion": -0.40322580645162365,
+        "completed": true
+      },
+      {
+        "id": "6a93b9ff0e9e17e16cb9f130",
+        "activation": "2026-08-30T05:05:02.643000Z",
+        "node": "Ananke (Jupiter)",
+        "nodeKey": "SolNode73",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Fieldron",
+                "key": "/Lotus/Types/Items/Research/EnergyComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Fieldron"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": -44766,
+        "requiredRuns": 44000,
+        "completion": -1.740909090909093,
         "completed": true
       },
       {
@@ -418,9 +418,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -42,
+        "count": -220,
         "requiredRuns": 32000,
-        "completion": 99.86874999999999,
+        "completion": 99.3125,
         "completed": false
       }
     ],
@@ -432,49 +432,49 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-08-30T22:23:30.352000Z",
-      "worldStateAt": "2026-08-30T22:22:43Z",
-      "ageSecondsAtCheck": 47
+      "checkedAt": "2026-08-30T22:43:24.818000Z",
+      "worldStateAt": "2026-08-30T22:42:31Z",
+      "ageSecondsAtCheck": 54
     },
-    "id": "cetusCycle1788129060000",
-    "state": "day",
-    "activation": "2026-08-30T20:51:00Z",
-    "expiry": "2026-08-30T22:31:00Z",
-    "isDay": true,
+    "id": "cetusCycle1788132060000",
+    "state": "night",
+    "activation": "2026-08-30T22:31:00Z",
+    "expiry": "2026-08-30T23:21:00Z",
+    "isDay": false,
     "derivedFrom": "CetusSyndicate expiry",
     "syndicateExpiry": "2026-08-30T23:21:57.430000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1788134400352",
+      "id": "earthCycle1788134400818",
       "state": "night",
-      "activation": "2026-08-30T20:00:00.352000Z",
-      "expiry": "2026-08-31T00:00:00.352000Z",
+      "activation": "2026-08-30T20:00:00.818000Z",
+      "expiry": "2026-08-31T00:00:00.818000Z",
       "isDay": false
     },
     "cetus": {
-      "id": "cetusCycle1788129060000",
-      "state": "day",
-      "activation": "2026-08-30T20:51:00Z",
-      "expiry": "2026-08-30T22:31:00Z",
-      "isDay": true,
+      "id": "cetusCycle1788132060000",
+      "state": "night",
+      "activation": "2026-08-30T22:31:00Z",
+      "expiry": "2026-08-30T23:21:00Z",
+      "isDay": false,
       "derivedFrom": "CetusSyndicate expiry",
       "syndicateExpiry": "2026-08-30T23:21:57.430000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1788128808000",
+      "id": "vallisCycle1788130408000",
       "state": "cold",
-      "activation": "2026-08-30T22:06:00Z",
-      "expiry": "2026-08-30T22:26:48Z",
+      "activation": "2026-08-30T22:33:00Z",
+      "expiry": "2026-08-30T22:53:28Z",
       "isWarm": false
     },
     "cambion": {
-      "id": "cambionCycle1788129060000",
-      "state": "fass",
-      "activation": "2026-08-30T20:51:00Z",
-      "expiry": "2026-08-30T22:31:00Z"
+      "id": "cambionCycle1788132060000",
+      "state": "vome",
+      "activation": "2026-08-30T22:31:00Z",
+      "expiry": "2026-08-30T23:21:00Z"
     },
     "zariman": {
       "id": "zarimanCycle1788132120000",
@@ -485,7 +485,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-08-30T22:23:30.352878+00:00",
+  "checkedAt": "2026-08-30T22:43:24.818343+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
