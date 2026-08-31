@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-08-31T04:27:55.456811+00:00
-Account snapshot: 2026-08-31T02:39:26.531Z
+Generated: 2026-08-31T04:48:43.446510+00:00
+Account snapshot: 2026-08-31T04:48:40.225Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,10 +10,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-active)
+- Frame observation: Titania (server-sent)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 182238
+- Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
@@ -26,7 +26,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Helminth: Xata's Whisper
 - Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
 - Mods: Adaptation (rank 10), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
-- Arcanes: Arcane Pistoleer (rank 5), Molt Augmented (rank 5)
+- Arcanes: Arcane Pistoleer (rank 5), Arcane Impetus (rank 5)
 
 #### Primary: Coda Bubonico — config A
 
@@ -37,8 +37,8 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Melee: Coda Hirudo — config A
 
-- Forma: 0
-- Mods: Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Brutal Tide (rank 3)
+- Forma: 1
+- Mods: True Steel (rank 5), Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Brutal Tide (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -53,11 +53,11 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Pathogen Rounds (rank 5), Primed Heated Charge (rank 10), Frostbite (rank 3), Magnetic Might (rank 3), Pistol Elementalist (rank 5), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
 - Arcanes: Secondary Enervate (rank 5)
 
-#### Second exalted weapon: Diwata Prime — config A
+#### Second exalted weapon: Diwata Prime — config B
 
 - Forma: 1
-- Mods: Shocking Touch (rank 5), Fury (rank 5), Weeping Wounds (rank 5), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Body Count (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 9)
-- Arcanes: Melee Influence (rank 5)
+- Mods: Carnis Mandible (rank 5), Gladiator Vice (rank 5), Fury (rank 5), Melee Prowess (rank 5), Volcanic Edge (rank 3), North Wind (rank 5), Focus Radon (rank 3), Virulent Scourge (rank 3), Parry (rank 5)
+- Arcanes: Melee Duplicate (rank 3)
 
 ### Companion: Titania
 

@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-30",
-    "exportVerifiedAt": "2026-08-30 21:27:55 PDT",
+    "exportVerifiedAt": "2026-08-30 21:48:43 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167753,
-        "modified": "2026-08-30T21:27:55.166027-07:00",
-        "sha256": "89e975cf48b3327e5532354317df1f5adc8fa9a4b8e3d92752f2642f57c6394f"
+        "bytes": 2167760,
+        "modified": "2026-08-30T21:48:43.140379-07:00",
+        "sha256": "07ca10cf892b9660367ceae8d10453abd6c2f9a065da98b3a74140e4b0269c16"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-30T21:27:55.170272-07:00",
+        "modified": "2026-08-30T21:48:43.143387-07:00",
         "sha256": "488be8fe5c3beee2a7e43b2845188298ab6060610d5eab0117549ce1474e61c2"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-30T21:27:55.168272-07:00",
+        "modified": "2026-08-30T21:48:43.141887-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-30T21:27:55.169271-07:00",
-        "sha256": "754544c6bf4b1d614a2be7914dd5644796de632d207c37741371cd5ea572e9ec"
+        "modified": "2026-08-30T21:48:43.142388-07:00",
+        "sha256": "5105c6f0279088649163dee26efbd5acce0e76f4b8fa3a06cecc333c32e0774a"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-30T21:27:55.171776-07:00",
+        "modified": "2026-08-30T21:48:43.144387-07:00",
         "sha256": "3547760362ad199874637cd5de24cfcbeb7a236dba9d10495ac268b7243c2f71"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Dark Dagger",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dark Dagger Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Hespar",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 217
+      "missing": 216
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -87,7 +118,7 @@
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 37,
       "Meso V13 Intact": 37,
-      "Meso V15 Intact": 47,
+      "Meso V15 Intact": 48,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 30,
       "Meso X1 Radiant": 3,
@@ -158,22 +189,6 @@
       "liveMatches": [],
       "availabilityGroup": "dojo",
       "practicalPriority": 3
-    },
-    {
-      "ease": "2 — Easy buy or build",
-      "item": "Dark Dagger",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Dark Dagger Blueprint",
-      "route": "Nightwave Cred Offerings — permanent stock",
-      "steps": "Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.",
-      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "nightwave",
-      "practicalPriority": 205
     },
     {
       "ease": "3 — Focused short farm",
@@ -679,6 +694,21 @@
     },
     {
       "ease": "4 — Multi-step farm",
+      "item": "Hespar",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
+      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
+      "source": "https://wiki.warframe.com/w/Hespar",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 410
+    },
+    {
+      "ease": "4 — Multi-step farm",
       "item": "Pathocyst",
       "type": "melee",
       "targetRank": "30",
@@ -691,21 +721,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Hespar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)",
-      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 13 Thrax Plasm ×13: check the current official drop table.",
-      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
-      "source": "https://wiki.warframe.com/w/Hespar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 415
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3712,6 +3727,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level the companion in high-affinity missions.",
       "source": "https://wiki.warframe.com/w/Raksa_Kubrow"
+    },
+    {
+      "item": "Dark Dagger",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
     },
     {
       "item": "Octavia",
@@ -7269,23 +7293,21 @@
     {
       "item": "Dark Dagger",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Dark Dagger Blueprint",
-      "ease": "2 — Easy buy or build",
-      "route": "Nightwave Cred Offerings — permanent stock",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Owned / in foundry; rank unknown",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 2,
       "source": "https://wiki.warframe.com/w/Nightwave/Offerings",
-      "tip": "This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Buy the Dark Dagger Blueprint for 50 Creds, then build and level it.",
       "availabilityGroup": "nightwave"
     },
     {
@@ -10077,14 +10099,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (37/50)",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 13 Thrax Plasm ×13: check the current official drop table.",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
       "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
