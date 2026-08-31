@@ -1,0 +1,130 @@
+{
+  "positiveItemDeltas": [],
+  "configurationChanges": [],
+  "equipmentRemoved": [],
+  "errorEventCount": 4,
+  "stoppedAt": "2026-08-31T04:27:50.973382+00:00",
+  "durationSeconds": 10670.082,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 182238,
+  "missionCount": 8,
+  "focusEarnedDuringCapture": 182238,
+  "equipmentAdded": [],
+  "startedAt": "2026-08-31T01:30:00.891722+00:00",
+  "negativeItemDeltas": [],
+  "missions": [
+    {
+      "startedAt": "2026-08-31T01:30:10.170000+00:00",
+      "endedAt": "2026-08-31T01:53:42.295000+00:00",
+      "durationSeconds": 1412.125,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T02:05:49.939000+00:00",
+      "endedAt": "2026-08-31T02:12:43.800000+00:00",
+      "durationSeconds": 413.861,
+      "type": "EXCAVATION",
+      "node": "SolNode101",
+      "label": null,
+      "missionKey": "SolNode101_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T02:14:56.303000+00:00",
+      "endedAt": "2026-08-31T02:43:59.523000+00:00",
+      "durationSeconds": 1743.22,
+      "type": "SANCTUM",
+      "node": "SolNode802",
+      "label": null,
+      "missionKey": "SolNode802",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T02:45:13.695000+00:00",
+      "endedAt": "2026-08-31T02:45:18.899000+00:00",
+      "durationSeconds": 5.204,
+      "type": "OPEN WORLD",
+      "node": "ORB VALLIS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T03:00:28.286000+00:00",
+      "endedAt": "2026-08-31T03:00:28.286000+00:00",
+      "durationSeconds": 0.0,
+      "type": "OPEN WORLD",
+      "node": "ORB VALLIS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T03:03:16.019000+00:00",
+      "endedAt": "2026-08-31T03:07:36.882000+00:00",
+      "durationSeconds": 260.863,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "ZarimanHub_HUB",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T03:45:05.561000+00:00",
+      "endedAt": "2026-08-31T03:59:15.849000+00:00",
+      "durationSeconds": 850.288,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EntratiLabHub_HUB",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T04:00:23.949000+00:00",
+      "endedAt": "2026-08-31T04:27:50.973382+00:00",
+      "durationSeconds": 1647.024,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

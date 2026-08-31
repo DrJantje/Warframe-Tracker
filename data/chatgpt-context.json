@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T01:55:48.739051+00:00",
+  "generatedAt": "2026-08-31T04:27:55.456811+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-08-31T01:55:43.455Z",
+  "accountSnapshotAt": "2026-08-31T02:39:26.531Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-08-31T01:55:43.455Z",
+      "capturedAt": "2026-08-31T02:39:26.531Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-31T01:55:43.463816+00:00",
+    "observedAt": "2026-08-31T04:27:35.562740+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -56,10 +56,10 @@
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "ONLINE",
+    "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 182238,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
@@ -1725,18 +1725,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260830-182346.json",
-    "startedAt": "2026-08-30T18:23:46.277311+00:00",
-    "stoppedAt": "2026-08-30T20:38:37.248862+00:00",
-    "durationSeconds": 8090.972,
-    "missionCount": 3,
-    "focusEarnedDuringCapture": 0,
+    "file": "20260831-013000.json",
+    "startedAt": "2026-08-31T01:30:00.891722+00:00",
+    "stoppedAt": "2026-08-31T04:27:50.973382+00:00",
+    "durationSeconds": 10670.082,
+    "missionCount": 8,
+    "focusEarnedDuringCapture": 182238,
     "topGains": [],
     "notableAcquisitions": [],
     "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 5
+    "errorEventCount": 4
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
