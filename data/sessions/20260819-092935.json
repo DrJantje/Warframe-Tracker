@@ -1,53 +1,26 @@
 {
-  "focusCounterAtCaptureStart": 9472,
-  "errorEventCount": 0,
-  "focusEarnedDuringCapture": 0,
-  "configurationChanges": [],
-  "durationSeconds": 2201.95,
-  "equipmentRemoved": [],
-  "missions": [
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
     {
-      "startedAt": "2026-08-19T08:56:58.953000+00:00",
-      "endedAt": "2026-08-19T09:34:10.783000+00:00",
-      "durationSeconds": 2231.83,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode309_ActiveMission",
-      "missionInstance": 9,
-      "voidTier": "VoidT6",
-      "steelPath": false
+      "item": "Ignia",
+      "delta": -100
     },
     {
-      "startedAt": "2026-08-19T09:36:15.869000+00:00",
-      "endedAt": "2026-08-19T09:51:21.423000+00:00",
-      "durationSeconds": 905.554,
-      "type": "DESCENDIA",
-      "node": "SolNode250",
-      "label": null,
-      "missionKey": "SolNode250_Hard",
-      "missionInstance": 10,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Maphica",
+      "delta": -100
     },
     {
-      "startedAt": "2026-08-19T10:01:35.797000+00:00",
-      "endedAt": "2026-08-19T10:06:17.237337+00:00",
-      "durationSeconds": 281.44,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 10,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
+      "item": "Laudavi",
+      "delta": -26
+    },
+    {
+      "item": "Cipher",
+      "delta": -4
     }
   ],
-  "equipmentAdded": [],
-  "schemaVersion": 1,
+  "errorEventCount": 0,
+  "focusCounterAtCaptureStart": 9472,
   "focusCounterAtCaptureEnd": 9472,
-  "missionCount": 3,
   "positiveItemDeltas": [
     {
       "item": "Circuit Effect",
@@ -98,26 +71,53 @@
       "delta": 1
     }
   ],
-  "negativeItemDeltas": [
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "missionCount": 3,
+  "startedAt": "2026-08-19T09:29:35.287515+00:00",
+  "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
+  "focusEarnedDuringCapture": 0,
+  "missions": [
     {
-      "item": "Ignia",
-      "delta": -100
+      "startedAt": "2026-08-19T08:56:58.953000+00:00",
+      "endedAt": "2026-08-19T09:34:10.783000+00:00",
+      "durationSeconds": 2231.83,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode309_ActiveMission",
+      "missionInstance": 9,
+      "voidTier": "VoidT6",
+      "steelPath": false
     },
     {
-      "item": "Maphica",
-      "delta": -100
+      "startedAt": "2026-08-19T09:36:15.869000+00:00",
+      "endedAt": "2026-08-19T09:51:21.423000+00:00",
+      "durationSeconds": 905.554,
+      "type": "DESCENDIA",
+      "node": "SolNode250",
+      "label": null,
+      "missionKey": "SolNode250_Hard",
+      "missionInstance": 10,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Laudavi",
-      "delta": -26
-    },
-    {
-      "item": "Cipher",
-      "delta": -4
+      "startedAt": "2026-08-19T10:01:35.797000+00:00",
+      "endedAt": "2026-08-19T10:06:17.237337+00:00",
+      "durationSeconds": 281.44,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 10,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
     }
   ],
-  "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
-  "startedAt": "2026-08-19T09:29:35.287515+00:00",
+  "configurationChanges": [],
+  "durationSeconds": 2201.95,
   "notableAcquisitions": [
     {
       "item": "Ascaris Prime",
