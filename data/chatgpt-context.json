@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T05:04:03.059698+00:00",
+  "generatedAt": "2026-08-31T05:05:17.617004+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-08-31T05:03:54.095Z",
+    "observedAt": "2026-08-31T05:05:13.577383+00:00",
     "phase": "mission",
     "node": "AMIR NIGHTWAVE PORTRAIT",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-selected",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1771,18 +1771,93 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260831-013000.json",
-    "startedAt": "2026-08-31T01:30:00.891722+00:00",
-    "stoppedAt": "2026-08-31T04:27:50.973382+00:00",
-    "durationSeconds": 10670.082,
-    "missionCount": 8,
-    "focusEarnedDuringCapture": 182238,
-    "topGains": [],
-    "notableAcquisitions": [],
-    "resourceGains": [],
+    "file": "20260831-042954.json",
+    "startedAt": "2026-08-31T04:29:54.772896+00:00",
+    "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
+    "durationSeconds": 2120.344,
+    "missionCount": 3,
+    "focusEarnedDuringCapture": 0,
+    "topGains": [
+      {
+        "item": "Circuit Effect",
+        "delta": 1504
+      },
+      {
+        "item": "Agnovidisc",
+        "delta": 452
+      },
+      {
+        "item": "Laudavi",
+        "delta": 250
+      },
+      {
+        "item": "Servoris",
+        "delta": 69
+      },
+      {
+        "item": "Ascaris Prime",
+        "delta": 19
+      },
+      {
+        "item": "Riven Sliver",
+        "delta": 2
+      },
+      {
+        "item": "Ayatan Cyan Star",
+        "delta": 1
+      },
+      {
+        "item": "Meso K8 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso X1 Intact",
+        "delta": 1
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Ascaris Prime",
+        "delta": 19
+      },
+      {
+        "item": "Meso K8 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso X1 Intact",
+        "delta": 1
+      }
+    ],
+    "resourceGains": [
+      {
+        "item": "Circuit Effect",
+        "delta": 1504
+      },
+      {
+        "item": "Agnovidisc",
+        "delta": 452
+      },
+      {
+        "item": "Laudavi",
+        "delta": 250
+      },
+      {
+        "item": "Servoris",
+        "delta": 69
+      },
+      {
+        "item": "Riven Sliver",
+        "delta": 2
+      },
+      {
+        "item": "Ayatan Cyan Star",
+        "delta": 1
+      }
+    ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 4
+    "errorEventCount": 2
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

@@ -1,0 +1,150 @@
+{
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 3,
+  "focusCounterAtCaptureEnd": 0,
+  "missions": [
+    {
+      "startedAt": "2026-08-31T04:29:59.905000+00:00",
+      "endedAt": "2026-08-31T04:37:33.761000+00:00",
+      "durationSeconds": 453.856,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EntratiLabHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T04:48:01.800000+00:00",
+      "endedAt": "2026-08-31T04:48:44.428000+00:00",
+      "durationSeconds": 42.628,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode252",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T04:48:43.778000+00:00",
+      "endedAt": "2026-08-31T05:05:15.116591+00:00",
+      "durationSeconds": 991.339,
+      "type": "DESCENDIA",
+      "node": "SolNode252",
+      "label": null,
+      "missionKey": "SolNode252",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "errorEventCount": 2,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "startedAt": "2026-08-31T04:29:54.772896+00:00",
+  "durationSeconds": 2120.344,
+  "configurationChanges": [],
+  "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Circuit Effect",
+      "delta": 1504
+    },
+    {
+      "item": "Agnovidisc",
+      "delta": 452
+    },
+    {
+      "item": "Laudavi",
+      "delta": 250
+    },
+    {
+      "item": "Servoris",
+      "delta": 69
+    },
+    {
+      "item": "Ascaris Prime",
+      "delta": 19
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": 2
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": 1
+    },
+    {
+      "item": "Meso K8 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Meso X1 Intact",
+      "delta": 1
+    }
+  ],
+  "notableAcquisitions": [
+    {
+      "item": "Ascaris Prime",
+      "delta": 19
+    },
+    {
+      "item": "Meso K8 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Meso X1 Intact",
+      "delta": 1
+    }
+  ],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Circuit Effect",
+      "delta": 1504
+    },
+    {
+      "item": "Agnovidisc",
+      "delta": 452
+    },
+    {
+      "item": "Laudavi",
+      "delta": 250
+    },
+    {
+      "item": "Servoris",
+      "delta": 69
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": 2
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": 1
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
