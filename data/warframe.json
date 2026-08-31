@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-30",
-    "exportVerifiedAt": "2026-08-30 15:43:24 PDT",
+    "exportVerifiedAt": "2026-08-30 18:55:49 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167752,
-        "modified": "2026-08-30T15:43:24.224766-07:00",
-        "sha256": "57933d44b8b6ddfe65932d284ffbc0c45caa8b100105c2425c27b117a3286da4"
+        "bytes": 2167753,
+        "modified": "2026-08-30T18:55:47.281978-07:00",
+        "sha256": "d13738f578e08341627f53eee387a6b17626e8cfc0aff24020ec39da287eac2f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-30T15:43:24.227273-07:00",
+        "modified": "2026-08-30T18:55:47.286486-07:00",
         "sha256": "488be8fe5c3beee2a7e43b2845188298ab6060610d5eab0117549ce1474e61c2"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-30T15:43:24.225769-07:00",
+        "modified": "2026-08-30T18:55:47.283979-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-30T15:43:24.225769-07:00",
+        "modified": "2026-08-30T18:55:47.285480-07:00",
         "sha256": "9640d8bff56442922332841d0c551a447099a75e930be0e1c04d261ec45942f0"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-30T15:43:24.228278-07:00",
+        "modified": "2026-08-30T18:55:47.290500-07:00",
         "sha256": "7b45a3604080ece9bebfc8fe77ac811c2c2a8ccc1df500e5fed68118b8c90258"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Coda Hirudo",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Raksa Kubrow",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Raksa Kubrow breeding result"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
       "parkedAt30": 2,
       "currentRankUnknown": 0,
-      "missing": 218
+      "missing": 217
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -520,21 +551,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Raksa Kubrow",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Raksa Kubrow breeding result",
-      "route": "Companion breeding in the Orbiter Incubator",
-      "steps": "Incubate a Kubrow Egg. Use two Raksa Kubrow genetic imprints to guarantee the breed.",
-      "tip": "Without two matching imprints, the Kubrow breed is random.",
-      "source": "https://wiki.warframe.com/w/Raksa_Kubrow",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
       "practicalPriority": 405
     },
     {
@@ -3720,13 +3736,13 @@
   ],
   "owned": [
     {
-      "item": "Coda Hirudo",
-      "type": "melee",
+      "item": "Raksa Kubrow",
+      "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30 first; 40 optional",
+      "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Raksa_Kubrow"
     },
     {
       "item": "Octavia",
@@ -6722,14 +6738,14 @@
     {
       "item": "Coda Hirudo",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -15307,14 +15323,14 @@
     {
       "item": "Raksa Kubrow",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Raksa Kubrow breeding result",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",

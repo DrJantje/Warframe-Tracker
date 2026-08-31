@@ -1,7 +1,7 @@
 {
   "NORMAL": {
-    "index": 3,
-    "name": "Leveling",
+    "index": 9,
+    "name": "Titania",
     "favorite": false,
     "slots": {
       "s": {
@@ -11,9 +11,16 @@
         "configIndex": 0,
         "configuration": "A"
       },
+      "l": {
+        "buildRef": "longguns-069",
+        "item": "Coda Bubonico",
+        "category": "LongGuns",
+        "configIndex": 0,
+        "configuration": "A"
+      },
       "m": {
-        "buildRef": "melee-060",
-        "item": "Praedos",
+        "buildRef": "melee-142",
+        "item": "Coda Hirudo",
         "category": "Melee",
         "configIndex": 0,
         "configuration": "A"
@@ -70,8 +77,8 @@
     }
   },
   "DATAKNIFE": {
-    "index": 4,
-    "name": "Leveling",
+    "index": 10,
+    "name": "Titania",
     "favorite": false,
     "slots": {
       "s": {
@@ -210,21 +217,14 @@
     }
   },
   "SENTINEL": {
-    "index": 4,
-    "name": "Leveling",
+    "index": 10,
+    "name": "Titania",
     "favorite": false,
     "slots": {
       "s": {
         "buildRef": "kubrowpets-006",
         "item": "Panzer Vulpaphyla",
         "category": "KubrowPets",
-        "configIndex": 0,
-        "configuration": "A"
-      },
-      "l": {
-        "buildRef": "sentinelweapons-017",
-        "item": "Lacerten",
-        "category": "SentinelWeapons",
         "configIndex": 0,
         "configuration": "A"
       },

@@ -1,79 +1,4 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [
-    {
-      "at": "2026-08-22T16:42:15.853642+00:00",
-      "item": "Protea"
-    }
-  ],
-  "missionCount": 5,
-  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
-  "missions": [
-    {
-      "startedAt": "2026-08-22T15:40:01.017000+00:00",
-      "endedAt": "2026-08-22T15:48:16.718000+00:00",
-      "durationSeconds": 495.701,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolarisUnitedHub1_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-22T16:18:05.274000+00:00",
-      "endedAt": "2026-08-22T16:20:10.765000+00:00",
-      "durationSeconds": 125.491,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-22T16:21:42.390000+00:00",
-      "endedAt": "2026-08-22T16:28:30.899000+00:00",
-      "durationSeconds": 408.509,
-      "type": "OPEN WORLD",
-      "node": "NokkoColony",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-22T16:31:25.343000+00:00",
-      "endedAt": "2026-08-22T16:41:13.628000+00:00",
-      "durationSeconds": 588.285,
-      "type": "OPEN WORLD",
-      "node": "NokkoColony",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-22T16:43:23.536000+00:00",
-      "endedAt": "2026-08-22T16:44:22.097682+00:00",
-      "durationSeconds": 58.562,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "startedAt": "2026-08-22T15:39:53.829909+00:00",
-  "errorEventCount": 5,
-  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -144,7 +69,78 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [
+    {
+      "at": "2026-08-22T16:42:15.853642+00:00",
+      "item": "Protea"
+    }
+  ],
+  "durationSeconds": 3868.268,
+  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "missions": [
+    {
+      "startedAt": "2026-08-22T15:40:01.017000+00:00",
+      "endedAt": "2026-08-22T15:48:16.718000+00:00",
+      "durationSeconds": 495.701,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolarisUnitedHub1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:18:05.274000+00:00",
+      "endedAt": "2026-08-22T16:20:10.765000+00:00",
+      "durationSeconds": 125.491,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:21:42.390000+00:00",
+      "endedAt": "2026-08-22T16:28:30.899000+00:00",
+      "durationSeconds": 408.509,
+      "type": "OPEN WORLD",
+      "node": "NokkoColony",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:31:25.343000+00:00",
+      "endedAt": "2026-08-22T16:41:13.628000+00:00",
+      "durationSeconds": 588.285,
+      "type": "OPEN WORLD",
+      "node": "NokkoColony",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:43:23.536000+00:00",
+      "endedAt": "2026-08-22T16:44:22.097682+00:00",
+      "durationSeconds": 58.562,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "configurationChanges": [
     {
       "at": "2026-08-22T16:42:15.853642+00:00",
@@ -263,7 +259,9 @@
       "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 5,
+  "focusCounterAtCaptureEnd": 0,
   "negativeItemDeltas": [
     {
       "item": "Blister Stalk",
@@ -294,8 +292,10 @@
       "delta": -1
     }
   ],
-  "durationSeconds": 3868.268,
-  "schemaVersion": 1,
+  "startedAt": "2026-08-22T15:39:53.829909+00:00",
+  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
+  "errorEventCount": 5,
+  "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
