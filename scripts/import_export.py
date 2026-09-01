@@ -261,13 +261,49 @@ def update(folder: Path) -> None:
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
     settled_at_40 = set(overrides.get("confirmedAt40", []))
+    active_to_40 = set(overrides.get("activeTo40", []))
+    overlap = settled_at_40 & active_to_40
+    if overlap:
+        raise SystemExit(f"Rank-40 overrides conflict; items cannot be both confirmed and active: {sorted(overlap)}")
     rank40_by_name = {row["item"]: row for row in payload["rank40"]}
-    rank40_names = set(rank40_by_name)
     arsenal = {row["item"]: row for row in payload["arsenal"]}
     if set(arsenal) != set(export):
         missing = sorted(set(arsenal) - set(export))
         extra = sorted(set(export) - set(arsenal))
         raise SystemExit(f"Item catalog mismatch; missing={missing[:5]}, extra={extra[:5]}")
+
+    for name in sorted(settled_at_40 | active_to_40):
+        if name not in arsenal:
+            raise SystemExit(f"Rank-40 override references unknown Arsenal item: {name}")
+        if name in rank40_by_name:
+            continue
+        if name in settled_at_40:
+            project = {
+                "item": name,
+                "type": arsenal[name]["type"],
+                "status": "Confirmed at 40",
+                "owned": "Yes",
+                "mastered": "Yes",
+                "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+                "action": "Complete — no action needed.",
+                "formaPlan": "Five total Forma complete",
+            }
+        else:
+            project = {
+                "item": name,
+                "type": arsenal[name]["type"],
+                "status": "Active to 40",
+                "owned": "Yes",
+                "mastered": "Yes",
+                "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
+                "action": "Continue applying and releveling until five total Forma and rank 40.",
+                "formaPlan": "Five total Forma; exact current count not confirmed",
+            }
+        payload["rank40"].append(project)
+        rank40_by_name[name] = project
+
+    payload["rank40"].sort(key=lambda row: row["item"])
+    rank40_names = set(rank40_by_name)
 
     old_queue = {row["item"]: row for row in payload["queue"]}
     old_vaulted = {row["item"]: row for row in payload["vaulted"]}

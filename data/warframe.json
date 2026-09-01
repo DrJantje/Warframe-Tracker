@@ -2,7 +2,7 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-31",
-    "exportVerifiedAt": "2026-08-31 20:14:54 PDT",
+    "exportVerifiedAt": "2026-08-31 23:20:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
@@ -46,42 +46,11 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [
-      {
-        "item": "Dark Dagger",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Raksa Kubrow",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      }
-    ],
+    "importChanges": [],
     "summary": {
-      "activeTo40": 1,
-      "confirmedAt40": 10,
-      "parkedAt30": 2,
+      "activeTo40": 2,
+      "confirmedAt40": 15,
+      "parkedAt30": 1,
       "currentRankUnknown": 0,
       "missing": 213
     },
@@ -3703,8 +3672,18 @@
       "formaPlan": "Five total Forma; verify existing count"
     },
     {
-      "item": "Voidrig",
-      "type": "necramech",
+      "item": "Coda Bassocyst",
+      "type": "primary",
+      "status": "Confirmed at 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+      "action": "Complete — no action needed.",
+      "formaPlan": "Five total Forma complete"
+    },
+    {
+      "item": "Coda Bubonico",
+      "type": "primary",
       "status": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
@@ -3723,6 +3702,26 @@
       "formaPlan": "Five total Forma complete"
     },
     {
+      "item": "Coda Hema",
+      "type": "primary",
+      "status": "Confirmed at 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+      "action": "Complete — no action needed.",
+      "formaPlan": "Five total Forma complete"
+    },
+    {
+      "item": "Coda Hirudo",
+      "type": "melee",
+      "status": "Active to 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
+      "action": "Continue applying and releveling until five total Forma and rank 40.",
+      "formaPlan": "Five total Forma; exact current count not confirmed"
+    },
+    {
       "item": "Coda Mire",
       "type": "melee",
       "status": "Confirmed at 40",
@@ -3735,36 +3734,6 @@
     {
       "item": "Coda Motovore",
       "type": "melee",
-      "status": "Parked at 30",
-      "owned": "Yes",
-      "mastered": "Yes",
-      "rankRule": "Acquired and intentionally stopped at rank 30.",
-      "action": "None unless user changes status.",
-      "formaPlan": "No planned Forma"
-    },
-    {
-      "item": "Kuva Shildeg",
-      "type": "melee",
-      "status": "Parked at 30",
-      "owned": "Yes",
-      "mastered": "Yes",
-      "rankRule": "Acquired and intentionally stopped at rank 30.",
-      "action": "None unless user changes status.",
-      "formaPlan": "No planned Forma"
-    },
-    {
-      "item": "Coda Bassocyst",
-      "type": "primary",
-      "status": "Confirmed at 40",
-      "owned": "Yes",
-      "mastered": "Yes",
-      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
-      "action": "Complete — no action needed.",
-      "formaPlan": "Five total Forma complete"
-    },
-    {
-      "item": "Coda Bubonico",
-      "type": "primary",
       "status": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
@@ -3793,6 +3762,36 @@
       "formaPlan": "Five total Forma complete"
     },
     {
+      "item": "Coda Synapse",
+      "type": "primary",
+      "status": "Confirmed at 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+      "action": "Complete — no action needed.",
+      "formaPlan": "Five total Forma complete"
+    },
+    {
+      "item": "Coda Tysis",
+      "type": "secondary",
+      "status": "Confirmed at 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+      "action": "Complete — no action needed.",
+      "formaPlan": "Five total Forma complete"
+    },
+    {
+      "item": "Dual Coda Torxica",
+      "type": "secondary",
+      "status": "Confirmed at 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+      "action": "Complete — no action needed.",
+      "formaPlan": "Five total Forma complete"
+    },
+    {
       "item": "Kuva Nukor",
       "type": "secondary",
       "status": "Confirmed at 40",
@@ -3801,6 +3800,16 @@
       "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
       "action": "Complete — no action needed.",
       "formaPlan": "Five total Forma complete"
+    },
+    {
+      "item": "Kuva Shildeg",
+      "type": "melee",
+      "status": "Parked at 30",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Acquired and intentionally stopped at rank 30.",
+      "action": "None unless user changes status.",
+      "formaPlan": "No planned Forma"
     },
     {
       "item": "Tenet Arca Plasmor",
@@ -3815,6 +3824,16 @@
     {
       "item": "Tenet Envoy",
       "type": "primary",
+      "status": "Confirmed at 40",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
+      "action": "Complete — no action needed.",
+      "formaPlan": "Five total Forma complete"
+    },
+    {
+      "item": "Voidrig",
+      "type": "necramech",
       "status": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
@@ -6632,15 +6651,15 @@
     {
       "item": "Coda Hema",
       "type": "primary",
-      "state": "Owned + mastered",
+      "state": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "30 first; 40 optional",
-      "rankRule": "",
+      "targetRank": "40",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
+      "route": "Confirmed at 40",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 17,
@@ -6653,15 +6672,15 @@
     {
       "item": "Coda Hirudo",
       "type": "melee",
-      "state": "Owned + mastered",
+      "state": "Active to 40",
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "30 first; 40 optional",
-      "rankRule": "",
+      "targetRank": "40",
+      "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
       "missing": "",
-      "ease": "1 — Complete",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
+      "ease": "1 — Active project",
+      "route": "Active to 40",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 17,
@@ -6695,15 +6714,15 @@
     {
       "item": "Coda Motovore",
       "type": "melee",
-      "state": "Parked at 30",
+      "state": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "30",
-      "rankRule": "Acquired and intentionally stopped at rank 30.",
+      "targetRank": "40",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
       "missing": "",
-      "ease": "6 — Parked",
-      "route": "Parked at 30",
+      "ease": "1 — Complete",
+      "route": "Confirmed at 40",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 17,
@@ -6779,15 +6798,15 @@
     {
       "item": "Coda Synapse",
       "type": "primary",
-      "state": "Owned + mastered",
+      "state": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "30 first; 40 optional",
-      "rankRule": "",
+      "targetRank": "40",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
+      "route": "Confirmed at 40",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 17,
@@ -6800,15 +6819,15 @@
     {
       "item": "Coda Tysis",
       "type": "secondary",
-      "state": "Owned + mastered",
+      "state": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "30 first; 40 optional",
-      "rankRule": "",
+      "targetRank": "40",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
+      "route": "Confirmed at 40",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 17,
@@ -7816,15 +7835,15 @@
     {
       "item": "Dual Coda Torxica",
       "type": "secondary",
-      "state": "Owned + mastered",
+      "state": "Confirmed at 40",
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
-      "rankRule": "",
+      "targetRank": "40",
+      "rankRule": "Rank 40 and five total Forma explicitly confirmed.",
       "missing": "",
       "ease": "1 — Complete",
-      "route": "Mastery complete",
+      "route": "Confirmed at 40",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 17,
