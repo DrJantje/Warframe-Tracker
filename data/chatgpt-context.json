@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T02:05:06.276864+00:00",
+  "generatedAt": "2026-09-01T02:06:40.125525+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-01T02:05:01.309244+00:00",
+    "observedAt": "2026-09-01T02:06:37.340385+00:00",
     "phase": "location",
     "node": "CHRYSALITH",
     "planet": "ZARIMAN",
@@ -1670,93 +1670,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260831-042954.json",
-    "startedAt": "2026-08-31T04:29:54.772896+00:00",
-    "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
-    "durationSeconds": 2120.344,
-    "missionCount": 3,
+    "file": "20260901-014847.json",
+    "startedAt": "2026-09-01T01:48:47.753674+00:00",
+    "stoppedAt": "2026-09-01T02:06:37.342458+00:00",
+    "durationSeconds": 1069.589,
+    "missionCount": 2,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Circuit Effect",
-        "delta": 1504
-      },
-      {
-        "item": "Agnovidisc",
-        "delta": 452
-      },
-      {
-        "item": "Laudavi",
-        "delta": 250
-      },
-      {
-        "item": "Servoris",
-        "delta": 69
-      },
-      {
-        "item": "Ascaris Prime",
-        "delta": 19
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 2
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      },
-      {
-        "item": "Meso K8 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso X1 Intact",
-        "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Ascaris Prime",
-        "delta": 19
-      },
-      {
-        "item": "Meso K8 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso X1 Intact",
-        "delta": 1
-      }
-    ],
-    "resourceGains": [
-      {
-        "item": "Circuit Effect",
-        "delta": 1504
-      },
-      {
-        "item": "Agnovidisc",
-        "delta": 452
-      },
-      {
-        "item": "Laudavi",
-        "delta": 250
-      },
-      {
-        "item": "Servoris",
-        "delta": 69
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 2
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      }
-    ],
+    "topGains": [],
+    "notableAcquisitions": [],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 2
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
