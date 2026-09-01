@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-31",
-    "exportVerifiedAt": "2026-08-31 19:06:40 PDT",
+    "exportVerifiedAt": "2026-08-31 20:14:54 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167754,
-        "modified": "2026-08-31T19:06:39.851097-07:00",
-        "sha256": "b77a4a533e82666bfa6eb36419bb368f53df45eb6f33f358bed0e8d91b35d90f"
+        "bytes": 2167758,
+        "modified": "2026-08-31T20:14:54.016695-07:00",
+        "sha256": "76cd330cdc5aa83a99d20d67cfebfeadaad6382cd9b057c470ae5eb06015c554"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-31T19:06:39.853604-07:00",
-        "sha256": "96d7e56a2b22f3d6c3e1e3c8d2c780980a85889530164e8d7a6074c969b0e6f3"
+        "modified": "2026-08-31T20:14:54.020215-07:00",
+        "sha256": "9f539b7a2509e1989521c54537a3450be86930cc00389bb37f9e5901ea8f05a8"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-31T19:06:39.852600-07:00",
+        "modified": "2026-08-31T20:14:54.018199-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-31T19:06:39.852600-07:00",
+        "modified": "2026-08-31T20:14:54.018703-07:00",
         "sha256": "7bcaa13d2d9d2e8604d9f38299a70039b2b9476475f089dfc753893ec9e8e00a"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-31T19:06:39.854604-07:00",
+        "modified": "2026-08-31T20:14:54.022295-07:00",
         "sha256": "3547760362ad199874637cd5de24cfcbeb7a236dba9d10495ac268b7243c2f71"
       },
       "rivens.json": {
@@ -46,7 +46,38 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Dark Dagger",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Raksa Kubrow",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 1,
       "confirmedAt40": 10,
@@ -3633,24 +3664,6 @@
       "source": "https://wiki.warframe.com/w/Adarza_Kavat"
     },
     {
-      "item": "Dark Dagger",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nightwave/Offerings"
-    },
-    {
-      "item": "Raksa Kubrow",
-      "type": "companion",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Raksa_Kubrow"
-    },
-    {
       "item": "Afuris Prime",
       "type": "secondary",
       "state": "Ready in Foundry",
@@ -7202,15 +7215,15 @@
     {
       "item": "Dark Dagger",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Owned; rank unknown",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 2,
@@ -15223,14 +15236,14 @@
     {
       "item": "Raksa Kubrow",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
