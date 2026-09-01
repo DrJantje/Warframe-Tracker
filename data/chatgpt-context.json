@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T03:14:54.373153+00:00",
+  "generatedAt": "2026-09-01T06:38:03.396656+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,18 +48,18 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-01T03:14:50.227Z",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-09-01T04:26:36.178Z",
+    "phase": "location",
+    "node": "SANCTUM",
+    "planet": "DEIMOS",
+    "mission": "HUB",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 126404,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-selected",
+    "frameConfidence": "sync-awaiting-snapshot",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
@@ -1670,18 +1670,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260901-014847.json",
-    "startedAt": "2026-09-01T01:48:47.753674+00:00",
-    "stoppedAt": "2026-09-01T02:06:37.342458+00:00",
-    "durationSeconds": 1069.589,
-    "missionCount": 2,
-    "focusEarnedDuringCapture": 0,
+    "file": "20260901-020731.json",
+    "startedAt": "2026-09-01T02:07:31.221843+00:00",
+    "stoppedAt": "2026-09-01T04:26:37.208153+00:00",
+    "durationSeconds": 8345.986,
+    "missionCount": 3,
+    "focusEarnedDuringCapture": 126404,
     "topGains": [],
     "notableAcquisitions": [],
     "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 3
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

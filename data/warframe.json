@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-08-31",
-    "exportVerifiedAt": "2026-08-31 23:20:50 PDT",
+    "exportVerifiedAt": "2026-08-31 23:38:03 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167758,
-        "modified": "2026-08-31T20:14:54.016695-07:00",
-        "sha256": "76cd330cdc5aa83a99d20d67cfebfeadaad6382cd9b057c470ae5eb06015c554"
+        "bytes": 2167759,
+        "modified": "2026-08-31T23:38:03.082131-07:00",
+        "sha256": "abdb7de18a66f2dde55c333b8ac4b57c8445a53ee6a446d0e89985a2d2b3bde5"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-31T20:14:54.020215-07:00",
+        "modified": "2026-08-31T23:38:03.085642-07:00",
         "sha256": "9f539b7a2509e1989521c54537a3450be86930cc00389bb37f9e5901ea8f05a8"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-31T20:14:54.018199-07:00",
+        "modified": "2026-08-31T23:38:03.084642-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-31T20:14:54.018703-07:00",
+        "modified": "2026-08-31T23:38:03.084642-07:00",
         "sha256": "7bcaa13d2d9d2e8604d9f38299a70039b2b9476475f089dfc753893ec9e8e00a"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-31T20:14:54.022295-07:00",
+        "modified": "2026-08-31T23:38:03.086146-07:00",
         "sha256": "3547760362ad199874637cd5de24cfcbeb7a236dba9d10495ac268b7243c2f71"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Coda Hirudo",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -3716,7 +3732,7 @@
       "type": "melee",
       "status": "Active to 40",
       "owned": "Yes",
-      "mastered": "Yes",
+      "mastered": "No",
       "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
       "action": "Continue applying and releveling until five total Forma and rank 40.",
       "formaPlan": "Five total Forma; exact current count not confirmed"
@@ -6674,7 +6690,7 @@
       "type": "melee",
       "state": "Active to 40",
       "owned": "Yes",
-      "mastered": "Yes",
+      "mastered": "No",
       "complete": "Yes",
       "targetRank": "40",
       "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
