@@ -1,13 +1,27 @@
 {
   "NORMAL": {
-    "index": 9,
-    "name": "Titania",
+    "index": 18,
+    "name": "Hildryn",
     "favorite": false,
     "slots": {
       "s": {
-        "buildRef": "suits-019",
-        "item": "Titania Prime",
+        "buildRef": "suits-035",
+        "item": "Hildryn",
         "category": "Suits",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "p": {
+        "buildRef": "pistols-065",
+        "item": "Tenet Cycron",
+        "category": "Pistols",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "l": {
+        "buildRef": "longguns-069",
+        "item": "Coda Bubonico",
+        "category": "LongGuns",
         "configIndex": 0,
         "configuration": "A"
       },
@@ -26,15 +40,8 @@
         "configuration": "A"
       },
       "a": {
-        "buildRef": "specialitems-011",
-        "item": "Dex Pixia Prime",
-        "category": "SpecialItems",
-        "configIndex": 0,
-        "configuration": "A"
-      },
-      "b": {
-        "buildRef": "specialitems-012",
-        "item": "Diwata Prime",
+        "buildRef": "specialitems-037",
+        "item": "Balefire Charger",
         "category": "SpecialItems",
         "configIndex": 0,
         "configuration": "A"
@@ -70,8 +77,8 @@
     }
   },
   "DATAKNIFE": {
-    "index": 10,
-    "name": "Titania",
+    "index": 19,
+    "name": "Hildryn",
     "favorite": false,
     "slots": {
       "s": {
@@ -210,14 +217,21 @@
     }
   },
   "SENTINEL": {
-    "index": 10,
-    "name": "Titania",
+    "index": 19,
+    "name": "Hildryn",
     "favorite": false,
     "slots": {
       "s": {
         "buildRef": "kubrowpets-006",
         "item": "Panzer Vulpaphyla",
         "category": "KubrowPets",
+        "configIndex": 0,
+        "configuration": "A"
+      },
+      "l": {
+        "buildRef": "sentinelweapons-008",
+        "item": "Verglas Prime",
+        "category": "SentinelWeapons",
         "configIndex": 0,
         "configuration": "A"
       },
