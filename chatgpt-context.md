@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-02T03:07:19.351723+00:00
-Account snapshot: 2026-09-02T03:05:13.752Z
+Generated: 2026-09-02T03:11:13.230871+00:00
+Account snapshot: 2026-09-02T03:09:07.793Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: CLAN
-- Frame observation: Titania (sync-awaiting-snapshot)
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -19,12 +19,14 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Arsenal: Titania
 
-#### Warframe: Vauban — config A
+#### Warframe: Titania Prime — config A
 
-- Forma: 2
-- Lens: Eidolon Zenurik Lens
-- Mods: Augur Secrets (rank 5), Augur Message (rank 5), Stretch (rank 5), Streamline (rank 5), Nira's Hatred (rank 5), Archon Continuity (rank 10), Transient Fortitude (rank 10), Blind Rage (rank 10), Growing Power (rank 5)
-- Arcanes: Molt Augmented (rank 5)
+- Forma: 4
+- Lens: Greater Madurai Lens
+- Helminth: Xata's Whisper
+- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
+- Mods: Fleeting Expertise (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
+- Arcanes: Arcane Camisado (rank 5), Arcane Impetus (rank 5)
 
 #### Melee: Coda Hirudo — config A
 
@@ -37,6 +39,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Forma: 3
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
+
+#### Exalted weapon: Dex Pixia Prime — config A
+
+- Forma: 7
+- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
+- Arcanes: Secondary Enervate (rank 5)
+
+#### Second exalted weapon: Diwata Prime — config A
+
+- Forma: 1
+- Mods: Shocking Touch (rank 5), Fury (rank 5), Weeping Wounds (rank 5), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Body Count (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 9)
+- Arcanes: Melee Influence (rank 5)
 
 ### Companion: Titania
 
