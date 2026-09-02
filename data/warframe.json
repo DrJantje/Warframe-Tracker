@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-01",
-    "exportVerifiedAt": "2026-09-01 19:53:39 PDT",
+    "exportVerifiedAt": "2026-09-01 20:07:19 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167752,
-        "modified": "2026-09-01T19:53:39.135847-07:00",
-        "sha256": "65627d656362d8f24312d328130298dd570b580aa2e3942dd304d0fa83799d7f"
+        "bytes": 2167753,
+        "modified": "2026-09-01T20:07:19.049449-07:00",
+        "sha256": "0cc4a1910c4a2a9267aa943b3c328a1628a2aa25f3d68e87e049d50b6bc02993"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-01T19:53:39.140376-07:00",
+        "modified": "2026-09-01T20:07:19.052474-07:00",
         "sha256": "f8c78cf4f98ef646090c985c5e89c3440202b09354d69d43be63b61bbb0599eb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-01T19:53:39.137357-07:00",
+        "modified": "2026-09-01T20:07:19.050962-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-01T19:53:39.138864-07:00",
+        "modified": "2026-09-01T20:07:19.051966-07:00",
         "sha256": "b42d3d36256327d185703479e7ba588f637f0c9aac23defb867dea4799e57faf"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-01T19:53:39.141884-07:00",
+        "modified": "2026-09-01T20:07:19.053480-07:00",
         "sha256": "3547760362ad199874637cd5de24cfcbeb7a236dba9d10495ac268b7243c2f71"
       },
       "rivens.json": {
@@ -48,153 +48,33 @@
     },
     "importChanges": [
       {
-        "item": "Adarza Kavat",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Afuris Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Baruuk Prime",
+        "item": "Hildryn Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Grendel Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Grendel Prime Blueprint; Grendel Prime Chassis Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint"
+          "Hildryn Prime Blueprint; Hildryn Prime Neuroptics Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Grendel Prime Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Mandonel",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+          "Hildryn Prime Neuroptics Blueprint"
         ]
       },
       {
         "item": "Octavia",
         "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
           "Yes",
           "Yes",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Scourge",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Scourge Blueprint"
         ],
         "after": [
-          "Yes",
+          "No",
           "Yes",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Vasca Kavat",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vasca Kavat breeding result"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Vauban Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (4/5); Vauban Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Wolf Sledge",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (4/5)"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)"
         ]
       }
     ],
@@ -2603,7 +2483,7 @@
       "item": "Hildryn Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Hildryn Prime Blueprint; Hildryn Prime Neuroptics Blueprint",
+      "missing": "Hildryn Prime Neuroptics Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2612,7 +2492,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -10193,7 +10073,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hildryn Prime Blueprint; Hildryn Prime Neuroptics Blueprint",
+      "missing": "Hildryn Prime Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -13559,8 +13439,8 @@
     {
       "item": "Octavia",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
