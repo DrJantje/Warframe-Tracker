@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-08-31",
-    "exportVerifiedAt": "2026-08-31 23:38:03 PDT",
+    "snapshotDate": "2026-09-01",
+    "exportVerifiedAt": "2026-09-01 19:53:39 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167759,
-        "modified": "2026-08-31T23:38:03.082131-07:00",
-        "sha256": "abdb7de18a66f2dde55c333b8ac4b57c8445a53ee6a446d0e89985a2d2b3bde5"
+        "bytes": 2167752,
+        "modified": "2026-09-01T19:53:39.135847-07:00",
+        "sha256": "65627d656362d8f24312d328130298dd570b580aa2e3942dd304d0fa83799d7f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-08-31T23:38:03.085642-07:00",
-        "sha256": "9f539b7a2509e1989521c54537a3450be86930cc00389bb37f9e5901ea8f05a8"
+        "modified": "2026-09-01T19:53:39.140376-07:00",
+        "sha256": "f8c78cf4f98ef646090c985c5e89c3440202b09354d69d43be63b61bbb0599eb"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-08-31T23:38:03.084642-07:00",
+        "modified": "2026-09-01T19:53:39.137357-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-08-31T23:38:03.084642-07:00",
-        "sha256": "7bcaa13d2d9d2e8604d9f38299a70039b2b9476475f089dfc753893ec9e8e00a"
+        "modified": "2026-09-01T19:53:39.138864-07:00",
+        "sha256": "b42d3d36256327d185703479e7ba588f637f0c9aac23defb867dea4799e57faf"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-08-31T23:38:03.086146-07:00",
+        "modified": "2026-09-01T19:53:39.141884-07:00",
         "sha256": "3547760362ad199874637cd5de24cfcbeb7a236dba9d10495ac268b7243c2f71"
       },
       "rivens.json": {
@@ -48,18 +48,153 @@
     },
     "importChanges": [
       {
-        "item": "Coda Hirudo",
+        "item": "Adarza Kavat",
         "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
           "Yes",
           "Yes",
           "No",
           ""
+        ]
+      },
+      {
+        "item": "Afuris Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Baruuk Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Grendel Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Grendel Prime Blueprint; Grendel Prime Chassis Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Grendel Prime Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ]
+      },
+      {
+        "item": "Octavia",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Scourge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Scourge Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vasca Kavat",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vasca Kavat breeding result"
         ],
         "after": [
           "Yes",
           "No",
           "No",
           ""
+        ]
+      },
+      {
+        "item": "Vauban Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (4/5); Vauban Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Wolf Sledge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (4/5)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)"
         ]
       }
     ],
@@ -68,7 +203,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 213
+      "missing": 210
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -81,7 +216,7 @@
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
       "Lith G14 Intact": 20,
-      "Lith K12 Intact": 27,
+      "Lith K12 Intact": 28,
       "Lith K12 Radiant": 8,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
@@ -89,7 +224,7 @@
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
       "Lith Q3 Intact": 7,
-      "Lith S18 Intact": 2,
+      "Lith S18 Intact": 3,
       "Lith T14 Intact": 14,
       "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
@@ -101,11 +236,11 @@
       "Meso K8 Intact": 50,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 37,
+      "Meso L5 Intact": 38,
       "Meso V13 Intact": 37,
-      "Meso V15 Intact": 48,
+      "Meso V15 Intact": 49,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 31,
+      "Meso X1 Intact": 32,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 32,
       "Neo A16 Intact": 6,
@@ -143,22 +278,6 @@
     ]
   },
   "queue": [
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Scourge",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Scourge Blueprint",
-      "route": "Clan Dojo Tenno Lab",
-      "steps": "Replicate the Scourge Blueprint from the Tenno Lab, then build it.",
-      "tip": "Check completed clan research before farming materials.",
-      "source": "https://wiki.warframe.com/w/Scourge",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "dojo",
-      "practicalPriority": 2
-    },
     {
       "ease": "2 — Easy buy or build",
       "item": "Hema",
@@ -570,21 +689,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Vasca Kavat",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Vasca Kavat breeding result",
-      "route": "Companion breeding in the Orbiter Incubator",
-      "steps": "Let an owned Kavat become infected by a Vasca on the Plains at night, make two Vasca imprints, then breed with those imprints and Kavat Genetic Codes.",
-      "tip": "Two Vasca imprints guarantee the Vasca breed.",
-      "source": "https://wiki.warframe.com/w/Vasca_Kavat",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Vastilok",
       "type": "melee",
       "targetRank": "30",
@@ -878,9 +982,9 @@
       "item": "Mandonel",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "source": "https://wiki.warframe.com/w/Mandonel",
       "vaulted": "No",
@@ -893,9 +997,9 @@
       "item": "Wolf Sledge",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (4/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 1 Nitain Extract, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 3 Nitain Extract, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
       "vaulted": "No",
@@ -1911,41 +2015,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Baruuk Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Baruuk Prime Chassis Blueprint (Uncommon): buy Lith T13 from Varzia for Aya and open it Radiant in a four-player share. Baruuk Prime Neuroptics Blueprint (Uncommon): buy Axi B9 from Varzia for Aya and open it Radiant in a four-player share. Build Baruuk Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://wiki.warframe.com/w/Baruuk_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Baruuk Prime Chassis Blueprint",
-          "relic": "Lith T13",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Baruuk Prime Neuroptics Blueprint",
-          "relic": "Axi B9",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Baza Prime",
       "type": "primary",
       "targetRank": "30",
@@ -2454,7 +2523,7 @@
       "item": "Grendel Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Grendel Prime Blueprint; Grendel Prime Chassis Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint",
+      "missing": "Grendel Prime Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2463,7 +2532,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3457,9 +3526,9 @@
       "item": "Vauban Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (4/5); Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 1 Nitain Extract, then build.",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 3 Nitain Extract, then build.",
       "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Vauban_Prime",
       "vaulted": "Yes",
@@ -3640,22 +3709,22 @@
   ],
   "owned": [
     {
-      "item": "Adarza Kavat",
+      "item": "Vasca Kavat",
       "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Adarza_Kavat"
+      "source": "https://wiki.warframe.com/w/Vasca_Kavat"
     },
     {
-      "item": "Afuris Prime",
-      "type": "secondary",
+      "item": "Baruuk Prime",
+      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Afuris_Prime"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Baruuk_Prime"
     },
     {
       "item": "Gauss",
@@ -3665,15 +3734,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Gauss"
-    },
-    {
-      "item": "Octavia",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Octavia"
     }
   ],
   "rank40": [
@@ -3943,14 +4003,14 @@
     {
       "item": "Adarza Kavat",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -4073,17 +4133,17 @@
     {
       "item": "Afuris Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Afuris_Prime",
       "primeDetails": [],
@@ -5352,43 +5412,21 @@
     {
       "item": "Baruuk Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Baruuk Prime Chassis Blueprint; Baruuk Prime Neuroptics Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Baruuk_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Baruuk Prime Chassis Blueprint",
-          "relic": "Lith T13",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Baruuk Prime Neuroptics Blueprint",
-          "relic": "Axi B9",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Baruuk Prime Chassis Blueprint (Uncommon): buy Lith T13 from Varzia for Aya and open it Radiant in a four-player share. Baruuk Prime Neuroptics Blueprint (Uncommon): buy Axi B9 from Varzia for Aya and open it Radiant in a four-player share. Build Baruuk Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Basmu",
@@ -9518,7 +9556,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Grendel Prime Blueprint; Grendel Prime Chassis Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint",
+      "missing": "Grendel Prime Blueprint; Grendel Prime Neuroptics Blueprint; Grendel Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -12396,14 +12434,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
@@ -13521,17 +13559,17 @@
     {
       "item": "Octavia",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Lua and Deimos component farms",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Octavia",
       "steps": "Neuroptics: Deimos Survival rotation C. Systems: Lua Crossfire caches. Main blueprint: Octavia’s Anthem.",
@@ -16030,14 +16068,14 @@
     {
       "item": "Scourge",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Scourge Blueprint",
-      "ease": "3 — Focused short farm",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Clan Dojo Tenno Lab",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18735,14 +18773,14 @@
     {
       "item": "Vasca Kavat",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Vasca Kavat breeding result",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18844,7 +18882,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (4/5); Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -18854,7 +18892,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 1 Nitain Extract, then build.",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 3 Nitain Extract, then build.",
       "tip": "Compare individual part prices with the full set price before buying."
     },
     {
@@ -19683,14 +19721,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (4/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)",
       "ease": "5 — Long grind / trade",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 1 Nitain Extract, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 3 Nitain Extract, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "primeDetails": [],
       "liveMatches": [],

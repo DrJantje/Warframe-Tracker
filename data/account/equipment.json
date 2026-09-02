@@ -153,7 +153,7 @@
     "buildRef": "kubrowpets-016",
     "name": "Adarza Kavat",
     "category": "KubrowPets",
-    "xp": 0,
+    "xp": 1340408,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -163,7 +163,113 @@
       {
         "index": 0,
         "name": "A",
+        "mods": [
+          {
+            "name": "Cat's Eye",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Sharpened Claws",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Fetch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Reflect",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Animal Instinct",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
         "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "specialitems-053",
+    "name": "Adarza Pet Weapon",
+    "category": "SpecialItems",
+    "xp": 1235360,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Swipe",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Magnetic Claws",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Cull The Weak",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Flame Gland",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Radon Claws",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Sepsis Claws",
+            "rank": 8,
+            "kind": "mod"
+          },
+          {
+            "name": "Bite",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Maul",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Balanced Posture",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -300,6 +406,61 @@
           {
             "name": "Cryo Rounds",
             "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "pistols-081",
+    "name": "Afuris Prime",
+    "category": "Pistols",
+    "xp": 644839,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Accelerated Isotope",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Galvanized Diffusion",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Heated Charge",
+            "rank": 10,
             "kind": "mod"
           }
         ],
@@ -4624,7 +4785,7 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 51162410,
+    "xp": 52601264,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -4988,8 +5149,8 @@
     "buildRef": "melee-142",
     "name": "Coda Hirudo",
     "category": "Melee",
-    "xp": 333090,
-    "formaApplied": 1,
+    "xp": 793593,
+    "formaApplied": 3,
     "focusLens": null,
     "polarities": [
       {
@@ -5010,11 +5171,11 @@
       },
       {
         "slot": 4,
-        "polarity": "AP_UNIVERSAL"
+        "polarity": "AP_ATTACK"
       },
       {
         "slot": 5,
-        "polarity": "AP_UNIVERSAL"
+        "polarity": "AP_ATTACK"
       },
       {
         "slot": 6,
@@ -5041,13 +5202,18 @@
         "name": "A",
         "mods": [
           {
-            "name": "True Steel",
+            "name": "Primed Fever Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Organ Shatter",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Primed Fever Strike",
-            "rank": 10,
+            "name": "True Steel",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -6534,7 +6700,7 @@
     "buildRef": "suits-029",
     "name": "Dante",
     "category": "Suits",
-    "xp": 2411789,
+    "xp": 4811949,
     "formaApplied": 5,
     "focusLens": "Greater Vazarin Lens",
     "polarities": [
@@ -7611,13 +7777,13 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 228224743,
+    "xp": 230738241,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
       {
         "slot": 0,
-        "polarity": "AP_TACTIC"
+        "polarity": "AP_ANY"
       },
       {
         "slot": 1,
@@ -7649,7 +7815,7 @@
       },
       {
         "slot": 8,
-        "polarity": "AP_ANY"
+        "polarity": "AP_TACTIC"
       }
     ],
     "modularParts": [],
@@ -7660,8 +7826,8 @@
         "name": "A",
         "mods": [
           {
-            "name": "Pathogen Rounds",
-            "rank": 5,
+            "name": "Pistol Pestilence",
+            "rank": 3,
             "kind": "mod"
           },
           {
@@ -7675,13 +7841,13 @@
             "kind": "mod"
           },
           {
-            "name": "Magnetic Might",
-            "rank": 3,
+            "name": "Lethal Torrent",
+            "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Pistol Elementalist",
-            "rank": 5,
+            "name": "Primed Pistol Gambit",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -7958,7 +8124,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 52191170,
+    "xp": 54704668,
     "formaApplied": 1,
     "focusLens": null,
     "polarities": [
@@ -19941,7 +20107,7 @@
     "buildRef": "specialitems-028",
     "name": "Noctua",
     "category": "SpecialItems",
-    "xp": 2816690,
+    "xp": 5214736,
     "formaApplied": 6,
     "focusLens": null,
     "polarities": [
@@ -20410,6 +20576,82 @@
           },
           {
             "name": "Arcane Velocity",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "suits-058",
+    "name": "Octavia",
+    "category": "Suits",
+    "xp": 1138320,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Augur Secrets",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Stretch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Steel Fiber",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Boreal's Hatred",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Vitality",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Energy Siphon",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Arcane Blessing",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Arcane Energize",
             "rank": 5,
             "kind": "arcane"
           }
@@ -21017,7 +21259,7 @@
     "buildRef": "operatoramps-003",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 1379496,
+    "xp": 1521611,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -21099,7 +21341,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 14281049,
+    "xp": 14281135,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -21995,7 +22237,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 577221955,
+    "xp": 582903505,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -22151,7 +22393,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 556554792,
+    "xp": 562165894,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -23315,8 +23557,8 @@
         "name": "A",
         "mods": [
           {
-            "name": "Weeping Wounds",
-            "rank": 5,
+            "name": "Galvanized Elementalist",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -23325,22 +23567,32 @@
             "kind": "mod"
           },
           {
+            "name": "Shocking Touch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
             "name": "Condition Overload",
             "rank": 5,
             "kind": "mod"
           },
           {
+            "name": "Berserker Fury",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Blood Rush",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Weeping Wounds",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
             "name": "Primed Reach",
-            "rank": 10,
-            "kind": "mod"
-          },
-          {
-            "name": "Sacrificial Steel",
-            "rank": 10,
-            "kind": "mod"
-          },
-          {
-            "name": "Sacrificial Pressure",
             "rank": 10,
             "kind": "mod"
           },
@@ -23352,8 +23604,8 @@
         ],
         "arcanes": [
           {
-            "name": "Melee Exposure",
-            "rank": 3,
+            "name": "Melee Influence",
+            "rank": 5,
             "kind": "arcane"
           }
         ],
@@ -26332,6 +26584,56 @@
           {
             "name": "Coiling Viper",
             "rank": 3,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "longguns-111",
+    "name": "Scourge",
+    "category": "LongGuns",
+    "xp": 588119,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Serration",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Hellfire",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
             "kind": "mod"
           }
         ],
@@ -30130,7 +30432,7 @@
     "buildRef": "pistols-065",
     "name": "Tenet Cycron",
     "category": "Pistols",
-    "xp": 8354652,
+    "xp": 10193678,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -30563,7 +30865,7 @@
     "buildRef": "longguns-104",
     "name": "Tenet Glaxion",
     "category": "LongGuns",
-    "xp": 1382628,
+    "xp": 1542869,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -31063,7 +31365,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 19895045,
+    "xp": 22408543,
     "formaApplied": 4,
     "focusLens": "Greater Madurai Lens",
     "polarities": [
@@ -31189,7 +31491,7 @@
         ],
         "arcanes": [
           {
-            "name": "Arcane Pistoleer",
+            "name": "Arcane Camisado",
             "rank": 5,
             "kind": "arcane"
           },
@@ -32625,6 +32927,40 @@
             "kind": "mod"
           }
         ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "kubrowpets-017",
+    "name": "Vasca Kavat",
+    "category": "KubrowPets",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
         "arcanes": [],
         "helminthAbility": null
       },
