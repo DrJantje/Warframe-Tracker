@@ -1,102 +1,75 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Blister Stalk",
-      "delta": -5
-    },
-    {
-      "item": "Nonono",
-      "delta": -5
-    },
-    {
-      "item": "Gamma Berry",
-      "delta": -4
-    },
-    {
-      "item": "Vomval Trumpet",
-      "delta": -4
-    },
-    {
-      "item": "Muck Bonnet",
-      "delta": -3
-    },
-    {
-      "item": "Reeking Puffball ",
-      "delta": -3
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 3868.268,
   "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
-  "missions": [
+  "positiveItemDeltas": [
     {
-      "startedAt": "2026-08-22T15:40:01.017000+00:00",
-      "endedAt": "2026-08-22T15:48:16.718000+00:00",
-      "durationSeconds": 495.701,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolarisUnitedHub1_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Alloy Plate",
+      "delta": 6502
     },
     {
-      "startedAt": "2026-08-22T16:18:05.274000+00:00",
-      "endedAt": "2026-08-22T16:20:10.765000+00:00",
-      "durationSeconds": 125.491,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Polymer Bundle",
+      "delta": 3692
     },
     {
-      "startedAt": "2026-08-22T16:21:42.390000+00:00",
-      "endedAt": "2026-08-22T16:28:30.899000+00:00",
-      "durationSeconds": 408.509,
-      "type": "OPEN WORLD",
-      "node": "NokkoColony",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Circuit Effect",
+      "delta": 2554
     },
     {
-      "startedAt": "2026-08-22T16:31:25.343000+00:00",
-      "endedAt": "2026-08-22T16:41:13.628000+00:00",
-      "durationSeconds": 588.285,
-      "type": "OPEN WORLD",
-      "node": "NokkoColony",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Fieldron Sample",
+      "delta": 96
     },
     {
-      "startedAt": "2026-08-22T16:43:23.536000+00:00",
-      "endedAt": "2026-08-22T16:44:22.097682+00:00",
-      "durationSeconds": 58.562,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
+      "item": "Fergolyte",
+      "delta": 25
+    },
+    {
+      "item": "Mytocardia Spore",
+      "delta": 20
+    },
+    {
+      "item": "Thermal Sludge",
+      "delta": 20
+    },
+    {
+      "item": "Ferrofungus",
+      "delta": 3
+    },
+    {
+      "item": "Borica",
+      "delta": 2
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 2
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": 2
+    },
+    {
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Dull Button",
+      "delta": 1
+    },
+    {
+      "item": "Spring Popper",
+      "delta": 1
+    },
+    {
+      "item": "Thorn Tooth",
+      "delta": 1
+    },
+    {
+      "item": "Thunder-Button",
+      "delta": 1
+    },
+    {
+      "item": "Winter Spear",
+      "delta": 1
     }
   ],
-  "startedAt": "2026-08-22T15:39:53.829909+00:00",
-  "equipmentAdded": [],
   "errorEventCount": 5,
   "equipmentRemoved": [
     {
@@ -104,7 +77,7 @@
       "item": "Protea"
     }
   ],
-  "schemaVersion": 1,
+  "startedAt": "2026-08-22T15:39:53.829909+00:00",
   "configurationChanges": [
     {
       "at": "2026-08-22T16:42:15.853642+00:00",
@@ -223,79 +196,106 @@
       "helminthAfter": null
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
   "missionCount": 5,
-  "positiveItemDeltas": [
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "durationSeconds": 3868.268,
+  "negativeItemDeltas": [
     {
-      "item": "Alloy Plate",
-      "delta": 6502
+      "item": "Blister Stalk",
+      "delta": -5
     },
     {
-      "item": "Polymer Bundle",
-      "delta": 3692
+      "item": "Nonono",
+      "delta": -5
     },
     {
-      "item": "Circuit Effect",
-      "delta": 2554
+      "item": "Gamma Berry",
+      "delta": -4
     },
     {
-      "item": "Fieldron Sample",
-      "delta": 96
+      "item": "Vomval Trumpet",
+      "delta": -4
     },
     {
-      "item": "Fergolyte",
-      "delta": 25
+      "item": "Muck Bonnet",
+      "delta": -3
     },
     {
-      "item": "Mytocardia Spore",
-      "delta": 20
+      "item": "Reeking Puffball ",
+      "delta": -3
     },
     {
-      "item": "Thermal Sludge",
-      "delta": 20
-    },
-    {
-      "item": "Ferrofungus",
-      "delta": 3
-    },
-    {
-      "item": "Borica",
-      "delta": 2
-    },
-    {
-      "item": "Nav Coordinate",
-      "delta": 2
-    },
-    {
-      "item": "Riven Sliver",
-      "delta": 2
-    },
-    {
-      "item": "Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Dull Button",
-      "delta": 1
-    },
-    {
-      "item": "Spring Popper",
-      "delta": 1
-    },
-    {
-      "item": "Thorn Tooth",
-      "delta": 1
-    },
-    {
-      "item": "Thunder-Button",
-      "delta": 1
-    },
-    {
-      "item": "Winter Spear",
-      "delta": 1
+      "item": "Cipher",
+      "delta": -1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "missions": [
+    {
+      "startedAt": "2026-08-22T15:40:01.017000+00:00",
+      "endedAt": "2026-08-22T15:48:16.718000+00:00",
+      "durationSeconds": 495.701,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolarisUnitedHub1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:18:05.274000+00:00",
+      "endedAt": "2026-08-22T16:20:10.765000+00:00",
+      "durationSeconds": 125.491,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:21:42.390000+00:00",
+      "endedAt": "2026-08-22T16:28:30.899000+00:00",
+      "durationSeconds": 408.509,
+      "type": "OPEN WORLD",
+      "node": "NokkoColony",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:31:25.343000+00:00",
+      "endedAt": "2026-08-22T16:41:13.628000+00:00",
+      "durationSeconds": 588.285,
+      "type": "OPEN WORLD",
+      "node": "NokkoColony",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-22T16:43:23.536000+00:00",
+      "endedAt": "2026-08-22T16:44:22.097682+00:00",
+      "durationSeconds": 58.562,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
