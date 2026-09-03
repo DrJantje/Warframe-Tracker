@@ -5149,8 +5149,8 @@
     "buildRef": "melee-142",
     "name": "Coda Hirudo",
     "category": "Melee",
-    "xp": 1071127,
-    "formaApplied": 4,
+    "xp": 0,
+    "formaApplied": 5,
     "focusLens": null,
     "polarities": [
       {
@@ -5163,7 +5163,7 @@
       },
       {
         "slot": 2,
-        "polarity": "AP_UNIVERSAL"
+        "polarity": "AP_TACTIC"
       },
       {
         "slot": 3,
@@ -5202,8 +5202,18 @@
         "name": "A",
         "mods": [
           {
+            "name": "Magnetic Rush",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
             "name": "Primed Fever Strike",
             "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Drifting Contact",
+            "rank": 3,
             "kind": "mod"
           },
           {
