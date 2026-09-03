@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-02",
-    "exportVerifiedAt": "2026-09-02 21:31:50 PDT",
+    "exportVerifiedAt": "2026-09-02 21:37:10 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167780,
-        "modified": "2026-09-02T21:31:50.292116-07:00",
-        "sha256": "2d737e8064b217e046be5e01ac6e3fb74d472c2b797a27fdb566fb44a2abe693"
+        "modified": "2026-09-02T21:37:09.520612-07:00",
+        "sha256": "8e8d7df4b4c70e322bb52ef4b271f03c04516901a80c200835592f80f00ca15f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-02T21:31:50.297299-07:00",
+        "modified": "2026-09-02T21:37:09.523125-07:00",
         "sha256": "d5cfa904918ec36d0527b736312155429af1b7538b910ed7a2950f81aa0e105a"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-02T21:31:50.294281-07:00",
+        "modified": "2026-09-02T21:37:09.522122-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-02T21:31:50.295788-07:00",
-        "sha256": "b4da6c29ee21c3fcb80b5572cf8b9a8b3e3b0b102d41fabf47c55e7ef24d38ef"
+        "modified": "2026-09-02T21:37:09.522122-07:00",
+        "sha256": "ee5b95d86bc2c5734b546c37e535c796c5e89a2f1a4877faf02f0667abb93c15"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-02T21:31:50.300315-07:00",
+        "modified": "2026-09-02T21:37:09.524632-07:00",
         "sha256": "6cbdef6968231f79f7c2c0f53fe13a8f1ad987400be17882d3b376ec187272a3"
       },
       "rivens.json": {
@@ -46,23 +46,7 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [
-      {
-        "item": "Hildryn Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Hildryn Prime Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      }
-    ],
+    "importChanges": [],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -74,23 +58,23 @@
       "Axi D6 Intact": 2,
       "Axi S20 Intact": 4,
       "Axi T13 Intact": 1,
-      "Lith A12 Intact": 10,
+      "Lith A12 Intact": 12,
       "Lith A12 Radiant": 3,
       "Lith C14 Exceptional": 1,
       "Lith C14 Intact": 4,
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
-      "Lith G14 Intact": 20,
-      "Lith K12 Intact": 28,
+      "Lith G14 Intact": 22,
+      "Lith K12 Intact": 29,
       "Lith K12 Radiant": 8,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 7,
-      "Lith S18 Intact": 3,
-      "Lith T14 Intact": 14,
+      "Lith Q3 Intact": 9,
+      "Lith S18 Intact": 8,
+      "Lith T14 Intact": 17,
       "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
@@ -101,25 +85,25 @@
       "Meso K8 Intact": 50,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
-      "Meso L5 Intact": 38,
+      "Meso L5 Intact": 39,
       "Meso V13 Intact": 37,
-      "Meso V15 Intact": 49,
+      "Meso V15 Intact": 51,
       "Meso V15 Radiant": 2,
-      "Meso X1 Intact": 32,
+      "Meso X1 Intact": 33,
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 32,
       "Neo A16 Intact": 6,
-      "Neo C7 Intact": 24,
+      "Neo C7 Intact": 25,
       "Neo C7 Radiant": 0,
-      "Neo C8 Intact": 6,
-      "Neo C9 Intact": 17,
+      "Neo C8 Intact": 7,
+      "Neo C9 Intact": 18,
       "Neo K9 Intact": 7,
       "Neo N24 Intact": 2,
       "Neo P10 Intact": 9,
       "Neo S20 Intact": 9,
       "Neo T11 Intact": 20,
       "Neo V11 Intact": 9,
-      "Neo V12 Intact": 19,
+      "Neo V12 Intact": 20,
       "Neo Y1 Intact": 12,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
@@ -2987,7 +2971,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Owned relics first; current Void Relic farms for more",
-      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 9 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -2997,7 +2981,7 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 7,
+          "ownedRelics": 9,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
@@ -15081,14 +15065,14 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 7,
+          "ownedRelics": 9,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
       "primeStatus": "OWNED RELICS",
-      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 9 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
