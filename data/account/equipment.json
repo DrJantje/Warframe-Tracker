@@ -2432,18 +2432,18 @@
         "name": "A",
         "mods": [
           {
+            "name": "Scorch",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
             "name": "Pistol Pestilence",
             "rank": 3,
             "kind": "mod"
           },
           {
-            "name": "Accelerated Isotope",
+            "name": "Jolt",
             "rank": 3,
-            "kind": "mod"
-          },
-          {
-            "name": "Anemic Agility",
-            "rank": 5,
             "kind": "mod"
           },
           {
@@ -2452,8 +2452,8 @@
             "kind": "mod"
           },
           {
-            "name": "Hornet Strike",
-            "rank": 10,
+            "name": "Primed Fulmination",
+            "rank": 8,
             "kind": "mod"
           },
           {
@@ -2462,8 +2462,8 @@
             "kind": "mod"
           },
           {
-            "name": "Gunslinger",
-            "rank": 5,
+            "name": "Hornet Strike",
+            "rank": 10,
             "kind": "mod"
           }
         ],
@@ -5149,7 +5149,7 @@
     "buildRef": "melee-142",
     "name": "Coda Hirudo",
     "category": "Melee",
-    "xp": 166673,
+    "xp": 485684,
     "formaApplied": 4,
     "focusLens": null,
     "polarities": [
@@ -7777,7 +7777,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 230738241,
+    "xp": 231609433,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -8124,7 +8124,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 54704668,
+    "xp": 55575860,
     "formaApplied": 1,
     "focusLens": null,
     "polarities": [
@@ -12827,12 +12827,12 @@
         "name": "A",
         "mods": [
           {
-            "name": "Continuity",
+            "name": "Augur Message",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Vigilante Vigor",
+            "name": "Augur Reach",
             "rank": 5,
             "kind": "mod"
           },
@@ -12842,7 +12842,7 @@
             "kind": "mod"
           },
           {
-            "name": "Fast Deflection",
+            "name": "Augur Secrets",
             "rank": 5,
             "kind": "mod"
           },
@@ -12857,20 +12857,20 @@
             "kind": "mod"
           },
           {
-            "name": "Mecha Empowered",
+            "name": "Corrosive Projection",
             "rank": 5,
             "kind": "mod"
           }
         ],
         "arcanes": [
           {
-            "name": "Arcane Velocity",
+            "name": "Arcane Expertise",
             "rank": 5,
             "kind": "arcane"
           },
           {
-            "name": "Arcane Barrier",
-            "rank": 1,
+            "name": "Arcane Velocity",
+            "rank": 5,
             "kind": "arcane"
           }
         ],
@@ -21265,7 +21265,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 14281135,
+    "xp": 14281955,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -22161,7 +22161,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 583374394,
+    "xp": 583991722,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -22317,7 +22317,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 562602790,
+    "xp": 563198306,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -22339,8 +22339,8 @@
             "kind": "mod"
           },
           {
-            "name": "Magnetic Claws",
-            "rank": 3,
+            "name": "Precision Conditioning",
+            "rank": 6,
             "kind": "mod"
           },
           {
@@ -22369,7 +22369,7 @@
             "kind": "mod"
           },
           {
-            "name": "Frenzied Posture",
+            "name": "Assassin Posture",
             "rank": 3,
             "kind": "mod"
           }
@@ -31289,7 +31289,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 22408543,
+    "xp": 23279735,
     "formaApplied": 4,
     "focusLens": "Greater Madurai Lens",
     "polarities": [
@@ -32874,6 +32874,40 @@
     "buildRef": "kubrowpets-017",
     "name": "Vasca Kavat",
     "category": "KubrowPets",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "specialitems-054",
+    "name": "Vasca Pet Weapon",
+    "category": "SpecialItems",
     "xp": 0,
     "formaApplied": 0,
     "focusLens": null,

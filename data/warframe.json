@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-01",
-    "exportVerifiedAt": "2026-09-01 21:04:38 PDT",
+    "snapshotDate": "2026-09-02",
+    "exportVerifiedAt": "2026-09-02 21:31:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167728,
-        "modified": "2026-09-01T21:04:37.602572-07:00",
-        "sha256": "cbef6399ff22378bf829d70790107177766b38e9e11d0427f62b7d6b434de701"
+        "bytes": 2167780,
+        "modified": "2026-09-02T21:31:50.292116-07:00",
+        "sha256": "2d737e8064b217e046be5e01ac6e3fb74d472c2b797a27fdb566fb44a2abe693"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-01T21:04:37.605076-07:00",
-        "sha256": "7dc5e2c92209fece12be226805333b069c28759853728eb3c83187ecd4e8ab0a"
+        "modified": "2026-09-02T21:31:50.297299-07:00",
+        "sha256": "d5cfa904918ec36d0527b736312155429af1b7538b910ed7a2950f81aa0e105a"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-01T21:04:37.603572-07:00",
+        "modified": "2026-09-02T21:31:50.294281-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-01T21:04:37.604572-07:00",
+        "modified": "2026-09-02T21:31:50.295788-07:00",
         "sha256": "b4da6c29ee21c3fcb80b5572cf8b9a8b3e3b0b102d41fabf47c55e7ef24d38ef"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-01T21:04:37.606077-07:00",
+        "modified": "2026-09-02T21:31:50.300315-07:00",
         "sha256": "6cbdef6968231f79f7c2c0f53fe13a8f1ad987400be17882d3b376ec187272a3"
       },
       "rivens.json": {
@@ -46,13 +46,29 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Hildryn Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hildryn Prime Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 210
+      "missing": 209
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -1334,7 +1350,9 @@
       "source": "https://wiki.warframe.com/w/Dera_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Dera Vandal Stock"
+      ],
       "practicalPriority": 760
     },
     {
@@ -1379,7 +1397,9 @@
       "source": "https://wiki.warframe.com/w/Strun_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Strun Wraith Barrel"
+      ],
       "practicalPriority": 760
     },
     {
@@ -2446,22 +2466,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Hildryn Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Hildryn Prime Neuroptics Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Hildryn_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3583,6 +3587,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Gauss"
+    },
+    {
+      "item": "Hildryn Prime",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Hildryn_Prime"
     }
   ],
   "rank40": [
@@ -7291,7 +7304,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Dera Vandal Stock"
+      ]
     },
     {
       "item": "Despair",
@@ -10036,24 +10051,21 @@
     {
       "item": "Hildryn Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Hildryn Prime Neuroptics Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Hildryn_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Hind",
@@ -17004,7 +17016,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Strun Wraith Barrel"
+      ]
     },
     {
       "item": "Stubba",
