@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-02",
-    "exportVerifiedAt": "2026-09-02 21:37:10 PDT",
+    "exportVerifiedAt": "2026-09-02 23:24:28 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167780,
-        "modified": "2026-09-02T21:37:09.520612-07:00",
-        "sha256": "8e8d7df4b4c70e322bb52ef4b271f03c04516901a80c200835592f80f00ca15f"
+        "bytes": 2167778,
+        "modified": "2026-09-02T23:24:28.157133-07:00",
+        "sha256": "7eb210baaf60d89a882ddf648c97722024f0eca71cb936f2eabc56c169e0460e"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-02T21:37:09.523125-07:00",
+        "modified": "2026-09-02T23:24:28.164299-07:00",
         "sha256": "d5cfa904918ec36d0527b736312155429af1b7538b910ed7a2950f81aa0e105a"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-02T21:37:09.522122-07:00",
+        "modified": "2026-09-02T23:24:28.159654-07:00",
         "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-02T21:37:09.522122-07:00",
+        "modified": "2026-09-02T23:24:28.162283-07:00",
         "sha256": "ee5b95d86bc2c5734b546c37e535c796c5e89a2f1a4877faf02f0667abb93c15"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-02T21:37:09.524632-07:00",
+        "modified": "2026-09-02T23:24:28.168834-07:00",
         "sha256": "6cbdef6968231f79f7c2c0f53fe13a8f1ad987400be17882d3b376ec187272a3"
       },
       "rivens.json": {
@@ -46,7 +46,53 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock"
+        ]
+      },
+      {
+        "item": "Qorvex",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Vasca Kavat",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -831,9 +877,9 @@
       "item": "Mandonel",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
       "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "source": "https://wiki.warframe.com/w/Mandonel",
       "vaulted": "No",
@@ -3545,15 +3591,6 @@
     }
   ],
   "owned": [
-    {
-      "item": "Vasca Kavat",
-      "type": "companion",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Vasca_Kavat"
-    },
     {
       "item": "Baruuk Prime",
       "type": "warframe",
@@ -12279,14 +12316,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
@@ -14953,7 +14990,7 @@
       "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -18620,14 +18657,14 @@
     {
       "item": "Vasca Kavat",
       "type": "companion",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Companion breeding in the Orbiter Incubator",
       "vaulted": "No",
       "pendingFoundry": "No",

@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-03T04:37:09.797488+00:00
-Account snapshot: 2026-09-03T04:35:07.277Z
+Generated: 2026-09-03T06:24:28.524422+00:00
+Account snapshot: 2026-09-03T06:22:23.181Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Frame observation: Titania (arsenal-selected)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -54,16 +54,16 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Companion: Titania
 
-#### Companion: Panzer Vulpaphyla — config A
+#### Companion: Vasca Kavat — config A
 
 - Forma: 0
-- Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Mods: Draining Bite (rank 3), Sharpened Claws (rank 3), Fetch (rank 5), Transfusion (rank 3), Primed Animal Instinct (rank 10)
 - Arcanes: none recorded
 
-#### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
+#### Companion natural weapon: Vasca Pet Weapon — config A
 
 - Forma: 0
-- Mods: Swipe (rank 3), Magnetic Strike (rank 3), Precision Conditioning (rank 6), Maul (rank 10), Radon Claws (rank 3), Sepsis Claws (rank 8), Bell Ringer (rank 3), Bite (rank 10), Assassin Posture (rank 3)
+- Mods: Magnetic Strike (rank 3), Bell Ringer (rank 3), Precision Conditioning (rank 8), Radon Claws (rank 3), Bite (rank 10), Maul (rank 10), Sepsis Claws (rank 8), Assassin Posture (rank 3)
 - Arcanes: none recorded
 
 ## Last completed session

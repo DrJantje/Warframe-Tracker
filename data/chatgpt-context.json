@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-03T04:37:09.797488+00:00",
+  "generatedAt": "2026-09-03T06:24:28.524422+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-03T04:35:07.277Z",
+  "accountSnapshotAt": "2026-09-03T06:22:23.181Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-03T04:35:07.277Z",
+      "capturedAt": "2026-09-03T06:22:23.181Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-03T04:35:08.666Z",
+    "observedAt": "2026-09-03T06:23:29.449Z",
     "phase": "mission",
-    "node": "PLAYER SHIP",
+    "node": "ORDIS NEXT",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": null,
+    "missionKey": "SolNode118_Sortie",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameConfidence": "arsenal-selected",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1517,40 +1517,25 @@
       "name": "Titania",
       "slots": {
         "Companion": {
-          "buildRef": "kubrowpets-006",
+          "buildRef": "kubrowpets-017",
           "resolutionStatus": "exact-build-ref",
-          "item": "Panzer Vulpaphyla",
+          "item": "Vasca Kavat",
           "category": "KubrowPets",
           "configuration": "A",
           "formaApplied": 0,
           "focusLens": null,
-          "polarities": [
-            {
-              "slot": 2,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_ATTACK"
-            }
-          ],
-          "modularParts": [
-            "Poxi Antigen",
-            "Zarim Mutagen"
-          ],
+          "polarities": [],
+          "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Viral Quills",
+              "name": "Draining Bite",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Sharpened Claws",
               "rank": 3,
               "kind": "mod"
             },
@@ -1560,22 +1545,7 @@
               "kind": "mod"
             },
             {
-              "name": "Synth Deconstruct",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Calculated Redirection",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Martyr Symbiosis",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Panzer Devolution",
+              "name": "Transfusion",
               "rank": 3,
               "kind": "mod"
             },
@@ -1583,29 +1553,14 @@
               "name": "Primed Animal Instinct",
               "rank": 10,
               "kind": "mod"
-            },
-            {
-              "name": "Resourceful Retriever",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Reinforced Bond",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Tenacious Bond",
-              "rank": 5,
-              "kind": "mod"
             }
           ],
           "arcanes": []
         },
         "Companion natural weapon": {
-          "buildRef": "specialitems-029",
+          "buildRef": "specialitems-054",
           "resolutionStatus": "exact-build-ref",
-          "item": "Panzer Vulpaphyla Pet Weapon",
+          "item": "Vasca Pet Weapon",
           "category": "SpecialItems",
           "configuration": "A",
           "formaApplied": 0,
@@ -1616,33 +1571,8 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Swipe",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
               "name": "Magnetic Strike",
               "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Precision Conditioning",
-              "rank": 6,
-              "kind": "mod"
-            },
-            {
-              "name": "Maul",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Radon Claws",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Sepsis Claws",
-              "rank": 8,
               "kind": "mod"
             },
             {
@@ -1651,8 +1581,28 @@
               "kind": "mod"
             },
             {
+              "name": "Precision Conditioning",
+              "rank": 8,
+              "kind": "mod"
+            },
+            {
+              "name": "Radon Claws",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
               "name": "Bite",
               "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Maul",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Sepsis Claws",
+              "rank": 8,
               "kind": "mod"
             },
             {
