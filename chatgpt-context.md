@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-03T07:00:28.384344+00:00
-Account snapshot: 2026-09-03T06:58:21.835Z
+Generated: 2026-09-03T07:31:46.423662+00:00
+Account snapshot: 2026-09-03T07:29:40.284Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
 - Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -17,33 +17,22 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Ivara Sneaky
+### Arsenal: Titania
 
-#### Warframe: Ivara Prime — config A
+#### Warframe: Titania Prime — config A
 
-- Forma: 0
-- Mods: Rolling Guard (rank 10), Narrow Minded (rank 10), Archon Continuity (rank 10), Primed Flow (rank 10), Preparation (rank 6), Streamline (rank 5), Infiltrate (rank 3), Energy Siphon (rank 5), Thief's Wit (rank 5)
-- Arcanes: Arcane Energize (rank 5), Molt Efficiency (rank 5)
+- Forma: 4
+- Lens: Greater Madurai Lens
+- Helminth: Xata's Whisper
+- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
+- Mods: Fleeting Expertise (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
+- Arcanes: Arcane Camisado (rank 5), Arcane Impetus (rank 5)
 
-#### Secondary: Kuva Nukor — config C
-
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Suppress (rank 3), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Sharpened Bullets (rank 5), Lethal Torrent (rank 5), Hornet Strike (rank 10), Primed Target Cracker (rank 10), Ruinous Extension (rank 3)
-- Arcanes: Secondary Enervate (rank 5)
-
-#### Primary: Coda Bassocyst — config B
+#### Melee: Coda Hirudo — config A
 
 - Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Silent Battery (rank 3), Semi-Shotgun Cannonade (rank 5), Primed Chilling Grasp (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
-
-#### Melee: Coda Mire — config B
-
-- Forma: 5
-- Mods: Amalgam Organ Shatter (rank 5), Galvanized Elementalist (rank 10), Galvanized Steel (rank 9), Gladiator Vice (rank 5), Blood Rush (rank 10), Primed Reach (rank 10), Condition Overload (rank 5), Swooping Falcon (rank 3)
-- Arcanes: Melee Doughty (rank 5)
+- Mods: Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Drifting Contact (rank 3), Organ Shatter (rank 5), True Steel (rank 5), Pressure Point (rank 5), Primed Reach (rank 10), Brutal Tide (rank 3)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 
@@ -51,13 +40,25 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-#### Exalted weapon: Artemis Bow Prime — config A
+#### Exalted weapon: Dex Pixia Prime — config A
+
+- Forma: 7
+- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
+- Arcanes: Secondary Enervate (rank 5)
+
+#### Second exalted weapon: Diwata Prime — config A
 
 - Forma: 1
-- Mods: Vile Acceleration (rank 5), Malignant Force (rank 3), Vital Sense (rank 5), Critical Delay (rank 5), Galvanized Aptitude (rank 10), Rime Rounds (rank 3), Galvanized Chamber (rank 10), Serration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
+- Mods: Shocking Touch (rank 5), Fury (rank 5), Weeping Wounds (rank 5), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Body Count (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 9)
+- Arcanes: Melee Influence (rank 5)
 
-### Companion: Ivara Sneaky
+### Companion: Titania
+
+#### Companion: Panzer Vulpaphyla — config A
+
+- Forma: 0
+- Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
 
