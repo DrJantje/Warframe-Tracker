@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-03",
-    "exportVerifiedAt": "2026-09-03 03:20:35 PDT",
+    "snapshotDate": "2026-09-08",
+    "exportVerifiedAt": "2026-09-08 23:14:36 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167778,
-        "modified": "2026-09-03T03:20:35.369588-07:00",
-        "sha256": "b4cf0b82a8abd3b7c0c1c564df071cd1402f8c9cae823b530f49191f7d009ffb"
+        "bytes": 2167777,
+        "modified": "2026-09-08T23:14:11.606181-07:00",
+        "sha256": "4d1a3a7a28dd76854c46eeaa3c600db001754cbed315697dcf28edc75e579beb"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-03T03:20:35.372601-07:00",
-        "sha256": "d5cfa904918ec36d0527b736312155429af1b7538b910ed7a2950f81aa0e105a"
+        "modified": "2026-09-08T23:14:11.609222-07:00",
+        "sha256": "f5dc4942835b7c752649ed5cfe76a8a54c5f649e4c81a6371d102c9fa35af8ea"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-03T03:20:35.371096-07:00",
-        "sha256": "0de4c9f146a129e3e5a1592dbdb2187190aa847e3ce14ba44bf7e23f84a18cc8"
+        "modified": "2026-09-08T23:14:11.607696-07:00",
+        "sha256": "44e0912116ed8dcd13ab2ac07d0cfb5fe1ff0d9e190404c6710e2a3482b65426"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-03T03:20:35.372096-07:00",
-        "sha256": "ee5b95d86bc2c5734b546c37e535c796c5e89a2f1a4877faf02f0667abb93c15"
+        "modified": "2026-09-08T23:14:11.609222-07:00",
+        "sha256": "44b29bb715194545a5d0266437a7665daaa326fdc4602ddca06ba4b58b70bc14"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-03T03:20:35.374602-07:00",
-        "sha256": "6cbdef6968231f79f7c2c0f53fe13a8f1ad987400be17882d3b376ec187272a3"
+        "modified": "2026-09-08T23:14:11.612399-07:00",
+        "sha256": "01da15847c2aca02648bb36482dd2836558a881df87972f51bfe966975f57b48"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,7 +48,7 @@
     },
     "importChanges": [
       {
-        "item": "Qorvex",
+        "item": "Baruuk",
         "before": [
           "Yes",
           "Yes",
@@ -56,10 +56,175 @@
           ""
         ],
         "after": [
+          "No",
           "Yes",
-          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Baruuk Prime",
+        "before": [
+          "No",
+          "No",
           "Yes",
           ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Coda Hirudo",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Dera Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Dera Vandal Receiver; Dera Vandal Stock"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Gauss",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hespar",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)"
+        ]
+      },
+      {
+        "item": "Hildryn",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hildryn Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ]
+      },
+      {
+        "item": "Nidus",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nidus Neuroptics Blueprint; Nidus Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Prisma Gorgon",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prisma Gorgon (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Strun Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Strun Wraith Barrel; Strun Wraith Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Strun Wraith Barrel"
         ]
       }
     ],
@@ -68,7 +233,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 209
+      "missing": 206
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -88,27 +253,27 @@
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 9,
+      "Lith Q3 Intact": 8,
       "Lith S18 Intact": 8,
       "Lith T14 Intact": 17,
-      "Lith V11 Intact": 15,
+      "Lith V11 Intact": 14,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 30,
+      "Meso A12 Intact": 32,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 56,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 50,
+      "Meso K8 Intact": 51,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 39,
-      "Meso V13 Intact": 37,
+      "Meso V13 Intact": 39,
       "Meso V15 Intact": 51,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 33,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 32,
-      "Neo A16 Intact": 6,
+      "Meso Y2 Intact": 33,
+      "Neo A16 Intact": 7,
       "Neo C7 Intact": 25,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
@@ -120,7 +285,7 @@
       "Neo T11 Intact": 20,
       "Neo V11 Intact": 9,
       "Neo V12 Intact": 20,
-      "Neo Y1 Intact": 12,
+      "Neo Y1 Intact": 13,
       "Requiem I Intact": 10,
       "Requiem II Intact": 10,
       "Requiem III Intact": 10,
@@ -293,22 +458,6 @@
       "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
       "tip": "Check Baro’s current relay stock before trading.",
       "source": "https://wiki.warframe.com/w/Prisma_Dual_Decurions",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Prisma Gorgon",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Prisma Gorgon (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Gorgon",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -633,21 +782,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Hespar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
-      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
-      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
-      "source": "https://wiki.warframe.com/w/Hespar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Pathocyst",
       "type": "melee",
       "targetRank": "30",
@@ -660,6 +794,21 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Hespar",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)",
+      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 40 Thrax Plasm ×40: check the current official drop table.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
+      "source": "https://wiki.warframe.com/w/Hespar",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 415
     },
     {
       "ease": "5 — Long grind / trade",
@@ -784,21 +933,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Nidus",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Nidus Neuroptics Blueprint; Nidus Systems Blueprint",
-      "route": "Oestrus, Eris — Infested Salvage, all rotations",
-      "steps": "Update 42 added all three components to every Infested Salvage rotation. Rotation C still has the best odds; main blueprint: The Glast Gambit.",
-      "tip": "Keep vaporizer coverage high; stay through rotation C when practical for the best odds.",
-      "source": "https://wiki.warframe.com/w/Nidus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Cinta",
       "type": "primary",
       "targetRank": "30",
@@ -847,9 +981,9 @@
       "item": "Mandonel",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "source": "https://wiki.warframe.com/w/Mandonel",
       "vaulted": "No",
@@ -1320,8 +1454,25 @@
       "source": "https://wiki.warframe.com/w/Twin_Vipers_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Twin Vipers Wraith Receiver"
+      ],
       "practicalPriority": 660
+    },
+    {
+      "ease": "5 — Long grind / trade",
+      "item": "Strun Wraith",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Strun Wraith Barrel",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Strun_Wraith",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 755
     },
     {
       "ease": "4 — Multi-step farm",
@@ -1336,23 +1487,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 760
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Dera Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Dera Vandal Receiver; Dera Vandal Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Dera_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Dera Vandal Stock"
-      ],
       "practicalPriority": 760
     },
     {
@@ -1383,23 +1517,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 760
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Strun Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Strun Wraith Barrel; Strun Wraith Receiver",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Strun_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Strun Wraith Barrel"
-      ],
       "practicalPriority": 760
     },
     {
@@ -1662,14 +1779,49 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Akbolto Prime Barrel (0/2); Akbolto Prime Blueprint; Akbolto Prime Link; Akbolto Prime Receiver (0/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Akbolto Prime Barrel ×2 (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Blueprint (Common): buy Axi H5 from Varzia for Aya and open it Intact in a four-player share. Akbolto Prime Link (Uncommon): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver ×2 (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Akbolto Prime Barrel (0/2)",
+          "relic": "Lith K5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Akbolto Prime Blueprint",
+          "relic": "Axi H5",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Akbolto Prime Link",
+          "relic": "Neo B6",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Akbolto Prime Receiver (0/2)",
+          "relic": "Axi A12",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 520
     },
     {
@@ -1872,14 +2024,49 @@
       "type": "warframe",
       "targetRank": "30",
       "missing": "Banshee Prime Blueprint; Banshee Prime Chassis Blueprint; Banshee Prime Neuroptics Blueprint; Banshee Prime Systems Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Banshee Prime Blueprint (Uncommon): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Banshee Prime Chassis Blueprint (Rare): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Banshee Prime Neuroptics Blueprint (Common): buy Axi H5 from Varzia for Aya and open it Intact in a four-player share. Banshee Prime Systems Blueprint (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Banshee Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Banshee_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Banshee Prime Blueprint",
+          "relic": "Axi A12",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Banshee Prime Chassis Blueprint",
+          "relic": "Neo B6",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Banshee Prime Neuroptics Blueprint",
+          "relic": "Axi H5",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Banshee Prime Systems Blueprint",
+          "relic": "Lith K5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 520
     },
     {
@@ -2233,14 +2420,33 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Euphona Prime Barrel; Euphona Prime Receiver",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Euphona Prime Barrel (Uncommon): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Euphona Prime Barrel",
+          "relic": "Lith M7",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Euphona Prime Receiver",
+          "relic": "Meso E5",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 510
     },
     {
@@ -2457,14 +2663,41 @@
       "type": "companion",
       "targetRank": "30",
       "missing": "Helios Prime Blueprint; Helios Prime Cerebrum; Helios Prime Systems",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Helios Prime Blueprint (Uncommon): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Helios Prime Cerebrum (Rare): buy Axi H5 from Varzia for Aya and open it Radiant in a four-player share. Helios Prime Systems (Uncommon): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Helios Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Helios_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Helios Prime Blueprint",
+          "relic": "Meso E5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Helios Prime Cerebrum",
+          "relic": "Axi H5",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Helios Prime Systems",
+          "relic": "Axi A12",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 515
     },
     {
@@ -2569,14 +2802,33 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (0/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Kogake Prime Boot (Common): buy Axi A12 from Varzia for Aya and open it Intact in a four-player share. Kogake Prime Gauntlet ×2 (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Kogake Prime Boot (1/2)",
+          "relic": "Axi A12",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Kogake Prime Gauntlet (0/2)",
+          "relic": "Lith K5",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 504
     },
     {
@@ -2713,14 +2965,49 @@
       "type": "warframe",
       "targetRank": "30",
       "missing": "Mirage Prime Blueprint; Mirage Prime Chassis Blueprint; Mirage Prime Neuroptics Blueprint; Mirage Prime Systems Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Chassis Blueprint (Common): buy Axi A12 from Varzia for Aya and open it Intact in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Mirage Prime Systems Blueprint (Uncommon): buy Axi H5 from Varzia for Aya and open it Radiant in a four-player share. Build Mirage Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Mirage_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Mirage Prime Blueprint",
+          "relic": "Lith M7",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Mirage Prime Chassis Blueprint",
+          "relic": "Axi A12",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Mirage Prime Neuroptics Blueprint",
+          "relic": "Meso E5",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Mirage Prime Systems Blueprint",
+          "relic": "Axi H5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 520
     },
     {
@@ -2987,7 +3274,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Owned relics first; current Void Relic farms for more",
-      "steps": "Quassus Prime Blade (Rare): use your 9 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 8 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -2997,7 +3284,7 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 9,
+          "ownedRelics": 8,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
@@ -3562,31 +3849,22 @@
   ],
   "owned": [
     {
-      "item": "Baruuk Prime",
-      "type": "warframe",
-      "state": "Ready in Foundry",
+      "item": "Dera Vandal",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Baruuk_Prime"
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Dera_Vandal"
     },
     {
-      "item": "Gauss",
+      "item": "Nidus",
       "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Gauss"
-    },
-    {
-      "item": "Hildryn Prime",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Hildryn_Prime"
+      "source": "https://wiki.warframe.com/w/Nidus"
     }
   ],
   "rank40": [
@@ -3645,7 +3923,7 @@
       "type": "melee",
       "status": "Active to 40",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
       "action": "Continue applying and releveling until five total Forma and rank 40.",
       "formaPlan": "Five total Forma; exact current count not confirmed"
@@ -4113,16 +4391,51 @@
       "rankRule": "",
       "missing": "Akbolto Prime Barrel (0/2); Akbolto Prime Blueprint; Akbolto Prime Link; Akbolto Prime Receiver (0/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Akbolto Prime Barrel (0/2)",
+          "relic": "Lith K5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Akbolto Prime Blueprint",
+          "relic": "Axi H5",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Akbolto Prime Link",
+          "relic": "Neo B6",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Akbolto Prime Receiver (0/2)",
+          "relic": "Axi A12",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Akbolto Prime Barrel ×2 (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Blueprint (Common): buy Axi H5 from Varzia for Aya and open it Intact in a four-player share. Akbolto Prime Link (Uncommon): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver ×2 (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Akbronco",
@@ -5232,22 +5545,57 @@
       "rankRule": "",
       "missing": "Banshee Prime Blueprint; Banshee Prime Chassis Blueprint; Banshee Prime Neuroptics Blueprint; Banshee Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Banshee_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Banshee Prime Blueprint",
+          "relic": "Axi A12",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Banshee Prime Chassis Blueprint",
+          "relic": "Neo B6",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Banshee Prime Neuroptics Blueprint",
+          "relic": "Axi H5",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Banshee Prime Systems Blueprint",
+          "relic": "Lith K5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Banshee Prime Blueprint (Uncommon): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Banshee Prime Chassis Blueprint (Rare): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Banshee Prime Neuroptics Blueprint (Common): buy Axi H5 from Varzia for Aya and open it Intact in a four-player share. Banshee Prime Systems Blueprint (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Banshee Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Baruuk",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -5265,17 +5613,17 @@
     {
       "item": "Baruuk Prime",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Baruuk_Prime",
       "primeDetails": [],
@@ -6581,7 +6929,7 @@
       "type": "melee",
       "state": "Active to 40",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "40",
       "rankRule": "User confirmed this as an active five-Forma rank-40 project; exact current Forma count is not confirmed.",
@@ -7279,14 +7627,14 @@
     {
       "item": "Dera Vandal",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Dera Vandal Receiver; Dera Vandal Stock",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -7295,9 +7643,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Dera Vandal Stock"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Despair",
@@ -8376,16 +8722,35 @@
       "rankRule": "",
       "missing": "Euphona Prime Barrel; Euphona Prime Receiver",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Euphona Prime Barrel",
+          "relic": "Lith M7",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Euphona Prime Receiver",
+          "relic": "Meso E5",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Euphona Prime Barrel (Uncommon): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Evensong",
@@ -9043,17 +9408,17 @@
     {
       "item": "Gauss",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Kappa, Sedna — Disruption rotation C",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Gauss",
       "steps": "Farm all three components from rotation C; buy the main blueprint from the Market.",
@@ -9869,16 +10234,43 @@
       "rankRule": "",
       "missing": "Helios Prime Blueprint; Helios Prime Cerebrum; Helios Prime Systems",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Helios_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Helios Prime Blueprint",
+          "relic": "Meso E5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Helios Prime Cerebrum",
+          "relic": "Axi H5",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Helios Prime Systems",
+          "relic": "Axi A12",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Helios Prime Blueprint (Uncommon): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Helios Prime Cerebrum (Rare): buy Axi H5 from Varzia for Aya and open it Radiant in a four-player share. Helios Prime Systems (Uncommon): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Helios Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Helminth Charger",
@@ -9949,14 +10341,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)",
       "ease": "4 — Multi-step farm",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 40 Thrax Plasm ×40: check the current official drop table.",
       "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
@@ -10023,8 +10415,8 @@
     {
       "item": "Hildryn",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -10042,17 +10434,17 @@
     {
       "item": "Hildryn Prime",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Hildryn_Prime",
       "primeDetails": [],
@@ -10856,16 +11248,35 @@
       "rankRule": "",
       "missing": "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (0/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Kogake Prime Boot (1/2)",
+          "relic": "Axi A12",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Kogake Prime Gauntlet (0/2)",
+          "relic": "Lith K5",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Kogake Prime Boot (Common): buy Axi A12 from Varzia for Aya and open it Intact in a four-player share. Kogake Prime Gauntlet ×2 (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Kohm",
@@ -12286,14 +12697,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
@@ -12524,16 +12935,51 @@
       "rankRule": "",
       "missing": "Mirage Prime Blueprint; Mirage Prime Chassis Blueprint; Mirage Prime Neuroptics Blueprint; Mirage Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Mirage_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Mirage Prime Blueprint",
+          "relic": "Lith M7",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Mirage Prime Chassis Blueprint",
+          "relic": "Axi A12",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Mirage Prime Neuroptics Blueprint",
+          "relic": "Meso E5",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Mirage Prime Systems Blueprint",
+          "relic": "Axi H5",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Chassis Blueprint (Common): buy Axi A12 from Varzia for Aya and open it Intact in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Mirage Prime Systems Blueprint (Uncommon): buy Axi H5 from Varzia for Aya and open it Radiant in a four-player share. Build Mirage Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Mire",
@@ -13066,17 +13512,17 @@
     {
       "item": "Nidus",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Nidus Neuroptics Blueprint; Nidus Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Oestrus, Eris — Infested Salvage, all rotations",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nidus",
       "steps": "Update 42 added all three components to every Infested Salvage rotation. Rotation C still has the best odds; main blueprint: The Glast Gambit.",
@@ -14494,14 +14940,14 @@
     {
       "item": "Prisma Gorgon",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Prisma Gorgon (completed item)",
-      "ease": "4 — Multi-step farm",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -15072,14 +15518,14 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 9,
+          "ownedRelics": 8,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
       "primeStatus": "OWNED RELICS",
-      "steps": "Quassus Prime Blade (Rare): use your 9 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 8 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -16997,7 +17443,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Strun Wraith Barrel; Strun Wraith Receiver",
+      "missing": "Strun Wraith Barrel",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -17007,9 +17453,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Strun Wraith Barrel"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Stubba",
@@ -18527,7 +18971,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Twin Vipers Wraith Receiver"
+      ]
     },
     {
       "item": "Tysis",

@@ -1,0 +1,58 @@
+{
+  "stoppedAt": "2026-09-05T04:00:24.735998+00:00",
+  "startedAt": "2026-09-05T02:51:18.774642+00:00",
+  "durationSeconds": 4145.961,
+  "focusCounterAtCaptureEnd": 28088,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 28088,
+  "negativeItemDeltas": [],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "positiveItemDeltas": [],
+  "errorEventCount": 1,
+  "missions": [
+    {
+      "startedAt": "2026-09-05T02:51:23.909000+00:00",
+      "endedAt": "2026-09-05T02:51:24.411000+00:00",
+      "durationSeconds": 0.502,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode253_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T03:22:50.532000+00:00",
+      "endedAt": "2026-09-05T04:00:24.735998+00:00",
+      "durationSeconds": 2254.204,
+      "type": "DEVIL TOWER",
+      "node": "DEVIL TOWER",
+      "label": null,
+      "missionKey": "SolNode253_Hard",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 2,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "stoppedAt": "2026-09-09T06:03:48.316435+00:00",
+  "startedAt": "2026-09-09T03:53:27.926773+00:00",
+  "durationSeconds": 7820.39,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "positiveItemDeltas": [],
+  "errorEventCount": 4,
+  "missions": [
+    {
+      "startedAt": "2026-09-09T03:54:17.552000+00:00",
+      "endedAt": "2026-09-09T03:54:17.555000+00:00",
+      "durationSeconds": 0.003,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode14_ActiveMission",
+      "missionInstance": 0,
+      "voidTier": "VoidT1",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-09T05:25:03.765000+00:00",
+      "endedAt": "2026-09-09T05:25:12.136000+00:00",
+      "durationSeconds": 8.371,
+      "type": "EXTERMINATE",
+      "node": "SolNode14",
+      "label": null,
+      "missionKey": "SolNode14_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": "VoidT1",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-09T05:25:43.137000+00:00",
+      "endedAt": "2026-09-09T05:29:12.785000+00:00",
+      "durationSeconds": 209.648,
+      "type": "EXTERMINATE",
+      "node": "SolNode14",
+      "label": null,
+      "missionKey": "SolNode14_ActiveMission",
+      "missionInstance": 2,
+      "voidTier": "VoidT1",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-09T05:36:57.694000+00:00",
+      "endedAt": "2026-09-09T06:03:48.316435+00:00",
+      "durationSeconds": 1610.622,
+      "type": "SURVIVAL",
+      "node": "SolNode310",
+      "label": null,
+      "missionKey": "SolNode310_ActiveMission",
+      "missionInstance": 3,
+      "voidTier": "VoidT6",
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 4,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

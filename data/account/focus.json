@@ -1,11 +1,11 @@
 {
   "activeSchool": "Madurai",
   "schools": {
-    "Zenurik": 112265,
-    "Madurai": 338471,
+    "Zenurik": 175756,
+    "Madurai": 70777,
     "Vazarin": 56813,
-    "Unairu": 43943,
-    "Naramon": 60053
+    "Unairu": 87900,
+    "Naramon": 53
   },
   "unlockedNodes": [
     {
@@ -236,17 +236,27 @@
     {
       "name": "Rain Of Arrows",
       "school": "Madurai",
-      "level": 0
+      "level": 1
     },
     {
       "name": "Surging Storm",
       "school": "Madurai",
-      "level": 0
+      "level": 2
     },
     {
       "name": "Overwhelming Power",
       "school": "Madurai",
+      "level": 2
+    },
+    {
+      "name": "Affinity Spike",
+      "school": "Naramon",
       "level": 0
+    },
+    {
+      "name": "Downpour",
+      "school": "Madurai",
+      "level": 3
     }
   ],
   "intrinsicsAndSkills": {
@@ -258,14 +268,14 @@
       "Command": 10
     },
     "drifter": {
-      "Riding": 7,
+      "Riding": 8,
       "Opportunity": 10,
       "Combat": 10,
       "Endurance": 10
     },
     "progressCounters": {
       "railjack": 0,
-      "drifter": 191000
+      "drifter": 86000
     }
   }
 }

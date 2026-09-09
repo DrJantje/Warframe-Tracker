@@ -380,6 +380,11 @@ function nightwaveWarning(rows) {
   return warning('amber', 'Rotating Nightwave stock is unverified.', `Permanent stock is safe; check the in-game Cred Offerings for rotating items. Last manual inventory: ${formatDate(availability.checkedAt)}.`);
 }
 
+function resurgenceWarning() {
+  if (liveStatus.primeResurgence?.relicCatalogStatus === 'verified') return '';
+  return warning('amber', 'Prime Resurgence relic data is incomplete.', 'Your account inventory is current as of the capture time above. Check Varzia in game before buying Aya relics; current rotation recommendations are unavailable.');
+}
+
 function cards(rows, options = {}) {
   const visible = rows.slice(0, state.visible);
   if (!visible.length) return '<div class="empty">No matching targets. The void has, for once, filed its paperwork.</div>';
@@ -415,7 +420,7 @@ function content() {
   if (state.view === 'all') return allItemsView();
   if (state.view === 'relics') {
     const rows = data.vaulted.filter((row) => String(row.missing || '').trim()).filter(matches);
-    return `<section class="section-toolbar"><div><p class="eyebrow">PRIME PARTS AND RELICS</p><h2>Open what you own. Trade only for the bastard holdouts.</h2></div></section>${cards(rows)}`;
+    return `<section class="section-toolbar"><div><p class="eyebrow">PRIME PARTS AND RELICS</p><h2>Open what you own. Trade only for the bastard holdouts.</h2></div></section>${resurgenceWarning()}${cards(rows)}`;
   }
   const rows = actionableQueue.filter((row) => (state.type === 'all' || row.type === state.type) && matches(row));
   return `${invasionWarning()}${cards(rows, { featureFirst: true })}`;

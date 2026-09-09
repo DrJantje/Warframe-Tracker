@@ -23,7 +23,8 @@ const requiredPermanentNightwaveBlueprints = new Set([
   'Plasma Sword',
 ]);
 const activeResurgenceItems = new Set(live.primeResurgence.status === 'verified' ? live.primeResurgence.items : []);
-const expectedActiveResurgenceRelics = new Set(['Lith A9', 'Lith T13', 'Meso R6', 'Neo P8', 'Axi B9', 'Axi C9']);
+const activeResurgenceCatalog = live.primeResurgence.relicCatalogStatus === 'verified'
+  ? live.primeResurgence.relics || {} : {};
 const currentRelicExpectations = {
   'Afentis Prime': { part: 'Afentis Prime Blueprint', relic: 'Axi A22', rarity: 'Rare' },
   'Quassus Prime': { part: 'Quassus Prime Blade', relic: 'Lith Q3', rarity: 'Rare' },
@@ -395,10 +396,20 @@ if (wolf) {
 for (const item of activeResurgenceItems) {
   const row = cardByName.get(item);
   if (!row) continue;
+  if (row.primeStatus === 'DATA INCOMPLETE') {
+    if (row.primeDetails?.length || row.route !== 'Relic catalog refresh required'
+        || /buy (?:Lith|Meso|Neo|Axi)\b/i.test(row.steps || '')) {
+      fail('database', row, 'incomplete Prime data must not recommend unverified relic purchases');
+    }
+    continue;
+  }
   if (!row.primeDetails?.length) fail('database', row, 'active Prime Resurgence target lacks relic details');
-  const listedRelics = new Set((row.primeDetails || []).map((detail) => detail.relic));
-  for (const relic of listedRelics) {
-    if (!expectedActiveResurgenceRelics.has(relic)) fail('database', row, `stale Prime Resurgence relic ${relic}`);
+  for (const detail of row.primeDetails || []) {
+    const part = detail.part.replace(/ \([\d,]+\/[\d,]+\)$/, '');
+    const expected = activeResurgenceCatalog[detail.relic]?.rewards?.[part];
+    if (!expected || expected !== detail.rarity) {
+      fail('database', row, `unverified Prime Resurgence reward ${detail.relic}: ${part}`);
+    }
   }
   for (const part of parts(row).map((value) => value.replace(/ \([\d,]+\/[\d,]+\)$/, ''))) {
     if (!(row.primeDetails || []).some((detail) => detail.part.replace(/ \([\d,]+\/[\d,]+\)$/, '') === part)) {

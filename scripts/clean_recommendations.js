@@ -33,64 +33,8 @@ const activeResurgenceItems = new Set(live.primeResurgence.status === 'verified'
 const nightwaveTip = 'Cred Offerings rotate weekly. Check the Nightwave tab before spending Cred or farming unrelated items.';
 const permanentNightwaveTip = 'This Blueprint is permanent Cred Offering stock; buy it whenever you have enough Nightwave Cred.';
 const permanentWolfBeaconTip = 'Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.';
-const resurgenceRelicSource = 'Varzia for Aya during the current Prime Resurgence rotation';
-const activeResurgenceRelics = {
-  'Lith A9': {
-    source: resurgenceRelicSource,
-    rewards: {
-      'Afuris Prime Receiver': 'Rare',
-      'Phantasma Prime Blueprint': 'Uncommon',
-      'Orthos Prime Blade': 'Uncommon',
-      'Tatsu Prime Blueprint': 'Common',
-      'Cobra & Crane Prime Hilt': 'Common',
-    },
-  },
-  'Lith T13': {
-    source: resurgenceRelicSource,
-    rewards: {
-      'Tatsu Prime Handle': 'Rare',
-      'Revenant Prime Neuroptics Blueprint': 'Uncommon',
-      'Baruuk Prime Chassis Blueprint': 'Uncommon',
-      'Phantasma Prime Receiver': 'Common',
-    },
-  },
-  'Meso R6': {
-    source: resurgenceRelicSource,
-    rewards: {
-      'Revenant Prime Blueprint': 'Rare',
-      'Cobra & Crane Prime Blade': 'Uncommon',
-      'Orthos Prime Blueprint': 'Uncommon',
-      'Afuris Prime Barrel': 'Common',
-    },
-  },
-  'Neo P8': {
-    source: resurgenceRelicSource,
-    rewards: {
-      'Phantasma Prime Barrel': 'Rare',
-      'Revenant Prime Systems Blueprint': 'Uncommon',
-      'Afuris Prime Link': 'Uncommon',
-      'Baruuk Prime Systems Blueprint': 'Common',
-    },
-  },
-  'Axi B9': {
-    source: resurgenceRelicSource,
-    rewards: {
-      'Baruuk Prime Blueprint': 'Rare',
-      'Cobra & Crane Prime Blueprint': 'Uncommon',
-      'Baruuk Prime Neuroptics Blueprint': 'Uncommon',
-      'Afuris Prime Blueprint': 'Common',
-    },
-  },
-  'Axi C9': {
-    source: resurgenceRelicSource,
-    rewards: {
-      'Cobra & Crane Prime Guard': 'Rare',
-      'Tatsu Prime Blade': 'Uncommon',
-      'Phantasma Prime Stock': 'Uncommon',
-      'Revenant Prime Chassis Blueprint': 'Common',
-    },
-  },
-};
+const activeResurgenceRelics = live.primeResurgence.relicCatalogStatus === 'verified'
+  ? live.primeResurgence.relics || {} : {};
 const currentRelicCatalogs = {
   'Afentis Prime': {
     'Axi A22': {
@@ -544,6 +488,7 @@ function applyPrimeAvailability(row) {
   if (row.primeDetails.some((detail) => detail.ownedRelics > 0)) row.primeStatus = 'OWNED RELICS';
   if (catalogKind && row.primeDetails.length !== missingParts(row).length) {
     row.primeStatus = 'DATA INCOMPLETE';
+    row.primeDetails = [];
     row.route = 'Relic catalog refresh required';
     row.steps = 'Check the official drop tables for every missing part before spending Aya, Void Traces, or Platinum.';
     row.tip = 'The live item status and local relic-to-part catalog disagree; refresh the catalog before farming.';

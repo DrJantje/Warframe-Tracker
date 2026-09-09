@@ -1,0 +1,58 @@
+{
+  "stoppedAt": "2026-09-06T23:59:34.373565+00:00",
+  "startedAt": "2026-09-06T23:51:30.448824+00:00",
+  "durationSeconds": 483.925,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "positiveItemDeltas": [],
+  "errorEventCount": 1,
+  "missions": [
+    {
+      "startedAt": "2026-09-06T23:51:35.574000+00:00",
+      "endedAt": "2026-09-06T23:51:35.577000+00:00",
+      "durationSeconds": 0.003,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey_Key_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-06T23:56:12.199000+00:00",
+      "endedAt": "2026-09-06T23:59:34.373565+00:00",
+      "durationSeconds": 202.175,
+      "type": "OPEN WORLD",
+      "node": "SolNode236",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/DuviriMITW\\/DuviriMITWKey_Key_Hard",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 2,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

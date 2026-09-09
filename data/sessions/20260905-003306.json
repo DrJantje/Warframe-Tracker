@@ -1,0 +1,130 @@
+{
+  "stoppedAt": "2026-09-05T01:07:46.174595+00:00",
+  "startedAt": "2026-09-05T00:33:06.778271+00:00",
+  "durationSeconds": 2079.396,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "positiveItemDeltas": [],
+  "errorEventCount": 2,
+  "missions": [
+    {
+      "startedAt": "2026-09-05T00:33:16.577000+00:00",
+      "endedAt": "2026-09-05T00:38:58.065000+00:00",
+      "durationSeconds": 341.488,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EarthHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T00:43:28.207000+00:00",
+      "endedAt": "2026-09-05T00:45:10.149000+00:00",
+      "durationSeconds": 101.942,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode70_InvasionAttacker",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T00:45:09.070000+00:00",
+      "endedAt": "2026-09-05T00:47:06.241000+00:00",
+      "durationSeconds": 117.171,
+      "type": "CAPTURE",
+      "node": "SolNode70",
+      "label": null,
+      "missionKey": "SolNode70_InvasionAttacker",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T00:48:26.753000+00:00",
+      "endedAt": "2026-09-05T00:50:33.423000+00:00",
+      "durationSeconds": 126.67,
+      "type": "RESCUE",
+      "node": "SolNode70",
+      "label": null,
+      "missionKey": "SolNode70_InvasionAttacker",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T00:51:08.330000+00:00",
+      "endedAt": "2026-09-05T00:52:30.086000+00:00",
+      "durationSeconds": 81.756,
+      "type": "RESCUE",
+      "node": "SolNode70",
+      "label": null,
+      "missionKey": "SolNode70_InvasionAttacker",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T00:59:04.658000+00:00",
+      "endedAt": "2026-09-05T01:02:40.356000+00:00",
+      "durationSeconds": 215.698,
+      "type": "EXTERMINATE",
+      "node": "SolNode50",
+      "label": null,
+      "missionKey": "SolNode50_InvasionAttacker",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T01:03:22.127000+00:00",
+      "endedAt": "2026-09-05T01:07:01.349000+00:00",
+      "durationSeconds": 219.222,
+      "type": "INTERCEPTION",
+      "node": "SolNode50",
+      "label": null,
+      "missionKey": "SolNode50_InvasionAttacker",
+      "missionInstance": 5,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T01:07:38.976000+00:00",
+      "endedAt": "2026-09-05T01:07:46.174595+00:00",
+      "durationSeconds": 7.199,
+      "type": "INTERCEPTION",
+      "node": "SolNode50",
+      "label": null,
+      "missionKey": "SolNode50_InvasionAttacker",
+      "missionInstance": 6,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 8,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

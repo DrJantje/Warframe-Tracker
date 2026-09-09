@@ -1,0 +1,58 @@
+{
+  "stoppedAt": "2026-09-05T17:41:10.209535+00:00",
+  "startedAt": "2026-09-05T15:33:12.065412+00:00",
+  "durationSeconds": 7678.144,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "positiveItemDeltas": [],
+  "errorEventCount": 1,
+  "missions": [
+    {
+      "startedAt": "2026-09-05T15:33:37.602000+00:00",
+      "endedAt": "2026-09-05T15:33:38.105000+00:00",
+      "durationSeconds": 0.503,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-05T17:28:36.462000+00:00",
+      "endedAt": "2026-09-05T17:41:10.209535+00:00",
+      "durationSeconds": 753.748,
+      "type": "SANCTUM",
+      "node": "SolNode801",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 2,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

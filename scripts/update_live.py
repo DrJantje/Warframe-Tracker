@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import html
 import json
 import time
 from datetime import datetime, timezone
@@ -11,6 +10,7 @@ from worldstate import (
     PRIMARY_WORLD_STATE_URL,
     direct_world_state,
 )
+from prime_resurgence import current_resurgence
 
 ROOT = Path(__file__).resolve().parents[1]
 LIVE = ROOT / "data" / "live.json"
@@ -41,6 +41,12 @@ def fetch_text(url: str) -> str:
     request = Request(url, headers=HEADERS)
     with urlopen(request, timeout=20) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def fetch_bytes(url: str) -> bytes:
+    request = Request(url, headers=HEADERS)
+    with urlopen(request, timeout=20) as response:
+        return response.read()
 
 
 def load_existing_live() -> dict:
@@ -74,19 +80,14 @@ def update() -> bool:
         "checkedAt": checked_at.isoformat(),
         "baro": {"status": "unknown", "active": False, "endsAt": None, "items": [], "source": PRIMARY_WORLD_STATE_URL},
         "events": {"status": "unknown", "items": [], "source": PRIMARY_WORLD_STATE_URL},
-        "primeResurgence": {"status": "unknown", "items": [], "source": "https://www.warframe.com/en/prime-resurgence"},
     })
-
     try:
-        page = html.unescape(fetch_text(output["primeResurgence"]["source"]))
-        prime_names = sorted({
-            row["item"]
-            for row in tracker["arsenal"]
-            if row["item"].endswith(" Prime") and row["item"] in page
-        })
-        output["primeResurgence"].update(status="verified", items=prime_names)
-    except Exception as error:
-        print(f"Prime Resurgence inventory unavailable: {error}")
+        previous = json.loads(LIVE.read_text(encoding="utf-8")).get("primeResurgence", {})
+    except (OSError, ValueError):
+        previous = {}
+    output["primeResurgence"] = current_resurgence(
+        raw_world_state, tracker, checked_ms, previous, fetch_bytes, fetch_json, fetch_text,
+    )
 
     LIVE.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({

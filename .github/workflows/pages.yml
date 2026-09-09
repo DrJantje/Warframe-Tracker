@@ -26,8 +26,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Refresh DE world state
         run: python scripts/update_live.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Test world-state parsing
         run: python -m unittest discover -s tests -v
+      - name: Refresh and validate acquisition recommendations
+        run: |
+          node scripts/clean_recommendations.js
+          node scripts/fix_consistency.js
+          node scripts/validate_tracker.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,129 @@
+{
+  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
+  "startedAt": "2026-09-08T01:38:44.297821+00:00",
+  "durationSeconds": 1458.042,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Ren Hypercore",
+      "delta": -5
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 1136
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": 764
+    },
+    {
+      "item": "Plastids",
+      "delta": 280
+    },
+    {
+      "item": "Oxium",
+      "delta": 94
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    }
+  ],
+  "errorEventCount": 3,
+  "missions": [
+    {
+      "startedAt": "2026-09-08T01:38:50.939000+00:00",
+      "endedAt": "2026-09-08T01:38:50.942000+00:00",
+      "durationSeconds": 0.003,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SettlementNode15_InvasionAttacker",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-08T01:49:00.122000+00:00",
+      "endedAt": "2026-09-08T01:51:03.081000+00:00",
+      "durationSeconds": 122.959,
+      "type": "EXTERMINATE",
+      "node": "SettlementNode15",
+      "label": null,
+      "missionKey": "SettlementNode15_InvasionAttacker",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-08T01:53:56.049000+00:00",
+      "endedAt": "2026-09-08T01:56:46.442000+00:00",
+      "durationSeconds": 170.393,
+      "type": "EXTERMINATE",
+      "node": "SettlementNode15",
+      "label": null,
+      "missionKey": "SettlementNode15_InvasionAttacker",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-08T01:58:59.041000+00:00",
+      "endedAt": "2026-09-08T02:03:02.339558+00:00",
+      "durationSeconds": 243.299,
+      "type": "EXTERMINATE",
+      "node": "SettlementNode15",
+      "label": null,
+      "missionKey": "SettlementNode15_InvasionAttacker",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 4,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Rubedo",
+      "delta": 1136
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": 764
+    },
+    {
+      "item": "Plastids",
+      "delta": 280
+    },
+    {
+      "item": "Oxium",
+      "delta": 94
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
