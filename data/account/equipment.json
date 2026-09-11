@@ -1056,7 +1056,7 @@
     "buildRef": "spacesuits-002",
     "name": "Amesha",
     "category": "SpaceSuits",
-    "xp": 3110812,
+    "xp": 3335301,
     "formaApplied": 1,
     "focusLens": null,
     "polarities": [
@@ -2495,8 +2495,8 @@
     "buildRef": "specialitems-056",
     "name": "Balefire Charger Prime",
     "category": "SpecialItems",
-    "xp": 1456356,
-    "formaApplied": 3,
+    "xp": 1772595,
+    "formaApplied": 5,
     "focusLens": null,
     "polarities": [
       {
@@ -2510,6 +2510,14 @@
       {
         "slot": 4,
         "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 3,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 2,
+        "polarity": "AP_TACTIC"
       }
     ],
     "modularParts": [],
@@ -2525,18 +2533,18 @@
             "kind": "mod"
           },
           {
-            "name": "Jolt",
-            "rank": 3,
+            "name": "Convulsion",
+            "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Pistol Pestilence",
-            "rank": 3,
+            "name": "Pathogen Rounds",
+            "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Accelerated Isotope",
-            "rank": 3,
+            "name": "Magnum Force",
+            "rank": 8,
             "kind": "mod"
           },
           {
@@ -4904,7 +4912,7 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 54255353,
+    "xp": 55430449,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -11143,7 +11151,7 @@
     "buildRef": "melee-102",
     "name": "Furax Wraith",
     "category": "Melee",
-    "xp": 538837,
+    "xp": 946065,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -11155,17 +11163,7 @@
         "name": "A",
         "mods": [
           {
-            "name": "Magnetic Rush",
-            "rank": 3,
-            "kind": "mod"
-          },
-          {
-            "name": "True Steel",
-            "rank": 5,
-            "kind": "mod"
-          },
-          {
-            "name": "Pressure Point",
+            "name": "Amalgam Furax Body Count",
             "rank": 5,
             "kind": "mod"
           },
@@ -13167,7 +13165,7 @@
     "buildRef": "suits-058",
     "name": "Hildryn Prime",
     "category": "Suits",
-    "xp": 2150674,
+    "xp": 6620651,
     "formaApplied": 2,
     "focusLens": "Madurai Lens",
     "polarities": [
@@ -20533,6 +20531,82 @@
     ]
   },
   {
+    "buildRef": "suits-059",
+    "name": "Nidus",
+    "category": "Suits",
+    "xp": 1343545,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Streamline",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Vitality",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Steel Fiber",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Stretch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Intensify",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Pistol Amp",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Arcane Energize",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Arcane Blessing",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "specialitems-028",
     "name": "Noctua",
     "category": "SpecialItems",
@@ -21694,7 +21768,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 14782097,
+    "xp": 14873695,
     "formaApplied": 0,
     "focusLens": "Greater Madurai Lens",
     "polarities": [],
@@ -22590,7 +22664,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 626691496,
+    "xp": 631837766,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -22746,7 +22820,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 605159679,
+    "xp": 610131791,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -23889,7 +23963,7 @@
     "buildRef": "melee-060",
     "name": "Praedos",
     "category": "Melee",
-    "xp": 75371941,
+    "xp": 76118334,
     "formaApplied": 2,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -30820,7 +30894,7 @@
     "buildRef": "pistols-065",
     "name": "Tenet Cycron",
     "category": "Pistols",
-    "xp": 13097956,
+    "xp": 15218483,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [

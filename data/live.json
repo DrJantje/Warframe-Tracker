@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-09-09T06:14:36.450000Z",
-      "worldStateAt": "2026-09-09T06:13:58Z",
-      "ageSecondsAtCheck": 38
+      "checkedAt": "2026-09-11T04:21:12.579000Z",
+      "worldStateAt": "2026-09-11T04:20:34Z",
+      "ageSecondsAtCheck": 39
     }
   },
   "invasions": {
@@ -18,23 +18,24 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-09-09T06:14:36.450000Z",
-      "worldStateAt": "2026-09-09T06:13:58Z",
-      "ageSecondsAtCheck": 38
+      "checkedAt": "2026-09-11T04:21:12.579000Z",
+      "worldStateAt": "2026-09-11T04:20:34Z",
+      "ageSecondsAtCheck": 39
     },
     "rewards": [
       "Dera Vandal Blueprint",
       "Detonite Injector",
       "Fieldron",
       "Infested Alad Coordinate",
+      "Mutagen Mass",
       "Twin Vipers Wraith Receiver"
     ],
     "items": [
       {
-        "id": "6a9f8a9acc05c33348d07d45",
-        "activation": "2026-09-08T04:20:56.297000Z",
-        "node": "Adaro (Sedna)",
-        "nodeKey": "SolNode181",
+        "id": "6aa29cefd4b9238d332d285f",
+        "activation": "2026-09-10T12:18:42.223000Z",
+        "node": "Marid (Sedna)",
+        "nodeKey": "SolNode191",
         "desc": "Corpus Invasion Generic",
         "attacker": {
           "reward": {
@@ -69,53 +70,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 32165,
-        "requiredRuns": 32000,
-        "completion": 100.25781249999999,
-        "completed": true
-      },
-      {
-        "id": "6aa0c5d69c7ed9d25c5e7b04",
-        "activation": "2026-09-09T02:50:16.034000Z",
-        "node": "Selkie (Sedna)",
-        "nodeKey": "SolNode187",
-        "desc": "Corpus Invasion Generic",
-        "attacker": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Fieldron",
-                "key": "/Lotus/Types/Items/Research/EnergyComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Fieldron"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Detonite Injector",
-                "key": "/Lotus/Types/Items/Research/ChemComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Detonite Injector"
-          },
-          "faction": "Grineer",
-          "factionKey": "Grineer"
-        },
-        "vsInfestation": false,
-        "count": 1973,
-        "requiredRuns": 41000,
-        "completion": 52.40609756097561,
+        "count": 15611,
+        "requiredRuns": 49000,
+        "completion": 65.92959183673469,
         "completed": false
       },
       {
@@ -157,148 +114,16 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": 14142,
+        "count": 30815,
         "requiredRuns": 31000,
-        "completion": 72.80967741935484,
+        "completion": 99.70161290322581,
         "completed": false
       },
       {
-        "id": "6aa000f790aec69f57b30611",
-        "activation": "2026-09-08T12:35:02.550000Z",
-        "node": "Narcissus (Pluto)",
-        "nodeKey": "SolNode21",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 1,
-                "type": "Infested Alad Coordinate",
-                "key": "/Lotus/Types/Items/MiscItems/InfestedAladCoordinate"
-              }
-            ],
-            "credits": 0,
-            "asString": "Infested Alad Coordinate"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -45271,
-        "requiredRuns": 45000,
-        "completion": -0.6022222222222151,
-        "completed": true
-      },
-      {
-        "id": "6aa0209b57e700abdbe970bf",
-        "activation": "2026-09-08T14:50:02.410000Z",
-        "node": "Outer Terminus (Pluto)",
-        "nodeKey": "SolNode72",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Fieldron",
-                "key": "/Lotus/Types/Items/Research/EnergyComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Fieldron"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -35016,
-        "requiredRuns": 35000,
-        "completion": -0.04571428571429337,
-        "completed": true
-      },
-      {
-        "id": "6aa03a6297fa190a48d644dc",
-        "activation": "2026-09-08T16:40:01.766000Z",
-        "node": "Oceanum (Pluto)",
-        "nodeKey": "SolNode102",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 3,
-                "type": "Fieldron",
-                "key": "/Lotus/Types/Items/Research/EnergyComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "3 Fieldron"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -37000,
-        "requiredRuns": 37000,
-        "completion": 0.0,
-        "completed": true
-      },
-      {
-        "id": "6aa05fe233a1ef7259ba8490",
-        "activation": "2026-09-08T19:20:02.029000Z",
-        "node": "Acheron (Pluto)",
-        "nodeKey": "SolNode4",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 1,
-                "type": "Infested Alad Coordinate",
-                "key": "/Lotus/Types/Items/MiscItems/InfestedAladCoordinate"
-              }
-            ],
-            "credits": 0,
-            "asString": "Infested Alad Coordinate"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -31127,
-        "requiredRuns": 31000,
-        "completion": -0.409677419354848,
-        "completed": true
-      },
-      {
-        "id": "6a9fee36c12de7b060933f3e",
-        "activation": "2026-09-08T13:08:21.116000Z",
-        "node": "Nuovo (Ceres)",
-        "nodeKey": "SolNode137",
+        "id": "6aa297123ddd4b2d5d506823",
+        "activation": "2026-09-10T11:40:01.727000Z",
+        "node": "Ara (Mars)",
+        "nodeKey": "SolNode45",
         "desc": "Infested Invasion Generic",
         "attacker": {
           "reward": null,
@@ -322,50 +147,17 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -40161,
-        "requiredRuns": 40000,
-        "completion": -0.40249999999999453,
-        "completed": true
-      },
-      {
-        "id": "6aa0254a38f8c75e201e1d25",
-        "activation": "2026-09-08T15:10:02.253000Z",
-        "node": "Bode (Ceres)",
-        "nodeKey": "SolNode132",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 1,
-                "type": "Mutagen Mass",
-                "key": "/Lotus/Types/Items/Research/BioComponent"
-              }
-            ],
-            "credits": 0,
-            "asString": "Mutagen Mass"
-          },
-          "faction": "Grineer",
-          "factionKey": "Grineer"
-        },
-        "vsInfestation": true,
-        "count": -47108,
+        "count": -47663,
         "requiredRuns": 47000,
-        "completion": -0.22978723404254442,
+        "completion": -1.4106382978723353,
         "completed": true
       },
       {
-        "id": "6aa0254a38f8c75e201e1d26",
-        "activation": "2026-09-08T15:10:02.253000Z",
-        "node": "Exta (Ceres)",
-        "nodeKey": "SolNode144",
-        "desc": "Infested Invasion Boss",
+        "id": "6aa2b7e2a49bf55d5dd97a77",
+        "activation": "2026-09-10T15:50:40.243000Z",
+        "node": "Cerberus (Pluto)",
+        "nodeKey": "SolNode43",
+        "desc": "Infested Invasion Generic",
         "attacker": {
           "reward": null,
           "faction": "Infested",
@@ -377,25 +169,58 @@
             "countedItems": [
               {
                 "count": 3,
-                "type": "Detonite Injector",
-                "key": "/Lotus/Types/Items/Research/ChemComponent"
+                "type": "Fieldron",
+                "key": "/Lotus/Types/Items/Research/EnergyComponent"
               }
             ],
             "credits": 0,
-            "asString": "3 Detonite Injector"
+            "asString": "3 Fieldron"
           },
-          "faction": "Grineer",
-          "factionKey": "Grineer"
+          "faction": "Corpus",
+          "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -30065,
+        "count": -30367,
         "requiredRuns": 30000,
-        "completion": -0.216666666666665,
+        "completion": -1.2233333333333318,
         "completed": true
       },
       {
-        "id": "6aa0b69ae26865fb6843dedc",
-        "activation": "2026-09-09T02:57:52.924000Z",
+        "id": "6aa2e7ee58ff3c111715a8d4",
+        "activation": "2026-09-10T18:50:33.836000Z",
+        "node": "V Prime (Venus)",
+        "nodeKey": "SolNode123",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Fieldron",
+                "key": "/Lotus/Types/Items/Research/EnergyComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Fieldron"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": -49461,
+        "requiredRuns": 49000,
+        "completion": -0.9408163265306024,
+        "completed": true
+      },
+      {
+        "id": "6aa316ce5784af1a785448c2",
+        "activation": "2026-09-10T22:23:50.897000Z",
         "node": "Proteus (Neptune)",
         "nodeKey": "SolNode17",
         "desc": "Infested Invasion Generic",
@@ -421,14 +246,14 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -23407,
-        "requiredRuns": 38000,
-        "completion": 38.402631578947364,
+        "count": -42765,
+        "requiredRuns": 46000,
+        "completion": 7.032608695652176,
         "completed": false
       },
       {
-        "id": "6aa0d9c261a9e7fbf0ccd2ae",
-        "activation": "2026-09-09T04:00:01.947000Z",
+        "id": "6aa3503afc2db6c4f05678be",
+        "activation": "2026-09-11T00:50:01.901000Z",
         "node": "Psamathe (Neptune)",
         "nodeKey": "SolNode127",
         "desc": "Infested Invasion Boss",
@@ -454,16 +279,16 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -3605,
+        "count": -5368,
         "requiredRuns": 30000,
-        "completion": 87.98333333333333,
+        "completion": 82.10666666666665,
         "completed": false
       },
       {
-        "id": "6aa0bda3e2633bb5ab6b0d26",
-        "activation": "2026-09-09T03:32:36.654000Z",
-        "node": "Lex (Ceres)",
-        "nodeKey": "SolNode139",
+        "id": "6aa34357b40e3e154fd2f5e3",
+        "activation": "2026-09-11T01:15:49.713000Z",
+        "node": "Nuovo (Ceres)",
+        "nodeKey": "SolNode137",
         "desc": "Infested Invasion Generic",
         "attacker": {
           "reward": null,
@@ -487,13 +312,112 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -4129,
-        "requiredRuns": 32000,
-        "completion": 87.09687500000001,
+        "count": -11066,
+        "requiredRuns": 42000,
+        "completion": 73.65238095238095,
+        "completed": false
+      },
+      {
+        "id": "6aa3748fb8af9f2622546d41",
+        "activation": "2026-09-11T03:25:02.572000Z",
+        "node": "Bode (Ceres)",
+        "nodeKey": "SolNode132",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "Mutagen Mass"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "vsInfestation": true,
+        "count": -568,
+        "requiredRuns": 33000,
+        "completion": 98.27878787878788,
+        "completed": false
+      },
+      {
+        "id": "6aa3748fb8af9f2622546d42",
+        "activation": "2026-09-11T03:25:02.572000Z",
+        "node": "Cinxia (Ceres)",
+        "nodeKey": "SolNode147",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "Mutagen Mass"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "vsInfestation": true,
+        "count": -796,
+        "requiredRuns": 38000,
+        "completion": 97.90526315789474,
+        "completed": false
+      },
+      {
+        "id": "6aa3748fb8af9f2622546d43",
+        "activation": "2026-09-11T03:25:02.572000Z",
+        "node": "Exta (Ceres)",
+        "nodeKey": "SolNode144",
+        "desc": "Infested Invasion Boss",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Detonite Injector",
+                "key": "/Lotus/Types/Items/Research/ChemComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Detonite Injector"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "vsInfestation": true,
+        "count": -1186,
+        "requiredRuns": 30000,
+        "completion": 96.04666666666667,
         "completed": false
       }
     ],
-    "activeCount": 5
+    "activeCount": 8
   },
   "cetusCycle": {
     "status": "verified",
@@ -501,60 +425,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-09-09T06:14:36.450000Z",
-      "worldStateAt": "2026-09-09T06:13:58Z",
-      "ageSecondsAtCheck": 38
+      "checkedAt": "2026-09-11T04:21:12.579000Z",
+      "worldStateAt": "2026-09-11T04:20:34Z",
+      "ageSecondsAtCheck": 39
     },
-    "id": "cetusCycle1788939000000",
+    "id": "cetusCycle1789100940000",
     "state": "day",
-    "activation": "2026-09-09T05:50:00Z",
-    "expiry": "2026-09-09T07:30:00Z",
+    "activation": "2026-09-11T02:49:00Z",
+    "expiry": "2026-09-11T04:29:00Z",
     "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-09-09T08:20:16.162000Z",
+    "syndicateExpiry": "2026-09-11T05:19:55.908000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1788940800450",
+      "id": "earthCycle1789113600579",
       "state": "night",
-      "activation": "2026-09-09T04:00:00.450000Z",
-      "expiry": "2026-09-09T08:00:00.450000Z",
+      "activation": "2026-09-11T04:00:00.579000Z",
+      "expiry": "2026-09-11T08:00:00.579000Z",
       "isDay": false
     },
     "cetus": {
-      "id": "cetusCycle1788939000000",
+      "id": "cetusCycle1789100940000",
       "state": "day",
-      "activation": "2026-09-09T05:50:00Z",
-      "expiry": "2026-09-09T07:30:00Z",
+      "activation": "2026-09-11T02:49:00Z",
+      "expiry": "2026-09-11T04:29:00Z",
       "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-09-09T08:20:16.162000Z",
+      "syndicateExpiry": "2026-09-11T05:19:55.908000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1788935208000",
+      "id": "vallisCycle1789101608000",
       "state": "cold",
-      "activation": "2026-09-09T06:06:00Z",
-      "expiry": "2026-09-09T06:26:48Z",
+      "activation": "2026-09-11T04:20:00Z",
+      "expiry": "2026-09-11T04:40:08Z",
       "isWarm": false
     },
     "cambion": {
-      "id": "cambionCycle1788939000000",
+      "id": "cambionCycle1789100940000",
       "state": "fass",
-      "activation": "2026-09-09T05:50:00Z",
-      "expiry": "2026-09-09T07:30:00Z"
+      "activation": "2026-09-11T02:49:00Z",
+      "expiry": "2026-09-11T04:29:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1788942000000",
+      "id": "zarimanCycle1789104000000",
       "state": "corpus",
-      "activation": "2026-09-09T05:50:00Z",
-      "expiry": "2026-09-09T08:20:00Z",
+      "activation": "2026-09-11T02:50:00Z",
+      "expiry": "2026-09-11T05:20:00Z",
       "isCorpus": true
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-09-09T06:14:36.450645+00:00",
+  "checkedAt": "2026-09-11T04:21:12.579354+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -648,7 +572,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-09-09T06:14:36.450000Z",
+    "checkedAt": "2026-09-11T04:21:12.579000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionBansheeMirageVaultABronze",
       "/Lotus/Types/Game/Projections/T1VoidProjectionBansheeMirageVaultBBronze",
@@ -658,7 +582,7 @@
       "/Lotus/Types/Game/Projections/T4VoidProjectionBansheeMirageVaultBBronze"
     ],
     "expiresAt": "2026-10-01T18:00:00Z",
-    "catalogCheckedAt": "2026-09-09T06:11:33.863000Z",
+    "catalogCheckedAt": "2026-09-11T04:21:12.579000Z",
     "exportSource": "https://content.warframe.com/PublicExport/Manifest/ExportRelicArcane_en.json!00_4eaEZQ8tiUZreFQMUuDNAA"
   }
 }

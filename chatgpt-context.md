@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-09T06:14:36.067619+00:00
-Account snapshot: 2026-09-09T05:56:54.693Z
+Generated: 2026-09-11T04:21:12.151716+00:00
+Account snapshot: 2026-09-11T04:21:07.609Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,14 +10,14 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (server-sent)
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 0
+- Focus during current capture: 242273
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: Leveling
 
 #### Warframe: Hildryn Prime — config A
 
@@ -34,18 +34,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Dera Vandal — config A
+#### Primary: Coda Bubonico — config A
+
+- Forma: 5
+- Lens: Greater Unairu Lens
+- Mods: Scattering Inferno (rank 3), Toxic Barrage (rank 3), Shotgun Elementalist (rank 5), Primed Charged Shell (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
+
+#### Melee: Furax Wraith — config A
 
 - Forma: 0
-- Mods: Split Chamber (rank 5), Serration (rank 10)
+- Mods: Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
 - Arcanes: none recorded
-
-#### Melee: Praedos — config A
-
-- Forma: 2
-- Lens: Greater Unairu Lens
-- Mods: Galvanized Elementalist (rank 10), Drifting Contact (rank 3), Shocking Touch (rank 5), Condition Overload (rank 5), Berserker Fury (rank 5), Blood Rush (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Sovereign Outcast (rank 3)
-- Arcanes: Melee Influence (rank 5)
 
 #### Heavy weapon: Mausolon — config A
 
@@ -55,11 +55,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Exalted weapon: Balefire Charger Prime — config A
 
-- Forma: 3
-- Mods: Primed Heated Charge (rank 10), Jolt (rank 3), Pistol Pestilence (rank 3), Accelerated Isotope (rank 3), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10)
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Magnum Force (rank 8), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10)
 - Arcanes: Secondary Enervate (rank 5)
 
-### Companion: Hildryn
+### Companion: Leveling
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -67,10 +67,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Verglas Prime — config A
+#### Companion weapon: Lacerten — config A
 
-- Forma: 3
-- Mods: Sinister Reach (rank 3), Critical Delay (rank 5), Vital Sense (rank 5), Galvanized Aptitude (rank 10), Malignant Force (rank 3), Vile Acceleration (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
+- Forma: 0
+- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A

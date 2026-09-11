@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-08",
-    "exportVerifiedAt": "2026-09-08 23:14:36 PDT",
+    "snapshotDate": "2026-09-10",
+    "exportVerifiedAt": "2026-09-10 21:21:12 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167777,
-        "modified": "2026-09-08T23:14:11.606181-07:00",
-        "sha256": "4d1a3a7a28dd76854c46eeaa3c600db001754cbed315697dcf28edc75e579beb"
+        "bytes": 2167723,
+        "modified": "2026-09-10T21:21:11.780418-07:00",
+        "sha256": "a1e40fb181033c84022d130eabafa5f1ef43f37ad7e1f0f9a8c52968845a1b00"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-08T23:14:11.609222-07:00",
+        "modified": "2026-09-10T21:21:11.785026-07:00",
         "sha256": "f5dc4942835b7c752649ed5cfe76a8a54c5f649e4c81a6371d102c9fa35af8ea"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-08T23:14:11.607696-07:00",
+        "modified": "2026-09-10T21:21:11.782427-07:00",
         "sha256": "44e0912116ed8dcd13ab2ac07d0cfb5fe1ff0d9e190404c6710e2a3482b65426"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-08T23:14:11.609222-07:00",
-        "sha256": "44b29bb715194545a5d0266437a7665daaa326fdc4602ddca06ba4b58b70bc14"
+        "modified": "2026-09-10T21:21:11.783433-07:00",
+        "sha256": "a5247b3acbe776d6a91ae0e03e7358ed7e8c67bbad4bbb93ad7d469cf6b9afca"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-08T23:14:11.612399-07:00",
+        "modified": "2026-09-10T21:21:11.786546-07:00",
         "sha256": "01da15847c2aca02648bb36482dd2836558a881df87972f51bfe966975f57b48"
       },
       "rivens.json": {
@@ -48,138 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Baruuk",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Baruuk Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Coda Hirudo",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Dera Vandal",
+        "item": "Hema",
         "before": [
           "No",
           "No",
           "No",
-          "Dera Vandal Receiver; Dera Vandal Stock"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Gauss",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Hespar",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Hespar Blade Blueprint; Hespar Handle Blueprint"
+          "Hema Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)"
-        ]
-      },
-      {
-        "item": "Hildryn",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Hildryn Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Mandonel",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+          "Hema Blueprint; Forma Blueprint"
         ]
       },
       {
@@ -187,44 +67,14 @@
         "before": [
           "No",
           "No",
-          "No",
-          "Nidus Neuroptics Blueprint; Nidus Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
           "Yes",
           ""
-        ]
-      },
-      {
-        "item": "Prisma Gorgon",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Prisma Gorgon (completed item)"
         ],
         "after": [
           "Yes",
           "Yes",
           "No",
           ""
-        ]
-      },
-      {
-        "item": "Strun Wraith",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Strun Wraith Barrel; Strun Wraith Receiver"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Strun Wraith Barrel"
         ]
       }
     ],
@@ -246,7 +96,7 @@
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
       "Lith G14 Intact": 22,
-      "Lith K12 Intact": 29,
+      "Lith K12 Intact": 30,
       "Lith K12 Radiant": 8,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
@@ -259,11 +109,11 @@
       "Lith V11 Intact": 14,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 32,
+      "Meso A12 Intact": 33,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 56,
       "Meso E7 Intact": 11,
-      "Meso K8 Intact": 51,
+      "Meso K8 Intact": 52,
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 39,
@@ -274,7 +124,7 @@
       "Meso X1 Radiant": 3,
       "Meso Y2 Intact": 33,
       "Neo A16 Intact": 7,
-      "Neo C7 Intact": 25,
+      "Neo C7 Intact": 26,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
       "Neo C9 Intact": 18,
@@ -313,7 +163,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Forma Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -3856,15 +3706,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Dera_Vandal"
-    },
-    {
-      "item": "Nidus",
-      "type": "warframe",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Nidus"
     }
   ],
   "rank40": [
@@ -10319,7 +10160,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint",
+      "missing": "Hema Blueprint; Forma Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
@@ -13512,17 +13353,17 @@
     {
       "item": "Nidus",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Oestrus, Eris — Infested Salvage, all rotations",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nidus",
       "steps": "Update 42 added all three components to every Infested Salvage rotation. Rotation C still has the best odds; main blueprint: The Glast Gambit.",
