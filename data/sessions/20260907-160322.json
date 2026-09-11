@@ -1,91 +1,35 @@
 {
-  "configurationChanges": [
+  "negativeItemDeltas": [
     {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Koumei",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Arcane Sculptor"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Thrax Plasm",
+      "delta": -13
     },
     {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Protea Prime",
-      "configuration": "Range",
-      "added": [],
-      "removed": [
-        "Arcane Sculptor"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Stela",
+      "delta": -10
     },
     {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Protea Prime",
-      "configuration": "Strength",
-      "added": [],
-      "removed": [
-        "Arcane Sculptor"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "<Shard_yellow_simple> Amber Archon Shard",
+      "delta": -2
     },
     {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Vauban",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Cipher",
+      "delta": -2
     },
     {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Hildryn Prime",
-      "configuration": "A",
-      "added": [
-        "Augur Accord",
-        "Precision Intensify",
-        "Transient Fortitude",
-        "Boreal's Hatred",
-        "Arcane Sculptor"
-      ],
-      "removed": [
-        "Overextended",
-        "Augur Reach",
-        "Umbral Intensify",
-        "Adaptation",
-        "Arcane Velocity"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Shed Ability",
-      "helminthAfter": "Shed Ability"
+      "item": "Forma",
+      "delta": -2
     },
     {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Heated Charge",
-        "Primed Fulmination"
-      ],
-      "removed": [
-        "Scorch",
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Voidplume Pinion",
+      "delta": -2
+    },
+    {
+      "item": "Greater Madurai Lens",
+      "delta": -1
     }
   ],
-  "startedAt": "2026-09-07T16:03:22.655084+00:00",
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -188,42 +132,101 @@
       "delta": 1
     }
   ],
-  "missionCount": 11,
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 10404,
-  "equipmentAdded": [],
-  "schemaVersion": 1,
+  "durationSeconds": 10584.229,
   "focusCounterAtCaptureEnd": 10404,
-  "negativeItemDeltas": [
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 11,
+  "focusEarnedDuringCapture": 10404,
+  "configurationChanges": [
     {
-      "item": "Thrax Plasm",
-      "delta": -13
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Koumei",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Arcane Sculptor"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Stela",
-      "delta": -10
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Protea Prime",
+      "configuration": "Range",
+      "added": [],
+      "removed": [
+        "Arcane Sculptor"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "<Shard_yellow_simple> Amber Archon Shard",
-      "delta": -2
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Protea Prime",
+      "configuration": "Strength",
+      "added": [],
+      "removed": [
+        "Arcane Sculptor"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Cipher",
-      "delta": -2
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Vauban",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Forma",
-      "delta": -2
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Hildryn Prime",
+      "configuration": "A",
+      "added": [
+        "Augur Accord",
+        "Precision Intensify",
+        "Transient Fortitude",
+        "Boreal's Hatred",
+        "Arcane Sculptor"
+      ],
+      "removed": [
+        "Overextended",
+        "Augur Reach",
+        "Umbral Intensify",
+        "Adaptation",
+        "Arcane Velocity"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Shed Ability",
+      "helminthAfter": "Shed Ability"
     },
     {
-      "item": "Voidplume Pinion",
-      "delta": -2
-    },
-    {
-      "item": "Greater Madurai Lens",
-      "delta": -1
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Heated Charge",
+        "Primed Fulmination"
+      ],
+      "removed": [
+        "Scorch",
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
+  "equipmentAdded": [],
+  "errorEventCount": 4,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
   "missions": [
     {
       "startedAt": "2026-09-07T16:03:32.439000+00:00",
@@ -359,10 +362,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 10584.229,
-  "errorEventCount": 4,
-  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
-  "equipmentRemoved": [],
+  "startedAt": "2026-09-07T16:03:22.655084+00:00",
   "notableAcquisitions": [
     {
       "item": "Meso V13 Intact",

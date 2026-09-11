@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-11T04:21:12.151716+00:00",
+  "generatedAt": "2026-09-11T04:26:20.111792+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-11T04:21:07.618520+00:00",
+    "observedAt": "2026-09-11T04:26:15.679564+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 242273,
     "frameCandidate": "Titania",
-    "frameConfidence": "sync-awaiting-snapshot",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
@@ -1757,18 +1757,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260909-035327.json",
-    "startedAt": "2026-09-09T03:53:27.926773+00:00",
-    "stoppedAt": "2026-09-09T06:03:48.316435+00:00",
-    "durationSeconds": 7820.39,
-    "missionCount": 4,
-    "focusEarnedDuringCapture": 0,
+    "file": "20260911-030555.json",
+    "startedAt": "2026-09-11T03:05:55.187876+00:00",
+    "stoppedAt": "2026-09-11T04:26:17.212803+00:00",
+    "durationSeconds": 4822.025,
+    "missionCount": 1,
+    "focusEarnedDuringCapture": 242273,
     "topGains": [],
     "notableAcquisitions": [],
     "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 4
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

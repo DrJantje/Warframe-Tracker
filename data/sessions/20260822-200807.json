@@ -1,37 +1,51 @@
 {
-  "configurationChanges": [
+  "negativeItemDeltas": [
     {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Ferrofungus",
+      "delta": -6
     },
     {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Devil's Cap",
+      "delta": -4
     },
     {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Dull Button",
+      "delta": -4
+    },
+    {
+      "item": "Winter Spear",
+      "delta": -3
+    },
+    {
+      "item": "Air Support Charges",
+      "delta": -2
+    },
+    {
+      "item": "Gamma Berry",
+      "delta": -2
+    },
+    {
+      "item": "Lazulite Toroid",
+      "delta": -2
+    },
+    {
+      "item": "Thorn Tooth",
+      "delta": -2
+    },
+    {
+      "item": "Calda Toroid",
+      "delta": -1
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    },
+    {
+      "item": "Crisma Toroid",
+      "delta": -1
     }
   ],
-  "startedAt": "2026-08-22T20:08:07.929878+00:00",
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -106,58 +120,47 @@
       "delta": 1
     }
   ],
-  "missionCount": 11,
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
-  "schemaVersion": 1,
+  "durationSeconds": 19058.296,
   "focusCounterAtCaptureEnd": 0,
-  "negativeItemDeltas": [
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 11,
+  "focusEarnedDuringCapture": 0,
+  "configurationChanges": [
     {
-      "item": "Ferrofungus",
-      "delta": -6
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Devil's Cap",
-      "delta": -4
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Dull Button",
-      "delta": -4
-    },
-    {
-      "item": "Winter Spear",
-      "delta": -3
-    },
-    {
-      "item": "Air Support Charges",
-      "delta": -2
-    },
-    {
-      "item": "Gamma Berry",
-      "delta": -2
-    },
-    {
-      "item": "Lazulite Toroid",
-      "delta": -2
-    },
-    {
-      "item": "Thorn Tooth",
-      "delta": -2
-    },
-    {
-      "item": "Calda Toroid",
-      "delta": -1
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    },
-    {
-      "item": "Crisma Toroid",
-      "delta": -1
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
+  "equipmentAdded": [],
+  "errorEventCount": 7,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
   "missions": [
     {
       "startedAt": "2026-08-22T20:08:13.048000+00:00",
@@ -293,10 +296,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 19058.296,
-  "errorEventCount": 7,
-  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-  "equipmentRemoved": [],
+  "startedAt": "2026-08-22T20:08:07.929878+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
