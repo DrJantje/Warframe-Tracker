@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-12T02:58:21.186587+00:00
-Account snapshot: 2026-09-12T02:15:22.588Z
+Generated: 2026-09-12T21:04:24.363400+00:00
+Account snapshot: 2026-09-12T21:04:20.792Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: orbiter
-- Location: LOADOUT
-- Planet: unknown
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
 - Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -56,7 +56,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Exalted weapon: Dex Pixia Prime — config A
 
 - Forma: 7
-- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Accelerated Isotope (rank 3), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
+- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pistol Pestilence (rank 3), Accelerated Isotope (rank 3), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
 - Arcanes: Secondary Enervate (rank 5)
 
 #### Second exalted weapon: Diwata Prime — config A
