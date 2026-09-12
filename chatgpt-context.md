@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-12T01:55:15.057257+00:00
-Account snapshot: 2026-09-12T01:55:11.703Z
+Generated: 2026-09-12T02:06:13.128209+00:00
+Account snapshot: 2026-09-12T02:04:08.044Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: SABOTAGE
-- Planet: unknown
-- Frame observation: Titania (mission-active)
+- Location: LOCATION
+- Planet: MARS
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -34,12 +34,11 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Coda Bubonico — config A
+#### Primary: Dera Vandal — config A
 
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Scattering Inferno (rank 3), Toxic Barrage (rank 3), Shotgun Elementalist (rank 5), Primed Charged Shell (rank 10), Ravage (rank 5), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
+- Forma: 0
+- Mods: Split Chamber (rank 5), Serration (rank 10)
+- Arcanes: none recorded
 
 #### Melee: Praedos — config A
 

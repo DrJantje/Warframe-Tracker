@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-12T01:55:15.057257+00:00",
+  "generatedAt": "2026-09-12T02:06:13.128209+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-12T01:55:11.703Z",
+  "accountSnapshotAt": "2026-09-12T02:04:08.044Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-12T01:55:11.703Z",
+      "capturedAt": "2026-09-12T02:04:08.044Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-12T01:55:12.162Z",
+    "observedAt": "2026-09-12T02:04:09.805Z",
     "phase": "mission",
-    "node": "SettlementNode11",
-    "planet": "",
-    "mission": "SABOTAGE",
-    "missionKey": "SettlementNode11_InvasionAttacker",
+    "node": "GRINEER",
+    "planet": "MARS",
+    "mission": "LOCATION",
+    "missionKey": "SolNode36_LiteSortie",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "arsenal-active",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -311,108 +311,30 @@
           ]
         },
         "Primary": {
-          "buildRef": "longguns-069",
+          "buildRef": "longguns-113",
           "resolutionStatus": "exact-build-ref",
-          "item": "Coda Bubonico",
+          "item": "Dera Vandal",
           "category": "LongGuns",
           "configuration": "A",
-          "formaApplied": 5,
-          "focusLens": "Greater Unairu Lens",
-          "polarities": [
-            {
-              "slot": 0,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_ATTACK"
-            }
-          ],
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Scattering Inferno",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Toxic Barrage",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Shotgun Elementalist",
+              "name": "Split Chamber",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Primed Charged Shell",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Ravage",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Critical Deceleration",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Hell",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Savvy",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Acceleration",
+              "name": "Serration",
               "rank": 10,
               "kind": "mod"
             }
           ],
-          "arcanes": [
-            {
-              "name": "Primary Merciless",
-              "rank": 5,
-              "kind": "arcane"
-            }
-          ]
+          "arcanes": []
         },
         "Melee": {
           "buildRef": "melee-060",
