@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-10",
-    "exportVerifiedAt": "2026-09-10 21:26:20 PDT",
+    "snapshotDate": "2026-09-11",
+    "exportVerifiedAt": "2026-09-11 18:55:15 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167723,
-        "modified": "2026-09-10T21:26:19.782882-07:00",
-        "sha256": "a1e40fb181033c84022d130eabafa5f1ef43f37ad7e1f0f9a8c52968845a1b00"
+        "bytes": 2167722,
+        "modified": "2026-09-11T18:55:14.680157-07:00",
+        "sha256": "679643bc1d323d07d7788c188abb314b203968a748132c1da1f90ebe55bc17f1"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-10T21:26:19.785876-07:00",
+        "modified": "2026-09-11T18:55:14.684902-07:00",
         "sha256": "f5dc4942835b7c752649ed5cfe76a8a54c5f649e4c81a6371d102c9fa35af8ea"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-10T21:26:19.784878-07:00",
+        "modified": "2026-09-11T18:55:14.682887-07:00",
         "sha256": "44e0912116ed8dcd13ab2ac07d0cfb5fe1ff0d9e190404c6710e2a3482b65426"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-10T21:26:19.784878-07:00",
+        "modified": "2026-09-11T18:55:14.684397-07:00",
         "sha256": "a5247b3acbe776d6a91ae0e03e7358ed7e8c67bbad4bbb93ad7d469cf6b9afca"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-10T21:26:19.786875-07:00",
-        "sha256": "01da15847c2aca02648bb36482dd2836558a881df87972f51bfe966975f57b48"
+        "modified": "2026-09-11T18:55:14.687919-07:00",
+        "sha256": "7a00e1b7a4fab9b47721e427c674c7667b4f54e3fb0cecce7be297b3ca0842f7"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,59 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint; Forma Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint"
+        ]
+      },
+      {
+        "item": "Snipetron",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Snipetron Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Twin Vipers Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Twin Vipers Wraith Link; Twin Vipers Wraith Receivers"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Twin Vipers Wraith Link"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 206
+      "missing": 205
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -132,7 +178,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -1266,17 +1312,15 @@
       "item": "Twin Vipers Wraith",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Twin Vipers Wraith Link; Twin Vipers Wraith Receivers",
+      "missing": "Twin Vipers Wraith Link",
       "route": "Invasion reward rotation / player trade",
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "source": "https://wiki.warframe.com/w/Twin_Vipers_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Twin Vipers Wraith Receiver"
-      ],
-      "practicalPriority": 660
+      "liveMatches": [],
+      "practicalPriority": 655
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1320,7 +1364,9 @@
       "source": "https://wiki.warframe.com/w/Karak_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Karak Wraith Stock"
+      ],
       "practicalPriority": 760
     },
     {
@@ -1380,7 +1426,9 @@
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Receiver"
+      ],
       "practicalPriority": 765
     },
     {
@@ -1498,21 +1546,6 @@
       "steps": "Select it at an eligible Daily Tribute weapon milestone. Cephalon Simaris sells replacement Blueprints only after this weapon was previously chosen.",
       "tip": "This is a known login-gated route, not a standing shortcut for first acquisition.",
       "source": "https://wiki.warframe.com/w/Category:Daily_Tribute_Rewards",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 1105
-    },
-    {
-      "ease": "6 — Parked / time-gated",
-      "item": "Snipetron",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Snipetron Blueprint",
-      "route": "Limited event/vendor rotation",
-      "steps": "Wait for Plague Star, Star Days, or another announced return of the Blueprint.",
-      "tip": "Check Nakak during Operation: Plague Star and Ticker during Star Days. Buy the Blueprint before the temporary shop closes.",
-      "source": "https://wiki.warframe.com/w/Snipetron",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -3675,6 +3708,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Dera_Vandal"
+    },
+    {
+      "item": "Snipetron",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Snipetron"
     }
   ],
   "rank40": [
@@ -10129,7 +10171,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
@@ -10751,7 +10793,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Karak Wraith Stock"
+      ]
     },
     {
       "item": "Karyst",
@@ -16803,14 +16847,14 @@
     {
       "item": "Snipetron",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Snipetron Blueprint",
-      "ease": "6 — Parked / time-gated",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Limited event/vendor rotation",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -16840,7 +16884,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Receiver"
+      ]
     },
     {
       "item": "Sobek",
@@ -18771,7 +18817,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Twin Vipers Wraith Link; Twin Vipers Wraith Receivers",
+      "missing": "Twin Vipers Wraith Link",
       "ease": "4 — Multi-step farm",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -18781,9 +18827,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Twin Vipers Wraith Receiver"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Tysis",

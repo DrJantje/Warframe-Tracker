@@ -2495,8 +2495,8 @@
     "buildRef": "specialitems-056",
     "name": "Balefire Charger Prime",
     "category": "SpecialItems",
-    "xp": 1772595,
-    "formaApplied": 5,
+    "xp": 1121,
+    "formaApplied": 6,
     "focusLens": null,
     "polarities": [
       {
@@ -2518,6 +2518,10 @@
       {
         "slot": 2,
         "polarity": "AP_TACTIC"
+      },
+      {
+        "slot": 8,
+        "polarity": "AP_ATTACK"
       }
     ],
     "modularParts": [],
@@ -2533,8 +2537,8 @@
             "kind": "mod"
           },
           {
-            "name": "Convulsion",
-            "rank": 5,
+            "name": "Jolt",
+            "rank": 3,
             "kind": "mod"
           },
           {
@@ -2543,8 +2547,8 @@
             "kind": "mod"
           },
           {
-            "name": "Magnum Force",
-            "rank": 8,
+            "name": "Lethal Torrent",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -2565,6 +2569,11 @@
           {
             "name": "Hornet Strike",
             "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Lethal Momentum",
+            "rank": 3,
             "kind": "mod"
           }
         ],
@@ -4912,7 +4921,7 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 55430449,
+    "xp": 55439508,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -8040,7 +8049,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 263000524,
+    "xp": 263058727,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -8387,7 +8396,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 86966951,
+    "xp": 87025154,
     "formaApplied": 1,
     "focusLens": null,
     "polarities": [
@@ -11151,7 +11160,7 @@
     "buildRef": "melee-102",
     "name": "Furax Wraith",
     "category": "Melee",
-    "xp": 946065,
+    "xp": 947186,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -13165,7 +13174,7 @@
     "buildRef": "suits-058",
     "name": "Hildryn Prime",
     "category": "Suits",
-    "xp": 6620651,
+    "xp": 6621772,
     "formaApplied": 2,
     "focusLens": "Madurai Lens",
     "polarities": [
@@ -21768,7 +21777,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 14873695,
+    "xp": 14886939,
     "formaApplied": 0,
     "focusLens": "Greater Madurai Lens",
     "polarities": [],
@@ -22664,7 +22673,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 631837766,
+    "xp": 631909496,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -22820,7 +22829,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 610131791,
+    "xp": 610203143,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -23963,7 +23972,7 @@
     "buildRef": "melee-060",
     "name": "Praedos",
     "category": "Melee",
-    "xp": 76118334,
+    "xp": 76127393,
     "formaApplied": 2,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -28714,6 +28723,56 @@
     ]
   },
   {
+    "buildRef": "longguns-114",
+    "name": "Snipetron",
+    "category": "LongGuns",
+    "xp": 1121,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "High Voltage",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Serration",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-008",
     "name": "Soma",
     "category": "LongGuns",
@@ -30894,7 +30953,7 @@
     "buildRef": "pistols-065",
     "name": "Tenet Cycron",
     "category": "Pistols",
-    "xp": 15218483,
+    "xp": 15228663,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -31827,7 +31886,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 54670826,
+    "xp": 54729029,
     "formaApplied": 4,
     "focusLens": "Greater Madurai Lens",
     "polarities": [
