@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-12T02:06:13.128209+00:00",
+  "generatedAt": "2026-09-12T02:58:21.186587+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-12T02:04:08.044Z",
+  "accountSnapshotAt": "2026-09-12T02:15:22.588Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-12T02:04:08.044Z",
+      "capturedAt": "2026-09-12T02:15:22.588Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-12T02:04:09.805Z",
-    "phase": "mission",
-    "node": "GRINEER",
-    "planet": "MARS",
-    "mission": "LOCATION",
-    "missionKey": "SolNode36_LiteSortie",
+    "observedAt": "2026-09-12T02:26:14.548Z",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
+    "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-active",
+    "frameConfidence": "location-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1781,18 +1781,101 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260911-030555.json",
-    "startedAt": "2026-09-11T03:05:55.187876+00:00",
-    "stoppedAt": "2026-09-11T04:26:17.212803+00:00",
-    "durationSeconds": 4822.025,
-    "missionCount": 1,
-    "focusEarnedDuringCapture": 242273,
-    "topGains": [],
-    "notableAcquisitions": [],
-    "resourceGains": [],
+    "file": "20260912-013550.json",
+    "startedAt": "2026-09-12T01:35:50.873126+00:00",
+    "stoppedAt": "2026-09-12T02:26:14.800802+00:00",
+    "durationSeconds": 3023.928,
+    "missionCount": 7,
+    "focusEarnedDuringCapture": 0,
+    "topGains": [
+      {
+        "item": "Salvage",
+        "delta": 12204
+      },
+      {
+        "item": "Rubedo",
+        "delta": 268
+      },
+      {
+        "item": "Alloy Plate",
+        "delta": 242
+      },
+      {
+        "item": "Intact Sentient Core",
+        "delta": 38
+      },
+      {
+        "item": "Gallium",
+        "delta": 32
+      },
+      {
+        "item": "Morphics",
+        "delta": 28
+      },
+      {
+        "item": "Fieldron Sample",
+        "delta": 16
+      },
+      {
+        "item": "Riven Sliver",
+        "delta": 4
+      },
+      {
+        "item": "Nav Coordinate",
+        "delta": 2
+      },
+      {
+        "item": "Orokin Cell",
+        "delta": 2
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Intact Sentient Core",
+        "delta": 38
+      }
+    ],
+    "resourceGains": [
+      {
+        "item": "Salvage",
+        "delta": 12204
+      },
+      {
+        "item": "Rubedo",
+        "delta": 268
+      },
+      {
+        "item": "Alloy Plate",
+        "delta": 242
+      },
+      {
+        "item": "Gallium",
+        "delta": 32
+      },
+      {
+        "item": "Morphics",
+        "delta": 28
+      },
+      {
+        "item": "Fieldron Sample",
+        "delta": 16
+      },
+      {
+        "item": "Riven Sliver",
+        "delta": 4
+      },
+      {
+        "item": "Nav Coordinate",
+        "delta": 2
+      },
+      {
+        "item": "Orokin Cell",
+        "delta": 2
+      }
+    ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 5
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
