@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-13T19:39:32.791981+00:00",
+  "generatedAt": "2026-09-13T22:09:37.751268+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,51 +8,51 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-13T19:37:28.974Z",
+  "accountSnapshotAt": "2026-09-13T19:45:34.590Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-13T19:37:28.974Z",
+      "capturedAt": "2026-09-13T19:45:34.590Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-13T19:38:18.023Z",
-    "phase": "mission",
-    "node": "PLAINS",
-    "planet": "EARTH",
-    "mission": "OPEN WORLD",
+    "observedAt": "2026-09-13T21:47:01.464Z",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
@@ -1859,28 +1859,125 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260912-203821.json",
-    "startedAt": "2026-09-12T20:38:21.811871+00:00",
-    "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
-    "durationSeconds": 15786.642,
-    "missionCount": 5,
-    "focusEarnedDuringCapture": 115888,
+    "file": "20260913-175332.json",
+    "startedAt": "2026-09-13T17:53:32.170299+00:00",
+    "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
+    "durationSeconds": 14010.325,
+    "missionCount": 1,
+    "focusEarnedDuringCapture": 283209,
     "topGains": [
       {
-        "item": "Rubedo",
-        "delta": 438
-      }
-    ],
-    "notableAcquisitions": [],
-    "resourceGains": [
+        "item": "Ferrite",
+        "delta": 6290
+      },
       {
         "item": "Rubedo",
-        "delta": 438
+        "delta": 2048
+      },
+      {
+        "item": "Kuva",
+        "delta": 125
+      },
+      {
+        "item": "Detonite Ampule",
+        "delta": 42
+      },
+      {
+        "item": "Devolved Namalon",
+        "delta": 20
+      },
+      {
+        "item": "Nistlepod",
+        "delta": 12
+      },
+      {
+        "item": "Nephil Vasca Kavat Tag",
+        "delta": 4
+      },
+      {
+        "item": "Intact Sentient Core",
+        "delta": 2
+      },
+      {
+        "item": "Neurodes",
+        "delta": 2
+      },
+      {
+        "item": "Ayatan Cyan Star",
+        "delta": 1
+      },
+      {
+        "item": "Meso D8 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso Y2 Intact",
+        "delta": 1
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Intact Sentient Core",
+        "delta": 2
+      },
+      {
+        "item": "Meso D8 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso Y2 Intact",
+        "delta": 1
+      }
+    ],
+    "resourceGains": [
+      {
+        "item": "Ferrite",
+        "delta": 6290
+      },
+      {
+        "item": "Rubedo",
+        "delta": 2048
+      },
+      {
+        "item": "Kuva",
+        "delta": 125
+      },
+      {
+        "item": "Detonite Ampule",
+        "delta": 42
+      },
+      {
+        "item": "Devolved Namalon",
+        "delta": 20
+      },
+      {
+        "item": "Nistlepod",
+        "delta": 12
+      },
+      {
+        "item": "Nephil Vasca Kavat Tag",
+        "delta": 4
+      },
+      {
+        "item": "Neurodes",
+        "delta": 2
+      },
+      {
+        "item": "Ayatan Cyan Star",
+        "delta": 1
+      },
+      {
+        "item": "Plague Akwin",
+        "delta": 1
+      },
+      {
+        "item": "Plague Bokwin",
+        "delta": 1
       }
     ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 3,
-    "errorEventCount": 12
+    "errorEventCount": 7
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
