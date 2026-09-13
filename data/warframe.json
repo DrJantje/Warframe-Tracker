@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-13",
-    "exportVerifiedAt": "2026-09-13 11:59:17 PDT",
+    "exportVerifiedAt": "2026-09-13 12:39:33 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167754,
-        "modified": "2026-09-13T11:59:16.494134-07:00",
-        "sha256": "0ffa1bad07a41d95a13217c922034c4ef4e3ef1872a61fd73813f8e678121b2a"
+        "bytes": 2167753,
+        "modified": "2026-09-13T12:39:32.400529-07:00",
+        "sha256": "79dad2dd0d58cd3161742dda0c510f7d4cb3a720afbf8ac836b3b324c226fabe"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-13T11:59:16.498699-07:00",
-        "sha256": "e30c3282baba6aa0c26fb29dae359d1ce88183d9820a0221d1f222b3d1d5be22"
+        "modified": "2026-09-13T12:39:32.403576-07:00",
+        "sha256": "2690f6dddd4904e6050932ed4112dd39355c50319437a0e5894d9df70b25eeb5"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-13T11:59:16.495645-07:00",
+        "modified": "2026-09-13T12:39:32.402067-07:00",
         "sha256": "400977a1c7c31daf2302cc05c682385042409c417163e12bee165f91ac2bf8bb"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-13T11:59:16.497677-07:00",
-        "sha256": "0e342b65383a03ce8423baee38b18b64a088715c5354798350da24e843212dbe"
+        "modified": "2026-09-13T12:39:32.403070-07:00",
+        "sha256": "ed1b6fb8c2cb9d076f456fb7da91b0c18a35d1c1868d6aac9ddadadc76a0c7ba"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-13T11:59:16.500847-07:00",
+        "modified": "2026-09-13T12:39:32.405092-07:00",
         "sha256": "1996fa6fc2739e97622aaf176a3616808c98c9e2659fee68de54eda1a7a88eab"
       },
       "rivens.json": {
@@ -48,18 +48,33 @@
     },
     "importChanges": [
       {
-        "item": "Snipetron",
+        "item": "Plague Keewar",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Plague Keewar Blueprint"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
+          "No",
+          "Yes",
           ""
+        ]
+      },
+      {
+        "item": "Plague Kripath",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Plague Kripath Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Pyrotic Alloy (30/60)"
         ]
       }
     ],
@@ -68,7 +83,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 205
+      "missing": 204
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -96,7 +111,7 @@
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 33,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 56,
+      "Meso D8 Intact": 57,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 52,
       "Meso L4 Intact": 6,
@@ -107,7 +122,7 @@
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 34,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 33,
+      "Meso Y2 Intact": 34,
       "Neo A16 Intact": 7,
       "Neo C7 Intact": 26,
       "Neo C7 Radiant": 0,
@@ -844,33 +859,18 @@
     },
     {
       "ease": "6 — Parked / time-gated",
-      "item": "Plague Keewar",
-      "type": "modular",
-      "targetRank": "30",
-      "missing": "Plague Keewar Blueprint",
-      "route": "Event-gated / rotating availability",
-      "steps": "Wait for the relevant event or vendor return and purchase the Blueprint.",
-      "tip": "Farm the event currency when active and buy the blueprint before the shop closes.",
-      "source": "https://wiki.warframe.com/w/Plague_Keewar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 605
-    },
-    {
-      "ease": "6 — Parked / time-gated",
       "item": "Plague Kripath",
       "type": "modular",
       "targetRank": "30",
-      "missing": "Plague Kripath Blueprint",
+      "missing": "Pyrotic Alloy (30/60)",
       "route": "Event-gated / rotating availability",
-      "steps": "Wait for the relevant event or vendor return and purchase the Blueprint.",
+      "steps": "Wait for the relevant event or vendor return and purchase the Blueprint. Obtain 30 Pyrotic Alloy, then build.",
       "tip": "Farm the event currency when active and buy the blueprint before the shop closes.",
       "source": "https://wiki.warframe.com/w/Plague_Kripath",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 605
+      "practicalPriority": 592
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3665,7 +3665,17 @@
       "practicalPriority": 510
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Plague Keewar",
+      "type": "modular",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Plague_Keewar"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -14494,17 +14504,17 @@
     {
       "item": "Plague Keewar",
       "type": "modular",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Plague Keewar Blueprint",
-      "ease": "6 — Parked / time-gated",
-      "route": "Event-gated / rotating availability",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Plague_Keewar",
       "primeDetails": [],
@@ -14519,7 +14529,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Plague Kripath Blueprint",
+      "missing": "Pyrotic Alloy (30/60)",
       "ease": "6 — Parked / time-gated",
       "route": "Event-gated / rotating availability",
       "vaulted": "No",
