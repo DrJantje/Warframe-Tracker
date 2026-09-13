@@ -1,0 +1,158 @@
+{
+  "equipmentAdded": [],
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
+  "missionCount": 5,
+  "startedAt": "2026-09-12T20:38:21.811871+00:00",
+  "focusEarnedDuringCapture": 115888,
+  "configurationChanges": [
+    {
+      "at": "2026-09-12T22:09:17.093926+00:00",
+      "item": "Kesheg",
+      "configuration": "A",
+      "added": [
+        "Primed Reach",
+        "Magnetic Rush",
+        "Primed Fever Strike"
+      ],
+      "removed": [
+        "Fever Strike",
+        "Volcanic Edge",
+        "Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-12T22:09:17.093926+00:00",
+      "item": "Burston Prime",
+      "configuration": "A",
+      "added": [
+        "Critical Delay",
+        "High Voltage",
+        "Cryo Rounds",
+        "Hellfire",
+        "Split Chamber"
+      ],
+      "removed": [
+        "Radiated Reload",
+        "Point Strike",
+        "Vital Sense",
+        "Rime Rounds",
+        "Infected Clip"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-12T22:09:17.093926+00:00",
+      "item": "Spectra Vandal",
+      "configuration": "A",
+      "added": [
+        "Hornet Strike",
+        "Primed Heated Charge"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 115888,
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 438
+    }
+  ],
+  "negativeItemDeltas": [],
+  "equipmentRemoved": [],
+  "durationSeconds": 15786.642,
+  "errorEventCount": 12,
+  "missions": [
+    {
+      "startedAt": "2026-09-12T20:38:25.393000+00:00",
+      "endedAt": "2026-09-12T20:38:25.397000+00:00",
+      "durationSeconds": 0.004,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SettlementNode14_InvasionDefender",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-12T20:54:21.587000+00:00",
+      "endedAt": "2026-09-12T20:58:51.411000+00:00",
+      "durationSeconds": 269.824,
+      "type": "EXTERMINATE",
+      "node": "SettlementNode14",
+      "label": null,
+      "missionKey": "SettlementNode14_InvasionDefender",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-12T21:00:18.899000+00:00",
+      "endedAt": "2026-09-12T21:03:25.345000+00:00",
+      "durationSeconds": 186.446,
+      "type": "RESCUE",
+      "node": "SettlementNode14",
+      "label": null,
+      "missionKey": "SettlementNode14_InvasionDefender",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-12T21:05:00.475000+00:00",
+      "endedAt": "2026-09-12T23:42:30.190000+00:00",
+      "durationSeconds": 9449.715,
+      "type": "RESCUE",
+      "node": "SettlementNode14",
+      "label": null,
+      "missionKey": "SettlementNode14_InvasionDefender",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-13T00:14:56.482000+00:00",
+      "endedAt": "2026-09-13T01:01:28.453575+00:00",
+      "durationSeconds": 2791.972,
+      "type": "SPY",
+      "node": "SolNode79",
+      "label": null,
+      "missionKey": "SolNode79_ActiveMission",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "schemaVersion": 1,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Rubedo",
+      "delta": 438
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
