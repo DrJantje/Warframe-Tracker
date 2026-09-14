@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-14T16:42:36.113691+00:00",
+  "generatedAt": "2026-09-14T16:45:54.021674+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,13 +48,13 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-14T16:42:32.666798+00:00",
-    "phase": "orbiter",
-    "node": "ORBITER",
-    "planet": "",
-    "mission": "LOADOUT",
-    "missionKey": null,
-    "voidTier": null,
+    "observedAt": "2026-09-14T16:45:50.712163+00:00",
+    "phase": "mission",
+    "node": "ORDIS NEXT",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
+    "missionKey": "SolNode39_ActiveMission",
+    "voidTier": "VoidT1",
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
@@ -1859,125 +1859,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260914-043935.json",
-    "startedAt": "2026-09-14T04:39:35.644129+00:00",
-    "stoppedAt": "2026-09-14T05:25:47.750300+00:00",
-    "durationSeconds": 2772.106,
-    "missionCount": 7,
+    "file": "20260914-162933.json",
+    "startedAt": "2026-09-14T16:29:33.543765+00:00",
+    "stoppedAt": "2026-09-14T16:45:51.734861+00:00",
+    "durationSeconds": 978.191,
+    "missionCount": 2,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Kuva",
-        "delta": 35000
-      },
-      {
-        "item": "Nano Spores",
-        "delta": 1684
-      },
-      {
-        "item": "Alloy Plate",
-        "delta": 1136
-      },
-      {
-        "item": "Circuit Effect",
-        "delta": 258
-      },
-      {
-        "item": "Scrap",
-        "delta": 250
-      },
-      {
-        "item": "Polymer Bundle",
-        "delta": 232
-      },
-      {
-        "item": "Lucent Teroglobe",
-        "delta": 50
-      },
-      {
-        "item": "Scrubber Exa Brain",
-        "delta": 36
-      },
-      {
-        "item": "Sapcaddy Venedo Case",
-        "delta": 30
-      },
-      {
-        "item": "Mirewinder Parallel Biode",
-        "delta": 28
-      },
-      {
-        "item": "Tiametrite",
-        "delta": 12
-      },
-      {
-        "item": "Charamote Sagan Module",
-        "delta": 10
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Exceptional Sentient Core",
-        "delta": 10
-      },
-      {
-        "item": "Blueprint",
-        "delta": 1
-      }
-    ],
-    "resourceGains": [
-      {
-        "item": "Kuva",
-        "delta": 35000
-      },
-      {
-        "item": "Nano Spores",
-        "delta": 1684
-      },
-      {
-        "item": "Alloy Plate",
-        "delta": 1136
-      },
-      {
-        "item": "Circuit Effect",
-        "delta": 258
-      },
-      {
-        "item": "Scrap",
-        "delta": 250
-      },
-      {
-        "item": "Polymer Bundle",
-        "delta": 232
-      },
-      {
-        "item": "Lucent Teroglobe",
-        "delta": 50
-      },
-      {
-        "item": "Scrubber Exa Brain",
-        "delta": 36
-      },
-      {
-        "item": "Sapcaddy Venedo Case",
-        "delta": 30
-      },
-      {
-        "item": "Mirewinder Parallel Biode",
-        "delta": 28
-      },
-      {
-        "item": "Tiametrite",
-        "delta": 12
-      },
-      {
-        "item": "Charamote Sagan Module",
-        "delta": 10
-      }
-    ],
+    "topGains": [],
+    "notableAcquisitions": [],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 5
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
