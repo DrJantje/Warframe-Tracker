@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-14T04:51:30.031276+00:00",
+  "generatedAt": "2026-09-14T05:25:50.411819+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-14T04:49:24.437Z",
+  "accountSnapshotAt": "2026-09-14T05:25:29.062Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-14T04:49:24.437Z",
+      "capturedAt": "2026-09-14T05:25:29.062Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-14T04:51:22.252Z",
+    "observedAt": "2026-09-14T05:25:47.233148+00:00",
     "phase": "mission",
-    "node": "ORB VALLIS",
-    "planet": "VENUS",
-    "mission": "OPEN WORLD",
-    "missionKey": null,
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
+    "missionKey": "SolNode229",
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "CLAN",
+    "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "account-snapshot-confirmed",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1859,125 +1859,125 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260913-175332.json",
-    "startedAt": "2026-09-13T17:53:32.170299+00:00",
-    "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
-    "durationSeconds": 14010.325,
-    "missionCount": 1,
-    "focusEarnedDuringCapture": 283209,
+    "file": "20260914-043935.json",
+    "startedAt": "2026-09-14T04:39:35.644129+00:00",
+    "stoppedAt": "2026-09-14T05:25:47.750300+00:00",
+    "durationSeconds": 2772.106,
+    "missionCount": 7,
+    "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Ferrite",
-        "delta": 6290
-      },
-      {
-        "item": "Rubedo",
-        "delta": 2048
-      },
-      {
         "item": "Kuva",
-        "delta": 125
+        "delta": 35000
       },
       {
-        "item": "Detonite Ampule",
-        "delta": 42
+        "item": "Nano Spores",
+        "delta": 1684
       },
       {
-        "item": "Devolved Namalon",
-        "delta": 20
+        "item": "Alloy Plate",
+        "delta": 1136
       },
       {
-        "item": "Nistlepod",
+        "item": "Circuit Effect",
+        "delta": 258
+      },
+      {
+        "item": "Scrap",
+        "delta": 250
+      },
+      {
+        "item": "Polymer Bundle",
+        "delta": 232
+      },
+      {
+        "item": "Lucent Teroglobe",
+        "delta": 50
+      },
+      {
+        "item": "Scrubber Exa Brain",
+        "delta": 36
+      },
+      {
+        "item": "Sapcaddy Venedo Case",
+        "delta": 30
+      },
+      {
+        "item": "Mirewinder Parallel Biode",
+        "delta": 28
+      },
+      {
+        "item": "Tiametrite",
         "delta": 12
       },
       {
-        "item": "Nephil Vasca Kavat Tag",
-        "delta": 4
-      },
-      {
-        "item": "Intact Sentient Core",
-        "delta": 2
-      },
-      {
-        "item": "Neurodes",
-        "delta": 2
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      },
-      {
-        "item": "Meso D8 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso Y2 Intact",
-        "delta": 1
+        "item": "Charamote Sagan Module",
+        "delta": 10
       }
     ],
     "notableAcquisitions": [
       {
-        "item": "Intact Sentient Core",
-        "delta": 2
+        "item": "Exceptional Sentient Core",
+        "delta": 10
       },
       {
-        "item": "Meso D8 Intact",
-        "delta": 1
-      },
-      {
-        "item": "Meso Y2 Intact",
+        "item": "Blueprint",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Ferrite",
-        "delta": 6290
-      },
-      {
-        "item": "Rubedo",
-        "delta": 2048
-      },
-      {
         "item": "Kuva",
-        "delta": 125
+        "delta": 35000
       },
       {
-        "item": "Detonite Ampule",
-        "delta": 42
+        "item": "Nano Spores",
+        "delta": 1684
       },
       {
-        "item": "Devolved Namalon",
-        "delta": 20
+        "item": "Alloy Plate",
+        "delta": 1136
       },
       {
-        "item": "Nistlepod",
+        "item": "Circuit Effect",
+        "delta": 258
+      },
+      {
+        "item": "Scrap",
+        "delta": 250
+      },
+      {
+        "item": "Polymer Bundle",
+        "delta": 232
+      },
+      {
+        "item": "Lucent Teroglobe",
+        "delta": 50
+      },
+      {
+        "item": "Scrubber Exa Brain",
+        "delta": 36
+      },
+      {
+        "item": "Sapcaddy Venedo Case",
+        "delta": 30
+      },
+      {
+        "item": "Mirewinder Parallel Biode",
+        "delta": 28
+      },
+      {
+        "item": "Tiametrite",
         "delta": 12
       },
       {
-        "item": "Nephil Vasca Kavat Tag",
-        "delta": 4
-      },
-      {
-        "item": "Neurodes",
-        "delta": 2
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      },
-      {
-        "item": "Plague Akwin",
-        "delta": 1
-      },
-      {
-        "item": "Plague Bokwin",
-        "delta": 1
+        "item": "Charamote Sagan Module",
+        "delta": 10
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 3,
-    "errorEventCount": 7
+    "configurationChangeCount": 0,
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

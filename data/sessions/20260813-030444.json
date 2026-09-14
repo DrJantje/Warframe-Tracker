@@ -1,22 +1,37 @@
 {
-  "negativeItemDeltas": [
+  "errorEventCount": 0,
+  "focusEarnedDuringCapture": 68616,
+  "missionCount": 5,
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+  "configurationChanges": [
     {
-      "item": "Cipher",
-      "delta": -20
+      "at": "2026-08-13T03:21:21.587861+00:00",
+      "item": "Coda Synapse",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Sinister Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Meso R6 Intact",
-      "delta": -3
-    },
-    {
-      "item": "Meso Y2 Intact",
-      "delta": -2
-    },
-    {
-      "item": "Axi V14 Intact",
-      "delta": -1
+      "at": "2026-08-13T04:50:15.860755+00:00",
+      "item": "Titania Prime",
+      "configuration": "A",
+      "added": [
+        "Arcane Velocity"
+      ],
+      "removed": [
+        "Arcane Impetus"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Broken Rot Ability",
+      "helminthAfter": "Broken Rot Ability"
     }
   ],
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -243,8 +258,26 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 7200.069,
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -20
+    },
+    {
+      "item": "Meso R6 Intact",
+      "delta": -3
+    },
+    {
+      "item": "Meso Y2 Intact",
+      "delta": -2
+    },
+    {
+      "item": "Axi V14 Intact",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureEnd": 188070,
+  "startedAt": "2026-08-13T03:04:44.769358+00:00",
   "missions": [
     {
       "startedAt": "2026-08-13T03:04:51.927000+00:00",
@@ -307,41 +340,8 @@
       "steelPath": false
     }
   ],
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-08-13T03:21:21.587861+00:00",
-      "item": "Coda Synapse",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Sinister Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-13T04:50:15.860755+00:00",
-      "item": "Titania Prime",
-      "configuration": "A",
-      "added": [
-        "Arcane Velocity"
-      ],
-      "removed": [
-        "Arcane Impetus"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Broken Rot Ability",
-      "helminthAfter": "Broken Rot Ability"
-    }
-  ],
-  "errorEventCount": 0,
-  "missionCount": 5,
   "focusCounterAtCaptureStart": 119454,
-  "focusEarnedDuringCapture": 68616,
-  "focusCounterAtCaptureEnd": 188070,
-  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "durationSeconds": 7200.069,
   "notableAcquisitions": [
     {
       "item": "Oberon Chassis Blueprint",

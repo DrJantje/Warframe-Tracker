@@ -1,10 +1,11 @@
 {
-  "negativeItemDeltas": [
-    {
-      "item": "Ren Hypercore",
-      "delta": -5
-    }
-  ],
+  "errorEventCount": 3,
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 4,
+  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
+  "configurationChanges": [],
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Rubedo",
@@ -27,8 +28,15 @@
       "delta": 6
     }
   ],
-  "durationSeconds": 1458.042,
-  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Ren Hypercore",
+      "delta": -5
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-09-08T01:38:44.297821+00:00",
+  "equipmentAdded": [],
   "missions": [
     {
       "startedAt": "2026-09-08T01:38:50.939000+00:00",
@@ -80,16 +88,8 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "configurationChanges": [],
-  "errorEventCount": 3,
-  "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "missionCount": 4,
   "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "startedAt": "2026-09-08T01:38:44.297821+00:00",
+  "durationSeconds": 1458.042,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
