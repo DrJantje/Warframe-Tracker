@@ -1,6 +1,7 @@
 {
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 283209,
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 1,
+  "durationSeconds": 14010.325,
   "missions": [
     {
       "startedAt": "2026-09-13T17:53:36.300000+00:00",
@@ -16,57 +17,68 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 14010.325,
-  "missionCount": 1,
-  "errorEventCount": 7,
   "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
-  "configurationChanges": [
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 283209,
+  "positiveItemDeltas": [
     {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "A",
-      "added": [
-        "Frostbite",
-        "Lethal Torrent"
-      ],
-      "removed": [
-        "Convulsion",
-        "Accelerated Isotope"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Ferrite",
+      "delta": 6290
     },
     {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "B",
-      "added": [
-        "Magnetic Might",
-        "Lethal Torrent"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Rubedo",
+      "delta": 2048
     },
     {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "C",
-      "added": [
-        "Magnum Force"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Kuva",
+      "delta": 125
+    },
+    {
+      "item": "Detonite Ampule",
+      "delta": 42
+    },
+    {
+      "item": "Devolved Namalon",
+      "delta": 20
+    },
+    {
+      "item": "Nistlepod",
+      "delta": 12
+    },
+    {
+      "item": "Nephil Vasca Kavat Tag",
+      "delta": 4
+    },
+    {
+      "item": "Intact Sentient Core",
+      "delta": 2
+    },
+    {
+      "item": "Neurodes",
+      "delta": 2
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": 1
+    },
+    {
+      "item": "Meso D8 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Meso Y2 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Plague Akwin",
+      "delta": 1
+    },
+    {
+      "item": "Plague Bokwin",
+      "delta": 1
     }
   ],
-  "focusEarnedDuringCapture": 283209,
-  "schemaVersion": 1,
-  "equipmentAdded": [],
+  "errorEventCount": 7,
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -193,63 +205,51 @@
       "delta": -1
     }
   ],
+  "focusEarnedDuringCapture": 283209,
   "startedAt": "2026-09-13T17:53:32.170299+00:00",
-  "positiveItemDeltas": [
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "configurationChanges": [
     {
-      "item": "Ferrite",
-      "delta": 6290
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "A",
+      "added": [
+        "Frostbite",
+        "Lethal Torrent"
+      ],
+      "removed": [
+        "Convulsion",
+        "Accelerated Isotope"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Rubedo",
-      "delta": 2048
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "B",
+      "added": [
+        "Magnetic Might",
+        "Lethal Torrent"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Kuva",
-      "delta": 125
-    },
-    {
-      "item": "Detonite Ampule",
-      "delta": 42
-    },
-    {
-      "item": "Devolved Namalon",
-      "delta": 20
-    },
-    {
-      "item": "Nistlepod",
-      "delta": 12
-    },
-    {
-      "item": "Nephil Vasca Kavat Tag",
-      "delta": 4
-    },
-    {
-      "item": "Intact Sentient Core",
-      "delta": 2
-    },
-    {
-      "item": "Neurodes",
-      "delta": 2
-    },
-    {
-      "item": "Ayatan Cyan Star",
-      "delta": 1
-    },
-    {
-      "item": "Meso D8 Intact",
-      "delta": 1
-    },
-    {
-      "item": "Meso Y2 Intact",
-      "delta": 1
-    },
-    {
-      "item": "Plague Akwin",
-      "delta": 1
-    },
-    {
-      "item": "Plague Bokwin",
-      "delta": 1
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "C",
+      "added": [
+        "Magnum Force"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
   "notableAcquisitions": [

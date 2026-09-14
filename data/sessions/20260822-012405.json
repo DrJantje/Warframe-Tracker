@@ -1,6 +1,7 @@
 {
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 6,
+  "durationSeconds": 6390.914,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -76,45 +77,24 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 6390.914,
-  "missionCount": 6,
-  "errorEventCount": 4,
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "configurationChanges": [
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Koumei Helmet",
+      "delta": 1
     },
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
-  "schemaVersion": 1,
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
+      "item": "Voidplume Crest",
+      "delta": 1
     },
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
+      "item": "Voidplume Down",
+      "delta": 1
     }
   ],
+  "errorEventCount": 4,
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -145,19 +125,39 @@
       "delta": -2
     }
   ],
+  "focusEarnedDuringCapture": 0,
   "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "positiveItemDeltas": [
+  "equipmentAdded": [
     {
-      "item": "Koumei Helmet",
-      "delta": 1
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Koumei"
     },
     {
-      "item": "Voidplume Crest",
-      "delta": 1
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Higasa"
+    }
+  ],
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Voidplume Down",
-      "delta": 1
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
   "notableAcquisitions": [],
