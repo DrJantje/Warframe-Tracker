@@ -1,63 +1,6 @@
 {
+  "schemaVersion": 1,
   "missionCount": 5,
-  "configurationChanges": [
-    {
-      "at": "2026-09-12T22:09:17.093926+00:00",
-      "item": "Kesheg",
-      "configuration": "A",
-      "added": [
-        "Primed Reach",
-        "Magnetic Rush",
-        "Primed Fever Strike"
-      ],
-      "removed": [
-        "Fever Strike",
-        "Volcanic Edge",
-        "Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-12T22:09:17.093926+00:00",
-      "item": "Burston Prime",
-      "configuration": "A",
-      "added": [
-        "Critical Delay",
-        "High Voltage",
-        "Cryo Rounds",
-        "Hellfire",
-        "Split Chamber"
-      ],
-      "removed": [
-        "Radiated Reload",
-        "Point Strike",
-        "Vital Sense",
-        "Rime Rounds",
-        "Infected Clip"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-12T22:09:17.093926+00:00",
-      "item": "Spectra Vandal",
-      "configuration": "A",
-      "added": [
-        "Hornet Strike",
-        "Primed Heated Charge"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "startedAt": "2026-09-12T20:38:21.811871+00:00",
-  "durationSeconds": 15786.642,
-  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
   "missions": [
     {
       "startedAt": "2026-09-12T20:38:25.393000+00:00",
@@ -121,20 +64,77 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 115888,
-  "negativeItemDeltas": [],
+  "focusEarnedDuringCapture": 115888,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Rubedo",
       "delta": 438
     }
   ],
-  "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
   "errorEventCount": 12,
-  "focusEarnedDuringCapture": 115888,
-  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 115888,
+  "durationSeconds": 15786.642,
+  "equipmentRemoved": [],
+  "negativeItemDeltas": [],
+  "configurationChanges": [
+    {
+      "at": "2026-09-12T22:09:17.093926+00:00",
+      "item": "Kesheg",
+      "configuration": "A",
+      "added": [
+        "Primed Reach",
+        "Magnetic Rush",
+        "Primed Fever Strike"
+      ],
+      "removed": [
+        "Fever Strike",
+        "Volcanic Edge",
+        "Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-12T22:09:17.093926+00:00",
+      "item": "Burston Prime",
+      "configuration": "A",
+      "added": [
+        "Critical Delay",
+        "High Voltage",
+        "Cryo Rounds",
+        "Hellfire",
+        "Split Chamber"
+      ],
+      "removed": [
+        "Radiated Reload",
+        "Point Strike",
+        "Vital Sense",
+        "Rime Rounds",
+        "Infected Clip"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-12T22:09:17.093926+00:00",
+      "item": "Spectra Vandal",
+      "configuration": "A",
+      "added": [
+        "Hornet Strike",
+        "Primed Heated Charge"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "startedAt": "2026-09-12T20:38:21.811871+00:00",
+  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
+  "equipmentAdded": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
