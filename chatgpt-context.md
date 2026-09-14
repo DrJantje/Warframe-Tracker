@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-14T22:23:34.522615+00:00
-Account snapshot: 2026-09-14T22:21:29.018Z
+Generated: 2026-09-14T22:50:54.447612+00:00
+Account snapshot: 2026-09-14T22:48:49.414Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -13,7 +13,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 0
+- Focus during current capture: 210281
 
 ## Current synchronized loadouts and builds
 
@@ -55,7 +55,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Exalted weapon: Balefire Charger Prime — config A
 
 - Forma: 7
-- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Mods: Heated Charge (rank 5), Frostbite (rank 3), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Hildryn
