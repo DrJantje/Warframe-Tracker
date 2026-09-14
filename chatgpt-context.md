@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-14T22:50:54.447612+00:00
-Account snapshot: 2026-09-14T22:48:49.414Z
+Generated: 2026-09-14T23:26:55.248976+00:00
+Account snapshot: 2026-09-14T23:24:49.269Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-active)
+- Frame observation: Titania (server-sent)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 210281
@@ -21,11 +21,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Warframe: Hildryn Prime — config A
 
-- Forma: 2
+- Forma: 3
 - Lens: Madurai Lens
 - Helminth: Shed Ability
-- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED Archon Crystal Upgrade Warframe Ability Strength, ACC_RED Archon Crystal Upgrade Warframe Ability Strength, ACC_RED Archon Crystal Upgrade Warframe Ability Strength, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
-- Mods: Augur Reach (rank 5), Precision Intensify (rank 5), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Boreal's Hatred (rank 5), Corrosive Projection (rank 5), Power Drift (rank 5)
+- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
+- Mods: Augur Reach (rank 5), Augur Secrets (rank 5), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
 #### Secondary: Tenet Cycron — config A
@@ -43,7 +43,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Melee: Lotus Modular Weapon — config A
 
 - Forma: 0
-- Mods: Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Bleeding Willow (rank 3)
+- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -55,7 +55,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Exalted weapon: Balefire Charger Prime — config A
 
 - Forma: 7
-- Mods: Heated Charge (rank 5), Frostbite (rank 3), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Hildryn

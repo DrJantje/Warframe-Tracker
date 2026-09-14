@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-14T22:50:54.447612+00:00",
+  "generatedAt": "2026-09-14T23:26:55.248976+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-14T22:48:49.414Z",
+  "accountSnapshotAt": "2026-09-14T23:24:49.269Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-14T22:48:49.414Z",
+      "capturedAt": "2026-09-14T23:24:49.269Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-14T22:49:17.106Z",
+    "observedAt": "2026-09-14T23:26:47.821Z",
     "phase": "mission",
-    "node": "ORDIS NEXT",
+    "node": "DARK SECTOR SPAWN",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode253_Hard",
+    "missionKey": "SolNode801",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 210281,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-active",
+    "frameConfidence": "server-sent",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -73,7 +73,7 @@
           "item": "Hildryn Prime",
           "category": "Suits",
           "configuration": "A",
-          "formaApplied": 2,
+          "formaApplied": 3,
           "focusLens": "Madurai Lens",
           "polarities": [
             {
@@ -106,7 +106,7 @@
             },
             {
               "slot": 7,
-              "polarity": "AP_DEFENSE"
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 8,
@@ -124,16 +124,16 @@
               "effect": "Archon Crystal Upgrade Warframe Ability Strength Mythic"
             },
             {
-              "color": "ACC_RED",
-              "effect": "Archon Crystal Upgrade Warframe Ability Strength"
+              "color": "ACC_RED_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Ability Strength Mythic"
             },
             {
-              "color": "ACC_RED",
-              "effect": "Archon Crystal Upgrade Warframe Ability Strength"
+              "color": "ACC_RED_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Ability Strength Mythic"
             },
             {
-              "color": "ACC_RED",
-              "effect": "Archon Crystal Upgrade Warframe Ability Strength"
+              "color": "ACC_RED_MYTHIC",
+              "effect": "Archon Crystal Upgrade Warframe Ability Strength Mythic"
             },
             {
               "color": "ACC_YELLOW_MYTHIC",
@@ -148,7 +148,7 @@
               "kind": "mod"
             },
             {
-              "name": "Precision Intensify",
+              "name": "Augur Secrets",
               "rank": 5,
               "kind": "mod"
             },
@@ -178,8 +178,8 @@
               "kind": "mod"
             },
             {
-              "name": "Boreal's Hatred",
-              "rank": 5,
+              "name": "Archon Continuity",
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -188,7 +188,7 @@
               "kind": "mod"
             },
             {
-              "name": "Power Drift",
+              "name": "Cunning Drift",
               "rank": 5,
               "kind": "mod"
             }
@@ -415,7 +415,7 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-146",
+          "buildRef": "melee-145",
           "resolutionStatus": "exact-build-ref",
           "item": "Lotus Modular Weapon",
           "category": "Melee",
@@ -425,15 +425,15 @@
           "polarities": [],
           "modularParts": [
             "Vargeet Ii Jai",
-            "Seekalla",
-            "Plague Kripath"
+            "Peye",
+            "Plague Keewar"
           ],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Fever Strike",
-              "rank": 10,
+              "name": "Magnetic Rush",
+              "rank": 3,
               "kind": "mod"
             },
             {
@@ -447,7 +447,7 @@
               "kind": "mod"
             },
             {
-              "name": "Bleeding Willow",
+              "name": "Reaping Spiral",
               "rank": 3,
               "kind": "mod"
             }
@@ -577,13 +577,13 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Heated Charge",
-              "rank": 5,
+              "name": "Primed Heated Charge",
+              "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Frostbite",
-              "rank": 3,
+              "name": "Convulsion",
+              "rank": 5,
               "kind": "mod"
             },
             {
