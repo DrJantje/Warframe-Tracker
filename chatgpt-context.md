@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-14T23:40:42.669073+00:00
-Account snapshot: 2026-09-14T23:38:37.563Z
+Generated: 2026-09-14T23:53:22.681014+00:00
+Account snapshot: 2026-09-14T23:51:17.025Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: CONCLAVE
-- Planet: unknown
-- Frame observation: Titania (mission-active)
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 210281
@@ -43,7 +43,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Melee: Lotus Modular Weapon — config A
 
 - Forma: 0
-- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
+- Mods: Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -55,7 +55,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Exalted weapon: Balefire Charger Prime — config A
 
 - Forma: 7
-- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 8), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Hildryn

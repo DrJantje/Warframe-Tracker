@@ -2457,11 +2457,6 @@
             "kind": "mod"
           },
           {
-            "name": "Primed Fulmination",
-            "rank": 8,
-            "kind": "mod"
-          },
-          {
             "name": "Galvanized Diffusion",
             "rank": 10,
             "kind": "mod"
@@ -2562,7 +2557,7 @@
           },
           {
             "name": "Primed Fulmination",
-            "rank": 8,
+            "rank": 9,
             "kind": "mod"
           },
           {
@@ -18327,10 +18322,15 @@
     "buildRef": "melee-145",
     "name": "Lotus Modular Weapon",
     "category": "Melee",
-    "xp": 606587,
+    "xp": 0,
     "formaApplied": 0,
     "focusLens": null,
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 7,
+        "polarity": "AP_ATTACK"
+      }
+    ],
     "modularParts": [
       "Vargeet Ii Jai",
       "Peye",
@@ -18343,8 +18343,8 @@
         "name": "A",
         "mods": [
           {
-            "name": "Magnetic Rush",
-            "rank": 3,
+            "name": "Primed Fever Strike",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -18386,10 +18386,15 @@
     "buildRef": "melee-146",
     "name": "Lotus Modular Weapon",
     "category": "Melee",
-    "xp": 2732023,
+    "xp": 0,
     "formaApplied": 0,
     "focusLens": null,
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 7,
+        "polarity": "AP_ATTACK"
+      }
+    ],
     "modularParts": [
       "Vargeet Ii Jai",
       "Seekalla",
@@ -18400,28 +18405,7 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [
-          {
-            "name": "Primed Fever Strike",
-            "rank": 10,
-            "kind": "mod"
-          },
-          {
-            "name": "Pressure Point",
-            "rank": 5,
-            "kind": "mod"
-          },
-          {
-            "name": "Primed Reach",
-            "rank": 10,
-            "kind": "mod"
-          },
-          {
-            "name": "Bleeding Willow",
-            "rank": 3,
-            "kind": "mod"
-          }
-        ],
+        "mods": [],
         "arcanes": [],
         "helminthAbility": null
       },
