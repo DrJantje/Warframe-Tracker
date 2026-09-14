@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-14",
-    "exportVerifiedAt": "2026-09-14 09:45:54 PDT",
+    "exportVerifiedAt": "2026-09-14 11:03:23 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167757,
-        "modified": "2026-09-14T09:45:53.652893-07:00",
-        "sha256": "f1118ec8913494ae508a7570c11f22ec547f04a614df3258a10d101826b3d484"
+        "bytes": 2167755,
+        "modified": "2026-09-14T11:03:22.075584-07:00",
+        "sha256": "637fc4aaf6804d6ca01eae5267d7bc55bfa7e5ea711bd7f5c434c41dae5da6b9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-14T09:45:53.654932-07:00",
-        "sha256": "2690f6dddd4904e6050932ed4112dd39355c50319437a0e5894d9df70b25eeb5"
+        "modified": "2026-09-14T11:03:22.079594-07:00",
+        "sha256": "0e2dc41c444a1172b495c7d21b2a87b2eb33f9d4d4c4d710e55a0a0015258ca4"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-14T09:45:53.652893-07:00",
+        "modified": "2026-09-14T11:03:22.077591-07:00",
         "sha256": "400977a1c7c31daf2302cc05c682385042409c417163e12bee165f91ac2bf8bb"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-14T09:45:53.654405-07:00",
-        "sha256": "ed1b6fb8c2cb9d076f456fb7da91b0c18a35d1c1868d6aac9ddadadc76a0c7ba"
+        "modified": "2026-09-14T11:03:22.078590-07:00",
+        "sha256": "5d86a2cf00c494b62edd0c9be2f54b6647b18ce0c890ac8eb2bb2331f039251b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-14T09:45:53.655436-07:00",
+        "modified": "2026-09-14T11:03:22.081101-07:00",
         "sha256": "1996fa6fc2739e97622aaf176a3616808c98c9e2659fee68de54eda1a7a88eab"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Plague Keewar",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Plague Keewar Blueprint"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Plague Kripath",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Pyrotic Alloy (50/60)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 205
+      "missing": 203
     },
     "relicInventory": {
       "Axi D6 Intact": 2,
@@ -72,7 +103,7 @@
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 8,
+      "Lith Q3 Intact": 7,
       "Lith S18 Intact": 8,
       "Lith T14 Intact": 17,
       "Lith V11 Intact": 14,
@@ -142,21 +173,6 @@
       "liveMatches": [],
       "availabilityGroup": "dojo",
       "practicalPriority": 3
-    },
-    {
-      "ease": "1 — Now / no farming",
-      "item": "Plague Keewar",
-      "type": "modular",
-      "targetRank": "30",
-      "missing": "Plague Keewar Blueprint",
-      "route": "Foundry",
-      "steps": "Acquire the listed missing parts, build, then level to 30.",
-      "tip": "Farm the rarest missing part first; trade only for the final stubborn drop.",
-      "source": "https://wiki.warframe.com/w/Plague_Keewar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 105
     },
     {
       "ease": "3 — Focused short farm",
@@ -840,21 +856,6 @@
       "liveMatches": [],
       "availabilityGroup": "nightwave",
       "practicalPriority": 525
-    },
-    {
-      "ease": "6 — Parked / time-gated",
-      "item": "Plague Kripath",
-      "type": "modular",
-      "targetRank": "30",
-      "missing": "Pyrotic Alloy (50/60)",
-      "route": "Event-gated / rotating availability",
-      "steps": "Wait for the relevant event or vendor return and purchase the Blueprint. Obtain 10 Pyrotic Alloy, then build.",
-      "tip": "Farm the event currency when active and buy the blueprint before the shop closes.",
-      "source": "https://wiki.warframe.com/w/Plague_Kripath",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 584
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3076,7 +3077,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Owned relics first; current Void Relic farms for more",
-      "steps": "Quassus Prime Blade (Rare): use your 8 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -3086,7 +3087,7 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 8,
+          "ownedRelics": 7,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
@@ -3649,7 +3650,26 @@
       "practicalPriority": 510
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Plague Keewar",
+      "type": "modular",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Plague_Keewar"
+    },
+    {
+      "item": "Plague Kripath",
+      "type": "modular",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Plague_Kripath"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -14478,15 +14498,15 @@
     {
       "item": "Plague Keewar",
       "type": "modular",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Plague Keewar Blueprint",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -14497,15 +14517,15 @@
     {
       "item": "Plague Kripath",
       "type": "modular",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Pyrotic Alloy (50/60)",
-      "ease": "6 — Parked / time-gated",
-      "route": "Event-gated / rotating availability",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -15301,14 +15321,14 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 8,
+          "ownedRelics": 7,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
       "primeStatus": "OWNED RELICS",
-      "steps": "Quassus Prime Blade (Rare): use your 8 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
