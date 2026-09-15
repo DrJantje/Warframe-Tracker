@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-14T23:53:22.681014+00:00",
+  "generatedAt": "2026-09-15T00:02:29.639048+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-14T23:51:17.025919+00:00",
+    "observedAt": "2026-09-15T00:02:25.258627+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -57,7 +57,7 @@
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 210281,
+    "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
     "frameConfidence": "account-snapshot-confirmed",
     "accountSnapshotStatus": "account-snapshot-confirmed"
@@ -1822,18 +1822,133 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260914-175005.json",
-    "startedAt": "2026-09-14T17:50:05.895548+00:00",
-    "stoppedAt": "2026-09-14T19:17:26.087589+00:00",
-    "durationSeconds": 5240.192,
-    "missionCount": 2,
+    "file": "20260914-214556.json",
+    "startedAt": "2026-09-14T21:45:56.462019+00:00",
+    "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
+    "durationSeconds": 8190.328,
+    "missionCount": 9,
     "focusEarnedDuringCapture": 0,
-    "topGains": [],
-    "notableAcquisitions": [],
-    "resourceGains": [],
+    "topGains": [
+      {
+        "item": "Salvage",
+        "delta": 20420
+      },
+      {
+        "item": "Hexenon",
+        "delta": 356
+      },
+      {
+        "item": "Ignia",
+        "delta": 198
+      },
+      {
+        "item": "Oxium",
+        "delta": 196
+      },
+      {
+        "item": "Riven Sliver",
+        "delta": 128
+      },
+      {
+        "item": "Intact Sentient Core",
+        "delta": 69
+      },
+      {
+        "item": "Neural Sensors",
+        "delta": 54
+      },
+      {
+        "item": "Amir's Shockwave Cred",
+        "delta": 50
+      },
+      {
+        "item": "Nav Coordinate",
+        "delta": 24
+      },
+      {
+        "item": "Maphica",
+        "delta": 18
+      },
+      {
+        "item": "Khora Systems Blueprint",
+        "delta": 2
+      },
+      {
+        "item": "<Shard_yellow_simple> Amber Archon Shard",
+        "delta": 1
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Intact Sentient Core",
+        "delta": 69
+      },
+      {
+        "item": "Khora Systems Blueprint",
+        "delta": 2
+      },
+      {
+        "item": "Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Lith K12 Intact",
+        "delta": 1
+      }
+    ],
+    "resourceGains": [
+      {
+        "item": "Salvage",
+        "delta": 20420
+      },
+      {
+        "item": "Hexenon",
+        "delta": 356
+      },
+      {
+        "item": "Ignia",
+        "delta": 198
+      },
+      {
+        "item": "Oxium",
+        "delta": 196
+      },
+      {
+        "item": "Riven Sliver",
+        "delta": 128
+      },
+      {
+        "item": "Neural Sensors",
+        "delta": 54
+      },
+      {
+        "item": "Amir's Shockwave Cred",
+        "delta": 50
+      },
+      {
+        "item": "Nav Coordinate",
+        "delta": 24
+      },
+      {
+        "item": "Maphica",
+        "delta": 18
+      },
+      {
+        "item": "<Shard_yellow_simple> Amber Archon Shard",
+        "delta": 1
+      },
+      {
+        "item": "Ayatan Cyan Star",
+        "delta": 1
+      },
+      {
+        "item": "Corpus Depository Scene",
+        "delta": 1
+      }
+    ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 0,
-    "errorEventCount": 3
+    "configurationChangeCount": 11,
+    "errorEventCount": 4
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
