@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-15T00:02:29.639048+00:00",
+  "generatedAt": "2026-09-16T03:37:04.863305+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-14T23:51:17.025Z",
+  "accountSnapshotAt": "2026-09-16T03:37:01.113Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-14T23:51:17.025Z",
+      "capturedAt": "2026-09-16T03:37:01.113Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-15T00:02:25.258627+00:00",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-09-16T03:37:01.122431+00:00",
+    "phase": "location",
+    "node": "SANCTUM",
+    "planet": "DEIMOS",
+    "mission": "HUB",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 0,
-    "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "focusDuringCurrentCapture": 83396,
+    "frameCandidate": null,
+    "frameConfidence": "sync-awaiting-snapshot",
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -415,7 +415,7 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-145",
+          "buildRef": "melee-146",
           "resolutionStatus": "exact-build-ref",
           "item": "Lotus Modular Weapon",
           "category": "Melee",
@@ -430,12 +430,17 @@
           ],
           "modularParts": [
             "Vargeet Ii Jai",
-            "Peye",
-            "Plague Keewar"
+            "Seekalla",
+            "Plague Kripath"
           ],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
+            {
+              "name": "Magnetic Rush",
+              "rank": 3,
+              "kind": "mod"
+            },
             {
               "name": "Primed Fever Strike",
               "rank": 10,
@@ -452,7 +457,7 @@
               "kind": "mod"
             },
             {
-              "name": "Reaping Spiral",
+              "name": "Bleeding Willow",
               "rank": 3,
               "kind": "mod"
             }

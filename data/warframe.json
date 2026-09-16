@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-14",
-    "exportVerifiedAt": "2026-09-14 17:02:29 PDT",
+    "snapshotDate": "2026-09-15",
+    "exportVerifiedAt": "2026-09-15 20:37:05 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167755,
-        "modified": "2026-09-14T17:02:29.257083-07:00",
-        "sha256": "95d24687b93c27ac3cec5f265d6c3bf5eaba82f1eed594ceec05d8e94856000f"
+        "bytes": 2167754,
+        "modified": "2026-09-15T20:37:04.405323-07:00",
+        "sha256": "afc65c5416b879e05d112df233a31e1bb6d8272968a71cf825b34621fec947c9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-14T17:02:29.260115-07:00",
-        "sha256": "6d7328b383c7cecc85840789e0d5b489d0bdd2a2c3aa81c16d48ae8fa35c34fa"
+        "modified": "2026-09-15T20:37:04.410851-07:00",
+        "sha256": "3b4d6533a42aa7ed8739a6525a6f4f1cc3aec4a9bc23de80c1f8a00cbe9212bd"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-14T17:02:29.258598-07:00",
+        "modified": "2026-09-15T20:37:04.407835-07:00",
         "sha256": "400977a1c7c31daf2302cc05c682385042409c417163e12bee165f91ac2bf8bb"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-14T17:02:29.258598-07:00",
-        "sha256": "a12c956457ea2ab611c1155b6c2b8639f3acdf2e92302d1fcce4191f4010237e"
+        "modified": "2026-09-15T20:37:04.409343-07:00",
+        "sha256": "ff50ff7ea09ce5e92188036b9ff0c33ef0d93c61bb8107dfb8eaf10ef371fb4a"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-14T17:02:29.261627-07:00",
+        "modified": "2026-09-15T20:37:04.412863-07:00",
         "sha256": "1996fa6fc2739e97622aaf176a3616808c98c9e2659fee68de54eda1a7a88eab"
       },
       "rivens.json": {
@@ -46,7 +46,38 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Hema",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint; Forma Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hema Blueprint"
+        ]
+      },
+      {
+        "item": "Plague Keewar",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -87,7 +118,7 @@
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 40,
       "Meso V13 Intact": 39,
-      "Meso V15 Intact": 51,
+      "Meso V15 Intact": 52,
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 34,
       "Meso X1 Radiant": 3,
@@ -132,7 +163,7 @@
       "item": "Hema",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "route": "Clan Dojo Bio Lab",
       "steps": "If your clan has completed Hema research, replicate the Blueprint. Obtain 4 Mutagen Mass, then build.",
       "tip": "The weapon does not drop from enemies; unfinished clan research must be completed before the Blueprint can be replicated.",
@@ -3620,15 +3651,6 @@
     }
   ],
   "owned": [
-    {
-      "item": "Plague Keewar",
-      "type": "modular",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Plague_Keewar"
-    },
     {
       "item": "Plague Kripath",
       "type": "modular",
@@ -10091,7 +10113,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hema Blueprint; Forma Blueprint",
+      "missing": "Hema Blueprint",
       "ease": "2 — Easy buy or build",
       "route": "Clan Dojo Bio Lab",
       "vaulted": "No",
@@ -14467,15 +14489,15 @@
     {
       "item": "Plague Keewar",
       "type": "modular",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,

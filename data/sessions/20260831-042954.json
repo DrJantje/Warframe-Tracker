@@ -1,9 +1,10 @@
 {
-  "focusEarnedDuringCapture": 0,
+  "schemaVersion": 1,
   "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 2120.344,
+  "errorEventCount": 2,
+  "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
   "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Circuit Effect",
@@ -42,14 +43,9 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 2,
+  "startedAt": "2026-08-31T04:29:54.772896+00:00",
   "configurationChanges": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-08-31T04:29:59.905000+00:00",
@@ -90,10 +86,14 @@
     }
   ],
   "missionCount": 3,
-  "durationSeconds": 2120.344,
-  "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
-  "schemaVersion": 1,
-  "startedAt": "2026-08-31T04:29:54.772896+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 0,
   "notableAcquisitions": [
     {
       "item": "Ascaris Prime",

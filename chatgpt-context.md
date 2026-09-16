@@ -1,19 +1,19 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-15T00:02:29.639048+00:00
-Account snapshot: 2026-09-14T23:51:17.025Z
+Generated: 2026-09-16T03:37:04.863305+00:00
+Account snapshot: 2026-09-16T03:37:01.113Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Phase: location
+- Location: HUB
+- Planet: DEIMOS
+- Frame observation: unknown (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 0
+- Focus during current capture: 83396
 
 ## Current synchronized loadouts and builds
 
@@ -43,7 +43,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Melee: Lotus Modular Weapon — config A
 
 - Forma: 0
-- Mods: Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
+- Mods: Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Bleeding Willow (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
