@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-16T04:35:53.231680+00:00",
+  "generatedAt": "2026-09-16T06:00:36.595291+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-16T04:33:56.155Z",
+    "observedAt": "2026-09-16T04:51:26.185Z",
     "phase": "location",
     "node": "SANCTUM",
     "planet": "DEIMOS",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 83396,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-active",
+    "frameConfidence": "sync-awaiting-snapshot",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1827,133 +1827,129 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260914-214556.json",
-    "startedAt": "2026-09-14T21:45:56.462019+00:00",
-    "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
-    "durationSeconds": 8190.328,
-    "missionCount": 9,
-    "focusEarnedDuringCapture": 0,
+    "file": "20260916-025837.json",
+    "startedAt": "2026-09-16T02:58:37.696608+00:00",
+    "stoppedAt": "2026-09-16T04:51:27.626149+00:00",
+    "durationSeconds": 6769.93,
+    "missionCount": 7,
+    "focusEarnedDuringCapture": 83396,
     "topGains": [
       {
-        "item": "Salvage",
-        "delta": 20420
+        "item": "Circuit Effect",
+        "delta": 8450
       },
       {
-        "item": "Hexenon",
-        "delta": 356
+        "item": "Agnovidisc",
+        "delta": 2170
+      },
+      {
+        "item": "Laudavi",
+        "delta": 1020
+      },
+      {
+        "item": "Servoris",
+        "delta": 289
       },
       {
         "item": "Ignia",
-        "delta": 198
+        "delta": 100
       },
       {
-        "item": "Oxium",
-        "delta": 196
+        "item": "Lyroic Bridge",
+        "delta": 31
+      },
+      {
+        "item": "Ascaris Prime",
+        "delta": 17
+      },
+      {
+        "item": "Ren Hypercore",
+        "delta": 17
       },
       {
         "item": "Riven Sliver",
-        "delta": 128
-      },
-      {
-        "item": "Intact Sentient Core",
-        "delta": 69
-      },
-      {
-        "item": "Neural Sensors",
-        "delta": 54
-      },
-      {
-        "item": "Amir's Shockwave Cred",
-        "delta": 50
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 24
-      },
-      {
-        "item": "Maphica",
-        "delta": 18
-      },
-      {
-        "item": "Khora Systems Blueprint",
         "delta": 2
       },
       {
-        "item": "<Shard_yellow_simple> Amber Archon Shard",
+        "item": "Ayatan Amber Star",
         "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Intact Sentient Core",
-        "delta": 69
-      },
-      {
-        "item": "Khora Systems Blueprint",
-        "delta": 2
       },
       {
         "item": "Blueprint",
         "delta": 1
       },
       {
-        "item": "Lith K12 Intact",
+        "item": "Echo Voca",
+        "delta": 1
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Ascaris Prime",
+        "delta": 17
+      },
+      {
+        "item": "Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Galariak Prime Blade Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Meso D8 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso K8 Intact",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Salvage",
-        "delta": 20420
+        "item": "Circuit Effect",
+        "delta": 8450
       },
       {
-        "item": "Hexenon",
-        "delta": 356
+        "item": "Agnovidisc",
+        "delta": 2170
+      },
+      {
+        "item": "Laudavi",
+        "delta": 1020
+      },
+      {
+        "item": "Servoris",
+        "delta": 289
       },
       {
         "item": "Ignia",
-        "delta": 198
+        "delta": 100
       },
       {
-        "item": "Oxium",
-        "delta": 196
+        "item": "Lyroic Bridge",
+        "delta": 31
+      },
+      {
+        "item": "Ren Hypercore",
+        "delta": 17
       },
       {
         "item": "Riven Sliver",
-        "delta": 128
+        "delta": 2
       },
       {
-        "item": "Neural Sensors",
-        "delta": 54
-      },
-      {
-        "item": "Amir's Shockwave Cred",
-        "delta": 50
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 24
-      },
-      {
-        "item": "Maphica",
-        "delta": 18
-      },
-      {
-        "item": "<Shard_yellow_simple> Amber Archon Shard",
+        "item": "Ayatan Amber Star",
         "delta": 1
       },
       {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      },
-      {
-        "item": "Corpus Depository Scene",
+        "item": "Echo Voca",
         "delta": 1
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 11,
-    "errorEventCount": 4
+    "configurationChangeCount": 0,
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
