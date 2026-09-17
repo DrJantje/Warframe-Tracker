@@ -1,163 +1,7 @@
 {
-  "equipmentRemoved": [],
-  "errorEventCount": 4,
   "missionCount": 9,
   "focusCounterAtCaptureStart": 0,
   "equipmentAdded": [],
-  "configurationChanges": [
-    {
-      "at": "2026-09-14T22:48:49.414727+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Heated Charge",
-        "Frostbite"
-      ],
-      "removed": [
-        "Primed Heated Charge",
-        "Convulsion"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:24:49.269764+00:00",
-      "item": "Lotus Modular Weapon",
-      "configuration": "A",
-      "added": [
-        "Magnetic Rush",
-        "Pressure Point",
-        "Primed Reach",
-        "Reaping Spiral"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:24:49.269764+00:00",
-      "item": "Hildryn Prime",
-      "configuration": "A",
-      "added": [
-        "Augur Secrets",
-        "Archon Continuity",
-        "Cunning Drift"
-      ],
-      "removed": [
-        "Precision Intensify",
-        "Boreal's Hatred",
-        "Power Drift"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Shed Ability",
-      "helminthAfter": "Shed Ability"
-    },
-    {
-      "at": "2026-09-14T23:24:49.269764+00:00",
-      "item": "Hildryn Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": "Shed Ability",
-      "helminthAfter": "Shed Ability"
-    },
-    {
-      "at": "2026-09-14T23:24:49.269764+00:00",
-      "item": "Hildryn Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:24:49.269764+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Heated Charge",
-        "Convulsion"
-      ],
-      "removed": [
-        "Heated Charge",
-        "Frostbite"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:38:37.564403+00:00",
-      "item": "Hildryn Prime",
-      "configuration": "A",
-      "added": [
-        "Umbral Intensify"
-      ],
-      "removed": [
-        "Augur Secrets"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Shed Ability",
-      "helminthAfter": "Shed Ability"
-    },
-    {
-      "at": "2026-09-14T23:51:17.025919+00:00",
-      "item": "Balefire Charger",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Primed Fulmination"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:51:17.025919+00:00",
-      "item": "Lotus Modular Weapon",
-      "configuration": "A",
-      "added": [
-        "Primed Fever Strike"
-      ],
-      "removed": [
-        "Magnetic Rush"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:51:17.025919+00:00",
-      "item": "Lotus Modular Weapon",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Primed Fever Strike",
-        "Pressure Point",
-        "Primed Reach",
-        "Bleeding Willow"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-14T23:51:17.025919+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "durationSeconds": 8190.328,
-  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -184,6 +28,8 @@
       "delta": -1
     }
   ],
+  "errorEventCount": 4,
+  "startedAt": "2026-09-14T21:45:56.462019+00:00",
   "missions": [
     {
       "startedAt": "2026-09-14T21:46:02.660000+00:00",
@@ -361,10 +207,164 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-09-14T22:48:49.414727+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Heated Charge",
+        "Frostbite"
+      ],
+      "removed": [
+        "Primed Heated Charge",
+        "Convulsion"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:24:49.269764+00:00",
+      "item": "Lotus Modular Weapon",
+      "configuration": "A",
+      "added": [
+        "Magnetic Rush",
+        "Pressure Point",
+        "Primed Reach",
+        "Reaping Spiral"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:24:49.269764+00:00",
+      "item": "Hildryn Prime",
+      "configuration": "A",
+      "added": [
+        "Augur Secrets",
+        "Archon Continuity",
+        "Cunning Drift"
+      ],
+      "removed": [
+        "Precision Intensify",
+        "Boreal's Hatred",
+        "Power Drift"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Shed Ability",
+      "helminthAfter": "Shed Ability"
+    },
+    {
+      "at": "2026-09-14T23:24:49.269764+00:00",
+      "item": "Hildryn Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": "Shed Ability",
+      "helminthAfter": "Shed Ability"
+    },
+    {
+      "at": "2026-09-14T23:24:49.269764+00:00",
+      "item": "Hildryn Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:24:49.269764+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Heated Charge",
+        "Convulsion"
+      ],
+      "removed": [
+        "Heated Charge",
+        "Frostbite"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:38:37.564403+00:00",
+      "item": "Hildryn Prime",
+      "configuration": "A",
+      "added": [
+        "Umbral Intensify"
+      ],
+      "removed": [
+        "Augur Secrets"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Shed Ability",
+      "helminthAfter": "Shed Ability"
+    },
+    {
+      "at": "2026-09-14T23:51:17.025919+00:00",
+      "item": "Balefire Charger",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Primed Fulmination"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:51:17.025919+00:00",
+      "item": "Lotus Modular Weapon",
+      "configuration": "A",
+      "added": [
+        "Primed Fever Strike"
+      ],
+      "removed": [
+        "Magnetic Rush"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:51:17.025919+00:00",
+      "item": "Lotus Modular Weapon",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Primed Fever Strike",
+        "Pressure Point",
+        "Primed Reach",
+        "Bleeding Willow"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-14T23:51:17.025919+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
   "schemaVersion": 1,
-  "startedAt": "2026-09-14T21:45:56.462019+00:00",
+  "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 8190.328,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

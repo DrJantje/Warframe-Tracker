@@ -1,37 +1,6 @@
 {
-  "errorEventCount": 0,
   "missionCount": 5,
   "focusCounterAtCaptureStart": 119454,
-  "configurationChanges": [
-    {
-      "at": "2026-08-13T03:21:21.587861+00:00",
-      "item": "Coda Synapse",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Sinister Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-13T04:50:15.860755+00:00",
-      "item": "Titania Prime",
-      "configuration": "A",
-      "added": [
-        "Arcane Velocity"
-      ],
-      "removed": [
-        "Arcane Impetus"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Broken Rot Ability",
-      "helminthAfter": "Broken Rot Ability"
-    }
-  ],
-  "durationSeconds": 7200.069,
-  "focusEarnedDuringCapture": 68616,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -50,6 +19,8 @@
       "delta": -1
     }
   ],
+  "errorEventCount": 0,
+  "startedAt": "2026-08-13T03:04:44.769358+00:00",
   "missions": [
     {
       "startedAt": "2026-08-13T03:04:51.927000+00:00",
@@ -338,10 +309,39 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 188070,
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-08-13T03:21:21.587861+00:00",
+      "item": "Coda Synapse",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Sinister Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-13T04:50:15.860755+00:00",
+      "item": "Titania Prime",
+      "configuration": "A",
+      "added": [
+        "Arcane Velocity"
+      ],
+      "removed": [
+        "Arcane Impetus"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Broken Rot Ability",
+      "helminthAfter": "Broken Rot Ability"
+    }
+  ],
+  "focusEarnedDuringCapture": 68616,
   "schemaVersion": 1,
-  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+  "focusCounterAtCaptureEnd": 188070,
+  "durationSeconds": 7200.069,
   "notableAcquisitions": [
     {
       "item": "Oberon Chassis Blueprint",
