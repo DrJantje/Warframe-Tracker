@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-15",
-    "exportVerifiedAt": "2026-09-15 23:00:36 PDT",
+    "snapshotDate": "2026-09-16",
+    "exportVerifiedAt": "2026-09-16 20:14:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167754,
-        "modified": "2026-09-15T23:00:36.144446-07:00",
-        "sha256": "a026b6bece39e478591d75b5e8e2d7b66baf0092edd013bbcf57f890bdb9d841"
+        "bytes": 2167797,
+        "modified": "2026-09-16T20:14:49.265498-07:00",
+        "sha256": "207e334899c08a57e522b9ec2093ff5cdf47a472e1cb55aefa69184c42ba3eea"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-15T23:00:36.147474-07:00",
+        "modified": "2026-09-16T20:14:49.272538-07:00",
         "sha256": "23008c1639656d88372ae1b95fdeee8ec557c48525a9779c5e763e4739043cbb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-15T23:00:36.145960-07:00",
+        "modified": "2026-09-16T20:14:49.267508-07:00",
         "sha256": "400977a1c7c31daf2302cc05c682385042409c417163e12bee165f91ac2bf8bb"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-15T23:00:36.145960-07:00",
-        "sha256": "8de963045a35c94a35d42cdc5948852a08c30d1e9ab26d928bb8232e1bea5acb"
+        "modified": "2026-09-16T20:14:49.270026-07:00",
+        "sha256": "bb3b440257ab97073124317c65e3258d07ca3ea1a2738d9bcd60840c765eed80"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-15T23:00:36.149140-07:00",
+        "modified": "2026-09-16T20:14:49.278574-07:00",
         "sha256": "1996fa6fc2739e97622aaf176a3616808c98c9e2659fee68de54eda1a7a88eab"
       },
       "rivens.json": {
@@ -46,7 +46,53 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Plague Kripath",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vauban Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Wolf Sledge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -55,7 +101,7 @@
       "missing": 203
     },
     "relicInventory": {
-      "Axi D6 Intact": 2,
+      "Axi D6 Intact": 3,
       "Axi S20 Intact": 4,
       "Axi T13 Intact": 1,
       "Lith A12 Intact": 13,
@@ -72,15 +118,15 @@
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 7,
+      "Lith Q3 Intact": 6,
       "Lith S18 Intact": 8,
       "Lith T14 Intact": 17,
       "Lith V11 Intact": 14,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 33,
+      "Meso A12 Intact": 34,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 58,
+      "Meso D8 Intact": 59,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 53,
       "Meso L4 Intact": 6,
@@ -815,16 +861,16 @@
       "item": "Wolf Sledge",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 3 Nitain Extract, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave",
-      "practicalPriority": 525
+      "practicalPriority": 520
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1363,7 +1409,9 @@
       "source": "https://wiki.warframe.com/w/Latron_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Latron Wraith Stock"
+      ],
       "practicalPriority": 770
     },
     {
@@ -3046,7 +3094,7 @@
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
       "route": "Owned relics first; current Void Relic farms for more",
-      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 6 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
@@ -3056,7 +3104,7 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 7,
+          "ownedRelics": 6,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
@@ -3438,16 +3486,16 @@
       "item": "Vauban Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 3 Nitain Extract, then build.",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Vauban_Prime",
       "vaulted": "Yes",
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3619,17 +3667,7 @@
       "practicalPriority": 510
     }
   ],
-  "owned": [
-    {
-      "item": "Plague Kripath",
-      "type": "modular",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Plague_Kripath"
-    }
-  ],
+  "owned": [],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -12073,7 +12111,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Latron Wraith Stock"
+      ]
     },
     {
       "item": "Lavos",
@@ -14477,15 +14517,15 @@
     {
       "item": "Plague Kripath",
       "type": "modular",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -15281,14 +15321,14 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 7,
+          "ownedRelics": 6,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
       "primeStatus": "OWNED RELICS",
-      "steps": "Quassus Prime Blade (Rare): use your 7 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "steps": "Quassus Prime Blade (Rare): use your 6 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -18943,7 +18983,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -18953,7 +18993,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps. Obtain 3 Nitain Extract, then build.",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying."
     },
     {
@@ -19782,14 +19822,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
       "ease": "5 — Long grind / trade",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 3 Nitain Extract, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "primeDetails": [],
       "liveMatches": [],
