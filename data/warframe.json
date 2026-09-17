@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-16",
-    "exportVerifiedAt": "2026-09-16 20:14:50 PDT",
+    "exportVerifiedAt": "2026-09-16 20:42:18 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167797,
-        "modified": "2026-09-16T20:14:49.265498-07:00",
-        "sha256": "207e334899c08a57e522b9ec2093ff5cdf47a472e1cb55aefa69184c42ba3eea"
+        "modified": "2026-09-16T20:42:17.268530-07:00",
+        "sha256": "8eb52936042b6fcbf7494c75fe1554b40f28260e8e7476b6fa90297c0c3c75da"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-16T20:14:49.272538-07:00",
+        "modified": "2026-09-16T20:42:17.271550-07:00",
         "sha256": "23008c1639656d88372ae1b95fdeee8ec557c48525a9779c5e763e4739043cbb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-16T20:14:49.267508-07:00",
+        "modified": "2026-09-16T20:42:17.270041-07:00",
         "sha256": "400977a1c7c31daf2302cc05c682385042409c417163e12bee165f91ac2bf8bb"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-16T20:14:49.270026-07:00",
+        "modified": "2026-09-16T20:42:17.270041-07:00",
         "sha256": "bb3b440257ab97073124317c65e3258d07ca3ea1a2738d9bcd60840c765eed80"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-16T20:14:49.278574-07:00",
+        "modified": "2026-09-16T20:42:17.273059-07:00",
         "sha256": "1996fa6fc2739e97622aaf176a3616808c98c9e2659fee68de54eda1a7a88eab"
       },
       "rivens.json": {
@@ -46,53 +46,7 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [
-      {
-        "item": "Plague Kripath",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Vauban Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Nitain Extract (2/5); Vauban Prime Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Wolf Sledge",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (2/5)"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
-        ]
-      }
-    ],
+    "importChanges": [],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,

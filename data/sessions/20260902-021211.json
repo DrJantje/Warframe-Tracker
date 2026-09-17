@@ -1,21 +1,18 @@
 {
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
-  "positiveItemDeltas": [
+  "focusEarnedDuringCapture": 0,
+  "durationSeconds": 5473.26,
+  "negativeItemDeltas": [
     {
-      "item": "Blueprint",
-      "delta": 1
+      "item": "Cubic Diodes",
+      "delta": -7000
     },
     {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": 1
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [
+      "item": "Rubedo",
+      "delta": -6000
+    },
     {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
+      "item": "Forma",
+      "delta": -1
     }
   ],
   "missions": [
@@ -141,22 +138,6 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Cubic Diodes",
-      "delta": -7000
-    },
-    {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Forma",
-      "delta": -1
-    }
-  ],
-  "missionCount": 10,
-  "schemaVersion": 1,
   "configurationChanges": [
     {
       "at": "2026-09-02T03:05:13.753527+00:00",
@@ -169,10 +150,29 @@
       "helminthAfter": null
     }
   ],
-  "durationSeconds": 5473.26,
+  "equipmentAdded": [],
+  "missionCount": 10,
   "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "focusCounterAtCaptureStart": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": 1
+    }
+  ],
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
+    }
+  ],
   "errorEventCount": 4,
+  "focusCounterAtCaptureEnd": 0,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
   "startedAt": "2026-09-02T02:12:11.653637+00:00",
   "notableAcquisitions": [
     {
