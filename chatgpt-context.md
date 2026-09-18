@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-17T04:32:11.934896+00:00
-Account snapshot: 2026-09-17T04:03:56.777Z
+Generated: 2026-09-18T01:43:48.865777+00:00
+Account snapshot: 2026-09-18T01:43:44.923Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,54 +10,55 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Ash (sync-awaiting-snapshot)
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 42488
+- Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: E.D.A
+### Arsenal: E.T.A.
 
-#### Warframe: Dante — config A
+#### Warframe: Hildryn Prime — config A
 
-- Forma: 5
-- Lens: Greater Vazarin Lens
-- Archon shards: ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic
-- Mods: Umbral Intensify (rank 10), Archon Stretch (rank 10), Streamline (rank 5), Archon Continuity (rank 10), Primed Flow (rank 10), Equilibrium (rank 10), Augur Reach (rank 5), Transient Fortitude (rank 10), Growing Power (rank 5), Cunning Drift (rank 5)
-- Arcanes: Molt Augmented (rank 5), Arcane Impetus (rank 5)
+- Forma: 4
+- Lens: Madurai Lens
+- Helminth: Shed Ability
+- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
+- Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
+- Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Sagek Prime — config A
+#### Secondary: Epitaph Prime — config A
 
-- Forma: 0
-- Mods: Barrel Diffusion (rank 5), Creeping Bullseye (rank 5), Hornet Strike (rank 10)
-- Arcanes: none recorded
+- Forma: 1
+- Mods: Lethal Torrent (rank 5), Saxum Spittle (rank 5), Convulsion (rank 5), Frostbite (rank 3), Barrel Diffusion (rank 5), Primed Heated Charge (rank 10), Hornet Strike (rank 10)
+- Arcanes: Secondary Enervate (rank 5)
 
-#### Primary: Astilla — config A
-
-- Forma: 0
-- Mods: Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Hell's Chamber (rank 5)
-- Arcanes: none recorded
-
-#### Melee: Ether Reaper — config A
+#### Primary: Stradavar — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Primed Fever Strike (rank 10), Reaping Spiral (rank 3)
+- Mods: Split Chamber (rank 5), Serration (rank 10), Malignant Force (rank 2), Critical Delay (rank 5)
 - Arcanes: none recorded
 
-#### Heavy weapon: Grattler — config A
+#### Melee: Dual Zoren Prime — config A
 
 - Forma: 0
-- Mods: Hollowed Bullets (rank 3), Rubedo-Lined Barrel (rank 5), Electrified Barrel (rank 5), Combustion Rounds (rank 5), Dual Rounds (rank 5), Parallax Scope (rank 3)
+- Mods: Primed Fever Strike (rank 10), True Steel (rank 5), Pressure Point (rank 5), Primed Reach (rank 10), Swirling Tiger (rank 3)
 - Arcanes: none recorded
 
-#### Exalted weapon: Noctua — config A
+#### Heavy weapon: Mausolon — config A
 
-- Forma: 6
-- Mods: Creeping Bullseye (rank 5), Merciless Gunfight (rank 5), Primed Target Cracker (rank 10), Hornet Strike (rank 10), Galvanized Shot (rank 10), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Galvanized Diffusion (rank 10), Lethal Momentum (rank 3)
-- Arcanes: Secondary Encumber (rank 5)
+- Forma: 3
+- Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
+- Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### Companion: E.D.A
+#### Exalted weapon: Balefire Charger Prime — config A
+
+- Forma: 7
+- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Arcanes: Secondary Enervate (rank 5)
+
+### Companion: E.T.A.
 
 #### Companion: Panzer Vulpaphyla — config A
 

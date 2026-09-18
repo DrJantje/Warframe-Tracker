@@ -1,7 +1,6 @@
 {
-  "missionCount": 7,
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "stoppedAt": "2026-09-14T05:25:47.750300+00:00",
   "negativeItemDeltas": [
     {
       "item": "Steel Essence",
@@ -40,95 +39,12 @@
       "delta": -1
     }
   ],
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 2772.106,
+  "configurationChanges": [],
   "errorEventCount": 5,
-  "startedAt": "2026-09-14T04:39:35.644129+00:00",
-  "missions": [
-    {
-      "startedAt": "2026-09-14T04:39:40.771000+00:00",
-      "endedAt": "2026-09-14T04:47:37.543000+00:00",
-      "durationSeconds": 476.772,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IronwakeHUB3_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-14T04:48:46.345000+00:00",
-      "endedAt": "2026-09-14T04:50:02.887000+00:00",
-      "durationSeconds": 76.542,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolarisUnitedHub1_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-14T04:51:05.410000+00:00",
-      "endedAt": "2026-09-14T05:09:28.537000+00:00",
-      "durationSeconds": 1103.127,
-      "type": "OPEN WORLD",
-      "node": "ORB VALLIS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-14T05:10:50.040000+00:00",
-      "endedAt": "2026-09-14T05:17:12.725000+00:00",
-      "durationSeconds": 382.685,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode229_Hard",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-14T05:17:11.786000+00:00",
-      "endedAt": "2026-09-14T05:17:41.231000+00:00",
-      "durationSeconds": 29.445,
-      "type": "OPEN WORLD",
-      "node": "CAMBION DRIFT",
-      "label": null,
-      "missionKey": "SolNode229",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-14T05:17:11.786000+00:00",
-      "endedAt": "2026-09-14T05:17:50.588000+00:00",
-      "durationSeconds": 38.802,
-      "type": "OPEN WORLD",
-      "node": "CAMBION DRIFT",
-      "label": null,
-      "missionKey": "SolNode229",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-14T05:17:11.786000+00:00",
-      "endedAt": "2026-09-14T05:25:47.750300+00:00",
-      "durationSeconds": 515.964,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode229",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
+  "missionCount": 7,
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -227,13 +143,97 @@
       "delta": 1
     }
   ],
-  "configurationChanges": [],
-  "equipmentRemoved": [],
   "focusEarnedDuringCapture": 0,
-  "schemaVersion": 1,
-  "stoppedAt": "2026-09-14T05:25:47.750300+00:00",
-  "focusCounterAtCaptureEnd": 0,
-  "durationSeconds": 2772.106,
+  "missions": [
+    {
+      "startedAt": "2026-09-14T04:39:40.771000+00:00",
+      "endedAt": "2026-09-14T04:47:37.543000+00:00",
+      "durationSeconds": 476.772,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IronwakeHUB3_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-14T04:48:46.345000+00:00",
+      "endedAt": "2026-09-14T04:50:02.887000+00:00",
+      "durationSeconds": 76.542,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolarisUnitedHub1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-14T04:51:05.410000+00:00",
+      "endedAt": "2026-09-14T05:09:28.537000+00:00",
+      "durationSeconds": 1103.127,
+      "type": "OPEN WORLD",
+      "node": "ORB VALLIS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-14T05:10:50.040000+00:00",
+      "endedAt": "2026-09-14T05:17:12.725000+00:00",
+      "durationSeconds": 382.685,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode229_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-14T05:17:11.786000+00:00",
+      "endedAt": "2026-09-14T05:17:41.231000+00:00",
+      "durationSeconds": 29.445,
+      "type": "OPEN WORLD",
+      "node": "CAMBION DRIFT",
+      "label": null,
+      "missionKey": "SolNode229",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-14T05:17:11.786000+00:00",
+      "endedAt": "2026-09-14T05:17:50.588000+00:00",
+      "durationSeconds": 38.802,
+      "type": "OPEN WORLD",
+      "node": "CAMBION DRIFT",
+      "label": null,
+      "missionKey": "SolNode229",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-14T05:17:11.786000+00:00",
+      "endedAt": "2026-09-14T05:25:47.750300+00:00",
+      "durationSeconds": 515.964,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode229",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "startedAt": "2026-09-14T04:39:35.644129+00:00",
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {
       "item": "Exceptional Sentient Core",
