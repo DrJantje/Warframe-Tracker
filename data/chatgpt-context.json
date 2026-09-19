@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-19T16:29:52.965290+00:00",
+  "generatedAt": "2026-09-19T16:43:01.486500+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-19T16:29:49.291Z",
+  "accountSnapshotAt": "2026-09-19T16:39:29.076Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-19T16:29:49.291Z",
+      "capturedAt": "2026-09-19T16:39:29.076Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-19T16:29:49.299851+00:00",
+    "observedAt": "2026-09-19T16:42:57.978135+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,8 +59,8 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "arsenal-active",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -1813,18 +1813,28 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260918-011010.json",
-    "startedAt": "2026-09-18T01:10:10.103913+00:00",
-    "stoppedAt": "2026-09-18T03:41:14.466059+00:00",
-    "durationSeconds": 9064.362,
-    "missionCount": 17,
+    "file": "20260919-162304.json",
+    "startedAt": "2026-09-19T16:23:04.529411+00:00",
+    "stoppedAt": "2026-09-19T16:42:58.489252+00:00",
+    "durationSeconds": 1193.96,
+    "missionCount": 4,
     "focusEarnedDuringCapture": 0,
-    "topGains": [],
+    "topGains": [
+      {
+        "item": "Orokin Ducats",
+        "delta": 1015
+      }
+    ],
     "notableAcquisitions": [],
-    "resourceGains": [],
+    "resourceGains": [
+      {
+        "item": "Orokin Ducats",
+        "delta": 1015
+      }
+    ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 4
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
