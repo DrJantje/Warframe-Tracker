@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-18T03:41:17.942437+00:00
-Account snapshot: 2026-09-18T02:02:47.880Z
+Generated: 2026-09-19T16:29:52.965290+00:00
+Account snapshot: 2026-09-19T16:29:49.291Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,14 +10,14 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-active)
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: E.T.A.
+### Arsenal: Hildryn
 
 #### Warframe: Hildryn Prime — config A
 
@@ -28,22 +28,22 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Epitaph Prime — config A
+#### Secondary: Tenet Cycron — config A
 
-- Forma: 1
-- Mods: Lethal Torrent (rank 5), Saxum Spittle (rank 5), Convulsion (rank 5), Frostbite (rank 3), Barrel Diffusion (rank 5), Primed Heated Charge (rank 10), Hornet Strike (rank 10)
-- Arcanes: Secondary Enervate (rank 5)
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Stradavar — config A
+#### Primary: Tenet Glaxion — config A
+
+- Forma: 5
+- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
+- Arcanes: Primary Debilitate (rank 5)
+
+#### Melee: Furax Wraith — config A
 
 - Forma: 0
-- Mods: Split Chamber (rank 5), Serration (rank 10), Malignant Force (rank 2), Critical Delay (rank 5)
-- Arcanes: none recorded
-
-#### Melee: Dual Zoren Prime — config A
-
-- Forma: 0
-- Mods: Primed Fever Strike (rank 10), True Steel (rank 5), Pressure Point (rank 5), Primed Reach (rank 10), Swirling Tiger (rank 3)
+- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -58,7 +58,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
-### Companion: E.T.A.
+### Companion: Hildryn
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -66,10 +66,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Martyr Symbiosis (rank 3), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Stinger — config A
+#### Companion weapon: Verglas Prime — config A
 
-- Forma: 0
-- Mods: Continuous Misery (rank 3), Rime Rounds (rank 3), Serration (rank 10)
+- Forma: 3
+- Mods: Sinister Reach (rank 3), Critical Delay (rank 5), Vital Sense (rank 5), Galvanized Aptitude (rank 10), Malignant Force (rank 3), Vile Acceleration (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A

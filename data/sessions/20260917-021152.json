@@ -1,137 +1,9 @@
 {
-  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
-  "schemaVersion": 1,
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 11,
-  "missionCount": 7,
-  "equipmentRemoved": [],
-  "positiveItemDeltas": [
-    {
-      "item": "Entrati Obols",
-      "delta": 13026
-    },
-    {
-      "item": "Nano Spores",
-      "delta": 2100
-    },
-    {
-      "item": "Necracoil",
-      "delta": 244
-    },
-    {
-      "item": "Stela",
-      "delta": 76
-    },
-    {
-      "item": "Vosfor",
-      "delta": 20
-    },
-    {
-      "item": "Mutagen Sample",
-      "delta": 8
-    },
-    {
-      "item": "Riven Sliver",
-      "delta": 8
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": 3
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": 2
-    },
-    {
-      "item": "<Shard_red_simple> Crimson Archon Shard",
-      "delta": 1
-    },
-    {
-      "item": "<Shard_red_simple> Tauforged Crimson Archon Shard",
-      "delta": 1
-    },
-    {
-      "item": "Ayatan Amber Star",
-      "delta": 1
-    },
-    {
-      "item": "Ayatan Cyan Star",
-      "delta": 1
-    },
-    {
-      "item": "Echo Voca",
-      "delta": 1
-    },
-    {
-      "item": "Melee Arcane Adapter",
-      "delta": 1
-    },
-    {
-      "item": "Meso Y2 Intact",
-      "delta": 1
-    },
-    {
-      "item": "Shrill Voca",
-      "delta": 1
-    }
-  ],
-  "equipmentAdded": [],
-  "configurationChanges": [
-    {
-      "at": "2026-09-17T03:39:50.544498+00:00",
-      "item": "Ether Reaper",
-      "configuration": "A",
-      "added": [
-        "Primed Reach",
-        "Primed Fever Strike"
-      ],
-      "removed": [
-        "Volcanic Edge",
-        "True Steel",
-        "Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-17T03:39:50.544498+00:00",
-      "item": "Sagek Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-17T03:39:50.544498+00:00",
-      "item": "Astilla",
-      "configuration": "A",
-      "added": [
-        "Primed Point Blank",
-        "Primed Charged Shell"
-      ],
-      "removed": [
-        "Ammo Stock",
-        "Critical Deceleration",
-        "Point Blank"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "focusEarnedDuringCapture": 42488,
-  "startedAt": "2026-09-17T02:11:52.565728+00:00",
-  "durationSeconds": 8416.543,
   "focusCounterAtCaptureEnd": 42488,
+  "focusEarnedDuringCapture": 42488,
+  "schemaVersion": 1,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
   "missions": [
     {
       "startedAt": "2026-09-17T02:12:11.398000+00:00",
@@ -219,6 +91,134 @@
       "incomplete": true
     }
   ],
+  "positiveItemDeltas": [
+    {
+      "item": "Entrati Obols",
+      "delta": 13026
+    },
+    {
+      "item": "Nano Spores",
+      "delta": 2100
+    },
+    {
+      "item": "Necracoil",
+      "delta": 244
+    },
+    {
+      "item": "Stela",
+      "delta": 76
+    },
+    {
+      "item": "Vosfor",
+      "delta": 20
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 8
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": 8
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": 3
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": 2
+    },
+    {
+      "item": "<Shard_red_simple> Crimson Archon Shard",
+      "delta": 1
+    },
+    {
+      "item": "<Shard_red_simple> Tauforged Crimson Archon Shard",
+      "delta": 1
+    },
+    {
+      "item": "Ayatan Amber Star",
+      "delta": 1
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": 1
+    },
+    {
+      "item": "Echo Voca",
+      "delta": 1
+    },
+    {
+      "item": "Melee Arcane Adapter",
+      "delta": 1
+    },
+    {
+      "item": "Meso Y2 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Shrill Voca",
+      "delta": 1
+    }
+  ],
+  "missionCount": 7,
+  "configurationChanges": [
+    {
+      "at": "2026-09-17T03:39:50.544498+00:00",
+      "item": "Ether Reaper",
+      "configuration": "A",
+      "added": [
+        "Primed Reach",
+        "Primed Fever Strike"
+      ],
+      "removed": [
+        "Volcanic Edge",
+        "True Steel",
+        "Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-17T03:39:50.544498+00:00",
+      "item": "Sagek Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-17T03:39:50.544498+00:00",
+      "item": "Astilla",
+      "configuration": "A",
+      "added": [
+        "Primed Point Blank",
+        "Primed Charged Shell"
+      ],
+      "removed": [
+        "Ammo Stock",
+        "Critical Deceleration",
+        "Point Blank"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "errorEventCount": 11,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
+  "startedAt": "2026-09-17T02:11:52.565728+00:00",
+  "equipmentAdded": [],
+  "durationSeconds": 8416.543,
   "notableAcquisitions": [
     {
       "item": "Meso Y2 Intact",
