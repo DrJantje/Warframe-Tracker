@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-19T16:43:01.486500+00:00",
+  "generatedAt": "2026-09-21T00:56:03.702455+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-19T16:39:29.076Z",
+  "accountSnapshotAt": "2026-09-21T00:56:00.138Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-19T16:39:29.076Z",
+      "capturedAt": "2026-09-21T00:56:00.138Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-19T16:42:57.978135+00:00",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-09-21T00:56:01.907Z",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
-    "frameCandidate": "Titania",
+    "frameCandidate": null,
     "frameConfidence": "arsenal-active",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -311,77 +311,25 @@
           ]
         },
         "Primary": {
-          "buildRef": "longguns-104",
+          "buildRef": "longguns-072",
           "resolutionStatus": "exact-build-ref",
-          "item": "Tenet Glaxion",
+          "item": "Komorex",
           "category": "LongGuns",
           "configuration": "A",
-          "formaApplied": 5,
+          "formaApplied": 0,
           "focusLens": null,
-          "polarities": [
-            {
-              "slot": 0,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_UNIVERSAL"
-            }
-          ],
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Vital Sense",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Photon Overcharge",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Critical Delay",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Thermite Rounds",
+              "name": "High Voltage",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "High Voltage",
+              "name": "Thermite Rounds",
               "rank": 3,
               "kind": "mod"
             },
@@ -391,8 +339,8 @@
               "kind": "mod"
             },
             {
-              "name": "Galvanized Aptitude",
-              "rank": 10,
+              "name": "Semi-Rifle Cannonade",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -401,23 +349,17 @@
               "kind": "mod"
             },
             {
-              "name": "Sinister Reach",
-              "rank": 3,
+              "name": "Serration",
+              "rank": 10,
               "kind": "mod"
             }
           ],
-          "arcanes": [
-            {
-              "name": "Primary Debilitate",
-              "rank": 5,
-              "kind": "arcane"
-            }
-          ]
+          "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-102",
+          "buildRef": "melee-147",
           "resolutionStatus": "exact-build-ref",
-          "item": "Furax Wraith",
+          "item": "Prisma Skana",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -428,12 +370,12 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Condition Overload",
-              "rank": 5,
+              "name": "Primed Fever Strike",
+              "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Amalgam Furax Body Count",
+              "name": "Pressure Point",
               "rank": 5,
               "kind": "mod"
             },
@@ -443,7 +385,7 @@
               "kind": "mod"
             },
             {
-              "name": "Gaia's Tragedy",
+              "name": "Swooping Falcon",
               "rank": 3,
               "kind": "mod"
             }

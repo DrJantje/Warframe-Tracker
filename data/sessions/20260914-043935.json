@@ -1,96 +1,46 @@
 {
-  "startedAt": "2026-09-14T04:39:35.644129+00:00",
-  "stoppedAt": "2026-09-14T05:25:47.750300+00:00",
-  "missions": [
+  "negativeItemDeltas": [
     {
-      "startedAt": "2026-09-14T04:39:40.771000+00:00",
-      "endedAt": "2026-09-14T04:47:37.543000+00:00",
-      "durationSeconds": 476.772,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IronwakeHUB3_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Steel Essence",
+      "delta": -170
     },
     {
-      "startedAt": "2026-09-14T04:48:46.345000+00:00",
-      "endedAt": "2026-09-14T04:50:02.887000+00:00",
-      "durationSeconds": 76.542,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolarisUnitedHub1_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Riven Sliver",
+      "delta": -85
     },
     {
-      "startedAt": "2026-09-14T04:51:05.410000+00:00",
-      "endedAt": "2026-09-14T05:09:28.537000+00:00",
-      "durationSeconds": 1103.127,
-      "type": "OPEN WORLD",
-      "node": "ORB VALLIS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Luminous Dye",
+      "delta": -4
     },
     {
-      "startedAt": "2026-09-14T05:10:50.040000+00:00",
-      "endedAt": "2026-09-14T05:17:12.725000+00:00",
-      "durationSeconds": 382.685,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode229_Hard",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Alpine Monitor Sawgaw Tag",
+      "delta": -3
     },
     {
-      "startedAt": "2026-09-14T05:17:11.786000+00:00",
-      "endedAt": "2026-09-14T05:17:41.231000+00:00",
-      "durationSeconds": 29.445,
-      "type": "OPEN WORLD",
-      "node": "CAMBION DRIFT",
-      "label": null,
-      "missionKey": "SolNode229",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Red-Crested Virmink Tag",
+      "delta": -3
     },
     {
-      "startedAt": "2026-09-14T05:17:11.786000+00:00",
-      "endedAt": "2026-09-14T05:17:50.588000+00:00",
-      "durationSeconds": 38.802,
-      "type": "OPEN WORLD",
-      "node": "CAMBION DRIFT",
-      "label": null,
-      "missionKey": "SolNode229",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Tromyzon Bait",
+      "delta": -2
     },
     {
-      "startedAt": "2026-09-14T05:17:11.786000+00:00",
-      "endedAt": "2026-09-14T05:25:47.750300+00:00",
-      "durationSeconds": 515.964,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode229",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
+      "item": "Broad-Spectrum Bait",
+      "delta": -1
+    },
+    {
+      "item": "Longwinder Bait",
+      "delta": -1
+    },
+    {
+      "item": "Mirewinder Bait",
+      "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
   "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
   "configurationChanges": [],
   "positiveItemDeltas": [
     {
@@ -190,50 +140,100 @@
       "delta": 1
     }
   ],
-  "equipmentAdded": [],
-  "missionCount": 7,
-  "errorEventCount": 5,
-  "durationSeconds": 2772.106,
-  "negativeItemDeltas": [
+  "missions": [
     {
-      "item": "Steel Essence",
-      "delta": -170
+      "startedAt": "2026-09-14T04:39:40.771000+00:00",
+      "endedAt": "2026-09-14T04:47:37.543000+00:00",
+      "durationSeconds": 476.772,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IronwakeHUB3_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Riven Sliver",
-      "delta": -85
+      "startedAt": "2026-09-14T04:48:46.345000+00:00",
+      "endedAt": "2026-09-14T04:50:02.887000+00:00",
+      "durationSeconds": 76.542,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolarisUnitedHub1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Luminous Dye",
-      "delta": -4
+      "startedAt": "2026-09-14T04:51:05.410000+00:00",
+      "endedAt": "2026-09-14T05:09:28.537000+00:00",
+      "durationSeconds": 1103.127,
+      "type": "OPEN WORLD",
+      "node": "ORB VALLIS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Alpine Monitor Sawgaw Tag",
-      "delta": -3
+      "startedAt": "2026-09-14T05:10:50.040000+00:00",
+      "endedAt": "2026-09-14T05:17:12.725000+00:00",
+      "durationSeconds": 382.685,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode229_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Red-Crested Virmink Tag",
-      "delta": -3
+      "startedAt": "2026-09-14T05:17:11.786000+00:00",
+      "endedAt": "2026-09-14T05:17:41.231000+00:00",
+      "durationSeconds": 29.445,
+      "type": "OPEN WORLD",
+      "node": "CAMBION DRIFT",
+      "label": null,
+      "missionKey": "SolNode229",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Tromyzon Bait",
-      "delta": -2
+      "startedAt": "2026-09-14T05:17:11.786000+00:00",
+      "endedAt": "2026-09-14T05:17:50.588000+00:00",
+      "durationSeconds": 38.802,
+      "type": "OPEN WORLD",
+      "node": "CAMBION DRIFT",
+      "label": null,
+      "missionKey": "SolNode229",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Broad-Spectrum Bait",
-      "delta": -1
-    },
-    {
-      "item": "Longwinder Bait",
-      "delta": -1
-    },
-    {
-      "item": "Mirewinder Bait",
-      "delta": -1
+      "startedAt": "2026-09-14T05:17:11.786000+00:00",
+      "endedAt": "2026-09-14T05:25:47.750300+00:00",
+      "durationSeconds": 515.964,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode229",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
     }
   ],
+  "missionCount": 7,
+  "startedAt": "2026-09-14T04:39:35.644129+00:00",
+  "durationSeconds": 2772.106,
+  "focusCounterAtCaptureEnd": 0,
   "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-09-14T05:25:47.750300+00:00",
+  "errorEventCount": 5,
   "notableAcquisitions": [
     {
       "item": "Exceptional Sentient Core",

@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-19T16:43:01.486500+00:00
-Account snapshot: 2026-09-19T16:39:29.076Z
+Generated: 2026-09-21T00:56:03.702455+00:00
+Account snapshot: 2026-09-21T00:56:00.138Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-active)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: unknown (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -34,16 +34,16 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Tenet Glaxion — config A
-
-- Forma: 5
-- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
-- Arcanes: Primary Debilitate (rank 5)
-
-#### Melee: Furax Wraith — config A
+#### Primary: Komorex — config A
 
 - Forma: 0
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: High Voltage (rank 3), Thermite Rounds (rank 3), Malignant Force (rank 3), Semi-Rifle Cannonade (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
+- Arcanes: none recorded
+
+#### Melee: Prisma Skana — config A
+
+- Forma: 0
+- Mods: Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Swooping Falcon (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

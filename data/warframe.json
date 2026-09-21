@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-19",
-    "exportVerifiedAt": "2026-09-19 09:43:01 PDT",
+    "snapshotDate": "2026-09-20",
+    "exportVerifiedAt": "2026-09-20 17:56:04 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167831,
-        "modified": "2026-09-19T09:43:00.739149-07:00",
-        "sha256": "b7490c310e0a4adb45c3e90009ca0c11bbe5e59f6fe2e50e2a976247c9f9aaaa"
+        "bytes": 2167776,
+        "modified": "2026-09-20T17:56:03.277890-07:00",
+        "sha256": "1e05583bf1e79cd481e9a3233f228a6c50554fc3b877f1c427ca750abb692f9a"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-19T09:43:00.744187-07:00",
+        "modified": "2026-09-20T17:56:03.282906-07:00",
         "sha256": "70af43b76186c77106abd50da757799b8623423a57fbfadd9677d2d42dc6ee4c"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-19T09:43:00.742180-07:00",
+        "modified": "2026-09-20T17:56:03.279893-07:00",
         "sha256": "4e539c4311513d4ec9e2aca425b57f002c5bfd2b29bb32fe3e3b1ef608ead396"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-19T09:43:00.743187-07:00",
+        "modified": "2026-09-20T17:56:03.281400-07:00",
         "sha256": "6029790fb010289d3c72c496b3cf420c81c0ba5ea33082c0575880d084ea27a6"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-19T09:43:00.747191-07:00",
-        "sha256": "331a7e94a0cd5a13706248a5a9650884e7b9e33560f02fd485543879d485b78a"
+        "modified": "2026-09-20T17:56:03.285417-07:00",
+        "sha256": "a28f421cc36749f3aab88e8e7320c8f66ca834b96230096f7e657a3259e8c64d"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,59 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Glaxion Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Glaxion Vandal (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Mirage Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint; Mirage Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Prisma Skana",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prisma Skana (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 203
+      "missing": 201
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -186,22 +232,6 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Glaxion Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Glaxion Vandal (completed item)",
-      "route": "Baro Ki’Teer rotating inventory / player trade",
-      "steps": "Buy the completed Glaxion Vandal when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
-      "source": "https://wiki.warframe.com/w/Glaxion_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
       "practicalPriority": 405
     },
     {
@@ -373,22 +403,6 @@
       "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
       "tip": "Check Baro’s current relay stock before trading.",
       "source": "https://wiki.warframe.com/w/Prisma_Shade",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Prisma Skana",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Prisma Skana (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Skana",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2696,9 +2710,9 @@
       "item": "Mirage Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint; Mirage Prime Systems Blueprint",
+      "missing": "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Mirage Prime Systems Blueprint (Uncommon): buy Axi H5 from Varzia for Aya and open it Radiant in a four-player share. Build Mirage Prime and level it to 30.",
+      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Build Mirage Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Mirage_Prime",
       "vaulted": "Yes",
@@ -2719,20 +2733,12 @@
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
           "refinement": "Intact"
-        },
-        {
-          "part": "Mirage Prime Systems Blueprint",
-          "relic": "Axi H5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3571,7 +3577,26 @@
       "practicalPriority": 510
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Glaxion Vandal",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Glaxion_Vandal"
+    },
+    {
+      "item": "Prisma Skana",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prisma_Skana"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -9250,14 +9275,14 @@
     {
       "item": "Glaxion Vandal",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Glaxion Vandal (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -12598,7 +12623,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint; Mirage Prime Systems Blueprint",
+      "missing": "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -12622,20 +12647,12 @@
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
           "refinement": "Intact"
-        },
-        {
-          "part": "Mirage Prime Systems Blueprint",
-          "relic": "Axi H5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Mirage Prime Systems Blueprint (Uncommon): buy Axi H5 from Varzia for Aya and open it Radiant in a four-player share. Build Mirage Prime and level it to 30.",
+      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Build Mirage Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -14773,14 +14790,14 @@
     {
       "item": "Prisma Skana",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prisma Skana (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",

@@ -1,48 +1,14 @@
 {
-  "startedAt": "2026-08-31T04:29:54.772896+00:00",
-  "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
-  "missions": [
+  "negativeItemDeltas": [
     {
-      "startedAt": "2026-08-31T04:29:59.905000+00:00",
-      "endedAt": "2026-08-31T04:37:33.761000+00:00",
-      "durationSeconds": 453.856,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "EntratiLabHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-31T04:48:01.800000+00:00",
-      "endedAt": "2026-08-31T04:48:44.428000+00:00",
-      "durationSeconds": 42.628,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode252",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-08-31T04:48:43.778000+00:00",
-      "endedAt": "2026-08-31T05:05:15.116591+00:00",
-      "durationSeconds": 991.339,
-      "type": "DESCENDIA",
-      "node": "SolNode252",
-      "label": null,
-      "missionKey": "SolNode252",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
+      "item": "Cipher",
+      "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
   "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
   "configurationChanges": [],
   "positiveItemDeltas": [
     {
@@ -82,18 +48,52 @@
       "delta": 1
     }
   ],
-  "equipmentAdded": [],
-  "missionCount": 3,
-  "errorEventCount": 2,
-  "durationSeconds": 2120.344,
-  "negativeItemDeltas": [
+  "missions": [
     {
-      "item": "Cipher",
-      "delta": -1
+      "startedAt": "2026-08-31T04:29:59.905000+00:00",
+      "endedAt": "2026-08-31T04:37:33.761000+00:00",
+      "durationSeconds": 453.856,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EntratiLabHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T04:48:01.800000+00:00",
+      "endedAt": "2026-08-31T04:48:44.428000+00:00",
+      "durationSeconds": 42.628,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode252",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-08-31T04:48:43.778000+00:00",
+      "endedAt": "2026-08-31T05:05:15.116591+00:00",
+      "durationSeconds": 991.339,
+      "type": "DESCENDIA",
+      "node": "SolNode252",
+      "label": null,
+      "missionKey": "SolNode252",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
     }
   ],
+  "missionCount": 3,
+  "startedAt": "2026-08-31T04:29:54.772896+00:00",
+  "durationSeconds": 2120.344,
+  "focusCounterAtCaptureEnd": 0,
   "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
+  "errorEventCount": 2,
   "notableAcquisitions": [
     {
       "item": "Ascaris Prime",
