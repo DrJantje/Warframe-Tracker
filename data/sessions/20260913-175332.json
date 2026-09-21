@@ -1,71 +1,5 @@
 {
-  "missionCount": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "A",
-      "added": [
-        "Frostbite",
-        "Lethal Torrent"
-      ],
-      "removed": [
-        "Convulsion",
-        "Accelerated Isotope"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "B",
-      "added": [
-        "Magnetic Might",
-        "Lethal Torrent"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "C",
-      "added": [
-        "Magnum Force"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "schemaVersion": 1,
   "durationSeconds": 14010.325,
-  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 7,
-  "focusCounterAtCaptureEnd": 283209,
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
-  "missions": [
-    {
-      "startedAt": "2026-09-13T17:53:36.300000+00:00",
-      "endedAt": "2026-09-13T21:47:02.495322+00:00",
-      "durationSeconds": 14006.195,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey_Key_Hard",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -124,6 +58,73 @@
       "delta": 1
     }
   ],
+  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 283209,
+  "errorEventCount": 7,
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "A",
+      "added": [
+        "Frostbite",
+        "Lethal Torrent"
+      ],
+      "removed": [
+        "Convulsion",
+        "Accelerated Isotope"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "B",
+      "added": [
+        "Magnetic Might",
+        "Lethal Torrent"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "C",
+      "added": [
+        "Magnum Force"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "missions": [
+    {
+      "startedAt": "2026-09-13T17:53:36.300000+00:00",
+      "endedAt": "2026-09-13T21:47:02.495322+00:00",
+      "durationSeconds": 14006.195,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey_Key_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "focusEarnedDuringCapture": 283209,
+  "equipmentRemoved": [],
+  "missionCount": 1,
+  "equipmentAdded": [],
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -251,7 +252,6 @@
     }
   ],
   "startedAt": "2026-09-13T17:53:32.170299+00:00",
-  "focusEarnedDuringCapture": 283209,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

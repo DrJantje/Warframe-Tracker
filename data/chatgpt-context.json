@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T02:46:09.649020+00:00",
+  "generatedAt": "2026-09-21T03:50:16.195479+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-21T02:44:03.398Z",
+  "accountSnapshotAt": "2026-09-21T03:02:44.092Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-21T02:44:03.398Z",
+      "capturedAt": "2026-09-21T03:02:44.092Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-21T02:44:24.174Z",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-09-21T03:25:47.430Z",
+    "phase": "location",
+    "node": "FORTUNA",
+    "planet": "VENUS",
+    "mission": "HUB",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "PUBLIC",
+    "matchmaking": "FRIENDS",
     "focusDuringCurrentCapture": 3341,
     "frameCandidate": "Titania",
-    "frameConfidence": "server-sent",
+    "frameConfidence": "location-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1755,123 +1755,135 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260921-004329.json",
-    "startedAt": "2026-09-21T00:43:29.217623+00:00",
-    "stoppedAt": "2026-09-21T01:22:05.406124+00:00",
-    "durationSeconds": 2316.189,
-    "missionCount": 6,
-    "focusEarnedDuringCapture": 6656,
+    "file": "20260921-020421.json",
+    "startedAt": "2026-09-21T02:04:21.533829+00:00",
+    "stoppedAt": "2026-09-21T03:25:47.435020+00:00",
+    "durationSeconds": 4885.901,
+    "missionCount": 8,
+    "focusEarnedDuringCapture": 3341,
     "topGains": [
       {
         "item": "Titanium",
-        "delta": 7012
+        "delta": 5660
       },
       {
         "item": "Ticor Plate",
-        "delta": 3051
+        "delta": 4898
       },
       {
         "item": "Carbides",
-        "delta": 2438
+        "delta": 4214
       },
       {
         "item": "Cubic Diodes",
-        "delta": 813
+        "delta": 2202
       },
       {
         "item": "Gallos Rods",
-        "delta": 558
+        "delta": 1074
       },
       {
         "item": "Asterite",
-        "delta": 460
+        "delta": 338
       },
       {
         "item": "Komms",
+        "delta": 133
+      },
+      {
+        "item": "Circuit Effect",
+        "delta": 92
+      },
+      {
+        "item": "Rubedo",
+        "delta": 84
+      },
+      {
+        "item": "Yogwun Stomach",
         "delta": 80
       },
       {
         "item": "Isos",
-        "delta": 78
+        "delta": 76
       },
       {
-        "item": "Nullstones",
-        "delta": 6
-      },
-      {
-        "item": "Orokin Cell",
-        "delta": 4
-      },
-      {
-        "item": "Intact Sentient Core",
-        "delta": 3
-      },
-      {
-        "item": "Anomaly Shard",
-        "delta": 2
+        "item": "Devar",
+        "delta": 36
       }
     ],
     "notableAcquisitions": [
       {
         "item": "Intact Sentient Core",
-        "delta": 3
+        "delta": 7
       },
       {
-        "item": "Neo C7 Intact",
+        "item": "Axi V10 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Lith A12 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso X1 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Neo A16 Intact",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
         "item": "Titanium",
-        "delta": 7012
+        "delta": 5660
       },
       {
         "item": "Ticor Plate",
-        "delta": 3051
+        "delta": 4898
       },
       {
         "item": "Carbides",
-        "delta": 2438
+        "delta": 4214
       },
       {
         "item": "Cubic Diodes",
-        "delta": 813
+        "delta": 2202
       },
       {
         "item": "Gallos Rods",
-        "delta": 558
+        "delta": 1074
       },
       {
         "item": "Asterite",
-        "delta": 460
+        "delta": 338
       },
       {
         "item": "Komms",
+        "delta": 133
+      },
+      {
+        "item": "Circuit Effect",
+        "delta": 92
+      },
+      {
+        "item": "Rubedo",
+        "delta": 84
+      },
+      {
+        "item": "Yogwun Stomach",
         "delta": 80
       },
       {
         "item": "Isos",
-        "delta": 78
+        "delta": 76
       },
       {
-        "item": "Nullstones",
-        "delta": 6
-      },
-      {
-        "item": "Orokin Cell",
-        "delta": 4
-      },
-      {
-        "item": "Anomaly Shard",
-        "delta": 2
-      },
-      {
-        "item": "Aucrux Capacitors",
-        "delta": 2
+        "item": "Devar",
+        "delta": 36
       }
     ],
-    "railjackSalvageCount": 5,
+    "railjackSalvageCount": 4,
     "configurationChangeCount": 0,
     "errorEventCount": 1
   },
