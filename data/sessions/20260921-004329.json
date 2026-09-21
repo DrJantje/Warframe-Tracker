@@ -1,4 +1,91 @@
 {
+  "missions": [
+    {
+      "startedAt": "2026-09-21T00:43:34.331000+00:00",
+      "endedAt": "2026-09-21T00:43:34.333000+00:00",
+      "durationSeconds": 0.002,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode802",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T00:51:34.450000+00:00",
+      "endedAt": "2026-09-21T00:55:22.377000+00:00",
+      "durationSeconds": 227.927,
+      "type": "SANCTUM",
+      "node": "SolNode802",
+      "label": "H-2 Cloud (Veil Proxima) - THE STEEL PATH",
+      "missionKey": "SolNode802",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T00:57:02.371000+00:00",
+      "endedAt": "2026-09-21T01:01:58.147000+00:00",
+      "durationSeconds": 295.776,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": "H-2 Cloud (Veil Proxima) - THE STEEL PATH",
+      "missionKey": "CrewBattleNode554_Hard",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T01:02:20.320000+00:00",
+      "endedAt": "2026-09-21T01:05:45.859000+00:00",
+      "durationSeconds": 205.539,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": "H-2 Cloud (Veil Proxima)",
+      "missionKey": "CrewBattleNode554",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T01:05:44.682000+00:00",
+      "endedAt": "2026-09-21T01:20:05.016000+00:00",
+      "durationSeconds": 860.334,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": "H-2 Cloud (Veil Proxima)",
+      "missionKey": "CrewBattleNode554",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T01:21:50.817000+00:00",
+      "endedAt": "2026-09-21T01:22:05.406124+00:00",
+      "durationSeconds": 14.589,
+      "type": "LOCATION",
+      "node": "CrewBattleNode554",
+      "label": "H-2 Cloud (Veil Proxima)",
+      "missionKey": "CrewBattleNode554",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "startedAt": "2026-09-21T00:43:29.217623+00:00",
+  "configurationChanges": [],
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "durationSeconds": 2316.189,
+  "errorEventCount": 1,
   "positiveItemDeltas": [
     {
       "item": "Titanium",
@@ -77,99 +164,12 @@
       "delta": 1
     }
   ],
-  "equipmentAdded": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "stoppedAt": "2026-09-21T01:22:05.406124+00:00",
-  "errorEventCount": 1,
   "missionCount": 6,
-  "schemaVersion": 1,
   "focusCounterAtCaptureEnd": 6656,
-  "equipmentRemoved": [],
+  "schemaVersion": 1,
   "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 2316.189,
-  "startedAt": "2026-09-21T00:43:29.217623+00:00",
-  "missions": [
-    {
-      "startedAt": "2026-09-21T00:43:34.331000+00:00",
-      "endedAt": "2026-09-21T00:43:34.333000+00:00",
-      "durationSeconds": 0.002,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode802",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T00:51:34.450000+00:00",
-      "endedAt": "2026-09-21T00:55:22.377000+00:00",
-      "durationSeconds": 227.927,
-      "type": "SANCTUM",
-      "node": "SolNode802",
-      "label": "H-2 Cloud (Veil Proxima) - THE STEEL PATH",
-      "missionKey": "SolNode802",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T00:57:02.371000+00:00",
-      "endedAt": "2026-09-21T01:01:58.147000+00:00",
-      "durationSeconds": 295.776,
-      "type": "RAILJACK",
-      "node": "RAILJACK",
-      "label": "H-2 Cloud (Veil Proxima) - THE STEEL PATH",
-      "missionKey": "CrewBattleNode554_Hard",
-      "missionInstance": 2,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T01:02:20.320000+00:00",
-      "endedAt": "2026-09-21T01:05:45.859000+00:00",
-      "durationSeconds": 205.539,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": "H-2 Cloud (Veil Proxima)",
-      "missionKey": "CrewBattleNode554",
-      "missionInstance": 2,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T01:05:44.682000+00:00",
-      "endedAt": "2026-09-21T01:20:05.016000+00:00",
-      "durationSeconds": 860.334,
-      "type": "RAILJACK",
-      "node": "RAILJACK",
-      "label": "H-2 Cloud (Veil Proxima)",
-      "missionKey": "CrewBattleNode554",
-      "missionInstance": 3,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T01:21:50.817000+00:00",
-      "endedAt": "2026-09-21T01:22:05.406124+00:00",
-      "durationSeconds": 14.589,
-      "type": "LOCATION",
-      "node": "CrewBattleNode554",
-      "label": "H-2 Cloud (Veil Proxima)",
-      "missionKey": "CrewBattleNode554",
-      "missionInstance": 3,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "configurationChanges": [],
   "focusEarnedDuringCapture": 6656,
+  "stoppedAt": "2026-09-21T01:22:05.406124+00:00",
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
