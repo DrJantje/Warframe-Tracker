@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-21",
-    "exportVerifiedAt": "2026-09-21 15:27:16 PDT",
+    "exportVerifiedAt": "2026-09-21 15:53:34 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167798,
-        "modified": "2026-09-21T15:27:15.628102-07:00",
-        "sha256": "a0aa0d2e8b7f44fa775ea3e3ed2701372080965c6deea9639068095888d386cd"
+        "bytes": 2167797,
+        "modified": "2026-09-21T15:53:34.391146-07:00",
+        "sha256": "427f4a0da157e42b112b014e4fb388208cc36a75acc23ffcca64f21f313b86a9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-21T15:27:15.630131-07:00",
+        "modified": "2026-09-21T15:53:34.392660-07:00",
         "sha256": "70af43b76186c77106abd50da757799b8623423a57fbfadd9677d2d42dc6ee4c"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-21T15:27:15.628615-07:00",
+        "modified": "2026-09-21T15:53:34.392660-07:00",
         "sha256": "4e539c4311513d4ec9e2aca425b57f002c5bfd2b29bb32fe3e3b1ef608ead396"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-21T15:27:15.630131-07:00",
+        "modified": "2026-09-21T15:53:34.392660-07:00",
         "sha256": "ff49941a9c33b81a319cd0c4faacb9641c09cc33c7edec68660ba85b2bd6d3be"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-21T15:27:15.631649-07:00",
+        "modified": "2026-09-21T15:53:34.394166-07:00",
         "sha256": "a28f421cc36749f3aab88e8e7320c8f66ca834b96230096f7e657a3259e8c64d"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Prisma Skana",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -3540,15 +3556,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Glaxion_Vandal"
-    },
-    {
-      "item": "Prisma Skana",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Prisma_Skana"
     }
   ],
   "rank40": [
@@ -14744,14 +14751,14 @@
     {
       "item": "Prisma Skana",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",

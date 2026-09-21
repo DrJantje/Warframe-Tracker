@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-21T22:27:16.027588+00:00
-Account snapshot: 2026-09-21T22:26:08.383Z
+Generated: 2026-09-21T22:53:34.780484+00:00
+Account snapshot: 2026-09-21T22:50:54.382Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: orbiter
-- Location: LOADOUT
-- Planet: unknown
-- Frame observation: Titania (account-snapshot-confirmed)
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -80,11 +80,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-09-21T02:04:21.533829+00:00
-- Duration seconds: 4885.901
-- Missions: 8
-- Focus earned: 3341
-- Notable acquisitions: Intact Sentient Core (+7), Axi V10 Intact (+1), Lith A12 Intact (+1), Meso X1 Intact (+1), Neo A16 Intact (+1)
+- Started: 2026-09-21T21:36:20.276048+00:00
+- Duration seconds: 4632.083
+- Missions: 11
+- Focus earned: 0
+- Notable acquisitions: Intact Sentient Core (+41), Rhino Chassis Blueprint (+1)
 
 ## Deeper files
 
