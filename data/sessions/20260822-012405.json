@@ -1,36 +1,21 @@
 {
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
+  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
     {
-      "item": "Ferrite",
-      "delta": -8821
+      "item": "Koumei Helmet",
+      "delta": 1
     },
     {
-      "item": "Alloy Plate",
-      "delta": -5670
+      "item": "Voidplume Crest",
+      "delta": 1
     },
     {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
+      "item": "Voidplume Down",
+      "delta": 1
     }
   ],
+  "equipmentRemoved": [],
   "equipmentAdded": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -41,9 +26,8 @@
       "item": "Higasa"
     }
   ],
-  "errorEventCount": 4,
-  "missionCount": 6,
-  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
   "configurationChanges": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -66,23 +50,8 @@
       "helminthAfter": null
     }
   ],
-  "durationSeconds": 6390.914,
-  "schemaVersion": 1,
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "missionCount": 6,
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -158,8 +127,39 @@
       "incomplete": true
     }
   ],
+  "durationSeconds": 6390.914,
   "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
+  "errorEventCount": 4,
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -8821
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
+    }
+  ],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

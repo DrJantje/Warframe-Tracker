@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T23:32:35.576927+00:00",
+  "generatedAt": "2026-09-22T00:11:48.640186+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-21T23:32:32.092Z",
+  "accountSnapshotAt": "2026-09-22T00:09:45.126Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-21T23:32:32.092Z",
+      "capturedAt": "2026-09-22T00:09:45.126Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-21T23:32:33.298Z",
+    "observedAt": "2026-09-22T00:10:08.083Z",
     "phase": "mission",
-    "node": "GRINEER",
+    "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode103",
+    "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 0,
+    "focusDuringCurrentCapture": 37234,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "sync-awaiting-snapshot",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -357,9 +357,9 @@
           "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-147",
+          "buildRef": "melee-102",
           "resolutionStatus": "exact-build-ref",
-          "item": "Prisma Skana",
+          "item": "Furax Wraith",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -370,12 +370,12 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Fever Strike",
-              "rank": 10,
+              "name": "Condition Overload",
+              "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Pressure Point",
+              "name": "Amalgam Furax Body Count",
               "rank": 5,
               "kind": "mod"
             },
@@ -385,7 +385,7 @@
               "kind": "mod"
             },
             {
-              "name": "Swooping Falcon",
+              "name": "Gaia's Tragedy",
               "rank": 3,
               "kind": "mod"
             }
@@ -515,13 +515,13 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Heated Charge",
-              "rank": 10,
+              "name": "Convulsion",
+              "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Convulsion",
-              "rank": 5,
+              "name": "Primed Heated Charge",
+              "rank": 10,
               "kind": "mod"
             },
             {

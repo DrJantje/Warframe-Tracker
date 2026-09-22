@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-21T23:32:35.576927+00:00
-Account snapshot: 2026-09-21T23:32:32.092Z
+Generated: 2026-09-22T00:11:48.640186+00:00
+Account snapshot: 2026-09-22T00:09:45.126Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,10 +10,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (mission-active)
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 0
+- Focus during current capture: 37234
 
 ## Current synchronized loadouts and builds
 
@@ -40,10 +40,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: High Voltage (rank 3), Thermite Rounds (rank 3), Malignant Force (rank 3), Semi-Rifle Cannonade (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Prisma Skana — config A
+#### Melee: Furax Wraith — config A
 
 - Forma: 0
-- Mods: Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Swooping Falcon (rank 3)
+- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -55,7 +55,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Exalted weapon: Balefire Charger Prime — config A
 
 - Forma: 7
-- Mods: Primed Heated Charge (rank 10), Convulsion (rank 5), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Mods: Convulsion (rank 5), Primed Heated Charge (rank 10), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Hildryn
