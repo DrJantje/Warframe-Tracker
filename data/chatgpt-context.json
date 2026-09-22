@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-22T00:11:48.640186+00:00",
+  "generatedAt": "2026-09-22T00:14:59.702993+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-22T00:10:08.083Z",
+    "observedAt": "2026-09-22T00:14:55.341033+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -1755,125 +1755,125 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260921-213620.json",
-    "startedAt": "2026-09-21T21:36:20.276048+00:00",
-    "stoppedAt": "2026-09-21T22:53:32.359183+00:00",
-    "durationSeconds": 4632.083,
-    "missionCount": 11,
-    "focusEarnedDuringCapture": 0,
+    "file": "20260921-230448.json",
+    "startedAt": "2026-09-21T23:04:48.469936+00:00",
+    "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
+    "durationSeconds": 4208.394,
+    "missionCount": 6,
+    "focusEarnedDuringCapture": 37234,
     "topGains": [
       {
-        "item": "Kuva",
-        "delta": 85000
-      },
-      {
         "item": "Ferrite",
-        "delta": 5676
+        "delta": 1782
       },
       {
-        "item": "Alloy Plate",
-        "delta": 2086
-      },
-      {
-        "item": "Rubedo",
-        "delta": 1544
+        "item": "Nano Spores",
+        "delta": 1460
       },
       {
         "item": "Polymer Bundle",
-        "delta": 458
+        "delta": 184
       },
       {
-        "item": "Oxium",
-        "delta": 88
+        "item": "Circuit Effect",
+        "delta": 74
       },
       {
         "item": "Detonite Ampule",
-        "delta": 70
+        "delta": 40
       },
       {
-        "item": "Intact Sentient Core",
-        "delta": 41
-      },
-      {
-        "item": "Neurodes",
+        "item": "Khut-Khut Venom Sac",
         "delta": 38
       },
       {
+        "item": "Karkina Antenna",
+        "delta": 30
+      },
+      {
+        "item": "Sharrac Teeth",
+        "delta": 28
+      },
+      {
+        "item": "Nistlepod",
+        "delta": 22
+      },
+      {
+        "item": "Mutagen Sample",
+        "delta": 4
+      },
+      {
         "item": "Nav Coordinate",
-        "delta": 18
+        "delta": 4
       },
       {
-        "item": "Connla Sprout",
-        "delta": 12
-      },
-      {
-        "item": "Fieldron Sample",
-        "delta": 12
+        "item": "Neurodes",
+        "delta": 4
       }
     ],
     "notableAcquisitions": [
       {
-        "item": "Intact Sentient Core",
-        "delta": 41
+        "item": "Axi V14 Intact",
+        "delta": 1
       },
       {
-        "item": "Rhino Chassis Blueprint",
+        "item": "Revenant Chassis Blueprint",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Kuva",
-        "delta": 85000
-      },
-      {
         "item": "Ferrite",
-        "delta": 5676
+        "delta": 1782
       },
       {
-        "item": "Alloy Plate",
-        "delta": 2086
-      },
-      {
-        "item": "Rubedo",
-        "delta": 1544
+        "item": "Nano Spores",
+        "delta": 1460
       },
       {
         "item": "Polymer Bundle",
-        "delta": 458
+        "delta": 184
       },
       {
-        "item": "Oxium",
-        "delta": 88
+        "item": "Circuit Effect",
+        "delta": 74
       },
       {
         "item": "Detonite Ampule",
-        "delta": 70
+        "delta": 40
       },
       {
-        "item": "Neurodes",
+        "item": "Khut-Khut Venom Sac",
         "delta": 38
       },
       {
+        "item": "Karkina Antenna",
+        "delta": 30
+      },
+      {
+        "item": "Sharrac Teeth",
+        "delta": 28
+      },
+      {
+        "item": "Nistlepod",
+        "delta": 22
+      },
+      {
+        "item": "Mutagen Sample",
+        "delta": 4
+      },
+      {
         "item": "Nav Coordinate",
-        "delta": 18
+        "delta": 4
       },
       {
-        "item": "Connla Sprout",
-        "delta": 12
-      },
-      {
-        "item": "Fieldron Sample",
-        "delta": 12
-      },
-      {
-        "item": "Silphsela",
-        "delta": 8
+        "item": "Neurodes",
+        "delta": 4
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 0,
-    "errorEventCount": 1
+    "configurationChangeCount": 1,
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
