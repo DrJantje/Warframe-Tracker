@@ -1,68 +1,5 @@
 {
-  "missions": [
-    {
-      "startedAt": "2026-09-19T16:23:09.208000+00:00",
-      "endedAt": "2026-09-19T16:24:06.993000+00:00",
-      "durationSeconds": 57.785,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "DojoHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-19T16:24:14.702000+00:00",
-      "endedAt": "2026-09-19T16:24:19.261000+00:00",
-      "durationSeconds": 4.559,
-      "type": "RAILJACK",
-      "node": "RAILJACK",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-19T16:28:53.998000+00:00",
-      "endedAt": "2026-09-19T16:30:07.636000+00:00",
-      "durationSeconds": 73.638,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "MercuryHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-19T16:42:08.829000+00:00",
-      "endedAt": "2026-09-19T16:42:58.489252+00:00",
-      "durationSeconds": 49.66,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
   "errorEventCount": 5,
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 1193.96,
-  "positiveItemDeltas": [
-    {
-      "item": "Orokin Ducats",
-      "delta": 1015
-    }
-  ],
-  "configurationChanges": [],
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
-  "stoppedAt": "2026-09-19T16:42:58.489252+00:00",
   "negativeItemDeltas": [
     {
       "item": "Salvage",
@@ -121,11 +58,74 @@
       "delta": -1
     }
   ],
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
+  "missions": [
+    {
+      "startedAt": "2026-09-19T16:23:09.208000+00:00",
+      "endedAt": "2026-09-19T16:24:06.993000+00:00",
+      "durationSeconds": 57.785,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "DojoHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-19T16:24:14.702000+00:00",
+      "endedAt": "2026-09-19T16:24:19.261000+00:00",
+      "durationSeconds": 4.559,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-19T16:28:53.998000+00:00",
+      "endedAt": "2026-09-19T16:30:07.636000+00:00",
+      "durationSeconds": 73.638,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "MercuryHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-19T16:42:08.829000+00:00",
+      "endedAt": "2026-09-19T16:42:58.489252+00:00",
+      "durationSeconds": 49.66,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "startedAt": "2026-09-19T16:23:04.529411+00:00",
   "missionCount": 4,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-19T16:42:58.489252+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Orokin Ducats",
+      "delta": 1015
+    }
+  ],
+  "equipmentAdded": [],
+  "durationSeconds": 1193.96,
   "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "schemaVersion": 1,
+  "configurationChanges": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

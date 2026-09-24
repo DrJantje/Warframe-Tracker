@@ -1,163 +1,5 @@
 {
-  "missions": [
-    {
-      "startedAt": "2026-09-21T23:04:51.539000+00:00",
-      "endedAt": "2026-09-21T23:08:56.427000+00:00",
-      "durationSeconds": 244.888,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T23:10:44.995000+00:00",
-      "endedAt": "2026-09-21T23:21:49.296000+00:00",
-      "durationSeconds": 664.301,
-      "type": "MISSION",
-      "node": "ALBRECHT LABS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T23:31:13.163000+00:00",
-      "endedAt": "2026-09-21T23:32:07.235000+00:00",
-      "durationSeconds": 54.072,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T23:32:06.364000+00:00",
-      "endedAt": "2026-09-21T23:44:41.463000+00:00",
-      "durationSeconds": 755.099,
-      "type": "EXTERMINATE",
-      "node": "SolNode103",
-      "label": null,
-      "missionKey": "SolNode103",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T23:45:25.801000+00:00",
-      "endedAt": "2026-09-21T23:45:35.285000+00:00",
-      "durationSeconds": 9.484,
-      "type": "SALVAGE",
-      "node": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictE_Key",
-      "label": null,
-      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictE_Key",
-      "missionInstance": 2,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-21T23:45:25.801000+00:00",
-      "endedAt": "2026-09-22T00:14:56.864170+00:00",
-      "durationSeconds": 1771.063,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictE_Key",
-      "missionInstance": 2,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
   "errorEventCount": 3,
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 4208.394,
-  "positiveItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": 1782
-    },
-    {
-      "item": "Nano Spores",
-      "delta": 1460
-    },
-    {
-      "item": "Polymer Bundle",
-      "delta": 184
-    },
-    {
-      "item": "Circuit Effect",
-      "delta": 74
-    },
-    {
-      "item": "Detonite Ampule",
-      "delta": 40
-    },
-    {
-      "item": "Khut-Khut Venom Sac",
-      "delta": 38
-    },
-    {
-      "item": "Karkina Antenna",
-      "delta": 30
-    },
-    {
-      "item": "Sharrac Teeth",
-      "delta": 28
-    },
-    {
-      "item": "Nistlepod",
-      "delta": 22
-    },
-    {
-      "item": "Mutagen Sample",
-      "delta": 4
-    },
-    {
-      "item": "Nav Coordinate",
-      "delta": 4
-    },
-    {
-      "item": "Neurodes",
-      "delta": 4
-    },
-    {
-      "item": "Maprico",
-      "delta": 2
-    },
-    {
-      "item": "Axi V14 Intact",
-      "delta": 1
-    },
-    {
-      "item": "Forma",
-      "delta": 1
-    },
-    {
-      "item": "Revenant Chassis Blueprint",
-      "delta": 1
-    }
-  ],
-  "configurationChanges": [
-    {
-      "at": "2026-09-22T00:09:45.126997+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": true,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
-  "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
   "negativeItemDeltas": [
     {
       "item": "Salvage",
@@ -284,11 +126,169 @@
       "delta": -1
     }
   ],
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 37234,
+  "missions": [
+    {
+      "startedAt": "2026-09-21T23:04:51.539000+00:00",
+      "endedAt": "2026-09-21T23:08:56.427000+00:00",
+      "durationSeconds": 244.888,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T23:10:44.995000+00:00",
+      "endedAt": "2026-09-21T23:21:49.296000+00:00",
+      "durationSeconds": 664.301,
+      "type": "MISSION",
+      "node": "ALBRECHT LABS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T23:31:13.163000+00:00",
+      "endedAt": "2026-09-21T23:32:07.235000+00:00",
+      "durationSeconds": 54.072,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T23:32:06.364000+00:00",
+      "endedAt": "2026-09-21T23:44:41.463000+00:00",
+      "durationSeconds": 755.099,
+      "type": "EXTERMINATE",
+      "node": "SolNode103",
+      "label": null,
+      "missionKey": "SolNode103",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T23:45:25.801000+00:00",
+      "endedAt": "2026-09-21T23:45:35.285000+00:00",
+      "durationSeconds": 9.484,
+      "type": "SALVAGE",
+      "node": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictE_Key",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictE_Key",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-21T23:45:25.801000+00:00",
+      "endedAt": "2026-09-22T00:14:56.864170+00:00",
+      "durationSeconds": 1771.063,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictE_Key",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "startedAt": "2026-09-21T23:04:48.469936+00:00",
   "missionCount": 6,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": 1782
+    },
+    {
+      "item": "Nano Spores",
+      "delta": 1460
+    },
+    {
+      "item": "Polymer Bundle",
+      "delta": 184
+    },
+    {
+      "item": "Circuit Effect",
+      "delta": 74
+    },
+    {
+      "item": "Detonite Ampule",
+      "delta": 40
+    },
+    {
+      "item": "Khut-Khut Venom Sac",
+      "delta": 38
+    },
+    {
+      "item": "Karkina Antenna",
+      "delta": 30
+    },
+    {
+      "item": "Sharrac Teeth",
+      "delta": 28
+    },
+    {
+      "item": "Nistlepod",
+      "delta": 22
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 4
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 4
+    },
+    {
+      "item": "Neurodes",
+      "delta": 4
+    },
+    {
+      "item": "Maprico",
+      "delta": 2
+    },
+    {
+      "item": "Axi V14 Intact",
+      "delta": 1
+    },
+    {
+      "item": "Forma",
+      "delta": 1
+    },
+    {
+      "item": "Revenant Chassis Blueprint",
+      "delta": 1
+    }
+  ],
+  "equipmentAdded": [],
+  "durationSeconds": 4208.394,
   "focusEarnedDuringCapture": 37234,
+  "focusCounterAtCaptureEnd": 37234,
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-09-22T00:09:45.126997+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": true,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Axi V14 Intact",
