@@ -1,19 +1,19 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-22T00:14:59.702993+00:00
-Account snapshot: 2026-09-22T00:09:45.126Z
+Generated: 2026-09-24T20:32:02.412307+00:00
+Account snapshot: 2026-09-24T20:31:58.365Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (sync-awaiting-snapshot)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: unknown (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 37234
+- Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
@@ -34,11 +34,11 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Komorex — config A
+#### Primary: Tenet Glaxion — config A
 
-- Forma: 0
-- Mods: High Voltage (rank 3), Thermite Rounds (rank 3), Malignant Force (rank 3), Semi-Rifle Cannonade (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
-- Arcanes: none recorded
+- Forma: 5
+- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
+- Arcanes: Primary Debilitate (rank 5)
 
 #### Melee: Furax Wraith — config A
 
