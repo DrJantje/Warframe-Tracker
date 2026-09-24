@@ -1,17 +1,4 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
-    }
-  ],
-  "missionCount": 6,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -87,8 +74,9 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "equipmentRemoved": [],
+  "errorEventCount": 4,
+  "focusCounterAtCaptureStart": 0,
+  "durationSeconds": 6390.914,
   "positiveItemDeltas": [
     {
       "item": "Koumei Helmet",
@@ -103,10 +91,31 @@
       "delta": 1
     }
   ],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 4,
-  "durationSeconds": 6390.914,
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -137,29 +146,20 @@
       "delta": -2
     }
   ],
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "configurationChanges": [
+  "equipmentAdded": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Koumei"
     },
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Higasa"
     }
   ],
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "missionCount": 6,
+  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
