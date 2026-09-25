@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T22:00:21.846549+00:00",
+  "generatedAt": "2026-09-25T00:45:27.836385+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-24T21:58:16.844Z",
+  "accountSnapshotAt": "2026-09-24T23:27:57.214Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-24T21:58:16.844Z",
+      "capturedAt": "2026-09-24T23:27:57.214Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-24T21:58:53.093Z",
+    "observedAt": "2026-09-25T00:45:15.524894+00:00",
     "phase": "mission",
     "node": "ORDIS NEXT",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode46_ActiveMission",
+    "missionKey": "SolNode27_ActiveMission",
     "voidTier": "VoidT1",
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "server-sent",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1813,124 +1813,108 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260921-230448.json",
-    "startedAt": "2026-09-21T23:04:48.469936+00:00",
-    "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
-    "durationSeconds": 4208.394,
-    "missionCount": 6,
-    "focusEarnedDuringCapture": 37234,
+    "file": "20260924-202251.json",
+    "startedAt": "2026-09-24T20:22:51.026239+00:00",
+    "stoppedAt": "2026-09-25T00:45:23.716778+00:00",
+    "durationSeconds": 15752.691,
+    "missionCount": 11,
+    "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Ferrite",
-        "delta": 1782
+        "item": "Salvage",
+        "delta": 36728
       },
       {
-        "item": "Nano Spores",
-        "delta": 1460
+        "item": "Morphics",
+        "delta": 68
       },
       {
-        "item": "Polymer Bundle",
-        "delta": 184
+        "item": "Fieldron Sample",
+        "delta": 58
       },
       {
-        "item": "Circuit Effect",
-        "delta": 74
+        "item": "Gallium",
+        "delta": 14
       },
       {
-        "item": "Detonite Ampule",
-        "delta": 40
+        "item": "Riven Sliver",
+        "delta": 6
       },
       {
-        "item": "Khut-Khut Venom Sac",
-        "delta": 38
-      },
-      {
-        "item": "Karkina Antenna",
-        "delta": 30
-      },
-      {
-        "item": "Sharrac Teeth",
-        "delta": 28
-      },
-      {
-        "item": "Nistlepod",
-        "delta": 22
-      },
-      {
-        "item": "Mutagen Sample",
+        "item": "Blueprint",
         "delta": 4
+      },
+      {
+        "item": "Harrow Chassis Blueprint",
+        "delta": 3
+      },
+      {
+        "item": "Steel Essence",
+        "delta": 3
       },
       {
         "item": "Nav Coordinate",
-        "delta": 4
+        "delta": 2
       },
       {
-        "item": "Neurodes",
-        "delta": 4
+        "item": "Systems",
+        "delta": 1
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime BBronze",
+        "delta": 1
       }
     ],
     "notableAcquisitions": [
       {
-        "item": "Axi V14 Intact",
+        "item": "Blueprint",
+        "delta": 4
+      },
+      {
+        "item": "Harrow Chassis Blueprint",
+        "delta": 3
+      },
+      {
+        "item": "Systems",
         "delta": 1
       },
       {
-        "item": "Revenant Chassis Blueprint",
+        "item": "T1 Void Projection Citrine Prime BBronze",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Ferrite",
-        "delta": 1782
+        "item": "Salvage",
+        "delta": 36728
       },
       {
-        "item": "Nano Spores",
-        "delta": 1460
+        "item": "Morphics",
+        "delta": 68
       },
       {
-        "item": "Polymer Bundle",
-        "delta": 184
+        "item": "Fieldron Sample",
+        "delta": 58
       },
       {
-        "item": "Circuit Effect",
-        "delta": 74
+        "item": "Gallium",
+        "delta": 14
       },
       {
-        "item": "Detonite Ampule",
-        "delta": 40
+        "item": "Riven Sliver",
+        "delta": 6
       },
       {
-        "item": "Khut-Khut Venom Sac",
-        "delta": 38
-      },
-      {
-        "item": "Karkina Antenna",
-        "delta": 30
-      },
-      {
-        "item": "Sharrac Teeth",
-        "delta": 28
-      },
-      {
-        "item": "Nistlepod",
-        "delta": 22
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 4
+        "item": "Steel Essence",
+        "delta": 3
       },
       {
         "item": "Nav Coordinate",
-        "delta": 4
-      },
-      {
-        "item": "Neurodes",
-        "delta": 4
+        "delta": 2
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 1,
+    "configurationChangeCount": 0,
     "errorEventCount": 3
   },
   "deeperData": {

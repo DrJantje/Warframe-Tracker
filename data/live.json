@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-09-24T22:00:22.170000Z",
-      "worldStateAt": "2026-09-24T22:00:13Z",
-      "ageSecondsAtCheck": 9
+      "checkedAt": "2026-09-25T00:45:28.311000Z",
+      "worldStateAt": "2026-09-25T00:44:52Z",
+      "ageSecondsAtCheck": 36
     }
   },
   "invasions": {
@@ -18,15 +18,14 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-09-24T22:00:22.170000Z",
-      "worldStateAt": "2026-09-24T22:00:13Z",
-      "ageSecondsAtCheck": 9
+      "checkedAt": "2026-09-25T00:45:28.311000Z",
+      "worldStateAt": "2026-09-25T00:44:52Z",
+      "ageSecondsAtCheck": 36
     },
     "rewards": [
       "Dera Vandal Stock",
-      "Detonite Injector",
-      "Fieldron",
       "Infested Alad Coordinate",
+      "Mutagen Mass",
       "Twin Vipers Wraith Link"
     ],
     "items": [
@@ -69,9 +68,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": -15658,
+        "count": -18013,
         "requiredRuns": 46000,
-        "completion": 32.98043478260869,
+        "completion": 30.420652173913044,
         "completed": false
       },
       {
@@ -113,10 +112,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -47028,
+        "count": -47042,
         "requiredRuns": 47000,
-        "completion": -0.029787234042555344,
-        "completed": false
+        "completion": -0.044680851063827465,
+        "completed": true
       },
       {
         "id": "6ab41726a419355e483694b6",
@@ -146,10 +145,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -29756,
+        "count": -30089,
         "requiredRuns": 30000,
-        "completion": 0.8133333333333326,
-        "completed": false
+        "completion": -0.2966666666666562,
+        "completed": true
       },
       {
         "id": "6ab4b55a62ef727724bf6c61",
@@ -179,43 +178,10 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -13754,
+        "count": -16280,
         "requiredRuns": 30000,
-        "completion": 54.15333333333333,
+        "completion": 45.733333333333334,
         "completed": false
-      },
-      {
-        "id": "6ab4b55a62ef727724bf6c62",
-        "activation": "2026-09-24T05:30:01.845000Z",
-        "node": "Cerberus (Pluto)",
-        "nodeKey": "SolNode43",
-        "desc": "Infested Invasion Generic",
-        "attacker": {
-          "reward": null,
-          "faction": "Infested",
-          "factionKey": "Infested"
-        },
-        "defender": {
-          "reward": {
-            "items": [],
-            "countedItems": [
-              {
-                "count": 1,
-                "type": "Infested Alad Coordinate",
-                "key": "/Lotus/Types/Items/MiscItems/InfestedAladCoordinate"
-              }
-            ],
-            "credits": 0,
-            "asString": "Infested Alad Coordinate"
-          },
-          "faction": "Corpus",
-          "factionKey": "Corpus"
-        },
-        "vsInfestation": true,
-        "count": -46622,
-        "requiredRuns": 46000,
-        "completion": -1.3521739130434751,
-        "completed": true
       },
       {
         "id": "6ab4cdf7bfc557139380a9b4",
@@ -315,9 +281,42 @@
         "requiredRuns": 36000,
         "completion": -1.5444444444444372,
         "completed": true
+      },
+      {
+        "id": "6ab5a33f60f3d204d33532dc",
+        "activation": "2026-09-25T00:19:59.656000Z",
+        "node": "Elara (Jupiter)",
+        "nodeKey": "SolNode100",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 1,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "Mutagen Mass"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": -205,
+        "requiredRuns": 31000,
+        "completion": 99.33870967741936,
+        "completed": false
       }
     ],
-    "activeCount": 4
+    "activeCount": 3
   },
   "cetusCycle": {
     "status": "verified",
@@ -325,60 +324,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-09-24T22:00:22.170000Z",
-      "worldStateAt": "2026-09-24T22:00:13Z",
-      "ageSecondsAtCheck": 9
+      "checkedAt": "2026-09-25T00:45:28.311000Z",
+      "worldStateAt": "2026-09-25T00:44:52Z",
+      "ageSecondsAtCheck": 36
     },
-    "id": "cetusCycle1790288820000",
+    "id": "cetusCycle1790297820000",
     "state": "day",
-    "activation": "2026-09-24T20:47:00Z",
-    "expiry": "2026-09-24T22:27:00Z",
+    "activation": "2026-09-24T23:17:00Z",
+    "expiry": "2026-09-25T00:57:00Z",
     "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-09-24T23:17:27.382000Z",
+    "syndicateExpiry": "2026-09-25T01:47:26.257000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1790294400170",
-      "state": "night",
-      "activation": "2026-09-24T20:00:00.170000Z",
-      "expiry": "2026-09-25T00:00:00.170000Z",
-      "isDay": false
+      "id": "earthCycle1790308800311",
+      "state": "day",
+      "activation": "2026-09-25T00:00:00.311000Z",
+      "expiry": "2026-09-25T04:00:00.311000Z",
+      "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1790288820000",
+      "id": "cetusCycle1790297820000",
       "state": "day",
-      "activation": "2026-09-24T20:47:00Z",
-      "expiry": "2026-09-24T22:27:00Z",
+      "activation": "2026-09-24T23:17:00Z",
+      "expiry": "2026-09-25T00:57:00Z",
       "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-09-24T23:17:27.382000Z",
+      "syndicateExpiry": "2026-09-25T01:47:26.257000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1790287608000",
+      "id": "vallisCycle1790297208000",
       "state": "warm",
-      "activation": "2026-09-24T22:00:00Z",
-      "expiry": "2026-09-24T22:06:48Z",
+      "activation": "2026-09-25T00:40:00Z",
+      "expiry": "2026-09-25T00:46:48Z",
       "isWarm": true
     },
     "cambion": {
-      "id": "cambionCycle1790288820000",
+      "id": "cambionCycle1790297820000",
       "state": "fass",
-      "activation": "2026-09-24T20:47:00Z",
-      "expiry": "2026-09-24T22:27:00Z"
+      "activation": "2026-09-24T23:17:00Z",
+      "expiry": "2026-09-25T00:57:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1790291820000",
-      "state": "corpus",
-      "activation": "2026-09-24T20:47:00Z",
-      "expiry": "2026-09-24T23:17:00Z",
-      "isCorpus": true
+      "id": "zarimanCycle1790300820000",
+      "state": "grineer",
+      "activation": "2026-09-24T23:17:00Z",
+      "expiry": "2026-09-25T01:47:00Z",
+      "isCorpus": false
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-09-24T22:00:22.170197+00:00",
+  "checkedAt": "2026-09-25T00:45:28.311403+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -472,7 +471,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-09-24T22:00:22.170000Z",
+    "checkedAt": "2026-09-25T00:45:28.311000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionBansheeMirageVaultABronze",
       "/Lotus/Types/Game/Projections/T1VoidProjectionBansheeMirageVaultBBronze",
