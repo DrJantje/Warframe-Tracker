@@ -68,7 +68,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 201
+      "missing": 199
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -140,7 +140,20 @@
         "source": "User confirmed active Foundry build in game",
         "recordedAt": "2026-08-12T00:57:48.105Z"
       }
-    ]
+    ],
+    "sessionPrimePatch": {
+      "date": "2026-09-26",
+      "scope": "Partial session patch; does not replace the Sep 24 full account snapshot",
+      "source": "Local Warframe EE.log",
+      "confirmed": [
+        "Akbolto Prime Link relic reward",
+        "Euphona Prime Barrel relic reward",
+        "Banshee Prime Systems build started",
+        "Banshee Prime Chassis build started",
+        "Mirage Prime Neuroptics build started",
+        "Mirage Prime Blueprint successful player trade"
+      ]
+    }
   },
   "queue": [
     {
@@ -1536,9 +1549,9 @@
       "item": "Akbolto Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Akbolto Prime Barrel (1/2); Akbolto Prime Link; Akbolto Prime Receiver (1/2)",
+      "missing": "Akbolto Prime Barrel (1/2); Akbolto Prime Receiver (1/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Akbolto Prime Barrel (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Link (Uncommon): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
+      "steps": "Akbolto Prime Barrel (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
       "vaulted": "Yes",
@@ -1547,14 +1560,6 @@
         {
           "part": "Akbolto Prime Barrel (1/2)",
           "relic": "Lith K5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Akbolto Prime Link",
-          "relic": "Neo B6",
           "rarity": "Uncommon",
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
@@ -1572,7 +1577,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 515
+      "practicalPriority": 497
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1767,41 +1772,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 525
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Banshee Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Banshee Prime Chassis Blueprint; Banshee Prime Systems Blueprint",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Banshee Prime Chassis Blueprint (Rare): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Banshee Prime Systems Blueprint (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Banshee Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://wiki.warframe.com/w/Banshee_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Banshee Prime Chassis Blueprint",
-          "relic": "Neo B6",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Banshee Prime Systems Blueprint",
-          "relic": "Lith K5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2153,22 +2123,14 @@
       "item": "Euphona Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Euphona Prime Barrel; Euphona Prime Receiver",
+      "missing": "Euphona Prime Receiver",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Euphona Prime Barrel (Uncommon): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
+      "steps": "Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Euphona Prime Barrel",
-          "relic": "Lith M7",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Euphona Prime Receiver",
           "relic": "Meso E5",
@@ -2181,7 +2143,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2676,41 +2638,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Mirage Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Build Mirage Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://wiki.warframe.com/w/Mirage_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Mirage Prime Blueprint",
-          "relic": "Lith M7",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Mirage Prime Neuroptics Blueprint",
-          "relic": "Meso E5",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Intact"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4082,7 +4009,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Akbolto Prime Barrel (1/2); Akbolto Prime Link; Akbolto Prime Receiver (1/2)",
+      "missing": "Akbolto Prime Barrel (1/2); Akbolto Prime Receiver (1/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -4100,14 +4027,6 @@
           "refinement": "Radiant"
         },
         {
-          "part": "Akbolto Prime Link",
-          "relic": "Neo B6",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
           "part": "Akbolto Prime Receiver (1/2)",
           "relic": "Axi A12",
           "rarity": "Rare",
@@ -4119,7 +4038,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Akbolto Prime Barrel (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Link (Uncommon): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
+      "steps": "Akbolto Prime Barrel (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -5222,43 +5141,21 @@
     {
       "item": "Banshee Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Prime parts complete; build next",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Banshee Prime Chassis Blueprint; Banshee Prime Systems Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "missing": "",
+      "ease": "1 — Parts complete",
+      "route": "Prime parts complete — Chassis and Systems building in Foundry",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Banshee_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Banshee Prime Chassis Blueprint",
-          "relic": "Neo B6",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Banshee Prime Systems Blueprint",
-          "relic": "Lith K5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Banshee Prime Chassis Blueprint (Rare): buy Neo B6 from Varzia for Aya and open it Radiant in a four-player share. Banshee Prime Systems Blueprint (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Banshee Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Baruuk",
@@ -8389,7 +8286,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Euphona Prime Barrel; Euphona Prime Receiver",
+      "missing": "Euphona Prime Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -8398,14 +8295,6 @@
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Euphona Prime Barrel",
-          "relic": "Lith M7",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Euphona Prime Receiver",
           "relic": "Meso E5",
@@ -8418,7 +8307,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Euphona Prime Barrel (Uncommon): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
+      "steps": "Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -12580,43 +12469,21 @@
     {
       "item": "Mirage Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Prime parts complete; build next",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mirage Prime Blueprint; Mirage Prime Neuroptics Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "missing": "",
+      "ease": "1 — Parts complete",
+      "route": "Prime parts complete — Neuroptics building in Foundry",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Mirage_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Mirage Prime Blueprint",
-          "relic": "Lith M7",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
-        {
-          "part": "Mirage Prime Neuroptics Blueprint",
-          "relic": "Meso E5",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Intact"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Mirage Prime Blueprint (Rare): buy Lith M7 from Varzia for Aya and open it Radiant in a four-player share. Mirage Prime Neuroptics Blueprint (Common): buy Meso E5 from Varzia for Aya and open it Intact in a four-player share. Build Mirage Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Mire",
