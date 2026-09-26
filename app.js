@@ -377,15 +377,11 @@ function primeCloseoutRow(item) {
   const units = primeGapUnits(item);
   const parts = missingParts(item);
   const status = item.primeStatus || (item.vaulted === 'Yes' ? 'VAULTED' : 'RELICS');
-  const details = item.primeDetails?.length ? primeDetails(item) : '';
   return `<article class="prime-closeout-row" id="target-${slug(item.item)}">
     <div class="prime-closeout-count" aria-label="${units == null ? 'Unresolved component bundle' : `${units} missing`}">${units == null ? '?' : units}</div>
     <div class="prime-closeout-main">
       <div class="prime-closeout-title"><h3>${escapeHtml(item.item)}</h3>${pill(status, primeStatusKind(status))}</div>
       <div class="prime-part-chips">${parts.map((part) => `<span>${escapeHtml(primePartLabel(item, part))}</span>`).join('')}</div>
-      <details class="prime-route-details"><summary>How to finish it</summary>
-        <div class="prime-route-copy"><strong>${escapeHtml(item.route)}</strong>${item.steps ? `<p>${escapeHtml(item.steps)}</p>` : ''}${details}</div>
-      </details>
     </div>
   </article>`;
 }
@@ -422,7 +418,7 @@ function primeRelicsView() {
     ['all', 'All', allRows.length],
   ];
   const filterBar = `<div class="prime-filter-bar" role="group" aria-label="Prime filters">${filters.map(([id, label, count]) => `<button data-prime-filter="${id}" class="${state.primeFilter === id ? 'active' : ''}" aria-pressed="${state.primeFilter === id}"><span>${escapeHtml(label)}</span><b>${fmt(count)}</b></button>`).join('')}</div>`;
-  const summary = `<section class="prime-closeout-hero"><div><p class="eyebrow">SET CLOSER</p><h2>Finish the stuff you’re already holding.</h2><p>Parts first. Routes stay tucked away until you actually need them.</p></div><div class="prime-closeout-stats"><span><b>${fmt(oneAway.length)}</b> one part away</span><span><b>${fmt(twoAway.length)}</b> two parts away</span><span><b>${fmt(allRows.length)}</b> total Prime targets</span></div></section>`;
+  const summary = `<section class="prime-closeout-hero"><div><p class="eyebrow">SET CLOSER</p><h2>Finish the stuff you’re already holding.</h2><p>The missing pieces are the action. No extra ceremony.</p></div><div class="prime-closeout-stats"><span><b>${fmt(oneAway.length)}</b> one part away</span><span><b>${fmt(twoAway.length)}</b> two parts away</span><span><b>${fmt(allRows.length)}</b> total Prime targets</span></div></section>`;
 
   let body = '';
   if (state.primeFilter === 'one') {
