@@ -35,7 +35,7 @@ const isMaterialOnly = (item) => {
   return parts.length > 0 && parts.every((part) => /\(\d[\d,]*\/\d[\d,]*\)$/.test(part));
 };
 const materialQueue = actionableQueue.filter(isMaterialOnly);
-const state = { view: routeView(), query: '', type: 'all', vendor: 'all', visible: 24 };
+const state = { view: routeView(), query: '', type: 'all', vendor: 'all', primeFilter: 'closeouts', visible: 24 };
 const views = [
   ['next', 'Next moves', actionableQueue.length],
   ['relics', 'Primes & relics', data.vaulted.length],
@@ -338,6 +338,111 @@ function slug(value) {
   return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
+function primeGapUnits(item) {
+  const parts = missingParts(item);
+  if (!parts.length) return 0;
+  if (parts.some((part) => /Blueprint and components|completed item|bundled companion weapon/i.test(part))) return null;
+  return parts.reduce((total, part) => {
+    const match = part.match(/\(([\d,]+)\/([\d,]+)\)$/);
+    if (!match) return total + 1;
+    return total + Math.max(0, Number(match[2].replaceAll(',', '')) - Number(match[1].replaceAll(',', '')));
+  }, 0);
+}
+
+function primePartLabel(item, rawPart) {
+  const part = String(rawPart || '').trim();
+  const quantity = part.match(/\(([\d,]+)\/([\d,]+)\)$/);
+  const bare = part.replace(/ \([\d,]+\/[\d,]+\)$/, '');
+  const prefix = new RegExp(`^${item.item.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s+`, 'i');
+  let label = bare.replace(prefix, '').replace(/ Blueprint$/i, '').trim();
+  if (!label) label = 'Blueprint';
+  if (/Blueprint and components/i.test(part)) label = 'Blueprint + components';
+  if (quantity) {
+    const remaining = Math.max(0, Number(quantity[2].replaceAll(',', '')) - Number(quantity[1].replaceAll(',', '')));
+    if (remaining > 1) label = `${remaining}× ${label}`;
+    else if (remaining === 1 && Number(quantity[2].replaceAll(',', '')) > 1) label = `1 more ${label}`;
+  }
+  return label;
+}
+
+function primeStatusKind(status) {
+  if (status === 'RESURGENCE ACTIVE') return 'green';
+  if (status === 'OWNED RELICS' || status === 'CURRENT RELICS') return 'cyan';
+  if (status === 'PERMANENT SPECIAL RELICS') return 'violet';
+  if (status === 'TRADE ONLY') return 'amber';
+  return '';
+}
+
+function primeCloseoutRow(item) {
+  const units = primeGapUnits(item);
+  const parts = missingParts(item);
+  const status = item.primeStatus || (item.vaulted === 'Yes' ? 'VAULTED' : 'RELICS');
+  const details = item.primeDetails?.length ? primeDetails(item) : '';
+  return `<article class="prime-closeout-row" id="target-${slug(item.item)}">
+    <div class="prime-closeout-count" aria-label="${units == null ? 'Unresolved component bundle' : `${units} missing`}">${units == null ? '?' : units}</div>
+    <div class="prime-closeout-main">
+      <div class="prime-closeout-title"><h3>${escapeHtml(item.item)}</h3>${pill(status, primeStatusKind(status))}</div>
+      <div class="prime-part-chips">${parts.map((part) => `<span>${escapeHtml(primePartLabel(item, part))}</span>`).join('')}</div>
+      <details class="prime-route-details"><summary>How to finish it</summary>
+        <div class="prime-route-copy"><strong>${escapeHtml(item.route)}</strong>${item.steps ? `<p>${escapeHtml(item.steps)}</p>` : ''}${details}</div>
+      </details>
+    </div>
+  </article>`;
+}
+
+function primeCloseoutList(rows) {
+  if (!rows.length) return '<div class="empty">Nothing in this bucket. Suspiciously efficient.</div>';
+  return `<section class="prime-closeout-list">${rows.map(primeCloseoutRow).join('')}</section>`;
+}
+
+function primeSessionPatch() {
+  const patch = data.meta?.sessionPrimePatch;
+  if (!patch?.confirmed?.length) return '';
+  return `<details class="prime-session-patch"><summary><span>${escapeHtml(patch.date || 'SESSION')} · SESSION PATCH</span><strong>${fmt(patch.confirmed.length)} confirmed Prime changes</strong></summary><div class="prime-session-items">${patch.confirmed.map((entry) => `<span>${escapeHtml(entry)}</span>`).join('')}</div><small>${escapeHtml(patch.scope || '')}</small></details>`;
+}
+
+function primeRelicsView() {
+  const allRows = data.vaulted.filter((row) => String(row.missing || '').trim()).filter(matches);
+  const explicit = allRows.filter((row) => primeGapUnits(row) != null);
+  const oneAway = explicit.filter((row) => primeGapUnits(row) === 1).sort((a, b) => a.item.localeCompare(b.item));
+  const twoAway = explicit.filter((row) => primeGapUnits(row) === 2).sort((a, b) => a.item.localeCompare(b.item));
+  const longer = allRows.filter((row) => primeGapUnits(row) == null || primeGapUnits(row) >= 3)
+    .sort((a, b) => (primeGapUnits(a) ?? 99) - (primeGapUnits(b) ?? 99) || a.item.localeCompare(b.item));
+  const resurgence = allRows.filter((row) => row.primeStatus === 'RESURGENCE ACTIVE')
+    .sort((a, b) => (primeGapUnits(a) ?? 99) - (primeGapUnits(b) ?? 99) || a.item.localeCompare(b.item));
+  const trade = allRows.filter((row) => row.primeStatus === 'TRADE ONLY')
+    .sort((a, b) => (primeGapUnits(a) ?? 99) - (primeGapUnits(b) ?? 99) || a.item.localeCompare(b.item));
+
+  const filters = [
+    ['closeouts', 'Finish line', oneAway.length + twoAway.length],
+    ['one', '1 away', oneAway.length],
+    ['two', '2 away', twoAway.length],
+    ['resurgence', 'Resurgence', resurgence.length],
+    ['trade', 'Trade only', trade.length],
+    ['all', 'All', allRows.length],
+  ];
+  const filterBar = `<div class="prime-filter-bar" role="group" aria-label="Prime filters">${filters.map(([id, label, count]) => `<button data-prime-filter="${id}" class="${state.primeFilter === id ? 'active' : ''}" aria-pressed="${state.primeFilter === id}"><span>${escapeHtml(label)}</span><b>${fmt(count)}</b></button>`).join('')}</div>`;
+  const summary = `<section class="prime-closeout-hero"><div><p class="eyebrow">SET CLOSER</p><h2>Finish the stuff you’re already holding.</h2><p>Parts first. Routes stay tucked away until you actually need them.</p></div><div class="prime-closeout-stats"><span><b>${fmt(oneAway.length)}</b> one part away</span><span><b>${fmt(twoAway.length)}</b> two parts away</span><span><b>${fmt(allRows.length)}</b> total Prime targets</span></div></section>`;
+
+  let body = '';
+  if (state.primeFilter === 'one') {
+    body = `<div class="prime-group-heading"><span>ONE PART AWAY</span><strong>These are begging to be finished.</strong></div>${primeCloseoutList(oneAway)}`;
+  } else if (state.primeFilter === 'two') {
+    body = `<div class="prime-group-heading"><span>TWO PARTS AWAY</span><strong>Still cheap enough to bully into completion.</strong></div>${primeCloseoutList(twoAway)}`;
+  } else if (state.primeFilter === 'resurgence') {
+    body = `<div class="prime-group-heading"><span>PRIME RESURGENCE</span><strong>Use Aya before Platinum.</strong></div>${primeCloseoutList(resurgence)}`;
+  } else if (state.primeFilter === 'trade') {
+    body = `<div class="prime-group-heading"><span>TRADE ONLY</span><strong>The actual vaulted holdouts.</strong></div>${primeCloseoutList(trade)}`;
+  } else if (state.primeFilter === 'all') {
+    body = `<div class="prime-group-heading"><span>ALL PRIME GAPS</span><strong>Smallest gaps first.</strong></div>${primeCloseoutList([...oneAway, ...twoAway, ...longer])}`;
+  } else {
+    body = `<div class="prime-group-heading"><span>ONE PART AWAY</span><strong>Low-hanging violence.</strong></div>${primeCloseoutList(oneAway)}
+      <div class="prime-group-heading second"><span>TWO PARTS AWAY</span><strong>Still very finishable.</strong></div>${primeCloseoutList(twoAway)}
+      ${longer.length ? `<details class="prime-long-tail"><summary>Show the ${fmt(longer.length)} longer Prime grinds</summary>${primeCloseoutList(longer)}</details>` : ''}`;
+  }
+  return `${summary}${primeSessionPatch()}${filterBar}${resurgenceWarning()}${body}`;
+}
+
 function primeDetails(item) {
   if (!item.primeDetails?.length) return item.primeStatus === 'DATA INCOMPLETE'
     ? '<p class="steps">Historical relic rewards have not been matched to these gaps. Check owned relics or trade only for the listed pieces.</p>'
@@ -418,10 +523,7 @@ function content() {
   if (state.view === 'vendors') return vendorView();
   if (state.view === 'foundry') return foundryView();
   if (state.view === 'all') return allItemsView();
-  if (state.view === 'relics') {
-    const rows = data.vaulted.filter((row) => String(row.missing || '').trim()).filter(matches);
-    return `<section class="section-toolbar"><div><p class="eyebrow">PRIME PARTS AND RELICS</p><h2>Open what you own. Trade only for the bastard holdouts.</h2></div></section>${resurgenceWarning()}${cards(rows)}`;
-  }
+  if (state.view === 'relics') return primeRelicsView();
   const rows = actionableQueue.filter((row) => (state.type === 'all' || row.type === state.type) && matches(row));
   return `${invasionWarning()}${cards(rows, { featureFirst: true })}`;
 }
@@ -444,6 +546,7 @@ function bind() {
   app.querySelector('#type')?.addEventListener('change', (event) => { state.type = event.target.value; state.visible = 24; render(); });
   app.querySelector('#more')?.addEventListener('click', () => { state.visible += 24; render(); });
   app.querySelectorAll('[data-vendor]').forEach((button) => button.addEventListener('click', () => { state.vendor = button.dataset.vendor; state.visible = 24; render(); }));
+  app.querySelectorAll('[data-prime-filter]').forEach((button) => button.addEventListener('click', () => { state.primeFilter = button.dataset.primeFilter; render(); }));
 }
 
 function render() {
