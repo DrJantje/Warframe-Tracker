@@ -306,15 +306,22 @@ function freshness() {
 }
 
 function hero() {
-  const lead = actionableQueue[0];
   const ready = data.owned.filter((row) => row.state === 'Ready in Foundry').length;
   const missing = data.meta?.summary?.missing ?? [...data.queue, ...data.vaulted].length;
-  const title = state.view === 'next' && lead ? `${lead.item} is the next clean win.` : views.find(([id]) => id === state.view)?.[1] || 'Plan';
-  const lede = state.view === 'next' && lead ? lead.route : 'Verified routes, exact account gaps, and the shortest useful next action.';
-  return `<section class="hero scanner-hero"><div class="hero-copy"><p class="eyebrow">${state.view === 'next' ? 'RECOMMENDED NEXT MOVE' : 'ACQUISITION PLAN'}</p><h1>${escapeHtml(title)}</h1><p class="lede">${escapeHtml(lede)}</p>${lead && state.view === 'next' ? `<a class="primary-action" href="#target-${slug(lead.item)}">Open the route</a>` : ''}</div><div class="stat-row">
-    <a href="#plan/next"><b>${fmt(actionableQueue.length)}</b><span>verified farms</span></a>
+  if (state.view !== 'next') {
+    const current = views.find(([id]) => id === state.view);
+    const copy = {
+      relics: ['PRIME ACQUISITION', 'Primes & relics', 'Finish sets first. Farm only what is actually missing.'],
+      vendors: ['TIME-GATED ACQUISITION', 'Vendors', 'Rotations, permanent stock, and the things worth checking before you spend Platinum.'],
+      foundry: ['OWNED / IN MOTION', 'Foundry & leveling', 'The grind is over. These just need claiming, building, or affinity.'],
+      all: ['ACCOUNT COVERAGE', 'All items', 'The complete mastery picture, with provenance intact.'],
+    }[state.view] || ['ACQUISITION PLAN', current?.[1] || 'Plan', 'Verified routes, exact account gaps, and the shortest useful next action.'];
+    return `<section class="hero page-hero"><div class="hero-copy"><p class="eyebrow">${copy[0]}</p><h1>${escapeHtml(copy[1])}</h1><p class="lede">${escapeHtml(copy[2])}</p></div></section>`;
+  }
+  return `<section class="hero scanner-hero home-hero"><div class="hero-copy"><p class="eyebrow">FIELD CONSOLE</p><h1>What’s worth doing now.</h1><p class="lede">Account-aware routes, nearly-finished sets, and live opportunities—without making you excavate the database.</p></div><div class="stat-row">
+    <a href="#plan/next"><b>${fmt(actionableQueue.length)}</b><span>clean farms</span></a>
+    <a href="#plan/relics"><b>${fmt(data.vaulted.filter((row) => (primeGapUnits(row) ?? 99) <= 2).length)}</b><span>Prime closeouts</span></a>
     <a href="#plan/foundry"><b>${fmt(ready)}</b><span>ready to claim</span></a>
-    <a href="#plan/vendors"><b>${fmt(vendorQueue.length)}</b><span>vendor gates</span></a>
     <a href="#plan/all"><b>${fmt(missing)}</b><span>mastery gaps</span></a>
   </div></section>`;
 }
@@ -509,6 +516,72 @@ function foundryView() {
     ${!owned.length && !materials.length ? '<div class="empty">No matching Foundry or leveling follow-ups.</div>' : ''}`;
 }
 
+function dashboardGap(item) {
+  const parts = missingParts(item);
+  if (!parts.length) return item.missing || '';
+  return parts.slice(0, 3).map((part) => item.item.includes('Prime') ? primePartLabel(item, part) : part).join(' · ');
+}
+
+function dashboardRow(item, meta = '') {
+  const live = item.liveMatches?.length ? pill('LIVE', 'green') : '';
+  const prime = item.primeStatus ? pill(item.primeStatus.replace('PERMANENT SPECIAL RELICS', 'PERMANENT RELICS'), primeStatusKind(item.primeStatus)) : '';
+  return `<article class="field-row">
+    <div class="field-row-main"><p class="eyebrow">${escapeHtml(friendlyType(item.type))}</p><h3>${escapeHtml(item.item)}</h3><p>${escapeHtml(dashboardGap(item) || item.route)}</p></div>
+    <div class="field-row-tail">${live}${prime}${meta ? `<span>${escapeHtml(meta)}</span>` : ''}</div>
+  </article>`;
+}
+
+function nextDashboardView() {
+  const farms = actionableQueue
+    .filter((row) => (state.type === 'all' || row.type === state.type) && matches(row));
+  if (!farms.length) return '<div class="empty">Nothing matches this filter. The database has briefly learned restraint.</div>';
+
+  const lead = farms[0];
+  const cleanWins = farms.slice(1, 7);
+  const closeouts = data.vaulted
+    .filter((row) => {
+      const gap = primeGapUnits(row);
+      return gap != null && gap <= 2 && matches(row);
+    })
+    .sort((a, b) => primeGapUnits(a) - primeGapUnits(b) || a.item.localeCompare(b.item))
+    .slice(0, 7);
+
+  const liveByName = new Map();
+  for (const row of [...data.vaulted, ...vendorQueue, ...actionableQueue]) {
+    if (row.liveMatches?.length || row.primeStatus === 'RESURGENCE ACTIVE') liveByName.set(row.item, row);
+  }
+  const liveNow = [...liveByName.values()]
+    .sort((a, b) => (primeGapUnits(a) ?? 99) - (primeGapUnits(b) ?? 99) || a.item.localeCompare(b.item))
+    .slice(0, 7);
+  const foundry = data.owned.slice(0, 5);
+
+  return `${invasionWarning()}<section class="field-console">
+    <article class="field-primary">
+      <div class="field-label"><span>DO NOW</span><i></i></div>
+      <p class="eyebrow">${escapeHtml(friendlyType(lead.type))} · CLEANEST ROUTE</p>
+      <h2>${escapeHtml(lead.item)}</h2>
+      <p class="field-gap">${escapeHtml(lead.missing)}</p>
+      <div class="field-route"><span>ROUTE</span><strong>${escapeHtml(lead.route)}</strong></div>
+      ${lead.steps ? `<p class="field-steps">${escapeHtml(lead.steps)}</p>` : ''}
+      <div class="field-primary-footer">${source(lead.source)}<span>Priority ${fmt(lead.practicalPriority ?? 0)}</span></div>
+    </article>
+    <div class="field-stack">
+      <section class="field-panel">
+        <header><div><p class="eyebrow">NEARLY DONE</p><h2>Prime closeouts</h2></div><a href="#plan/relics">See all</a></header>
+        <div class="field-list">${closeouts.map((row) => dashboardRow(row, `${primeGapUnits(row)} away`)).join('') || '<p class="field-empty">No closeouts match this filter.</p>'}</div>
+      </section>
+      <section class="field-panel">
+        <header><div><p class="eyebrow">LIVE / TIME-GATED</p><h2>Worth noticing</h2></div><a href="#plan/vendors">Vendors</a></header>
+        <div class="field-list">${liveNow.map((row) => dashboardRow(row)).join('') || '<p class="field-empty">Nothing urgent right now. Lovely.</p>'}</div>
+      </section>
+    </div>
+  </section>
+  <section class="field-lower">
+    <div class="field-panel clean-wins"><header><div><p class="eyebrow">NEXT CLEAN WINS</p><h2>After the first one</h2></div></header><div class="field-list">${cleanWins.map((row, index) => dashboardRow(row, `#${index + 2}`)).join('')}</div></div>
+    <div class="field-panel foundry-now"><header><div><p class="eyebrow">ALREADY YOURS</p><h2>Foundry / leveling</h2></div><a href="#plan/foundry">Open</a></header><div class="field-list">${foundry.map((row) => `<article class="field-row"><div class="field-row-main"><p class="eyebrow">${escapeHtml(friendlyType(row.type))}</p><h3>${escapeHtml(row.item)}</h3><p>${escapeHtml(row.steps)}</p></div><div class="field-row-tail">${pill(row.state === 'Ready in Foundry' ? 'CLAIM' : 'OWNED', 'green')}</div></article>`).join('') || '<p class="field-empty">No immediate Foundry follow-ups.</p>'}</div></div>
+  </section>`;
+}
+
 function allItemsView() {
   const rows = data.arsenal.filter(matches);
   const visible = rows.slice(0, state.visible);
@@ -520,8 +593,7 @@ function content() {
   if (state.view === 'foundry') return foundryView();
   if (state.view === 'all') return allItemsView();
   if (state.view === 'relics') return primeRelicsView();
-  const rows = actionableQueue.filter((row) => (state.type === 'all' || row.type === state.type) && matches(row));
-  return `${invasionWarning()}${cards(rows, { featureFirst: true })}`;
+  return nextDashboardView();
 }
 
 function footer() {
@@ -554,6 +626,18 @@ function render() {
 }
 
 window.addEventListener('hashchange', () => { state.query = ''; state.visible = 24; render(); });
+document.addEventListener('keydown', (event) => {
+  const target = event.target;
+  const typing = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement || target?.isContentEditable;
+  if (event.key === '/' && !typing) {
+    const input = app.querySelector('#search');
+    if (input) { event.preventDefault(); input.focus(); input.select(); }
+  }
+  if (event.key === 'Escape' && state.query && !typing) {
+    state.query = '';
+    render();
+  }
+});
 if (!location.hash) history.replaceState(null, '', '#plan/next');
 render();
 

@@ -573,5 +573,17 @@ async function navigate() {
 }
 
 window.addEventListener('hashchange', navigate);
+document.addEventListener('keydown', (event) => {
+  const target = event.target;
+  const typing = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement || target?.isContentEditable;
+  if (event.key === '/' && !typing) {
+    const input = root.querySelector('#account-search');
+    if (input) { event.preventDefault(); input.focus(); input.select(); }
+  }
+  if (event.key === 'Escape' && state.query && !typing) {
+    state.query = '';
+    render();
+  }
+});
 if (!location.hash) history.replaceState(null, '', '#arsenal/current');
 await navigate();
