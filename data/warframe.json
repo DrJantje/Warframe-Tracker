@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 13:30:44 PDT",
+    "exportVerifiedAt": "2026-09-27 13:38:34 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167815,
-        "modified": "2026-09-27T13:30:43.842181-07:00",
-        "sha256": "0bf30efcf50961386df8b689d657454609557881e1d6b8ad00e1aef26d94755c"
+        "bytes": 2167813,
+        "modified": "2026-09-27T13:38:33.854180-07:00",
+        "sha256": "8b0938968702867288a30f9092188e225b806e0d2f3b22e57c6b57f7859987ca"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T13:30:43.847723-07:00",
+        "modified": "2026-09-27T13:38:33.859502-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T13:30:43.844703-07:00",
-        "sha256": "7a8fe520259cc29273c435afa9a0980554211f981c373e626292bc913a61f66f"
+        "modified": "2026-09-27T13:38:33.856986-07:00",
+        "sha256": "8e04c2ed747c1749b2121699c074fef92dae5d7d3e2049ee644ac66512255066"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T13:30:43.846213-07:00",
+        "modified": "2026-09-27T13:38:33.858484-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T13:30:43.850238-07:00",
-        "sha256": "5b569bea52538801dbb397fff3e65b9231af0abf7ff4788c4a28cbe6e2e13409"
+        "modified": "2026-09-27T13:38:33.861512-07:00",
+        "sha256": "e89c1d3ed1935725c146b3b3f3f01d8dc8cb4a953790cf241061d1da68f0343b"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,21 +47,6 @@
       }
     },
     "importChanges": [
-      {
-        "item": "Astilla Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Astilla Prime Barrel; Astilla Prime Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
       {
         "item": "Cronus",
         "before": [
@@ -93,12 +78,27 @@
         ]
       },
       {
-        "item": "Masseter Prime",
+        "item": "Karyst Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Masseter Prime Blade"
+          "Karyst Prime Blade; Karyst Prime Handle"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Karyst Prime Blade"
+        ]
+      },
+      {
+        "item": "Sicarus Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Sicarus Prime Barrel; Sicarus Prime Blueprint"
         ],
         "after": [
           "No",
@@ -123,27 +123,12 @@
         ]
       },
       {
-        "item": "Vasto Prime",
+        "item": "Zhuge Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Vasto Prime Barrel; Vasto Prime Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Velox Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Velox Prime Barrel; Velox Prime Receiver"
+          "Zhuge Prime Blueprint; Zhuge Prime Grip"
         ],
         "after": [
           "No",
@@ -158,7 +143,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 193
+      "missing": 191
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -2475,7 +2460,7 @@
       "item": "Karyst Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Karyst Prime Blade; Karyst Prime Handle",
+      "missing": "Karyst Prime Blade",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2484,7 +2469,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "4 — Multi-step farm",
@@ -3070,22 +3055,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Sicarus Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Sicarus Prime Barrel; Sicarus Prime Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Sicarus_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Silva & Aegis Prime",
       "type": "melee",
       "targetRank": "30",
@@ -3431,22 +3400,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Zhuge Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Zhuge Prime Blueprint; Zhuge Prime Grip",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Zhuge_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Zylok Prime",
       "type": "secondary",
       "targetRank": "30",
@@ -3527,6 +3480,15 @@
       "source": "https://wiki.warframe.com/w/Mirage_Prime"
     },
     {
+      "item": "Sicarus Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sicarus_Prime"
+    },
+    {
       "item": "Vasto Prime",
       "type": "secondary",
       "state": "Ready in Foundry",
@@ -3543,6 +3505,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Velox_Prime"
+    },
+    {
+      "item": "Zhuge Prime",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Zhuge_Prime"
     }
   ],
   "rank40": [
@@ -10568,7 +10539,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Karyst Prime Blade; Karyst Prime Handle",
+      "missing": "Karyst Prime Blade",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -16320,24 +16291,21 @@
     {
       "item": "Sicarus Prime",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sicarus Prime Barrel; Sicarus Prime Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Sicarus_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Sigma & Octantis",
@@ -19934,24 +19902,21 @@
     {
       "item": "Zhuge Prime",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Zhuge Prime Blueprint; Zhuge Prime Grip",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Zhuge_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Zylok",
