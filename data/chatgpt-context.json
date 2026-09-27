@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-27T22:18:00.134583+00:00",
+  "generatedAt": "2026-09-27T22:19:41.007327+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-27T22:15:55.626Z",
+    "observedAt": "2026-09-27T22:19:34.433449+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
-    "frameConfidence": "arsenal-active",
+    "frameConfidence": "server-sent",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1740,11 +1740,11 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260927-190202.json",
-    "startedAt": "2026-09-27T19:02:02.811372+00:00",
-    "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
-    "durationSeconds": 7384.328,
-    "missionCount": 44,
+    "file": "20260927-210613.json",
+    "startedAt": "2026-09-27T21:06:13.076944+00:00",
+    "stoppedAt": "2026-09-27T22:19:37.486873+00:00",
+    "durationSeconds": 4404.41,
+    "missionCount": 26,
     "focusEarnedDuringCapture": 0,
     "topGains": [
       {
@@ -1752,27 +1752,15 @@
         "delta": 6
       },
       {
-        "item": "Handle",
+        "item": "Barrel",
         "delta": 1
       },
       {
-        "item": "Head",
+        "item": "Nidus Prime Systems Blueprint",
         "delta": 1
       },
       {
-        "item": "Kavasa Prime Band",
-        "delta": 1
-      },
-      {
-        "item": "Kavasa Prime Buckle",
-        "delta": 1
-      },
-      {
-        "item": "Rhino Prime Chassis Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Rhino Prime Systems Blueprint",
+        "item": "Receiver",
         "delta": 1
       }
     ],
@@ -1782,35 +1770,22 @@
         "delta": 6
       },
       {
-        "item": "Handle",
+        "item": "Barrel",
         "delta": 1
       },
       {
-        "item": "Kavasa Prime Band",
+        "item": "Nidus Prime Systems Blueprint",
         "delta": 1
       },
       {
-        "item": "Kavasa Prime Buckle",
-        "delta": 1
-      },
-      {
-        "item": "Rhino Prime Chassis Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Rhino Prime Systems Blueprint",
+        "item": "Receiver",
         "delta": 1
       }
     ],
-    "resourceGains": [
-      {
-        "item": "Head",
-        "delta": 1
-      }
-    ],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 6
+    "errorEventCount": 4
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

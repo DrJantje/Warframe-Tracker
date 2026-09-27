@@ -1,6 +1,6 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-27T22:18:00.134583+00:00
+Generated: 2026-09-27T22:19:41.007327+00:00
 Account snapshot: 2026-09-27T22:15:53.624Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (arsenal-active)
+- Frame observation: unknown (server-sent)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -81,11 +81,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-09-27T19:02:02.811372+00:00
-- Duration seconds: 7384.328
-- Missions: 44
+- Started: 2026-09-27T21:06:13.076944+00:00
+- Duration seconds: 4404.41
+- Missions: 26
 - Focus earned: 0
-- Notable acquisitions: Blueprint (+6), Handle (+1), Kavasa Prime Band (+1), Kavasa Prime Buckle (+1), Rhino Prime Chassis Blueprint (+1), Rhino Prime Systems Blueprint (+1)
+- Notable acquisitions: Blueprint (+6), Barrel (+1), Nidus Prime Systems Blueprint (+1), Receiver (+1)
 
 ## Deeper files
 
