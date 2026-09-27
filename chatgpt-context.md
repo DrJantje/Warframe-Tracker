@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-25T00:45:27.836385+00:00
-Account snapshot: 2026-09-24T23:27:57.214Z
+Generated: 2026-09-27T19:14:16.608431+00:00
+Account snapshot: 2026-09-27T19:14:12.051Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-active)
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,17 +28,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Tenet Cycron — config A
+#### Secondary: Twin Vipers Wraith — config A
+
+- Forma: 0
+- Mods: Barrel Diffusion (rank 5), Hornet Strike (rank 10), Saxum Spittle (rank 5)
+- Arcanes: none recorded
+
+#### Primary: Coda Bubonico — config A
 
 - Forma: 5
-- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
-- Arcanes: Cascadia Flare (rank 5)
-
-#### Primary: Tenet Glaxion — config A
-
-- Forma: 5
-- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), High Voltage (rank 3), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
-- Arcanes: Primary Debilitate (rank 5)
+- Lens: Greater Unairu Lens
+- Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
 
 #### Melee: Furax Wraith — config A
 
@@ -54,8 +55,8 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Exalted weapon: Balefire Charger Prime — config A
 
-- Forma: 7
-- Mods: Convulsion (rank 5), Primed Heated Charge (rank 10), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Forma: 8
+- Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Pistol Pestilence (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Hildryn

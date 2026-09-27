@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-24",
-    "exportVerifiedAt": "2026-09-24 17:45:28 PDT",
+    "snapshotDate": "2026-09-27",
+    "exportVerifiedAt": "2026-09-27 12:14:16 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167769,
-        "modified": "2026-09-24T17:45:27.323093-07:00",
-        "sha256": "d3343f7792a1ad8560c71512df722fe63f9cc2df92c9c4fa4019d583f3f3aa57"
+        "bytes": 2167819,
+        "modified": "2026-09-27T12:14:16.094713-07:00",
+        "sha256": "3a581545bb0c93c688a30e9feb76531d77f718afae9633d12f2f53659cacce1f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-24T17:45:27.329498-07:00",
-        "sha256": "86f6a9d8eaf617ef9f969cccbc6b740298c9eb0e1e5189d56c7aa5f1de411a22"
+        "modified": "2026-09-27T12:14:16.100971-07:00",
+        "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-24T17:45:27.325606-07:00",
-        "sha256": "4e539c4311513d4ec9e2aca425b57f002c5bfd2b29bb32fe3e3b1ef608ead396"
+        "modified": "2026-09-27T12:14:16.097222-07:00",
+        "sha256": "3ddee7958218361caca63f172bf3dedbedf6a6cc817c585881ea8500a5efda72"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-24T17:45:27.327605-07:00",
-        "sha256": "646e8cc250e8aa7d657e66c532882e37b4f527e39814d81eba03bc417c475729"
+        "modified": "2026-09-27T12:14:16.098915-07:00",
+        "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-24T17:45:27.330503-07:00",
-        "sha256": "a28f421cc36749f3aab88e8e7320c8f66ca834b96230096f7e657a3259e8c64d"
+        "modified": "2026-09-27T12:14:16.104093-07:00",
+        "sha256": "e12232c41c6ddbabba66ea02413cc44873c100d931e4932ef79c958de48489ea"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,18 +48,183 @@
     },
     "importChanges": [
       {
-        "item": "Nokko",
+        "item": "Banshee Prime",
         "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
           "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Cronus",
+        "before": [
+          "No",
           "Yes",
           "No",
           ""
         ],
         "after": [
-          "Yes",
+          "No",
           "Yes",
           "Yes",
           ""
+        ]
+      },
+      {
+        "item": "Gorgon",
+        "before": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Gorgon Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Gorgon Wraith Blueprint; Gorgon Wraith Receiver; Gorgon Wraith Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Gorgon Wraith Blueprint; Gorgon Wraith Stock"
+        ]
+      },
+      {
+        "item": "Hespar",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Hespar Blade Blueprint; Hespar Handle Blueprint"
+        ]
+      },
+      {
+        "item": "Karak Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Karak Wraith Barrel"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Kogake Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (1/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Kogake Prime Gauntlet (1/2)"
+        ]
+      },
+      {
+        "item": "Mirage Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Okina Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Okina Prime Blade (0/2); Okina Prime Blueprint; Okina Prime Handle (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)"
+        ]
+      },
+      {
+        "item": "Twin Gremlins",
+        "before": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Twin Vipers Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Twin Vipers Wraith Link"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Zhuge Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Zhuge Prime Blueprint; Zhuge Prime Grip; Zhuge Prime Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Zhuge Prime Blueprint; Zhuge Prime Grip"
         ]
       }
     ],
@@ -68,7 +233,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 199
+      "missing": 197
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -88,13 +253,13 @@
       "Lith N19 Intact": 18,
       "Lith N19 Radiant": 1,
       "Lith Q2 Intact": 0,
-      "Lith Q3 Intact": 2,
-      "Lith S18 Intact": 8,
+      "Lith Q3 Intact": 0,
+      "Lith S18 Intact": 9,
       "Lith T14 Intact": 18,
       "Lith V11 Intact": 14,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 34,
+      "Meso A12 Intact": 35,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 59,
       "Meso E7 Intact": 11,
@@ -598,6 +763,21 @@
     },
     {
       "ease": "4 — Multi-step farm",
+      "item": "Hespar",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
+      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
+      "source": "https://wiki.warframe.com/w/Hespar",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 410
+    },
+    {
+      "ease": "4 — Multi-step farm",
       "item": "Pathocyst",
       "type": "melee",
       "targetRank": "30",
@@ -610,21 +790,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Hespar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)",
-      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 40 Thrax Plasm ×40: check the current official drop table.",
-      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
-      "source": "https://wiki.warframe.com/w/Hespar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 415
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1229,38 +1394,6 @@
       "practicalPriority": 655
     },
     {
-      "ease": "4 — Multi-step farm",
-      "item": "Twin Vipers Wraith",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Twin Vipers Wraith Link",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Twin_Vipers_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Twin Vipers Wraith Link"
-      ],
-      "practicalPriority": 655
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Karak Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Karak Wraith Barrel",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Karak_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 755
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Strun Wraith",
       "type": "primary",
@@ -1292,6 +1425,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Gorgon Wraith",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Gorgon Wraith Blueprint; Gorgon Wraith Stock",
+      "route": "Razorback Armada",
+      "steps": "Farm the weapon components during Razorback Armada.",
+      "tip": "During Razorback Armada, farm Cryptographic ALU and build several Razorback Ciphers before repeatedly running the boss.",
+      "source": "https://wiki.warframe.com/w/Gorgon_Wraith",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 760
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Sheev",
       "type": "melee",
       "targetRank": "30",
@@ -1304,21 +1452,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 760
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Gorgon Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Gorgon Wraith Blueprint; Gorgon Wraith Receiver; Gorgon Wraith Stock",
-      "route": "Razorback Armada",
-      "steps": "Farm the weapon components during Razorback Armada.",
-      "tip": "During Razorback Armada, farm Cryptographic ALU and build several Razorback Ciphers before repeatedly running the boss.",
-      "source": "https://wiki.warframe.com/w/Gorgon_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 765
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2481,22 +2614,14 @@
       "item": "Kogake Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (1/2)",
+      "missing": "Kogake Prime Gauntlet (1/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Kogake Prime Boot (Common): buy Axi A12 from Varzia for Aya and open it Intact in a four-player share. Kogake Prime Gauntlet (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
+      "steps": "Kogake Prime Gauntlet (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Kogake Prime Boot (1/2)",
-          "relic": "Axi A12",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
         {
           "part": "Kogake Prime Gauntlet (1/2)",
           "relic": "Lith K5",
@@ -2509,7 +2634,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 497
+      "practicalPriority": 492
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2821,7 +2946,7 @@
       "item": "Okina Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Okina Prime Blade (0/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
+      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2902,18 +3027,18 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Quassus Prime Blade (1/2)",
-      "route": "Owned relics first; current Void Relic farms for more",
-      "steps": "Quassus Prime Blade (Rare): use your 2 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "route": "Current Void Relic farms",
+      "steps": "Quassus Prime Blade (Rare): farm Lith Q3 from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B, then open it Radiant in a four-player share. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
-      "primeStatus": "OWNED RELICS",
+      "primeStatus": "CURRENT RELICS",
       "primeDetails": [
         {
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 2,
+          "ownedRelics": 0,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
@@ -3448,7 +3573,7 @@
       "item": "Zhuge Prime",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Zhuge Prime Blueprint; Zhuge Prime Grip; Zhuge Prime Receiver",
+      "missing": "Zhuge Prime Blueprint; Zhuge Prime Grip",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -3457,7 +3582,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3485,6 +3610,42 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Glaxion_Vandal"
+    },
+    {
+      "item": "Twin Vipers Wraith",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Twin_Vipers_Wraith"
+    },
+    {
+      "item": "Banshee Prime",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Banshee_Prime"
+    },
+    {
+      "item": "Karak Wraith",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Karak_Wraith"
+    },
+    {
+      "item": "Mirage Prime",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Mirage_Prime"
     }
   ],
   "rank40": [
@@ -5141,17 +5302,17 @@
     {
       "item": "Banshee Prime",
       "type": "warframe",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
-      "ease": "1 — Parts complete",
-      "route": "Prime parts complete — Chassis and Systems building in Foundry",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Banshee_Prime",
       "primeDetails": [],
@@ -6825,7 +6986,7 @@
       "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -9153,7 +9314,7 @@
       "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -9174,7 +9335,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Gorgon Wraith Blueprint; Gorgon Wraith Receiver; Gorgon Wraith Stock",
+      "missing": "Gorgon Wraith Blueprint; Gorgon Wraith Stock",
       "ease": "5 — Long grind / trade",
       "route": "Razorback Armada",
       "vaulted": "No",
@@ -9883,14 +10044,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint; Thrax Plasm (10/50)",
+      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C. 40 Thrax Plasm ×40: check the current official drop table.",
+      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
       "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
@@ -10467,17 +10628,17 @@
     {
       "item": "Karak Wraith",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Karak Wraith Barrel",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Karak_Wraith",
       "steps": "Watch active Invasions for each missing component or trade for the component.",
@@ -10788,7 +10949,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Kogake Prime Boot (1/2); Kogake Prime Gauntlet (1/2)",
+      "missing": "Kogake Prime Gauntlet (1/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -10797,14 +10958,6 @@
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Kogake Prime Boot (1/2)",
-          "relic": "Axi A12",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
         {
           "part": "Kogake Prime Gauntlet (1/2)",
           "relic": "Lith K5",
@@ -10817,7 +10970,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Kogake Prime Boot (Common): buy Axi A12 from Varzia for Aya and open it Intact in a four-player share. Kogake Prime Gauntlet (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
+      "steps": "Kogake Prime Gauntlet (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -12469,17 +12622,17 @@
     {
       "item": "Mirage Prime",
       "type": "warframe",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
-      "ease": "1 — Parts complete",
-      "route": "Prime parts complete — Neuroptics building in Foundry",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Mirage_Prime",
       "primeDetails": [],
@@ -13524,7 +13677,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Okina Prime Blade (0/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
+      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -15012,7 +15165,7 @@
       "rankRule": "",
       "missing": "Quassus Prime Blade (1/2)",
       "ease": "3 — Focused short farm",
-      "route": "Owned relics first; current Void Relic farms for more",
+      "route": "Current Void Relic farms",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 13,
@@ -15022,14 +15175,14 @@
           "part": "Quassus Prime Blade (1/2)",
           "relic": "Lith Q3",
           "rarity": "Rare",
-          "ownedRelics": 2,
+          "ownedRelics": 0,
           "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
           "refinement": "Radiant"
         }
       ],
       "liveMatches": [],
-      "primeStatus": "OWNED RELICS",
-      "steps": "Quassus Prime Blade (Rare): use your 2 held Lith Q3 relics; refine one at a time to Radiant and open four-player shares until the target drops. Farm more from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B only if needed. Build Quassus Prime and level it to 30.",
+      "primeStatus": "CURRENT RELICS",
+      "steps": "Quassus Prime Blade (Rare): farm Lith Q3 from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B, then open it Radiant in a four-player share. Build Quassus Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -18368,7 +18521,7 @@
       "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
-      "targetRank": "Complete",
+      "targetRank": "30",
       "rankRule": "",
       "missing": "",
       "ease": "1 — Complete",
@@ -18459,14 +18612,14 @@
     {
       "item": "Twin Vipers Wraith",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Twin Vipers Wraith Link",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18475,9 +18628,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Twin Vipers Wraith Link"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Tysis",
@@ -19904,7 +20055,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Zhuge Prime Blueprint; Zhuge Prime Grip; Zhuge Prime Receiver",
+      "missing": "Zhuge Prime Blueprint; Zhuge Prime Grip",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",

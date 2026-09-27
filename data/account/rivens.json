@@ -27,6 +27,36 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
+    "rivenRef": "riven-014",
+    "name": "Atomos Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Atomos",
+    "weaponType": "Pistol",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_TACTIC",
+    "rerolls": 0,
+    "minimumMastery": 11,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Freeze Damage Mod"
+      },
+      {
+        "trait": "Weapon Clip Max Mod"
+      },
+      {
+        "trait": "Weapon Fire Iterations Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Zoom Fov Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-010",
     "name": "Burston Riven",
     "unveiled": true,
@@ -49,6 +79,36 @@
     "negativeTraits": [
       {
         "trait": "Weapon Fire Rate Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "riven-015",
+    "name": "Haalvu Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Haalvu",
+    "weaponType": "Rifle",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_ATTACK",
+    "rerolls": 0,
+    "minimumMastery": 10,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Crit Chance Mod"
+      },
+      {
+        "trait": "Weapon Puncture Depth Mod"
+      },
+      {
+        "trait": "Weapon Electricity Damage Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Crit Damage Mod"
       }
     ],
     "detailsStatus": "current direct fingerprint; trait values not decoded"
@@ -120,6 +180,32 @@
       },
       {
         "trait": "Weapon Freeze Damage Mod"
+      }
+    ],
+    "negativeTraits": [],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "riven-019",
+    "name": "Latron Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Latron",
+    "weaponType": "Rifle",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_DEFENSE",
+    "rerolls": 0,
+    "minimumMastery": 16,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Fire Iterations Mod"
+      },
+      {
+        "trait": "Weapon Damage Amount Mod"
+      },
+      {
+        "trait": "Weapon Faction Damage Corpus"
       }
     ],
     "negativeTraits": [],
@@ -231,6 +317,33 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
+    "rivenRef": "riven-013",
+    "name": "Stubba Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Stubba",
+    "weaponType": "Pistol",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_DEFENSE",
+    "rerolls": 0,
+    "minimumMastery": 8,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Stun Chance Mod"
+      },
+      {
+        "trait": "Weapon Recoil Reduction Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Impact Damage Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-008",
     "name": "Veiled Kitgun Riven",
     "unveiled": false,
@@ -263,10 +376,10 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "veiled-016",
+    "rivenRef": "riven-016",
     "name": "Veiled Kitgun Riven",
     "unveiled": false,
-    "owned": 2,
+    "owned": 1,
     "weapon": null,
     "weaponType": "Kitgun",
     "rank": 0,
@@ -276,13 +389,45 @@
     "minimumMastery": 0,
     "positiveTraits": [],
     "negativeTraits": [],
-    "detailsStatus": "current direct aggregate"
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "veiled-015",
+    "rivenRef": "riven-017",
+    "name": "Veiled Kitgun Riven",
+    "unveiled": false,
+    "owned": 1,
+    "weapon": null,
+    "weaponType": "Kitgun",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": null,
+    "rerolls": 0,
+    "minimumMastery": 0,
+    "positiveTraits": [],
+    "negativeTraits": [],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "riven-018",
     "name": "Veiled Melee Riven",
     "unveiled": false,
-    "owned": 12,
+    "owned": 1,
+    "weapon": null,
+    "weaponType": "Melee",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": null,
+    "rerolls": 0,
+    "minimumMastery": 0,
+    "positiveTraits": [],
+    "negativeTraits": [],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "veiled-020",
+    "name": "Veiled Melee Riven",
+    "unveiled": false,
+    "owned": 11,
     "weapon": null,
     "weaponType": "Melee",
     "rank": 0,
@@ -295,39 +440,7 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-014",
-    "name": "Veiled Pistol Riven",
-    "unveiled": false,
-    "owned": 2,
-    "weapon": null,
-    "weaponType": "Pistol",
-    "rank": 0,
-    "maximumRank": 8,
-    "polarity": null,
-    "rerolls": 0,
-    "minimumMastery": 0,
-    "positiveTraits": [],
-    "negativeTraits": [],
-    "detailsStatus": "current direct aggregate"
-  },
-  {
-    "rivenRef": "veiled-013",
-    "name": "Veiled Rifle Riven",
-    "unveiled": false,
-    "owned": 2,
-    "weapon": null,
-    "weaponType": "Rifle",
-    "rank": 0,
-    "maximumRank": 8,
-    "polarity": null,
-    "rerolls": 0,
-    "minimumMastery": 0,
-    "positiveTraits": [],
-    "negativeTraits": [],
-    "detailsStatus": "current direct aggregate"
-  },
-  {
-    "rivenRef": "veiled-017",
+    "rivenRef": "veiled-021",
     "name": "Veiled Zaw Riven",
     "unveiled": false,
     "owned": 3,
