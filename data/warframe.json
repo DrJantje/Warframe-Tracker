@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 15:46:05 PDT",
+    "exportVerifiedAt": "2026-09-27 16:14:03 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167799,
-        "modified": "2026-09-27T15:46:04.290247-07:00",
-        "sha256": "1dc604085f8ddead33fa2c67a30ec6e5b384ce91ec51f34c7a191209d5e54de0"
+        "bytes": 2167885,
+        "modified": "2026-09-27T16:14:02.411947-07:00",
+        "sha256": "0d8905cf4759b50d94b4eef763c932c83903bebc3b0fa29770ab914d0869a424"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T15:46:04.292262-07:00",
-        "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
+        "modified": "2026-09-27T16:14:02.416463-07:00",
+        "sha256": "4055e3b66aaad0927a821da9531c42d56d4ac2dee199a8cfa56bf91ba2a60d6e"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T15:46:04.291757-07:00",
+        "modified": "2026-09-27T16:14:02.414450-07:00",
         "sha256": "adb5608bcb4a2da0b88e97867ec1f5ff75f89d07a10f6ad6a7d301bceeb5e046"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T15:46:04.292262-07:00",
-        "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
+        "modified": "2026-09-27T16:14:02.415458-07:00",
+        "sha256": "c73274160e553acdc62cdca594d45e964ce3b5bdc0ea662e545dc61d84703ea2"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T15:46:04.294274-07:00",
-        "sha256": "c833a157116a51d0fc6916b0e13baf0220cdd0d96f061adbef99db22e12e94fa"
+        "modified": "2026-09-27T16:14:02.417972-07:00",
+        "sha256": "bbadb86bf683ae5437250068a64eb16326522774b840e6f524102390e078727d"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Akbolto Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Akbolto Prime Barrel (1/2); Akbolto Prime Receiver (1/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Akbolto Prime Receiver (1/2)"
+        ]
+      },
       {
         "item": "Cronus",
         "before": [
@@ -137,7 +152,7 @@
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 35,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 36,
+      "Meso Y2 Intact": 37,
       "Neo A16 Intact": 8,
       "Neo C7 Intact": 27,
       "Neo C7 Radiant": 0,
@@ -1583,22 +1598,14 @@
       "item": "Akbolto Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Akbolto Prime Barrel (1/2); Akbolto Prime Receiver (1/2)",
+      "missing": "Akbolto Prime Receiver (1/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Akbolto Prime Barrel (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
+      "steps": "Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Akbolto Prime Barrel (1/2)",
-          "relic": "Lith K5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Akbolto Prime Receiver (1/2)",
           "relic": "Axi A12",
@@ -1611,7 +1618,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 497
+      "practicalPriority": 492
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3888,7 +3895,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Akbolto Prime Barrel (1/2); Akbolto Prime Receiver (1/2)",
+      "missing": "Akbolto Prime Receiver (1/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -3897,14 +3904,6 @@
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Akbolto Prime Barrel (1/2)",
-          "relic": "Lith K5",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Akbolto Prime Receiver (1/2)",
           "relic": "Axi A12",
@@ -3917,7 +3916,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Akbolto Prime Barrel (Uncommon): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
+      "steps": "Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
