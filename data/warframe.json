@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 14:49:50 PDT",
+    "exportVerifiedAt": "2026-09-27 15:14:37 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167804,
-        "modified": "2026-09-27T14:49:49.361728-07:00",
-        "sha256": "56d26ea2a67274b412cdd4f65e21afe2ba03a77623a7fdcf83c8371ee572e615"
+        "bytes": 2167803,
+        "modified": "2026-09-27T15:14:36.290884-07:00",
+        "sha256": "20d9e0e4cf4e9ac4e3fc59e8e8b7a6bfa160d645676ed817abce377feae6f414"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T14:49:49.364311-07:00",
+        "modified": "2026-09-27T15:14:36.297038-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T14:49:49.362782-07:00",
-        "sha256": "adb5608bcb4a2da0b88e97867ec1f5ff75f89d07a10f6ad6a7d301bceeb5e046"
+        "modified": "2026-09-27T15:14:36.293903-07:00",
+        "sha256": "67f1fe3d36e8068813cf7223f9715767c09f09aef9dedc9812bdb892eaa7bdd0"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T14:49:49.363806-07:00",
+        "modified": "2026-09-27T15:14:36.295412-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T14:49:49.365314-07:00",
-        "sha256": "40e9659b48f676a4356fb27bb2efef6f0a81bc4a41fb1f29f50e186ec4c49b0c"
+        "modified": "2026-09-27T15:14:36.298569-07:00",
+        "sha256": "1b8d6b71596d91f9c65a3f59df4d3f55c1575715a938eabca342cc144805dea7"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -78,12 +78,12 @@
         ]
       },
       {
-        "item": "Karyst Prime",
+        "item": "Gram Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Karyst Prime Blade"
+          ""
         ],
         "after": [
           "No",
@@ -3265,6 +3265,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Dakra_Prime"
+    },
+    {
+      "item": "Gram Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Gram_Prime"
     },
     {
       "item": "Helios Prime",
@@ -9146,17 +9155,17 @@
     {
       "item": "Gram Prime",
       "type": "melee",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Gram_Prime",
       "primeDetails": [],
