@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 13:38:34 PDT",
+    "exportVerifiedAt": "2026-09-27 13:45:57 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167813,
-        "modified": "2026-09-27T13:38:33.854180-07:00",
-        "sha256": "8b0938968702867288a30f9092188e225b806e0d2f3b22e57c6b57f7859987ca"
+        "bytes": 2167812,
+        "modified": "2026-09-27T13:45:57.200319-07:00",
+        "sha256": "06e2001a0b8faa0f05019507981fa91ba9677dc3161e9830f0d3908a5f20d2a9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T13:38:33.859502-07:00",
+        "modified": "2026-09-27T13:45:57.203837-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T13:38:33.856986-07:00",
-        "sha256": "8e04c2ed747c1749b2121699c074fef92dae5d7d3e2049ee644ac66512255066"
+        "modified": "2026-09-27T13:45:57.201825-07:00",
+        "sha256": "3bc3d0e7e2b4d14858c1e587d4b8b9de95ab8b0f203edd11ac8f1d8feccf4ff6"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T13:38:33.858484-07:00",
+        "modified": "2026-09-27T13:45:57.202329-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T13:38:33.861512-07:00",
-        "sha256": "e89c1d3ed1935725c146b3b3f3f01d8dc8cb4a953790cf241061d1da68f0343b"
+        "modified": "2026-09-27T13:45:57.205347-07:00",
+        "sha256": "c3f64ce8c0ccc48fb64f22e64ddc086bccf780e210d164bfdb7dd7554c271798"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Corinth Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Corinth Prime Receiver; Corinth Prime Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
       {
         "item": "Cronus",
         "before": [
@@ -78,36 +93,6 @@
         ]
       },
       {
-        "item": "Karyst Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Karyst Prime Blade; Karyst Prime Handle"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Karyst Prime Blade"
-        ]
-      },
-      {
-        "item": "Sicarus Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Sicarus Prime Barrel; Sicarus Prime Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
         "item": "Twin Gremlins",
         "before": [
           "No",
@@ -121,21 +106,6 @@
           "Yes",
           ""
         ]
-      },
-      {
-        "item": "Zhuge Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Zhuge Prime Blueprint; Zhuge Prime Grip"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
       }
     ],
     "summary": {
@@ -143,7 +113,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 191
+      "missing": 190
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1971,22 +1941,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Corinth Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Corinth Prime Receiver; Corinth Prime Stock",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Corinth_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Corvas Prime",
       "type": "archgun",
       "targetRank": "30",
@@ -3451,6 +3405,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Banshee_Prime"
+    },
+    {
+      "item": "Corinth Prime",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Corinth_Prime"
     },
     {
       "item": "Karak Wraith",
@@ -6725,23 +6688,20 @@
     {
       "item": "Corinth Prime",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Corinth Prime Receiver; Corinth Prime Stock",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Corinth_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
       "liveMatches": []
     },
     {
