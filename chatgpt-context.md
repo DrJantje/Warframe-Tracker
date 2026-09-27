@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-27T23:30:30.337662+00:00
-Account snapshot: 2026-09-27T23:28:24.554Z
+Generated: 2026-09-27T23:33:20.285729+00:00
+Account snapshot: 2026-09-27T23:31:04.782Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Phase: location
+- Location: HUB
+- Planet: ZARIMAN
+- Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,11 +28,11 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Fleeting Expertise (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
 - Arcanes: Arcane Camisado (rank 5), Arcane Impetus (rank 5)
 
-#### Secondary: Twin Vipers Wraith — config A
+#### Secondary: Tenet Cycron — config A
 
-- Forma: 0
-- Mods: Barrel Diffusion (rank 5), Hornet Strike (rank 10), Saxum Spittle (rank 5)
-- Arcanes: none recorded
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
 
 #### Primary: Glaxion Vandal — config A
 
@@ -42,8 +42,8 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Melee: Coda Caustacyst — config A
 
-- Forma: 0
-- Mods: none recorded
+- Forma: 1
+- Mods: Virulent Scourge (rank 3), Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

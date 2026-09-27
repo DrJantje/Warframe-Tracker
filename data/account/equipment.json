@@ -5141,17 +5141,48 @@
     "buildRef": "melee-148",
     "name": "Coda Caustacyst",
     "category": "Melee",
-    "xp": 476294,
-    "formaApplied": 0,
+    "xp": 0,
+    "formaApplied": 1,
     "focusLens": null,
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 7,
+        "polarity": "AP_ATTACK"
+      }
+    ],
     "modularParts": [],
     "archonShards": [],
     "configurations": [
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Virulent Scourge",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Fever Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Pressure Point",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Reach",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Reaping Spiral",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
