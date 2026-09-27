@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-27T22:38:50.726697+00:00
-Account snapshot: 2026-09-27T22:38:45.962Z
+Generated: 2026-09-27T22:46:04.919140+00:00
+Account snapshot: 2026-09-27T22:43:58.852Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Phase: location
+- Location: HUB
+- Planet: CLAN
+- Frame observation: Ash (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -41,10 +41,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
 - Arcanes: Primary Merciless (rank 5)
 
-#### Melee: Furax Wraith — config A
+#### Melee: Coda Caustacyst — config A
 
 - Forma: 0
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: none recorded
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
