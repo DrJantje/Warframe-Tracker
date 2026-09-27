@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-27T20:49:01.776511+00:00",
+  "generatedAt": "2026-09-27T21:05:10.644875+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-27T20:46:57.693Z",
+  "accountSnapshotAt": "2026-09-27T20:53:35.831Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-27T20:46:57.693Z",
+      "capturedAt": "2026-09-27T20:53:35.831Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-27T20:46:57.693576+00:00",
+    "observedAt": "2026-09-27T21:05:06.117712+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameConfidence": "sync-awaiting-snapshot",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1740,109 +1740,77 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260924-202251.json",
-    "startedAt": "2026-09-24T20:22:51.026239+00:00",
-    "stoppedAt": "2026-09-25T00:45:23.716778+00:00",
-    "durationSeconds": 15752.691,
-    "missionCount": 11,
+    "file": "20260927-190202.json",
+    "startedAt": "2026-09-27T19:02:02.811372+00:00",
+    "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
+    "durationSeconds": 7384.328,
+    "missionCount": 44,
     "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Salvage",
-        "delta": 36728
-      },
-      {
-        "item": "Morphics",
-        "delta": 68
-      },
-      {
-        "item": "Fieldron Sample",
-        "delta": 58
-      },
-      {
-        "item": "Gallium",
-        "delta": 14
-      },
-      {
-        "item": "Riven Sliver",
+        "item": "Blueprint",
         "delta": 6
       },
       {
-        "item": "Blueprint",
-        "delta": 4
-      },
-      {
-        "item": "Harrow Chassis Blueprint",
-        "delta": 3
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 3
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 2
-      },
-      {
-        "item": "Systems",
+        "item": "Handle",
         "delta": 1
       },
       {
-        "item": "T1 Void Projection Citrine Prime BBronze",
+        "item": "Head",
+        "delta": 1
+      },
+      {
+        "item": "Kavasa Prime Band",
+        "delta": 1
+      },
+      {
+        "item": "Kavasa Prime Buckle",
+        "delta": 1
+      },
+      {
+        "item": "Rhino Prime Chassis Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Rhino Prime Systems Blueprint",
         "delta": 1
       }
     ],
     "notableAcquisitions": [
       {
         "item": "Blueprint",
-        "delta": 4
+        "delta": 6
       },
       {
-        "item": "Harrow Chassis Blueprint",
-        "delta": 3
-      },
-      {
-        "item": "Systems",
+        "item": "Handle",
         "delta": 1
       },
       {
-        "item": "T1 Void Projection Citrine Prime BBronze",
+        "item": "Kavasa Prime Band",
+        "delta": 1
+      },
+      {
+        "item": "Kavasa Prime Buckle",
+        "delta": 1
+      },
+      {
+        "item": "Rhino Prime Chassis Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Rhino Prime Systems Blueprint",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Salvage",
-        "delta": 36728
-      },
-      {
-        "item": "Morphics",
-        "delta": 68
-      },
-      {
-        "item": "Fieldron Sample",
-        "delta": 58
-      },
-      {
-        "item": "Gallium",
-        "delta": 14
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 6
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 3
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 2
+        "item": "Head",
+        "delta": 1
       }
     ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 3
+    "errorEventCount": 6
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
