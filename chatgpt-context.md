@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-27T21:34:22.212493+00:00
-Account snapshot: 2026-09-27T21:33:31.247Z
+Generated: 2026-09-27T21:42:24.275909+00:00
+Account snapshot: 2026-09-27T21:40:17.976Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (sync-awaiting-snapshot)
+- Frame observation: unknown (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
