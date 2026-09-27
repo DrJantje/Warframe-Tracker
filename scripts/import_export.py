@@ -262,6 +262,7 @@ def update(folder: Path) -> None:
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
     settled_at_40 = set(overrides.get("confirmedAt40", []))
     active_to_40 = set(overrides.get("activeTo40", []))
+    prime_parts_complete = set(overrides.get("primePartsComplete", []))
     overlap = settled_at_40 & active_to_40
     if overlap:
         raise SystemExit(f"Rank-40 overrides conflict; items cannot be both confirmed and active: {sorted(overlap)}")
@@ -271,6 +272,9 @@ def update(folder: Path) -> None:
         missing = sorted(set(arsenal) - set(export))
         extra = sorted(set(export) - set(arsenal))
         raise SystemExit(f"Item catalog mismatch; missing={missing[:5]}, extra={extra[:5]}")
+    unknown_prime_parts = sorted(prime_parts_complete - set(arsenal))
+    if unknown_prime_parts:
+        raise SystemExit(f"Prime-parts override references unknown Arsenal item: {unknown_prime_parts[:5]}")
 
     for name in sorted(settled_at_40 | active_to_40):
         if name not in arsenal:
@@ -341,6 +345,14 @@ def update(folder: Path) -> None:
             row.update(state="Owned + mastered" if owned else "Mastered; not currently owned", rankRule="", missing="", ease="1 — Complete", route="Mastery complete")
         elif owned:
             row.update(state="Owned; rank unknown", rankRule="Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.", missing="", ease="1 — Now / no farming", route="Already owned")
+        elif name in prime_parts_complete:
+            row.update(
+                state="Prime parts complete; build next",
+                rankRule="All required Prime blueprints/components are user-confirmed acquired; build next.",
+                missing="",
+                ease="1 — Now / no farming",
+                route="Build in Foundry",
+            )
         else:
             refreshed_missing = exported_missing(source)
             if not refreshed_missing and before[3]:
@@ -438,6 +450,7 @@ def update(folder: Path) -> None:
     payload["meta"]["importChanges"] = changes
     payload["meta"]["relicInventory"] = inventory_counts(parsed["inventoryRelics.json"])
     payload["meta"]["basePrimeAssemblies"] = base_prime_assemblies(parsed)
+    payload["meta"]["userConfirmedPrimePartsComplete"] = sorted(prime_parts_complete)
     payload["meta"]["summary"] = {
         "activeTo40": sum(row["status"] == "Active to 40" for row in payload["rank40"]),
         "confirmedAt40": sum(row["status"] == "Confirmed at 40" for row in payload["rank40"]),
