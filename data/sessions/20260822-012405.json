@@ -1,75 +1,4 @@
 {
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
-  "schemaVersion": 1,
-  "missionCount": 6,
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -8821
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": -5670
-    },
-    {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "durationSeconds": 6390.914,
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
   "missions": [
     {
@@ -146,9 +75,58 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -8821
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "equipmentAdded": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -159,7 +137,29 @@
       "item": "Higasa"
     }
   ],
+  "durationSeconds": 6390.914,
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
+  "errorEventCount": 4,
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
   "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "missionCount": 6,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
