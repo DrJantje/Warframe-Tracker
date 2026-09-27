@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 14:16:00 PDT",
+    "exportVerifiedAt": "2026-09-27 14:18:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167809,
-        "modified": "2026-09-27T14:15:59.460296-07:00",
-        "sha256": "50613d73dd4d2cbcbdd3d38e22962830e141ddad1e559f873ca5f0bae3b5ba96"
+        "modified": "2026-09-27T14:18:49.524358-07:00",
+        "sha256": "00eadaab1521b58350cb27dee7b69b6d60a0b9a757fd7b336e36aeb7be4002e9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T14:15:59.463312-07:00",
+        "modified": "2026-09-27T14:18:49.528383-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T14:15:59.461302-07:00",
+        "modified": "2026-09-27T14:18:49.525869-07:00",
         "sha256": "ee10f13e26baa853f4c042dbeab2309d4cb9a77d34c7babdaef9ed9447613206"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T14:15:59.462308-07:00",
+        "modified": "2026-09-27T14:18:49.527879-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T14:15:59.464822-07:00",
-        "sha256": "9d84ffa2f6252b83609c32241c15099bbb5fe676821ba8072af4309a69b507c5"
+        "modified": "2026-09-27T14:18:49.529877-07:00",
+        "sha256": "9fac72b92f1d8b7ba709d5695223fb75adc757c2697c17b7ffe4339a36062ac9"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -75,6 +75,21 @@
           "Yes",
           "Yes",
           ""
+        ]
+      },
+      {
+        "item": "Reaper Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Reaper Prime Blueprint; Reaper Prime Handle"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Reaper Prime Blueprint"
         ]
       },
       {
@@ -2836,7 +2851,7 @@
       "item": "Reaper Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Reaper Prime Blueprint; Reaper Prime Handle",
+      "missing": "Reaper Prime Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2845,7 +2860,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -15212,7 +15227,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Reaper Prime Blueprint; Reaper Prime Handle",
+      "missing": "Reaper Prime Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
