@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 15:19:41 PDT",
+    "exportVerifiedAt": "2026-09-27 15:38:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167803,
-        "modified": "2026-09-27T15:19:40.482946-07:00",
-        "sha256": "594c75f311f4ad33dc6a17fda00c5dc039b11bf298f409b88b53ae16b7baca9d"
+        "bytes": 2167799,
+        "modified": "2026-09-27T15:38:50.217972-07:00",
+        "sha256": "1dc604085f8ddead33fa2c67a30ec6e5b384ce91ec51f34c7a191209d5e54de0"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T15:19:40.485507-07:00",
+        "modified": "2026-09-27T15:38:50.220485-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T15:19:40.483992-07:00",
-        "sha256": "67f1fe3d36e8068813cf7223f9715767c09f09aef9dedc9812bdb892eaa7bdd0"
+        "modified": "2026-09-27T15:38:50.219483-07:00",
+        "sha256": "adb5608bcb4a2da0b88e97867ec1f5ff75f89d07a10f6ad6a7d301bceeb5e046"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T15:19:40.483992-07:00",
+        "modified": "2026-09-27T15:38:50.219984-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T15:19:40.485507-07:00",
-        "sha256": "1b8d6b71596d91f9c65a3f59df4d3f55c1575715a938eabca342cc144805dea7"
+        "modified": "2026-09-27T15:38:50.222494-07:00",
+        "sha256": "c833a157116a51d0fc6916b0e13baf0220cdd0d96f061adbef99db22e12e94fa"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -47,6 +47,21 @@
       }
     },
     "importChanges": [
+      {
+        "item": "Coda Caustacyst",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Completed weapon from Eleanor"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
       {
         "item": "Cronus",
         "before": [
@@ -78,6 +93,51 @@
         ]
       },
       {
+        "item": "Knell Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Pandero Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Redeemer Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
         "item": "Twin Gremlins",
         "before": [
           "No",
@@ -98,7 +158,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 175
+      "missing": 174
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -736,21 +796,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 500
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Coda Caustacyst",
-      "type": "melee",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon from Eleanor",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3156,6 +3201,15 @@
   ],
   "owned": [
     {
+      "item": "Coda Caustacyst",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30 first; 40 optional",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Adversary_Weapons"
+    },
+    {
       "item": "Glaxion Vandal",
       "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
@@ -3264,6 +3318,15 @@
       "source": "https://www.warframe.com/droptables"
     },
     {
+      "item": "Knell Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Knell_Prime"
+    },
+    {
       "item": "Magnus Prime",
       "type": "secondary",
       "state": "Ready in Foundry",
@@ -3291,6 +3354,15 @@
       "source": "https://wiki.warframe.com/w/Mirage_Prime"
     },
     {
+      "item": "Pandero Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pandero_Prime"
+    },
+    {
       "item": "Reaper Prime",
       "type": "melee",
       "state": "Ready in Foundry",
@@ -3298,6 +3370,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Reaper_Prime"
+    },
+    {
+      "item": "Redeemer Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Redeemer_Prime"
     },
     {
       "item": "Sicarus Prime",
@@ -6306,14 +6387,14 @@
     {
       "item": "Coda Caustacyst",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
-      "rankRule": "",
-      "missing": "Completed weapon from Eleanor",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10545,17 +10626,17 @@
     {
       "item": "Knell Prime",
       "type": "secondary",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Knell_Prime",
       "primeDetails": [],
@@ -13573,17 +13654,17 @@
     {
       "item": "Pandero Prime",
       "type": "secondary",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Pandero_Prime",
       "primeDetails": [],
@@ -15130,17 +15211,17 @@
     {
       "item": "Redeemer Prime",
       "type": "melee",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Redeemer_Prime",
       "primeDetails": [],
