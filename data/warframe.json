@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 14:05:10 PDT",
+    "exportVerifiedAt": "2026-09-27 14:10:10 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167812,
-        "modified": "2026-09-27T14:05:10.177465-07:00",
-        "sha256": "3a49ff0401a6b363dcc0d290914800d10f5f5d8a7fb1b1490c43fb3f8c259114"
+        "bytes": 2167809,
+        "modified": "2026-09-27T14:10:09.514040-07:00",
+        "sha256": "e442b72f4ca4a5f1136cf3f376cbfd770c92ae93e9c30359cc329b19071668e2"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T14:05:10.178974-07:00",
+        "modified": "2026-09-27T14:10:09.518934-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T14:05:10.178470-07:00",
-        "sha256": "3bc3d0e7e2b4d14858c1e587d4b8b9de95ab8b0f203edd11ac8f1d8feccf4ff6"
+        "modified": "2026-09-27T14:10:09.516396-07:00",
+        "sha256": "ee10f13e26baa853f4c042dbeab2309d4cb9a77d34c7babdaef9ed9447613206"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T14:05:10.178974-07:00",
+        "modified": "2026-09-27T14:10:09.517401-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T14:05:10.180485-07:00",
-        "sha256": "c3f64ce8c0ccc48fb64f22e64ddc086bccf780e210d164bfdb7dd7554c271798"
+        "modified": "2026-09-27T14:10:09.520444-07:00",
+        "sha256": "4daba54864d2ac47ffbee440f4a73fe6c7b932d76751f8c6076d6150f940a829"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -78,6 +78,36 @@
         ]
       },
       {
+        "item": "Hystrix Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Hystrix Prime Barrel; Hystrix Prime Blueprint; Hystrix Prime Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Kavasa Prime Kubrow Collar",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Kavasa Prime Kubrow Collar Blueprint; Kavasa Prime Band; Kavasa Prime Buckle"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
         "item": "Twin Gremlins",
         "before": [
           "No",
@@ -91,6 +121,21 @@
           "Yes",
           ""
         ]
+      },
+      {
+        "item": "Volnus Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Volnus Prime Blueprint; Volnus Prime Handle; Volnus Prime Head"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
       }
     ],
     "summary": {
@@ -98,7 +143,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 190
+      "missing": 187
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -2364,22 +2409,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Hystrix Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Hystrix Prime Barrel; Hystrix Prime Blueprint; Hystrix Prime Receiver",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Hystrix_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Inaros Prime",
       "type": "warframe",
       "targetRank": "30",
@@ -2409,22 +2438,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 505
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Kavasa Prime Kubrow Collar",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Kavasa Prime Kubrow Collar Blueprint; Kavasa Prime Band; Kavasa Prime Buckle",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 415
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3275,22 +3288,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Volnus Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Volnus Prime Blueprint; Volnus Prime Handle; Volnus Prime Head",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Volnus_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Wyrm Prime",
       "type": "companion",
       "targetRank": "30",
@@ -3401,6 +3398,15 @@
       "source": "https://wiki.warframe.com/w/Corinth_Prime"
     },
     {
+      "item": "Hystrix Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Hystrix_Prime"
+    },
+    {
       "item": "Karak Wraith",
       "type": "primary",
       "state": "Ready in Foundry",
@@ -3408,6 +3414,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Karak_Wraith"
+    },
+    {
+      "item": "Kavasa Prime Kubrow Collar",
+      "type": "companion",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "item": "Masseter Prime",
@@ -3453,6 +3468,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Velox_Prime"
+    },
+    {
+      "item": "Volnus Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Volnus_Prime"
     },
     {
       "item": "Zhuge Prime",
@@ -10085,24 +10109,21 @@
     {
       "item": "Hystrix Prime",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Hystrix Prime Barrel; Hystrix Prime Blueprint; Hystrix Prime Receiver",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hystrix_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Ignis",
@@ -10519,22 +10540,19 @@
     {
       "item": "Kavasa Prime Kubrow Collar",
       "type": "companion",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Kavasa Prime Kubrow Collar Blueprint; Kavasa Prime Band; Kavasa Prime Buckle",
-      "ease": "4 — Multi-step farm",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://www.warframe.com/droptables",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -19211,23 +19229,20 @@
     {
       "item": "Volnus Prime",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Volnus Prime Blueprint; Volnus Prime Handle; Volnus Prime Head",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Volnus_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
       "liveMatches": []
     },
     {
