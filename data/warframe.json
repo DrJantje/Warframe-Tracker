@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 14:42:24 PDT",
+    "exportVerifiedAt": "2026-09-27 14:49:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167805,
-        "modified": "2026-09-27T14:42:23.595504-07:00",
-        "sha256": "373ed8b7eb73993daa6e17eee2667667639fee9ef94019e0ca26ce4b4a7e34bb"
+        "bytes": 2167804,
+        "modified": "2026-09-27T14:49:49.361728-07:00",
+        "sha256": "56d26ea2a67274b412cdd4f65e21afe2ba03a77623a7fdcf83c8371ee572e615"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T14:42:23.599118-07:00",
+        "modified": "2026-09-27T14:49:49.364311-07:00",
         "sha256": "41654c580ec1f0eeab5e7d64683fbc167b66dcf6de87c681bfbf0c4692d4dd00"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T14:42:23.597099-07:00",
+        "modified": "2026-09-27T14:49:49.362782-07:00",
         "sha256": "adb5608bcb4a2da0b88e97867ec1f5ff75f89d07a10f6ad6a7d301bceeb5e046"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T14:42:23.598105-07:00",
+        "modified": "2026-09-27T14:49:49.363806-07:00",
         "sha256": "d00f8f4ac94bf45f0ec03e4a96d7dba2a70d8f1fa40be3fb6755a580e75c016b"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T14:42:23.601635-07:00",
+        "modified": "2026-09-27T14:49:49.365314-07:00",
         "sha256": "40e9659b48f676a4356fb27bb2efef6f0a81bc4a41fb1f29f50e186ec4c49b0c"
       },
       "rivens.json": {
@@ -78,6 +78,21 @@
         ]
       },
       {
+        "item": "Karyst Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Karyst Prime Blade"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
         "item": "Twin Gremlins",
         "before": [
           "No",
@@ -98,7 +113,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 183
+      "missing": 182
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -2337,22 +2352,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Karyst Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Karyst Prime Blade",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Karyst_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Knell Prime",
       "type": "secondary",
       "targetRank": "30",
@@ -3312,6 +3311,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Karak_Wraith"
+    },
+    {
+      "item": "Karyst Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Karyst_Prime"
     },
     {
       "item": "Kavasa Prime Kubrow Collar",
@@ -10398,24 +10406,21 @@
     {
       "item": "Karyst Prime",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Karyst Prime Blade",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Karyst_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Kaszas",

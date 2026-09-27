@@ -1,26 +1,5 @@
 {
-  "startedAt": "2026-08-13T03:04:44.769358+00:00",
-  "durationSeconds": 7200.069,
-  "focusCounterAtCaptureStart": 119454,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -20
-    },
-    {
-      "item": "Meso R6 Intact",
-      "delta": -3
-    },
-    {
-      "item": "Meso Y2 Intact",
-      "delta": -2
-    },
-    {
-      "item": "Axi V14 Intact",
-      "delta": -1
-    }
-  ],
-  "focusCounterAtCaptureEnd": 188070,
+  "errorEventCount": 0,
   "missions": [
     {
       "startedAt": "2026-08-13T03:04:51.927000+00:00",
@@ -83,6 +62,8 @@
       "steelPath": false
     }
   ],
+  "startedAt": "2026-08-13T03:04:44.769358+00:00",
+  "focusCounterAtCaptureStart": 119454,
   "configurationChanges": [
     {
       "at": "2026-08-13T03:21:21.587861+00:00",
@@ -111,8 +92,29 @@
       "helminthAfter": "Broken Rot Ability"
     }
   ],
-  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
   "schemaVersion": 1,
+  "durationSeconds": 7200.069,
+  "focusEarnedDuringCapture": 68616,
+  "missionCount": 5,
+  "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -20
+    },
+    {
+      "item": "Meso R6 Intact",
+      "delta": -3
+    },
+    {
+      "item": "Meso Y2 Intact",
+      "delta": -2
+    },
+    {
+      "item": "Axi V14 Intact",
+      "delta": -1
+    }
+  ],
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -339,9 +341,7 @@
       "delta": 1
     }
   ],
-  "missionCount": 5,
-  "errorEventCount": 0,
-  "focusEarnedDuringCapture": 68616,
+  "focusCounterAtCaptureEnd": 188070,
   "notableAcquisitions": [
     {
       "item": "Oberon Chassis Blueprint",
