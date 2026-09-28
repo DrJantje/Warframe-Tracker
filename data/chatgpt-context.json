@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-28T03:03:22.929961+00:00",
+  "generatedAt": "2026-09-28T03:12:42.788572+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,7 +48,7 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-28T03:03:19.597824+00:00",
+    "observedAt": "2026-09-28T03:12:39.710920+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -1823,40 +1823,14 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260928-022125.json",
-    "startedAt": "2026-09-28T02:21:25.755368+00:00",
-    "stoppedAt": "2026-09-28T02:58:09.696059+00:00",
-    "durationSeconds": 2203.941,
-    "missionCount": 9,
+    "file": "20260928-025913.json",
+    "startedAt": "2026-09-28T02:59:13.758798+00:00",
+    "stoppedAt": "2026-09-28T03:12:39.713458+00:00",
+    "durationSeconds": 805.955,
+    "missionCount": 3,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Blueprint",
-        "delta": 3
-      },
-      {
-        "item": "Barrel",
-        "delta": 1
-      },
-      {
-        "item": "Stock",
-        "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Blueprint",
-        "delta": 3
-      },
-      {
-        "item": "Barrel",
-        "delta": 1
-      },
-      {
-        "item": "Stock",
-        "delta": 1
-      }
-    ],
+    "topGains": [],
+    "notableAcquisitions": [],
     "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
