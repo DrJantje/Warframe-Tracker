@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-28",
-    "exportVerifiedAt": "2026-09-28 10:58:10 PDT",
+    "exportVerifiedAt": "2026-09-28 11:06:19 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167825,
-        "modified": "2026-09-28T10:58:09.721895-07:00",
-        "sha256": "82c694c8157083f0d3f4e5775336efbface0c4a0e3d716aec0b80ba181b6c066"
+        "bytes": 2167824,
+        "modified": "2026-09-28T11:06:17.981728-07:00",
+        "sha256": "2d18db07fad9f995d972e6c968b6c186390314286615e9001d41423660dd1fe7"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-28T10:58:09.725911-07:00",
+        "modified": "2026-09-28T11:06:17.986410-07:00",
         "sha256": "68cc4a4dca6ac7e0a1497d0d4028a4e8ca27a84ba4cfda8a3581832a100d1283"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-28T10:58:09.723407-07:00",
+        "modified": "2026-09-28T11:06:17.983239-07:00",
         "sha256": "e14a61bf4857175892c6e8a3644aea92811f7bfc5902fe3ba828c426790637b4"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-28T10:58:09.724906-07:00",
+        "modified": "2026-09-28T11:06:17.984392-07:00",
         "sha256": "943cb83b9e92686a02fc881ad01b6641e80f926795476160fc35201afd3f4441"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-28T10:58:09.727927-07:00",
+        "modified": "2026-09-28T11:06:17.987922-07:00",
         "sha256": "b7eec622f968ed6f6b89eacd0cd3d285f08973d2c56570a0d7ad6a286c471b9c"
       },
       "rivens.json": {
@@ -48,18 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Gorgon Wraith",
+        "item": "Glaxion Vandal",
         "before": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Gorgon Wraith Blueprint; Gorgon Wraith Stock"
+          ""
         ],
         "after": [
+          "Yes",
+          "Yes",
           "No",
-          "No",
-          "No",
-          "Gorgon Wraith Blueprint"
+          ""
         ]
       },
       {
@@ -3088,15 +3088,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Fragor_Prime"
-    },
-    {
-      "item": "Glaxion Vandal",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Glaxion_Vandal"
     },
     {
       "item": "Gram Prime",
@@ -8926,14 +8917,14 @@
     {
       "item": "Glaxion Vandal",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
