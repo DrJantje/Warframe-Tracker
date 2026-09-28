@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 19:32:57 PDT",
+    "exportVerifiedAt": "2026-09-27 19:36:10 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167831,
-        "modified": "2026-09-27T19:32:56.859332-07:00",
-        "sha256": "70f5a3be9fc6c714b2b218d759b9195ce0e07dc802bd48e7ddc9bb0f99dbbc50"
+        "modified": "2026-09-27T19:36:09.776928-07:00",
+        "sha256": "d424316d05048f4dd39a43479efc9c3d134610171cb45bf837d8f862ba1bbc93"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T19:32:56.865860-07:00",
+        "modified": "2026-09-27T19:36:09.779712-07:00",
         "sha256": "b9498687ab58cae27d23e3f51038859a5c17dfcfd308d51e0f19e14e2adb1db4"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T19:32:56.863349-07:00",
+        "modified": "2026-09-27T19:36:09.778062-07:00",
         "sha256": "adb5608bcb4a2da0b88e97867ec1f5ff75f89d07a10f6ad6a7d301bceeb5e046"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T19:32:56.864353-07:00",
+        "modified": "2026-09-27T19:36:09.778062-07:00",
         "sha256": "943cb83b9e92686a02fc881ad01b6641e80f926795476160fc35201afd3f4441"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T19:32:56.870395-07:00",
-        "sha256": "bbadb86bf683ae5437250068a64eb16326522774b840e6f524102390e078727d"
+        "modified": "2026-09-27T19:36:09.781220-07:00",
+        "sha256": "608046dfc95cef0127cfa51981b71e0781cbd40e385e854cac0f048bf2404097"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -90,6 +90,21 @@
           "Yes",
           "Yes",
           ""
+        ]
+      },
+      {
+        "item": "Zakti Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Zakti Prime Barrel; Zakti Prime Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Zakti Prime Barrel"
         ]
       }
     ],
@@ -3103,7 +3118,7 @@
       "item": "Zakti Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Zakti Prime Barrel; Zakti Prime Blueprint",
+      "missing": "Zakti Prime Barrel",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -3112,7 +3127,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -19525,7 +19540,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Zakti Prime Barrel; Zakti Prime Blueprint",
+      "missing": "Zakti Prime Barrel",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
