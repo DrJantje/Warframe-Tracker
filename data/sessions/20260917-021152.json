@@ -1,4 +1,105 @@
 {
+  "startedAt": "2026-09-17T02:11:52.565728+00:00",
+  "durationSeconds": 8416.543,
+  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
+  "errorEventCount": 11,
+  "equipmentAdded": [],
+  "missions": [
+    {
+      "startedAt": "2026-09-17T02:12:11.398000+00:00",
+      "endedAt": "2026-09-17T02:12:12.048000+00:00",
+      "durationSeconds": 0.65,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-17T02:31:36.158000+00:00",
+      "endedAt": "2026-09-17T02:37:04.045000+00:00",
+      "durationSeconds": 327.887,
+      "type": "EXCAVATION",
+      "node": "SolNode101",
+      "label": null,
+      "missionKey": "SolNode101_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-17T02:43:42.126000+00:00",
+      "endedAt": "2026-09-17T02:46:37.325000+00:00",
+      "durationSeconds": 175.199,
+      "type": "SABOTAGE",
+      "node": "SolNode203",
+      "label": null,
+      "missionKey": "SolNode203_InvasionAttacker",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-17T02:47:42.600000+00:00",
+      "endedAt": "2026-09-17T02:50:32.766000+00:00",
+      "durationSeconds": 170.166,
+      "type": "EXTERMINATE",
+      "node": "SolNode203",
+      "label": null,
+      "missionKey": "SolNode203_InvasionAttacker",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-17T02:53:12.723000+00:00",
+      "endedAt": "2026-09-17T03:15:54.425000+00:00",
+      "durationSeconds": 1361.702,
+      "type": "EXTERMINATE",
+      "node": "SolNode203",
+      "label": null,
+      "missionKey": "SolNode203_InvasionAttacker",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-17T03:29:02.179000+00:00",
+      "endedAt": "2026-09-17T03:56:24.566000+00:00",
+      "durationSeconds": 1642.387,
+      "type": "MISSION",
+      "node": "ALBRECHT LABS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-17T04:00:15.159000+00:00",
+      "endedAt": "2026-09-17T04:32:09.109168+00:00",
+      "durationSeconds": 1913.95,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "1999Hub_HUB",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 42488,
+  "focusEarnedDuringCapture": 42488,
   "positiveItemDeltas": [
     {
       "item": "Entrati Obols",
@@ -115,110 +216,9 @@
       "helminthAfter": null
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 8416.543,
-  "equipmentAdded": [],
   "equipmentRemoved": [],
-  "errorEventCount": 11,
-  "focusEarnedDuringCapture": 42488,
-  "schemaVersion": 1,
-  "missions": [
-    {
-      "startedAt": "2026-09-17T02:12:11.398000+00:00",
-      "endedAt": "2026-09-17T02:12:12.048000+00:00",
-      "durationSeconds": 0.65,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-17T02:31:36.158000+00:00",
-      "endedAt": "2026-09-17T02:37:04.045000+00:00",
-      "durationSeconds": 327.887,
-      "type": "EXCAVATION",
-      "node": "SolNode101",
-      "label": null,
-      "missionKey": "SolNode101_ActiveMission",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-17T02:43:42.126000+00:00",
-      "endedAt": "2026-09-17T02:46:37.325000+00:00",
-      "durationSeconds": 175.199,
-      "type": "SABOTAGE",
-      "node": "SolNode203",
-      "label": null,
-      "missionKey": "SolNode203_InvasionAttacker",
-      "missionInstance": 2,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-17T02:47:42.600000+00:00",
-      "endedAt": "2026-09-17T02:50:32.766000+00:00",
-      "durationSeconds": 170.166,
-      "type": "EXTERMINATE",
-      "node": "SolNode203",
-      "label": null,
-      "missionKey": "SolNode203_InvasionAttacker",
-      "missionInstance": 3,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-17T02:53:12.723000+00:00",
-      "endedAt": "2026-09-17T03:15:54.425000+00:00",
-      "durationSeconds": 1361.702,
-      "type": "EXTERMINATE",
-      "node": "SolNode203",
-      "label": null,
-      "missionKey": "SolNode203_InvasionAttacker",
-      "missionInstance": 4,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-17T03:29:02.179000+00:00",
-      "endedAt": "2026-09-17T03:56:24.566000+00:00",
-      "durationSeconds": 1642.387,
-      "type": "MISSION",
-      "node": "ALBRECHT LABS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 4,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-17T04:00:15.159000+00:00",
-      "endedAt": "2026-09-17T04:32:09.109168+00:00",
-      "durationSeconds": 1913.95,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "1999Hub_HUB",
-      "missionInstance": 4,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "focusCounterAtCaptureEnd": 42488,
-  "startedAt": "2026-09-17T02:11:52.565728+00:00",
-  "missionCount": 7,
   "focusCounterAtCaptureStart": 0,
-  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
+  "missionCount": 7,
   "notableAcquisitions": [
     {
       "item": "Meso Y2 Intact",
