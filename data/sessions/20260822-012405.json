@@ -1,5 +1,40 @@
 {
-  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -30,21 +65,6 @@
       "delta": -2
     }
   ],
-  "equipmentRemoved": [],
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
   "durationSeconds": 6390.914,
   "equipmentAdded": [
     {
@@ -56,6 +76,10 @@
       "item": "Higasa"
     }
   ],
+  "equipmentRemoved": [],
+  "errorEventCount": 4,
+  "focusEarnedDuringCapture": 0,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -131,35 +155,11 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "focusCounterAtCaptureEnd": 0,
   "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "schemaVersion": 1,
   "missionCount": 6,
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
