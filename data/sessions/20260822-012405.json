@@ -1,22 +1,38 @@
 {
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "schemaVersion": 1,
-  "positiveItemDeltas": [
+  "negativeItemDeltas": [
     {
-      "item": "Koumei Helmet",
-      "delta": 1
+      "item": "Ferrite",
+      "delta": -8821
     },
     {
-      "item": "Voidplume Crest",
-      "delta": 1
+      "item": "Alloy Plate",
+      "delta": -5670
     },
     {
-      "item": "Voidplume Down",
-      "delta": 1
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
     }
   ],
-  "equipmentRemoved": [],
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -92,38 +108,7 @@
       "incomplete": true
     }
   ],
-  "missionCount": 6,
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -8821
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": -5670
-    },
-    {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
+  "errorEventCount": 4,
   "durationSeconds": 6390.914,
   "configurationChanges": [
     {
@@ -147,6 +132,24 @@
       "helminthAfter": null
     }
   ],
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "missionCount": 6,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
   "equipmentAdded": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -157,9 +160,6 @@
       "item": "Higasa"
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 4,
-  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
