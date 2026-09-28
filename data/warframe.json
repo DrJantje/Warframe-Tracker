@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 20:12:42 PDT",
+    "snapshotDate": "2026-09-28",
+    "exportVerifiedAt": "2026-09-28 10:37:21 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167828,
-        "modified": "2026-09-27T20:12:42.268312-07:00",
-        "sha256": "f2693645ac455a375718199a6f0f7e2b56afa667234840a6332613529deb9a3f"
+        "bytes": 2167598,
+        "modified": "2026-09-28T10:37:20.299520-07:00",
+        "sha256": "f4693b56d58989a09977c870d2abe80b29aa747f25a697d935c3787ee53c64f7"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T20:12:42.271157-07:00",
+        "modified": "2026-09-28T10:37:20.304040-07:00",
         "sha256": "b9498687ab58cae27d23e3f51038859a5c17dfcfd308d51e0f19e14e2adb1db4"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T20:12:42.269484-07:00",
-        "sha256": "fdeee0920c6020007da28aa751e047d51639d6a417e6725dd2d7f3e0476edaef"
+        "modified": "2026-09-28T10:37:20.301027-07:00",
+        "sha256": "e14a61bf4857175892c6e8a3644aea92811f7bfc5902fe3ba828c426790637b4"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T20:12:42.269484-07:00",
+        "modified": "2026-09-28T10:37:20.302533-07:00",
         "sha256": "943cb83b9e92686a02fc881ad01b6641e80f926795476160fc35201afd3f4441"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T20:12:42.271157-07:00",
-        "sha256": "08ca7832e77fcc25cd0707a53d3291845be4044188e3ad8d2aa0fa04fa453a2e"
+        "modified": "2026-09-28T10:37:20.309574-07:00",
+        "sha256": "b7eec622f968ed6f6b89eacd0cd3d285f08973d2c56570a0d7ad6a286c471b9c"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,6 +48,36 @@
     },
     "importChanges": [
       {
+        "item": "Astilla Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Corinth Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
         "item": "Cronus",
         "before": [
           "No",
@@ -56,9 +86,39 @@
           ""
         ],
         "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Dakra Prime",
+        "before": [
+          "No",
           "No",
           "Yes",
+          ""
+        ],
+        "after": [
           "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Fragor Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Fragor Prime Blueprint; Fragor Prime Handle; Fragor Prime Head"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
           ""
         ]
       },
@@ -71,9 +131,249 @@
           ""
         ],
         "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Gram Prime",
+        "before": [
+          "No",
           "No",
           "Yes",
+          ""
+        ],
+        "after": [
           "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hystrix Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Karak Wraith",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Karyst Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Kavasa Prime Kubrow Collar",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Knell Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Magnus Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Masseter Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Nagantaka Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Nidus Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Pandero Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Reaper Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Redeemer Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Rhino Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Sicarus Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Stradavar Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
           ""
         ]
       },
@@ -91,6 +391,81 @@
           "Yes",
           ""
         ]
+      },
+      {
+        "item": "Vasto Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Velox Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Volnus Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Zakti Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Zhuge Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
       }
     ],
     "summary": {
@@ -98,7 +473,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 171
+      "missing": 170
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -2125,22 +2500,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Fragor Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Fragor Prime Blueprint; Fragor Prime Handle; Fragor Prime Head",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Fragor_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Frost Prime",
       "type": "warframe",
       "targetRank": "30",
@@ -3085,6 +3444,42 @@
   ],
   "owned": [
     {
+      "item": "Astilla Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Astilla_Prime"
+    },
+    {
+      "item": "Corinth Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Corinth_Prime"
+    },
+    {
+      "item": "Dakra Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Dakra_Prime"
+    },
+    {
+      "item": "Fragor Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Fragor_Prime"
+    },
+    {
       "item": "Glaxion Vandal",
       "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
@@ -3094,13 +3489,166 @@
       "source": "https://wiki.warframe.com/w/Glaxion_Vandal"
     },
     {
-      "item": "Astilla Prime",
-      "type": "primary",
-      "state": "Ready in Foundry",
+      "item": "Gram Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Gram_Prime"
+    },
+    {
+      "item": "Hystrix Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Hystrix_Prime"
+    },
+    {
+      "item": "Karak Wraith",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Astilla_Prime"
+      "source": "https://wiki.warframe.com/w/Karak_Wraith"
+    },
+    {
+      "item": "Karyst Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Karyst_Prime"
+    },
+    {
+      "item": "Knell Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Knell_Prime"
+    },
+    {
+      "item": "Magnus Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Magnus_Prime"
+    },
+    {
+      "item": "Masseter Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Masseter_Prime"
+    },
+    {
+      "item": "Nagantaka Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Nagantaka_Prime"
+    },
+    {
+      "item": "Pandero Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pandero_Prime"
+    },
+    {
+      "item": "Reaper Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Reaper_Prime"
+    },
+    {
+      "item": "Redeemer Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Redeemer_Prime"
+    },
+    {
+      "item": "Sicarus Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sicarus_Prime"
+    },
+    {
+      "item": "Stradavar Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Stradavar_Prime"
+    },
+    {
+      "item": "Vasto Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Vasto_Prime"
+    },
+    {
+      "item": "Velox Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Velox_Prime"
+    },
+    {
+      "item": "Volnus Prime",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Volnus_Prime"
+    },
+    {
+      "item": "Zakti Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Zakti_Prime"
+    },
+    {
+      "item": "Zhuge Prime",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Zhuge_Prime"
     },
     {
       "item": "Banshee Prime",
@@ -3112,33 +3660,6 @@
       "source": "https://wiki.warframe.com/w/Banshee_Prime"
     },
     {
-      "item": "Corinth Prime",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Corinth_Prime"
-    },
-    {
-      "item": "Dakra Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Dakra_Prime"
-    },
-    {
-      "item": "Gram Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Gram_Prime"
-    },
-    {
       "item": "Helios Prime",
       "type": "companion",
       "state": "Ready in Foundry",
@@ -3146,69 +3667,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level the companion in high-affinity missions.",
       "source": "https://wiki.warframe.com/w/Helios_Prime"
-    },
-    {
-      "item": "Hystrix Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Hystrix_Prime"
-    },
-    {
-      "item": "Karak Wraith",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Karak_Wraith"
-    },
-    {
-      "item": "Karyst Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Karyst_Prime"
-    },
-    {
-      "item": "Kavasa Prime Kubrow Collar",
-      "type": "companion",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://www.warframe.com/droptables"
-    },
-    {
-      "item": "Knell Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Knell_Prime"
-    },
-    {
-      "item": "Magnus Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Magnus_Prime"
-    },
-    {
-      "item": "Masseter Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Masseter_Prime"
     },
     {
       "item": "Mirage Prime",
@@ -3220,103 +3678,22 @@
       "source": "https://wiki.warframe.com/w/Mirage_Prime"
     },
     {
-      "item": "Nagantaka Prime",
-      "type": "primary",
+      "item": "Nidus Prime",
+      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Nagantaka_Prime"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Nidus_Prime"
     },
     {
-      "item": "Pandero Prime",
-      "type": "secondary",
+      "item": "Rhino Prime",
+      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pandero_Prime"
-    },
-    {
-      "item": "Reaper Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Reaper_Prime"
-    },
-    {
-      "item": "Redeemer Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Redeemer_Prime"
-    },
-    {
-      "item": "Sicarus Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sicarus_Prime"
-    },
-    {
-      "item": "Stradavar Prime",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Stradavar_Prime"
-    },
-    {
-      "item": "Vasto Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Vasto_Prime"
-    },
-    {
-      "item": "Velox Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Velox_Prime"
-    },
-    {
-      "item": "Volnus Prime",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Volnus_Prime"
-    },
-    {
-      "item": "Zakti Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Zakti_Prime"
-    },
-    {
-      "item": "Zhuge Prime",
-      "type": "primary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Zhuge_Prime"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Rhino_Prime"
     }
   ],
   "rank40": [
@@ -4646,17 +5023,17 @@
     {
       "item": "Astilla Prime",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Astilla_Prime",
       "primeDetails": [],
@@ -6520,17 +6897,17 @@
     {
       "item": "Corinth Prime",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Corinth_Prime",
       "primeDetails": [],
@@ -6639,8 +7016,8 @@
     {
       "item": "Cronus",
       "type": "melee",
-      "state": "Mastered; not currently owned",
-      "owned": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
@@ -6832,17 +7209,17 @@
     {
       "item": "Dakra Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Dakra_Prime",
       "primeDetails": [],
@@ -8421,24 +8798,21 @@
     {
       "item": "Fragor Prime",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Fragor Prime Blueprint; Fragor Prime Handle; Fragor Prime Head",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Fragor_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Frost",
@@ -8964,8 +9338,8 @@
     {
       "item": "Gorgon",
       "type": "primary",
-      "state": "Mastered; not currently owned",
-      "owned": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
@@ -9064,17 +9438,17 @@
     {
       "item": "Gram Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Gram_Prime",
       "primeDetails": [],
@@ -9912,17 +10286,17 @@
     {
       "item": "Hystrix Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hystrix_Prime",
       "primeDetails": [],
@@ -10262,17 +10636,17 @@
     {
       "item": "Karak Wraith",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Karak_Wraith",
       "steps": "Watch active Invasions for each missing component or trade for the component.",
@@ -10302,17 +10676,17 @@
     {
       "item": "Karyst Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Karyst_Prime",
       "primeDetails": [],
@@ -10340,17 +10714,17 @@
     {
       "item": "Kavasa Prime Kubrow Collar",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Prime parts complete; build next",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Vaulted Void Relics, Prime Resurgence, or player trade",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://www.warframe.com/droptables",
       "primeDetails": [],
@@ -10511,17 +10885,17 @@
     {
       "item": "Knell Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Knell_Prime",
       "primeDetails": [],
@@ -11989,17 +12363,17 @@
     {
       "item": "Magnus Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Magnus_Prime",
       "primeDetails": [],
@@ -12089,17 +12463,17 @@
     {
       "item": "Masseter Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Masseter_Prime",
       "primeDetails": [],
@@ -12528,17 +12902,17 @@
     {
       "item": "Nagantaka Prime",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Nagantaka_Prime",
       "primeDetails": [],
@@ -12806,17 +13180,17 @@
     {
       "item": "Nidus Prime",
       "type": "warframe",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Nidus_Prime",
       "primeDetails": [],
@@ -13536,17 +13910,17 @@
     {
       "item": "Pandero Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Pandero_Prime",
       "primeDetails": [],
@@ -15036,17 +15410,17 @@
     {
       "item": "Reaper Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Reaper_Prime",
       "primeDetails": [],
@@ -15093,17 +15467,17 @@
     {
       "item": "Redeemer Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Redeemer_Prime",
       "primeDetails": [],
@@ -15169,17 +15543,17 @@
     {
       "item": "Rhino Prime",
       "type": "warframe",
-      "state": "Prime parts complete; build next",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All required Prime blueprints/components are user-confirmed acquired; build next.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Rhino_Prime",
       "primeDetails": [],
@@ -16030,17 +16404,17 @@
     {
       "item": "Sicarus Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Sicarus_Prime",
       "primeDetails": [],
@@ -16608,17 +16982,17 @@
     {
       "item": "Stradavar Prime",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Stradavar_Prime",
       "primeDetails": [],
@@ -18385,17 +18759,17 @@
     {
       "item": "Vasto Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Vasto_Prime",
       "primeDetails": [],
@@ -18602,17 +18976,17 @@
     {
       "item": "Velox Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Velox_Prime",
       "primeDetails": [],
@@ -19002,17 +19376,17 @@
     {
       "item": "Volnus Prime",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Volnus_Prime",
       "primeDetails": [],
@@ -19492,17 +19866,17 @@
     {
       "item": "Zakti Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Zakti_Prime",
       "primeDetails": [],
@@ -19632,17 +20006,17 @@
     {
       "item": "Zhuge Prime",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Zhuge_Prime",
       "primeDetails": [],
