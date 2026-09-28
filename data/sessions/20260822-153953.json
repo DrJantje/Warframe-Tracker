@@ -1,5 +1,8 @@
 {
   "schemaVersion": 1,
+  "durationSeconds": 3868.268,
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 5,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -70,11 +73,14 @@
       "delta": 1
     }
   ],
-  "equipmentAdded": [],
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
-  "startedAt": "2026-08-22T15:39:53.829909+00:00",
+  "equipmentRemoved": [
+    {
+      "at": "2026-08-22T16:42:15.853642+00:00",
+      "item": "Protea"
+    }
+  ],
+  "focusEarnedDuringCapture": 0,
+  "errorEventCount": 5,
   "negativeItemDeltas": [
     {
       "item": "Blister Stalk",
@@ -105,10 +111,9 @@
       "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "missionCount": 5,
-  "errorEventCount": 5,
-  "durationSeconds": 3868.268,
+  "startedAt": "2026-08-22T15:39:53.829909+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
   "missions": [
     {
       "startedAt": "2026-08-22T15:40:01.017000+00:00",
@@ -172,6 +177,7 @@
       "incomplete": true
     }
   ],
+  "equipmentAdded": [],
   "configurationChanges": [
     {
       "at": "2026-08-22T16:42:15.853642+00:00",
@@ -288,12 +294,6 @@
       "orderChanged": false,
       "helminthBefore": null,
       "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [
-    {
-      "at": "2026-08-22T16:42:15.853642+00:00",
-      "item": "Protea"
     }
   ],
   "notableAcquisitions": [
