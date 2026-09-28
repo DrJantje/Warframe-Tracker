@@ -1,6 +1,6 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-28T02:53:26.358447+00:00
+Generated: 2026-09-28T02:58:12.853846+00:00
 Account snapshot: 2026-09-28T02:51:22.977Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
@@ -10,9 +10,9 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (account-snapshot-confirmed)
+- Frame observation: unknown (server-sent)
 - Steel Path: no
-- Matchmaking: ONLINE
+- Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -81,11 +81,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-09-27T22:32:59.167153+00:00
-- Duration seconds: 7068.249
-- Missions: 10
+- Started: 2026-09-28T02:21:25.755368+00:00
+- Duration seconds: 2203.941
+- Missions: 9
 - Focus earned: 0
-- Notable acquisitions: Blueprint (+4), Harrow Chassis Blueprint (+4), Meso E5 Intact (+4), Intact Sentient Core (+3), Axi A12 Intact (+2), Meso Y2 Intact (+2), Barrel (+1), Duviri Heavy Scythe Blade Blueprint (+1), Receiver (+1), Styanax Prime Helmet Blueprint (+1), T2 Void Projection Citrine Prime ABronze (+1)
+- Notable acquisitions: Blueprint (+3), Barrel (+1), Stock (+1)
 
 ## Deeper files
 
