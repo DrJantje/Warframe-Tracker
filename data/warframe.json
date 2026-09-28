@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 19:46:14 PDT",
+    "exportVerifiedAt": "2026-09-27 19:53:26 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167831,
-        "modified": "2026-09-27T19:46:13.824346-07:00",
-        "sha256": "241560e308114956493025b1974328315de2e29b733e3765ef9cff864e8bd29a"
+        "bytes": 2167829,
+        "modified": "2026-09-27T19:53:25.972674-07:00",
+        "sha256": "afdc9e9dd20984b76616d90ec8d0a3b7a73bb4ea822ca0d8b9f22777a3591ab9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T19:46:13.827485-07:00",
+        "modified": "2026-09-27T19:53:25.975194-07:00",
         "sha256": "b9498687ab58cae27d23e3f51038859a5c17dfcfd308d51e0f19e14e2adb1db4"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T19:46:13.825896-07:00",
-        "sha256": "adb5608bcb4a2da0b88e97867ec1f5ff75f89d07a10f6ad6a7d301bceeb5e046"
+        "modified": "2026-09-27T19:53:25.974192-07:00",
+        "sha256": "fdeee0920c6020007da28aa751e047d51639d6a417e6725dd2d7f3e0476edaef"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T19:46:13.826980-07:00",
+        "modified": "2026-09-27T19:53:25.974192-07:00",
         "sha256": "943cb83b9e92686a02fc881ad01b6641e80f926795476160fc35201afd3f4441"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T19:46:13.828994-07:00",
-        "sha256": "5dd245ff9153d62f485bc298096c6e5bfc8172ebf328785b7709431c815f1b13"
+        "modified": "2026-09-27T19:53:25.976769-07:00",
+        "sha256": "08ca7832e77fcc25cd0707a53d3291845be4044188e3ad8d2aa0fa04fa453a2e"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -78,6 +78,21 @@
         ]
       },
       {
+        "item": "Stradavar Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Stradavar Prime Barrel; Stradavar Prime Blueprint; Stradavar Prime Receiver; Stradavar Prime Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
         "item": "Twin Gremlins",
         "before": [
           "No",
@@ -91,6 +106,21 @@
           "Yes",
           ""
         ]
+      },
+      {
+        "item": "Zakti Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Zakti Prime Barrel"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
       }
     ],
     "summary": {
@@ -98,7 +128,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 174
+      "missing": 172
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -2851,22 +2881,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Stradavar Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Stradavar Prime Barrel; Stradavar Prime Blueprint; Stradavar Prime Receiver; Stradavar Prime Stock",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Stradavar_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Strun Prime",
       "type": "primary",
       "targetRank": "30",
@@ -3100,22 +3114,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Zakti Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Zakti Prime Barrel",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Zakti_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Zephyr Prime",
       "type": "warframe",
       "targetRank": "30",
@@ -3304,6 +3302,15 @@
       "source": "https://wiki.warframe.com/w/Sicarus_Prime"
     },
     {
+      "item": "Stradavar Prime",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Stradavar_Prime"
+    },
+    {
       "item": "Vasto Prime",
       "type": "secondary",
       "state": "Ready in Foundry",
@@ -3329,6 +3336,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Volnus_Prime"
+    },
+    {
+      "item": "Zakti Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Zakti_Prime"
     },
     {
       "item": "Zhuge Prime",
@@ -16632,24 +16648,21 @@
     {
       "item": "Stradavar Prime",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Stradavar Prime Barrel; Stradavar Prime Blueprint; Stradavar Prime Receiver; Stradavar Prime Stock",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Stradavar_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Stropha",
@@ -19519,24 +19532,21 @@
     {
       "item": "Zakti Prime",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Zakti Prime Barrel",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Zakti_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Zarr",
