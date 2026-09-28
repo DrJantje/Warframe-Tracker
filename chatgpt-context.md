@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-27T23:42:58.658451+00:00
-Account snapshot: 2026-09-27T23:40:52.893Z
+Generated: 2026-09-28T00:05:10.621693+00:00
+Account snapshot: 2026-09-28T00:03:06.729Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: location
 - Location: HUB
 - Planet: ZARIMAN
-- Frame observation: Titania (arsenal-selected)
+- Frame observation: Titania (account-snapshot-confirmed)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -60,9 +60,9 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Second exalted weapon: Diwata Prime — config A
 
-- Forma: 1
-- Mods: Shocking Touch (rank 5), Fury (rank 5), Weeping Wounds (rank 5), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Body Count (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 9)
-- Arcanes: Melee Influence (rank 5)
+- Forma: 2
+- Mods: Primed Fever Strike (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Amalgam Organ Shatter (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 9)
+- Arcanes: Melee Duplicate (rank 4)
 
 ### Companion: Titania
 

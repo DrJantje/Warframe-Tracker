@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-27T23:42:58.658451+00:00",
+  "generatedAt": "2026-09-28T00:05:10.621693+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-27T23:40:52.893Z",
+  "accountSnapshotAt": "2026-09-28T00:03:06.729Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-27T23:40:52.893Z",
+      "capturedAt": "2026-09-28T00:03:06.729Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-27T23:42:53.432Z",
+    "observedAt": "2026-09-28T00:03:06.731128+00:00",
     "phase": "location",
     "node": "CHRYSALITH",
     "planet": "ZARIMAN",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-selected",
+    "frameConfidence": "account-snapshot-confirmed",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -572,12 +572,16 @@
           "item": "Diwata Prime",
           "category": "SpecialItems",
           "configuration": "A",
-          "formaApplied": 1,
+          "formaApplied": 2,
           "focusLens": null,
           "polarities": [
             {
               "slot": 6,
               "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_DEFENSE"
             }
           ],
           "modularParts": [],
@@ -585,18 +589,18 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Shocking Touch",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Fury",
-              "rank": 5,
+              "name": "Primed Fever Strike",
+              "rank": 10,
               "kind": "mod"
             },
             {
               "name": "Weeping Wounds",
               "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -610,7 +614,7 @@
               "kind": "mod"
             },
             {
-              "name": "Body Count",
+              "name": "Amalgam Organ Shatter",
               "rank": 5,
               "kind": "mod"
             },
@@ -627,8 +631,8 @@
           ],
           "arcanes": [
             {
-              "name": "Melee Influence",
-              "rank": 5,
+              "name": "Melee Duplicate",
+              "rank": 4,
               "kind": "arcane"
             }
           ]
