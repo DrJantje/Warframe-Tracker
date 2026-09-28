@@ -4882,7 +4882,7 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 59178721,
+    "xp": 59407881,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -5611,7 +5611,7 @@
     "buildRef": "melee-101",
     "name": "Coda Motovore",
     "category": "Melee",
-    "xp": 1487510,
+    "xp": 1636100,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -5644,7 +5644,12 @@
         "name": "A",
         "mods": [
           {
-            "name": "Drifting Contact",
+            "name": "Gladiator Might",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Virulent Scourge",
             "rank": 3,
             "kind": "mod"
           },
@@ -6950,7 +6955,7 @@
     "buildRef": "melee-150",
     "name": "Dakra Prime",
     "category": "Melee",
-    "xp": 392595,
+    "xp": 393549,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -8146,7 +8151,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 291071373,
+    "xp": 291167853,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -8472,8 +8477,8 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 594901,
-    "formaApplied": 3,
+    "xp": 96480,
+    "formaApplied": 4,
     "focusLens": null,
     "polarities": [
       {
@@ -8486,6 +8491,10 @@
       },
       {
         "slot": 2,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 5,
         "polarity": "AP_ATTACK"
       }
     ],
@@ -8537,7 +8546,7 @@
             "kind": "mod"
           },
           {
-            "name": "Parry",
+            "name": "Guardian Derision",
             "rank": 5,
             "kind": "mod"
           }
@@ -15373,7 +15382,7 @@
     "buildRef": "longguns-119",
     "name": "Karak Wraith",
     "category": "LongGuns",
-    "xp": 0,
+    "xp": 954,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -15383,7 +15392,23 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Serration",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "High Voltage",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -22359,7 +22384,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 16742388,
+    "xp": 16745602,
     "formaApplied": 0,
     "focusLens": "Eidolon Vazarin Lens",
     "polarities": [],
@@ -23289,7 +23314,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 716617939,
+    "xp": 717167173,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -23445,7 +23470,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 693190589,
+    "xp": 693736844,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -30128,7 +30153,7 @@
     "buildRef": "pistols-052",
     "name": "Stubba",
     "category": "Pistols",
-    "xp": 3893190,
+    "xp": 4041780,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -32641,7 +32666,7 @@
     "buildRef": "suits-019",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 82743603,
+    "xp": 82840083,
     "formaApplied": 4,
     "focusLens": "Eidolon Unairu Lens",
     "polarities": [
@@ -33522,6 +33547,40 @@
     ]
   },
   {
+    "buildRef": "pistols-091",
+    "name": "Twin Gremlins",
+    "category": "Pistols",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "pistols-057",
     "name": "Twin Kohmak",
     "category": "Pistols",
@@ -33815,7 +33874,7 @@
     "buildRef": "suits-043",
     "name": "Uriel",
     "category": "Suits",
-    "xp": 10864148,
+    "xp": 11394772,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -34375,7 +34434,7 @@
     "buildRef": "pistols-088",
     "name": "Vasto Prime",
     "category": "Pistols",
-    "xp": 392595,
+    "xp": 393549,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
