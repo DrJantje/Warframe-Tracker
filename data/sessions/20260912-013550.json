@@ -1,17 +1,4 @@
 {
-  "schemaVersion": 1,
-  "configurationChanges": [],
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 7,
-  "stoppedAt": "2026-09-12T02:26:14.800802+00:00",
-  "startedAt": "2026-09-12T01:35:50.873126+00:00",
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-12T01:36:10.812000+00:00",
@@ -99,8 +86,21 @@
       "incomplete": true
     }
   ],
+  "durationSeconds": 3023.928,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 3,
+  "configurationChanges": [],
+  "startedAt": "2026-09-12T01:35:50.873126+00:00",
+  "stoppedAt": "2026-09-12T02:26:14.800802+00:00",
+  "schemaVersion": 1,
+  "missionCount": 7,
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -143,9 +143,9 @@
       "delta": 2
     }
   ],
-  "durationSeconds": 3023.928,
-  "equipmentAdded": [],
   "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "errorEventCount": 3,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

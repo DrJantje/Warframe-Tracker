@@ -1,62 +1,4 @@
 {
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-09-17T03:39:50.544498+00:00",
-      "item": "Ether Reaper",
-      "configuration": "A",
-      "added": [
-        "Primed Reach",
-        "Primed Fever Strike"
-      ],
-      "removed": [
-        "Volcanic Edge",
-        "True Steel",
-        "Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-17T03:39:50.544498+00:00",
-      "item": "Sagek Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-17T03:39:50.544498+00:00",
-      "item": "Astilla",
-      "configuration": "A",
-      "added": [
-        "Primed Point Blank",
-        "Primed Charged Shell"
-      ],
-      "removed": [
-        "Ammo Stock",
-        "Critical Deceleration",
-        "Point Blank"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 7,
-  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
-  "startedAt": "2026-09-17T02:11:52.565728+00:00",
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-17T02:12:11.398000+00:00",
@@ -144,8 +86,66 @@
       "incomplete": true
     }
   ],
+  "durationSeconds": 8416.543,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "focusCounterAtCaptureEnd": 42488,
-  "errorEventCount": 11,
+  "configurationChanges": [
+    {
+      "at": "2026-09-17T03:39:50.544498+00:00",
+      "item": "Ether Reaper",
+      "configuration": "A",
+      "added": [
+        "Primed Reach",
+        "Primed Fever Strike"
+      ],
+      "removed": [
+        "Volcanic Edge",
+        "True Steel",
+        "Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-17T03:39:50.544498+00:00",
+      "item": "Sagek Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-17T03:39:50.544498+00:00",
+      "item": "Astilla",
+      "configuration": "A",
+      "added": [
+        "Primed Point Blank",
+        "Primed Charged Shell"
+      ],
+      "removed": [
+        "Ammo Stock",
+        "Critical Deceleration",
+        "Point Blank"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "startedAt": "2026-09-17T02:11:52.565728+00:00",
+  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
+  "schemaVersion": 1,
+  "missionCount": 7,
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Entrati Obols",
@@ -216,9 +216,9 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 8416.543,
-  "equipmentAdded": [],
   "focusEarnedDuringCapture": 42488,
+  "equipmentRemoved": [],
+  "errorEventCount": 11,
   "notableAcquisitions": [
     {
       "item": "Meso Y2 Intact",
