@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-27",
-    "exportVerifiedAt": "2026-09-27 19:58:13 PDT",
+    "exportVerifiedAt": "2026-09-27 20:03:23 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167829,
-        "modified": "2026-09-27T19:58:12.420371-07:00",
-        "sha256": "afdc9e9dd20984b76616d90ec8d0a3b7a73bb4ea822ca0d8b9f22777a3591ab9"
+        "bytes": 2167828,
+        "modified": "2026-09-27T20:03:22.430937-07:00",
+        "sha256": "f2693645ac455a375718199a6f0f7e2b56afa667234840a6332613529deb9a3f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-27T19:58:12.422104-07:00",
+        "modified": "2026-09-27T20:03:22.433450-07:00",
         "sha256": "b9498687ab58cae27d23e3f51038859a5c17dfcfd308d51e0f19e14e2adb1db4"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-27T19:58:12.420371-07:00",
+        "modified": "2026-09-27T20:03:22.431941-07:00",
         "sha256": "fdeee0920c6020007da28aa751e047d51639d6a417e6725dd2d7f3e0476edaef"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-27T19:58:12.422104-07:00",
+        "modified": "2026-09-27T20:03:22.432446-07:00",
         "sha256": "943cb83b9e92686a02fc881ad01b6641e80f926795476160fc35201afd3f4441"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-27T19:58:12.424157-07:00",
+        "modified": "2026-09-27T20:03:22.433955-07:00",
         "sha256": "08ca7832e77fcc25cd0707a53d3291845be4044188e3ad8d2aa0fa04fa453a2e"
       },
       "rivens.json": {
@@ -78,6 +78,21 @@
         ]
       },
       {
+        "item": "Nagantaka Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nagantaka Prime Barrel; Nagantaka Prime Blueprint; Nagantaka Prime Receiver; Nagantaka Prime Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
         "item": "Twin Gremlins",
         "before": [
           "No",
@@ -98,7 +113,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 172
+      "missing": 171
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -2472,22 +2487,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Nagantaka Prime",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Nagantaka Prime Barrel; Nagantaka Prime Blueprint; Nagantaka Prime Receiver; Nagantaka Prime Stock",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Nagantaka_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Nami Skyla Prime",
       "type": "melee",
       "targetRank": "30",
@@ -3234,6 +3233,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Mirage_Prime"
+    },
+    {
+      "item": "Nagantaka Prime",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Nagantaka_Prime"
     },
     {
       "item": "Pandero Prime",
@@ -12535,24 +12543,21 @@
     {
       "item": "Nagantaka Prime",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Nagantaka Prime Barrel; Nagantaka Prime Blueprint; Nagantaka Prime Receiver; Nagantaka Prime Stock",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Nagantaka_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Nami Skyla",
