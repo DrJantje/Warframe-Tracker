@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-28",
-    "exportVerifiedAt": "2026-09-28 13:56:49 PDT",
+    "exportVerifiedAt": "2026-09-28 20:10:58 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167823,
-        "modified": "2026-09-28T13:56:48.986874-07:00",
-        "sha256": "205d68adc6050ba9a84d86ab1a7efc4312c0b807c282f8f30e78ff56f445a15e"
+        "bytes": 2167821,
+        "modified": "2026-09-28T20:10:57.825655-07:00",
+        "sha256": "804ba34d6a03b04616ee436309fc8973d3d716712e6a03d21fd2cc1545ff635f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-28T13:56:48.992921-07:00",
+        "modified": "2026-09-28T20:10:57.831680-07:00",
         "sha256": "970862648202dfc29475aaa662f459d92146bb5ee5c612598417f284153ca173"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-28T13:56:48.988389-07:00",
+        "modified": "2026-09-28T20:10:57.827665-07:00",
         "sha256": "e14a61bf4857175892c6e8a3644aea92811f7bfc5902fe3ba828c426790637b4"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-28T13:56:48.991413-07:00",
+        "modified": "2026-09-28T20:10:57.830174-07:00",
         "sha256": "943cb83b9e92686a02fc881ad01b6641e80f926795476160fc35201afd3f4441"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-28T13:56:48.995460-07:00",
-        "sha256": "b7eec622f968ed6f6b89eacd0cd3d285f08973d2c56570a0d7ad6a286c471b9c"
+        "modified": "2026-09-28T20:10:57.835191-07:00",
+        "sha256": "97f67e55d493bc17a56daf8e04a1202b4a97485cbc5d205145d2aea236f21e47"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,18 +48,78 @@
     },
     "importChanges": [
       {
-        "item": "Mandonel",
+        "item": "Dakra Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Deconstructor Prime",
         "before": [
           "No",
           "No",
           "No",
-          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+          "Deconstructor Prime Blueprint and components"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Helios Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Mirage",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
         ],
         "after": [
           "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vasto Prime",
+        "before": [
+          "Yes",
           "No",
           "No",
-          "Mandonel Barrel; Mandonel Receiver; Mandonel Stock"
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
         ]
       }
     ],
@@ -68,7 +128,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 169
+      "missing": 168
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1929,22 +1989,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Deconstructor Prime",
-      "type": "companion",
-      "targetRank": "30",
-      "missing": "Deconstructor Prime Blueprint and components",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Deconstructor_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Destreza Prime",
       "type": "melee",
       "targetRank": "30",
@@ -3046,13 +3090,13 @@
       "source": "https://wiki.warframe.com/w/Corinth_Prime"
     },
     {
-      "item": "Dakra Prime",
-      "type": "melee",
+      "item": "Deconstructor Prime",
+      "type": "companion",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Dakra_Prime"
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Deconstructor_Prime"
     },
     {
       "item": "Fragor Prime",
@@ -3071,6 +3115,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Gram_Prime"
+    },
+    {
+      "item": "Helios Prime",
+      "type": "companion",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level the companion in high-affinity missions.",
+      "source": "https://wiki.warframe.com/w/Helios_Prime"
     },
     {
       "item": "Hystrix Prime",
@@ -3181,15 +3234,6 @@
       "source": "https://wiki.warframe.com/w/Stradavar_Prime"
     },
     {
-      "item": "Vasto Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Vasto_Prime"
-    },
-    {
       "item": "Velox Prime",
       "type": "secondary",
       "state": "Rank unknown — verify in Arsenal",
@@ -3242,15 +3286,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Gorgon_Wraith"
-    },
-    {
-      "item": "Helios Prime",
-      "type": "companion",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level the companion in high-affinity missions.",
-      "source": "https://wiki.warframe.com/w/Helios_Prime"
     },
     {
       "item": "Mirage Prime",
@@ -6793,15 +6828,15 @@
     {
       "item": "Dakra Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,
@@ -6909,24 +6944,21 @@
     {
       "item": "Deconstructor Prime",
       "type": "companion",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Deconstructor Prime Blueprint and components",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Deconstructor_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Dehtat",
@@ -9554,17 +9586,17 @@
     {
       "item": "Helios Prime",
       "type": "companion",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Helios_Prime",
       "primeDetails": [],
@@ -12180,8 +12212,8 @@
     {
       "item": "Mirage",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -18347,15 +18379,15 @@
     {
       "item": "Vasto Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,

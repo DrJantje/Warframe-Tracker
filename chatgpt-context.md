@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-28T20:56:49.553470+00:00
-Account snapshot: 2026-09-28T20:56:40.234Z
+Generated: 2026-09-29T03:10:58.623032+00:00
+Account snapshot: 2026-09-29T03:10:53.420Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,10 +10,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (account-snapshot-confirmed)
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
-- Matchmaking: PUBLIC
-- Focus during current capture: 0
+- Matchmaking: ONLINE
+- Focus during current capture: 52836
 
 ## Current synchronized loadouts and builds
 
@@ -28,10 +28,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Vasto Prime — config A
+#### Secondary: Velox Prime — config A
 
 - Forma: 0
-- Mods: Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
+- Mods: Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Primed Heated Charge (rank 10)
 - Arcanes: none recorded
 
 #### Primary: Karak Wraith — config A
@@ -40,10 +40,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Serration (rank 10), High Voltage (rank 3), Split Chamber (rank 5)
 - Arcanes: none recorded
 
-#### Melee: Dakra Prime — config A
+#### Melee: Reaper Prime — config A
 
 - Forma: 0
-- Mods: Magnetic Rush (rank 3), True Steel (rank 5), Pressure Point (rank 5), Primed Fever Strike (rank 10), Primed Reach (rank 10), Swooping Falcon (rank 3)
+- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 10), Primed Reach (rank 10), Reaping Spiral (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -60,16 +60,16 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Companion: Hildryn
 
-#### Companion: Panzer Vulpaphyla — config A
+#### Companion: Helios Prime — config A
 
 - Forma: 0
-- Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Scavenge (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Mods: Coolant Leak (rank 3), Spare Parts (rank 5), Aerial Bond (rank 5), Vacuum (rank 5), Investigator (rank 5), Synth Deconstruct (rank 5), Vicious Bond (rank 5), Primed Animal Instinct (rank 10), Targeting Receptor (rank 3)
 - Arcanes: none recorded
 
-#### Companion weapon: Verglas Prime — config A
+#### Companion weapon: Deconstructor Prime — config A
 
-- Forma: 3
-- Mods: Sinister Reach (rank 3), Critical Delay (rank 5), Vital Sense (rank 5), Galvanized Aptitude (rank 10), Malignant Force (rank 3), Vile Acceleration (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
+- Forma: 0
+- Mods: North Wind (rank 5), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
