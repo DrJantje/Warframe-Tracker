@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-29T05:31:21.910877+00:00",
+  "generatedAt": "2026-09-30T03:12:55.824372+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-29T03:27:51.965Z",
+  "accountSnapshotAt": "2026-09-30T03:12:51.973Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-29T03:27:51.965Z",
+      "capturedAt": "2026-09-30T03:12:51.973Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-29T05:31:15.505808+00:00",
+    "observedAt": "2026-09-30T03:12:51.984192+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": null,
+    "missionKey": "SolNode228",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 52836,
+    "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "frameConfidence": "server-sent",
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -442,8 +442,8 @@
               "kind": "mod"
             },
             {
-              "name": "Accelerated Isotope",
-              "rank": 3,
+              "name": "Lethal Torrent",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -701,18 +701,7 @@
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
-          "mods": [
-            {
-              "name": "Quick Correct",
-              "rank": 2,
-              "kind": "mod"
-            },
-            {
-              "name": "Anti-V",
-              "rank": 2,
-              "kind": "mod"
-            }
-          ],
+          "mods": [],
           "arcanes": []
         },
         "Plexus": {
