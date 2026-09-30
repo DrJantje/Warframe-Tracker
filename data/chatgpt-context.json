@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-30T03:12:55.824372+00:00",
+  "generatedAt": "2026-09-30T05:09:43.722656+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,52 +8,52 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-09-30T03:12:51.973Z",
+  "accountSnapshotAt": "2026-09-30T03:44:55.189Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-09-30T03:12:51.973Z",
+      "capturedAt": "2026-09-30T03:44:55.189Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-09-30T03:12:51.984192+00:00",
+    "observedAt": "2026-09-30T04:04:44.308Z",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode228",
+    "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
@@ -65,7 +65,7 @@
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
-      "name": "Hildryn",
+      "name": "E.T.A.",
       "slots": {
         "Warframe": {
           "buildRef": "suits-057",
@@ -207,9 +207,9 @@
           ]
         },
         "Secondary": {
-          "buildRef": "pistols-089",
+          "buildRef": "pistols-049",
           "resolutionStatus": "exact-build-ref",
-          "item": "Velox Prime",
+          "item": "Vesper 77",
           "category": "Pistols",
           "configuration": "A",
           "formaApplied": 0,
@@ -220,6 +220,11 @@
           "helminthAbility": null,
           "mods": [
             {
+              "name": "Hornet Strike",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
               "name": "Primed Convulsion",
               "rank": 10,
               "kind": "mod"
@@ -228,19 +233,14 @@
               "name": "Barrel Diffusion",
               "rank": 5,
               "kind": "mod"
-            },
-            {
-              "name": "Primed Heated Charge",
-              "rank": 10,
-              "kind": "mod"
             }
           ],
           "arcanes": []
         },
         "Primary": {
-          "buildRef": "longguns-119",
+          "buildRef": "longguns-032",
           "resolutionStatus": "exact-build-ref",
-          "item": "Karak Wraith",
+          "item": "Phage",
           "category": "LongGuns",
           "configuration": "A",
           "formaApplied": 0,
@@ -251,27 +251,37 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Serration",
+              "name": "Primed Ravage",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "High Voltage",
-              "rank": 3,
+              "name": "Critical Deceleration",
+              "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Split Chamber",
+              "name": "Hell's Chamber",
               "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Point Blank",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Charged Shell",
+              "rank": 10,
               "kind": "mod"
             }
           ],
           "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-155",
+          "buildRef": "melee-133",
           "resolutionStatus": "exact-build-ref",
-          "item": "Reaper Prime",
+          "item": "Cobra & Crane Prime",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -287,17 +297,27 @@
               "kind": "mod"
             },
             {
-              "name": "Primed Fever Strike",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
               "name": "Primed Reach",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Reaping Spiral",
+              "name": "Drifting Contact",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Virulent Scourge",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Fever Strike",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Eleventh Storm",
               "rank": 3,
               "kind": "mod"
             }
@@ -687,7 +707,7 @@
     },
     "DATAKNIFE": {
       "modeName": "Parazon and Plexus",
-      "name": "Hildryn",
+      "name": "E.T.A.",
       "slots": {
         "Parazon": {
           "buildRef": "dataknives-001",
@@ -1434,43 +1454,48 @@
     },
     "SENTINEL": {
       "modeName": "Companion",
-      "name": "Hildryn",
+      "name": "E.T.A.",
       "slots": {
         "Companion": {
-          "buildRef": "sentinels-012",
+          "buildRef": "kubrowpets-006",
           "resolutionStatus": "exact-build-ref",
-          "item": "Helios Prime",
-          "category": "Sentinels",
+          "item": "Panzer Vulpaphyla",
+          "category": "KubrowPets",
           "configuration": "A",
           "formaApplied": 0,
           "focusLens": null,
-          "polarities": [],
-          "modularParts": [],
+          "polarities": [
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 6,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ATTACK"
+            }
+          ],
+          "modularParts": [
+            "Poxi Antigen",
+            "Zarim Mutagen"
+          ],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Coolant Leak",
+              "name": "Viral Quills",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Spare Parts",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Aerial Bond",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Vacuum",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Investigator",
+              "name": "Fetch",
               "rank": 5,
               "kind": "mod"
             },
@@ -1480,8 +1505,18 @@
               "kind": "mod"
             },
             {
-              "name": "Vicious Bond",
+              "name": "Calculated Redirection",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Scavenge",
               "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Panzer Devolution",
+              "rank": 3,
               "kind": "mod"
             },
             {
@@ -1490,17 +1525,27 @@
               "kind": "mod"
             },
             {
-              "name": "Targeting Receptor",
-              "rank": 3,
+              "name": "Resourceful Retriever",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Reinforced Bond",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Tenacious Bond",
+              "rank": 5,
               "kind": "mod"
             }
           ],
           "arcanes": []
         },
         "Companion weapon": {
-          "buildRef": "sentinelweapons-019",
+          "buildRef": "sentinelweapons-010",
           "resolutionStatus": "exact-build-ref",
-          "item": "Deconstructor Prime",
+          "item": "Stinger",
           "category": "SentinelWeapons",
           "configuration": "A",
           "formaApplied": 0,
@@ -1511,27 +1556,17 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "North Wind",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Magnetic Rush",
+              "name": "Continuous Misery",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Primed Fever Strike",
-              "rank": 10,
+              "name": "Rime Rounds",
+              "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Pressure Point",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Reach",
+              "name": "Serration",
               "rank": 10,
               "kind": "mod"
             }
@@ -1603,93 +1638,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20260929-022658.json",
-    "startedAt": "2026-09-29T02:26:58.481588+00:00",
-    "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-    "durationSeconds": 11058.549,
-    "missionCount": 9,
-    "focusEarnedDuringCapture": 52836,
-    "topGains": [
-      {
-        "item": "Fish Meat",
-        "delta": 242
-      },
-      {
-        "item": "Fish Scales",
-        "delta": 198
-      },
-      {
-        "item": "Fish Oil",
-        "delta": 170
-      },
-      {
-        "item": "Charc Electroplax",
-        "delta": 32
-      },
-      {
-        "item": "Mawfish Bones",
-        "delta": 24
-      },
-      {
-        "item": "Norg Brain",
-        "delta": 10
-      },
-      {
-        "item": "Ostia Vasca Kavat Tag",
-        "delta": 4
-      },
-      {
-        "item": "Bau Vasca Kavat Tag",
-        "delta": 2
-      },
-      {
-        "item": "Intact Sentient Core",
-        "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Intact Sentient Core",
-        "delta": 1
-      }
-    ],
-    "resourceGains": [
-      {
-        "item": "Fish Meat",
-        "delta": 242
-      },
-      {
-        "item": "Fish Scales",
-        "delta": 198
-      },
-      {
-        "item": "Fish Oil",
-        "delta": 170
-      },
-      {
-        "item": "Charc Electroplax",
-        "delta": 32
-      },
-      {
-        "item": "Mawfish Bones",
-        "delta": 24
-      },
-      {
-        "item": "Norg Brain",
-        "delta": 10
-      },
-      {
-        "item": "Ostia Vasca Kavat Tag",
-        "delta": 4
-      },
-      {
-        "item": "Bau Vasca Kavat Tag",
-        "delta": 2
-      }
-    ],
+    "file": "20260930-025846.json",
+    "startedAt": "2026-09-30T02:58:46.299845+00:00",
+    "stoppedAt": "2026-09-30T04:04:44.319235+00:00",
+    "durationSeconds": 3958.019,
+    "missionCount": 2,
+    "focusEarnedDuringCapture": 0,
+    "topGains": [],
+    "notableAcquisitions": [],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 1,
-    "errorEventCount": 4
+    "configurationChangeCount": 0,
+    "errorEventCount": 1
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

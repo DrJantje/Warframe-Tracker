@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-09-30T03:12:55.824372+00:00
-Account snapshot: 2026-09-30T03:12:51.973Z
+Generated: 2026-09-30T05:09:43.722656+00:00
+Account snapshot: 2026-09-30T03:44:55.189Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -17,7 +17,7 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: E.T.A.
 
 #### Warframe: Hildryn Prime — config A
 
@@ -28,22 +28,22 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Velox Prime — config A
+#### Secondary: Vesper 77 — config A
 
 - Forma: 0
-- Mods: Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Primed Heated Charge (rank 10)
+- Mods: Hornet Strike (rank 10), Primed Convulsion (rank 10), Barrel Diffusion (rank 5)
 - Arcanes: none recorded
 
-#### Primary: Karak Wraith — config A
+#### Primary: Phage — config A
 
 - Forma: 0
-- Mods: Serration (rank 10), High Voltage (rank 3), Split Chamber (rank 5)
+- Mods: Primed Ravage (rank 10), Critical Deceleration (rank 5), Hell's Chamber (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Reaper Prime — config A
+#### Melee: Cobra & Crane Prime — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Primed Fever Strike (rank 10), Primed Reach (rank 10), Reaping Spiral (rank 3)
+- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Drifting Contact (rank 3), Virulent Scourge (rank 3), Primed Fever Strike (rank 10), Eleventh Storm (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -58,18 +58,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Pistol Pestilence (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
-### Companion: Hildryn
+### Companion: E.T.A.
 
-#### Companion: Helios Prime — config A
+#### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
-- Mods: Coolant Leak (rank 3), Spare Parts (rank 5), Aerial Bond (rank 5), Vacuum (rank 5), Investigator (rank 5), Synth Deconstruct (rank 5), Vicious Bond (rank 5), Primed Animal Instinct (rank 10), Targeting Receptor (rank 3)
+- Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Scavenge (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Deconstructor Prime — config A
+#### Companion weapon: Stinger — config A
 
 - Forma: 0
-- Mods: North Wind (rank 5), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Pressure Point (rank 5), Primed Reach (rank 10)
+- Mods: Continuous Misery (rank 3), Rime Rounds (rank 3), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
@@ -80,11 +80,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-09-29T02:26:58.481588+00:00
-- Duration seconds: 11058.549
-- Missions: 9
-- Focus earned: 52836
-- Notable acquisitions: Intact Sentient Core (+1)
+- Started: 2026-09-30T02:58:46.299845+00:00
+- Duration seconds: 3958.019
+- Missions: 2
+- Focus earned: 0
+- Notable acquisitions: none recorded
 
 ## Deeper files
 
