@@ -1,19 +1,5 @@
 {
-  "equipmentAdded": [],
-  "schemaVersion": 1,
-  "startedAt": "2026-09-21T00:43:29.217623+00:00",
-  "stoppedAt": "2026-09-21T01:22:05.406124+00:00",
   "durationSeconds": 2316.189,
-  "configurationChanges": [],
-  "equipmentRemoved": [],
-  "focusEarnedDuringCapture": 6656,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "missionCount": 6,
   "missions": [
     {
       "startedAt": "2026-09-21T00:43:34.331000+00:00",
@@ -89,8 +75,13 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 1,
-  "focusCounterAtCaptureEnd": 6656,
+  "focusEarnedDuringCapture": 6656,
+  "stoppedAt": "2026-09-21T01:22:05.406124+00:00",
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "startedAt": "2026-09-21T00:43:29.217623+00:00",
+  "missionCount": 6,
+  "configurationChanges": [],
   "positiveItemDeltas": [
     {
       "item": "Titanium",
@@ -169,7 +160,16 @@
       "delta": 1
     }
   ],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 6656,
+  "errorEventCount": 1,
   "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
