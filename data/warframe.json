@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-30",
-    "exportVerifiedAt": "2026-09-30 17:28:41 PDT",
+    "exportVerifiedAt": "2026-09-30 17:30:32 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167819,
-        "modified": "2026-09-30T17:28:40.582140-07:00",
-        "sha256": "da6ac65527578d983d338697466fce76820853f85710dc4090d08ce07603d242"
+        "bytes": 2167816,
+        "modified": "2026-09-30T17:30:31.302859-07:00",
+        "sha256": "5f04ee720b1327454ca63a5f4c0099fc01f215590ffef4db9656a5aec8d0580d"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-30T17:28:40.584668-07:00",
+        "modified": "2026-09-30T17:30:31.305716-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-30T17:28:40.582645-07:00",
-        "sha256": "72554be457fb1d1611e159ca8c2d62a03df6a82d8a6deebb7b6b8052df03d099"
+        "modified": "2026-09-30T17:30:31.303863-07:00",
+        "sha256": "29ca053b6229cbda3f5e2ddcd160a47272a67b08179b9e23f79876661a1d12c2"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-30T17:28:40.583648-07:00",
+        "modified": "2026-09-30T17:30:31.305211-07:00",
         "sha256": "2b3033cf2806756e4407574443d9d8a3f3b136b2b624f6bab4893cd073a39e01"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-30T17:28:40.586178-07:00",
-        "sha256": "084bca29bde728a41d782af479625cc49cd84581caa76626e2c32c48022189ac"
+        "modified": "2026-09-30T17:30:31.307225-07:00",
+        "sha256": "f32cff2024863a636c1febb6f3cf8776b3d938105a4c0179e00ece6268f740a2"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,59 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Braton Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Braton Vandal Receiver; Braton Vandal Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Lato Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Lato Vandal Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Quassus Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Quassus Prime Blade (1/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 168
+      "missing": 165
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1129,21 +1175,6 @@
       "practicalPriority": 655
     },
     {
-      "ease": "3 — Focused short farm",
-      "item": "Lato Vandal",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Lato Vandal Blueprint",
-      "route": "Elite Sanctuary Onslaught — all rotations",
-      "steps": "Farm the missing Lato Vandal components from any Elite Sanctuary Onslaught rotation.",
-      "tip": "Continue through later zones to stack more rotation rewards per run.",
-      "source": "https://wiki.warframe.com/w/Lato_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 655
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Tenet Detron",
       "type": "secondary",
@@ -1262,21 +1293,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 755
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Braton Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Braton Vandal Receiver; Braton Vandal Stock",
-      "route": "Elite Sanctuary Onslaught — all rotations",
-      "steps": "Farm the missing Braton Vandal components from any Elite Sanctuary Onslaught rotation.",
-      "tip": "Continue through later zones to stack more rotation rewards per run.",
-      "source": "https://wiki.warframe.com/w/Braton_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 760
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2587,31 +2603,6 @@
       "practicalPriority": 510
     },
     {
-      "ease": "3 — Focused short farm",
-      "item": "Quassus Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Quassus Prime Blade (1/2)",
-      "route": "Current Void Relic farms",
-      "steps": "Quassus Prime Blade (Rare): farm Lith Q3 from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B, then open it Radiant in a four-player share. Build Quassus Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
-      "source": "https://www.warframe.com/droptables",
-      "vaulted": "No",
-      "primeStatus": "CURRENT RELICS",
-      "primeDetails": [
-        {
-          "part": "Quassus Prime Blade (1/2)",
-          "relic": "Lith Q3",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [],
-      "practicalPriority": 10
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Rubico Prime",
       "type": "primary",
@@ -3199,6 +3190,24 @@
       "source": "https://wiki.warframe.com/w/Zhuge_Prime"
     },
     {
+      "item": "Braton Vandal",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Braton_Vandal"
+    },
+    {
+      "item": "Lato Vandal",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Lato_Vandal"
+    },
+    {
       "item": "Nidus Prime",
       "type": "warframe",
       "state": "Ready in Foundry",
@@ -3206,6 +3215,15 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Nidus_Prime"
+    },
+    {
+      "item": "Quassus Prime",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://www.warframe.com/droptables"
     },
     {
       "item": "Rhino Prime",
@@ -5277,17 +5295,17 @@
     {
       "item": "Braton Vandal",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Braton Vandal Receiver; Braton Vandal Stock",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Elite Sanctuary Onslaught — all rotations",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 4,
       "source": "https://wiki.warframe.com/w/Braton_Vandal",
       "steps": "Farm the missing Braton Vandal components from any Elite Sanctuary Onslaught rotation.",
@@ -11446,17 +11464,17 @@
     {
       "item": "Lato Vandal",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Lato Vandal Blueprint",
-      "ease": "3 — Focused short farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Elite Sanctuary Onslaught — all rotations",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Lato_Vandal",
       "steps": "Farm the missing Lato Vandal components from any Elite Sanctuary Onslaught rotation.",
@@ -14661,33 +14679,21 @@
     {
       "item": "Quassus Prime",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Quassus Prime Blade (1/2)",
-      "ease": "3 — Focused short farm",
-      "route": "Current Void Relic farms",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 13,
       "source": "https://www.warframe.com/droptables",
-      "primeDetails": [
-        {
-          "part": "Quassus Prime Blade (1/2)",
-          "relic": "Lith Q3",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Void/Hepit Capture or Mars/Olympus Disruption rotations A and B",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [],
-      "primeStatus": "CURRENT RELICS",
-      "steps": "Quassus Prime Blade (Rare): farm Lith Q3 from Void/Hepit Capture or Mars/Olympus Disruption rotations A and B, then open it Radiant in a four-player share. Build Quassus Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeDetails": [],
+      "liveMatches": []
     },
     {
       "item": "Quatz",
