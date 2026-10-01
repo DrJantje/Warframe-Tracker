@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-01T00:39:21.429528+00:00
-Account snapshot: 2026-10-01T00:39:20.506Z
+Generated: 2026-10-01T00:40:54.687903+00:00
+Account snapshot: 2026-10-01T00:40:10.051Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (sync-awaiting-snapshot)
+- Frame observation: unknown (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -71,11 +71,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-09-30T02:58:46.299845+00:00
-- Duration seconds: 3958.019
+- Started: 2026-10-01T00:27:37.397896+00:00
+- Duration seconds: 794.333
 - Missions: 2
 - Focus earned: 0
-- Notable acquisitions: none recorded
+- Notable acquisitions: T1 Void Projection Citrine Prime CBronze (+1)
 
 ## Deeper files
 

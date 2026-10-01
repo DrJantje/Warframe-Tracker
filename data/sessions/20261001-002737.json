@@ -1,0 +1,110 @@
+{
+  "negativeItemDeltas": [
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Handle",
+      "delta": -2
+    },
+    {
+      "item": "Receiver",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "Stock",
+      "delta": -1
+    }
+  ],
+  "missionCount": 2,
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
+  "errorEventCount": 1,
+  "missions": [
+    {
+      "startedAt": "2026-10-01T00:28:14.814000+00:00",
+      "endedAt": "2026-10-01T00:28:17.371000+00:00",
+      "durationSeconds": 2.557,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-01T00:32:10.120000+00:00",
+      "endedAt": "2026-10-01T00:40:51.730564+00:00",
+      "durationSeconds": 521.611,
+      "type": "SANCTUM",
+      "node": "SolNode801",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-10-01T00:40:10.052835+00:00",
+      "item": "Mirage Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-01T00:40:10.052835+00:00",
+      "item": "Mirage Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "durationSeconds": 794.333,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "T1 Void Projection Citrine Prime CBronze",
+      "delta": 1
+    }
+  ],
+  "startedAt": "2026-10-01T00:27:37.397896+00:00",
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "notableAcquisitions": [
+    {
+      "item": "T1 Void Projection Citrine Prime CBronze",
+      "delta": 1
+    }
+  ],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
