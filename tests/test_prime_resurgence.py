@@ -99,7 +99,7 @@ class ResurgenceTests(unittest.TestCase):
             tracker_path = target / "data" / "warframe.json"
             tracker = json.loads(tracker_path.read_text(encoding="utf-8"))
             banshee = next(row for row in tracker["arsenal"] if row["item"] == "Banshee Prime")
-            banshee.update(state="Missing", owned="No", mastered="No", pendingFoundry="No",
+            banshee.update(state="Missing", owned="No", mastered="No", complete="No", pendingFoundry="No",
                            missing="Banshee Prime Blueprint", vaulted="Yes")
             tracker_path.write_text(json.dumps(tracker), encoding="utf-8")
             live_path = target / "data" / "live.json"
