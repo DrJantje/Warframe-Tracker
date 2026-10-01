@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-09-30",
-    "exportVerifiedAt": "2026-09-30 17:36:36 PDT",
+    "exportVerifiedAt": "2026-09-30 17:39:21 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167816,
-        "modified": "2026-09-30T17:36:35.246446-07:00",
-        "sha256": "5f04ee720b1327454ca63a5f4c0099fc01f215590ffef4db9656a5aec8d0580d"
+        "bytes": 2167814,
+        "modified": "2026-09-30T17:39:20.652772-07:00",
+        "sha256": "ef3a863542b1f5512025f870454c5c03bc1065fe51719604a6c901f8af939133"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-30T17:36:35.252552-07:00",
+        "modified": "2026-09-30T17:39:20.656888-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-30T17:36:35.249533-07:00",
+        "modified": "2026-09-30T17:39:20.654875-07:00",
         "sha256": "29ca053b6229cbda3f5e2ddcd160a47272a67b08179b9e23f79876661a1d12c2"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-30T17:36:35.251043-07:00",
+        "modified": "2026-09-30T17:39:20.655380-07:00",
         "sha256": "2b3033cf2806756e4407574443d9d8a3f3b136b2b624f6bab4893cd073a39e01"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-30T17:36:35.254567-07:00",
+        "modified": "2026-09-30T17:39:20.658396-07:00",
         "sha256": "f32cff2024863a636c1febb6f3cf8776b3d938105a4c0179e00ece6268f740a2"
       },
       "rivens.json": {
@@ -46,7 +46,38 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Astilla Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Hystrix Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -2937,15 +2968,6 @@
   ],
   "owned": [
     {
-      "item": "Astilla Prime",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Astilla_Prime"
-    },
-    {
       "item": "Banshee Prime",
       "type": "warframe",
       "state": "Rank unknown — verify in Arsenal",
@@ -2989,15 +3011,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Gram_Prime"
-    },
-    {
-      "item": "Hystrix Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Hystrix_Prime"
     },
     {
       "item": "Karak Wraith",
@@ -4516,15 +4529,15 @@
     {
       "item": "Astilla Prime",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -9778,15 +9791,15 @@
     {
       "item": "Hystrix Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
