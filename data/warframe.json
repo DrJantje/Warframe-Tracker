@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-01",
-    "exportVerifiedAt": "2026-10-01 21:45:09 PDT",
+    "exportVerifiedAt": "2026-10-01 21:50:57 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167815,
-        "modified": "2026-10-01T21:45:08.917606-07:00",
-        "sha256": "080ba48c010c7ce0d20f6c84f7a547eaede70c5195a47365ab55d01e2dc0279d"
+        "bytes": 2167814,
+        "modified": "2026-10-01T21:50:56.423463-07:00",
+        "sha256": "ae0fb55ad6558b6094e5e710baf351af2e63c6768b5d7e9b2f3b3c77ea0f472c"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-01T21:45:08.922708-07:00",
+        "modified": "2026-10-01T21:50:56.424984-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-01T21:45:08.919128-07:00",
+        "modified": "2026-10-01T21:50:56.423463-07:00",
         "sha256": "13b42858d8ee50a419095172012ffc4f396e6346089d9a5966067a2a0fd4f893"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-01T21:45:08.921188-07:00",
-        "sha256": "2b3033cf2806756e4407574443d9d8a3f3b136b2b624f6bab4893cd073a39e01"
+        "modified": "2026-10-01T21:50:56.424984-07:00",
+        "sha256": "df048d2969bf96a8a7b9c9cbf0d312526ef755d20266df6264775068cc0d6c9d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-01T21:45:08.923217-07:00",
+        "modified": "2026-10-01T21:50:56.426492-07:00",
         "sha256": "ed1957095332e41f5e265406bb18ad81ddfb71940925b7e02c7eadff13d62a2c"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Mirage Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -75,7 +91,7 @@
       "Lith Q3 Intact": 0,
       "Lith S18 Intact": 9,
       "Lith T14 Intact": 18,
-      "Lith V11 Intact": 14,
+      "Lith V11 Intact": 15,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 35,
@@ -3099,15 +3115,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Masseter_Prime"
-    },
-    {
-      "item": "Mirage Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Mirage_Prime"
     },
     {
       "item": "Nagantaka Prime",
@@ -12174,15 +12181,15 @@
     {
       "item": "Mirage Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
