@@ -1,4 +1,5 @@
 {
+  "equipmentAdded": [],
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -125,26 +126,8 @@
       "delta": -1
     }
   ],
-  "missionCount": 1,
-  "equipmentAdded": [],
-  "schemaVersion": 1,
-  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
-  "errorEventCount": 7,
-  "missions": [
-    {
-      "startedAt": "2026-09-13T17:53:36.300000+00:00",
-      "endedAt": "2026-09-13T21:47:02.495322+00:00",
-      "durationSeconds": 14006.195,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey_Key_Hard",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
+  "durationSeconds": 14010.325,
+  "startedAt": "2026-09-13T17:53:32.170299+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-13T19:37:28.975530+00:00",
@@ -188,9 +171,28 @@
       "helminthAfter": null
     }
   ],
-  "durationSeconds": 14010.325,
-  "equipmentRemoved": [],
+  "missions": [
+    {
+      "startedAt": "2026-09-13T17:53:36.300000+00:00",
+      "endedAt": "2026-09-13T21:47:02.495322+00:00",
+      "durationSeconds": 14006.195,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey_Key_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "focusCounterAtCaptureEnd": 283209,
+  "missionCount": 1,
+  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
+  "errorEventCount": 7,
+  "focusEarnedDuringCapture": 283209,
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -249,8 +251,6 @@
       "delta": 1
     }
   ],
-  "startedAt": "2026-09-13T17:53:32.170299+00:00",
-  "focusEarnedDuringCapture": 283209,
   "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {

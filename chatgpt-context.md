@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-01T00:40:54.687903+00:00
-Account snapshot: 2026-10-01T00:40:10.051Z
+Generated: 2026-10-02T04:32:37.542449+00:00
+Account snapshot: 2026-10-02T04:32:36.681Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,9 +10,9 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: unknown (arsenal-active)
+- Frame observation: unknown (sync-awaiting-snapshot)
 - Steel Path: no
-- Matchmaking: PUBLIC
+- Matchmaking: UNKNOWN
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -25,22 +25,22 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Archon Continuity (rank 10), Umbral Intensify (rank 10), Rolling Guard (rank 10), Stretch (rank 5), Adaptation (rank 10), Energy Siphon (rank 5)
 - Arcanes: Arcane Energize (rank 5), Arcane Blessing (rank 5)
 
-#### Secondary: Hystrix Prime — config A
+#### Secondary: Knell Prime — config A
 
 - Forma: 0
-- Mods: Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Convulsion (rank 10)
+- Mods: Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Pistol Gambit (rank 10)
 - Arcanes: none recorded
 
-#### Primary: Astilla Prime — config A
+#### Primary: Gorgon Wraith — config A
 
 - Forma: 0
-- Mods: Hell's Chamber (rank 5), Primed Charged Shell (rank 10), Primed Point Blank (rank 10), Frigid Blast (rank 3)
+- Mods: Split Chamber (rank 5), Serration (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Cronus — config A
+#### Melee: Redeemer Prime — config A
 
 - Forma: 0
-- Mods: none recorded
+- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Drifting Contact (rank 3), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), High Noon (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

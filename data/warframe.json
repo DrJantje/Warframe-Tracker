@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-09-30",
-    "exportVerifiedAt": "2026-09-30 17:40:54 PDT",
+    "snapshotDate": "2026-10-01",
+    "exportVerifiedAt": "2026-10-01 21:32:37 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167814,
-        "modified": "2026-09-30T17:40:54.095998-07:00",
+        "modified": "2026-10-01T21:32:36.885880-07:00",
         "sha256": "ef3a863542b1f5512025f870454c5c03bc1065fe51719604a6c901f8af939133"
       },
       "inventoryArcanes.json": {
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-09-30T17:40:54.099159-07:00",
+        "modified": "2026-10-01T21:32:36.891651-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-09-30T17:40:54.097641-07:00",
+        "modified": "2026-10-01T21:32:36.889093-07:00",
         "sha256": "29ca053b6229cbda3f5e2ddcd160a47272a67b08179b9e23f79876661a1d12c2"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-09-30T17:40:54.097641-07:00",
+        "modified": "2026-10-01T21:32:36.890097-07:00",
         "sha256": "2b3033cf2806756e4407574443d9d8a3f3b136b2b624f6bab4893cd073a39e01"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-09-30T17:40:54.100672-07:00",
+        "modified": "2026-10-01T21:32:36.894370-07:00",
         "sha256": "f32cff2024863a636c1febb6f3cf8776b3d938105a4c0179e00ece6268f740a2"
       },
       "rivens.json": {
@@ -1493,25 +1493,14 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Akbolto Prime Receiver (1/2)",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Akbolto Prime Receiver (1/2)",
-          "relic": "Axi A12",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 492
     },
     {
@@ -1580,14 +1569,41 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Aksomati Prime Barrel (0/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Aksomati Prime Barrel ×2 (Uncommon): buy Neo P11 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Link (Rare): buy Axi A23 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Receiver ×2 (Common): buy Lith B12 from Varzia for Aya and open it Intact in a four-player share. Build Aksomati Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Aksomati_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Aksomati Prime Barrel (0/2)",
+          "relic": "Neo P11",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Aksomati Prime Link",
+          "relic": "Axi A23",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Aksomati Prime Receiver (0/2)",
+          "relic": "Lith B12",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 515
     },
     {
@@ -1698,14 +1714,49 @@
       "type": "primary",
       "targetRank": "30",
       "missing": "Baza Prime Barrel; Baza Prime Blueprint; Baza Prime Receiver; Baza Prime Stock",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Baza Prime Barrel (Uncommon): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Baza Prime Stock (Rare): buy Lith B12 from Varzia for Aya and open it Radiant in a four-player share. Build Baza Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Baza_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Baza Prime Barrel",
+          "relic": "Neo O4",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Baza Prime Blueprint",
+          "relic": "Meso I3",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Baza Prime Receiver",
+          "relic": "Meso V16",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Baza Prime Stock",
+          "relic": "Lith B12",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 520
     },
     {
@@ -1995,25 +2046,14 @@
       "type": "secondary",
       "targetRank": "30",
       "missing": "Euphona Prime Receiver",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Euphona Prime Receiver",
-          "relic": "Meso E5",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 505
     },
     {
@@ -2230,25 +2270,14 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Kogake Prime Gauntlet (1/2)",
-      "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Kogake Prime Gauntlet (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
       "vaulted": "Yes",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Kogake Prime Gauntlet (1/2)",
-          "relic": "Lith K5",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 492
     },
     {
@@ -2498,14 +2527,41 @@
       "type": "melee",
       "targetRank": "30",
       "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
+      "route": "Prime Resurgence — Varzia relics for Aya",
+      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Okina Prime Handle ×2 (Uncommon): buy Meso V16 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Okina_Prime",
       "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Okina Prime Blade (1/2)",
+          "relic": "Neo P11",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Okina Prime Blueprint",
+          "relic": "Neo O4",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Okina Prime Handle (0/2)",
+          "relic": "Meso V16",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
       "practicalPriority": 515
     },
     {
@@ -3695,27 +3751,16 @@
       "rankRule": "",
       "missing": "Akbolto Prime Receiver (1/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Akbolto Prime Receiver (1/2)",
-          "relic": "Axi A12",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Akbolto Prime Receiver (Rare): buy Axi A12 from Varzia for Aya and open it Radiant in a four-player share. Build Akbolto Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying."
     },
     {
       "item": "Akbronco",
@@ -3947,16 +3992,43 @@
       "rankRule": "",
       "missing": "Aksomati Prime Barrel (0/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Aksomati_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Aksomati Prime Barrel (0/2)",
+          "relic": "Neo P11",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Aksomati Prime Link",
+          "relic": "Axi A23",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Aksomati Prime Receiver (0/2)",
+          "relic": "Lith B12",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Aksomati Prime Barrel ×2 (Uncommon): buy Neo P11 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Link (Rare): buy Axi A23 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Receiver ×2 (Common): buy Lith B12 from Varzia for Aya and open it Intact in a four-player share. Build Aksomati Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Akstiletto",
@@ -4957,16 +5029,51 @@
       "rankRule": "",
       "missing": "Baza Prime Barrel; Baza Prime Blueprint; Baza Prime Receiver; Baza Prime Stock",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Baza_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Baza Prime Barrel",
+          "relic": "Neo O4",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Baza Prime Blueprint",
+          "relic": "Meso I3",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Baza Prime Receiver",
+          "relic": "Meso V16",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Baza Prime Stock",
+          "relic": "Lith B12",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Baza Prime Barrel (Uncommon): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Baza Prime Stock (Rare): buy Lith B12 from Varzia for Aya and open it Radiant in a four-player share. Build Baza Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Bhaira Hound",
@@ -7954,27 +8061,16 @@
       "rankRule": "",
       "missing": "Euphona Prime Receiver",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Euphona Prime Receiver",
-          "relic": "Meso E5",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Euphona Prime Receiver (Rare): buy Meso E5 from Varzia for Aya and open it Radiant in a four-player share. Build Euphona Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying."
     },
     {
       "item": "Evensong",
@@ -10424,27 +10520,16 @@
       "rankRule": "",
       "missing": "Kogake Prime Gauntlet (1/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Prime Resurgence — Varzia relics for Aya",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
-      "primeStatus": "RESURGENCE ACTIVE",
-      "primeDetails": [
-        {
-          "part": "Kogake Prime Gauntlet (1/2)",
-          "relic": "Lith K5",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        }
-      ],
-      "liveMatches": [
-        "Prime Resurgence"
-      ],
-      "steps": "Kogake Prime Gauntlet (Rare): buy Lith K5 from Varzia for Aya and open it Radiant in a four-player share. Build Kogake Prime and level it to 30.",
-      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying."
     },
     {
       "item": "Kohm",
@@ -13140,16 +13225,43 @@
       "rankRule": "",
       "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
       "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Okina_Prime",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "primeStatus": "RESURGENCE ACTIVE",
+      "primeDetails": [
+        {
+          "part": "Okina Prime Blade (1/2)",
+          "relic": "Neo P11",
+          "rarity": "Common",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Intact"
+        },
+        {
+          "part": "Okina Prime Blueprint",
+          "relic": "Neo O4",
+          "rarity": "Rare",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        },
+        {
+          "part": "Okina Prime Handle (0/2)",
+          "relic": "Meso V16",
+          "rarity": "Uncommon",
+          "ownedRelics": 0,
+          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
+          "refinement": "Radiant"
+        }
+      ],
+      "liveMatches": [
+        "Prime Resurgence"
+      ],
+      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Okina Prime Handle ×2 (Uncommon): buy Meso V16 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
+      "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
       "item": "Oloro Moa",
