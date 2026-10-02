@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-02T04:32:37.542449+00:00",
+  "generatedAt": "2026-10-02T04:42:28.841934+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-02T04:32:36.681Z",
+  "accountSnapshotAt": "2026-10-02T04:42:28.105Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-02T04:32:36.681Z",
+      "capturedAt": "2026-10-02T04:42:28.105Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-02T04:32:06.049Z",
+    "observedAt": "2026-10-02T04:41:28.824Z",
     "phase": "mission",
-    "node": "PLAYER SHIP",
+    "node": "DARK SECTOR SPAWN",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": null,
+    "missionKey": "SolNode801",
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "UNKNOWN",
+    "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
-    "frameConfidence": "sync-awaiting-snapshot",
+    "frameConfidence": "server-sent",
     "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
@@ -68,7 +68,7 @@
       "name": "Hildryn",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-060",
+          "buildRef": "suits-059",
           "resolutionStatus": "exact-build-ref",
           "item": "Mirage Prime",
           "category": "Suits",
