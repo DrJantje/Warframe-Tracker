@@ -1,66 +1,24 @@
 {
-  "equipmentRemoved": [],
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentAdded": [],
-  "durationSeconds": 11058.549,
-  "missionCount": 9,
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
-  "schemaVersion": 1,
   "focusCounterAtCaptureStart": 0,
-  "positiveItemDeltas": [
+  "focusEarnedDuringCapture": 52836,
+  "negativeItemDeltas": [
     {
-      "item": "Fish Meat",
-      "delta": 242
+      "item": "Luminous Dye",
+      "delta": -2
     },
     {
-      "item": "Fish Scales",
-      "delta": 198
+      "item": "Norg Bait",
+      "delta": -1
     },
     {
-      "item": "Fish Oil",
-      "delta": 170
-    },
-    {
-      "item": "Charc Electroplax",
-      "delta": 32
-    },
-    {
-      "item": "Mawfish Bones",
-      "delta": 24
-    },
-    {
-      "item": "Norg Brain",
-      "delta": 10
-    },
-    {
-      "item": "Ostia Vasca Kavat Tag",
-      "delta": 4
-    },
-    {
-      "item": "Bau Vasca Kavat Tag",
-      "delta": 2
-    },
-    {
-      "item": "Intact Sentient Core",
-      "delta": 1
+      "item": "Pharoma",
+      "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 52836,
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "durationSeconds": 11058.549,
+  "equipmentAdded": [],
+  "missionCount": 9,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -172,23 +130,65 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 4,
-  "negativeItemDeltas": [
+  "configurationChanges": [
     {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
   "focusCounterAtCaptureEnd": 52836,
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "equipmentRemoved": [],
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "errorEventCount": 4,
+  "positiveItemDeltas": [
+    {
+      "item": "Fish Meat",
+      "delta": 242
+    },
+    {
+      "item": "Fish Scales",
+      "delta": 198
+    },
+    {
+      "item": "Fish Oil",
+      "delta": 170
+    },
+    {
+      "item": "Charc Electroplax",
+      "delta": 32
+    },
+    {
+      "item": "Mawfish Bones",
+      "delta": 24
+    },
+    {
+      "item": "Norg Brain",
+      "delta": 10
+    },
+    {
+      "item": "Ostia Vasca Kavat Tag",
+      "delta": 4
+    },
+    {
+      "item": "Bau Vasca Kavat Tag",
+      "delta": 2
+    },
+    {
+      "item": "Intact Sentient Core",
+      "delta": 1
+    }
+  ],
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-02",
-    "exportVerifiedAt": "2026-10-02 17:25:43 PDT",
+    "exportVerifiedAt": "2026-10-02 17:43:03 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167814,
-        "modified": "2026-10-02T17:25:42.375477-07:00",
-        "sha256": "170e5e379d03e3e78941af527c5f6b3aae358c7f49463f869aff7afb00336d3f"
+        "bytes": 2167813,
+        "modified": "2026-10-02T17:43:03.175563-07:00",
+        "sha256": "3bbfcb8035a7f466a21548c4fbcc215360dfd55fbcc217c88f9d1cc64a8a3cbd"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-02T17:25:42.378583-07:00",
+        "modified": "2026-10-02T17:43:03.178066-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-02T17:25:42.377079-07:00",
+        "modified": "2026-10-02T17:43:03.176563-07:00",
         "sha256": "13b42858d8ee50a419095172012ffc4f396e6346089d9a5966067a2a0fd4f893"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-02T17:25:42.377579-07:00",
+        "modified": "2026-10-02T17:43:03.177063-07:00",
         "sha256": "df048d2969bf96a8a7b9c9cbf0d312526ef755d20266df6264775068cc0d6c9d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-02T17:25:42.380090-07:00",
+        "modified": "2026-10-02T17:43:03.178570-07:00",
         "sha256": "ed1957095332e41f5e265406bb18ad81ddfb71940925b7e02c7eadff13d62a2c"
       },
       "rivens.json": {
@@ -46,13 +46,29 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Prisma Lenz",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prisma Lenz (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 165
+      "missing": 164
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -357,22 +373,6 @@
       "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
       "tip": "Check Baro’s current relay stock before trading.",
       "source": "https://wiki.warframe.com/w/Prisma_Grinlok",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Prisma Lenz",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Prisma Lenz (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Lenz",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -3131,6 +3131,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Pandero_Prime"
+    },
+    {
+      "item": "Prisma Lenz",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prisma_Lenz"
     },
     {
       "item": "Quassus Prime",
@@ -14229,14 +14238,14 @@
     {
       "item": "Prisma Lenz",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prisma Lenz (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
