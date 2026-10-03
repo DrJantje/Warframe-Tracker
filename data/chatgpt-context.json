@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T00:43:03.707757+00:00",
+  "generatedAt": "2026-10-03T02:49:47.928795+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,40 +8,40 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-03T00:43:03.060Z",
+  "accountSnapshotAt": "2026-10-03T00:23:20.737Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-03T00:43:03.060Z",
+      "capturedAt": "2026-10-03T00:23:20.737Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
@@ -1454,28 +1454,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261001-002737.json",
-    "startedAt": "2026-10-01T00:27:37.397896+00:00",
-    "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
-    "durationSeconds": 794.333,
-    "missionCount": 2,
+    "file": "20261003-001304.json",
+    "startedAt": "2026-10-03T00:13:04.340444+00:00",
+    "stoppedAt": "2026-10-03T00:42:16.319002+00:00",
+    "durationSeconds": 1751.979,
+    "missionCount": 4,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "T1 Void Projection Citrine Prime CBronze",
-        "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "T1 Void Projection Citrine Prime CBronze",
-        "delta": 1
-      }
-    ],
+    "topGains": [],
+    "notableAcquisitions": [],
     "resourceGains": [],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 2,
-    "errorEventCount": 1
+    "configurationChangeCount": 0,
+    "errorEventCount": 4
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
