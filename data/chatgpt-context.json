@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T00:13:53.722610+00:00",
+  "generatedAt": "2026-10-03T00:21:20.856665+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-03T00:13:52.961Z",
+  "accountSnapshotAt": "2026-10-03T00:21:20.201Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-03T00:13:52.961Z",
+      "capturedAt": "2026-10-03T00:21:20.201Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-03T00:13:21.159Z",
+    "observedAt": "2026-10-03T00:21:13.262Z",
     "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "node": "IronwakeHUB3",
+    "planet": "",
+    "mission": "CONCLAVE",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "UNKNOWN",
+    "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
-    "frameCandidate": null,
-    "frameConfidence": "sync-awaiting-snapshot",
+    "frameCandidate": "Ash",
+    "frameConfidence": "mission-active",
     "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
@@ -158,13 +158,23 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Split Chamber",
-              "rank": 5,
+              "name": "Thermite Rounds",
+              "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Serration",
-              "rank": 10,
+              "name": "Rime Rounds",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Malignant Force",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Magnetic Capacity",
+              "rank": 3,
               "kind": "mod"
             }
           ],

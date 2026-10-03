@@ -1,18 +1,18 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-03T00:13:53.722610+00:00
-Account snapshot: 2026-10-03T00:13:52.961Z
+Generated: 2026-10-03T00:21:20.856665+00:00
+Account snapshot: 2026-10-03T00:21:20.201Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: unknown (sync-awaiting-snapshot)
+- Location: CONCLAVE
+- Planet: unknown
+- Frame observation: Ash (mission-active)
 - Steel Path: no
-- Matchmaking: UNKNOWN
+- Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -34,7 +34,7 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Primary: Gorgon Wraith — config A
 
 - Forma: 0
-- Mods: Split Chamber (rank 5), Serration (rank 10)
+- Mods: Thermite Rounds (rank 3), Rime Rounds (rank 3), Malignant Force (rank 3), Magnetic Capacity (rank 3)
 - Arcanes: none recorded
 
 #### Melee: Redeemer Prime — config A
