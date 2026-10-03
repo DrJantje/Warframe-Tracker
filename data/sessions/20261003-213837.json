@@ -1,0 +1,94 @@
+{
+  "stoppedAt": "2026-10-03T21:58:23.856939+00:00",
+  "missions": [
+    {
+      "startedAt": "2026-10-03T21:38:44.124000+00:00",
+      "endedAt": "2026-10-03T21:38:45.133000+00:00",
+      "durationSeconds": 1.009,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode189_InvasionAttacker",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-03T21:43:43.388000+00:00",
+      "endedAt": "2026-10-03T21:45:24.150000+00:00",
+      "durationSeconds": 100.762,
+      "type": "SABOTAGE",
+      "node": "SolNode189",
+      "label": null,
+      "missionKey": "SolNode189_InvasionAttacker",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-03T21:46:07.678000+00:00",
+      "endedAt": "2026-10-03T21:47:47.193000+00:00",
+      "durationSeconds": 99.515,
+      "type": "SABOTAGE",
+      "node": "SolNode189",
+      "label": null,
+      "missionKey": "SolNode189_InvasionAttacker",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-03T21:48:32.871000+00:00",
+      "endedAt": "2026-10-03T21:50:44.264000+00:00",
+      "durationSeconds": 131.393,
+      "type": "RESCUE",
+      "node": "SolNode189",
+      "label": null,
+      "missionKey": "SolNode189_InvasionAttacker",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-03T21:51:31.233000+00:00",
+      "endedAt": "2026-10-03T21:58:23.856939+00:00",
+      "durationSeconds": 412.624,
+      "type": "SANCTUM",
+      "node": "SolNode801",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "positiveItemDeltas": [],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "configurationChanges": [],
+  "negativeItemDeltas": [],
+  "errorEventCount": 5,
+  "startedAt": "2026-10-03T21:38:37.946180+00:00",
+  "schemaVersion": 1,
+  "durationSeconds": 1185.911,
+  "missionCount": 5,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

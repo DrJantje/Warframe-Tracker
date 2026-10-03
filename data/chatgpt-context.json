@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T21:57:38.521413+00:00",
+  "generatedAt": "2026-10-03T21:58:26.353916+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-03T21:57:37.666Z",
+  "accountSnapshotAt": "2026-10-03T21:57:38.790Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-03T21:57:37.666Z",
+      "capturedAt": "2026-10-03T21:57:38.790Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-03T21:57:37.801925+00:00",
+    "observedAt": "2026-10-03T21:57:40.829871+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -60,7 +60,7 @@
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
     "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "waiting"
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -1470,18 +1470,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261003-001304.json",
-    "startedAt": "2026-10-03T00:13:04.340444+00:00",
-    "stoppedAt": "2026-10-03T00:42:16.319002+00:00",
-    "durationSeconds": 1751.979,
-    "missionCount": 4,
+    "file": "20261003-213837.json",
+    "startedAt": "2026-10-03T21:38:37.946180+00:00",
+    "stoppedAt": "2026-10-03T21:58:23.856939+00:00",
+    "durationSeconds": 1185.911,
+    "missionCount": 5,
     "focusEarnedDuringCapture": 0,
     "topGains": [],
     "notableAcquisitions": [],
     "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 4
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
