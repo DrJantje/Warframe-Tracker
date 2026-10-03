@@ -1,29 +1,29 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-02T04:50:57.143178+00:00
-Account snapshot: 2026-10-02T04:50:56.298Z
+Generated: 2026-10-03T00:13:53.722610+00:00
+Account snapshot: 2026-10-03T00:13:52.961Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: orbiter
-- Location: LOADOUT
-- Planet: unknown
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
 - Frame observation: unknown (sync-awaiting-snapshot)
 - Steel Path: no
-- Matchmaking: PUBLIC
+- Matchmaking: UNKNOWN
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
 ### Arsenal: Hildryn
 
-#### Warframe: Mirage Prime — config A
+#### Warframe: Rhino Prime — config A
 
 - Forma: 0
-- Mods: Archon Continuity (rank 10), Umbral Intensify (rank 10), Rolling Guard (rank 10), Stretch (rank 5), Adaptation (rank 10), Energy Siphon (rank 5)
-- Arcanes: Arcane Energize (rank 5), Arcane Blessing (rank 5)
+- Mods: Stretch (rank 5), Vitality (rank 10), Streamline (rank 5), Steel Fiber (rank 10), Primed Redirection (rank 10), Pistol Amp (rank 5)
+- Arcanes: none recorded
 
 #### Secondary: Knell Prime — config A
 

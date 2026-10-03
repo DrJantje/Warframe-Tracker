@@ -1,42 +1,10 @@
 {
-  "positiveItemDeltas": [
-    {
-      "item": "Fish Meat",
-      "delta": 242
-    },
-    {
-      "item": "Fish Scales",
-      "delta": 198
-    },
-    {
-      "item": "Fish Oil",
-      "delta": 170
-    },
-    {
-      "item": "Charc Electroplax",
-      "delta": 32
-    },
-    {
-      "item": "Mawfish Bones",
-      "delta": 24
-    },
-    {
-      "item": "Norg Brain",
-      "delta": 10
-    },
-    {
-      "item": "Ostia Vasca Kavat Tag",
-      "delta": 4
-    },
-    {
-      "item": "Bau Vasca Kavat Tag",
-      "delta": 2
-    },
-    {
-      "item": "Intact Sentient Core",
-      "delta": 1
-    }
-  ],
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 52836,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 52836,
+  "durationSeconds": 11058.549,
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
   "negativeItemDeltas": [
     {
       "item": "Luminous Dye",
@@ -51,10 +19,6 @@
       "delta": -1
     }
   ],
-  "missionCount": 9,
-  "focusEarnedDuringCapture": 52836,
-  "focusCounterAtCaptureEnd": 52836,
-  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -166,10 +130,7 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 4,
-  "equipmentAdded": [],
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
-  "durationSeconds": 11058.549,
+  "equipmentRemoved": [],
   "configurationChanges": [
     {
       "at": "2026-09-29T03:27:51.965885+00:00",
@@ -186,9 +147,48 @@
       "helminthAfter": null
     }
   ],
-  "equipmentRemoved": [],
+  "positiveItemDeltas": [
+    {
+      "item": "Fish Meat",
+      "delta": 242
+    },
+    {
+      "item": "Fish Scales",
+      "delta": 198
+    },
+    {
+      "item": "Fish Oil",
+      "delta": 170
+    },
+    {
+      "item": "Charc Electroplax",
+      "delta": 32
+    },
+    {
+      "item": "Mawfish Bones",
+      "delta": 24
+    },
+    {
+      "item": "Norg Brain",
+      "delta": 10
+    },
+    {
+      "item": "Ostia Vasca Kavat Tag",
+      "delta": 4
+    },
+    {
+      "item": "Bau Vasca Kavat Tag",
+      "delta": 2
+    },
+    {
+      "item": "Intact Sentient Core",
+      "delta": 1
+    }
+  ],
   "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "missionCount": 9,
+  "errorEventCount": 4,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

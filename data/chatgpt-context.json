@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-02T04:50:57.143178+00:00",
+  "generatedAt": "2026-10-03T00:13:53.722610+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,55 +8,55 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-02T04:50:56.298Z",
+  "accountSnapshotAt": "2026-10-03T00:13:52.961Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-02T04:50:56.298Z",
+      "capturedAt": "2026-10-03T00:13:52.961Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-02T04:50:19.183Z",
-    "phase": "orbiter",
-    "node": "ORBITER",
-    "planet": "",
-    "mission": "LOADOUT",
+    "observedAt": "2026-10-03T00:13:21.159Z",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "PUBLIC",
+    "matchmaking": "UNKNOWN",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
     "frameConfidence": "sync-awaiting-snapshot",
@@ -68,9 +68,9 @@
       "name": "Hildryn",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-059",
+          "buildRef": "suits-061",
           "resolutionStatus": "exact-build-ref",
-          "item": "Mirage Prime",
+          "item": "Rhino Prime",
           "category": "Suits",
           "configuration": "A",
           "formaApplied": 0,
@@ -81,48 +81,37 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Archon Continuity",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Umbral Intensify",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Rolling Guard",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
               "name": "Stretch",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Adaptation",
+              "name": "Vitality",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Energy Siphon",
+              "name": "Streamline",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Steel Fiber",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Redirection",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Pistol Amp",
               "rank": 5,
               "kind": "mod"
             }
           ],
-          "arcanes": [
-            {
-              "name": "Arcane Energize",
-              "rank": 5,
-              "kind": "arcane"
-            },
-            {
-              "name": "Arcane Blessing",
-              "rank": 5,
-              "kind": "arcane"
-            }
-          ]
+          "arcanes": []
         },
         "Secondary": {
           "buildRef": "pistols-084",
