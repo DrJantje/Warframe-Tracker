@@ -1,10 +1,53 @@
 {
-  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
   "startedAt": "2026-08-22T20:08:07.929878+00:00",
-  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-  "equipmentAdded": [],
-  "schemaVersion": 1,
+  "missionCount": 11,
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrofungus",
+      "delta": -6
+    },
+    {
+      "item": "Devil's Cap",
+      "delta": -4
+    },
+    {
+      "item": "Dull Button",
+      "delta": -4
+    },
+    {
+      "item": "Winter Spear",
+      "delta": -3
+    },
+    {
+      "item": "Air Support Charges",
+      "delta": -2
+    },
+    {
+      "item": "Gamma Berry",
+      "delta": -2
+    },
+    {
+      "item": "Lazulite Toroid",
+      "delta": -2
+    },
+    {
+      "item": "Thorn Tooth",
+      "delta": -2
+    },
+    {
+      "item": "Calda Toroid",
+      "delta": -1
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    },
+    {
+      "item": "Crisma Toroid",
+      "delta": -1
+    }
+  ],
   "missions": [
     {
       "startedAt": "2026-08-22T20:08:13.048000+00:00",
@@ -140,7 +183,8 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 7,
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
   "configurationChanges": [
     {
       "at": "2026-08-22T21:30:11.540514+00:00",
@@ -173,9 +217,12 @@
       "helminthAfter": null
     }
   ],
-  "missionCount": 11,
-  "focusCounterAtCaptureEnd": 0,
   "equipmentRemoved": [],
+  "errorEventCount": 7,
+  "durationSeconds": 19058.296,
+  "equipmentAdded": [],
+  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -250,53 +297,6 @@
       "delta": 1
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrofungus",
-      "delta": -6
-    },
-    {
-      "item": "Devil's Cap",
-      "delta": -4
-    },
-    {
-      "item": "Dull Button",
-      "delta": -4
-    },
-    {
-      "item": "Winter Spear",
-      "delta": -3
-    },
-    {
-      "item": "Air Support Charges",
-      "delta": -2
-    },
-    {
-      "item": "Gamma Berry",
-      "delta": -2
-    },
-    {
-      "item": "Lazulite Toroid",
-      "delta": -2
-    },
-    {
-      "item": "Thorn Tooth",
-      "delta": -2
-    },
-    {
-      "item": "Calda Toroid",
-      "delta": -1
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    },
-    {
-      "item": "Crisma Toroid",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 19058.296,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

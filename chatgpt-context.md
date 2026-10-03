@@ -1,18 +1,18 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-03T02:49:47.928795+00:00
-Account snapshot: 2026-10-03T00:23:20.737Z
+Generated: 2026-10-03T21:39:27.283816+00:00
+Account snapshot: 2026-10-03T21:39:26.544Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: RAILJACK
-- Planet: PROXIMA
-- Frame observation: Titania (server-sent)
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: unknown (sync-awaiting-snapshot)
 - Steel Path: no
-- Matchmaking: PUBLIC
+- Matchmaking: UNKNOWN
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -23,24 +23,24 @@ Use this as the player's current sanitized account and session context. Live obs
 
 - Forma: 0
 - Mods: Stretch (rank 5), Vitality (rank 10), Streamline (rank 5), Steel Fiber (rank 10), Primed Redirection (rank 10), Pistol Amp (rank 5)
-- Arcanes: none recorded
+- Arcanes: Arcane Blessing (rank 5), Molt Augmented (rank 5)
 
-#### Secondary: Knell Prime — config A
-
-- Forma: 0
-- Mods: Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Pistol Gambit (rank 10)
-- Arcanes: none recorded
-
-#### Primary: Gorgon Wraith — config A
+#### Secondary: Lato Vandal — config A
 
 - Forma: 0
-- Mods: Thermite Rounds (rank 3), Rime Rounds (rank 3), Malignant Force (rank 3), Magnetic Capacity (rank 3)
+- Mods: Scorch (rank 3), Pistol Pestilence (rank 3), Frostbite (rank 3), Hornet Strike (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Redeemer Prime — config A
+#### Primary: Prisma Grinlok — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Drifting Contact (rank 3), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), High Noon (rank 3)
+- Mods: Serration (rank 10), Thermite Rounds (rank 3), Rime Rounds (rank 3), Malignant Force (rank 3)
+- Arcanes: none recorded
+
+#### Melee: Karyst Prime — config A
+
+- Forma: 0
+- Mods: True Steel (rank 5), Magnetic Rush (rank 3), Primed Reach (rank 10), Pressure Point (rank 5), Primed Fever Strike (rank 10), Pointed Wind (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-02",
-    "exportVerifiedAt": "2026-10-02 19:49:48 PDT",
+    "snapshotDate": "2026-10-03",
+    "exportVerifiedAt": "2026-10-03 14:39:27 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167814,
-        "modified": "2026-10-02T19:49:47.337683-07:00",
-        "sha256": "170e5e379d03e3e78941af527c5f6b3aae358c7f49463f869aff7afb00336d3f"
+        "bytes": 2167807,
+        "modified": "2026-10-03T14:39:26.688976-07:00",
+        "sha256": "2ed32e8de0e30a3bcaf0c500edc2b56d40bf1e1ce148548b5c6fae891f957393"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-02T19:49:47.343257-07:00",
+        "modified": "2026-10-03T14:39:26.693496-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-02T19:49:47.340240-07:00",
-        "sha256": "13b42858d8ee50a419095172012ffc4f396e6346089d9a5966067a2a0fd4f893"
+        "modified": "2026-10-03T14:39:26.690987-07:00",
+        "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-02T19:49:47.341747-07:00",
+        "modified": "2026-10-03T14:39:26.691990-07:00",
         "sha256": "df048d2969bf96a8a7b9c9cbf0d312526ef755d20266df6264775068cc0d6c9d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-02T19:49:47.346275-07:00",
-        "sha256": "ed1957095332e41f5e265406bb18ad81ddfb71940925b7e02c7eadff13d62a2c"
+        "modified": "2026-10-03T14:39:26.696016-07:00",
+        "sha256": "5f36f73d7d825e3cc48a3b17af23228d45e82001acadc90688f045b339b759ba"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,7 +48,7 @@
     },
     "importChanges": [
       {
-        "item": "Prisma Lenz",
+        "item": "Gorgon Wraith",
         "before": [
           "Yes",
           "No",
@@ -56,7 +56,112 @@
           ""
         ],
         "after": [
+          "Yes",
+          "Yes",
           "No",
+          ""
+        ]
+      },
+      {
+        "item": "Karak Wraith",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Knell Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Prisma Grinlok",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prisma Grinlok (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Prisma Lenz",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prisma Lenz (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Redeemer Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Snipetron Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Snipetron Vandal Receiver; Snipetron Vandal Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Snipetron Vandal Stock"
+        ]
+      },
+      {
+        "item": "Vulkar Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vulkar Wraith (completed item)"
+        ],
+        "after": [
+          "Yes",
           "No",
           "No",
           ""
@@ -68,7 +173,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 165
+      "missing": 162
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -224,22 +329,6 @@
       "practicalPriority": 3
     },
     {
-      "ease": "1 — Now / no farming",
-      "item": "Prisma Lenz",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Prisma Lenz (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Lenz",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 105
-    },
-    {
       "ease": "3 — Focused short farm",
       "item": "Brakk",
       "type": "secondary",
@@ -373,22 +462,6 @@
       "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
       "tip": "Check Baro’s current relay stock before trading.",
       "source": "https://wiki.warframe.com/w/Prisma_Grakata",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Prisma Grinlok",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Prisma Grinlok (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Grinlok",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -610,22 +683,6 @@
       "steps": "Buy the completed Viper Wraith when Baro carries it, or trade for an unranked copy.",
       "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "source": "https://wiki.warframe.com/w/Viper_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Vulkar Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Vulkar Wraith (completed item)",
-      "route": "Baro Ki’Teer rotating inventory / player trade",
-      "steps": "Buy the completed Vulkar Wraith when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
-      "source": "https://wiki.warframe.com/w/Vulkar_Wraith",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -1251,6 +1308,23 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Snipetron Vandal",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Snipetron Vandal Stock",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [
+        "Invasion: Snipetron Vandal Stock"
+      ],
+      "practicalPriority": 755
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Strun Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1276,27 +1350,7 @@
       "source": "https://wiki.warframe.com/w/Sheev",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Sheev Blueprint"
-      ],
-      "practicalPriority": 760
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Snipetron Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Snipetron Vandal Receiver; Snipetron Vandal Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Blueprint",
-        "Invasion: Snipetron Vandal Receiver"
-      ],
+      "liveMatches": [],
       "practicalPriority": 760
     },
     {
@@ -3050,15 +3104,6 @@
       "source": "https://wiki.warframe.com/w/Fragor_Prime"
     },
     {
-      "item": "Gorgon Wraith",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Gorgon_Wraith"
-    },
-    {
       "item": "Gram Prime",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -3068,15 +3113,6 @@
       "source": "https://wiki.warframe.com/w/Gram_Prime"
     },
     {
-      "item": "Karak Wraith",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Karak_Wraith"
-    },
-    {
       "item": "Karyst Prime",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -3084,15 +3120,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Karyst_Prime"
-    },
-    {
-      "item": "Knell Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Knell_Prime"
     },
     {
       "item": "Lato Vandal",
@@ -3149,6 +3176,24 @@
       "source": "https://wiki.warframe.com/w/Pandero_Prime"
     },
     {
+      "item": "Prisma Grinlok",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prisma_Grinlok"
+    },
+    {
+      "item": "Prisma Lenz",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prisma_Lenz"
+    },
+    {
       "item": "Quassus Prime",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -3165,15 +3210,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Reaper_Prime"
-    },
-    {
-      "item": "Redeemer Prime",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Redeemer_Prime"
     },
     {
       "item": "Rhino Prime",
@@ -3219,6 +3255,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Volnus_Prime"
+    },
+    {
+      "item": "Vulkar Wraith",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Vulkar_Wraith"
     },
     {
       "item": "Zakti Prime",
@@ -8939,14 +8984,14 @@
     {
       "item": "Gorgon Wraith",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Razorback Armada",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10218,14 +10263,14 @@
     {
       "item": "Karak Wraith",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -10467,15 +10512,15 @@
     {
       "item": "Knell Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -14223,14 +14268,14 @@
     {
       "item": "Prisma Grinlok",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prisma Grinlok (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -14245,13 +14290,13 @@
     {
       "item": "Prisma Lenz",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prisma Lenz (completed item)",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
@@ -15053,15 +15098,15 @@
     {
       "item": "Redeemer Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,
@@ -15927,9 +15972,7 @@
       "steps": "Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.",
       "tip": "Only one component is offered per qualifying Invasion. Check the live Invasion feed before trading.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Sheev Blueprint"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Shwaak Prism",
@@ -16237,7 +16280,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Snipetron Vandal Receiver; Snipetron Vandal Stock",
+      "missing": "Snipetron Vandal Stock",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -16248,8 +16291,7 @@
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
       "liveMatches": [
-        "Invasion: Snipetron Vandal Blueprint",
-        "Invasion: Snipetron Vandal Receiver"
+        "Invasion: Snipetron Vandal Stock"
       ]
     },
     {
@@ -19102,14 +19144,14 @@
     {
       "item": "Vulkar Wraith",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Vulkar Wraith (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",

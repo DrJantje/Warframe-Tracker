@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T02:49:47.928795+00:00",
+  "generatedAt": "2026-10-03T21:39:27.283816+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-03T00:23:20.737Z",
+  "accountSnapshotAt": "2026-10-03T21:39:26.544Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-03T00:23:20.737Z",
+      "capturedAt": "2026-10-03T21:39:26.544Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-03T00:42:15.302Z",
+    "observedAt": "2026-10-03T21:38:53.783Z",
     "phase": "mission",
-    "node": "RAILJACK",
-    "planet": "PROXIMA",
-    "mission": "RAILJACK",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "PUBLIC",
+    "matchmaking": "UNKNOWN",
     "focusDuringCurrentCapture": 0,
-    "frameCandidate": "Titania",
-    "frameConfidence": "server-sent",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameCandidate": null,
+    "frameConfidence": "sync-awaiting-snapshot",
+    "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -111,12 +111,23 @@
               "kind": "mod"
             }
           ],
-          "arcanes": []
+          "arcanes": [
+            {
+              "name": "Arcane Blessing",
+              "rank": 5,
+              "kind": "arcane"
+            },
+            {
+              "name": "Molt Augmented",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
         },
         "Secondary": {
-          "buildRef": "pistols-084",
+          "buildRef": "pistols-092",
           "resolutionStatus": "exact-build-ref",
-          "item": "Knell Prime",
+          "item": "Lato Vandal",
           "category": "Pistols",
           "configuration": "A",
           "formaApplied": 0,
@@ -127,17 +138,22 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Barrel Diffusion",
-              "rank": 5,
+              "name": "Scorch",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Pistol Pestilence",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Frostbite",
+              "rank": 3,
               "kind": "mod"
             },
             {
               "name": "Hornet Strike",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Pistol Gambit",
               "rank": 10,
               "kind": "mod"
             }
@@ -145,9 +161,9 @@
           "arcanes": []
         },
         "Primary": {
-          "buildRef": "longguns-123",
+          "buildRef": "longguns-126",
           "resolutionStatus": "exact-build-ref",
-          "item": "Gorgon Wraith",
+          "item": "Prisma Grinlok",
           "category": "LongGuns",
           "configuration": "A",
           "formaApplied": 0,
@@ -157,6 +173,11 @@
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
+            {
+              "name": "Serration",
+              "rank": 10,
+              "kind": "mod"
+            },
             {
               "name": "Thermite Rounds",
               "rank": 3,
@@ -171,19 +192,14 @@
               "name": "Malignant Force",
               "rank": 3,
               "kind": "mod"
-            },
-            {
-              "name": "Magnetic Capacity",
-              "rank": 3,
-              "kind": "mod"
             }
           ],
           "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-156",
+          "buildRef": "melee-153",
           "resolutionStatus": "exact-build-ref",
-          "item": "Redeemer Prime",
+          "item": "Karyst Prime",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -194,18 +210,8 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Pressure Point",
+              "name": "True Steel",
               "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Reach",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Drifting Contact",
-              "rank": 3,
               "kind": "mod"
             },
             {
@@ -214,12 +220,22 @@
               "kind": "mod"
             },
             {
+              "name": "Primed Reach",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Pressure Point",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
               "name": "Primed Fever Strike",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "High Noon",
+              "name": "Pointed Wind",
               "rank": 3,
               "kind": "mod"
             }

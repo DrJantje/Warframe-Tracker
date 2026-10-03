@@ -1,10 +1,21 @@
 {
-  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 83396,
   "startedAt": "2026-09-16T02:58:37.696608+00:00",
-  "stoppedAt": "2026-09-16T04:51:27.626149+00:00",
-  "equipmentAdded": [],
-  "schemaVersion": 1,
+  "missionCount": 7,
+  "negativeItemDeltas": [
+    {
+      "item": "Entrati Obols",
+      "delta": -280
+    },
+    {
+      "item": "Stela",
+      "delta": -25
+    },
+    {
+      "item": "Necracoil",
+      "delta": -10
+    }
+  ],
   "missions": [
     {
       "startedAt": "2026-09-16T02:58:58.102000+00:00",
@@ -91,11 +102,15 @@
       "steelPath": false
     }
   ],
-  "errorEventCount": 3,
-  "configurationChanges": [],
-  "missionCount": 7,
   "focusCounterAtCaptureEnd": 83396,
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [],
   "equipmentRemoved": [],
+  "errorEventCount": 3,
+  "durationSeconds": 6769.93,
+  "equipmentAdded": [],
+  "stoppedAt": "2026-09-16T04:51:27.626149+00:00",
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Circuit Effect",
@@ -158,21 +173,6 @@
       "delta": 1
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Entrati Obols",
-      "delta": -280
-    },
-    {
-      "item": "Stela",
-      "delta": -25
-    },
-    {
-      "item": "Necracoil",
-      "delta": -10
-    }
-  ],
-  "durationSeconds": 6769.93,
   "notableAcquisitions": [
     {
       "item": "Ascaris Prime",

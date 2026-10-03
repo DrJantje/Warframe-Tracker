@@ -3281,7 +3281,13 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Serration",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -12301,7 +12307,7 @@
     "buildRef": "longguns-123",
     "name": "Gorgon Wraith",
     "category": "LongGuns",
-    "xp": 430916,
+    "xp": 537721,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -15703,7 +15709,7 @@
     "buildRef": "longguns-119",
     "name": "Karak Wraith",
     "category": "LongGuns",
-    "xp": 308877,
+    "xp": 455928,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -15720,13 +15726,18 @@
             "kind": "mod"
           },
           {
-            "name": "High Voltage",
+            "name": "Thermite Rounds",
             "rank": 3,
             "kind": "mod"
           },
           {
-            "name": "Split Chamber",
-            "rank": 5,
+            "name": "Rime Rounds",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Malignant Force",
+            "rank": 3,
             "kind": "mod"
           }
         ],
@@ -15808,7 +15819,7 @@
     "buildRef": "melee-153",
     "name": "Karyst Prime",
     "category": "Melee",
-    "xp": 0,
+    "xp": 70508,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -15818,7 +15829,38 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "True Steel",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Magnetic Rush",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Reach",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Pressure Point",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Fever Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Pointed Wind",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -16309,7 +16351,7 @@
     "buildRef": "pistols-084",
     "name": "Knell Prime",
     "category": "Pistols",
-    "xp": 346518,
+    "xp": 513363,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -17539,7 +17581,7 @@
     "buildRef": "pistols-092",
     "name": "Lato Vandal",
     "category": "Pistols",
-    "xp": 0,
+    "xp": 110250,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -17549,7 +17591,28 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Scorch",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Pistol Pestilence",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Frostbite",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -23648,7 +23711,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 724141194,
+    "xp": 724857344,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -23804,7 +23867,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 699937722,
+    "xp": 700530649,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -25174,6 +25237,95 @@
             "kind": "mod"
           }
         ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "longguns-126",
+    "name": "Prisma Grinlok",
+    "category": "LongGuns",
+    "xp": 71498,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Serration",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Thermite Rounds",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Rime Rounds",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Malignant Force",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "longguns-125",
+    "name": "Prisma Lenz",
+    "category": "LongGuns",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -26666,7 +26818,7 @@
     "buildRef": "melee-156",
     "name": "Redeemer Prime",
     "category": "Melee",
-    "xp": 346518,
+    "xp": 513363,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27088,7 +27240,7 @@
     "buildRef": "suits-061",
     "name": "Rhino Prime",
     "category": "Suits",
-    "xp": 0,
+    "xp": 375768,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27130,7 +27282,18 @@
             "kind": "mod"
           }
         ],
-        "arcanes": [],
+        "arcanes": [
+          {
+            "name": "Arcane Blessing",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Molt Augmented",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
         "helminthAbility": null
       },
       {
@@ -36871,6 +37034,40 @@
             "kind": "mod"
           }
         ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "longguns-127",
+    "name": "Vulkar Wraith",
+    "category": "LongGuns",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
         "arcanes": [],
         "helminthAbility": null
       },
