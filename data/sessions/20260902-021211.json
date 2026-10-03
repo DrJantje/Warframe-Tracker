@@ -1,6 +1,28 @@
 {
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Coda Hirudo",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "equipmentAdded": [],
   "durationSeconds": 5473.26,
+  "missionCount": 10,
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -11,21 +33,7 @@
       "delta": 1
     }
   ],
-  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "negativeItemDeltas": [
-    {
-      "item": "Cubic Diodes",
-      "delta": -7000
-    },
-    {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Forma",
-      "delta": -1
-    }
-  ],
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -149,31 +157,23 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
   "errorEventCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
-  "missionCount": 10,
-  "configurationChanges": [
+  "negativeItemDeltas": [
     {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Coda Hirudo",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Cubic Diodes",
+      "delta": -7000
+    },
+    {
+      "item": "Rubedo",
+      "delta": -6000
+    },
+    {
+      "item": "Forma",
+      "delta": -1
     }
   ],
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
   "notableAcquisitions": [
     {
       "item": "Blueprint",
