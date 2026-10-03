@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-03",
-    "exportVerifiedAt": "2026-10-03 14:39:27 PDT",
+    "exportVerifiedAt": "2026-10-03 14:46:21 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167807,
-        "modified": "2026-10-03T14:39:26.688976-07:00",
-        "sha256": "2ed32e8de0e30a3bcaf0c500edc2b56d40bf1e1ce148548b5c6fae891f957393"
+        "bytes": 2167806,
+        "modified": "2026-10-03T14:46:20.142014-07:00",
+        "sha256": "4b5cfe63bd1f128a86a22f7d3c5d284e1ce0a235559685d298267f4089e717e1"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-03T14:39:26.693496-07:00",
+        "modified": "2026-10-03T14:46:20.144555-07:00",
         "sha256": "a004b27bc46ff0c02697f15f4b12172815a2d22344afc2e4494e8a0dc21f02c7"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-03T14:39:26.690987-07:00",
+        "modified": "2026-10-03T14:46:20.143525-07:00",
         "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-03T14:39:26.691990-07:00",
+        "modified": "2026-10-03T14:46:20.143525-07:00",
         "sha256": "df048d2969bf96a8a7b9c9cbf0d312526ef755d20266df6264775068cc0d6c9d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-03T14:39:26.696016-07:00",
+        "modified": "2026-10-03T14:46:20.146060-07:00",
         "sha256": "5f36f73d7d825e3cc48a3b17af23228d45e82001acadc90688f045b339b759ba"
       },
       "rivens.json": {
@@ -48,122 +48,17 @@
     },
     "importChanges": [
       {
-        "item": "Gorgon Wraith",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Karak Wraith",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Knell Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Prisma Grinlok",
+        "item": "Sheev",
         "before": [
           "No",
           "No",
           "No",
-          "Prisma Grinlok (completed item)"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Prisma Lenz",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Prisma Lenz (completed item)"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Redeemer Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Snipetron Vandal",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Snipetron Vandal Receiver; Snipetron Vandal Stock"
+          "Sheev Blade; Sheev Hilt"
         ],
         "after": [
           "No",
           "No",
-          "No",
-          "Snipetron Vandal Stock"
-        ]
-      },
-      {
-        "item": "Vulkar Wraith",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vulkar Wraith (completed item)"
-        ],
-        "after": [
           "Yes",
-          "No",
-          "No",
           ""
         ]
       }
@@ -173,7 +68,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 162
+      "missing": 161
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1337,21 +1232,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 755
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Sheev",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Sheev Blade; Sheev Hilt",
-      "route": "Grineer Invasion reward rotation / player trade",
-      "steps": "Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.",
-      "tip": "Only one component is offered per qualifying Invasion. Check the live Invasion feed before trading.",
-      "source": "https://wiki.warframe.com/w/Sheev",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 760
     },
     {
       "ease": "5 — Long grind / trade",
@@ -3282,6 +3162,15 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Zhuge_Prime"
+    },
+    {
+      "item": "Sheev",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sheev"
     }
   ],
   "rank40": [
@@ -15956,17 +15845,17 @@
     {
       "item": "Sheev",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sheev Blade; Sheev Hilt",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Grineer Invasion reward rotation / player trade",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Sheev",
       "steps": "Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.",
