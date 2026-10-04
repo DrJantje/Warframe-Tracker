@@ -122,135 +122,9 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Nano Spores",
-      "delta": -20000
-    },
-    {
-      "item": "Polymer Bundle",
-      "delta": -12500
-    },
-    {
-      "item": "Circuit Effect",
-      "delta": -7000
-    },
-    {
-      "item": "Cubic Diodes",
-      "delta": -7000
-    },
-    {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Plastids",
-      "delta": -4000
-    },
-    {
-      "item": "Hexenon",
-      "delta": -300
-    },
-    {
-      "item": "Aya",
-      "delta": -12
-    },
-    {
-      "item": "Argon Crystal",
-      "delta": -8
-    },
-    {
-      "item": "Forma",
-      "delta": -2
-    },
-    {
-      "item": "Air Support Charges",
-      "delta": -1
-    }
-  ],
   "errorEventCount": 3,
-  "focusCounterAtCaptureEnd": 0,
   "focusEarnedDuringCapture": 0,
-  "schemaVersion": 1,
-  "equipmentAdded": [],
-  "startedAt": "2026-09-27T22:32:59.167153+00:00",
-  "durationSeconds": 7068.249,
-  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T23:31:04.783779+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Virulent Scourge",
-        "Primed Fever Strike",
-        "Pressure Point",
-        "Primed Reach",
-        "Reaping Spiral"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T00:03:06.731128+00:00",
-      "item": "Diwata Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Fever Strike",
-        "Primed Reach",
-        "Amalgam Organ Shatter",
-        "Melee Duplicate"
-      ],
-      "removed": [
-        "Shocking Touch",
-        "Fury",
-        "Body Count",
-        "Melee Influence"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-28T00:20:28.608291+00:00",
-      "item": "Nokko"
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
+  "missionCount": 10,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -405,7 +279,133 @@
       "delta": 1
     }
   ],
-  "missionCount": 10,
+  "equipmentAdded": [],
+  "configurationChanges": [
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T23:31:04.783779+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Virulent Scourge",
+        "Primed Fever Strike",
+        "Pressure Point",
+        "Primed Reach",
+        "Reaping Spiral"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T00:03:06.731128+00:00",
+      "item": "Diwata Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Fever Strike",
+        "Primed Reach",
+        "Amalgam Organ Shatter",
+        "Melee Duplicate"
+      ],
+      "removed": [
+        "Shocking Touch",
+        "Fury",
+        "Body Count",
+        "Melee Influence"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-28T00:20:28.608291+00:00",
+      "item": "Nokko"
+    }
+  ],
+  "negativeItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": -20000
+    },
+    {
+      "item": "Polymer Bundle",
+      "delta": -12500
+    },
+    {
+      "item": "Circuit Effect",
+      "delta": -7000
+    },
+    {
+      "item": "Cubic Diodes",
+      "delta": -7000
+    },
+    {
+      "item": "Rubedo",
+      "delta": -6000
+    },
+    {
+      "item": "Plastids",
+      "delta": -4000
+    },
+    {
+      "item": "Hexenon",
+      "delta": -300
+    },
+    {
+      "item": "Aya",
+      "delta": -12
+    },
+    {
+      "item": "Argon Crystal",
+      "delta": -8
+    },
+    {
+      "item": "Forma",
+      "delta": -2
+    },
+    {
+      "item": "Air Support Charges",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 7068.249,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-09-27T22:32:59.167153+00:00",
+  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
   "notableAcquisitions": [
     {
       "item": "Blueprint",
