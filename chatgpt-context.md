@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-04T16:51:40.466249+00:00
-Account snapshot: 2026-10-04T16:51:39.505Z
+Generated: 2026-10-04T16:56:01.931056+00:00
+Account snapshot: 2026-10-04T16:56:01.106Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: orbiter
-- Location: LOADOUT
-- Planet: unknown
+- Phase: location
+- Location: HUB
+- Planet: DEIMOS
 - Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -28,22 +28,22 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Magnus Prime — config A
+#### Secondary: Velox Prime — config A
 
 - Forma: 0
-- Mods: none recorded
+- Mods: Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Primed Heated Charge (rank 10)
 - Arcanes: none recorded
 
-#### Primary: Vulkar Wraith — config A
+#### Primary: Prisma Grinlok — config A
 
 - Forma: 0
-- Mods: none recorded
+- Mods: Serration (rank 10), Thermite Rounds (rank 3), Rime Rounds (rank 3), Malignant Force (rank 3)
 - Arcanes: none recorded
 
-#### Melee: Sheev — config A
+#### Melee: Karyst Prime — config A
 
 - Forma: 0
-- Mods: none recorded
+- Mods: True Steel (rank 5), Magnetic Rush (rank 3), Primed Reach (rank 10), Pressure Point (rank 5), Primed Fever Strike (rank 10), Pointed Wind (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

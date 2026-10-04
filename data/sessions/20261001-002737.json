@@ -1,4 +1,17 @@
 {
+  "missionCount": 2,
+  "durationSeconds": 794.333,
+  "equipmentAdded": [],
+  "positiveItemDeltas": [
+    {
+      "item": "T1 Void Projection Citrine Prime CBronze",
+      "delta": 1
+    }
+  ],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Barrel",
@@ -21,37 +34,7 @@
       "delta": -1
     }
   ],
-  "configurationChanges": [
-    {
-      "at": "2026-10-01T00:40:10.052835+00:00",
-      "item": "Mirage Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-01T00:40:10.052835+00:00",
-      "item": "Mirage Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [],
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
-  "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
-  "missionCount": 2,
-  "errorEventCount": 1,
-  "startedAt": "2026-10-01T00:27:37.397896+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 794.333,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-10-01T00:28:14.814000+00:00",
@@ -79,14 +62,31 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "positiveItemDeltas": [
+  "errorEventCount": 1,
+  "configurationChanges": [
     {
-      "item": "T1 Void Projection Citrine Prime CBronze",
-      "delta": 1
+      "at": "2026-10-01T00:40:10.052835+00:00",
+      "item": "Mirage Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-01T00:40:10.052835+00:00",
+      "item": "Mirage Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "schemaVersion": 1,
+  "startedAt": "2026-10-01T00:27:37.397896+00:00",
+  "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {
       "item": "T1 Void Projection Citrine Prime CBronze",
