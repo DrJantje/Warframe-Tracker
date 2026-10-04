@@ -1,5 +1,8 @@
 {
-  "missionCount": 11,
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -74,9 +77,6 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 7,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
   "configurationChanges": [
     {
       "at": "2026-08-22T21:30:11.540514+00:00",
@@ -109,11 +109,11 @@
       "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-08-22T20:08:07.929878+00:00",
+  "errorEventCount": 7,
   "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Ferrofungus",
@@ -160,6 +160,7 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 19058.296,
   "missions": [
     {
       "startedAt": "2026-08-22T20:08:13.048000+00:00",
@@ -295,8 +296,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 19058.296,
-  "startedAt": "2026-08-22T20:08:07.929878+00:00",
+  "missionCount": 11,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

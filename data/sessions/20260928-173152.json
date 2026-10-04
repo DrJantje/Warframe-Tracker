@@ -1,5 +1,8 @@
 {
-  "missionCount": 10,
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -82,9 +85,6 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 2,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
   "configurationChanges": [
     {
       "at": "2026-09-28T17:43:08.850449+00:00",
@@ -170,11 +170,11 @@
       "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-09-28T17:31:52.789778+00:00",
+  "errorEventCount": 2,
   "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Polymer Bundle",
@@ -213,6 +213,7 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 2601.937,
   "missions": [
     {
       "startedAt": "2026-09-28T17:31:57.444000+00:00",
@@ -336,8 +337,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 2601.937,
-  "startedAt": "2026-09-28T17:31:52.789778+00:00",
+  "missionCount": 10,
   "notableAcquisitions": [
     {
       "item": "Blueprint",

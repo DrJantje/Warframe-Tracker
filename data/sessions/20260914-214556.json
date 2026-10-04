@@ -1,5 +1,8 @@
 {
-  "missionCount": 9,
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -66,9 +69,6 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 4,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
   "configurationChanges": [
     {
       "at": "2026-09-14T22:48:49.414727+00:00",
@@ -221,11 +221,11 @@
       "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-09-14T21:45:56.462019+00:00",
+  "errorEventCount": 4,
   "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -252,6 +252,7 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 8190.328,
   "missions": [
     {
       "startedAt": "2026-09-14T21:46:02.660000+00:00",
@@ -363,8 +364,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 8190.328,
-  "startedAt": "2026-09-14T21:45:56.462019+00:00",
+  "missionCount": 9,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
