@@ -2473,7 +2473,7 @@
     "buildRef": "specialitems-056",
     "name": "Balefire Charger Prime",
     "category": "SpecialItems",
-    "xp": 25255464,
+    "xp": 31853286,
     "formaApplied": 8,
     "focusLens": null,
     "polarities": [
@@ -2704,7 +2704,7 @@
     "buildRef": "suits-058",
     "name": "Banshee Prime",
     "category": "Suits",
-    "xp": 0,
+    "xp": 55373,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -2714,8 +2714,45 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
-        "arcanes": [],
+        "mods": [
+          {
+            "name": "Streamline",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Vitality",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Stretch",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Redirection",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Pistol Amp",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Arcane Blessing",
+            "rank": 5,
+            "kind": "arcane"
+          },
+          {
+            "name": "Arcane Energize",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
         "helminthAbility": null
       },
       {
@@ -3271,7 +3308,7 @@
     "buildRef": "longguns-124",
     "name": "Braton Vandal",
     "category": "LongGuns",
-    "xp": 0,
+    "xp": 468442,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -3282,6 +3319,16 @@
         "index": 0,
         "name": "A",
         "mods": [
+          {
+            "name": "High Voltage",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
+            "kind": "mod"
+          },
           {
             "name": "Serration",
             "rank": 10,
@@ -6237,7 +6284,7 @@
     "buildRef": "longguns-117",
     "name": "Corinth Prime",
     "category": "LongGuns",
-    "xp": 0,
+    "xp": 284518,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -6247,7 +6294,28 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Hell's Chamber",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Point Blank",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Chilling Reload",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Critical Deceleration",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -7616,7 +7684,7 @@
     "buildRef": "crewshipharnesses-001",
     "name": "Default Harness",
     "category": "CrewShipHarnesses",
-    "xp": 7565893,
+    "xp": 7631377,
     "formaApplied": 3,
     "focusLens": null,
     "polarities": [
@@ -8306,7 +8374,7 @@
     "buildRef": "specialitems-011",
     "name": "Dex Pixia Prime",
     "category": "SpecialItems",
-    "xp": 291167853,
+    "xp": 293795674,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -8632,7 +8700,7 @@
     "buildRef": "specialitems-012",
     "name": "Diwata Prime",
     "category": "SpecialItems",
-    "xp": 96480,
+    "xp": 2724301,
     "formaApplied": 4,
     "focusLens": null,
     "polarities": [
@@ -11223,7 +11291,7 @@
     "buildRef": "melee-151",
     "name": "Fragor Prime",
     "category": "Melee",
-    "xp": 0,
+    "xp": 266654,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -13731,7 +13799,7 @@
     "buildRef": "suits-057",
     "name": "Hildryn Prime",
     "category": "Suits",
-    "xp": 80069453,
+    "xp": 86667414,
     "formaApplied": 4,
     "focusLens": "Eidolon Naramon Lens",
     "polarities": [
@@ -15819,7 +15887,7 @@
     "buildRef": "melee-153",
     "name": "Karyst Prime",
     "category": "Melee",
-    "xp": 410494,
+    "xp": 613954,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -17581,7 +17649,7 @@
     "buildRef": "pistols-092",
     "name": "Lato Vandal",
     "category": "Pistols",
-    "xp": 342838,
+    "xp": 526744,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -17593,18 +17661,13 @@
         "name": "A",
         "mods": [
           {
-            "name": "Scorch",
-            "rank": 3,
+            "name": "Primed Pistol Gambit",
+            "rank": 10,
             "kind": "mod"
           },
           {
-            "name": "Pistol Pestilence",
-            "rank": 3,
-            "kind": "mod"
-          },
-          {
-            "name": "Frostbite",
-            "rank": 3,
+            "name": "Barrel Diffusion",
+            "rank": 5,
             "kind": "mod"
           },
           {
@@ -22781,7 +22844,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 17164797,
+    "xp": 17198315,
     "formaApplied": 0,
     "focusLens": "Eidolon Vazarin Lens",
     "polarities": [],
@@ -23502,7 +23565,7 @@
     "buildRef": "pistols-086",
     "name": "Pandero Prime",
     "category": "Pistols",
-    "xp": 0,
+    "xp": 381211,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -23512,7 +23575,23 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Magnetic Might",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Convulsion",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -23711,7 +23790,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 734423586,
+    "xp": 740459370,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -23867,7 +23946,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 709418201,
+    "xp": 715184957,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -25260,7 +25339,7 @@
     "buildRef": "longguns-126",
     "name": "Prisma Grinlok",
     "category": "LongGuns",
-    "xp": 445019,
+    "xp": 458093,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -26653,7 +26732,7 @@
     "buildRef": "melee-155",
     "name": "Reaper Prime",
     "category": "Melee",
-    "xp": 219548,
+    "xp": 515784,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27240,7 +27319,7 @@
     "buildRef": "suits-061",
     "name": "Rhino Prime",
     "category": "Suits",
-    "xp": 641892,
+    "xp": 704641,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -33343,7 +33422,7 @@
     "buildRef": "suits-018",
     "name": "Titania Prime",
     "category": "Suits",
-    "xp": 82840083,
+    "xp": 85467904,
     "formaApplied": 4,
     "focusLens": "Eidolon Unairu Lens",
     "polarities": [
@@ -35647,7 +35726,7 @@
     "buildRef": "pistols-089",
     "name": "Velox Prime",
     "category": "Pistols",
-    "xp": 391437,
+    "xp": 576717,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],

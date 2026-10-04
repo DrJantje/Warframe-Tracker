@@ -84,6 +84,36 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
+    "rivenRef": "riven-022",
+    "name": "Fang Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Fang",
+    "weaponType": "Melee",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_DEFENSE",
+    "rerolls": 0,
+    "minimumMastery": 10,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Armor Piercing Damage Mod"
+      },
+      {
+        "trait": "Weapon Melee Faction Damage Corpus"
+      },
+      {
+        "trait": "Combo Duration Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Melee Combo Efficiency Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-015",
     "name": "Haalvu Riven",
     "unveiled": true,
@@ -235,6 +265,33 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
+    "rivenRef": "riven-018",
+    "name": "Serro Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Serro",
+    "weaponType": "Melee",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_ATTACK",
+    "rerolls": 0,
+    "minimumMastery": 13,
+    "positiveTraits": [
+      {
+        "trait": "Combo Duration Mod"
+      },
+      {
+        "trait": "Weapon Melee Range Inc Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Melee Faction Damage Grineer"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-001",
     "name": "Sporelacer Riven",
     "unveiled": true,
@@ -344,6 +401,63 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
+    "rivenRef": "riven-020",
+    "name": "Tenet Envoy Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Tenet Envoy",
+    "weaponType": "Rifle",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_DEFENSE",
+    "rerolls": 0,
+    "minimumMastery": 15,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Freeze Damage Mod"
+      },
+      {
+        "trait": "Weapon Reload Speed Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Ammo Max Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "riven-017",
+    "name": "Tombfinger Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Tombfinger",
+    "weaponType": "Kitgun",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_ATTACK",
+    "rerolls": 0,
+    "minimumMastery": 9,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Crit Damage Mod"
+      },
+      {
+        "trait": "Weapon Clip Max Mod"
+      },
+      {
+        "trait": "Weapon Crit Chance Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Projectile Speed Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-008",
     "name": "Veiled Kitgun Riven",
     "unveiled": false,
@@ -392,23 +506,7 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "riven-017",
-    "name": "Veiled Kitgun Riven",
-    "unveiled": false,
-    "owned": 1,
-    "weapon": null,
-    "weaponType": "Kitgun",
-    "rank": 0,
-    "maximumRank": 8,
-    "polarity": null,
-    "rerolls": 0,
-    "minimumMastery": 0,
-    "positiveTraits": [],
-    "negativeTraits": [],
-    "detailsStatus": "current direct fingerprint; trait values not decoded"
-  },
-  {
-    "rivenRef": "veiled-022",
+    "rivenRef": "veiled-024",
     "name": "Veiled Kitgun Riven",
     "unveiled": false,
     "owned": 4,
@@ -424,7 +522,7 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "riven-018",
+    "rivenRef": "riven-021",
     "name": "Veiled Melee Riven",
     "unveiled": false,
     "owned": 1,
@@ -440,10 +538,10 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "veiled-021",
+    "rivenRef": "veiled-023",
     "name": "Veiled Melee Riven",
     "unveiled": false,
-    "owned": 11,
+    "owned": 10,
     "weapon": null,
     "weaponType": "Melee",
     "rank": 0,
@@ -456,23 +554,7 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-020",
-    "name": "Veiled Rifle Riven",
-    "unveiled": false,
-    "owned": 1,
-    "weapon": null,
-    "weaponType": "Rifle",
-    "rank": 0,
-    "maximumRank": 8,
-    "polarity": null,
-    "rerolls": 0,
-    "minimumMastery": 0,
-    "positiveTraits": [],
-    "negativeTraits": [],
-    "detailsStatus": "current direct aggregate"
-  },
-  {
-    "rivenRef": "veiled-023",
+    "rivenRef": "veiled-025",
     "name": "Veiled Zaw Riven",
     "unveiled": false,
     "owned": 3,

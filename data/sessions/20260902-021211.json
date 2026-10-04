@@ -1,7 +1,40 @@
 {
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
+  "missionCount": 10,
+  "positiveItemDeltas": [
+    {
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": 1
+    }
+  ],
   "errorEventCount": 4,
   "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
+  "configurationChanges": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Coda Hirudo",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 0,
+  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
   "negativeItemDeltas": [
     {
       "item": "Cubic Diodes",
@@ -16,32 +49,6 @@
       "delta": -1
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": 1
-    }
-  ],
-  "equipmentAdded": [],
-  "missionCount": 10,
-  "configurationChanges": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Coda Hirudo",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -165,15 +172,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 0,
   "durationSeconds": 5473.26,
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
-    }
-  ],
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
   "notableAcquisitions": [
     {
       "item": "Blueprint",
