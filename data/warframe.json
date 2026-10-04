@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-04",
-    "exportVerifiedAt": "2026-10-04 09:08:43 PDT",
+    "exportVerifiedAt": "2026-10-04 09:51:40 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167806,
-        "modified": "2026-10-04T09:08:42.384198-07:00",
-        "sha256": "42cfb182a639a3b6e7456507cebffdacd143d057885073d84c8508b44c3312d9"
+        "bytes": 2167803,
+        "modified": "2026-10-04T09:51:39.737932-07:00",
+        "sha256": "2f612cec32cad4050ecb9945df52e71a7f7695b5ed582c101b7732838cdc613e"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-04T09:08:42.393130-07:00",
+        "modified": "2026-10-04T09:51:39.746013-07:00",
         "sha256": "2dd4930dd6f15d7e6d5a6b0b10dcef3201f097e4aec8957fbbbf54161b37f5eb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-04T09:08:42.387215-07:00",
+        "modified": "2026-10-04T09:51:39.741475-07:00",
         "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-04T09:08:42.391115-07:00",
+        "modified": "2026-10-04T09:51:39.744004-07:00",
         "sha256": "df048d2969bf96a8a7b9c9cbf0d312526ef755d20266df6264775068cc0d6c9d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-04T09:08:42.396115-07:00",
+        "modified": "2026-10-04T09:51:39.748521-07:00",
         "sha256": "5f36f73d7d825e3cc48a3b17af23228d45e82001acadc90688f045b339b759ba"
       },
       "rivens.json": {
@@ -48,16 +48,46 @@
     },
     "importChanges": [
       {
-        "item": "Sheev",
+        "item": "Magnus Prime",
         "before": [
-          "No",
-          "No",
           "Yes",
+          "No",
+          "No",
           ""
         ],
         "after": [
           "Yes",
+          "Yes",
           "No",
+          ""
+        ]
+      },
+      {
+        "item": "Sheev",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vulkar Wraith",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
           "No",
           ""
         ]
@@ -3013,15 +3043,6 @@
       "source": "https://wiki.warframe.com/w/Lato_Vandal"
     },
     {
-      "item": "Magnus Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Magnus_Prime"
-    },
-    {
       "item": "Masseter Prime",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -3103,15 +3124,6 @@
       "source": "https://wiki.warframe.com/w/Rhino_Prime"
     },
     {
-      "item": "Sheev",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sheev"
-    },
-    {
       "item": "Sicarus Prime",
       "type": "secondary",
       "state": "Rank unknown — verify in Arsenal",
@@ -3146,15 +3158,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Volnus_Prime"
-    },
-    {
-      "item": "Vulkar Wraith",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Vulkar_Wraith"
     },
     {
       "item": "Zakti Prime",
@@ -11872,15 +11875,15 @@
     {
       "item": "Magnus Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -15849,14 +15852,14 @@
     {
       "item": "Sheev",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Grineer Invasion reward rotation / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -19037,14 +19040,14 @@
     {
       "item": "Vulkar Wraith",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",

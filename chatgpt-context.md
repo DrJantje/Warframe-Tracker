@@ -1,46 +1,49 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-04T16:08:43.106988+00:00
-Account snapshot: 2026-10-04T16:08:42.209Z
+Generated: 2026-10-04T16:51:40.466249+00:00
+Account snapshot: 2026-10-04T16:51:39.505Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: unknown (sync-awaiting-snapshot)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: Titania (location-active)
 - Steel Path: no
-- Matchmaking: UNKNOWN
-- Focus during current capture: 0
+- Matchmaking: PUBLIC
+- Focus during current capture: 333079
 
 ## Current synchronized loadouts and builds
 
 ### Arsenal: Hildryn
 
-#### Warframe: Rhino Prime — config A
+#### Warframe: Hildryn Prime — config A
+
+- Forma: 4
+- Lens: Eidolon Naramon Lens
+- Helminth: Shed Ability
+- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
+- Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
+- Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
+
+#### Secondary: Magnus Prime — config A
 
 - Forma: 0
-- Mods: Stretch (rank 5), Vitality (rank 10), Streamline (rank 5), Steel Fiber (rank 10), Primed Redirection (rank 10), Pistol Amp (rank 5)
-- Arcanes: Arcane Blessing (rank 5), Molt Augmented (rank 5)
-
-#### Secondary: Lato Vandal — config A
-
-- Forma: 0
-- Mods: Scorch (rank 3), Pistol Pestilence (rank 3), Frostbite (rank 3), Hornet Strike (rank 10)
+- Mods: none recorded
 - Arcanes: none recorded
 
-#### Primary: Prisma Grinlok — config A
+#### Primary: Vulkar Wraith — config A
 
 - Forma: 0
-- Mods: Serration (rank 10), Thermite Rounds (rank 3), Rime Rounds (rank 3), Malignant Force (rank 3)
+- Mods: none recorded
 - Arcanes: none recorded
 
-#### Melee: Karyst Prime — config A
+#### Melee: Sheev — config A
 
 - Forma: 0
-- Mods: True Steel (rank 5), Magnetic Rush (rank 3), Primed Reach (rank 10), Pressure Point (rank 5), Primed Fever Strike (rank 10), Pointed Wind (rank 3)
+- Mods: none recorded
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -48,6 +51,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Forma: 3
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
+
+#### Exalted weapon: Balefire Charger Prime — config A
+
+- Forma: 8
+- Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Pistol Pestilence (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 9), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Hildryn
 
