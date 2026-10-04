@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-03",
-    "exportVerifiedAt": "2026-10-03 14:58:26 PDT",
+    "snapshotDate": "2026-10-04",
+    "exportVerifiedAt": "2026-10-04 09:08:43 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167806,
-        "modified": "2026-10-03T14:58:25.851389-07:00",
-        "sha256": "50c146c42200af20286a12e79ffb1e2db3053cd93a419bf6c1d7003f1d229272"
+        "modified": "2026-10-04T09:08:42.384198-07:00",
+        "sha256": "42cfb182a639a3b6e7456507cebffdacd143d057885073d84c8508b44c3312d9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-03T14:58:25.853896-07:00",
+        "modified": "2026-10-04T09:08:42.393130-07:00",
         "sha256": "2dd4930dd6f15d7e6d5a6b0b10dcef3201f097e4aec8957fbbbf54161b37f5eb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-03T14:58:25.852391-07:00",
+        "modified": "2026-10-04T09:08:42.387215-07:00",
         "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-03T14:58:25.853390-07:00",
+        "modified": "2026-10-04T09:08:42.391115-07:00",
         "sha256": "df048d2969bf96a8a7b9c9cbf0d312526ef755d20266df6264775068cc0d6c9d"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-03T14:58:25.854898-07:00",
+        "modified": "2026-10-04T09:08:42.396115-07:00",
         "sha256": "5f36f73d7d825e3cc48a3b17af23228d45e82001acadc90688f045b339b759ba"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Sheev",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -1244,7 +1260,9 @@
       "source": "https://wiki.warframe.com/w/Latron_Wraith",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [],
+      "liveMatches": [
+        "Invasion: Latron Wraith Receiver"
+      ],
       "practicalPriority": 765
     },
     {
@@ -3085,6 +3103,15 @@
       "source": "https://wiki.warframe.com/w/Rhino_Prime"
     },
     {
+      "item": "Sheev",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Sheev"
+    },
+    {
       "item": "Sicarus Prime",
       "type": "secondary",
       "state": "Rank unknown — verify in Arsenal",
@@ -3146,15 +3173,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Zhuge_Prime"
-    },
-    {
-      "item": "Sheev",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Sheev"
     }
   ],
   "rank40": [
@@ -11493,7 +11511,9 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [
+        "Invasion: Latron Wraith Receiver"
+      ]
     },
     {
       "item": "Lavos",
@@ -15829,17 +15849,17 @@
     {
       "item": "Sheev",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Grineer Invasion reward rotation / player trade",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Sheev",
       "steps": "Check active Invasions for the Sheev Blueprint, Blade, Heatsink and Hilt. Complete the required three missions for the side offering the needed component, or trade for the missing component.",
