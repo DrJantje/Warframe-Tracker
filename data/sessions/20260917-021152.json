@@ -1,6 +1,12 @@
 {
-  "focusEarnedDuringCapture": 42488,
-  "durationSeconds": 8416.543,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Entrati Obols",
@@ -71,11 +77,6 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
-  "missionCount": 7,
-  "schemaVersion": 1,
-  "equipmentAdded": [],
-  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-17T03:39:50.544498+00:00",
@@ -122,7 +123,7 @@
       "helminthAfter": null
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
   "focusCounterAtCaptureEnd": 42488,
   "startedAt": "2026-09-17T02:11:52.565728+00:00",
   "missions": [
@@ -212,13 +213,12 @@
       "incomplete": true
     }
   ],
+  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
+  "durationSeconds": 8416.543,
   "errorEventCount": 11,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
+  "focusEarnedDuringCapture": 42488,
+  "missionCount": 7,
+  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "Meso Y2 Intact",

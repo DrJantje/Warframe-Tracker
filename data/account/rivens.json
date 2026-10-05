@@ -1,5 +1,35 @@
 [
   {
+    "rivenRef": "riven-024",
+    "name": "Akbolto Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Akbolto",
+    "weaponType": "Pistol",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_TACTIC",
+    "rerolls": 0,
+    "minimumMastery": 8,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Clip Max Mod"
+      },
+      {
+        "trait": "Weapon Fire Iterations Mod"
+      },
+      {
+        "trait": "Weapon Fire Rate Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Reload Speed Mod"
+      }
+    ],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
     "rivenRef": "riven-012",
     "name": "Ambassador Riven",
     "unveiled": true,
@@ -532,7 +562,7 @@
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   },
   {
-    "rivenRef": "veiled-025",
+    "rivenRef": "veiled-026",
     "name": "Veiled Kitgun Riven",
     "unveiled": false,
     "owned": 4,
@@ -548,7 +578,7 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-024",
+    "rivenRef": "veiled-025",
     "name": "Veiled Melee Riven",
     "unveiled": false,
     "owned": 11,
@@ -564,23 +594,7 @@
     "detailsStatus": "current direct aggregate"
   },
   {
-    "rivenRef": "veiled-023",
-    "name": "Veiled Pistol Riven",
-    "unveiled": false,
-    "owned": 2,
-    "weapon": null,
-    "weaponType": "Pistol",
-    "rank": 0,
-    "maximumRank": 8,
-    "polarity": null,
-    "rerolls": 0,
-    "minimumMastery": 0,
-    "positiveTraits": [],
-    "negativeTraits": [],
-    "detailsStatus": "current direct aggregate"
-  },
-  {
-    "rivenRef": "veiled-026",
+    "rivenRef": "veiled-027",
     "name": "Veiled Zaw Riven",
     "unveiled": false,
     "owned": 3,
@@ -619,6 +633,36 @@
       }
     ],
     "negativeTraits": [],
+    "detailsStatus": "current direct fingerprint; trait values not decoded"
+  },
+  {
+    "rivenRef": "riven-023",
+    "name": "Zakti Riven",
+    "unveiled": true,
+    "owned": 1,
+    "weapon": "Zakti",
+    "weaponType": "Pistol",
+    "rank": 0,
+    "maximumRank": 8,
+    "polarity": "AP_ATTACK",
+    "rerolls": 0,
+    "minimumMastery": 14,
+    "positiveTraits": [
+      {
+        "trait": "Weapon Projectile Speed Mod"
+      },
+      {
+        "trait": "Weapon Faction Damage Corpus"
+      },
+      {
+        "trait": "Weapon Fire Iterations Mod"
+      }
+    ],
+    "negativeTraits": [
+      {
+        "trait": "Weapon Zoom Fov Mod"
+      }
+    ],
     "detailsStatus": "current direct fingerprint; trait values not decoded"
   }
 ]
