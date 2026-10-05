@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-05",
-    "exportVerifiedAt": "2026-10-05 09:45:35 PDT",
+    "exportVerifiedAt": "2026-10-05 09:50:31 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167787,
-        "modified": "2026-10-05T09:45:35.008094-07:00",
-        "sha256": "6519293a8e0dc7f203da023294f50deda87fb5d29848063508f8e6590573deac"
+        "bytes": 2167786,
+        "modified": "2026-10-05T09:50:30.707122-07:00",
+        "sha256": "fd90c4f01e6d48e374a4a514374951f71af88be7976e975d2b2990f95748ec79"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-05T09:45:35.011110-07:00",
+        "modified": "2026-10-05T09:50:30.715666-07:00",
         "sha256": "69cb258387cc35dd0cd7d8cdf1d45f9de22ea3aee395f23c10e23b32df023ac5"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-05T09:45:35.009601-07:00",
+        "modified": "2026-10-05T09:50:30.710143-07:00",
         "sha256": "51937ce635d62a1374c63053814609fd313d4522d8ba119d93065dafc8e9793e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-05T09:45:35.010106-07:00",
+        "modified": "2026-10-05T09:50:30.714159-07:00",
         "sha256": "6cb63e496d5f16ddff25700b57cd9f4d5aafe4875dbc99a5c12b9a1898ae1fce"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-05T09:45:35.012617-07:00",
+        "modified": "2026-10-05T09:50:30.719191-07:00",
         "sha256": "a3fbd21256eb77ca94febe469bd6a928e09e24a9e756f86d78da97af890e0a56"
       },
       "rivens.json": {
@@ -46,13 +46,29 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Snipetron Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Snipetron Vandal Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 161
+      "missing": 160
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1184,21 +1200,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 655
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Snipetron Vandal",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Snipetron Vandal Stock",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 755
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2920,7 +2921,17 @@
       "practicalPriority": 515
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Snipetron Vandal",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Snipetron_Vandal"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -15903,17 +15914,17 @@
     {
       "item": "Snipetron Vandal",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Snipetron Vandal Stock",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "steps": "Watch active Invasions for each missing component or trade for the component.",

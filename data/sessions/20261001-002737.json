@@ -6,6 +6,35 @@
     }
   ],
   "schemaVersion": 1,
+  "missions": [
+    {
+      "startedAt": "2026-10-01T00:28:14.814000+00:00",
+      "endedAt": "2026-10-01T00:28:17.371000+00:00",
+      "durationSeconds": 2.557,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-01T00:32:10.120000+00:00",
+      "endedAt": "2026-10-01T00:40:51.730564+00:00",
+      "durationSeconds": 521.611,
+      "type": "SANCTUM",
+      "node": "SolNode801",
+      "label": null,
+      "missionKey": "SolNode801",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
   "startedAt": "2026-10-01T00:27:37.397896+00:00",
   "configurationChanges": [
     {
@@ -51,42 +80,13 @@
       "delta": -1
     }
   ],
-  "missionCount": 2,
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
-  "errorEventCount": 1,
-  "missions": [
-    {
-      "startedAt": "2026-10-01T00:28:14.814000+00:00",
-      "endedAt": "2026-10-01T00:28:17.371000+00:00",
-      "durationSeconds": 2.557,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode801",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-01T00:32:10.120000+00:00",
-      "endedAt": "2026-10-01T00:40:51.730564+00:00",
-      "durationSeconds": 521.611,
-      "type": "SANCTUM",
-      "node": "SolNode801",
-      "label": null,
-      "missionKey": "SolNode801",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
   "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
   "durationSeconds": 794.333,
+  "focusCounterAtCaptureEnd": 0,
   "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
-  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 1,
+  "missionCount": 2,
   "notableAcquisitions": [
     {
       "item": "T1 Void Projection Citrine Prime CBronze",
