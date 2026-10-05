@@ -1,18 +1,18 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-05T15:30:51.073152+00:00
-Account snapshot: 2026-10-05T15:30:49.985Z
+Generated: 2026-10-05T15:36:38.790334+00:00
+Account snapshot: 2026-10-05T15:36:37.925Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: unknown (sync-awaiting-snapshot)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: Titania (mission-active)
 - Steel Path: no
-- Matchmaking: UNKNOWN
+- Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -48,10 +48,10 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Companion: Hildryn
 
-#### Companion: Wyrm — config A
+#### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
-- Mods: Vacuum (rank 5), Assault Mode (rank 5), Spare Parts (rank 5), Animal Instinct (rank 5), Shield Charger (rank 5)
+- Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
 #### Companion weapon: Artax — config A

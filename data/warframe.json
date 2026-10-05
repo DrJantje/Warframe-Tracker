@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-05",
-    "exportVerifiedAt": "2026-10-05 08:30:51 PDT",
+    "exportVerifiedAt": "2026-10-05 08:36:39 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167786,
-        "modified": "2026-10-05T08:30:50.185851-07:00",
-        "sha256": "bc522fcd3ad84d4b4fd6685c680810768fdbf9268ceb0de1399ca5b125226f35"
+        "modified": "2026-10-05T08:36:38.111566-07:00",
+        "sha256": "47be1e0e08375575e047098f44d907d796ada7872623c0b087f3ad22010bcb94"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-05T08:30:50.193995-07:00",
+        "modified": "2026-10-05T08:36:38.113193-07:00",
         "sha256": "e48bd4fe58c46822511d50ff59cb06b238fc667f5d1645cf06283d21a6ea0bd0"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-05T08:30:50.187864-07:00",
+        "modified": "2026-10-05T08:36:38.112688-07:00",
         "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-05T08:30:50.190881-07:00",
+        "modified": "2026-10-05T08:36:38.113193-07:00",
         "sha256": "1a5664d2dc615eed866a12f5ca4bdb10298c9534bf6d633fb4d4c0e1d94ce1b4"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-05T08:30:50.199525-07:00",
+        "modified": "2026-10-05T08:36:38.114701-07:00",
         "sha256": "2bb55f93f1cb2755e35e0d7008e34e423bdbe1fcc1b8bc4e612c6725533c159a"
       },
       "rivens.json": {
@@ -48,123 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Banshee Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Fragor Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Okina Prime",
+        "item": "Hespar",
         "before": [
           "No",
           "No",
           "No",
-          "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)"
+          "Hespar Blade Blueprint; Hespar Handle Blueprint"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Okina Prime Blade (1/2); Okina Prime Blueprint"
-        ]
-      },
-      {
-        "item": "Pandero Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Quassus Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Stradavar Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Volnus Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Zhuge Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
+          "Hespar Handle Blueprint"
         ]
       }
     ],
@@ -387,6 +282,21 @@
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "baro",
+      "practicalPriority": 405
+    },
+    {
+      "ease": "4 — Multi-step farm",
+      "item": "Hespar",
+      "type": "melee",
+      "targetRank": "30",
+      "missing": "Hespar Handle Blueprint",
+      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
+      "steps": "Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
+      "source": "https://wiki.warframe.com/w/Hespar",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
       "practicalPriority": 405
     },
     {
@@ -699,21 +609,6 @@
       "steps": "Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Blueprint and Receiver.",
       "tip": "Blueprint chance: 17.65%. Receiver chance: 32.35%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.",
       "source": "https://wiki.warframe.com/w/Detron",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Hespar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
-      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
-      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
-      "source": "https://wiki.warframe.com/w/Hespar",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -9440,14 +9335,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Hespar Blade Blueprint; Hespar Handle Blueprint",
+      "missing": "Hespar Handle Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Blade Blueprint: Oro Works Void Armageddon rotation C. Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "steps": "Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
       "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
