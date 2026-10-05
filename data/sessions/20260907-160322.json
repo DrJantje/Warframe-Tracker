@@ -1,4 +1,34 @@
 {
+  "negativeItemDeltas": [
+    {
+      "item": "Thrax Plasm",
+      "delta": -13
+    },
+    {
+      "item": "Stela",
+      "delta": -10
+    },
+    {
+      "item": "<Shard_yellow_simple> Amber Archon Shard",
+      "delta": -2
+    },
+    {
+      "item": "Cipher",
+      "delta": -2
+    },
+    {
+      "item": "Forma",
+      "delta": -2
+    },
+    {
+      "item": "Voidplume Pinion",
+      "delta": -2
+    },
+    {
+      "item": "Greater Madurai Lens",
+      "delta": -1
+    }
+  ],
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -101,8 +131,9 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 10404,
   "startedAt": "2026-09-07T16:03:22.655084+00:00",
+  "durationSeconds": 10584.229,
   "missions": [
     {
       "startedAt": "2026-09-07T16:03:32.439000+00:00",
@@ -238,41 +269,6 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Thrax Plasm",
-      "delta": -13
-    },
-    {
-      "item": "Stela",
-      "delta": -10
-    },
-    {
-      "item": "<Shard_yellow_simple> Amber Archon Shard",
-      "delta": -2
-    },
-    {
-      "item": "Cipher",
-      "delta": -2
-    },
-    {
-      "item": "Forma",
-      "delta": -2
-    },
-    {
-      "item": "Voidplume Pinion",
-      "delta": -2
-    },
-    {
-      "item": "Greater Madurai Lens",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 10584.229,
-  "focusCounterAtCaptureEnd": 10404,
-  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-07T18:04:28.167545+00:00",
@@ -359,9 +355,13 @@
       "helminthAfter": null
     }
   ],
-  "focusEarnedDuringCapture": 10404,
-  "equipmentAdded": [],
   "missionCount": 11,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 10404,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
+  "schemaVersion": 1,
   "errorEventCount": 4,
   "notableAcquisitions": [
     {

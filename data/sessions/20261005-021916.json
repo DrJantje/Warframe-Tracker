@@ -1,4 +1,14 @@
 {
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    },
+    {
+      "item": "Wheelie To The Stars Poster",
+      "delta": -1
+    }
+  ],
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -89,8 +99,9 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
   "startedAt": "2026-10-05T02:19:16.904139+00:00",
+  "durationSeconds": null,
   "missions": [
     {
       "startedAt": "2026-10-05T02:19:21.558000+00:00",
@@ -226,21 +237,6 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    },
-    {
-      "item": "Wheelie To The Stars Poster",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": null,
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": null,
   "configurationChanges": [
     {
       "at": "2026-10-05T02:53:28.100082+00:00",
@@ -506,9 +502,13 @@
       "helminthAfter": null
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
   "missionCount": 11,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "stoppedAt": null,
+  "schemaVersion": 1,
   "errorEventCount": 5,
   "notableAcquisitions": [
     {

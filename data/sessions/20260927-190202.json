@@ -1,4 +1,42 @@
 {
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -1500
+    },
+    {
+      "item": "Plastids",
+      "delta": -900
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -65
+    },
+    {
+      "item": "Morphics",
+      "delta": -4
+    },
+    {
+      "item": "Control Module",
+      "delta": -3
+    },
+    {
+      "item": "Receiver",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "String",
+      "delta": -1
+    }
+  ],
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -29,8 +67,9 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
   "startedAt": "2026-09-27T19:02:02.811372+00:00",
+  "durationSeconds": 7384.328,
   "missions": [
     {
       "startedAt": "2026-09-27T19:02:07.468000+00:00",
@@ -562,53 +601,14 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -1500
-    },
-    {
-      "item": "Plastids",
-      "delta": -900
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -65
-    },
-    {
-      "item": "Morphics",
-      "delta": -4
-    },
-    {
-      "item": "Control Module",
-      "delta": -3
-    },
-    {
-      "item": "Receiver",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "String",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 7384.328,
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
   "configurationChanges": [],
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
   "missionCount": 44,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
+  "schemaVersion": 1,
   "errorEventCount": 6,
   "notableAcquisitions": [
     {
