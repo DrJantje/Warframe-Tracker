@@ -1,28 +1,32 @@
 {
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "missionCount": 6,
-  "configurationChanges": [
+  "equipmentAdded": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Koumei"
     },
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Higasa"
     }
   ],
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 6390.914,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
   "schemaVersion": 1,
   "missions": [
     {
@@ -99,10 +103,31 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "errorEventCount": 4,
   "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "durationSeconds": 6390.914,
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -133,33 +158,8 @@
       "delta": -2
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
-  "errorEventCount": 4,
+  "missionCount": 6,
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
