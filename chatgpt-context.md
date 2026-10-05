@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-05T17:04:32.480135+00:00
-Account snapshot: 2026-10-05T17:04:31.669Z
+Generated: 2026-10-05T17:18:44.024862+00:00
+Account snapshot: 2026-10-05T17:18:43.081Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -19,30 +19,28 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Arsenal: E.D.A
 
-#### Warframe: Uriel — config A
+#### Warframe: Khora Prime — config A
+
+- Forma: 1
+- Mods: Primed Flow (rank 10), Stretch (rank 5), Augur Reach (rank 5), Overextended (rank 5), Archon Continuity (rank 10), Accumulating Whipclaw (rank 3), Pilfering Strangledome (rank 3), Transient Fortitude (rank 10), Dreamer's Bond (rank 5), Cunning Drift (rank 5)
+- Arcanes: Arcane Camisado (rank 5), Arcane Energize (rank 5)
+
+#### Secondary: Tenet Cycron — config A
 
 - Forma: 5
-- Archon shards: ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Duration Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Duration Mythic, ACC_YELLOW Archon Crystal Upgrade Warframe Parkour Velocity
-- Mods: Archon Vitality (rank 10), Archon Continuity (rank 10), Blind Rage (rank 10), Umbral Intensify (rank 10), Stretch (rank 5), Equilibrium (rank 10), Primed Flow (rank 10), Overextended (rank 5), Growing Power (rank 5), Cunning Drift (rank 5)
-- Arcanes: Arcane Hot Shot (rank 4), Arcane Camisado (rank 5)
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
 
-#### Secondary: Stubba — config A
+#### Primary: Purgator 1 — config A
 
 - Forma: 0
-- Mods: Hornet Strike (rank 10), Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5)
+- Mods: Split Chamber (rank 5), Serration (rank 10)
 - Arcanes: none recorded
 
-#### Primary: Coda Bubonico — config A
+#### Melee: Furax Wraith — config A
 
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
-
-#### Melee: Coda Motovore — config A
-
-- Forma: 5
-- Mods: Gladiator Might (rank 5), Virulent Scourge (rank 3), Organ Shatter (rank 5), Primed Fever Strike (rank 10), True Steel (rank 5), Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Crushing Ruin (rank 3)
+- Forma: 0
+- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Grattler — config A
@@ -50,6 +48,24 @@ Use this as the player's current sanitized account and session context. Live obs
 - Forma: 0
 - Mods: Hollowed Bullets (rank 3), Rubedo-Lined Barrel (rank 5), Electrified Barrel (rank 5), Combustion Rounds (rank 5), Dual Rounds (rank 5), Parallax Scope (rank 3)
 - Arcanes: none recorded
+
+#### Exalted weapon: Venari Prime — config A
+
+- Forma: 0
+- Mods: Sharpened Claws (rank 3), Metal Fiber (rank 8), Contagious Bond (rank 5), Tenacious Bond (rank 5), Primed Animal Instinct (rank 10), Calculated Redirection (rank 10), Hunter Recovery (rank 5), Fetch (rank 5)
+- Arcanes: none recorded
+
+#### Second exalted weapon: Venari Prime Pet Weapon — config A
+
+- Forma: 0
+- Mods: Radon Claws (rank 3), Magnetic Claws (rank 3), Frost Jaw (rank 3), Flame Gland (rank 3), Swipe (rank 3), Cull The Weak (rank 5), Maul (rank 10), Bite (rank 10), Frenzied Posture (rank 3)
+- Arcanes: none recorded
+
+#### c: Whipclaw Prime — config A
+
+- Forma: 0
+- Mods: Drifting Contact (rank 3), Gladiator Might (rank 5), Organ Shatter (rank 5), Sacrificial Steel (rank 10), Primed Reach (rank 10), Sacrificial Pressure (rank 10)
+- Arcanes: Melee Exposure (rank 3)
 
 ### Companion: E.D.A
 

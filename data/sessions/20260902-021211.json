@@ -1,38 +1,20 @@
 {
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
   "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "positiveItemDeltas": [
+  "negativeItemDeltas": [
     {
-      "item": "Blueprint",
-      "delta": 1
+      "item": "Cubic Diodes",
+      "delta": -7000
     },
     {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": 1
-    }
-  ],
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
-  "equipmentRemoved": [
+      "item": "Rubedo",
+      "delta": -6000
+    },
     {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
+      "item": "Forma",
+      "delta": -1
     }
   ],
-  "errorEventCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "configurationChanges": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Coda Hirudo",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -156,24 +138,42 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "missionCount": 10,
-  "durationSeconds": 5473.26,
-  "focusCounterAtCaptureStart": 0,
-  "negativeItemDeltas": [
+  "equipmentRemoved": [
     {
-      "item": "Cubic Diodes",
-      "delta": -7000
-    },
-    {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Forma",
-      "delta": -1
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
     }
   ],
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Coda Hirudo",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "missionCount": 10,
+  "errorEventCount": 4,
+  "positiveItemDeltas": [
+    {
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": 1
+    }
+  ],
+  "focusEarnedDuringCapture": 0,
+  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
+  "durationSeconds": 5473.26,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
