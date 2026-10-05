@@ -1,20 +1,7 @@
 {
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-09-22T00:09:45.126997+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": true,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "durationSeconds": 4208.394,
+  "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
+  "schemaVersion": 1,
   "focusEarnedDuringCapture": 37234,
   "negativeItemDeltas": [
     {
@@ -142,11 +129,9 @@
       "delta": -1
     }
   ],
-  "missionCount": 6,
-  "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
-  "startedAt": "2026-09-21T23:04:48.469936+00:00",
+  "focusCounterAtCaptureStart": 0,
   "errorEventCount": 3,
-  "equipmentAdded": [],
+  "missionCount": 6,
   "missions": [
     {
       "startedAt": "2026-09-21T23:04:51.539000+00:00",
@@ -222,6 +207,21 @@
       "incomplete": true
     }
   ],
+  "equipmentAdded": [],
+  "configurationChanges": [
+    {
+      "at": "2026-09-22T00:09:45.126997+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": true,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 37234,
+  "equipmentRemoved": [],
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -288,7 +288,7 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 37234,
+  "startedAt": "2026-09-21T23:04:48.469936+00:00",
   "notableAcquisitions": [
     {
       "item": "Axi V14 Intact",

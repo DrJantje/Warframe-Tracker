@@ -1,30 +1,7 @@
 {
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "durationSeconds": 6390.914,
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "schemaVersion": 1,
   "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
@@ -56,20 +33,9 @@
       "delta": -2
     }
   ],
-  "missionCount": 6,
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "focusCounterAtCaptureStart": 0,
   "errorEventCount": 4,
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
-    }
-  ],
+  "missionCount": 6,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -145,6 +111,40 @@
       "incomplete": true
     }
   ],
+  "equipmentAdded": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Koumei"
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Higasa"
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
   "positiveItemDeltas": [
     {
       "item": "Koumei Helmet",
@@ -159,7 +159,7 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

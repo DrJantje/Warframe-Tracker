@@ -1,40 +1,7 @@
 {
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "durationSeconds": 19058.296,
+  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
+  "schemaVersion": 1,
   "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
@@ -82,11 +49,9 @@
       "delta": -1
     }
   ],
-  "missionCount": 11,
-  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-  "startedAt": "2026-08-22T20:08:07.929878+00:00",
+  "focusCounterAtCaptureStart": 0,
   "errorEventCount": 7,
-  "equipmentAdded": [],
+  "missionCount": 11,
   "missions": [
     {
       "startedAt": "2026-08-22T20:08:13.048000+00:00",
@@ -222,6 +187,41 @@
       "incomplete": true
     }
   ],
+  "equipmentAdded": [],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -296,7 +296,7 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-08-22T20:08:07.929878+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
