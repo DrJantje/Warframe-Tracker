@@ -1,6 +1,47 @@
 {
+  "errorEventCount": 6,
+  "focusEarnedDuringCapture": 0,
   "focusCounterAtCaptureEnd": 0,
-  "configurationChanges": [],
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -1500
+    },
+    {
+      "item": "Plastids",
+      "delta": -900
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -65
+    },
+    {
+      "item": "Morphics",
+      "delta": -4
+    },
+    {
+      "item": "Control Module",
+      "delta": -3
+    },
+    {
+      "item": "Receiver",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "String",
+      "delta": -1
+    }
+  ],
+  "equipmentAdded": [],
+  "durationSeconds": 7384.328,
   "missions": [
     {
       "startedAt": "2026-09-27T19:02:07.468000+00:00",
@@ -532,52 +573,6 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 7384.328,
-  "errorEventCount": 6,
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -1500
-    },
-    {
-      "item": "Plastids",
-      "delta": -900
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -65
-    },
-    {
-      "item": "Morphics",
-      "delta": -4
-    },
-    {
-      "item": "Control Module",
-      "delta": -3
-    },
-    {
-      "item": "Receiver",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "String",
-      "delta": -1
-    }
-  ],
-  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
-  "missionCount": 44,
-  "focusCounterAtCaptureStart": 0,
-  "equipmentRemoved": [],
-  "startedAt": "2026-09-27T19:02:02.811372+00:00",
-  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -608,8 +603,13 @@
       "delta": 1
     }
   ],
-  "equipmentAdded": [],
+  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
+  "missionCount": 44,
+  "startedAt": "2026-09-27T19:02:02.811372+00:00",
   "schemaVersion": 1,
+  "equipmentRemoved": [],
+  "configurationChanges": [],
+  "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
