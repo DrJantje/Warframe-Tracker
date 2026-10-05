@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-05T15:38:27.168347+00:00
-Account snapshot: 2026-10-05T15:38:26.130Z
+Generated: 2026-10-05T16:03:08.204766+00:00
+Account snapshot: 2026-10-05T16:03:07.389Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
-- Planet: TENNO
-- Frame observation: Titania (location-active)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -30,8 +30,8 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Melee: Coda Caustacyst — config A
 
-- Forma: 2
-- Mods: Primed Fever Strike (rank 10), Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
+- Forma: 3
+- Mods: none recorded
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
