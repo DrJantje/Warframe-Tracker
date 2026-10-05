@@ -1,7 +1,9 @@
 {
-  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
+  "missionCount": 5,
   "negativeItemDeltas": [],
-  "schemaVersion": 1,
+  "durationSeconds": 15786.642,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-12T20:38:25.393000+00:00",
@@ -65,7 +67,18 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 115888,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 115888,
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 438
+    }
+  ],
+  "errorEventCount": 12,
   "startedAt": "2026-09-12T20:38:21.811871+00:00",
   "configurationChanges": [
     {
@@ -122,19 +135,6 @@
       "helminthAfter": null
     }
   ],
-  "missionCount": 5,
-  "errorEventCount": 12,
-  "positiveItemDeltas": [
-    {
-      "item": "Rubedo",
-      "delta": 438
-    }
-  ],
-  "focusEarnedDuringCapture": 115888,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 115888,
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 15786.642,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
