@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-05",
-    "exportVerifiedAt": "2026-10-05 12:14:49 PDT",
+    "exportVerifiedAt": "2026-10-05 16:19:59 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167789,
-        "modified": "2026-10-05T12:14:48.245229-07:00",
-        "sha256": "a669971229b934de79e9b2823fd4140798b65d0547d6601bf11371ccca095b8d"
+        "bytes": 2167787,
+        "modified": "2026-10-05T16:19:58.424904-07:00",
+        "sha256": "3b6ec04efbe4b63d63abe3a1f9475d0634335c1fe7d197f77e42d1b04048d6d7"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-05T12:14:48.249567-07:00",
+        "modified": "2026-10-05T16:19:58.431443-07:00",
         "sha256": "e9786362a7dab84d44faa649cf4ca8b69c4b160874d2ea9ee1dfe5df832d84fb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-05T12:14:48.246743-07:00",
+        "modified": "2026-10-05T16:19:58.428412-07:00",
         "sha256": "51937ce635d62a1374c63053814609fd313d4522d8ba119d93065dafc8e9793e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-05T12:14:48.248399-07:00",
+        "modified": "2026-10-05T16:19:58.429917-07:00",
         "sha256": "6cb63e496d5f16ddff25700b57cd9f4d5aafe4875dbc99a5c12b9a1898ae1fce"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-05T12:14:48.251088-07:00",
+        "modified": "2026-10-05T16:19:58.435366-07:00",
         "sha256": "a3fbd21256eb77ca94febe469bd6a928e09e24a9e756f86d78da97af890e0a56"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Basmu",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Basmu Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Ceti Lacera",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Ceti Lacera Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 160
+      "missing": 158
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1229,36 +1260,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 765
-    },
-    {
-      "ease": "3 — Focused short farm",
-      "item": "Basmu",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Basmu Blueprint",
-      "route": "Recurring operation or Nights of Naberus / player trade",
-      "steps": "Not currently obtainable from an active event; Blueprint is tradeable.",
-      "tip": "Recent sources include Operation: Belly of the Beast and Nights of Naberus; it has also returned through other operations. Event history does not imply current availability.",
-      "source": "https://wiki.warframe.com/w/Basmu",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 805
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Ceti Lacera",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Ceti Lacera Blueprint",
-      "route": "Recurring operation or Nights of Naberus / player trade",
-      "steps": "Not currently obtainable from an active event; Blueprint is tradeable.",
-      "tip": "Recent sources include Operation: Belly of the Beast and Nights of Naberus. Event history does not imply current availability.",
-      "source": "https://wiki.warframe.com/w/Ceti_Lacera",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 905
     },
     {
       "ease": "4 — Multi-step farm",
@@ -2906,6 +2907,24 @@
     }
   ],
   "owned": [
+    {
+      "item": "Basmu",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Basmu"
+    },
+    {
+      "item": "Ceti Lacera",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Ceti_Lacera"
+    },
     {
       "item": "Snipetron Vandal",
       "type": "primary",
@@ -4632,17 +4651,17 @@
     {
       "item": "Basmu",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Basmu Blueprint",
-      "ease": "3 — Focused short farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Basmu",
       "steps": "Not currently obtainable from an active event; Blueprint is tradeable.",
@@ -5694,17 +5713,17 @@
     {
       "item": "Ceti Lacera",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Ceti Lacera Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Ceti_Lacera",
       "steps": "Not currently obtainable from an active event; Blueprint is tradeable.",
