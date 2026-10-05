@@ -1,11 +1,11 @@
 {
-  "missionCount": 2,
   "positiveItemDeltas": [
     {
       "item": "T1 Void Projection Citrine Prime CBronze",
       "delta": 1
     }
   ],
+  "startedAt": "2026-10-01T00:27:37.397896+00:00",
   "missions": [
     {
       "startedAt": "2026-10-01T00:28:14.814000+00:00",
@@ -33,14 +33,33 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
   "schemaVersion": 1,
   "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
-  "durationSeconds": 794.333,
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
-  "startedAt": "2026-10-01T00:27:37.397896+00:00",
-  "errorEventCount": 1,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Handle",
+      "delta": -2
+    },
+    {
+      "item": "Receiver",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "Stock",
+      "delta": -1
+    }
+  ],
+  "equipmentAdded": [],
+  "missionCount": 2,
   "configurationChanges": [
     {
       "at": "2026-10-01T00:40:10.052835+00:00",
@@ -64,29 +83,10 @@
     }
   ],
   "equipmentRemoved": [],
-  "equipmentAdded": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Handle",
-      "delta": -2
-    },
-    {
-      "item": "Receiver",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "Stock",
-      "delta": -1
-    }
-  ],
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 794.333,
+  "errorEventCount": 1,
   "notableAcquisitions": [
     {
       "item": "T1 Void Projection Citrine Prime CBronze",
