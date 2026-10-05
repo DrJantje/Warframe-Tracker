@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-04",
-    "exportVerifiedAt": "2026-10-04 22:51:08 PDT",
+    "snapshotDate": "2026-10-05",
+    "exportVerifiedAt": "2026-10-05 08:30:51 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167788,
-        "modified": "2026-10-04T22:51:08.035906-07:00",
-        "sha256": "4d518832c0db536ee4b7b20636b9ae04c93878e8e3c91a23dc0c37c89edd4d22"
+        "bytes": 2167786,
+        "modified": "2026-10-05T08:30:50.185851-07:00",
+        "sha256": "bc522fcd3ad84d4b4fd6685c680810768fdbf9268ceb0de1399ca5b125226f35"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-04T22:51:08.041507-07:00",
-        "sha256": "2055df96a4fa8a8b85448013b14ccf5f3c9d4249a4d652eb830879705dc29e06"
+        "modified": "2026-10-05T08:30:50.193995-07:00",
+        "sha256": "e48bd4fe58c46822511d50ff59cb06b238fc667f5d1645cf06283d21a6ea0bd0"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-04T22:51:08.037420-07:00",
+        "modified": "2026-10-05T08:30:50.187864-07:00",
         "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-04T22:51:08.038930-07:00",
-        "sha256": "dda922d550f49f6eda205be5e32112fe85f5047009f21dcf3e6a0695d3e15f96"
+        "modified": "2026-10-05T08:30:50.190881-07:00",
+        "sha256": "1a5664d2dc615eed866a12f5ca4bdb10298c9534bf6d633fb4d4c0e1d94ce1b4"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-04T22:51:08.045284-07:00",
+        "modified": "2026-10-05T08:30:50.199525-07:00",
         "sha256": "2bb55f93f1cb2755e35e0d7008e34e423bdbe1fcc1b8bc4e612c6725533c159a"
       },
       "rivens.json": {
@@ -46,7 +46,128 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Banshee Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Fragor Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Okina Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Okina Prime Blade (1/2); Okina Prime Blueprint"
+        ]
+      },
+      {
+        "item": "Pandero Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Quassus Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Stradavar Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Volnus Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Zhuge Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -75,7 +196,7 @@
       "Lith Q3 Intact": 0,
       "Lith S18 Intact": 9,
       "Lith T14 Intact": 18,
-      "Lith V11 Intact": 15,
+      "Lith V11 Intact": 16,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
       "Meso A12 Intact": 36,
@@ -1197,9 +1318,7 @@
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "vaulted": "No",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Stock"
-      ],
+      "liveMatches": [],
       "practicalPriority": 755
     },
     {
@@ -2465,9 +2584,9 @@
       "item": "Okina Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
+      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Okina Prime Handle ×2 (Uncommon): buy Meso V16 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
+      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Okina_Prime",
       "vaulted": "Yes",
@@ -2488,20 +2607,12 @@
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
           "refinement": "Radiant"
-        },
-        {
-          "part": "Okina Prime Handle (0/2)",
-          "relic": "Meso V16",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2930,71 +3041,7 @@
       "practicalPriority": 515
     }
   ],
-  "owned": [
-    {
-      "item": "Banshee Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Banshee_Prime"
-    },
-    {
-      "item": "Fragor Prime",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Fragor_Prime"
-    },
-    {
-      "item": "Pandero Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pandero_Prime"
-    },
-    {
-      "item": "Quassus Prime",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://www.warframe.com/droptables"
-    },
-    {
-      "item": "Stradavar Prime",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Stradavar_Prime"
-    },
-    {
-      "item": "Volnus Prime",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Volnus_Prime"
-    },
-    {
-      "item": "Zhuge Prime",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Zhuge_Prime"
-    }
-  ],
+  "owned": [],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -4654,15 +4701,15 @@
     {
       "item": "Banshee Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -8136,15 +8183,15 @@
     {
       "item": "Fragor Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
@@ -12991,7 +13038,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint; Okina Prime Handle (0/2)",
+      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -13015,20 +13062,12 @@
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
           "refinement": "Radiant"
-        },
-        {
-          "part": "Okina Prime Handle (0/2)",
-          "relic": "Meso V16",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Okina Prime Handle ×2 (Uncommon): buy Meso V16 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
+      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -13264,15 +13303,15 @@
     {
       "item": "Pandero Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -14495,15 +14534,15 @@
     {
       "item": "Quassus Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 13,
@@ -16001,9 +16040,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Snipetron Vandal Stock"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Sobek",
@@ -16326,15 +16363,15 @@
     {
       "item": "Stradavar Prime",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 12,
@@ -18720,15 +18757,15 @@
     {
       "item": "Volnus Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -19350,15 +19387,15 @@
     {
       "item": "Zhuge Prime",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
