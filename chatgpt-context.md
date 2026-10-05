@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-05T02:36:32.653135+00:00
-Account snapshot: 2026-10-05T02:36:31.817Z
+Generated: 2026-10-05T02:53:19.964113+00:00
+Account snapshot: 2026-10-05T02:53:19.148Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: orbiter
-- Location: LOADOUT
-- Planet: unknown
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
 - Frame observation: unknown (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -19,16 +19,28 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Arsenal: Hildryn
 
-#### Warframe: Rhino Prime — config A
+#### Warframe: Nidus Prime — config A
 
 - Forma: 0
-- Mods: Stretch (rank 5), Vitality (rank 10), Streamline (rank 5), Steel Fiber (rank 10), Primed Redirection (rank 10), Pistol Amp (rank 5)
-- Arcanes: Arcane Blessing (rank 5), Molt Augmented (rank 5)
+- Mods: Stretch (rank 5), Vitality (rank 10), Streamline (rank 5), Steel Fiber (rank 10), Intensify (rank 5), Pistol Amp (rank 5)
+- Arcanes: Arcane Blessing (rank 5), Arcane Energize (rank 5)
 
-#### Primary: Corinth Prime — config A
+#### Secondary: Sicarus Prime — config A
 
 - Forma: 0
-- Mods: Hell's Chamber (rank 5), Primed Point Blank (rank 10), Chilling Reload (rank 3), Critical Deceleration (rank 5)
+- Mods: Magnetic Might (rank 3), Primed Convulsion (rank 10), Hornet Strike (rank 10)
+- Arcanes: none recorded
+
+#### Primary: Prisma Lenz — config A
+
+- Forma: 0
+- Mods: Serration (rank 10), Split Chamber (rank 5), Critical Delay (rank 5)
+- Arcanes: none recorded
+
+#### Melee: Gram Prime — config A
+
+- Forma: 0
+- Mods: Pressure Point (rank 5), Primed Reach (rank 10), True Steel (rank 5), Primed Fever Strike (rank 10), Cleaving Whirlwind (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

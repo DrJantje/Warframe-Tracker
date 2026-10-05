@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T02:36:32.653135+00:00",
+  "generatedAt": "2026-10-05T02:53:19.964113+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,52 +8,52 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-05T02:36:31.817Z",
+  "accountSnapshotAt": "2026-10-05T02:53:19.148Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-05T02:36:31.817Z",
+      "capturedAt": "2026-10-05T02:53:19.148Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-05T02:36:26.335Z",
-    "phase": "orbiter",
-    "node": "ORBITER",
-    "planet": "",
-    "mission": "LOADOUT",
-    "missionKey": null,
+    "observedAt": "2026-10-05T02:53:02.051Z",
+    "phase": "mission",
+    "node": "SOLAR MAP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
+    "missionKey": "SolNode187_Alert",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
@@ -68,9 +68,9 @@
       "name": "Hildryn",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-061",
+          "buildRef": "suits-060",
           "resolutionStatus": "exact-build-ref",
-          "item": "Rhino Prime",
+          "item": "Nidus Prime",
           "category": "Suits",
           "configuration": "A",
           "formaApplied": 0,
@@ -101,8 +101,8 @@
               "kind": "mod"
             },
             {
-              "name": "Primed Redirection",
-              "rank": 10,
+              "name": "Intensify",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -118,16 +118,47 @@
               "kind": "arcane"
             },
             {
-              "name": "Molt Augmented",
+              "name": "Arcane Energize",
               "rank": 5,
               "kind": "arcane"
             }
           ]
         },
-        "Primary": {
-          "buildRef": "longguns-117",
+        "Secondary": {
+          "buildRef": "pistols-087",
           "resolutionStatus": "exact-build-ref",
-          "item": "Corinth Prime",
+          "item": "Sicarus Prime",
+          "category": "Pistols",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Magnetic Might",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Convulsion",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Hornet Strike",
+              "rank": 10,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": []
+        },
+        "Primary": {
+          "buildRef": "longguns-125",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Prisma Lenz",
           "category": "LongGuns",
           "configuration": "A",
           "formaApplied": 0,
@@ -138,23 +169,59 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Hell's Chamber",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Point Blank",
+              "name": "Serration",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Chilling Reload",
-              "rank": 3,
+              "name": "Split Chamber",
+              "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Critical Deceleration",
+              "name": "Critical Delay",
               "rank": 5,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": []
+        },
+        "Melee": {
+          "buildRef": "melee-152",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Gram Prime",
+          "category": "Melee",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Pressure Point",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Reach",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "True Steel",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Fever Strike",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Cleaving Whirlwind",
+              "rank": 3,
               "kind": "mod"
             }
           ],
