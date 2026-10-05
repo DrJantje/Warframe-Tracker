@@ -1,8 +1,4 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 6,
   "schemaVersion": 1,
   "missions": [
     {
@@ -79,6 +75,56 @@
       "incomplete": true
     }
   ],
+  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 4,
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -8821
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
+    }
+  ],
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "missionCount": 6,
   "configurationChanges": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -111,55 +157,9 @@
       "item": "Higasa"
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "errorEventCount": 4,
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -8821
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": -5670
-    },
-    {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
-    }
-  ],
+  "focusEarnedDuringCapture": 0,
   "durationSeconds": 6390.914,
+  "equipmentRemoved": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

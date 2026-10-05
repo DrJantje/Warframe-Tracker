@@ -1,8 +1,4 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 11,
   "schemaVersion": 1,
   "missions": [
     {
@@ -139,9 +135,21 @@
       "incomplete": true
     }
   ],
-  "configurationChanges": [],
-  "equipmentAdded": [],
   "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 3,
+  "stoppedAt": "2026-09-25T00:45:23.716778+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-09-24T20:22:51.026239+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Void Traces",
+      "delta": -14
+    },
+    {
+      "item": "Lith Q3 Intact",
+      "delta": -3
+    }
+  ],
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -188,20 +196,12 @@
       "delta": 1
     }
   ],
-  "startedAt": "2026-09-24T20:22:51.026239+00:00",
-  "stoppedAt": "2026-09-25T00:45:23.716778+00:00",
-  "errorEventCount": 3,
-  "negativeItemDeltas": [
-    {
-      "item": "Void Traces",
-      "delta": -14
-    },
-    {
-      "item": "Lith Q3 Intact",
-      "delta": -3
-    }
-  ],
+  "missionCount": 11,
+  "configurationChanges": [],
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
   "durationSeconds": 15752.691,
+  "equipmentRemoved": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
