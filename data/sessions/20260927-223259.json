@@ -1,6 +1,10 @@
 {
-  "errorEventCount": 3,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
   "schemaVersion": 1,
+  "startedAt": "2026-09-27T22:32:59.167153+00:00",
+  "missionCount": 10,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -155,9 +159,6 @@
       "delta": 1
     }
   ],
-  "equipmentAdded": [],
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
   "configurationChanges": [
     {
       "at": "2026-09-27T22:43:58.852750+00:00",
@@ -224,6 +225,60 @@
       "orderChanged": false,
       "helminthBefore": null,
       "helminthAfter": null
+    }
+  ],
+  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": -20000
+    },
+    {
+      "item": "Polymer Bundle",
+      "delta": -12500
+    },
+    {
+      "item": "Circuit Effect",
+      "delta": -7000
+    },
+    {
+      "item": "Cubic Diodes",
+      "delta": -7000
+    },
+    {
+      "item": "Rubedo",
+      "delta": -6000
+    },
+    {
+      "item": "Plastids",
+      "delta": -4000
+    },
+    {
+      "item": "Hexenon",
+      "delta": -300
+    },
+    {
+      "item": "Aya",
+      "delta": -12
+    },
+    {
+      "item": "Argon Crystal",
+      "delta": -8
+    },
+    {
+      "item": "Forma",
+      "delta": -2
+    },
+    {
+      "item": "Air Support Charges",
+      "delta": -1
+    }
+  ],
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-28T00:20:28.608291+00:00",
+      "item": "Nokko"
     }
   ],
   "missions": [
@@ -349,62 +404,7 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
-  "missionCount": 10,
-  "focusCounterAtCaptureStart": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Nano Spores",
-      "delta": -20000
-    },
-    {
-      "item": "Polymer Bundle",
-      "delta": -12500
-    },
-    {
-      "item": "Circuit Effect",
-      "delta": -7000
-    },
-    {
-      "item": "Cubic Diodes",
-      "delta": -7000
-    },
-    {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Plastids",
-      "delta": -4000
-    },
-    {
-      "item": "Hexenon",
-      "delta": -300
-    },
-    {
-      "item": "Aya",
-      "delta": -12
-    },
-    {
-      "item": "Argon Crystal",
-      "delta": -8
-    },
-    {
-      "item": "Forma",
-      "delta": -2
-    },
-    {
-      "item": "Air Support Charges",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-28T00:20:28.608291+00:00",
-      "item": "Nokko"
-    }
-  ],
-  "startedAt": "2026-09-27T22:32:59.167153+00:00",
+  "errorEventCount": 3,
   "durationSeconds": 7068.249,
   "notableAcquisitions": [
     {
