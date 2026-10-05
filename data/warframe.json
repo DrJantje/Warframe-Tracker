@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-04",
-    "exportVerifiedAt": "2026-10-04 19:20:08 PDT",
+    "exportVerifiedAt": "2026-10-04 19:36:32 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167797,
-        "modified": "2026-10-04T19:20:07.853962-07:00",
-        "sha256": "0fe443ec05ab72621f9e3fe1c9f13ac36e95fde10e2fb933c96ffa019eb3d303"
+        "bytes": 2167795,
+        "modified": "2026-10-04T19:36:31.963382-07:00",
+        "sha256": "7bc3d69708d63f5289380402a40ea15f8a02f597d8b95ac78221d5e8d9fbc993"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-04T19:20:07.861337-07:00",
+        "modified": "2026-10-04T19:36:31.965911-07:00",
         "sha256": "dfb95b1da4a6d87e998dc81c5ed135f26a1c77e987216b6d9c9b11f05e15c5ba"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62484,
-        "modified": "2026-10-04T19:20:07.857570-07:00",
+        "modified": "2026-10-04T19:36:31.964385-07:00",
         "sha256": "119f4e958da657bc849f73c00302fa7bc3e47cec18c019dca80bfc8ef6143efc"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-04T19:20:07.859582-07:00",
+        "modified": "2026-10-04T19:36:31.965406-07:00",
         "sha256": "dda922d550f49f6eda205be5e32112fe85f5047009f21dcf3e6a0695d3e15f96"
       },
       "inventorySets.json": {
         "bytes": 181441,
-        "modified": "2026-10-04T19:20:07.863852-07:00",
+        "modified": "2026-10-04T19:36:31.968080-07:00",
         "sha256": "5f36f73d7d825e3cc48a3b17af23228d45e82001acadc90688f045b339b759ba"
       },
       "rivens.json": {
@@ -46,7 +46,38 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Corinth Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Rhino Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -2943,15 +2974,6 @@
       "source": "https://wiki.warframe.com/w/Banshee_Prime"
     },
     {
-      "item": "Corinth Prime",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Corinth_Prime"
-    },
-    {
       "item": "Fragor Prime",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -3022,15 +3044,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://www.warframe.com/droptables"
-    },
-    {
-      "item": "Rhino Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Rhino_Prime"
     },
     {
       "item": "Sicarus Prime",
@@ -6330,15 +6343,15 @@
     {
       "item": "Corinth Prime",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -14970,15 +14983,15 @@
     {
       "item": "Rhino Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,

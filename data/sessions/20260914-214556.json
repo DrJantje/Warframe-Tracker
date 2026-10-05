@@ -1,10 +1,11 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
-  "schemaVersion": 1,
+  "equipmentRemoved": [],
+  "durationSeconds": 8190.328,
   "startedAt": "2026-09-14T21:45:56.462019+00:00",
   "missionCount": 9,
   "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-15T00:02:26.789682+00:00",
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -71,6 +72,34 @@
       "delta": 1
     }
   ],
+  "errorEventCount": 4,
+  "negativeItemDeltas": [
+    {
+      "item": "Alloy Plate",
+      "delta": -6662
+    },
+    {
+      "item": "Stela",
+      "delta": -100
+    },
+    {
+      "item": "Cetus Wisp",
+      "delta": -4
+    },
+    {
+      "item": "<Shard_red_simple> Tauforged Crimson Archon Shard",
+      "delta": -2
+    },
+    {
+      "item": "Forma",
+      "delta": -1
+    },
+    {
+      "item": "Umbra Forma",
+      "delta": -1
+    }
+  ],
+  "equipmentAdded": [],
   "configurationChanges": [
     {
       "at": "2026-09-14T22:48:49.414727+00:00",
@@ -223,35 +252,8 @@
       "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
+  "schemaVersion": 1,
   "focusCounterAtCaptureEnd": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Alloy Plate",
-      "delta": -6662
-    },
-    {
-      "item": "Stela",
-      "delta": -100
-    },
-    {
-      "item": "Cetus Wisp",
-      "delta": -4
-    },
-    {
-      "item": "<Shard_red_simple> Tauforged Crimson Archon Shard",
-      "delta": -2
-    },
-    {
-      "item": "Forma",
-      "delta": -1
-    },
-    {
-      "item": "Umbra Forma",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-14T21:46:02.660000+00:00",
@@ -363,8 +365,6 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 4,
-  "durationSeconds": 8190.328,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

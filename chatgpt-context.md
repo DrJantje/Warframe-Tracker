@@ -1,18 +1,18 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-05T02:20:08.549496+00:00
-Account snapshot: 2026-10-05T02:20:07.679Z
+Generated: 2026-10-05T02:36:32.653135+00:00
+Account snapshot: 2026-10-05T02:36:31.817Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: unknown (sync-awaiting-snapshot)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: unknown (arsenal-active)
 - Steel Path: no
-- Matchmaking: UNKNOWN
+- Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -25,22 +25,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Stretch (rank 5), Vitality (rank 10), Streamline (rank 5), Steel Fiber (rank 10), Primed Redirection (rank 10), Pistol Amp (rank 5)
 - Arcanes: Arcane Blessing (rank 5), Molt Augmented (rank 5)
 
-#### Secondary: Pandero Prime — config A
-
-- Forma: 0
-- Mods: Hornet Strike (rank 10), Magnetic Might (rank 3), Primed Convulsion (rank 10)
-- Arcanes: none recorded
-
 #### Primary: Corinth Prime — config A
 
 - Forma: 0
 - Mods: Hell's Chamber (rank 5), Primed Point Blank (rank 10), Chilling Reload (rank 3), Critical Deceleration (rank 5)
-- Arcanes: none recorded
-
-#### Melee: Fragor Prime — config A
-
-- Forma: 0
-- Mods: Primed Reach (rank 10), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Pressure Point (rank 5), Crushing Ruin (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
