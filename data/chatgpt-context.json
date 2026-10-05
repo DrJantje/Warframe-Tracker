@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T00:15:30.413580+00:00",
+  "generatedAt": "2026-10-05T00:16:21.470331+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-05T00:15:28.543Z",
+  "accountSnapshotAt": "2026-10-05T00:15:27.408Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-05T00:15:28.543Z",
+      "capturedAt": "2026-10-05T00:15:27.408Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-05T00:15:27.409575+00:00",
+    "observedAt": "2026-10-05T00:15:47.771239+00:00",
     "phase": "mission",
     "node": "DARVO PORTRAIT",
     "planet": "LOCAL AREA",
@@ -1460,15 +1460,113 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261004-160752.json",
-    "startedAt": "2026-10-04T16:07:52.593317+00:00",
-    "stoppedAt": "2026-10-04T17:15:04.588405+00:00",
-    "durationSeconds": 4031.995,
-    "missionCount": 6,
-    "focusEarnedDuringCapture": 333079,
-    "topGains": [],
+    "file": "20261004-224158.json",
+    "startedAt": "2026-10-04T22:41:58.538742+00:00",
+    "stoppedAt": "2026-10-05T00:16:18.790002+00:00",
+    "durationSeconds": 5660.251,
+    "missionCount": 5,
+    "focusEarnedDuringCapture": 0,
+    "topGains": [
+      {
+        "item": "Aggristone",
+        "delta": 31
+      },
+      {
+        "item": "Lamentus",
+        "delta": 16
+      },
+      {
+        "item": "Saggen Pearl",
+        "delta": 15
+      },
+      {
+        "item": "Pathos Clamp",
+        "delta": 10
+      },
+      {
+        "item": "Dracroot",
+        "delta": 6
+      },
+      {
+        "item": "Kullervo's Bane",
+        "delta": 5
+      },
+      {
+        "item": "Rune Marrow",
+        "delta": 4
+      },
+      {
+        "item": "Silphsela",
+        "delta": 2
+      },
+      {
+        "item": "Amethyst Antitoxin",
+        "delta": 1
+      },
+      {
+        "item": "Beryl Antitoxin",
+        "delta": 1
+      },
+      {
+        "item": "Citrine Antitoxin",
+        "delta": 1
+      },
+      {
+        "item": "Forma",
+        "delta": 1
+      }
+    ],
     "notableAcquisitions": [],
-    "resourceGains": [],
+    "resourceGains": [
+      {
+        "item": "Aggristone",
+        "delta": 31
+      },
+      {
+        "item": "Lamentus",
+        "delta": 16
+      },
+      {
+        "item": "Saggen Pearl",
+        "delta": 15
+      },
+      {
+        "item": "Pathos Clamp",
+        "delta": 10
+      },
+      {
+        "item": "Dracroot",
+        "delta": 6
+      },
+      {
+        "item": "Kullervo's Bane",
+        "delta": 5
+      },
+      {
+        "item": "Rune Marrow",
+        "delta": 4
+      },
+      {
+        "item": "Silphsela",
+        "delta": 2
+      },
+      {
+        "item": "Amethyst Antitoxin",
+        "delta": 1
+      },
+      {
+        "item": "Beryl Antitoxin",
+        "delta": 1
+      },
+      {
+        "item": "Citrine Antitoxin",
+        "delta": 1
+      },
+      {
+        "item": "Forma",
+        "delta": 1
+      }
+    ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
     "errorEventCount": 3
