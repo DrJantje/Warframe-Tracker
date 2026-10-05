@@ -1,10 +1,6 @@
 {
+  "focusEarnedDuringCapture": 10404,
   "durationSeconds": 10584.229,
-  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
-  "schemaVersion": 1,
-  "errorEventCount": 4,
-  "equipmentRemoved": [],
-  "missionCount": 11,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -107,7 +103,100 @@
       "delta": 1
     }
   ],
+  "equipmentRemoved": [],
+  "missionCount": 11,
+  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Koumei",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Arcane Sculptor"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Protea Prime",
+      "configuration": "Range",
+      "added": [],
+      "removed": [
+        "Arcane Sculptor"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Protea Prime",
+      "configuration": "Strength",
+      "added": [],
+      "removed": [
+        "Arcane Sculptor"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Vauban",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Hildryn Prime",
+      "configuration": "A",
+      "added": [
+        "Augur Accord",
+        "Precision Intensify",
+        "Transient Fortitude",
+        "Boreal's Hatred",
+        "Arcane Sculptor"
+      ],
+      "removed": [
+        "Overextended",
+        "Augur Reach",
+        "Umbral Intensify",
+        "Adaptation",
+        "Arcane Velocity"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Shed Ability",
+      "helminthAfter": "Shed Ability"
+    },
+    {
+      "at": "2026-09-07T18:04:28.167545+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Heated Charge",
+        "Primed Fulmination"
+      ],
+      "removed": [
+        "Scorch",
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 10404,
+  "startedAt": "2026-09-07T16:03:22.655084+00:00",
   "missions": [
     {
       "startedAt": "2026-09-07T16:03:32.439000+00:00",
@@ -243,94 +332,7 @@
       "incomplete": true
     }
   ],
-  "focusEarnedDuringCapture": 10404,
-  "focusCounterAtCaptureEnd": 10404,
-  "configurationChanges": [
-    {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Koumei",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Arcane Sculptor"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Protea Prime",
-      "configuration": "Range",
-      "added": [],
-      "removed": [
-        "Arcane Sculptor"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Protea Prime",
-      "configuration": "Strength",
-      "added": [],
-      "removed": [
-        "Arcane Sculptor"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Vauban",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Hildryn Prime",
-      "configuration": "A",
-      "added": [
-        "Augur Accord",
-        "Precision Intensify",
-        "Transient Fortitude",
-        "Boreal's Hatred",
-        "Arcane Sculptor"
-      ],
-      "removed": [
-        "Overextended",
-        "Augur Reach",
-        "Umbral Intensify",
-        "Adaptation",
-        "Arcane Velocity"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Shed Ability",
-      "helminthAfter": "Shed Ability"
-    },
-    {
-      "at": "2026-09-07T18:04:28.167545+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Heated Charge",
-        "Primed Fulmination"
-      ],
-      "removed": [
-        "Scorch",
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "errorEventCount": 4,
   "negativeItemDeltas": [
     {
       "item": "Thrax Plasm",
@@ -361,8 +363,6 @@
       "delta": -1
     }
   ],
-  "startedAt": "2026-09-07T16:03:22.655084+00:00",
-  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "Meso V13 Intact",
