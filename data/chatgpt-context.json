@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T02:53:19.964113+00:00",
+  "generatedAt": "2026-10-05T02:56:45.888629+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-05T02:53:19.148Z",
+  "accountSnapshotAt": "2026-10-05T02:56:44.987Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-05T02:53:19.148Z",
+      "capturedAt": "2026-10-05T02:56:44.987Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-05T02:53:02.051Z",
+    "observedAt": "2026-10-05T02:54:39.665Z",
     "phase": "mission",
-    "node": "SOLAR MAP",
-    "planet": "LOCAL AREA",
+    "node": "CORPUS",
+    "planet": "JUPITER",
     "mission": "LOCATION",
-    "missionKey": "SolNode187_Alert",
+    "missionKey": "SolNode87_Alert",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
     "frameConfidence": "arsenal-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {

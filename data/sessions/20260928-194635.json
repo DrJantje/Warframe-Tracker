@@ -1,53 +1,4 @@
 {
-  "schemaVersion": 1,
-  "missions": [
-    {
-      "startedAt": "2026-09-28T19:46:39.287000+00:00",
-      "endedAt": "2026-09-28T20:07:50.729000+00:00",
-      "durationSeconds": 1271.442,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "EntratiLabHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-28T20:22:05.427000+00:00",
-      "endedAt": "2026-09-28T20:52:39.880000+00:00",
-      "durationSeconds": 1834.453,
-      "type": "MISSION",
-      "node": "ALBRECHT LABS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-28T20:55:18.265000+00:00",
-      "endedAt": "2026-09-28T20:56:45.398727+00:00",
-      "durationSeconds": 87.134,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "startedAt": "2026-09-28T19:46:35.130168+00:00",
-  "negativeItemDeltas": [
-    {
-      "item": "Eidolon Naramon Lens",
-      "delta": -1
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 4210.269,
   "positiveItemDeltas": [
     {
       "item": "Entrati Obols",
@@ -110,13 +61,62 @@
       "delta": 1
     }
   ],
-  "missionCount": 3,
-  "equipmentRemoved": [],
-  "stoppedAt": "2026-09-28T20:56:45.398727+00:00",
-  "focusCounterAtCaptureEnd": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Eidolon Naramon Lens",
+      "delta": -1
+    }
+  ],
   "configurationChanges": [],
   "errorEventCount": 3,
   "equipmentAdded": [],
+  "startedAt": "2026-09-28T19:46:35.130168+00:00",
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 3,
+  "missions": [
+    {
+      "startedAt": "2026-09-28T19:46:39.287000+00:00",
+      "endedAt": "2026-09-28T20:07:50.729000+00:00",
+      "durationSeconds": 1271.442,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EntratiLabHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-28T20:22:05.427000+00:00",
+      "endedAt": "2026-09-28T20:52:39.880000+00:00",
+      "durationSeconds": 1834.453,
+      "type": "MISSION",
+      "node": "ALBRECHT LABS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-28T20:55:18.265000+00:00",
+      "endedAt": "2026-09-28T20:56:45.398727+00:00",
+      "durationSeconds": 87.134,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "stoppedAt": "2026-09-28T20:56:45.398727+00:00",
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 4210.269,
   "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [
     {
