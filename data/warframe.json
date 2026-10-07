@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-06",
-    "exportVerifiedAt": "2026-10-06 19:27:57 PDT",
+    "exportVerifiedAt": "2026-10-06 19:34:20 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167809,
-        "modified": "2026-10-06T19:27:56.082841-07:00",
-        "sha256": "9a2ddb87a261f0170eef446666e5d6daa80d47e943b2ba26cb9145ca5934e2b7"
+        "bytes": 2167807,
+        "modified": "2026-10-06T19:34:19.594011-07:00",
+        "sha256": "9e2323786cca51ecaa4db2c0720036cdfee3c75b7c72698f2891a05f4bf48165"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-06T19:27:56.086359-07:00",
+        "modified": "2026-10-06T19:34:19.596525-07:00",
         "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-06T19:27:56.083845-07:00",
+        "modified": "2026-10-06T19:34:19.595521-07:00",
         "sha256": "b27e47e274065204e2f19fa29394186762daed84b269c0344fdc990b87128e19"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-06T19:27:56.085355-07:00",
+        "modified": "2026-10-06T19:34:19.596525-07:00",
         "sha256": "f2a16f97055b93df9a5fced4098f653f43ce3493ecb7f855fe8d54d560c5ab99"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-06T19:27:56.087892-07:00",
+        "modified": "2026-10-06T19:34:19.598053-07:00",
         "sha256": "82dbb0c45e3bcb5a6ce7f9974b7864e0aa479cc7c14b579e1932711f37d0034c"
       },
       "rivens.json": {
@@ -46,7 +46,38 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Ceti Lacera",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Snipetron Vandal",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -2815,24 +2846,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Basmu"
-    },
-    {
-      "item": "Ceti Lacera",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Ceti_Lacera"
-    },
-    {
-      "item": "Snipetron Vandal",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Snipetron_Vandal"
     },
     {
       "item": "Argo & Vel",
@@ -5624,14 +5637,14 @@
     {
       "item": "Ceti Lacera",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -15820,14 +15833,14 @@
     {
       "item": "Snipetron Vandal",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
