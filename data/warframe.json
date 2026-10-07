@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-05",
-    "exportVerifiedAt": "2026-10-05 16:28:10 PDT",
+    "snapshotDate": "2026-10-06",
+    "exportVerifiedAt": "2026-10-06 18:51:34 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167787,
-        "modified": "2026-10-05T16:28:09.366744-07:00",
-        "sha256": "88d607382ed8b67cbfc1736def6c37d28f5d50f2c7f3436727b4ef54c27a7619"
+        "bytes": 2167810,
+        "modified": "2026-10-06T18:51:33.258682-07:00",
+        "sha256": "83651efacfb61f465fec30abe8d72532d3ecc5afef6383a52ed790fabb3613e0"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-05T16:28:09.370274-07:00",
-        "sha256": "e9786362a7dab84d44faa649cf4ca8b69c4b160874d2ea9ee1dfe5df832d84fb"
+        "modified": "2026-10-06T18:51:33.265751-07:00",
+        "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-05T16:28:09.368766-07:00",
-        "sha256": "51937ce635d62a1374c63053814609fd313d4522d8ba119d93065dafc8e9793e"
+        "modified": "2026-10-06T18:51:33.262212-07:00",
+        "sha256": "aaaad275435a945cfeb7d5f79295a9fd1c3cc5b9506aca32c90961b643e85c39"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-05T16:28:09.369272-07:00",
-        "sha256": "6cb63e496d5f16ddff25700b57cd9f4d5aafe4875dbc99a5c12b9a1898ae1fce"
+        "modified": "2026-10-06T18:51:33.263721-07:00",
+        "sha256": "1a80a1230b6bd9a9d0f7dbade9191a39bcff83c0ee9b4c8dac553951f73cb1b1"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-05T16:28:09.371800-07:00",
-        "sha256": "a3fbd21256eb77ca94febe469bd6a928e09e24a9e756f86d78da97af890e0a56"
+        "modified": "2026-10-06T18:51:33.267764-07:00",
+        "sha256": "085ee5c8bb9082765537aae4df7ddc0fdfc4dc7ae22af9dd5cd4b5a013f83830"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,149 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Argo & Vel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Argo & Vel Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Ballistica Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Ballistica Prime Blueprint; Ballistica Prime Lower Limb; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Ballistica Prime Blueprint; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb"
+        ]
+      },
+      {
+        "item": "Baza Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Baza Prime Barrel; Baza Prime Blueprint; Baza Prime Receiver; Baza Prime Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Baza Prime Blueprint; Baza Prime Receiver"
+        ]
+      },
+      {
+        "item": "Kullervo",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Kullervo Blueprint; Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Larkspur Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Larkspur Prime Barrel; Larkspur Prime Blueprint; Larkspur Prime Receiver; Larkspur Prime Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock"
+        ]
+      },
+      {
+        "item": "Okina Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Okina Prime Blade (1/2); Okina Prime Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Okina Prime Blueprint"
+        ]
+      },
+      {
+        "item": "Oraxia",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Oraxia Chassis Blueprint; Oraxia Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Sampotes",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Sampotes Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Snipetron Vandal",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 158
+      "missing": 156
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -78,7 +214,7 @@
       "Lith V11 Intact": 16,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 36,
+      "Meso A12 Intact": 37,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 61,
       "Meso E7 Intact": 11,
@@ -91,8 +227,8 @@
       "Meso V15 Radiant": 2,
       "Meso X1 Intact": 35,
       "Meso X1 Radiant": 3,
-      "Meso Y2 Intact": 40,
-      "Neo A16 Intact": 8,
+      "Meso Y2 Intact": 39,
+      "Neo A16 Intact": 7,
       "Neo C7 Intact": 28,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
@@ -221,21 +357,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 305
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Argo & Vel",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Argo & Vel Blueprint",
-      "route": "Duviri — Pathos Clamps",
-      "steps": "Purchase the Blueprint for 60 Pathos Clamps after an Orowyrm run.",
-      "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
     },
     {
       "ease": "4 — Multi-step farm",
@@ -476,21 +597,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Sampotes",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Sampotes Blueprint",
-      "route": "Duviri — Pathos Clamps",
-      "steps": "Purchase the Blueprint for 60 Pathos Clamps after an Orowyrm run.",
-      "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Supra Vandal",
       "type": "primary",
       "targetRank": "30",
@@ -615,6 +721,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Oraxia",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Oraxia Chassis Blueprint; Oraxia Systems Blueprint",
+      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
+      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
+      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
+      "source": "https://wiki.warframe.com/w/Oraxia",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 495
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Scyotid",
       "type": "secondary",
       "targetRank": "30",
@@ -630,14 +751,14 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Oraxia",
+      "item": "Kullervo",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint",
-      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
-      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
-      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
-      "source": "https://wiki.warframe.com/w/Oraxia",
+      "missing": "Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint",
+      "route": "Kullervo’s Hold in Duviri; Acrithis",
+      "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",
+      "tip": "Finish the Duviri run after the fight so earned resources are retained.",
+      "source": "https://wiki.warframe.com/w/Kullervo",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -672,21 +793,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "baro",
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Kullervo",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Kullervo Blueprint; Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint",
-      "route": "Kullervo’s Hold in Duviri; Acrithis",
-      "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",
-      "tip": "Finish the Duviri run after the fight so earned resources are retained.",
-      "source": "https://wiki.warframe.com/w/Kullervo",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
       "practicalPriority": 505
     },
     {
@@ -1589,7 +1695,7 @@
       "item": "Ballistica Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Ballistica Prime Blueprint; Ballistica Prime Lower Limb; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb",
+      "missing": "Ballistica Prime Blueprint; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -1598,29 +1704,21 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 525
+      "practicalPriority": 520
     },
     {
       "ease": "5 — Long grind / trade",
       "item": "Baza Prime",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Baza Prime Barrel; Baza Prime Blueprint; Baza Prime Receiver; Baza Prime Stock",
+      "missing": "Baza Prime Blueprint; Baza Prime Receiver",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Baza Prime Barrel (Uncommon): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Baza Prime Stock (Rare): buy Lith B12 from Varzia for Aya and open it Radiant in a four-player share. Build Baza Prime and level it to 30.",
+      "steps": "Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Build Baza Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Baza_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Baza Prime Barrel",
-          "relic": "Neo O4",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Baza Prime Blueprint",
           "relic": "Meso I3",
@@ -1636,20 +1734,12 @@
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
           "refinement": "Intact"
-        },
-        {
-          "part": "Baza Prime Stock",
-          "relic": "Lith B12",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 520
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2193,7 +2283,7 @@
       "item": "Larkspur Prime",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Larkspur Prime Barrel; Larkspur Prime Blueprint; Larkspur Prime Receiver; Larkspur Prime Stock",
+      "missing": "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2202,7 +2292,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2418,22 +2508,14 @@
       "item": "Okina Prime",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint",
+      "missing": "Okina Prime Blueprint",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
+      "steps": "Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Okina_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Okina Prime Blade (1/2)",
-          "relic": "Neo P11",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
         {
           "part": "Okina Prime Blueprint",
           "relic": "Neo O4",
@@ -2446,7 +2528,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2877,6 +2959,24 @@
   ],
   "owned": [
     {
+      "item": "Snipetron Vandal",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Snipetron_Vandal"
+    },
+    {
+      "item": "Argo & Vel",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
       "item": "Basmu",
       "type": "primary",
       "state": "Ready in Foundry",
@@ -2895,13 +2995,13 @@
       "source": "https://wiki.warframe.com/w/Ceti_Lacera"
     },
     {
-      "item": "Snipetron Vandal",
-      "type": "primary",
+      "item": "Sampotes",
+      "type": "melee",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Snipetron_Vandal"
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     }
   ],
   "rank40": [
@@ -4111,17 +4211,17 @@
     {
       "item": "Argo & Vel",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Argo & Vel Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Duviri — Pathos Clamps",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -4528,7 +4628,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Ballistica Prime Blueprint; Ballistica Prime Lower Limb; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb",
+      "missing": "Ballistica Prime Blueprint; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -4704,7 +4804,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Baza Prime Barrel; Baza Prime Blueprint; Baza Prime Receiver; Baza Prime Stock",
+      "missing": "Baza Prime Blueprint; Baza Prime Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -4713,14 +4813,6 @@
       "source": "https://wiki.warframe.com/w/Baza_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Baza Prime Barrel",
-          "relic": "Neo O4",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Baza Prime Blueprint",
           "relic": "Meso I3",
@@ -4736,20 +4828,12 @@
           "ownedRelics": 0,
           "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
           "refinement": "Intact"
-        },
-        {
-          "part": "Baza Prime Stock",
-          "relic": "Lith B12",
-          "rarity": "Rare",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
         }
       ],
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Baza Prime Barrel (Uncommon): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Baza Prime Stock (Rare): buy Lith B12 from Varzia for Aya and open it Radiant in a four-player share. Build Baza Prime and level it to 30.",
+      "steps": "Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Build Baza Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -10492,7 +10576,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Kullervo Blueprint; Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint",
+      "missing": "Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Kullervo’s Hold in Duviri; Acrithis",
       "vaulted": "No",
@@ -11108,7 +11192,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Larkspur Prime Barrel; Larkspur Prime Blueprint; Larkspur Prime Receiver; Larkspur Prime Stock",
+      "missing": "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -12900,7 +12984,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Okina Prime Blade (1/2); Okina Prime Blueprint",
+      "missing": "Okina Prime Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -12909,14 +12993,6 @@
       "source": "https://wiki.warframe.com/w/Okina_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Okina Prime Blade (1/2)",
-          "relic": "Neo P11",
-          "rarity": "Common",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Intact"
-        },
         {
           "part": "Okina Prime Blueprint",
           "relic": "Neo O4",
@@ -12929,7 +13005,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Okina Prime Blade (Common): buy Neo P11 from Varzia for Aya and open it Intact in a four-player share. Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
+      "steps": "Okina Prime Blueprint (Rare): buy Neo O4 from Varzia for Aya and open it Radiant in a four-player share. Build Okina Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -13055,7 +13131,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint",
+      "missing": "Oraxia Chassis Blueprint; Oraxia Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
@@ -14985,17 +15061,17 @@
     {
       "item": "Sampotes",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Sampotes Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Duviri — Pathos Clamps",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -15886,17 +15962,17 @@
     {
       "item": "Snipetron Vandal",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Snipetron_Vandal",
       "steps": "Watch active Invasions for each missing component or trade for the component.",

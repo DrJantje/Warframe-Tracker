@@ -1,51 +1,4 @@
 {
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "A",
-      "added": [
-        "Frostbite",
-        "Lethal Torrent"
-      ],
-      "removed": [
-        "Convulsion",
-        "Accelerated Isotope"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "B",
-      "added": [
-        "Magnetic Might",
-        "Lethal Torrent"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-13T19:37:28.975530+00:00",
-      "item": "Dex Pixia Prime",
-      "configuration": "C",
-      "added": [
-        "Magnum Force"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 283209,
-  "durationSeconds": 14010.325,
   "missions": [
     {
       "startedAt": "2026-09-13T17:53:36.300000+00:00",
@@ -61,7 +14,10 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 7,
+  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 283209,
+  "focusEarnedDuringCapture": 283209,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -120,12 +76,6 @@
       "delta": 1
     }
   ],
-  "missionCount": 1,
-  "focusCounterAtCaptureEnd": 283209,
-  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
-  "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "startedAt": "2026-09-13T17:53:32.170299+00:00",
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -252,6 +202,56 @@
       "delta": -1
     }
   ],
+  "configurationChanges": [
+    {
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "A",
+      "added": [
+        "Frostbite",
+        "Lethal Torrent"
+      ],
+      "removed": [
+        "Convulsion",
+        "Accelerated Isotope"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "B",
+      "added": [
+        "Magnetic Might",
+        "Lethal Torrent"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-13T19:37:28.975530+00:00",
+      "item": "Dex Pixia Prime",
+      "configuration": "C",
+      "added": [
+        "Magnum Force"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "errorEventCount": 7,
+  "equipmentRemoved": [],
+  "durationSeconds": 14010.325,
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "startedAt": "2026-09-13T17:53:32.170299+00:00",
+  "missionCount": 1,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
