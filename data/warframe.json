@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-06",
-    "exportVerifiedAt": "2026-10-06 18:51:34 PDT",
+    "exportVerifiedAt": "2026-10-06 19:16:21 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167810,
-        "modified": "2026-10-06T18:51:33.258682-07:00",
-        "sha256": "83651efacfb61f465fec30abe8d72532d3ecc5afef6383a52ed790fabb3613e0"
+        "bytes": 2167809,
+        "modified": "2026-10-06T19:16:20.032443-07:00",
+        "sha256": "078727a211fec247ba9b432caf23aaf2642c15a27f4ad99d2fe3b0ff0cca0c7b"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-06T18:51:33.265751-07:00",
+        "modified": "2026-10-06T19:16:20.038193-07:00",
         "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-06T18:51:33.262212-07:00",
+        "modified": "2026-10-06T19:16:20.035672-07:00",
         "sha256": "aaaad275435a945cfeb7d5f79295a9fd1c3cc5b9506aca32c90961b643e85c39"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-06T18:51:33.263721-07:00",
-        "sha256": "1a80a1230b6bd9a9d0f7dbade9191a39bcff83c0ee9b4c8dac553951f73cb1b1"
+        "modified": "2026-10-06T19:16:20.036680-07:00",
+        "sha256": "84c32895c01801abd3b4bddcbb52a864bd9c0f58449bf1b807006198672d1fda"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-06T18:51:33.267764-07:00",
+        "modified": "2026-10-06T19:16:20.040775-07:00",
         "sha256": "085ee5c8bb9082765537aae4df7ddc0fdfc4dc7ae22af9dd5cd4b5a013f83830"
       },
       "rivens.json": {
@@ -48,48 +48,33 @@
     },
     "importChanges": [
       {
-        "item": "Argo & Vel",
+        "item": "Basmu",
         "before": [
-          "No",
-          "No",
-          "No",
-          "Argo & Vel Blueprint"
-        ],
-        "after": [
           "No",
           "No",
           "Yes",
           ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
         ]
       },
       {
-        "item": "Ballistica Prime",
+        "item": "Ceti Lacera",
         "before": [
           "No",
           "No",
-          "No",
-          "Ballistica Prime Blueprint; Ballistica Prime Lower Limb; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb"
+          "Yes",
+          ""
         ],
         "after": [
+          "Yes",
           "No",
           "No",
-          "No",
-          "Ballistica Prime Blueprint; Ballistica Prime Receiver; Ballistica Prime String; Ballistica Prime Upper Limb"
-        ]
-      },
-      {
-        "item": "Baza Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Baza Prime Barrel; Baza Prime Blueprint; Baza Prime Receiver; Baza Prime Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Baza Prime Blueprint; Baza Prime Receiver"
+          ""
         ]
       },
       {
@@ -98,67 +83,7 @@
           "No",
           "No",
           "No",
-          "Kullervo Blueprint; Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
           "Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Larkspur Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Larkspur Prime Barrel; Larkspur Prime Blueprint; Larkspur Prime Receiver; Larkspur Prime Stock"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock"
-        ]
-      },
-      {
-        "item": "Okina Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Okina Prime Blade (1/2); Okina Prime Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Okina Prime Blueprint"
-        ]
-      },
-      {
-        "item": "Oraxia",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Oraxia Blueprint; Oraxia Chassis Blueprint; Oraxia Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Oraxia Chassis Blueprint; Oraxia Systems Blueprint"
-        ]
-      },
-      {
-        "item": "Sampotes",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Sampotes Blueprint"
         ],
         "after": [
           "No",
@@ -168,18 +93,18 @@
         ]
       },
       {
-        "item": "Snipetron Vandal",
+        "item": "Spinnerex",
         "before": [
           "No",
           "No",
-          "Yes",
-          ""
+          "No",
+          "Spinnerex Blade; Spinnerex Blueprint; Spinnerex Handle; Spinnerex String"
         ],
         "after": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Spinnerex Blueprint; Spinnerex Handle; Spinnerex String"
         ]
       }
     ],
@@ -188,7 +113,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 156
+      "missing": 155
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -214,7 +139,7 @@
       "Lith V11 Intact": 16,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 37,
+      "Meso A12 Intact": 36,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 61,
       "Meso E7 Intact": 11,
@@ -751,14 +676,14 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Kullervo",
-      "type": "warframe",
+      "item": "Spinnerex",
+      "type": "melee",
       "targetRank": "30",
-      "missing": "Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint",
-      "route": "Kullervo’s Hold in Duviri; Acrithis",
-      "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",
-      "tip": "Finish the Duviri run after the fight so earned resources are retained.",
-      "source": "https://wiki.warframe.com/w/Kullervo",
+      "missing": "Spinnerex Blueprint; Spinnerex Handle; Spinnerex String",
+      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
+      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
+      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
+      "source": "https://wiki.warframe.com/w/Spinnerex",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -805,21 +730,6 @@
       "steps": "Earn Kullervo’s Bane from the Kullervo fight and buy Rauta blueprints from Acrithis.",
       "tip": "Finish the Duviri run after the fight.",
       "source": "https://wiki.warframe.com/w/Rauta",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Spinnerex",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Spinnerex Blade; Spinnerex Blueprint; Spinnerex Handle; Spinnerex String",
-      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
-      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
-      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
-      "source": "https://wiki.warframe.com/w/Spinnerex",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2959,6 +2869,24 @@
   ],
   "owned": [
     {
+      "item": "Basmu",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Basmu"
+    },
+    {
+      "item": "Ceti Lacera",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Ceti_Lacera"
+    },
+    {
       "item": "Snipetron Vandal",
       "type": "primary",
       "state": "Rank unknown — verify in Arsenal",
@@ -2977,22 +2905,13 @@
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     },
     {
-      "item": "Basmu",
-      "type": "primary",
+      "item": "Kullervo",
+      "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Basmu"
-    },
-    {
-      "item": "Ceti Lacera",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Ceti_Lacera"
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Kullervo"
     },
     {
       "item": "Sampotes",
@@ -4720,17 +4639,17 @@
     {
       "item": "Basmu",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 11,
       "source": "https://wiki.warframe.com/w/Basmu",
       "steps": "Not currently obtainable from an active event; Blueprint is tradeable.",
@@ -5766,17 +5685,17 @@
     {
       "item": "Ceti Lacera",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Ceti_Lacera",
       "steps": "Not currently obtainable from an active event; Blueprint is tradeable.",
@@ -10570,17 +10489,17 @@
     {
       "item": "Kullervo",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Kullervo Chassis Blueprint; Kullervo Neuroptics Blueprint; Kullervo Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Kullervo’s Hold in Duviri; Acrithis",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Kullervo",
       "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",
@@ -16108,7 +16027,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Spinnerex Blade; Spinnerex Blueprint; Spinnerex Handle; Spinnerex String",
+      "missing": "Spinnerex Blueprint; Spinnerex Handle; Spinnerex String",
       "ease": "5 — Long grind / trade",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",

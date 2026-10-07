@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-07T01:51:33.966223+00:00
-Account snapshot: 2026-10-07T01:51:32.946Z
+Generated: 2026-10-07T02:16:20.922525+00:00
+Account snapshot: 2026-10-07T02:16:19.872Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -9,8 +9,8 @@ Use this as the player's current sanitized account and session context. Live obs
 
 - Phase: mission
 - Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Planet: JUPITER
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -40,10 +40,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: High Voltage (rank 3), Split Chamber (rank 5), Serration (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Furax Wraith — config A
+#### Melee: Ceti Lacera — config A
 
 - Forma: 0
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: Primed Fever Strike (rank 10), Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Defiled Snapdragon (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
