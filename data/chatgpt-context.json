@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-07T02:18:48.882920+00:00",
+  "generatedAt": "2026-10-07T02:27:56.820820+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,49 +8,49 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-07T02:18:47.373Z",
+  "accountSnapshotAt": "2026-10-07T02:27:55.927Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-07T02:18:47.373Z",
+      "capturedAt": "2026-10-07T02:27:55.927Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-07T02:18:42.299322+00:00",
+    "observedAt": "2026-10-07T02:27:37.909Z",
     "phase": "mission",
-    "node": "SOLAR MAP",
+    "node": "ORDIS NEXT",
     "planet": "LOCAL AREA",
     "mission": "LOCATION",
     "missionKey": "SolNode125_ActiveMission",
@@ -311,185 +311,61 @@
           ]
         },
         "Primary": {
-          "buildRef": "longguns-069",
+          "buildRef": "longguns-128",
           "resolutionStatus": "exact-build-ref",
-          "item": "Coda Bubonico",
+          "item": "Snipetron Vandal",
           "category": "LongGuns",
           "configuration": "A",
-          "formaApplied": 5,
-          "focusLens": "Greater Unairu Lens",
-          "polarities": [
-            {
-              "slot": 0,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_ATTACK"
-            }
-          ],
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Atomic Fallout",
+              "name": "High Voltage",
               "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Shotgun Barrage",
+              "name": "Split Chamber",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Primed Point Blank",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Charged Shell",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Ravage",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Critical Deceleration",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Hell",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Savvy",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Acceleration",
+              "name": "Serration",
               "rank": 10,
               "kind": "mod"
             }
           ],
-          "arcanes": [
-            {
-              "name": "Primary Merciless",
-              "rank": 5,
-              "kind": "arcane"
-            }
-          ]
+          "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-034",
+          "buildRef": "melee-160",
           "resolutionStatus": "exact-build-ref",
-          "item": "Ripkas",
+          "item": "Ceti Lacera",
           "category": "Melee",
           "configuration": "A",
-          "formaApplied": 2,
-          "focusLens": "Greater Naramon Lens",
-          "polarities": [
-            {
-              "slot": 0,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 4,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 5,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 9,
-              "polarity": "AP_UNIVERSAL"
-            }
-          ],
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Jagged Edge",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Carnis Mandible",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Blood Rush",
+              "name": "Primed Fever Strike",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Weeping Wounds",
-              "rank": 5,
+              "name": "Virulent Scourge",
+              "rank": 3,
               "kind": "mod"
             },
             {
-              "name": "Organ Shatter",
+              "name": "Pressure Point",
               "rank": 5,
               "kind": "mod"
             },
@@ -499,28 +375,12 @@
               "kind": "mod"
             },
             {
-              "name": "Amalgam Ripkas True Steel",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Condition Overload",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Vermillion Storm",
+              "name": "Defiled Snapdragon",
               "rank": 3,
               "kind": "mod"
             }
           ],
-          "arcanes": [
-            {
-              "name": "Melee Duplicate",
-              "rank": 4,
-              "kind": "arcane"
-            }
-          ]
+          "arcanes": []
         },
         "Heavy weapon": {
           "buildRef": "spaceguns-002",

@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-07T02:18:48.882920+00:00
-Account snapshot: 2026-10-07T02:18:47.373Z
+Generated: 2026-10-07T02:27:56.820820+00:00
+Account snapshot: 2026-10-07T02:27:55.927Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -34,19 +34,17 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Coda Bubonico — config A
+#### Primary: Snipetron Vandal — config A
 
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
+- Forma: 0
+- Mods: High Voltage (rank 3), Split Chamber (rank 5), Serration (rank 10)
+- Arcanes: none recorded
 
-#### Melee: Ripkas — config A
+#### Melee: Ceti Lacera — config A
 
-- Forma: 2
-- Lens: Greater Naramon Lens
-- Mods: Jagged Edge (rank 5), Carnis Mandible (rank 5), Blood Rush (rank 10), Weeping Wounds (rank 5), Organ Shatter (rank 5), Primed Reach (rank 10), Amalgam Ripkas True Steel (rank 5), Condition Overload (rank 5), Vermillion Storm (rank 3)
-- Arcanes: Melee Duplicate (rank 4)
+- Forma: 0
+- Mods: Primed Fever Strike (rank 10), Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Defiled Snapdragon (rank 3)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 
