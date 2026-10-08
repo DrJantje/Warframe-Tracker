@@ -2,12 +2,12 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-07",
-    "exportVerifiedAt": "2026-10-07 19:22:24 PDT",
+    "exportVerifiedAt": "2026-10-07 19:27:57 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167571,
-        "modified": "2026-10-07T19:22:23.479401-07:00",
+        "modified": "2026-10-07T19:27:56.437800-07:00",
         "sha256": "74f64bdfe11c86928116baf88bf17d60726c780acb1f18a78e9ddcc2819221f8"
       },
       "inventoryArcanes.json": {
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-07T19:22:23.484593-07:00",
+        "modified": "2026-10-07T19:27:56.441512-07:00",
         "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-07T19:22:23.481571-07:00",
+        "modified": "2026-10-07T19:27:56.439810-07:00",
         "sha256": "6521a081de23ecfcc1d0e091ef8be5820cc4a180fc723f5176f82e9a90f9d53b"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-07T19:22:23.483085-07:00",
+        "modified": "2026-10-07T19:27:56.439810-07:00",
         "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-07T19:22:23.487103-07:00",
+        "modified": "2026-10-07T19:27:56.442653-07:00",
         "sha256": "34e3f96e514d9f004e5bb4122702e34429154aff199dda2d7c36e636db84e1a4"
       },
       "rivens.json": {
@@ -46,128 +46,7 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [
-      {
-        "item": "Akbolto Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Akmagnus Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Magnus Prime (0/2)"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Kogake Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Magnus Prime",
-        "before": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ],
-        "after": [
-          "No",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Oraxia",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Oraxia Chassis Blueprint; Oraxia Systems Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Scyotid",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Scyotid Barrel (0/2); Scyotid Gauntlet (0/2)"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Scyotid Barrel (1/2); Scyotid Gauntlet (1/2)"
-        ]
-      },
-      {
-        "item": "Spinnerex",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Spinnerex Handle; Spinnerex String"
-        ],
-        "after": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ]
-      },
-      {
-        "item": "Thalys",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      }
-    ],
+    "importChanges": [],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -3612,7 +3491,9 @@
         "assemblable": 0
       },
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Build two complete Magnus Prime weapons, then consume both in the Akmagnus Prime recipe.",
+      "tip": "Current component inventory can assemble 0 complete Magnus Prime weapons; the recipe requires two."
     },
     {
       "item": "Aksomati",
