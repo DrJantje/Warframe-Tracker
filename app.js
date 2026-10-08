@@ -281,7 +281,7 @@ function globalNavigation(active = 'plan') {
 
 function masthead() {
   const capturedAt = accountManifest.sourceModifiedAt || data.meta.exportVerifiedAt;
-  return `<header class="masthead"><a class="brand-lockup" href="./#plan/next" aria-label="Jantje's Arsenal home"><img class="brand-mark-image" src="assets/arsenal-mark.png" alt=""><span class="brand-copy"><small>JANTJE'S</small><strong>ARSENAL INTELLIGENCE</strong></span></a>${globalNavigation()}<div class="sync"><i></i><span>Direct sync<br><b>${escapeHtml(formatDate(capturedAt))}</b></span></div></header>`;
+  return `<header class="masthead"><a class="brand-lockup" href="./#plan/next" aria-label="Jantje's Arsenal home"><img class="brand-mark-image" src="assets/arsenal-mark.png" alt=""><span class="brand-copy"><small>JANTJE'S</small><strong>ARSENAL INTELLIGENCE</strong></span></a>${globalNavigation()}<div class="sync"><i></i><span>Account snapshot<br><b>${escapeHtml(formatDate(capturedAt))}</b></span></div></header>`;
 }
 
 function freshness() {
@@ -511,7 +511,7 @@ function foundryView() {
   const owned = data.owned.filter(matches);
   const materials = materialQueue.filter(matches);
   return `<section class="section-toolbar"><div><p class="eyebrow">ALREADY IN MOTION</p><h2>Claim, build, and level</h2><p>These need less farming and more follow-through.</p></div></section>
-    ${owned.length ? `<section class="card-grid compact-grid">${owned.map((row) => `<article class="item-card followup-card"><div class="item-topline"><div><p class="eyebrow">${escapeHtml(friendlyType(row.type))}</p><h2>${escapeHtml(row.item)}</h2></div>${pill(row.state === 'Ready in Foundry' ? 'READY TO CLAIM' : 'OWNED', 'green')}</div><div class="route-block"><span>NEXT ACTION</span><strong>${escapeHtml(row.steps)}</strong></div><div class="tip"><span>LEVELING</span><p>${escapeHtml(row.tip)}</p></div><div class="card-footer">${source(row.source)}</div></article>`).join('')}</section>` : ''}
+    ${owned.length ? `<section class="card-grid compact-grid">${owned.map((row) => `<article class="item-card followup-card"><div class="item-topline"><div><p class="eyebrow">${escapeHtml(friendlyType(row.type))}</p><h2>${escapeHtml(row.item)}</h2></div>${pill(row.state === 'Ready in Foundry' ? 'READY TO CLAIM' : row.state === 'Ready to build' ? 'READY TO BUILD' : 'OWNED', 'green')}</div><div class="route-block"><span>NEXT ACTION</span><strong>${escapeHtml(row.steps)}</strong></div><div class="tip"><span>LEVELING</span><p>${escapeHtml(row.tip)}</p></div><div class="card-footer">${source(row.source)}</div></article>`).join('')}</section>` : ''}
     ${materials.length ? `<section class="section-title"><div><p class="eyebrow">MATERIALS ONLY</p><h2>The blueprint grind is already dead</h2></div></section>${cards(materials, { material: true })}` : ''}
     ${!owned.length && !materials.length ? '<div class="empty">No matching Foundry or leveling follow-ups.</div>' : ''}`;
 }
@@ -578,7 +578,7 @@ function nextDashboardView() {
   </section>
   <section class="field-lower">
     <div class="field-panel clean-wins"><header><div><p class="eyebrow">NEXT CLEAN WINS</p><h2>After the first one</h2></div></header><div class="field-list">${cleanWins.map((row, index) => dashboardRow(row, `#${index + 2}`)).join('')}</div></div>
-    <div class="field-panel foundry-now"><header><div><p class="eyebrow">ALREADY YOURS</p><h2>Foundry / leveling</h2></div><a href="#plan/foundry">Open</a></header><div class="field-list">${foundry.map((row) => `<article class="field-row"><div class="field-row-main"><p class="eyebrow">${escapeHtml(friendlyType(row.type))}</p><h3>${escapeHtml(row.item)}</h3><p>${escapeHtml(row.steps)}</p></div><div class="field-row-tail">${pill(row.state === 'Ready in Foundry' ? 'CLAIM' : 'OWNED', 'green')}</div></article>`).join('') || '<p class="field-empty">No immediate Foundry follow-ups.</p>'}</div></div>
+    <div class="field-panel foundry-now"><header><div><p class="eyebrow">ALREADY YOURS</p><h2>Foundry / leveling</h2></div><a href="#plan/foundry">Open</a></header><div class="field-list">${foundry.map((row) => `<article class="field-row"><div class="field-row-main"><p class="eyebrow">${escapeHtml(friendlyType(row.type))}</p><h3>${escapeHtml(row.item)}</h3><p>${escapeHtml(row.steps)}</p></div><div class="field-row-tail">${pill(row.state === 'Ready in Foundry' ? 'CLAIM' : row.state === 'Ready to build' ? 'BUILD' : 'OWNED', 'green')}</div></article>`).join('') || '<p class="field-empty">No immediate Foundry follow-ups.</p>'}</div></div>
   </section>`;
 }
 

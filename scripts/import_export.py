@@ -226,6 +226,7 @@ def base_prime_assemblies(parsed: dict[str, object]) -> dict[str, int]:
 
 def followup_row(row: dict) -> dict:
     pending = row["pendingFoundry"] == "Yes"
+    ready_to_build = row["state"] == "Ready to build"
     item_type = row["type"]
     if item_type == "companion":
         tip = "Level the companion in high-affinity missions."
@@ -236,9 +237,9 @@ def followup_row(row: dict) -> dict:
     return {
         "item": row["item"],
         "type": row["type"],
-        "state": "Ready in Foundry" if pending else "Rank unknown — verify in Arsenal",
+        "state": "Ready to build" if ready_to_build else "Ready in Foundry" if pending else "Rank unknown — verify in Arsenal",
         "targetRank": row["targetRank"],
-        "steps": "Claim from Foundry; equip and level to 30." if pending else "Check Arsenal and level to 30 if needed.",
+        "steps": "Start crafting in Foundry, then claim and level to 30." if ready_to_build else "Claim from Foundry; equip and level to 30." if pending else "Check Arsenal and level to 30 if needed.",
         "tip": tip,
         "source": row["source"],
     }
@@ -353,6 +354,11 @@ def update(folder: Path) -> None:
                 ease="1 — Now / no farming",
                 route="Build in Foundry",
             )
+        elif source.get("components") and any(int(component.get("neccessaryAmount") or 0) > 0 for component in source["components"]) and not exported_missing(source):
+            row.update(
+                state="Ready to build", rankRule="All listed blueprints, components and materials are acquired; start crafting.",
+                missing="", ease="1 — Now / no farming", route="Build in Foundry",
+            )
         else:
             refreshed_missing = exported_missing(source)
             if not refreshed_missing and before[3]:
@@ -424,7 +430,7 @@ def update(folder: Path) -> None:
     refreshed_owned = []
     for row in payload["arsenal"]:
         if row["item"] in rank40_names or not (
-            row["pendingFoundry"] == "Yes" or (row["owned"] == "Yes" and row["mastered"] == "No")
+            row["state"] == "Ready to build" or row["pendingFoundry"] == "Yes" or (row["owned"] == "Yes" and row["mastered"] == "No")
         ):
             continue
         fresh = followup_row(row)

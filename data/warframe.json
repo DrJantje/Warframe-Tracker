@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-06",
-    "exportVerifiedAt": "2026-10-06 19:34:20 PDT",
-    "exportSource": "Direct read-only account inventory pull from Digital Extremes",
+    "snapshotDate": "2026-10-07",
+    "exportVerifiedAt": "2026-10-07 17:39:04 PDT",
+    "exportSource": "Saved AlecaFrame account snapshot",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167807,
-        "modified": "2026-10-06T19:34:19.594011-07:00",
-        "sha256": "9e2323786cca51ecaa4db2c0720036cdfee3c75b7c72698f2891a05f4bf48165"
+        "bytes": 2167575,
+        "modified": "2026-10-07T17:33:51.015060-07:00",
+        "sha256": "03556c5b0ad834652a2c3a991fd3b1d583e2fee0bda1196f7374243e7b13032d"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-06T19:34:19.596525-07:00",
+        "modified": "2026-10-07T17:33:51.018610-07:00",
         "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-06T19:34:19.595521-07:00",
-        "sha256": "b27e47e274065204e2f19fa29394186762daed84b269c0344fdc990b87128e19"
+        "modified": "2026-10-07T17:33:51.015565-07:00",
+        "sha256": "e32c6c385131ad78a6bf4d77c09894ba8e092d5de22b941df1e8eb84d5f518ff"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-06T19:34:19.596525-07:00",
-        "sha256": "f2a16f97055b93df9a5fced4098f653f43ce3493ecb7f855fe8d54d560c5ab99"
+        "modified": "2026-10-07T17:33:51.017102-07:00",
+        "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-06T19:34:19.598053-07:00",
-        "sha256": "82dbb0c45e3bcb5a6ce7f9974b7864e0aa479cc7c14b579e1932711f37d0034c"
+        "modified": "2026-10-07T17:33:51.021126-07:00",
+        "sha256": "32ab514038ef6052622ee9bd08896081b81eaa05ae92d880233f759c02e2e8fc"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,31 +48,46 @@
     },
     "importChanges": [
       {
-        "item": "Ceti Lacera",
+        "item": "Azothane",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Azothane Blueprint"
         ],
         "after": [
-          "Yes",
-          "Yes",
+          "No",
+          "No",
           "No",
           ""
         ]
       },
       {
-        "item": "Snipetron Vandal",
+        "item": "Magnus Prime",
         "before": [
           "Yes",
-          "No",
+          "Yes",
           "No",
           ""
         ],
         "after": [
           "Yes",
           "Yes",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Thalys",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Thalys Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
           "No",
           ""
         ]
@@ -83,7 +98,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 155
+      "missing": 149
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -109,7 +124,7 @@
       "Lith V11 Intact": 16,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 4,
-      "Meso A12 Intact": 36,
+      "Meso A12 Intact": 37,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 61,
       "Meso E7 Intact": 11,
@@ -117,11 +132,11 @@
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 40,
-      "Meso V13 Intact": 41,
+      "Meso V13 Intact": 42,
       "Meso V15 Intact": 54,
       "Meso V15 Radiant": 1,
       "Meso X1 Intact": 35,
-      "Meso X1 Radiant": 3,
+      "Meso X1 Radiant": 2,
       "Meso Y2 Intact": 39,
       "Neo A16 Intact": 7,
       "Neo C7 Intact": 28,
@@ -219,7 +234,8 @@
         "Zhuge Prime",
         "Zylok Prime"
       ]
-    }
+    },
+    "inventoryCapturedAt": "2026-10-07T08:28:27.557Z"
   },
   "queue": [
     {
@@ -255,14 +271,14 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Azothane",
-      "type": "melee",
+      "item": "Detron",
+      "type": "secondary",
       "targetRank": "30",
-      "missing": "Azothane Blueprint",
-      "route": "Duviri — Pathos Clamps",
-      "steps": "Purchase the Blueprint for 50 Pathos Clamps after an Orowyrm run.",
-      "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp",
+      "missing": "Detron Blueprint",
+      "route": "Zanuka Hunter — death mark or Zanuka Hunter Beacon",
+      "steps": "Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Blueprint.",
+      "tip": "Blueprint chance: 17.65%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.",
+      "source": "https://wiki.warframe.com/w/Detron",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -508,36 +524,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Syam",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Syam Blueprint",
-      "route": "Duviri — Pathos Clamps",
-      "steps": "Purchase the Blueprint for 50 Pathos Clamps after an Orowyrm run.",
-      "tip": "Lone Story is fastest for Clamps; reserve enough for planned Incarnon installations.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Thalys",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Thalys Blueprint",
-      "route": "Isleweaver Scuttler Husk vendor",
-      "steps": "Buy the blueprint using Scuttler Husks and obtain the remaining Temporal Dust shown in Missing.",
-      "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
-      "source": "https://wiki.warframe.com/w/Thalys",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Vastilok",
       "type": "melee",
       "targetRank": "30",
@@ -583,21 +569,6 @@
       "liveMatches": [],
       "availabilityGroup": "baro",
       "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Detron",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Detron Blueprint; Detron Receiver",
-      "route": "Zanuka Hunter — death mark or Zanuka Hunter Beacon",
-      "steps": "Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Blueprint and Receiver.",
-      "tip": "Blueprint chance: 17.65%. Receiver chance: 32.35%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.",
-      "source": "https://wiki.warframe.com/w/Detron",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 410
     },
     {
       "ease": "4 — Multi-step farm",
@@ -649,7 +620,7 @@
       "item": "Spinnerex",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Spinnerex Blueprint; Spinnerex Handle; Spinnerex String",
+      "missing": "Spinnerex Handle; Spinnerex String",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
       "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
@@ -657,22 +628,7 @@
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 500
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Coda Pox",
-      "type": "secondary",
-      "targetRank": "30 first; 40 optional",
-      "missing": "Completed weapon from Eleanor",
-      "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
-      "steps": "Vanquish any Technocyte Coda for 10–15 Live Heartcells, then buy the weapon from Eleanor for 10 Heartcells when its rotating bonus is good.",
-      "tip": "Check Eleanor’s rotating elemental bonus before spending Heartcells.",
-      "source": "https://wiki.warframe.com/w/Adversary_Weapons",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
+      "practicalPriority": 495
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1364,22 +1320,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Akbolto Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Akbolto Prime Receiver (1/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Akbolto_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 492
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2128,22 +2068,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Kogake Prime",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Kogake Prime Gauntlet (1/2)",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Kogake_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 492
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Kronen Prime",
       "type": "melee",
       "targetRank": "30",
@@ -2839,22 +2763,40 @@
   ],
   "owned": [
     {
-      "item": "Basmu",
-      "type": "primary",
+      "item": "Argo & Vel",
+      "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Basmu"
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     },
     {
-      "item": "Argo & Vel",
+      "item": "Sampotes",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
+      "item": "Akbolto Prime",
+      "type": "secondary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Akbolto_Prime"
+    },
+    {
+      "item": "Kogake Prime",
       "type": "melee",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+      "source": "https://wiki.warframe.com/w/Kogake_Prime"
     },
     {
       "item": "Kullervo",
@@ -2866,13 +2808,31 @@
       "source": "https://wiki.warframe.com/w/Kullervo"
     },
     {
-      "item": "Sampotes",
+      "item": "Syam",
       "type": "melee",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
+      "item": "Azothane",
+      "type": "melee",
+      "state": "Ready to build",
+      "targetRank": "30",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
+      "item": "Thalys",
+      "type": "melee",
+      "state": "Ready to build",
+      "targetRank": "30",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Thalys"
     }
   ],
   "rank40": [
@@ -3391,24 +3351,21 @@
     {
       "item": "Akbolto Prime",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Akbolto Prime Receiver (1/2)",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 13,
       "source": "https://wiki.warframe.com/w/Akbolto_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Akbronco",
@@ -4082,17 +4039,17 @@
     {
       "item": "Argo & Vel",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -4415,21 +4372,23 @@
     {
       "item": "Azothane",
       "type": "melee",
-      "state": "Missing",
+      "state": "Ready to build",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Azothane Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Duviri — Pathos Clamps",
+      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Build in Foundry",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe."
     },
     {
       "item": "Bad Baby",
@@ -4591,14 +4550,14 @@
     {
       "item": "Basmu",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Recurring operation or Nights of Naberus / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -5989,14 +5948,14 @@
     {
       "item": "Coda Pox",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30 first; 40 optional",
       "rankRule": "",
-      "missing": "Completed weapon from Eleanor",
-      "ease": "5 — Long grind / trade",
+      "missing": "",
+      "ease": "1 — Complete",
       "route": "Eleanor in the Höllvania Central Mall — Live Heartcells",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -6769,15 +6728,15 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Detron Blueprint; Detron Receiver",
+      "missing": "Detron Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Zanuka Hunter — death mark or Zanuka Hunter Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 6,
       "source": "https://wiki.warframe.com/w/Detron",
-      "steps": "Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Blueprint and Receiver.",
-      "tip": "Blueprint chance: 17.65%. Receiver chance: 32.35%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.",
+      "steps": "Fight against the Corpus across five Invasion missions by supporting the Grineer to earn a Zanuka Hunter death mark. Then run eligible Corpus missions until Zanuka attacks, or use a Zanuka Hunter Beacon. Defeat it for the missing Blueprint.",
+      "tip": "Blueprint chance: 17.65%. The Blueprint, components and completed Detron are not tradeable. Zanuka Hunter Beacons rotate through Baro Ki’Teer’s inventory.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -10144,24 +10103,21 @@
     {
       "item": "Kogake Prime",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Kogake Prime Gauntlet (1/2)",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Kogake_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Kohm",
@@ -14932,17 +14888,17 @@
     {
       "item": "Sampotes",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -15979,7 +15935,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Spinnerex Blueprint; Spinnerex Handle; Spinnerex String",
+      "missing": "Spinnerex Handle; Spinnerex String",
       "ease": "5 — Long grind / trade",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
@@ -16472,17 +16428,17 @@
     {
       "item": "Syam",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Syam Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Duviri — Pathos Clamps",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -17262,21 +17218,21 @@
     {
       "item": "Thalys",
       "type": "melee",
-      "state": "Missing",
+      "state": "Ready to build",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Thalys Blueprint",
-      "ease": "4 — Multi-step farm",
-      "route": "Isleweaver Scuttler Husk vendor",
+      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Build in Foundry",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Thalys",
-      "steps": "Buy the blueprint using Scuttler Husks and obtain the remaining Temporal Dust shown in Missing.",
-      "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
       "primeDetails": [],
       "liveMatches": []
     },

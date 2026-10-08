@@ -1551,6 +1551,40 @@
     ]
   },
   {
+    "buildRef": "melee-161",
+    "name": "Argo & Vel",
+    "category": "Melee",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-034",
     "name": "Argonak",
     "category": "LongGuns",
@@ -2214,7 +2248,7 @@
     "buildRef": "pistols-071",
     "name": "Athodai Prime",
     "category": "Pistols",
-    "xp": 468223,
+    "xp": 622789,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -2468,7 +2502,7 @@
     "buildRef": "specialitems-056",
     "name": "Balefire Charger Prime",
     "category": "SpecialItems",
-    "xp": 64183272,
+    "xp": 66236280,
     "formaApplied": 8,
     "focusLens": null,
     "polarities": [
@@ -2770,7 +2804,7 @@
     "buildRef": "suits-056",
     "name": "Baruuk Prime",
     "category": "Suits",
-    "xp": 1215259,
+    "xp": 2374630,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -2856,7 +2890,7 @@
     "buildRef": "longguns-129",
     "name": "Basmu",
     "category": "LongGuns",
-    "xp": 0,
+    "xp": 1019084,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -2866,7 +2900,23 @@
       {
         "index": 0,
         "name": "A",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Serration",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "High Voltage",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Split Chamber",
+            "rank": 5,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -2935,7 +2985,7 @@
     "buildRef": "longguns-054",
     "name": "Battacor",
     "category": "LongGuns",
-    "xp": 471959,
+    "xp": 987637,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -3939,7 +3989,7 @@
     "buildRef": "longguns-103",
     "name": "Carmine Penta",
     "category": "LongGuns",
-    "xp": 492102,
+    "xp": 639284,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -6073,6 +6123,65 @@
     ]
   },
   {
+    "buildRef": "pistols-093",
+    "name": "Coda Pox",
+    "category": "Pistols",
+    "xp": 0,
+    "formaApplied": 2,
+    "focusLens": null,
+    "polarities": [
+      {
+        "slot": 4,
+        "polarity": "AP_ATTACK"
+      },
+      {
+        "slot": 5,
+        "polarity": "AP_TACTIC"
+      }
+    ],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [
+          {
+            "name": "Primed Heated Charge",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Convulsion",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Hornet Strike",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
     "buildRef": "longguns-073",
     "name": "Coda Sporothrix",
     "category": "LongGuns",
@@ -7630,6 +7739,18 @@
     "configurations": []
   },
   {
+    "buildRef": "driftermelee-005",
+    "name": "Dax Duviri Katana Player Weapon",
+    "category": "DrifterMelee",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": []
+  },
+  {
     "buildRef": "driftermelee-004",
     "name": "Dax Duviri Mace Shield Player Weapon",
     "category": "DrifterMelee",
@@ -7674,6 +7795,18 @@
         "helminthAbility": null
       }
     ]
+  },
+  {
+    "buildRef": "driftermelee-006",
+    "name": "Dax Duviri Two Handed Katana Player Weapon",
+    "category": "DrifterMelee",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": []
   },
   {
     "buildRef": "sentinelweapons-003",
@@ -8113,7 +8246,7 @@
     "buildRef": "specialitems-055",
     "name": "Desert Wind Prime",
     "category": "SpecialItems",
-    "xp": 1208579,
+    "xp": 2367950,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -9815,7 +9948,7 @@
     "buildRef": "melee-084",
     "name": "Dual Zoren Prime",
     "category": "Melee",
-    "xp": 1437806,
+    "xp": 1663832,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -10194,7 +10327,7 @@
     "buildRef": "suits-040",
     "name": "Ember",
     "category": "Suits",
-    "xp": 942454,
+    "xp": 1525843,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -11645,9 +11778,9 @@
     "buildRef": "melee-102",
     "name": "Furax Wraith",
     "category": "Melee",
-    "xp": 7740124,
+    "xp": 8027946,
     "formaApplied": 0,
-    "focusLens": null,
+    "focusLens": "Greater Unairu Lens",
     "polarities": [],
     "modularParts": [],
     "archonShards": [],
@@ -13964,7 +14097,7 @@
     "buildRef": "suits-057",
     "name": "Hildryn Prime",
     "category": "Suits",
-    "xp": 118997400,
+    "xp": 121050408,
     "formaApplied": 4,
     "focusLens": "Eidolon Naramon Lens",
     "polarities": [
@@ -15023,7 +15156,7 @@
     "buildRef": "melee-056",
     "name": "Innodem",
     "category": "Melee",
-    "xp": 9076754,
+    "xp": 9414218,
     "formaApplied": 0,
     "focusLens": "Zenurik Lens",
     "polarities": [],
@@ -15942,7 +16075,7 @@
     "buildRef": "longguns-119",
     "name": "Karak Wraith",
     "category": "LongGuns",
-    "xp": 455928,
+    "xp": 682278,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -16052,7 +16185,7 @@
     "buildRef": "melee-153",
     "name": "Karyst Prime",
     "category": "Melee",
-    "xp": 613954,
+    "xp": 930075,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -16584,7 +16717,7 @@
     "buildRef": "pistols-084",
     "name": "Knell Prime",
     "category": "Pistols",
-    "xp": 513363,
+    "xp": 850328,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -16684,7 +16817,7 @@
     "buildRef": "longguns-072",
     "name": "Komorex",
     "category": "LongGuns",
-    "xp": 1170863,
+    "xp": 1506658,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -21479,7 +21612,7 @@
     "buildRef": "suits-016",
     "name": "Nekros Prime",
     "category": "Suits",
-    "xp": 50828178,
+    "xp": 52584587,
     "formaApplied": 4,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -21822,7 +21955,7 @@
     "buildRef": "suits-060",
     "name": "Nidus Prime",
     "category": "Suits",
-    "xp": 902419,
+    "xp": 1218540,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -23056,7 +23189,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 17579467,
+    "xp": 17832199,
     "formaApplied": 0,
     "focusLens": "Eidolon Vazarin Lens",
     "polarities": [],
@@ -24002,7 +24135,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 765653699,
+    "xp": 769487654,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -24158,7 +24291,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 738264625,
+    "xp": 741704167,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -26040,7 +26173,7 @@
     "buildRef": "melee-052",
     "name": "Pulmonars",
     "category": "Melee",
-    "xp": 1162425,
+    "xp": 1374384,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -27709,7 +27842,7 @@
     "buildRef": "melee-034",
     "name": "Ripkas",
     "category": "Melee",
-    "xp": 17729370,
+    "xp": 18711424,
     "formaApplied": 2,
     "focusLens": "Greater Naramon Lens",
     "polarities": [
@@ -28204,6 +28337,40 @@
             "kind": "mod"
           }
         ],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 1,
+        "name": "B",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      },
+      {
+        "index": 2,
+        "name": "C",
+        "mods": [],
+        "arcanes": [],
+        "helminthAbility": null
+      }
+    ]
+  },
+  {
+    "buildRef": "melee-162",
+    "name": "Sampotes",
+    "category": "Melee",
+    "xp": 0,
+    "formaApplied": 0,
+    "focusLens": null,
+    "polarities": [],
+    "modularParts": [],
+    "archonShards": [],
+    "configurations": [
+      {
+        "index": 0,
+        "name": "A",
+        "mods": [],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -32984,7 +33151,7 @@
     "buildRef": "longguns-055",
     "name": "Tenet Envoy",
     "category": "LongGuns",
-    "xp": 1696029,
+    "xp": 2119830,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -34258,7 +34425,7 @@
     "buildRef": "longguns-012",
     "name": "Torid",
     "category": "LongGuns",
-    "xp": 924242,
+    "xp": 990820,
     "formaApplied": 7,
     "focusLens": null,
     "polarities": [
@@ -34502,7 +34669,7 @@
     "buildRef": "longguns-100",
     "name": "Trumna Prime",
     "category": "LongGuns",
-    "xp": 2245257,
+    "xp": 2561378,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -34617,7 +34784,7 @@
     "buildRef": "pistols-015",
     "name": "Twin Grakatas",
     "category": "Pistols",
-    "xp": 4774978,
+    "xp": 5115156,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -35617,7 +35784,7 @@
     "buildRef": "suits-001",
     "name": "Vauban",
     "category": "Suits",
-    "xp": 74292361,
+    "xp": 75205816,
     "formaApplied": 2,
     "focusLens": "Eidolon Zenurik Lens",
     "polarities": [

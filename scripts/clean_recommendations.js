@@ -671,6 +671,11 @@ function clean(row) {
   applyDynamicRecommendation(out);
   applyPrimeAvailability(out);
   applyLiveMatches(out);
+  if (out.state === 'Ready to build') {
+    out.route = 'Build in Foundry';
+    out.steps = 'Start crafting in Foundry, then claim and level to 30.';
+    out.tip = 'All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.';
+  }
   if (nightwaveItems.has(out.item)) out.availabilityGroup = 'nightwave';
   else if (/^Baro Ki/i.test(out.route || '')) out.availabilityGroup = 'baro';
   else if (/Dojo|Dagath.s Hollow/i.test(out.route || '')) out.availabilityGroup = 'dojo';
@@ -779,11 +784,13 @@ data.queue = cards.filter((row) => !row.primeStatus && row.vaulted !== 'Yes' && 
 const arsenalByName = new Map(data.arsenal.map((row) => [row.item, row]));
 data.owned = data.owned.filter((row) => {
   const arsenal = arsenalByName.get(row.item);
-  return arsenal && arsenal.mastered !== 'Yes' && (arsenal.pendingFoundry === 'Yes' || arsenal.owned === 'Yes');
+  return arsenal && arsenal.mastered !== 'Yes' && (arsenal.state === 'Ready to build' || arsenal.pendingFoundry === 'Yes' || arsenal.owned === 'Yes');
 }).map((row) => {
   const next = { ...row, source: normalizeSource(row.source) };
   const weapon = ['primary', 'secondary', 'melee', 'archgun', 'archmelee'].includes(next.type);
-  next.steps = next.state === 'Ready in Foundry'
+  next.steps = next.state === 'Ready to build'
+    ? 'Start crafting in Foundry, then claim and level to 30.'
+    : next.state === 'Ready in Foundry'
     ? 'Claim from Foundry; equip and level to 30.'
     : 'Check Arsenal and level to 30 if needed.';
   next.tip = weapon
