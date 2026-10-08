@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-07",
-    "exportVerifiedAt": "2026-10-07 17:39:04 PDT",
-    "exportSource": "Saved AlecaFrame account snapshot",
+    "exportVerifiedAt": "2026-10-07 19:15:35 PDT",
+    "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167575,
-        "modified": "2026-10-07T17:33:51.015060-07:00",
-        "sha256": "03556c5b0ad834652a2c3a991fd3b1d583e2fee0bda1196f7374243e7b13032d"
+        "bytes": 2167573,
+        "modified": "2026-10-07T19:15:34.578619-07:00",
+        "sha256": "4b95906c7db7463dd43c7c554483deba6abf18e8c7d71348d85c13e6d8553887"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-07T17:33:51.018610-07:00",
+        "modified": "2026-10-07T19:15:34.584773-07:00",
         "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-07T17:33:51.015565-07:00",
+        "modified": "2026-10-07T19:15:34.580727-07:00",
         "sha256": "e32c6c385131ad78a6bf4d77c09894ba8e092d5de22b941df1e8eb84d5f518ff"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-07T17:33:51.017102-07:00",
+        "modified": "2026-10-07T19:15:34.582646-07:00",
         "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-07T17:33:51.021126-07:00",
+        "modified": "2026-10-07T19:15:34.587869-07:00",
         "sha256": "32ab514038ef6052622ee9bd08896081b81eaa05ae92d880233f759c02e2e8fc"
       },
       "rivens.json": {
@@ -53,12 +53,12 @@
           "No",
           "No",
           "No",
-          "Azothane Blueprint"
+          ""
         ],
         "after": [
           "No",
           "No",
-          "No",
+          "Yes",
           ""
         ]
       },
@@ -83,12 +83,12 @@
           "No",
           "No",
           "No",
-          "Thalys Blueprint"
+          ""
         ],
         "after": [
           "No",
           "No",
-          "No",
+          "Yes",
           ""
         ]
       }
@@ -2790,6 +2790,15 @@
       "source": "https://wiki.warframe.com/w/Akbolto_Prime"
     },
     {
+      "item": "Azothane",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
       "item": "Kogake Prime",
       "type": "melee",
       "state": "Ready in Foundry",
@@ -2817,20 +2826,11 @@
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     },
     {
-      "item": "Azothane",
-      "type": "melee",
-      "state": "Ready to build",
-      "targetRank": "30",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
-    },
-    {
       "item": "Thalys",
       "type": "melee",
-      "state": "Ready to build",
+      "state": "Ready in Foundry",
       "targetRank": "30",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Thalys"
     }
@@ -4372,17 +4372,17 @@
     {
       "item": "Azothane",
       "type": "melee",
-      "state": "Ready to build",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Foundry",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -17218,21 +17218,21 @@
     {
       "item": "Thalys",
       "type": "melee",
-      "state": "Ready to build",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Isleweaver Scuttler Husk vendor",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Thalys",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
-      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
+      "steps": "Buy the blueprint using Scuttler Husks and obtain the remaining Temporal Dust shown in Missing.",
+      "tip": "Isleweaver completion gives 16–20 Scuttler Husks normally or 20–24 on Steel Path. Temporal Dust drops from Murmur enemies during Isleweaver.",
       "primeDetails": [],
       "liveMatches": []
     },
