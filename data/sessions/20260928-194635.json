@@ -1,61 +1,9 @@
 {
-  "configurationChanges": [],
-  "focusCounterAtCaptureStart": 0,
-  "equipmentRemoved": [],
-  "missions": [
-    {
-      "startedAt": "2026-09-28T19:46:39.287000+00:00",
-      "endedAt": "2026-09-28T20:07:50.729000+00:00",
-      "durationSeconds": 1271.442,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "EntratiLabHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-28T20:22:05.427000+00:00",
-      "endedAt": "2026-09-28T20:52:39.880000+00:00",
-      "durationSeconds": 1834.453,
-      "type": "MISSION",
-      "node": "ALBRECHT LABS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-09-28T20:55:18.265000+00:00",
-      "endedAt": "2026-09-28T20:56:45.398727+00:00",
-      "durationSeconds": 87.134,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "errorEventCount": 3,
-  "negativeItemDeltas": [
-    {
-      "item": "Eidolon Naramon Lens",
-      "delta": -1
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
   "schemaVersion": 1,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
-  "startedAt": "2026-09-28T19:46:35.130168+00:00",
-  "durationSeconds": 4210.269,
-  "missionCount": 3,
   "stoppedAt": "2026-09-28T20:56:45.398727+00:00",
+  "configurationChanges": [],
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Entrati Obols",
@@ -118,6 +66,58 @@
       "delta": 1
     }
   ],
+  "missions": [
+    {
+      "startedAt": "2026-09-28T19:46:39.287000+00:00",
+      "endedAt": "2026-09-28T20:07:50.729000+00:00",
+      "durationSeconds": 1271.442,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EntratiLabHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-28T20:22:05.427000+00:00",
+      "endedAt": "2026-09-28T20:52:39.880000+00:00",
+      "durationSeconds": 1834.453,
+      "type": "MISSION",
+      "node": "ALBRECHT LABS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-09-28T20:55:18.265000+00:00",
+      "endedAt": "2026-09-28T20:56:45.398727+00:00",
+      "durationSeconds": 87.134,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-09-28T19:46:35.130168+00:00",
+  "missionCount": 3,
+  "durationSeconds": 4210.269,
+  "errorEventCount": 3,
+  "negativeItemDeltas": [
+    {
+      "item": "Eidolon Naramon Lens",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
