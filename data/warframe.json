@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-07",
-    "exportVerifiedAt": "2026-10-07 19:27:57 PDT",
+    "exportVerifiedAt": "2026-10-07 20:07:27 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167571,
-        "modified": "2026-10-07T19:27:56.437800-07:00",
-        "sha256": "74f64bdfe11c86928116baf88bf17d60726c780acb1f18a78e9ddcc2819221f8"
+        "modified": "2026-10-07T20:07:26.409508-07:00",
+        "sha256": "bbd3ea23b6a5c773ed7fc74a30614f76d25f465fc761aef8f2032a2f2de4be66"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-07T19:27:56.441512-07:00",
-        "sha256": "eb9119af1b0ab0c866dfb5591c3fe48e0f43c443723667a77c14ea1c0e09923f"
+        "modified": "2026-10-07T20:07:26.416279-07:00",
+        "sha256": "985dc8ebb3f32e63bbc1fb6225642baabde4a18c84c6fd9f7a789f341e7c9e76"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-07T19:27:56.439810-07:00",
+        "modified": "2026-10-07T20:07:26.412159-07:00",
         "sha256": "6521a081de23ecfcc1d0e091ef8be5820cc4a180fc723f5176f82e9a90f9d53b"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-07T19:27:56.439810-07:00",
+        "modified": "2026-10-07T20:07:26.413706-07:00",
         "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-07T19:27:56.442653-07:00",
+        "modified": "2026-10-07T20:07:26.419789-07:00",
         "sha256": "34e3f96e514d9f004e5bb4122702e34429154aff199dda2d7c36e636db84e1a4"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Baza Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Baza Prime Blueprint; Baza Prime Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Baza Prime Receiver"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -1433,22 +1449,14 @@
       "item": "Baza Prime",
       "type": "primary",
       "targetRank": "30",
-      "missing": "Baza Prime Blueprint; Baza Prime Receiver",
+      "missing": "Baza Prime Receiver",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Build Baza Prime and level it to 30.",
+      "steps": "Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Build Baza Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Baza_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Baza Prime Blueprint",
-          "relic": "Meso I3",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Baza Prime Receiver",
           "relic": "Meso V16",
@@ -1461,7 +1469,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -4562,7 +4570,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Baza Prime Blueprint; Baza Prime Receiver",
+      "missing": "Baza Prime Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -4571,14 +4579,6 @@
       "source": "https://wiki.warframe.com/w/Baza_Prime",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
-        {
-          "part": "Baza Prime Blueprint",
-          "relic": "Meso I3",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Varzia for Aya during the current Prime Resurgence rotation",
-          "refinement": "Radiant"
-        },
         {
           "part": "Baza Prime Receiver",
           "relic": "Meso V16",
@@ -4591,7 +4591,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Baza Prime Blueprint (Uncommon): buy Meso I3 from Varzia for Aya and open it Radiant in a four-player share. Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Build Baza Prime and level it to 30.",
+      "steps": "Baza Prime Receiver (Common): buy Meso V16 from Varzia for Aya and open it Intact in a four-player share. Build Baza Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
