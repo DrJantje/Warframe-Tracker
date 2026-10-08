@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-08T03:11:25.333090+00:00
-Account snapshot: 2026-10-08T03:11:24.466Z
+Generated: 2026-10-08T05:55:37.617481+00:00
+Account snapshot: 2026-10-08T03:08:04.507Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -9,36 +9,31 @@ Use this as the player's current sanitized account and session context. Live obs
 
 - Phase: mission
 - Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Planet: ZARIMAN
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Titania
+### Arsenal: Nekros Lt Goblin
 
-#### Warframe: Titania Prime — config A
+#### Warframe: Nekros Prime — config A
 
 - Forma: 4
-- Lens: Eidolon Unairu Lens
-- Helminth: Xata's Whisper
-- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
-- Mods: Fleeting Expertise (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
-- Arcanes: Arcane Camisado (rank 5), Arcane Impetus (rank 5)
+- Lens: Greater Naramon Lens
+- Helminth: Rhino Roar Ability
+- Archon shards: ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_BLUE_MYTHIC Archon Crystal Upgrade Warframe Energy Max Mythic, ACC_BLUE_MYTHIC Archon Crystal Upgrade Warframe Energy Max Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic
+- Mods: Despoil (rank 3), Stretch (rank 5), Shield Of Shadows (rank 3), Blind Rage (rank 10), Archon Continuity (rank 10), Equilibrium (rank 10), Health Conversion (rank 5), Overextended (rank 5), Growing Power (rank 5), Cunning Drift (rank 5)
+- Arcanes: Arcane Camisado (rank 5), Arcane Blessing (rank 5)
 
-#### Secondary: Akbolto Prime — config A
+#### Primary: Coda Bassocyst — config A
 
-- Forma: 0
-- Mods: Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Convulsion (rank 10)
-- Arcanes: none recorded
-
-#### Melee: Argo & Vel — config A
-
-- Forma: 0
-- Mods: Pressure Point (rank 5), Drifting Contact (rank 3), True Steel (rank 5), Primed Fever Strike (rank 10), Primed Reach (rank 10), Eleventh Storm (rank 3)
-- Arcanes: none recorded
+- Forma: 5
+- Lens: Greater Unairu Lens
+- Mods: Primed Charged Shell (rank 10), Shotgun Barrage (rank 5), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
 
 #### Heavy weapon: Mausolon — config A
 
@@ -46,24 +41,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-#### Exalted weapon: Dex Pixia Prime — config A
-
-- Forma: 7
-- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
-- Arcanes: Secondary Enervate (rank 5)
-
-#### Second exalted weapon: Diwata Prime — config A
-
-- Forma: 4
-- Mods: Primed Fever Strike (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Amalgam Organ Shatter (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 9), Guardian Derision (rank 5)
-- Arcanes: Melee Duplicate (rank 4)
-
-### Companion: Titania
+### Companion: Nekros Lt Goblin
 
 #### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Arcanes: none recorded
+
+#### Companion weapon: Verglas Prime — config A
+
+- Forma: 3
+- Mods: Sinister Reach (rank 3), Critical Delay (rank 5), Vital Sense (rank 5), Galvanized Aptitude (rank 10), Malignant Force (rank 3), Vile Acceleration (rank 5), Galvanized Chamber (rank 10), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
@@ -74,11 +63,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-10-05T15:30:02.407948+00:00
-- Duration seconds: 13482.202
-- Missions: 19
+- Started: 2026-10-08T02:14:41.654047+00:00
+- Duration seconds: 5542.289
+- Missions: 5
 - Focus earned: 0
-- Notable acquisitions: Intact Sentient Core (+31), Blueprint (+6), Broken Frame Chassis Blueprint (+2), Neo C7 Intact (+1), Vinquibus Receiver Blueprint (+1)
+- Notable acquisitions: Harrow Chassis Blueprint (+5), Blueprint (+2), Blade (+1), Citrine Prime Helmet Blueprint (+1), Citrine Prime Systems Blueprint (+1), Duviri Heavy Scythe Handle Blueprint (+1), Duviri Rifle Barrel Blueprint (+1), Meso E5 Radiant (+1), Meso V13 Exceptional (+1), Protea Prime Helmet Blueprint (+1), T2 Void Projection Citrine Prime CBronze (+1), T3 Void Projection Citrine Prime EBronze (+1)
 
 ## Deeper files
 
