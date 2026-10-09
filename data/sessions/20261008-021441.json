@@ -1,11 +1,49 @@
 {
   "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
-  "missionCount": 5,
   "focusCounterAtCaptureStart": 0,
-  "configurationChanges": [],
-  "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "durationSeconds": 5542.289,
+  "negativeItemDeltas": [
+    {
+      "item": "Salvage",
+      "delta": -900
+    },
+    {
+      "item": "Polymer Bundle",
+      "delta": -650
+    },
+    {
+      "item": "Rubedo",
+      "delta": -400
+    },
+    {
+      "item": "Void Traces",
+      "delta": -154
+    },
+    {
+      "item": "Cryotic",
+      "delta": -100
+    },
+    {
+      "item": "T2 Void Projection Citrine Prime ABronze",
+      "delta": -3
+    },
+    {
+      "item": "T4 Void Projection Protea Ivara Vault ABronze",
+      "delta": -2
+    },
+    {
+      "item": "Meso E5 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Neurodes",
+      "delta": -1
+    },
+    {
+      "item": "T1 Void Projection Citrine Prime CPlatinum",
+      "delta": -1
+    }
+  ],
+  "errorEventCount": 1,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -112,51 +150,8 @@
       "delta": 1
     }
   ],
+  "missionCount": 5,
   "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Salvage",
-      "delta": -900
-    },
-    {
-      "item": "Polymer Bundle",
-      "delta": -650
-    },
-    {
-      "item": "Rubedo",
-      "delta": -400
-    },
-    {
-      "item": "Void Traces",
-      "delta": -154
-    },
-    {
-      "item": "Cryotic",
-      "delta": -100
-    },
-    {
-      "item": "T2 Void Projection Citrine Prime ABronze",
-      "delta": -3
-    },
-    {
-      "item": "T4 Void Projection Protea Ivara Vault ABronze",
-      "delta": -2
-    },
-    {
-      "item": "Meso E5 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Neurodes",
-      "delta": -1
-    },
-    {
-      "item": "T1 Void Projection Citrine Prime CPlatinum",
-      "delta": -1
-    }
-  ],
   "startedAt": "2026-10-08T02:14:41.654047+00:00",
   "missions": [
     {
@@ -221,7 +216,12 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 1,
+  "durationSeconds": 5542.289,
+  "equipmentRemoved": [],
+  "configurationChanges": [],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "Harrow Chassis Blueprint",
