@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-08",
-    "exportVerifiedAt": "2026-10-08 19:21:31 PDT",
+    "exportVerifiedAt": "2026-10-08 19:27:17 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167568,
-        "modified": "2026-10-08T19:21:29.963068-07:00",
-        "sha256": "28c6590be6a882df20c004185c13d740d4b4251cd5c7999cb28b87b9ddff3068"
+        "bytes": 2167567,
+        "modified": "2026-10-08T19:27:09.417515-07:00",
+        "sha256": "11c1324682e27d5b541afb4774ccd22610c181a9d4a516e82edf87ba8e9e78f8"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-08T19:21:29.970312-07:00",
+        "modified": "2026-10-08T19:27:09.426703-07:00",
         "sha256": "eddff8ce1e406fd79bd5258ba2dbd0180133841368afd92b5fa5af6bc8826e6f"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-08T19:21:29.965683-07:00",
+        "modified": "2026-10-08T19:27:09.419577-07:00",
         "sha256": "0b29a7ca76209432320af390635ed9f8da306d6c53479a2fe87229f1fcf99b2e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-08T19:21:29.967200-07:00",
+        "modified": "2026-10-08T19:27:09.422633-07:00",
         "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-08T19:21:29.972883-07:00",
+        "modified": "2026-10-08T19:27:09.432768-07:00",
         "sha256": "8649a505119ad0fd406605869e0e8a696d7bc4b58617479cf7d689823d5c411d"
       },
       "rivens.json": {
@@ -48,137 +48,17 @@
     },
     "importChanges": [
       {
-        "item": "Akbolto Prime",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Akmagnus Prime",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Argo & Vel",
-        "before": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "Yes",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Azothane",
-        "before": [
-          "No",
-          "No",
-          "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Ember Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Ember Prime Blueprint; Ember Prime Neuroptics Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Ember Prime Neuroptics Blueprint"
-        ]
-      },
-      {
-        "item": "Euphona Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Euphona Prime Receiver"
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
         "item": "Scyotid",
         "before": [
           "No",
           "No",
           "No",
-          "Scyotid Barrel (1/2); Scyotid Gauntlet (1/2)"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Spinnerex",
-        "before": [
-          "No",
-          "No",
-          "Yes",
           ""
         ],
         "after": [
-          "Yes",
-          "No",
-          "No",
-          ""
-        ]
-      },
-      {
-        "item": "Syam",
-        "before": [
           "No",
           "No",
           "Yes",
-          ""
-        ],
-        "after": [
-          "Yes",
-          "No",
-          "No",
           ""
         ]
       }
@@ -2854,9 +2734,9 @@
     {
       "item": "Scyotid",
       "type": "secondary",
-      "state": "Ready to build",
+      "state": "Ready in Foundry",
       "targetRank": "30",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Scyotid"
     }
@@ -15202,21 +15082,21 @@
     {
       "item": "Scyotid",
       "type": "secondary",
-      "state": "Ready to build",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Scyotid",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
-      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
+      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
+      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
       "primeDetails": [],
       "liveMatches": []
     },

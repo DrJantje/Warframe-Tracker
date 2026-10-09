@@ -1,5 +1,6 @@
 {
-  "startedAt": "2026-08-22T15:39:53.829909+00:00",
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -70,47 +71,6 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 5,
-  "missionCount": 5,
-  "equipmentAdded": [],
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Blister Stalk",
-      "delta": -5
-    },
-    {
-      "item": "Nonono",
-      "delta": -5
-    },
-    {
-      "item": "Gamma Berry",
-      "delta": -4
-    },
-    {
-      "item": "Vomval Trumpet",
-      "delta": -4
-    },
-    {
-      "item": "Muck Bonnet",
-      "delta": -3
-    },
-    {
-      "item": "Reeking Puffball ",
-      "delta": -3
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [
-    {
-      "at": "2026-08-22T16:42:15.853642+00:00",
-      "item": "Protea"
-    }
-  ],
   "missions": [
     {
       "startedAt": "2026-08-22T15:40:01.017000+00:00",
@@ -174,8 +134,38 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 3868.268,
+  "negativeItemDeltas": [
+    {
+      "item": "Blister Stalk",
+      "delta": -5
+    },
+    {
+      "item": "Nonono",
+      "delta": -5
+    },
+    {
+      "item": "Gamma Berry",
+      "delta": -4
+    },
+    {
+      "item": "Vomval Trumpet",
+      "delta": -4
+    },
+    {
+      "item": "Muck Bonnet",
+      "delta": -3
+    },
+    {
+      "item": "Reeking Puffball ",
+      "delta": -3
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "startedAt": "2026-08-22T15:39:53.829909+00:00",
+  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
   "configurationChanges": [
     {
       "at": "2026-08-22T16:42:15.853642+00:00",
@@ -294,8 +284,18 @@
       "helminthAfter": null
     }
   ],
+  "equipmentAdded": [],
   "schemaVersion": 1,
-  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
+  "errorEventCount": 5,
+  "durationSeconds": 3868.268,
+  "missionCount": 5,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [
+    {
+      "at": "2026-08-22T16:42:15.853642+00:00",
+      "item": "Protea"
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Blueprint",

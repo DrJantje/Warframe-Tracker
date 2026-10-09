@@ -1,5 +1,6 @@
 {
-  "startedAt": "2026-09-28T17:31:52.789778+00:00",
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -82,50 +83,6 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 2,
-  "missionCount": 10,
-  "equipmentAdded": [],
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Polymer Bundle",
-      "delta": -3000
-    },
-    {
-      "item": "Cipher",
-      "delta": -13
-    },
-    {
-      "item": "Cryptographic Alu",
-      "delta": -8
-    },
-    {
-      "item": "Gallium",
-      "delta": -6
-    },
-    {
-      "item": "Razorback Cipher",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -1
-    },
-    {
-      "item": "Eidolon Unairu Lens",
-      "delta": -1
-    },
-    {
-      "item": "Eidolon Vazarin Lens",
-      "delta": -1
-    },
-    {
-      "item": "Forma",
-      "delta": -1
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-28T17:31:57.444000+00:00",
@@ -249,8 +206,46 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 2601.937,
+  "negativeItemDeltas": [
+    {
+      "item": "Polymer Bundle",
+      "delta": -3000
+    },
+    {
+      "item": "Cipher",
+      "delta": -13
+    },
+    {
+      "item": "Cryptographic Alu",
+      "delta": -8
+    },
+    {
+      "item": "Gallium",
+      "delta": -6
+    },
+    {
+      "item": "Razorback Cipher",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -1
+    },
+    {
+      "item": "Eidolon Unairu Lens",
+      "delta": -1
+    },
+    {
+      "item": "Eidolon Vazarin Lens",
+      "delta": -1
+    },
+    {
+      "item": "Forma",
+      "delta": -1
+    }
+  ],
+  "startedAt": "2026-09-28T17:31:52.789778+00:00",
+  "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-28T17:43:08.850449+00:00",
@@ -336,8 +331,13 @@
       "helminthAfter": null
     }
   ],
+  "equipmentAdded": [],
   "schemaVersion": 1,
-  "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
+  "errorEventCount": 2,
+  "durationSeconds": 2601.937,
+  "missionCount": 10,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",

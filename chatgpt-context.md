@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-09T02:21:30.808400+00:00
-Account snapshot: 2026-10-09T02:21:29.790Z
+Generated: 2026-10-09T02:27:17.448967+00:00
+Account snapshot: 2026-10-09T02:27:06.507Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Phase: location
+- Location: HUB
+- Planet: ZARIMAN
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,16 +28,16 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Fleeting Expertise (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
 - Arcanes: Arcane Camisado (rank 5), Arcane Pistoleer (rank 5)
 
-#### Secondary: Akbolto Prime — config A
+#### Secondary: Akmagnus Prime — config A
 
 - Forma: 0
-- Mods: Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10), Primed Convulsion (rank 10)
+- Mods: Hornet Strike (rank 10), Magnetic Might (rank 3), Primed Convulsion (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Argo & Vel — config A
+#### Melee: Azothane — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Drifting Contact (rank 3), True Steel (rank 5), Primed Fever Strike (rank 10), Primed Reach (rank 10), Eleventh Storm (rank 3)
+- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Drifting Contact (rank 3), Primed Fever Strike (rank 10)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
