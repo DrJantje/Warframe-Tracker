@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-09T04:00:01.042010+00:00
-Account snapshot: 2026-10-09T03:59:59.538Z
+Generated: 2026-10-09T04:24:14.343758+00:00
+Account snapshot: 2026-10-09T04:00:22.446Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: MISSION
-- Planet: DEIMOS
-- Frame observation: Titania (mission-active)
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -68,11 +68,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-10-08T02:14:41.654047+00:00
-- Duration seconds: 5542.289
-- Missions: 5
+- Started: 2026-10-09T02:20:02.294415+00:00
+- Duration seconds: 7448.184
+- Missions: 2
 - Focus earned: 0
-- Notable acquisitions: Harrow Chassis Blueprint (+5), Blueprint (+2), Blade (+1), Citrine Prime Helmet Blueprint (+1), Citrine Prime Systems Blueprint (+1), Duviri Heavy Scythe Handle Blueprint (+1), Duviri Rifle Barrel Blueprint (+1), Meso E5 Radiant (+1), Meso V13 Exceptional (+1), Protea Prime Helmet Blueprint (+1), T2 Void Projection Citrine Prime CBronze (+1), T3 Void Projection Citrine Prime EBronze (+1)
+- Notable acquisitions: Duelist Bow Blueprint (+1), Duelist Bow Grip Blueprint (+1), Duelist Bow Lower Limb Blueprint (+1), Duelist Bow String Blueprint (+1), Duelist Bow Upper Limb Blueprint (+1)
 
 ## Deeper files
 
