@@ -1,27 +1,5 @@
 {
-  "schemaVersion": 1,
-  "positiveItemDeltas": [
-    {
-      "item": "Rubedo",
-      "delta": 1136
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": 764
-    },
-    {
-      "item": "Plastids",
-      "delta": 280
-    },
-    {
-      "item": "Oxium",
-      "delta": 94
-    },
-    {
-      "item": "Nav Coordinate",
-      "delta": 6
-    }
-  ],
+  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-08T01:38:50.939000+00:00",
@@ -73,10 +51,10 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 1458.042,
-  "equipmentAdded": [],
-  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
+  "focusCounterAtCaptureStart": 0,
   "focusCounterAtCaptureEnd": 0,
+  "missionCount": 4,
   "errorEventCount": 3,
   "negativeItemDeltas": [
     {
@@ -84,10 +62,32 @@
       "delta": -5
     }
   ],
+  "equipmentAdded": [],
+  "durationSeconds": 1458.042,
   "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 4,
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 1136
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": 764
+    },
+    {
+      "item": "Plastids",
+      "delta": 280
+    },
+    {
+      "item": "Oxium",
+      "delta": 94
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    }
+  ],
+  "schemaVersion": 1,
   "startedAt": "2026-09-08T01:38:44.297821+00:00",
   "configurationChanges": [],
   "notableAcquisitions": [],
