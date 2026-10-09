@@ -1,121 +1,5 @@
 {
-  "missions": [
-    {
-      "startedAt": "2026-10-08T02:14:48.862000+00:00",
-      "endedAt": "2026-10-08T02:21:19.373000+00:00",
-      "durationSeconds": 390.511,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "TradeHUB1_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-08T02:21:52.032000+00:00",
-      "endedAt": "2026-10-08T02:26:48.465000+00:00",
-      "durationSeconds": 296.433,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IceBladeHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": "VoidT6",
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-08T02:37:11.927000+00:00",
-      "endedAt": "2026-10-08T03:05:28.657000+00:00",
-      "durationSeconds": 1696.73,
-      "type": "CASCADE",
-      "node": "SolNode232",
-      "label": null,
-      "missionKey": "SolNode232_ActiveMission",
-      "missionInstance": 1,
-      "voidTier": "VoidT6",
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-08T02:37:11.927000+00:00",
-      "endedAt": "2026-10-08T03:05:47.724000+00:00",
-      "durationSeconds": 1715.797,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode232_ActiveMission",
-      "missionInstance": 1,
-      "voidTier": "VoidT6",
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-08T03:46:38.506000+00:00",
-      "endedAt": "2026-10-08T03:47:03.942856+00:00",
-      "durationSeconds": 25.437,
-      "type": "CORRUPTION",
-      "node": "SolNode230",
-      "label": null,
-      "missionKey": "SolNode230_ActiveMission",
-      "missionInstance": 2,
-      "voidTier": "VoidT6",
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "negativeItemDeltas": [
-    {
-      "item": "Salvage",
-      "delta": -900
-    },
-    {
-      "item": "Polymer Bundle",
-      "delta": -650
-    },
-    {
-      "item": "Rubedo",
-      "delta": -400
-    },
-    {
-      "item": "Void Traces",
-      "delta": -154
-    },
-    {
-      "item": "Cryotic",
-      "delta": -100
-    },
-    {
-      "item": "T2 Void Projection Citrine Prime ABronze",
-      "delta": -3
-    },
-    {
-      "item": "T4 Void Projection Protea Ivara Vault ABronze",
-      "delta": -2
-    },
-    {
-      "item": "Meso E5 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Neurodes",
-      "delta": -1
-    },
-    {
-      "item": "T1 Void Projection Citrine Prime CPlatinum",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 5542.289,
-  "configurationChanges": [],
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [],
   "startedAt": "2026-10-08T02:14:41.654047+00:00",
-  "focusEarnedDuringCapture": 0,
-  "missionCount": 5,
-  "schemaVersion": 1,
-  "equipmentAdded": [],
-  "errorEventCount": 1,
-  "focusCounterAtCaptureStart": 0,
-  "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -222,6 +106,122 @@
       "delta": 1
     }
   ],
+  "errorEventCount": 1,
+  "missionCount": 5,
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Salvage",
+      "delta": -900
+    },
+    {
+      "item": "Polymer Bundle",
+      "delta": -650
+    },
+    {
+      "item": "Rubedo",
+      "delta": -400
+    },
+    {
+      "item": "Void Traces",
+      "delta": -154
+    },
+    {
+      "item": "Cryotic",
+      "delta": -100
+    },
+    {
+      "item": "T2 Void Projection Citrine Prime ABronze",
+      "delta": -3
+    },
+    {
+      "item": "T4 Void Projection Protea Ivara Vault ABronze",
+      "delta": -2
+    },
+    {
+      "item": "Meso E5 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Neurodes",
+      "delta": -1
+    },
+    {
+      "item": "T1 Void Projection Citrine Prime CPlatinum",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
+  "missions": [
+    {
+      "startedAt": "2026-10-08T02:14:48.862000+00:00",
+      "endedAt": "2026-10-08T02:21:19.373000+00:00",
+      "durationSeconds": 390.511,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "TradeHUB1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-08T02:21:52.032000+00:00",
+      "endedAt": "2026-10-08T02:26:48.465000+00:00",
+      "durationSeconds": 296.433,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IceBladeHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": "VoidT6",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-08T02:37:11.927000+00:00",
+      "endedAt": "2026-10-08T03:05:28.657000+00:00",
+      "durationSeconds": 1696.73,
+      "type": "CASCADE",
+      "node": "SolNode232",
+      "label": null,
+      "missionKey": "SolNode232_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": "VoidT6",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-08T02:37:11.927000+00:00",
+      "endedAt": "2026-10-08T03:05:47.724000+00:00",
+      "durationSeconds": 1715.797,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode232_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": "VoidT6",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-08T03:46:38.506000+00:00",
+      "endedAt": "2026-10-08T03:47:03.942856+00:00",
+      "durationSeconds": 25.437,
+      "type": "CORRUPTION",
+      "node": "SolNode230",
+      "label": null,
+      "missionKey": "SolNode230_ActiveMission",
+      "missionInstance": 2,
+      "voidTier": "VoidT6",
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "durationSeconds": 5542.289,
+  "configurationChanges": [],
+  "schemaVersion": 1,
+  "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
   "notableAcquisitions": [
     {
       "item": "Harrow Chassis Blueprint",

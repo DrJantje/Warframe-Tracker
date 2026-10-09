@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-07",
-    "exportVerifiedAt": "2026-10-07 22:55:37 PDT",
+    "snapshotDate": "2026-10-08",
+    "exportVerifiedAt": "2026-10-08 19:21:31 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167571,
-        "modified": "2026-10-07T22:55:36.933226-07:00",
-        "sha256": "bbd3ea23b6a5c773ed7fc74a30614f76d25f465fc761aef8f2032a2f2de4be66"
+        "bytes": 2167568,
+        "modified": "2026-10-08T19:21:29.963068-07:00",
+        "sha256": "28c6590be6a882df20c004185c13d740d4b4251cd5c7999cb28b87b9ddff3068"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-07T22:55:36.938852-07:00",
-        "sha256": "985dc8ebb3f32e63bbc1fb6225642baabde4a18c84c6fd9f7a789f341e7c9e76"
+        "modified": "2026-10-08T19:21:29.970312-07:00",
+        "sha256": "eddff8ce1e406fd79bd5258ba2dbd0180133841368afd92b5fa5af6bc8826e6f"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-07T22:55:36.935785-07:00",
-        "sha256": "6521a081de23ecfcc1d0e091ef8be5820cc4a180fc723f5176f82e9a90f9d53b"
+        "modified": "2026-10-08T19:21:29.965683-07:00",
+        "sha256": "0b29a7ca76209432320af390635ed9f8da306d6c53479a2fe87229f1fcf99b2e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-07T22:55:36.937291-07:00",
+        "modified": "2026-10-08T19:21:29.967200-07:00",
         "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-07T22:55:36.941921-07:00",
-        "sha256": "34e3f96e514d9f004e5bb4122702e34429154aff199dda2d7c36e636db84e1a4"
+        "modified": "2026-10-08T19:21:29.972883-07:00",
+        "sha256": "8649a505119ad0fd406605869e0e8a696d7bc4b58617479cf7d689823d5c411d"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,13 +46,149 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Akbolto Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Akmagnus Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Argo & Vel",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Azothane",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Ember Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Ember Prime Blueprint; Ember Prime Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Ember Prime Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Euphona Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Euphona Prime Receiver"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Scyotid",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Scyotid Barrel (1/2); Scyotid Gauntlet (1/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Spinnerex",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Syam",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 146
+      "missing": 144
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -538,21 +674,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Scyotid",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Scyotid Barrel (1/2); Scyotid Gauntlet (1/2)",
-      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
-      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
-      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
-      "source": "https://wiki.warframe.com/w/Scyotid",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 482
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1709,7 +1830,7 @@
       "item": "Ember Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Ember Prime Blueprint; Ember Prime Neuroptics Blueprint",
+      "missing": "Ember Prime Neuroptics Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -1718,7 +1839,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 510
+      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -1735,22 +1856,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Euphona Prime",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Euphona Prime Receiver",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Euphona_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2657,22 +2762,31 @@
   ],
   "owned": [
     {
-      "item": "Akbolto Prime",
+      "item": "Akmagnus Prime",
       "type": "secondary",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Akbolto_Prime"
+      "source": "https://wiki.warframe.com/w/Akmagnus_Prime"
     },
     {
-      "item": "Argo & Vel",
+      "item": "Azothane",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
+      "item": "Euphona Prime",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Euphona_Prime"
     },
     {
       "item": "Kogake Prime",
@@ -2693,6 +2807,24 @@
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     },
     {
+      "item": "Spinnerex",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Spinnerex"
+    },
+    {
+      "item": "Syam",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+    },
+    {
       "item": "Thalys",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -2700,24 +2832,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Thalys"
-    },
-    {
-      "item": "Akmagnus Prime",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Akmagnus_Prime"
-    },
-    {
-      "item": "Azothane",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     },
     {
       "item": "Kullervo",
@@ -2738,22 +2852,13 @@
       "source": "https://wiki.warframe.com/w/Oraxia"
     },
     {
-      "item": "Spinnerex",
-      "type": "melee",
-      "state": "Ready in Foundry",
+      "item": "Scyotid",
+      "type": "secondary",
+      "state": "Ready to build",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Spinnerex"
-    },
-    {
-      "item": "Syam",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Scyotid"
     }
   ],
   "rank40": [
@@ -3272,15 +3377,15 @@
     {
       "item": "Akbolto Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 13,
@@ -3463,17 +3568,17 @@
     {
       "item": "Akmagnus Prime",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 15,
       "source": "https://wiki.warframe.com/w/Akmagnus_Prime",
       "basePrimeDependency": {
@@ -3959,15 +4064,15 @@
     {
       "item": "Argo & Vel",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -4292,17 +4397,17 @@
     {
       "item": "Azothane",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
@@ -7343,7 +7448,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Ember Prime Blueprint; Ember Prime Neuroptics Blueprint",
+      "missing": "Ember Prime Neuroptics Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -7556,24 +7661,21 @@
     {
       "item": "Euphona Prime",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Euphona Prime Receiver",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Already owned",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
       "source": "https://wiki.warframe.com/w/Euphona_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Evensong",
@@ -15100,21 +15202,21 @@
     {
       "item": "Scyotid",
       "type": "secondary",
-      "state": "Missing",
+      "state": "Ready to build",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Scyotid Barrel (1/2); Scyotid Gauntlet (1/2)",
-      "ease": "5 — Long grind / trade",
-      "route": "Isleweaver / Acrithis Scuttler Husk exchange",
+      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Build in Foundry",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Scyotid",
-      "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
-      "tip": "Blueprints can drop from Isleweaver and can be purchased from Acrithis with Scuttler Husks. Use Husks for the final duplicate-heavy pieces.",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
       "primeDetails": [],
       "liveMatches": []
     },
@@ -15841,17 +15943,17 @@
     {
       "item": "Spinnerex",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Spinnerex",
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
@@ -16340,17 +16442,17 @@
     {
       "item": "Syam",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Already owned",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Pathos_Clamp",
       "primeDetails": [],
