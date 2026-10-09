@@ -1,73 +1,55 @@
 {
-  "focusCounterAtCaptureEnd": 0,
-  "configurationChanges": [],
-  "durationSeconds": 5542.289,
-  "errorEventCount": 1,
+  "schemaVersion": 1,
+  "startedAt": "2026-10-08T02:14:41.654047+00:00",
+  "equipmentAdded": [],
+  "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
   "equipmentRemoved": [],
-  "focusEarnedDuringCapture": 0,
-  "missions": [
+  "negativeItemDeltas": [
     {
-      "startedAt": "2026-10-08T02:14:48.862000+00:00",
-      "endedAt": "2026-10-08T02:21:19.373000+00:00",
-      "durationSeconds": 390.511,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "TradeHUB1_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "item": "Salvage",
+      "delta": -900
     },
     {
-      "startedAt": "2026-10-08T02:21:52.032000+00:00",
-      "endedAt": "2026-10-08T02:26:48.465000+00:00",
-      "durationSeconds": 296.433,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IceBladeHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": "VoidT6",
-      "steelPath": false
+      "item": "Polymer Bundle",
+      "delta": -650
     },
     {
-      "startedAt": "2026-10-08T02:37:11.927000+00:00",
-      "endedAt": "2026-10-08T03:05:28.657000+00:00",
-      "durationSeconds": 1696.73,
-      "type": "CASCADE",
-      "node": "SolNode232",
-      "label": null,
-      "missionKey": "SolNode232_ActiveMission",
-      "missionInstance": 1,
-      "voidTier": "VoidT6",
-      "steelPath": false
+      "item": "Rubedo",
+      "delta": -400
     },
     {
-      "startedAt": "2026-10-08T02:37:11.927000+00:00",
-      "endedAt": "2026-10-08T03:05:47.724000+00:00",
-      "durationSeconds": 1715.797,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode232_ActiveMission",
-      "missionInstance": 1,
-      "voidTier": "VoidT6",
-      "steelPath": false
+      "item": "Void Traces",
+      "delta": -154
     },
     {
-      "startedAt": "2026-10-08T03:46:38.506000+00:00",
-      "endedAt": "2026-10-08T03:47:03.942856+00:00",
-      "durationSeconds": 25.437,
-      "type": "CORRUPTION",
-      "node": "SolNode230",
-      "label": null,
-      "missionKey": "SolNode230_ActiveMission",
-      "missionInstance": 2,
-      "voidTier": "VoidT6",
-      "steelPath": false,
-      "incomplete": true
+      "item": "Cryotic",
+      "delta": -100
+    },
+    {
+      "item": "T2 Void Projection Citrine Prime ABronze",
+      "delta": -3
+    },
+    {
+      "item": "T4 Void Projection Protea Ivara Vault ABronze",
+      "delta": -2
+    },
+    {
+      "item": "Meso E5 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Neurodes",
+      "delta": -1
+    },
+    {
+      "item": "T1 Void Projection Citrine Prime CPlatinum",
+      "delta": -1
     }
   ],
+  "errorEventCount": 1,
+  "durationSeconds": 5542.289,
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -174,54 +156,72 @@
       "delta": 1
     }
   ],
-  "startedAt": "2026-10-08T02:14:41.654047+00:00",
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
+  "configurationChanges": [],
+  "missions": [
     {
-      "item": "Salvage",
-      "delta": -900
+      "startedAt": "2026-10-08T02:14:48.862000+00:00",
+      "endedAt": "2026-10-08T02:21:19.373000+00:00",
+      "durationSeconds": 390.511,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "TradeHUB1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "item": "Polymer Bundle",
-      "delta": -650
+      "startedAt": "2026-10-08T02:21:52.032000+00:00",
+      "endedAt": "2026-10-08T02:26:48.465000+00:00",
+      "durationSeconds": 296.433,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IceBladeHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": "VoidT6",
+      "steelPath": false
     },
     {
-      "item": "Rubedo",
-      "delta": -400
+      "startedAt": "2026-10-08T02:37:11.927000+00:00",
+      "endedAt": "2026-10-08T03:05:28.657000+00:00",
+      "durationSeconds": 1696.73,
+      "type": "CASCADE",
+      "node": "SolNode232",
+      "label": null,
+      "missionKey": "SolNode232_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": "VoidT6",
+      "steelPath": false
     },
     {
-      "item": "Void Traces",
-      "delta": -154
+      "startedAt": "2026-10-08T02:37:11.927000+00:00",
+      "endedAt": "2026-10-08T03:05:47.724000+00:00",
+      "durationSeconds": 1715.797,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode232_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": "VoidT6",
+      "steelPath": false
     },
     {
-      "item": "Cryotic",
-      "delta": -100
-    },
-    {
-      "item": "T2 Void Projection Citrine Prime ABronze",
-      "delta": -3
-    },
-    {
-      "item": "T4 Void Projection Protea Ivara Vault ABronze",
-      "delta": -2
-    },
-    {
-      "item": "Meso E5 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Neurodes",
-      "delta": -1
-    },
-    {
-      "item": "T1 Void Projection Citrine Prime CPlatinum",
-      "delta": -1
+      "startedAt": "2026-10-08T03:46:38.506000+00:00",
+      "endedAt": "2026-10-08T03:47:03.942856+00:00",
+      "durationSeconds": 25.437,
+      "type": "CORRUPTION",
+      "node": "SolNode230",
+      "label": null,
+      "missionKey": "SolNode230_ActiveMission",
+      "missionInstance": 2,
+      "voidTier": "VoidT6",
+      "steelPath": false,
+      "incomplete": true
     }
   ],
-  "missionCount": 5,
-  "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
-  "equipmentAdded": [],
   "focusCounterAtCaptureStart": 0,
+  "missionCount": 5,
   "notableAcquisitions": [
     {
       "item": "Harrow Chassis Blueprint",
