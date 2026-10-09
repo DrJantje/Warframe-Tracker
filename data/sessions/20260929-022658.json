@@ -1,27 +1,26 @@
 {
-  "schemaVersion": 1,
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
-  "equipmentAdded": [],
   "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "equipmentRemoved": [],
-  "negativeItemDeltas": [
+  "missionCount": 9,
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [
     {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "errorEventCount": 4,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
   "durationSeconds": 11058.549,
-  "focusCounterAtCaptureEnd": 52836,
-  "focusEarnedDuringCapture": 52836,
   "positiveItemDeltas": [
     {
       "item": "Fish Meat",
@@ -60,22 +59,24 @@
       "delta": 1
     }
   ],
-  "configurationChanges": [
+  "focusEarnedDuringCapture": 52836,
+  "focusCounterAtCaptureEnd": 52836,
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
     {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
     }
   ],
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -187,8 +188,7 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 9,
+  "errorEventCount": 4,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

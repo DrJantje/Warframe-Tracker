@@ -1,131 +1,63 @@
 {
-  "schemaVersion": 1,
-  "startedAt": "2026-10-05T15:30:02.407948+00:00",
-  "equipmentAdded": [],
   "stoppedAt": "2026-10-05T19:14:44.609779+00:00",
-  "equipmentRemoved": [],
-  "negativeItemDeltas": [
+  "missionCount": 19,
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [
     {
-      "item": "Ferrite",
-      "delta": -3700
+      "at": "2026-10-05T16:42:37.955017+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Drifting Contact",
+        "Magnetic Rush"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Polymer Bundle",
-      "delta": -1500
+      "at": "2026-10-05T17:28:31.505886+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Volcanic Edge"
+      ],
+      "removed": [
+        "Drifting Contact"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Plastids",
-      "delta": -272
+      "at": "2026-10-05T18:25:02.553366+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Entrati Lanthorn",
-      "delta": -166
-    },
-    {
-      "item": "Benign Infested Tumor",
-      "delta": -115
-    },
-    {
-      "item": "Steel Essence",
-      "delta": -58
-    },
-    {
-      "item": "Ferment Bladder",
-      "delta": -39
-    },
-    {
-      "item": "Dagonic",
-      "delta": -22
-    },
-    {
-      "item": "Bapholite",
-      "delta": -17
-    },
-    {
-      "item": "Dendrite Blastoma",
-      "delta": -14
-    },
-    {
-      "item": "Waxen Sebum Deposit",
-      "delta": -8
-    },
-    {
-      "item": "Tiametrite",
-      "delta": -7
-    },
-    {
-      "item": "Son Token",
-      "delta": -6
-    },
-    {
-      "item": "Spinal Core Section",
-      "delta": -6
-    },
-    {
-      "item": "Cipher",
-      "delta": -4
-    },
-    {
-      "item": "Cryptographic Alu",
-      "delta": -4
-    },
-    {
-      "item": "Gallium",
-      "delta": -4
-    },
-    {
-      "item": "Bellow Voca",
-      "delta": -3
-    },
-    {
-      "item": "Echo Voca",
-      "delta": -3
-    },
-    {
-      "item": "Nyth",
-      "delta": -3
-    },
-    {
-      "item": "Morphics",
-      "delta": -2
-    },
-    {
-      "item": "Barrel",
-      "delta": -1
-    },
-    {
-      "item": "Control Module",
-      "delta": -1
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -1
-    },
-    {
-      "item": "Receiver",
-      "delta": -1
-    },
-    {
-      "item": "Saturated Muscle Mass",
-      "delta": -1
-    },
-    {
-      "item": "Shrill Voca",
-      "delta": -1
-    },
-    {
-      "item": "Stock",
-      "delta": -1
-    },
-    {
-      "item": "Veiled Riven Cipher",
-      "delta": -1
+      "at": "2026-10-05T19:13:55.283603+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "True Steel"
+      ],
+      "removed": [
+        "Volcanic Edge"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "errorEventCount": 14,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
   "durationSeconds": 13482.202,
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -332,59 +264,128 @@
       "delta": 1
     }
   ],
-  "configurationChanges": [
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
     {
-      "at": "2026-10-05T16:42:37.955017+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Drifting Contact",
-        "Magnetic Rush"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Ferrite",
+      "delta": -3700
     },
     {
-      "at": "2026-10-05T17:28:31.505886+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Volcanic Edge"
-      ],
-      "removed": [
-        "Drifting Contact"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Polymer Bundle",
+      "delta": -1500
     },
     {
-      "at": "2026-10-05T18:25:02.553366+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Plastids",
+      "delta": -272
     },
     {
-      "at": "2026-10-05T19:13:55.283603+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "True Steel"
-      ],
-      "removed": [
-        "Volcanic Edge"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Entrati Lanthorn",
+      "delta": -166
+    },
+    {
+      "item": "Benign Infested Tumor",
+      "delta": -115
+    },
+    {
+      "item": "Steel Essence",
+      "delta": -58
+    },
+    {
+      "item": "Ferment Bladder",
+      "delta": -39
+    },
+    {
+      "item": "Dagonic",
+      "delta": -22
+    },
+    {
+      "item": "Bapholite",
+      "delta": -17
+    },
+    {
+      "item": "Dendrite Blastoma",
+      "delta": -14
+    },
+    {
+      "item": "Waxen Sebum Deposit",
+      "delta": -8
+    },
+    {
+      "item": "Tiametrite",
+      "delta": -7
+    },
+    {
+      "item": "Son Token",
+      "delta": -6
+    },
+    {
+      "item": "Spinal Core Section",
+      "delta": -6
+    },
+    {
+      "item": "Cipher",
+      "delta": -4
+    },
+    {
+      "item": "Cryptographic Alu",
+      "delta": -4
+    },
+    {
+      "item": "Gallium",
+      "delta": -4
+    },
+    {
+      "item": "Bellow Voca",
+      "delta": -3
+    },
+    {
+      "item": "Echo Voca",
+      "delta": -3
+    },
+    {
+      "item": "Nyth",
+      "delta": -3
+    },
+    {
+      "item": "Morphics",
+      "delta": -2
+    },
+    {
+      "item": "Barrel",
+      "delta": -1
+    },
+    {
+      "item": "Control Module",
+      "delta": -1
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -1
+    },
+    {
+      "item": "Receiver",
+      "delta": -1
+    },
+    {
+      "item": "Saturated Muscle Mass",
+      "delta": -1
+    },
+    {
+      "item": "Shrill Voca",
+      "delta": -1
+    },
+    {
+      "item": "Stock",
+      "delta": -1
+    },
+    {
+      "item": "Veiled Riven Cipher",
+      "delta": -1
     }
   ],
+  "startedAt": "2026-10-05T15:30:02.407948+00:00",
   "missions": [
     {
       "startedAt": "2026-10-05T15:30:07.048000+00:00",
@@ -616,8 +617,7 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 19,
+  "errorEventCount": 14,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
