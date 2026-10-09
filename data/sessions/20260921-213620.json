@@ -1,5 +1,10 @@
 {
   "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "configurationChanges": [],
+  "schemaVersion": 1,
+  "errorEventCount": 1,
+  "startedAt": "2026-09-21T21:36:20.276048+00:00",
   "missions": [
     {
       "startedAt": "2026-09-21T21:36:23.835000+00:00",
@@ -135,11 +140,6 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-21T22:53:32.359183+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 11,
-  "errorEventCount": 1,
   "negativeItemDeltas": [
     {
       "item": "Circuit Effect",
@@ -170,9 +170,11 @@
       "delta": -2
     }
   ],
-  "equipmentAdded": [],
   "durationSeconds": 4632.083,
+  "stoppedAt": "2026-09-21T22:53:32.359183+00:00",
+  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -275,9 +277,7 @@
       "delta": 1
     }
   ],
-  "schemaVersion": 1,
-  "startedAt": "2026-09-21T21:36:20.276048+00:00",
-  "configurationChanges": [],
+  "missionCount": 11,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

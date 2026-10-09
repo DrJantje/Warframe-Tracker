@@ -1,5 +1,41 @@
 {
   "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "schemaVersion": 1,
+  "errorEventCount": 7,
+  "startedAt": "2026-08-22T20:08:07.929878+00:00",
   "missions": [
     {
       "startedAt": "2026-08-22T20:08:13.048000+00:00",
@@ -135,11 +171,6 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 11,
-  "errorEventCount": 7,
   "negativeItemDeltas": [
     {
       "item": "Ferrofungus",
@@ -186,9 +217,11 @@
       "delta": -1
     }
   ],
-  "equipmentAdded": [],
   "durationSeconds": 19058.296,
+  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
+  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -263,40 +296,7 @@
       "delta": 1
     }
   ],
-  "schemaVersion": 1,
-  "startedAt": "2026-08-22T20:08:07.929878+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "missionCount": 11,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

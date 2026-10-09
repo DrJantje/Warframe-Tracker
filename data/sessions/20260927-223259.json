@@ -5,6 +5,78 @@
       "item": "Nokko"
     }
   ],
+  "equipmentAdded": [],
+  "configurationChanges": [
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T23:31:04.783779+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Virulent Scourge",
+        "Primed Fever Strike",
+        "Pressure Point",
+        "Primed Reach",
+        "Reaping Spiral"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T00:03:06.731128+00:00",
+      "item": "Diwata Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Fever Strike",
+        "Primed Reach",
+        "Amalgam Organ Shatter",
+        "Melee Duplicate"
+      ],
+      "removed": [
+        "Shocking Touch",
+        "Fury",
+        "Body Count",
+        "Melee Influence"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "schemaVersion": 1,
+  "errorEventCount": 3,
+  "startedAt": "2026-09-27T22:32:59.167153+00:00",
   "missions": [
     {
       "startedAt": "2026-09-27T22:33:02.827000+00:00",
@@ -128,11 +200,6 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 10,
-  "errorEventCount": 3,
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -179,9 +246,11 @@
       "delta": -1
     }
   ],
-  "equipmentAdded": [],
   "durationSeconds": 7068.249,
+  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
+  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -336,76 +405,7 @@
       "delta": 1
     }
   ],
-  "schemaVersion": 1,
-  "startedAt": "2026-09-27T22:32:59.167153+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T23:31:04.783779+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Virulent Scourge",
-        "Primed Fever Strike",
-        "Pressure Point",
-        "Primed Reach",
-        "Reaping Spiral"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T00:03:06.731128+00:00",
-      "item": "Diwata Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Fever Strike",
-        "Primed Reach",
-        "Amalgam Organ Shatter",
-        "Melee Duplicate"
-      ],
-      "removed": [
-        "Shocking Touch",
-        "Fury",
-        "Body Count",
-        "Melee Influence"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "missionCount": 10,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
