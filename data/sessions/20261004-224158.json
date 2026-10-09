@@ -1,10 +1,10 @@
 {
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 0,
   "configurationChanges": [],
-  "schemaVersion": 1,
+  "durationSeconds": 5660.251,
   "errorEventCount": 3,
-  "startedAt": "2026-10-04T22:41:58.538742+00:00",
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-10-04T22:42:05.256000+00:00",
@@ -68,29 +68,6 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Sunlight Threshcone",
-      "delta": -6
-    },
-    {
-      "item": "Moonlight Threshcone",
-      "delta": -4
-    },
-    {
-      "item": "Sunlight Dragonlily",
-      "delta": -2
-    },
-    {
-      "item": "Blueprint",
-      "delta": -1
-    }
-  ],
-  "durationSeconds": 5660.251,
-  "stoppedAt": "2026-10-05T00:16:18.790002+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Aggristone",
@@ -149,7 +126,30 @@
       "delta": 1
     }
   ],
+  "startedAt": "2026-10-04T22:41:58.538742+00:00",
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
+    {
+      "item": "Sunlight Threshcone",
+      "delta": -6
+    },
+    {
+      "item": "Moonlight Threshcone",
+      "delta": -4
+    },
+    {
+      "item": "Sunlight Dragonlily",
+      "delta": -2
+    },
+    {
+      "item": "Blueprint",
+      "delta": -1
+    }
+  ],
   "missionCount": 5,
+  "stoppedAt": "2026-10-05T00:16:18.790002+00:00",
+  "equipmentAdded": [],
+  "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
