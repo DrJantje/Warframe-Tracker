@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-10T01:06:54.770395+00:00",
+  "generatedAt": "2026-10-10T01:47:26.433160+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-10T01:06:53.984Z",
+  "accountSnapshotAt": "2026-10-10T01:14:07.006Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-10T01:06:53.984Z",
+      "capturedAt": "2026-10-10T01:14:07.006Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-10T01:06:42.667388+00:00",
+    "observedAt": "2026-10-10T01:19:50.928878+00:00",
     "phase": "mission",
-    "node": "IceBladeHUB",
-    "planet": "",
-    "mission": "CONCLAVE",
-    "missionKey": null,
-    "voidTier": null,
+    "node": "ZARIMAN",
+    "planet": "ZARIMAN",
+    "mission": "LOCATION",
+    "missionKey": "SolNode232_ActiveMission",
+    "voidTier": "VoidT6",
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
-    "accountSnapshotStatus": "waiting"
+    "frameConfidence": "server-sent",
+    "accountSnapshotStatus": "resident-account-observed"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -1571,36 +1571,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261010-004431.json",
-    "startedAt": "2026-10-10T00:44:31.498812+00:00",
-    "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
-    "durationSeconds": 1114.343,
-    "missionCount": 4,
+    "file": "20261010-010419.json",
+    "startedAt": "2026-10-10T01:04:19.499971+00:00",
+    "stoppedAt": "2026-10-10T01:19:51.451284+00:00",
+    "durationSeconds": 931.951,
+    "missionCount": 2,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Nano Spores",
-        "delta": 1982
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 8
-      }
-    ],
+    "topGains": [],
     "notableAcquisitions": [],
-    "resourceGains": [
-      {
-        "item": "Nano Spores",
-        "delta": 1982
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 8
-      }
-    ],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 3
+    "errorEventCount": 2
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
