@@ -1,46 +1,7 @@
 {
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -1500
-    },
-    {
-      "item": "Plastids",
-      "delta": -900
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -65
-    },
-    {
-      "item": "Morphics",
-      "delta": -4
-    },
-    {
-      "item": "Control Module",
-      "delta": -3
-    },
-    {
-      "item": "Receiver",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "String",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
-  "durationSeconds": 7384.328,
-  "schemaVersion": 1,
   "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-09-27T19:02:07.468000+00:00",
@@ -572,13 +533,8 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-09-27T19:02:02.811372+00:00",
-  "configurationChanges": [],
-  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
-  "missionCount": 44,
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "durationSeconds": 7384.328,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -609,7 +565,51 @@
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
+  "equipmentAdded": [],
+  "startedAt": "2026-09-27T19:02:02.811372+00:00",
+  "missionCount": 44,
   "errorEventCount": 6,
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -1500
+    },
+    {
+      "item": "Plastids",
+      "delta": -900
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -65
+    },
+    {
+      "item": "Morphics",
+      "delta": -4
+    },
+    {
+      "item": "Control Module",
+      "delta": -3
+    },
+    {
+      "item": "Receiver",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "String",
+      "delta": -1
+    }
+  ],
+  "configurationChanges": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
