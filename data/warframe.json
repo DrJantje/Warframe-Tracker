@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-10",
-    "exportVerifiedAt": "2026-10-10 10:31:36 PDT",
+    "exportVerifiedAt": "2026-10-10 10:40:03 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167565,
-        "modified": "2026-10-10T10:31:35.608862-07:00",
-        "sha256": "cc9ca46c0b1117e32176b2c3781e1e2ee5769aa204aa1e8559d92bdc46c4e252"
+        "bytes": 2167564,
+        "modified": "2026-10-10T10:40:02.374018-07:00",
+        "sha256": "cb7f117ad0215544e0949228e6ee989ce3f118df6ca70026cfc24aca7b1e5d47"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-10T10:31:35.613399-07:00",
+        "modified": "2026-10-10T10:40:02.376029-07:00",
         "sha256": "985dc8ebb3f32e63bbc1fb6225642baabde4a18c84c6fd9f7a789f341e7c9e76"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-10T10:31:35.610372-07:00",
+        "modified": "2026-10-10T10:40:02.374522-07:00",
         "sha256": "0b29a7ca76209432320af390635ed9f8da306d6c53479a2fe87229f1fcf99b2e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-10T10:31:35.611879-07:00",
+        "modified": "2026-10-10T10:40:02.375525-07:00",
         "sha256": "1e68cc264194ff6395e1e73585dc24b4f523b31f0af8143b2ddc1f8debf1529e"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-10T10:31:35.615283-07:00",
+        "modified": "2026-10-10T10:40:02.377537-07:00",
         "sha256": "8649a505119ad0fd406605869e0e8a696d7bc4b58617479cf7d689823d5c411d"
       },
       "rivens.json": {
@@ -46,13 +46,59 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Ember Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Ember Prime Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      },
+      {
+        "item": "Kullervo",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vauban Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 144
+      "missing": 143
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1690,22 +1736,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Ember Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Ember Prime Neuroptics Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Ember_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Equinox Prime",
       "type": "warframe",
       "targetRank": "30",
@@ -2522,7 +2552,7 @@
       "item": "Vauban Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2531,7 +2561,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2643,6 +2673,15 @@
       "source": "https://wiki.warframe.com/w/Kogake_Prime"
     },
     {
+      "item": "Kullervo",
+      "type": "warframe",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Kullervo"
+    },
+    {
       "item": "Sampotes",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -2688,13 +2727,13 @@
       "source": "https://wiki.warframe.com/w/Thalys"
     },
     {
-      "item": "Kullervo",
+      "item": "Ember Prime",
       "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Kullervo"
+      "source": "https://wiki.warframe.com/w/Ember_Prime"
     },
     {
       "item": "Oraxia",
@@ -7287,24 +7326,21 @@
     {
       "item": "Ember Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Ember Prime Neuroptics Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Ember_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Embolist",
@@ -10256,17 +10292,17 @@
     {
       "item": "Kullervo",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Kullervo’s Hold in Duviri; Acrithis",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Kullervo",
       "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",
@@ -17808,7 +17844,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Vauban Prime Blueprint; Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
+      "missing": "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
