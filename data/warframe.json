@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-10",
-    "exportVerifiedAt": "2026-10-10 10:45:47 PDT",
+    "exportVerifiedAt": "2026-10-10 15:49:38 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167564,
-        "modified": "2026-10-10T10:45:46.202063-07:00",
-        "sha256": "cb7f117ad0215544e0949228e6ee989ce3f118df6ca70026cfc24aca7b1e5d47"
+        "bytes": 2167565,
+        "modified": "2026-10-10T15:49:37.849239-07:00",
+        "sha256": "e975d1361b4e70f17042b9661eb27f8dfa11a9c15fd5ab9bccbb8cfd7c5b21e5"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-10T10:45:46.205079-07:00",
+        "modified": "2026-10-10T15:49:37.855384-07:00",
         "sha256": "985dc8ebb3f32e63bbc1fb6225642baabde4a18c84c6fd9f7a789f341e7c9e76"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-10T10:45:46.204075-07:00",
+        "modified": "2026-10-10T15:49:37.851256-07:00",
         "sha256": "0b29a7ca76209432320af390635ed9f8da306d6c53479a2fe87229f1fcf99b2e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-10T10:45:46.204579-07:00",
+        "modified": "2026-10-10T15:49:37.853817-07:00",
         "sha256": "1e68cc264194ff6395e1e73585dc24b4f523b31f0af8143b2ddc1f8debf1529e"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-10T10:45:46.207758-07:00",
+        "modified": "2026-10-10T15:49:37.858532-07:00",
         "sha256": "8649a505119ad0fd406605869e0e8a696d7bc4b58617479cf7d689823d5c411d"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Ember Prime",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Ember Prime Neuroptics Blueprint"
+        ]
+      },
+      {
+        "item": "Kullervo",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 143
+      "missing": 144
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -1689,6 +1720,22 @@
       "practicalPriority": 515
     },
     {
+      "ease": "1 — Now / no farming",
+      "item": "Ember Prime",
+      "type": "warframe",
+      "targetRank": "30",
+      "missing": "Ember Prime Neuroptics Blueprint",
+      "route": "Currently vaulted — owned relics or player trade",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying.",
+      "source": "https://wiki.warframe.com/w/Ember_Prime",
+      "vaulted": "Yes",
+      "primeStatus": "TRADE ONLY",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 105
+    },
+    {
       "ease": "5 — Long grind / trade",
       "item": "Equinox Prime",
       "type": "warframe",
@@ -2627,15 +2674,6 @@
       "source": "https://wiki.warframe.com/w/Kogake_Prime"
     },
     {
-      "item": "Kullervo",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Kullervo"
-    },
-    {
       "item": "Sampotes",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -2681,13 +2719,13 @@
       "source": "https://wiki.warframe.com/w/Thalys"
     },
     {
-      "item": "Ember Prime",
+      "item": "Kullervo",
       "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Ember_Prime"
+      "source": "https://wiki.warframe.com/w/Kullervo"
     },
     {
       "item": "Oraxia",
@@ -7280,21 +7318,24 @@
     {
       "item": "Ember Prime",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Missing",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
-      "missing": "",
+      "rankRule": "",
+      "missing": "Ember Prime Neuroptics Blueprint",
       "ease": "1 — Now / no farming",
-      "route": "Foundry",
+      "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Ember_Prime",
       "primeDetails": [],
-      "liveMatches": []
+      "liveMatches": [],
+      "primeStatus": "TRADE ONLY",
+      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
+      "tip": "Compare individual part prices with the full set price before buying."
     },
     {
       "item": "Embolist",
@@ -10246,17 +10287,17 @@
     {
       "item": "Kullervo",
       "type": "warframe",
-      "state": "Owned; rank unknown",
-      "owned": "Yes",
+      "state": "Owned / in foundry; rank unknown",
+      "owned": "No",
       "mastered": "No",
-      "complete": "Yes",
+      "complete": "No",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Kullervo’s Hold in Duviri; Acrithis",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Kullervo",
       "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",

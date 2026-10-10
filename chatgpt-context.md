@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-10T17:45:46.845532+00:00
-Account snapshot: 2026-10-10T17:45:46.060Z
+Generated: 2026-10-10T22:49:38.541885+00:00
+Account snapshot: 2026-10-10T17:40:23.306Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (sync-awaiting-snapshot)
+- Frame observation: Titania (server-sent)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -19,24 +19,20 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ### Arsenal: Titania
 
-#### Warframe: Kullervo — config A
+#### Warframe: Hildryn Prime — config A
 
-- Forma: 0
-- Mods: Streamline (rank 5), Steel Fiber (rank 10), Stretch (rank 5), Vitality (rank 10), Energy Siphon (rank 5)
-- Arcanes: none recorded
+- Forma: 4
+- Lens: Eidolon Naramon Lens
+- Helminth: Shed Ability
+- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
+- Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
+- Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
 #### Secondary: Euphona Prime — config A
 
 - Forma: 0
 - Mods: Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
 - Arcanes: none recorded
-
-#### Primary: Coda Bassocyst — config A
-
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Primed Charged Shell (rank 10), Shotgun Barrage (rank 5), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
 
 #### Melee: Kogake Prime — config A
 
@@ -49,6 +45,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Forma: 3
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
+
+#### Exalted weapon: Balefire Charger Prime — config A
+
+- Forma: 8
+- Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 10), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
+- Arcanes: Secondary Enervate (rank 5)
 
 ### Companion: Titania
 
@@ -66,9 +68,9 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-10-10T01:04:19.499971+00:00
-- Duration seconds: 931.951
-- Missions: 2
+- Started: 2026-10-10T17:30:40.268476+00:00
+- Duration seconds: 989.975
+- Missions: 5
 - Focus earned: 0
 - Notable acquisitions: none recorded
 
