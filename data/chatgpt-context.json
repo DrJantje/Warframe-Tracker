@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-09T04:24:14.343758+00:00",
+  "generatedAt": "2026-10-10T00:43:02.438079+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -48,19 +48,19 @@
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-09T04:24:08.942703+00:00",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": null,
+    "phase": null,
+    "node": null,
+    "planet": null,
+    "mission": null,
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "PUBLIC",
-    "focusDuringCurrentCapture": 0,
-    "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-active",
-    "accountSnapshotStatus": "account-snapshot-confirmed"
+    "matchmaking": null,
+    "focusDuringCurrentCapture": null,
+    "frameCandidate": null,
+    "frameConfidence": null,
+    "accountSnapshotStatus": null
   },
   "currentLoadouts": {
     "NORMAL": {

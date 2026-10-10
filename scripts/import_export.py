@@ -451,6 +451,9 @@ def update(folder: Path) -> None:
     payload["meta"]["exportVerifiedAt"] = now.strftime("%Y-%m-%d %H:%M:%S PDT")
     # Keep machine-specific paths out of the public tracker data.
     payload["meta"].pop("exportFolder", None)
+    # Capture time lives in the account manifest; never carry a previous
+    # manual import's timestamp into a different inventory snapshot.
+    payload["meta"].pop("inventoryCapturedAt", None)
     payload["meta"]["exportSource"] = "Direct read-only account inventory pull from Digital Extremes"
     payload["meta"]["exportManifest"] = manifest
     payload["meta"]["importChanges"] = changes

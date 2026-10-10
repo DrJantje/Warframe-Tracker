@@ -17,7 +17,7 @@ import import_export  # noqa: E402
 
 
 class ImportExportTests(unittest.TestCase):
-    def run_import(self, components: list[dict], old_missing: str, *, item: str = "Thalys") -> dict:
+    def run_import(self, components: list[dict], old_missing: str, *, item: str = "Thalys", initial_meta: dict | None = None) -> dict:
         """Exercise the real import and cleanup; isolate only their file destinations."""
         with tempfile.TemporaryDirectory() as directory:
             folder = Path(directory)
@@ -32,7 +32,7 @@ class ImportExportTests(unittest.TestCase):
                 {**row, "item": f"Fixture {index}", "owned": "Yes", "mastered": "Yes"}
                 for index in range(799)
             ]
-            payload = {"meta": {}, "arsenal": arsenal, "queue": [], "vaulted": [], "owned": [], "rank40": []}
+            payload = {"meta": initial_meta or {}, "arsenal": arsenal, "queue": [], "vaulted": [], "owned": [], "rank40": []}
             source = [
                 {"name": entry["item"], "owned": entry["owned"] == "Yes", "mastered": entry["mastered"] == "Yes", "pendingInFoundry": False, "components": components if index == 0 else []}
                 for index, entry in enumerate(arsenal)
@@ -51,6 +51,12 @@ class ImportExportTests(unittest.TestCase):
                 check=True, capture_output=True, text=True,
             )
             return json.loads(tracker_path.read_text(encoding="utf-8"))
+
+    def test_refresh_does_not_carry_a_previous_snapshots_capture_timestamp(self) -> None:
+        result = self.run_import([], "Thalys Blueprint", initial_meta={"inventoryCapturedAt": "2026-10-07T08:28:27.557Z"})
+        self.assertNotIn("inventoryCapturedAt", list(result["meta"]))
+        self.assertTrue(result["meta"]["exportVerifiedAt"])
+        self.assertEqual(len(result["meta"]["exportManifest"]), 8)
 
     def test_acquired_blueprint_and_all_materials_stop_stale_vendor_recommendation(self) -> None:
         result = self.run_import([
