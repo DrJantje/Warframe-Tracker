@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-10T00:43:02.438079+00:00",
+  "generatedAt": "2026-10-10T00:47:42.732510+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-09T04:00:22.446Z",
+  "accountSnapshotAt": "2026-10-10T00:47:41.970Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-09T04:00:22.446Z",
+      "capturedAt": "2026-10-10T00:47:41.970Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": null,
-    "phase": null,
-    "node": null,
-    "planet": null,
-    "mission": null,
+    "observedAt": "2026-10-10T00:46:51.524Z",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": null,
-    "focusDuringCurrentCapture": null,
+    "matchmaking": "UNKNOWN",
+    "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
-    "frameConfidence": null,
-    "accountSnapshotStatus": null
+    "frameConfidence": "arsenal-active",
+    "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -207,9 +207,9 @@
           ]
         },
         "Secondary": {
-          "buildRef": "pistols-094",
+          "buildRef": "pistols-095",
           "resolutionStatus": "exact-build-ref",
-          "item": "Akmagnus Prime",
+          "item": "Euphona Prime",
           "category": "Pistols",
           "configuration": "A",
           "formaApplied": 0,
@@ -220,17 +220,22 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Hornet Strike",
+              "name": "Lethal Torrent",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Pistol Gambit",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Magnetic Might",
-              "rank": 3,
+              "name": "Barrel Diffusion",
+              "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Primed Convulsion",
+              "name": "Hornet Strike",
               "rank": 10,
               "kind": "mod"
             }
@@ -238,9 +243,9 @@
           "arcanes": []
         },
         "Melee": {
-          "buildRef": "melee-166",
+          "buildRef": "melee-163",
           "resolutionStatus": "exact-build-ref",
-          "item": "Azothane",
+          "item": "Kogake Prime",
           "category": "Melee",
           "configuration": "A",
           "formaApplied": 0,
@@ -250,6 +255,11 @@
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
+            {
+              "name": "Virulent Scourge",
+              "rank": 3,
+              "kind": "mod"
+            },
             {
               "name": "Pressure Point",
               "rank": 5,
@@ -261,13 +271,18 @@
               "kind": "mod"
             },
             {
-              "name": "Drifting Contact",
+              "name": "Magnetic Rush",
               "rank": 3,
               "kind": "mod"
             },
             {
               "name": "Primed Fever Strike",
               "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Brutal Tide",
+              "rank": 3,
               "kind": "mod"
             }
           ],

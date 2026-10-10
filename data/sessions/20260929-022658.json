@@ -1,5 +1,4 @@
 {
-  "missionCount": 9,
   "negativeItemDeltas": [
     {
       "item": "Luminous Dye",
@@ -14,70 +13,10 @@
       "delta": -1
     }
   ],
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
-  "errorEventCount": 4,
-  "schemaVersion": 1,
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 52836,
   "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "positiveItemDeltas": [
-    {
-      "item": "Fish Meat",
-      "delta": 242
-    },
-    {
-      "item": "Fish Scales",
-      "delta": 198
-    },
-    {
-      "item": "Fish Oil",
-      "delta": 170
-    },
-    {
-      "item": "Charc Electroplax",
-      "delta": 32
-    },
-    {
-      "item": "Mawfish Bones",
-      "delta": 24
-    },
-    {
-      "item": "Norg Brain",
-      "delta": 10
-    },
-    {
-      "item": "Ostia Vasca Kavat Tag",
-      "delta": 4
-    },
-    {
-      "item": "Bau Vasca Kavat Tag",
-      "delta": 2
-    },
-    {
-      "item": "Intact Sentient Core",
-      "delta": 1
-    }
-  ],
   "durationSeconds": 11058.549,
-  "focusEarnedDuringCapture": 52836,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 52836,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -189,6 +128,67 @@
       "incomplete": true
     }
   ],
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "missionCount": 9,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 52836,
+  "equipmentRemoved": [],
+  "positiveItemDeltas": [
+    {
+      "item": "Fish Meat",
+      "delta": 242
+    },
+    {
+      "item": "Fish Scales",
+      "delta": 198
+    },
+    {
+      "item": "Fish Oil",
+      "delta": 170
+    },
+    {
+      "item": "Charc Electroplax",
+      "delta": 32
+    },
+    {
+      "item": "Mawfish Bones",
+      "delta": 24
+    },
+    {
+      "item": "Norg Brain",
+      "delta": 10
+    },
+    {
+      "item": "Ostia Vasca Kavat Tag",
+      "delta": 4
+    },
+    {
+      "item": "Bau Vasca Kavat Tag",
+      "delta": 2
+    },
+    {
+      "item": "Intact Sentient Core",
+      "delta": 1
+    }
+  ],
+  "errorEventCount": 4,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

@@ -1,19 +1,19 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-10T00:43:02.438079+00:00
-Account snapshot: 2026-10-09T04:00:22.446Z
+Generated: 2026-10-10T00:47:42.732510+00:00
+Account snapshot: 2026-10-10T00:47:41.970Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: unknown
-- Location: unknown
-- Planet: unknown
-- Frame observation: unknown (unknown confidence)
+- Phase: mission
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: unknown (arsenal-active)
 - Steel Path: no
-- Matchmaking: unknown
-- Focus during current capture: unknown
+- Matchmaking: UNKNOWN
+- Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
@@ -28,16 +28,16 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Akmagnus Prime — config A
+#### Secondary: Euphona Prime — config A
 
 - Forma: 0
-- Mods: Hornet Strike (rank 10), Magnetic Might (rank 3), Primed Convulsion (rank 10)
+- Mods: Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Azothane — config A
+#### Melee: Kogake Prime — config A
 
 - Forma: 0
-- Mods: Pressure Point (rank 5), Primed Reach (rank 10), Drifting Contact (rank 3), Primed Fever Strike (rank 10)
+- Mods: Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Brutal Tide (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A

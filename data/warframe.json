@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-09",
-    "exportVerifiedAt": "2026-10-09 17:43:02 PDT",
+    "exportVerifiedAt": "2026-10-09 17:47:42 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167565,
-        "modified": "2026-10-09T17:43:01.325210-07:00",
-        "sha256": "8277e9dd0b0bbf79f854cbb6d6e2cc8a68210da34f479825f223b750a6ecec47"
+        "modified": "2026-10-09T17:47:42.097558-07:00",
+        "sha256": "b02e6919fd806a2a91b8f31929ba2c6ba7003fadf8029c2b5239b5096a8bf7d5"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-09T17:43:01.336659-07:00",
+        "modified": "2026-10-09T17:47:42.100575-07:00",
         "sha256": "e8adab31798fbcec6957074cb46289e9d6c635489b93ce173027bfc20547f5eb"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-09T17:43:01.330817-07:00",
+        "modified": "2026-10-09T17:47:42.099072-07:00",
         "sha256": "0b29a7ca76209432320af390635ed9f8da306d6c53479a2fe87229f1fcf99b2e"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-09T17:43:01.333022-07:00",
+        "modified": "2026-10-09T17:47:42.099571-07:00",
         "sha256": "be4ee2238da7aed5005eb4250719ecb9da481d33a697ea00fb7e8de7a9507f49"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-09T17:43:01.341595-07:00",
+        "modified": "2026-10-09T17:47:42.101575-07:00",
         "sha256": "8649a505119ad0fd406605869e0e8a696d7bc4b58617479cf7d689823d5c411d"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Scyotid",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -2652,6 +2668,15 @@
       "source": "https://wiki.warframe.com/w/Pathos_Clamp"
     },
     {
+      "item": "Scyotid",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Scyotid"
+    },
+    {
       "item": "Spinnerex",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -2695,15 +2720,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Oraxia"
-    },
-    {
-      "item": "Scyotid",
-      "type": "secondary",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Scyotid"
     }
   ],
   "rank40": [
@@ -15047,17 +15063,17 @@
     {
       "item": "Scyotid",
       "type": "secondary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Scyotid",
       "steps": "Earn its blueprints from Isleweaver or purchase missing pieces from Acrithis using Scuttler Husks.",
