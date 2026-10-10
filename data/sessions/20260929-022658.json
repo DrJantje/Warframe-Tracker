@@ -1,4 +1,42 @@
 {
+  "equipmentAdded": [],
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "errorEventCount": 4,
+  "durationSeconds": 11058.549,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "focusCounterAtCaptureEnd": 52836,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -110,24 +148,9 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
+  "missionCount": 9,
   "focusEarnedDuringCapture": 52836,
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Fish Meat",
@@ -166,29 +189,6 @@
       "delta": 1
     }
   ],
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
-  "schemaVersion": 1,
-  "focusCounterAtCaptureStart": 0,
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "missionCount": 9,
-  "errorEventCount": 4,
-  "durationSeconds": 11058.549,
-  "focusCounterAtCaptureEnd": 52836,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

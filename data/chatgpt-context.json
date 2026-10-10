@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-10T01:00:13.487450+00:00",
+  "generatedAt": "2026-10-10T01:03:08.068405+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-10T01:00:12.640Z",
+  "accountSnapshotAt": "2026-10-10T00:58:30.643Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-10T01:00:12.640Z",
+      "capturedAt": "2026-10-10T00:58:30.643Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-10T00:58:30.644103+00:00",
+    "observedAt": "2026-10-10T01:03:04.821840+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "account-snapshot-confirmed",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1663,137 +1663,36 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261009-022002.json",
-    "startedAt": "2026-10-09T02:20:02.294415+00:00",
-    "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
-    "durationSeconds": 7448.184,
-    "missionCount": 2,
+    "file": "20261010-004431.json",
+    "startedAt": "2026-10-10T00:44:31.498812+00:00",
+    "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
+    "durationSeconds": 1114.343,
+    "missionCount": 4,
     "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Kuva",
-        "delta": 61750
+        "item": "Nano Spores",
+        "delta": 1982
       },
       {
-        "item": "Entrati Obols",
-        "delta": 5030
-      },
-      {
-        "item": "Cryotic",
-        "delta": 1560
-      },
-      {
-        "item": "Vosfor",
-        "delta": 400
-      },
-      {
-        "item": "Necracoil",
-        "delta": 98
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 60
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 38
-      },
-      {
-        "item": "Stela",
-        "delta": 30
-      },
-      {
-        "item": "Riven Splicer",
-        "delta": 3
-      },
-      {
-        "item": "Bellow Voca",
-        "delta": 2
-      },
-      {
-        "item": "Echo Voca",
-        "delta": 2
-      },
-      {
-        "item": "<Shard_blue_simple> Azure Archon Shard",
-        "delta": 1
+        "item": "Mutagen Sample",
+        "delta": 8
       }
     ],
-    "notableAcquisitions": [
-      {
-        "item": "Duelist Bow Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Duelist Bow Grip Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Duelist Bow Lower Limb Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Duelist Bow String Blueprint",
-        "delta": 1
-      },
-      {
-        "item": "Duelist Bow Upper Limb Blueprint",
-        "delta": 1
-      }
-    ],
+    "notableAcquisitions": [],
     "resourceGains": [
       {
-        "item": "Kuva",
-        "delta": 61750
+        "item": "Nano Spores",
+        "delta": 1982
       },
       {
-        "item": "Entrati Obols",
-        "delta": 5030
-      },
-      {
-        "item": "Cryotic",
-        "delta": 1560
-      },
-      {
-        "item": "Vosfor",
-        "delta": 400
-      },
-      {
-        "item": "Necracoil",
-        "delta": 98
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 60
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 38
-      },
-      {
-        "item": "Stela",
-        "delta": 30
-      },
-      {
-        "item": "Riven Splicer",
-        "delta": 3
-      },
-      {
-        "item": "Bellow Voca",
-        "delta": 2
-      },
-      {
-        "item": "Echo Voca",
-        "delta": 2
-      },
-      {
-        "item": "<Shard_blue_simple> Azure Archon Shard",
-        "delta": 1
+        "item": "Mutagen Sample",
+        "delta": 8
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 4,
-    "errorEventCount": 6
+    "configurationChangeCount": 0,
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

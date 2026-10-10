@@ -1,0 +1,109 @@
+{
+  "equipmentAdded": [],
+  "startedAt": "2026-10-10T00:44:31.498812+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Ayatan Amber Star",
+      "delta": -1
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": -1
+    }
+  ],
+  "schemaVersion": 1,
+  "configurationChanges": [],
+  "errorEventCount": 3,
+  "durationSeconds": 1114.343,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "missions": [
+    {
+      "startedAt": "2026-10-10T00:44:41.311000+00:00",
+      "endedAt": "2026-10-10T00:48:50.734000+00:00",
+      "durationSeconds": 249.423,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "TradeHUB1_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-10T00:50:32.759000+00:00",
+      "endedAt": "2026-10-10T00:50:48.063000+00:00",
+      "durationSeconds": 15.304,
+      "type": "SALVAGE",
+      "node": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictA_Key",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictA_Key",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-10T00:53:42.148000+00:00",
+      "endedAt": "2026-10-10T00:53:52.021000+00:00",
+      "durationSeconds": 9.873,
+      "type": "SALVAGE",
+      "node": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictA_Key",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictA_Key",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-10T00:53:42.148000+00:00",
+      "endedAt": "2026-10-10T01:03:05.842114+00:00",
+      "durationSeconds": 563.694,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/WeeklyMissions\\/TreasureHuntMissionDerelictA_Key",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 4,
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": 1982
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 8
+    }
+  ],
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Nano Spores",
+      "delta": 1982
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 8
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
