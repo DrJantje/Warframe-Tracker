@@ -1,35 +1,61 @@
 {
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [],
-  "focusEarnedDuringCapture": 0,
-  "missions": [
+  "configurationChanges": [
     {
-      "startedAt": "2026-10-09T02:20:27.329000+00:00",
-      "endedAt": "2026-10-09T02:26:15.906000+00:00",
-      "durationSeconds": 348.577,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "ZarimanHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Akmagnus Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "startedAt": "2026-10-09T02:33:34.986000+00:00",
-      "endedAt": "2026-10-09T04:24:10.478744+00:00",
-      "durationSeconds": 6635.493,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IceBladeHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Akmagnus Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Azothane",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Azothane",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
+  "missionCount": 2,
   "schemaVersion": 1,
+  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Entropic Kuva Item",
+      "delta": -400
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "durationSeconds": 7448.184,
   "positiveItemDeltas": [
     {
@@ -121,64 +147,38 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
-  "equipmentAdded": [],
+  "equipmentRemoved": [],
   "startedAt": "2026-10-09T02:20:02.294415+00:00",
-  "missionCount": 2,
+  "missions": [
+    {
+      "startedAt": "2026-10-09T02:20:27.329000+00:00",
+      "endedAt": "2026-10-09T02:26:15.906000+00:00",
+      "durationSeconds": 348.577,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "ZarimanHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-09T02:33:34.986000+00:00",
+      "endedAt": "2026-10-09T04:24:10.478744+00:00",
+      "durationSeconds": 6635.493,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IceBladeHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
   "errorEventCount": 6,
-  "negativeItemDeltas": [
-    {
-      "item": "Entropic Kuva Item",
-      "delta": -400
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "configurationChanges": [
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Akmagnus Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Akmagnus Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Azothane",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Azothane",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "Duelist Bow Blueprint",
