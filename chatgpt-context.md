@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-10T22:49:38.541885+00:00
-Account snapshot: 2026-10-10T17:40:23.306Z
+Generated: 2026-10-11T01:50:39.724902+00:00
+Account snapshot: 2026-10-11T01:50:38.325Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,14 +10,14 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Frame observation: unknown (sync-awaiting-snapshot)
 - Steel Path: no
-- Matchmaking: PUBLIC
+- Matchmaking: UNKNOWN
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Titania
+### Arsenal: Hildryn
 
 #### Warframe: Hildryn Prime — config A
 
@@ -28,16 +28,16 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Euphona Prime — config A
+#### Secondary: Duelist Pistols — config A
 
 - Forma: 0
-- Mods: Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
+- Mods: none recorded
 - Arcanes: none recorded
 
-#### Melee: Kogake Prime — config A
+#### Melee: Spinnerex — config A
 
 - Forma: 0
-- Mods: Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Brutal Tide (rank 3)
+- Mods: none recorded
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -52,12 +52,18 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 10), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
 - Arcanes: Secondary Enervate (rank 5)
 
-### Companion: Titania
+### Companion: Hildryn
 
 #### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
+- Arcanes: none recorded
+
+#### Companion weapon: Artax — config A
+
+- Forma: 0
+- Mods: Sinister Reach (rank 3), Cryo Rounds (rank 5), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A

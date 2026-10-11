@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-10",
-    "exportVerifiedAt": "2026-10-10 15:49:38 PDT",
+    "exportVerifiedAt": "2026-10-10 18:50:40 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167565,
-        "modified": "2026-10-10T15:49:37.849239-07:00",
-        "sha256": "e975d1361b4e70f17042b9661eb27f8dfa11a9c15fd5ab9bccbb8cfd7c5b21e5"
+        "bytes": 2167485,
+        "modified": "2026-10-10T18:50:38.673263-07:00",
+        "sha256": "00fd5d84c9dfa2a2bc07d9c27b8fbc089288b13ca0a575fd8d98bd1c64b25800"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-10T15:49:37.855384-07:00",
-        "sha256": "985dc8ebb3f32e63bbc1fb6225642baabde4a18c84c6fd9f7a789f341e7c9e76"
+        "modified": "2026-10-10T18:50:38.680536-07:00",
+        "sha256": "50e689f2c4bccf84d19951f268bb37f7d943ff54c38ae4a705a96453df634b9a"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-10T15:49:37.851256-07:00",
-        "sha256": "0b29a7ca76209432320af390635ed9f8da306d6c53479a2fe87229f1fcf99b2e"
+        "modified": "2026-10-10T18:50:38.676779-07:00",
+        "sha256": "456595d57dbda3bd6bc7336270c1297c235a452a2b96c913116a552330b96fa3"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-10T15:49:37.853817-07:00",
-        "sha256": "1e68cc264194ff6395e1e73585dc24b4f523b31f0af8143b2ddc1f8debf1529e"
+        "modified": "2026-10-10T18:50:38.679027-07:00",
+        "sha256": "3828a44acfa9858fc8156de8b6fb78df497275e739f098f1ddaa725cd8a428c5"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-10T15:49:37.858532-07:00",
-        "sha256": "8649a505119ad0fd406605869e0e8a696d7bc4b58617479cf7d689823d5c411d"
+        "modified": "2026-10-10T18:50:38.684069-07:00",
+        "sha256": "27907d36ccc9bdf2a9c17b8afcdeaaf9e37edd951613afc6eea6d3bd72bc0d3f"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -52,18 +52,18 @@
         "before": [
           "No",
           "No",
-          "Yes",
-          ""
+          "No",
+          "Ember Prime Neuroptics Blueprint"
         ],
         "after": [
           "No",
           "No",
-          "No",
-          "Ember Prime Neuroptics Blueprint"
+          "Yes",
+          ""
         ]
       },
       {
-        "item": "Kullervo",
+        "item": "Euphona Prime",
         "before": [
           "Yes",
           "No",
@@ -71,9 +71,99 @@
           ""
         ],
         "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Kogake Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Kullervo",
+        "before": [
           "No",
           "No",
           "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Larkspur Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Larkspur Prime Barrel; Larkspur Prime Stock"
+        ]
+      },
+      {
+        "item": "Limbo Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Limbo Prime Blueprint; Limbo Prime Chassis Blueprint; Limbo Prime Neuroptics Blueprint; Limbo Prime Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Limbo Prime Chassis Blueprint; Limbo Prime Neuroptics Blueprint; Limbo Prime Systems Blueprint"
+        ]
+      },
+      {
+        "item": "Sampotes",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Scyotid",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
           ""
         ]
       }
@@ -83,7 +173,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 144
+      "missing": 143
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -95,8 +185,8 @@
       "Lith C14 Intact": 4,
       "Lith E2 Intact": 14,
       "Lith E2 Radiant": 1,
-      "Lith G14 Intact": 22,
-      "Lith K12 Intact": 31,
+      "Lith G14 Intact": 20,
+      "Lith K12 Intact": 27,
       "Lith K12 Radiant": 8,
       "Lith N18 Intact": 16,
       "Lith N18 Radiant": 1,
@@ -106,9 +196,9 @@
       "Lith Q3 Intact": 0,
       "Lith S18 Intact": 9,
       "Lith T14 Intact": 18,
-      "Lith V11 Intact": 16,
+      "Lith V11 Intact": 18,
       "Lith V11 Radiant": 1,
-      "Meso A10 Intact": 4,
+      "Meso A10 Intact": 1,
       "Meso A12 Intact": 38,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 61,
@@ -123,7 +213,7 @@
       "Meso X1 Intact": 35,
       "Meso X1 Radiant": 2,
       "Meso Y2 Intact": 39,
-      "Neo A16 Intact": 7,
+      "Neo A16 Intact": 5,
       "Neo C7 Intact": 28,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
@@ -1720,22 +1810,6 @@
       "practicalPriority": 515
     },
     {
-      "ease": "1 — Now / no farming",
-      "item": "Ember Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Ember Prime Neuroptics Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Ember_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 105
-    },
-    {
       "ease": "5 — Long grind / trade",
       "item": "Equinox Prime",
       "type": "warframe",
@@ -1980,7 +2054,7 @@
       "item": "Larkspur Prime",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock",
+      "missing": "Larkspur Prime Barrel; Larkspur Prime Stock",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -1989,7 +2063,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2012,7 +2086,7 @@
       "item": "Limbo Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Limbo Prime Blueprint; Limbo Prime Chassis Blueprint; Limbo Prime Neuroptics Blueprint; Limbo Prime Systems Blueprint",
+      "missing": "Limbo Prime Chassis Blueprint; Limbo Prime Neuroptics Blueprint; Limbo Prime Systems Blueprint",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -2021,7 +2095,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 520
+      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2656,42 +2730,6 @@
   ],
   "owned": [
     {
-      "item": "Euphona Prime",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Euphona_Prime"
-    },
-    {
-      "item": "Kogake Prime",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Kogake_Prime"
-    },
-    {
-      "item": "Sampotes",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Pathos_Clamp"
-    },
-    {
-      "item": "Scyotid",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Scyotid"
-    },
-    {
       "item": "Spinnerex",
       "type": "melee",
       "state": "Rank unknown — verify in Arsenal",
@@ -2719,13 +2757,13 @@
       "source": "https://wiki.warframe.com/w/Thalys"
     },
     {
-      "item": "Kullervo",
+      "item": "Ember Prime",
       "type": "warframe",
       "state": "Ready in Foundry",
       "targetRank": "30",
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Kullervo"
+      "source": "https://wiki.warframe.com/w/Ember_Prime"
     },
     {
       "item": "Oraxia",
@@ -7318,24 +7356,21 @@
     {
       "item": "Ember Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Ember Prime Neuroptics Blueprint",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Currently vaulted — owned relics or player trade",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Ember_Prime",
       "primeDetails": [],
-      "liveMatches": [],
-      "primeStatus": "TRADE ONLY",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Embolist",
@@ -7537,15 +7572,15 @@
     {
       "item": "Euphona Prime",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 14,
@@ -9993,15 +10028,15 @@
     {
       "item": "Kogake Prime",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": 10,
@@ -10287,17 +10322,17 @@
     {
       "item": "Kullervo",
       "type": "warframe",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
-      "mastered": "No",
-      "complete": "No",
+      "state": "Owned + mastered",
+      "owned": "Yes",
+      "mastered": "Yes",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Kullervo’s Hold in Duviri; Acrithis",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Kullervo",
       "steps": "Fight Kullervo during an eligible Spiral, earn Kullervo’s Bane, then buy blueprints from Acrithis.",
@@ -10909,7 +10944,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Larkspur Prime Barrel; Larkspur Prime Receiver; Larkspur Prime Stock",
+      "missing": "Larkspur Prime Barrel; Larkspur Prime Stock",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -11223,7 +11258,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Limbo Prime Blueprint; Limbo Prime Chassis Blueprint; Limbo Prime Neuroptics Blueprint; Limbo Prime Systems Blueprint",
+      "missing": "Limbo Prime Chassis Blueprint; Limbo Prime Neuroptics Blueprint; Limbo Prime Systems Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",
@@ -14778,15 +14813,15 @@
     {
       "item": "Sampotes",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": -1,
@@ -15078,14 +15113,14 @@
     {
       "item": "Scyotid",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Isleweaver / Acrithis Scuttler Husk exchange",
       "vaulted": "No",
       "pendingFoundry": "No",
