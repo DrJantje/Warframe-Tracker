@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-11T01:50:39.724902+00:00",
+  "generatedAt": "2026-10-11T02:18:34.558001+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-11T01:50:38.325Z",
+  "accountSnapshotAt": "2026-10-11T02:18:33.646Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-11T01:50:38.325Z",
+      "capturedAt": "2026-10-11T02:18:33.646Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-11T01:50:38.041Z",
-    "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "observedAt": "2026-10-11T02:18:29.105Z",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "UNKNOWN",
+    "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": null,
-    "frameConfidence": "sync-awaiting-snapshot",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
@@ -359,12 +359,12 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Heated Charge",
+              "name": "Primed Convulsion",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Primed Convulsion",
+              "name": "Primed Heated Charge",
               "rank": 10,
               "kind": "mod"
             },
