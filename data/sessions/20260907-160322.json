@@ -1,13 +1,5 @@
 {
-  "errorEventCount": 4,
-  "equipmentRemoved": [],
-  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
-  "durationSeconds": 10584.229,
   "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 10404,
-  "focusEarnedDuringCapture": 10404,
-  "equipmentAdded": [],
-  "missionCount": 11,
   "missions": [
     {
       "startedAt": "2026-09-07T16:03:32.439000+00:00",
@@ -143,6 +135,12 @@
       "incomplete": true
     }
   ],
+  "durationSeconds": 10584.229,
+  "errorEventCount": 4,
+  "startedAt": "2026-09-07T16:03:22.655084+00:00",
+  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 10404,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -245,7 +243,7 @@
       "delta": 1
     }
   ],
-  "startedAt": "2026-09-07T16:03:22.655084+00:00",
+  "stoppedAt": "2026-09-07T18:59:46.883967+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-07T18:04:28.167545+00:00",
@@ -332,6 +330,7 @@
       "helminthAfter": null
     }
   ],
+  "focusEarnedDuringCapture": 10404,
   "negativeItemDeltas": [
     {
       "item": "Thrax Plasm",
@@ -362,7 +361,8 @@
       "delta": -1
     }
   ],
-  "schemaVersion": 1,
+  "equipmentRemoved": [],
+  "missionCount": 11,
   "notableAcquisitions": [
     {
       "item": "Meso V13 Intact",
