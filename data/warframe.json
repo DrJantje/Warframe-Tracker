@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-11",
-    "exportVerifiedAt": "2026-10-11 10:57:05 PDT",
+    "exportVerifiedAt": "2026-10-11 15:41:44 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167697,
-        "modified": "2026-10-11T10:57:04.182056-07:00",
-        "sha256": "e24c1d4b151362e09404abe7bfdc12031088e23976ee3b537d8109f6cef59151"
+        "bytes": 2167781,
+        "modified": "2026-10-11T15:41:43.200272-07:00",
+        "sha256": "1f6975a5afcebabb83a544058809f02d677c5ee8f56bc64a631054e7945e5c2c"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-11T10:57:04.188635-07:00",
-        "sha256": "045c37d31519c1b59e0c623b8e79607ae671e37822b7efbe35f0e3c5b35cccf6"
+        "modified": "2026-10-11T15:41:43.208800-07:00",
+        "sha256": "5a97a23ed2a269d3bbec12cb63699077b783e80ad90068ce39665ec8c2906be7"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-11T10:57:04.185074-07:00",
+        "modified": "2026-10-11T15:41:43.204155-07:00",
         "sha256": "74dc2919409ba368b9d04da8cb41f200d1357dd315bcfc3aa9b812183b245027"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-11T10:57:04.186627-07:00",
-        "sha256": "471eec2e4f5513efb90b556be2326d3c4b5173a4624c55ab1fce55ccb82c384d"
+        "modified": "2026-10-11T15:41:43.205673-07:00",
+        "sha256": "580abdd97e4b19b8f91d11ea5d20fefe9b93e73e10a7b2bbb986675a1c10d9ab"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-11T10:57:04.191652-07:00",
-        "sha256": "1398b860d816eb9d48c2ee41be677c984c75a807cf3544a701d18ad21408c079"
+        "modified": "2026-10-11T15:41:43.211807-07:00",
+        "sha256": "38a850e40973ee5dc37d995314f41a4b9f6aded745f1d6069d57db9f5f0a816f"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,18 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Thalys",
+        "item": "Dethcube Prime",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Dethcube Prime Blueprint; Dethcube Prime Carapace; Dethcube Prime Systems"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
-          ""
+          "No",
+          "No",
+          "Dethcube Prime Blueprint; Dethcube Prime Systems"
         ]
       }
     ],
@@ -102,14 +102,14 @@
       "Meso L4 Intact": 6,
       "Meso L4 Radiant": 3,
       "Meso L5 Intact": 40,
-      "Meso V13 Intact": 42,
+      "Meso V13 Intact": 43,
       "Meso V15 Intact": 54,
       "Meso V15 Radiant": 1,
       "Meso X1 Intact": 35,
       "Meso X1 Radiant": 2,
       "Meso Y2 Intact": 39,
       "Neo A16 Intact": 5,
-      "Neo C7 Intact": 29,
+      "Neo C7 Intact": 28,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
       "Neo C9 Intact": 18,
@@ -1646,7 +1646,7 @@
       "item": "Dethcube Prime",
       "type": "companion",
       "targetRank": "30",
-      "missing": "Dethcube Prime Blueprint; Dethcube Prime Carapace; Dethcube Prime Systems",
+      "missing": "Dethcube Prime Blueprint; Dethcube Prime Systems",
       "route": "Currently vaulted — owned relics or player trade",
       "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
       "tip": "Compare individual part prices with the full set price before buying.",
@@ -1655,7 +1655,7 @@
       "primeStatus": "TRADE ONLY",
       "primeDetails": [],
       "liveMatches": [],
-      "practicalPriority": 515
+      "practicalPriority": 510
     },
     {
       "ease": "5 — Long grind / trade",
@@ -6483,7 +6483,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Dethcube Prime Blueprint; Dethcube Prime Carapace; Dethcube Prime Systems",
+      "missing": "Dethcube Prime Blueprint; Dethcube Prime Systems",
       "ease": "5 — Long grind / trade",
       "route": "Currently vaulted — owned relics or player trade",
       "vaulted": "Yes",

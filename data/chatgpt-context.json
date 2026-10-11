@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-11T17:57:05.094967+00:00",
+  "generatedAt": "2026-10-11T22:41:44.270424+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-11T17:57:04.029Z",
+  "accountSnapshotAt": "2026-10-11T22:41:42.979Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-11T17:57:04.029Z",
+      "capturedAt": "2026-10-11T22:41:42.979Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-11T17:56:26.858Z",
+    "observedAt": "2026-10-11T22:41:43.326Z",
     "phase": "mission",
-    "node": "PLAYER SHIP",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
+    "node": "1999Hub",
+    "planet": "",
+    "mission": "CONCLAVE",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
-    "matchmaking": "UNKNOWN",
+    "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
-    "frameCandidate": null,
-    "frameConfidence": "sync-awaiting-snapshot",
+    "frameCandidate": "Titania",
+    "frameConfidence": "mission-active",
     "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
@@ -212,7 +212,7 @@
           "item": "Coda Pox",
           "category": "Pistols",
           "configuration": "A",
-          "formaApplied": 3,
+          "formaApplied": 4,
           "focusLens": null,
           "polarities": [
             {
@@ -226,6 +226,10 @@
             {
               "slot": 3,
               "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
             }
           ],
           "modularParts": [],
@@ -249,6 +253,42 @@
             },
             {
               "name": "Hornet Strike",
+              "rank": 10,
+              "kind": "mod"
+            }
+          ],
+          "arcanes": []
+        },
+        "Primary": {
+          "buildRef": "longguns-130",
+          "resolutionStatus": "exact-build-ref",
+          "item": "Duelist Bow",
+          "category": "LongGuns",
+          "configuration": "A",
+          "formaApplied": 0,
+          "focusLens": null,
+          "polarities": [],
+          "modularParts": [],
+          "archonShards": [],
+          "helminthAbility": null,
+          "mods": [
+            {
+              "name": "Malignant Force",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "High Voltage",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Split Chamber",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Serration",
               "rank": 10,
               "kind": "mod"
             }
