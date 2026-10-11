@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-11",
-    "exportVerifiedAt": "2026-10-11 08:18:05 PDT",
+    "exportVerifiedAt": "2026-10-11 08:38:36 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167609,
-        "modified": "2026-10-11T08:18:04.325420-07:00",
-        "sha256": "24011978b54047d57313f87904958f27ad6a621104df091a27c8ae3bcaedba63"
+        "bytes": 2167608,
+        "modified": "2026-10-11T08:38:34.988323-07:00",
+        "sha256": "c0b9b6c957d27e545d35a452ada782449dd450142d39d94b144e723193fcebec"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-11T08:18:04.331587-07:00",
-        "sha256": "70387e05f5819f3d2caa6aefc737728112b72f0764e258ebff517984c442723b"
+        "modified": "2026-10-11T08:38:34.994966-07:00",
+        "sha256": "01d8494587eefaf30759a31be5236fcc9e4bca1a49a28a30436210e977eb2203"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-11T08:18:04.327426-07:00",
-        "sha256": "26ef1de8ec860b4c2961b6689f2c01f96353f9e0e6becb9e4f38e66c6cdce516"
+        "modified": "2026-10-11T08:38:34.990829-07:00",
+        "sha256": "9b24dbfe38de4184ed54ce73b233302dad3cd11647c4c8167c77b6fc17b53493"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-11T08:18:04.328425-07:00",
-        "sha256": "e235034c177561078e0915679927561ceada41a5e848e04793287ab0efb90a2a"
+        "modified": "2026-10-11T08:38:34.992858-07:00",
+        "sha256": "471eec2e4f5513efb90b556be2326d3c4b5173a4624c55ab1fce55ccb82c384d"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-11T08:18:04.334382-07:00",
-        "sha256": "384deeb266b375fcb5fc14601a6726fef74ff72dfce9fe402d0191068b7dff6a"
+        "modified": "2026-10-11T08:38:34.999658-07:00",
+        "sha256": "1398b860d816eb9d48c2ee41be677c984c75a807cf3544a701d18ad21408c079"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,48 +48,18 @@
     },
     "importChanges": [
       {
-        "item": "Hespar",
+        "item": "Thalys",
         "before": [
-          "No",
-          "No",
-          "No",
-          "Hespar Handle Blueprint"
-        ],
-        "after": [
-          "No",
-          "No",
           "Yes",
+          "No",
+          "No",
           ""
-        ]
-      },
-      {
-        "item": "Vauban Prime",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
         ],
         "after": [
-          "No",
-          "No",
           "Yes",
+          "Yes",
+          "No",
           ""
-        ]
-      },
-      {
-        "item": "Wolf Sledge",
-        "before": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
-        ],
-        "after": [
-          "No",
-          "No",
-          "No",
-          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)"
         ]
       }
     ],
@@ -126,7 +96,7 @@
       "Meso A10 Intact": 1,
       "Meso A12 Intact": 39,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 62,
+      "Meso D8 Intact": 58,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 53,
       "Meso L4 Intact": 6,
@@ -139,7 +109,7 @@
       "Meso X1 Radiant": 2,
       "Meso Y2 Intact": 39,
       "Neo A16 Intact": 5,
-      "Neo C7 Intact": 28,
+      "Neo C7 Intact": 29,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
       "Neo C9 Intact": 18,
@@ -2623,15 +2593,6 @@
     }
   ],
   "owned": [
-    {
-      "item": "Thalys",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Thalys"
-    },
     {
       "item": "Ember Prime",
       "type": "warframe",
@@ -17028,14 +16989,14 @@
     {
       "item": "Thalys",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Isleweaver Scuttler Husk vendor",
       "vaulted": "No",
       "pendingFoundry": "No",
