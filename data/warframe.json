@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-11",
-    "exportVerifiedAt": "2026-10-11 08:04:52 PDT",
+    "exportVerifiedAt": "2026-10-11 08:18:05 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167611,
-        "modified": "2026-10-11T08:04:50.710814-07:00",
-        "sha256": "c4b2b06825b59b467628738811065397784527664045aea13d17999c980744b6"
+        "bytes": 2167609,
+        "modified": "2026-10-11T08:18:04.325420-07:00",
+        "sha256": "24011978b54047d57313f87904958f27ad6a621104df091a27c8ae3bcaedba63"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-11T08:04:50.719901-07:00",
+        "modified": "2026-10-11T08:18:04.331587-07:00",
         "sha256": "70387e05f5819f3d2caa6aefc737728112b72f0764e258ebff517984c442723b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-11T08:04:50.714815-07:00",
+        "modified": "2026-10-11T08:18:04.327426-07:00",
         "sha256": "26ef1de8ec860b4c2961b6689f2c01f96353f9e0e6becb9e4f38e66c6cdce516"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-11T08:04:50.718090-07:00",
+        "modified": "2026-10-11T08:18:04.328425-07:00",
         "sha256": "e235034c177561078e0915679927561ceada41a5e848e04793287ab0efb90a2a"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-11T08:04:50.723590-07:00",
+        "modified": "2026-10-11T08:18:04.334382-07:00",
         "sha256": "384deeb266b375fcb5fc14601a6726fef74ff72dfce9fe402d0191068b7dff6a"
       },
       "rivens.json": {
@@ -48,33 +48,48 @@
     },
     "importChanges": [
       {
-        "item": "Oraxia",
+        "item": "Hespar",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Hespar Handle Blueprint"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
+          "No",
+          "Yes",
           ""
         ]
       },
       {
-        "item": "Syam",
+        "item": "Vauban Prime",
         "before": [
-          "Yes",
           "No",
           "No",
-          ""
+          "No",
+          "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint"
         ],
         "after": [
-          "Yes",
-          "Yes",
           "No",
+          "No",
+          "Yes",
           ""
+        ]
+      },
+      {
+        "item": "Wolf Sledge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)"
         ]
       }
     ],
@@ -83,7 +98,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 143
+      "missing": 141
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -282,21 +297,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Hespar",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Hespar Handle Blueprint",
-      "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
-      "steps": "Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
-      "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
-      "source": "https://wiki.warframe.com/w/Hespar",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
       "practicalPriority": 405
     },
     {
@@ -665,16 +665,16 @@
       "item": "Wolf Sledge",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 4 Nitain Extract, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave",
-      "practicalPriority": 520
+      "practicalPriority": 525
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2534,22 +2534,6 @@
     },
     {
       "ease": "5 — Long grind / trade",
-      "item": "Vauban Prime",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
-      "route": "Currently vaulted — owned relics or player trade",
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying.",
-      "source": "https://wiki.warframe.com/w/Vauban_Prime",
-      "vaulted": "Yes",
-      "primeStatus": "TRADE ONLY",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 510
-    },
-    {
-      "ease": "5 — Long grind / trade",
       "item": "Vectis Prime",
       "type": "primary",
       "targetRank": "30",
@@ -2656,6 +2640,24 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Ember_Prime"
+    },
+    {
+      "item": "Hespar",
+      "type": "melee",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Hespar"
+    },
+    {
+      "item": "Vauban Prime",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Vauban_Prime"
     }
   ],
   "rank40": [
@@ -9018,20 +9020,20 @@
     {
       "item": "Hespar",
       "type": "melee",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Hespar Handle Blueprint",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
-      "steps": "Handle Blueprint: Tuvul Commons Void Cascade rotation C.",
+      "steps": ".",
       "tip": "Each listed component is a separate 10% rotation C reward; run only the mission tied to the component still missing.",
       "primeDetails": [],
       "liveMatches": []
@@ -17751,24 +17753,21 @@
     {
       "item": "Vauban Prime",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Vauban Prime Chassis Blueprint; Vauban Prime Systems Blueprint",
-      "ease": "5 — Long grind / trade",
-      "route": "Currently vaulted — owned relics or player trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Foundry",
       "vaulted": "Yes",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Vauban_Prime",
-      "primeStatus": "TRADE ONLY",
       "primeDetails": [],
-      "liveMatches": [],
-      "steps": "Check your existing relics for the listed missing parts. If none are available, trade only for those gaps.",
-      "tip": "Compare individual part prices with the full set price before buying."
+      "liveMatches": []
     },
     {
       "item": "Vaykor Hek",
@@ -18590,14 +18589,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)",
       "ease": "5 — Long grind / trade",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 4 Nitain Extract, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "primeDetails": [],
       "liveMatches": [],
