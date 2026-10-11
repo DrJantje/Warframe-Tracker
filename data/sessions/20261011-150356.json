@@ -1,0 +1,57 @@
+{
+  "positiveItemDeltas": [],
+  "errorEventCount": 2,
+  "negativeItemDeltas": [],
+  "stoppedAt": "2026-10-11T15:37:26.945643+00:00",
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "configurationChanges": [],
+  "startedAt": "2026-10-11T15:03:56.812809+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "missionCount": 2,
+  "schemaVersion": 1,
+  "durationSeconds": 2010.133,
+  "equipmentAdded": [],
+  "missions": [
+    {
+      "startedAt": "2026-10-11T15:04:01.478000+00:00",
+      "endedAt": "2026-10-11T15:16:52.631000+00:00",
+      "durationSeconds": 771.153,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IceBladeHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": "VoidT6",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-11T15:20:02.413000+00:00",
+      "endedAt": "2026-10-11T15:37:04.445000+00:00",
+      "durationSeconds": 1022.032,
+      "type": "CORRUPTION",
+      "node": "SolNode230",
+      "label": null,
+      "missionKey": "SolNode230_ActiveMission",
+      "missionInstance": 1,
+      "voidTier": "VoidT6",
+      "steelPath": false
+    }
+  ],
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
