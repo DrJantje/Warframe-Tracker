@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 1,
-  "focusCounterAtCaptureStart": 0,
   "stoppedAt": "2026-10-05T19:14:44.609779+00:00",
-  "missionCount": 19,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -209,64 +206,14 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
-  "errorEventCount": 14,
-  "focusEarnedDuringCapture": 0,
-  "startedAt": "2026-10-05T15:30:02.407948+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-10-05T16:42:37.955017+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Drifting Contact",
-        "Magnetic Rush"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-05T17:28:31.505886+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Volcanic Edge"
-      ],
-      "removed": [
-        "Drifting Contact"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-05T18:25:02.553366+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-05T19:13:55.283603+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "True Steel"
-      ],
-      "removed": [
-        "Volcanic Edge"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
   "equipmentAdded": [],
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
+  "errorEventCount": 14,
+  "startedAt": "2026-10-05T15:30:02.407948+00:00",
+  "missionCount": 19,
   "missions": [
     {
       "startedAt": "2026-10-05T15:30:07.048000+00:00",
@@ -498,7 +445,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
+  "durationSeconds": 13482.202,
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -617,7 +565,59 @@
       "delta": -1
     }
   ],
-  "durationSeconds": 13482.202,
+  "configurationChanges": [
+    {
+      "at": "2026-10-05T16:42:37.955017+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Drifting Contact",
+        "Magnetic Rush"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-05T17:28:31.505886+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Volcanic Edge"
+      ],
+      "removed": [
+        "Drifting Contact"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-05T18:25:02.553366+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-05T19:13:55.283603+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "True Steel"
+      ],
+      "removed": [
+        "Volcanic Edge"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

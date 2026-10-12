@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 1,
-  "focusCounterAtCaptureStart": 0,
   "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
-  "missionCount": 8,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -133,38 +130,19 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
-  "errorEventCount": 2,
-  "focusEarnedDuringCapture": 1519,
-  "startedAt": "2026-10-12T02:57:27.193707+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 1519,
   "equipmentAdded": [
     {
       "at": "2026-10-12T03:18:44.202025+00:00",
       "item": "Hespar"
     }
   ],
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 1519,
+  "errorEventCount": 2,
+  "startedAt": "2026-10-12T02:57:27.193707+00:00",
+  "missionCount": 8,
   "missions": [
     {
       "startedAt": "2026-10-12T02:57:30.278000+00:00",
@@ -264,7 +242,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 1519,
+  "focusCounterAtCaptureStart": 0,
+  "durationSeconds": 3909.426,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -279,7 +258,28 @@
       "delta": -1
     }
   ],
-  "durationSeconds": 3909.426,
+  "configurationChanges": [
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
