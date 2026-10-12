@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-12T04:02:37.243240+00:00
-Account snapshot: 2026-10-12T04:02:35.980Z
+Generated: 2026-10-12T04:05:20.135404+00:00
+Account snapshot: 2026-10-12T03:54:51.017Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -17,28 +17,31 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: Kullervo
 
-#### Warframe: Hildryn Prime — config A
+#### Warframe: Kullervo — config A
 
-- Forma: 4
-- Lens: Eidolon Naramon Lens
-- Helminth: Shed Ability
-- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
-- Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
-- Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
+- Forma: 1
+- Mods: Archon Continuity (rank 10), Blind Rage (rank 10), Stretch (rank 5), Primed Flow (rank 10), Energy Siphon (rank 5)
+- Arcanes: Arcane Energize (rank 5), Molt Augmented (rank 5)
 
 #### Secondary: Coda Pox — config A
 
-- Forma: 5
+- Forma: 4
 - Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
 - Arcanes: none recorded
 
-#### Melee: Furax Wraith — config A
+#### Primary: Coda Bubonico — config A
+
+- Forma: 5
+- Lens: Greater Unairu Lens
+- Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
+
+#### Melee: Hespar — config A
 
 - Forma: 0
-- Lens: Greater Unairu Lens
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: Primed Reach (rank 10), Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Fever Strike (rank 10), Galeforce Dawn (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -47,13 +50,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-#### Exalted weapon: Balefire Charger Prime — config A
-
-- Forma: 8
-- Mods: Primed Convulsion (rank 10), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 10), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
-- Arcanes: Secondary Enervate (rank 5)
-
-### Companion: Hildryn
+### Companion: Kullervo
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -75,11 +72,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-10-12T01:12:38.394919+00:00
-- Duration seconds: 1872.114
-- Missions: 3
-- Focus earned: 0
-- Notable acquisitions: Lith V11 Intact (+2), T1 Void Projection Citrine Prime DBronze (+2), T2 Void Projection Citrine Prime ABronze (+2), T3 Void Projection Citrine Prime ABronze (+2), Lith G14 Intact (+1), Meso Y2 Intact (+1), T3 Void Projection Citrine Prime BBronze (+1), T4 Void Projection Citrine Prime ABronze (+1), T4 Void Projection Citrine Prime BBronze (+1)
+- Started: 2026-10-12T02:57:27.193707+00:00
+- Duration seconds: 3909.426
+- Missions: 8
+- Focus earned: 1519
+- Notable acquisitions: Intact Sentient Core (+60), Blueprint (+3), Harrow Chassis Blueprint (+3), Barrel (+1), Receiver (+1)
 
 ## Deeper files
 
