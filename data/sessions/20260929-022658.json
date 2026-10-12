@@ -1,37 +1,4 @@
 {
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusEarnedDuringCapture": 52836,
   "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
   "positiveItemDeltas": [
     {
@@ -71,13 +38,24 @@
       "delta": 1
     }
   ],
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
   "startedAt": "2026-09-29T02:26:58.481588+00:00",
   "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 52836,
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 11058.549,
   "missionCount": 9,
-  "errorEventCount": 4,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -189,6 +167,28 @@
       "incomplete": true
     }
   ],
+  "focusEarnedDuringCapture": 52836,
+  "configurationChanges": [
+    {
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "durationSeconds": 11058.549,
+  "errorEventCount": 4,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 52836,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
