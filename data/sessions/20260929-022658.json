@@ -1,6 +1,26 @@
 {
-  "durationSeconds": 11058.549,
-  "focusCounterAtCaptureEnd": 52836,
+  "focusEarnedDuringCapture": 52836,
+  "missionCount": 9,
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Fish Meat",
@@ -39,43 +59,11 @@
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureEnd": 52836,
   "errorEventCount": 4,
-  "missionCount": 9,
   "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
+  "durationSeconds": 11058.549,
   "equipmentRemoved": [],
-  "focusEarnedDuringCapture": 52836,
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -187,8 +175,20 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
