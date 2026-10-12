@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T01:21:37.368064+00:00",
+  "generatedAt": "2026-10-12T01:34:11.932325+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,153 +8,86 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-12T01:21:36.468Z",
+  "accountSnapshotAt": "2026-10-12T01:34:10.864Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-12T01:21:36.468Z",
+      "capturedAt": "2026-10-12T01:34:10.864Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-12T01:20:44.293781+00:00",
-    "phase": "location",
-    "node": "RELAY",
-    "planet": "TENNO",
-    "mission": "HUB",
-    "missionKey": null,
+    "observedAt": "2026-10-12T01:33:47.720Z",
+    "phase": "mission",
+    "node": "GRINEER",
+    "planet": "CERES",
+    "mission": "LOCATION",
+    "missionKey": "SolNode185_EliteAlert",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "account-content-changed"
+    "frameConfidence": "mission-active",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
-      "name": "Nekros Lt Goblin",
+      "name": "Kullervo",
       "slots": {
         "Warframe": {
-          "buildRef": "suits-016",
+          "buildRef": "suits-062",
           "resolutionStatus": "exact-build-ref",
-          "item": "Nekros Prime",
+          "item": "Kullervo",
           "category": "Suits",
           "configuration": "A",
-          "formaApplied": 4,
-          "focusLens": "Greater Naramon Lens",
+          "formaApplied": 1,
+          "focusLens": null,
           "polarities": [
             {
-              "slot": 0,
-              "polarity": "AP_POWER"
-            },
-            {
-              "slot": 1,
-              "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 2,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_ATTACK"
-            },
-            {
               "slot": 4,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 5,
               "polarity": "AP_TACTIC"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 7,
-              "polarity": "AP_DEFENSE"
-            },
-            {
-              "slot": 8,
-              "polarity": "AP_UNIVERSAL"
-            },
-            {
-              "slot": 9,
-              "polarity": "AP_UNIVERSAL"
             }
           ],
           "modularParts": [],
-          "archonShards": [
-            {
-              "color": "ACC_YELLOW_MYTHIC",
-              "effect": "Archon Crystal Upgrade Warframe Casting Speed Mythic"
-            },
-            {
-              "color": "ACC_YELLOW_MYTHIC",
-              "effect": "Archon Crystal Upgrade Warframe Casting Speed Mythic"
-            },
-            {
-              "color": "ACC_BLUE_MYTHIC",
-              "effect": "Archon Crystal Upgrade Warframe Energy Max Mythic"
-            },
-            {
-              "color": "ACC_BLUE_MYTHIC",
-              "effect": "Archon Crystal Upgrade Warframe Energy Max Mythic"
-            },
-            {
-              "color": "ACC_RED_MYTHIC",
-              "effect": "Archon Crystal Upgrade Warframe Ability Strength Mythic"
-            }
-          ],
-          "helminthAbility": "Rhino Roar Ability",
+          "archonShards": [],
+          "helminthAbility": null,
           "mods": [
             {
-              "name": "Despoil",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Stretch",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Shield Of Shadows",
-              "rank": 3,
+              "name": "Archon Continuity",
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -163,44 +96,29 @@
               "kind": "mod"
             },
             {
-              "name": "Archon Continuity",
+              "name": "Stretch",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Flow",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Equilibrium",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Health Conversion",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Overextended",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Growing Power",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Power Drift",
+              "name": "Energy Siphon",
               "rank": 5,
               "kind": "mod"
             }
           ],
           "arcanes": [
             {
-              "name": "Molt Augmented",
+              "name": "Arcane Energize",
               "rank": 5,
               "kind": "arcane"
             },
             {
-              "name": "Arcane Blessing",
+              "name": "Molt Augmented",
               "rank": 5,
               "kind": "arcane"
             }
@@ -260,21 +178,33 @@
           "arcanes": []
         },
         "Primary": {
-          "buildRef": "longguns-065",
+          "buildRef": "longguns-069",
           "resolutionStatus": "exact-build-ref",
-          "item": "Coda Bassocyst",
+          "item": "Coda Bubonico",
           "category": "LongGuns",
           "configuration": "A",
           "formaApplied": 5,
           "focusLens": "Greater Unairu Lens",
           "polarities": [
             {
-              "slot": 7,
+              "slot": 0,
               "polarity": "AP_ATTACK"
             },
             {
-              "slot": 3,
+              "slot": 1,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 2,
               "polarity": "AP_DEFENSE"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_TACTIC"
+            },
+            {
+              "slot": 4,
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 5,
@@ -282,11 +212,15 @@
             },
             {
               "slot": 6,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 7,
               "polarity": "AP_DEFENSE"
             },
             {
-              "slot": 0,
-              "polarity": "AP_TACTIC"
+              "slot": 8,
+              "polarity": "AP_ATTACK"
             }
           ],
           "modularParts": [],
@@ -294,22 +228,22 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Charged Shell",
+              "name": "Atomic Fallout",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Shotgun Barrage",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Primed Point Blank",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Magnetic Strafe",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Toxic Barrage",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Primed Chilling Grasp",
+              "name": "Primed Charged Shell",
               "rank": 10,
               "kind": "mod"
             },
@@ -324,12 +258,12 @@
               "kind": "mod"
             },
             {
-              "name": "Galvanized Savvy",
+              "name": "Galvanized Hell",
               "rank": 10,
               "kind": "mod"
             },
             {
-              "name": "Galvanized Hell",
+              "name": "Galvanized Savvy",
               "rank": 10,
               "kind": "mod"
             },
@@ -348,13 +282,13 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-034",
+          "buildRef": "melee-100",
           "resolutionStatus": "exact-build-ref",
-          "item": "Ripkas",
+          "item": "Coda Mire",
           "category": "Melee",
           "configuration": "A",
-          "formaApplied": 2,
-          "focusLens": "Greater Naramon Lens",
+          "formaApplied": 5,
+          "focusLens": null,
           "polarities": [
             {
               "slot": 0,
@@ -362,11 +296,11 @@
             },
             {
               "slot": 1,
-              "polarity": "AP_TACTIC"
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 2,
-              "polarity": "AP_UNIVERSAL"
+              "polarity": "AP_DEFENSE"
             },
             {
               "slot": 3,
@@ -382,7 +316,7 @@
             },
             {
               "slot": 6,
-              "polarity": "AP_UNIVERSAL"
+              "polarity": "AP_ATTACK"
             },
             {
               "slot": 7,
@@ -394,7 +328,7 @@
             },
             {
               "slot": 9,
-              "polarity": "AP_UNIVERSAL"
+              "polarity": "AP_TACTIC"
             }
           ],
           "modularParts": [],
@@ -402,12 +336,27 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Jagged Edge",
+              "name": "Gladiator Might",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Carnis Mandible",
+              "name": "Amalgam Organ Shatter",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Elementalist",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Galvanized Steel",
+              "rank": 9,
+              "kind": "mod"
+            },
+            {
+              "name": "Gladiator Vice",
               "rank": 5,
               "kind": "mod"
             },
@@ -417,23 +366,8 @@
               "kind": "mod"
             },
             {
-              "name": "Weeping Wounds",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Organ Shatter",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
               "name": "Primed Reach",
               "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Amalgam Ripkas True Steel",
-              "rank": 5,
               "kind": "mod"
             },
             {
@@ -442,15 +376,15 @@
               "kind": "mod"
             },
             {
-              "name": "Vermillion Storm",
+              "name": "Swooping Falcon",
               "rank": 3,
               "kind": "mod"
             }
           ],
           "arcanes": [
             {
-              "name": "Melee Duplicate",
-              "rank": 4,
+              "name": "Melee Doughty",
+              "rank": 5,
               "kind": "arcane"
             }
           ]
@@ -742,7 +676,7 @@
     },
     "DATAKNIFE": {
       "modeName": "Parazon and Plexus",
-      "name": "Nekros Lt Goblin",
+      "name": "Kullervo",
       "slots": {
         "Parazon": {
           "buildRef": "dataknives-001",
@@ -1489,7 +1423,7 @@
     },
     "SENTINEL": {
       "modeName": "Companion",
-      "name": "Nekros Lt Goblin",
+      "name": "Kullervo",
       "slots": {
         "Companion": {
           "buildRef": "kubrowpets-006",
@@ -1578,27 +1512,14 @@
           "arcanes": []
         },
         "Companion weapon": {
-          "buildRef": "sentinelweapons-008",
+          "buildRef": "sentinelweapons-001",
           "resolutionStatus": "exact-build-ref",
-          "item": "Verglas Prime",
+          "item": "Artax",
           "category": "SentinelWeapons",
           "configuration": "A",
-          "formaApplied": 3,
+          "formaApplied": 0,
           "focusLens": null,
-          "polarities": [
-            {
-              "slot": 7,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 6,
-              "polarity": "AP_ATTACK"
-            },
-            {
-              "slot": 3,
-              "polarity": "AP_DEFENSE"
-            }
-          ],
+          "polarities": [],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
@@ -1609,33 +1530,8 @@
               "kind": "mod"
             },
             {
-              "name": "Critical Delay",
+              "name": "Cryo Rounds",
               "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Vital Sense",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Aptitude",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Malignant Force",
-              "rank": 3,
-              "kind": "mod"
-            },
-            {
-              "name": "Vile Acceleration",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Galvanized Chamber",
-              "rank": 10,
               "kind": "mod"
             },
             {
