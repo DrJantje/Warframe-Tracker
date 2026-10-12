@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T01:40:12.956585+00:00",
+  "generatedAt": "2026-10-12T01:43:52.798515+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-12T01:40:12.040Z",
+  "accountSnapshotAt": "2026-10-12T01:31:30.767Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-12T01:40:12.040Z",
+      "capturedAt": "2026-10-12T01:31:30.767Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-12T01:40:02.705963+00:00",
+    "observedAt": "2026-10-12T01:42:56.728579+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -1607,18 +1607,125 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261011-150356.json",
-    "startedAt": "2026-10-11T15:03:56.812809+00:00",
-    "stoppedAt": "2026-10-11T15:37:26.945643+00:00",
-    "durationSeconds": 2010.133,
-    "missionCount": 2,
+    "file": "20261012-011238.json",
+    "startedAt": "2026-10-12T01:12:38.394919+00:00",
+    "stoppedAt": "2026-10-12T01:43:50.509115+00:00",
+    "durationSeconds": 1872.114,
+    "missionCount": 3,
     "focusEarnedDuringCapture": 0,
-    "topGains": [],
-    "notableAcquisitions": [],
-    "resourceGains": [],
+    "topGains": [
+      {
+        "item": "Kuva",
+        "delta": 35000
+      },
+      {
+        "item": "Riven Transmuter",
+        "delta": 3
+      },
+      {
+        "item": "Aya",
+        "delta": 2
+      },
+      {
+        "item": "Lith V11 Intact",
+        "delta": 2
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime DBronze",
+        "delta": 2
+      },
+      {
+        "item": "T2 Void Projection Citrine Prime ABronze",
+        "delta": 2
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime ABronze",
+        "delta": 2
+      },
+      {
+        "item": "Veiled Riven Cipher",
+        "delta": 2
+      },
+      {
+        "item": "Lith G14 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso Y2 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Requiem Ultimatum",
+        "delta": 1
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime BBronze",
+        "delta": 1
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Lith V11 Intact",
+        "delta": 2
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime DBronze",
+        "delta": 2
+      },
+      {
+        "item": "T2 Void Projection Citrine Prime ABronze",
+        "delta": 2
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime ABronze",
+        "delta": 2
+      },
+      {
+        "item": "Lith G14 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Meso Y2 Intact",
+        "delta": 1
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime BBronze",
+        "delta": 1
+      },
+      {
+        "item": "T4 Void Projection Citrine Prime ABronze",
+        "delta": 1
+      },
+      {
+        "item": "T4 Void Projection Citrine Prime BBronze",
+        "delta": 1
+      }
+    ],
+    "resourceGains": [
+      {
+        "item": "Kuva",
+        "delta": 35000
+      },
+      {
+        "item": "Riven Transmuter",
+        "delta": 3
+      },
+      {
+        "item": "Aya",
+        "delta": 2
+      },
+      {
+        "item": "Veiled Riven Cipher",
+        "delta": 2
+      },
+      {
+        "item": "Requiem Ultimatum",
+        "delta": 1
+      }
+    ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 2
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
