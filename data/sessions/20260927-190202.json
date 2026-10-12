@@ -1,4 +1,43 @@
 {
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -1500
+    },
+    {
+      "item": "Plastids",
+      "delta": -900
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -65
+    },
+    {
+      "item": "Morphics",
+      "delta": -4
+    },
+    {
+      "item": "Control Module",
+      "delta": -3
+    },
+    {
+      "item": "Receiver",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "String",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -29,10 +68,16 @@
       "delta": 1
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "durationSeconds": 7384.328,
+  "errorEventCount": 6,
+  "configurationChanges": [],
   "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "missionCount": 44,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
+  "equipmentRemoved": [],
+  "startedAt": "2026-09-27T19:02:02.811372+00:00",
   "missions": [
     {
       "startedAt": "2026-09-27T19:02:07.468000+00:00",
@@ -564,52 +609,7 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
-  "equipmentRemoved": [],
-  "missionCount": 44,
-  "configurationChanges": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -1500
-    },
-    {
-      "item": "Plastids",
-      "delta": -900
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -65
-    },
-    {
-      "item": "Morphics",
-      "delta": -4
-    },
-    {
-      "item": "Control Module",
-      "delta": -3
-    },
-    {
-      "item": "Receiver",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "String",
-      "delta": -1
-    }
-  ],
-  "startedAt": "2026-09-27T19:02:02.811372+00:00",
-  "errorEventCount": 6,
-  "schemaVersion": 1,
-  "equipmentAdded": [],
+  "durationSeconds": 7384.328,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
