@@ -1,40 +1,20 @@
 {
   "errorEventCount": 4,
-  "schemaVersion": 1,
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "positiveItemDeltas": [
+  "negativeItemDeltas": [
     {
-      "item": "Blueprint",
-      "delta": 1
+      "item": "Cubic Diodes",
+      "delta": -7000
     },
     {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": 1
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [
+      "item": "Rubedo",
+      "delta": -6000
+    },
     {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
+      "item": "Forma",
+      "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
-  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Coda Hirudo",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -158,22 +138,42 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
+  "missionCount": 10,
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
+  "positiveItemDeltas": [
     {
-      "item": "Cubic Diodes",
-      "delta": -7000
+      "item": "Blueprint",
+      "delta": 1
     },
     {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Forma",
-      "delta": -1
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": 1
     }
   ],
-  "missionCount": 10,
+  "equipmentAdded": [],
   "durationSeconds": 5473.26,
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "configurationChanges": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Coda Hirudo",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
