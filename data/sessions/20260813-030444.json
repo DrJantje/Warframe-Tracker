@@ -1,5 +1,37 @@
 {
+  "durationSeconds": 7200.069,
+  "focusCounterAtCaptureStart": 119454,
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-08-13T03:21:21.587861+00:00",
+      "item": "Coda Synapse",
+      "configuration": "A",
+      "added": [],
+      "removed": [
+        "Sinister Reach"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-13T04:50:15.860755+00:00",
+      "item": "Titania Prime",
+      "configuration": "A",
+      "added": [
+        "Arcane Velocity"
+      ],
+      "removed": [
+        "Arcane Impetus"
+      ],
+      "orderChanged": false,
+      "helminthBefore": "Broken Rot Ability",
+      "helminthAfter": "Broken Rot Ability"
+    }
+  ],
   "focusCounterAtCaptureEnd": 188070,
+  "missionCount": 5,
   "startedAt": "2026-08-13T03:04:44.769358+00:00",
   "missions": [
     {
@@ -63,7 +95,7 @@
       "steelPath": false
     }
   ],
-  "focusCounterAtCaptureStart": 119454,
+  "focusEarnedDuringCapture": 68616,
   "positiveItemDeltas": [
     {
       "item": "Ticor Plate",
@@ -291,37 +323,7 @@
     }
   ],
   "stoppedAt": "2026-08-13T05:04:44.838017+00:00",
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-08-13T03:21:21.587861+00:00",
-      "item": "Coda Synapse",
-      "configuration": "A",
-      "added": [],
-      "removed": [
-        "Sinister Reach"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-13T04:50:15.860755+00:00",
-      "item": "Titania Prime",
-      "configuration": "A",
-      "added": [
-        "Arcane Velocity"
-      ],
-      "removed": [
-        "Arcane Impetus"
-      ],
-      "orderChanged": false,
-      "helminthBefore": "Broken Rot Ability",
-      "helminthAfter": "Broken Rot Ability"
-    }
-  ],
-  "missionCount": 5,
-  "durationSeconds": 7200.069,
+  "errorEventCount": 0,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -340,8 +342,6 @@
       "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 68616,
-  "errorEventCount": 0,
   "notableAcquisitions": [
     {
       "item": "Oberon Chassis Blueprint",

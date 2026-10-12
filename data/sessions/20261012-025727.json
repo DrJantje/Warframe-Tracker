@@ -1,12 +1,37 @@
 {
+  "durationSeconds": 3909.426,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 1519,
   "equipmentAdded": [
     {
       "at": "2026-10-12T03:18:44.202025+00:00",
       "item": "Hespar"
     }
   ],
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 1519,
+  "missionCount": 8,
   "startedAt": "2026-10-12T02:57:27.193707+00:00",
   "missions": [
     {
@@ -107,7 +132,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 1519,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -239,31 +265,7 @@
     }
   ],
   "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "missionCount": 8,
-  "durationSeconds": 3909.426,
+  "errorEventCount": 2,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -278,8 +280,6 @@
       "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 1519,
-  "errorEventCount": 2,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

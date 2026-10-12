@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-12T17:17:20.565331+00:00
-Account snapshot: 2026-10-12T17:07:30.893Z
+Generated: 2026-10-12T17:20:28.274310+00:00
+Account snapshot: 2026-10-12T17:20:27.187Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,35 +10,38 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (sync-awaiting-snapshot)
+- Frame observation: unknown (server-sent)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: E.T.A.
 
-#### Warframe: Hildryn Prime — config A
-
-- Forma: 4
-- Lens: Eidolon Naramon Lens
-- Helminth: Shed Ability
-- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
-- Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
-- Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
-
-#### Secondary: Coda Pox — config A
-
-- Forma: 5
-- Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
-- Arcanes: none recorded
-
-#### Melee: Furax Wraith — config A
+#### Warframe: Caliban Prime — config A
 
 - Forma: 0
-- Lens: Greater Unairu Lens
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: Flow (rank 5), Augur Secrets (rank 5), Archon Continuity (rank 10), Speed Drift (rank 5), Augur Reach (rank 5), Augur Message (rank 5), Umbral Intensify (rank 10), Adaptation (rank 10), Energy Siphon (rank 5), Cunning Drift (rank 5)
+- Arcanes: Molt Efficiency (rank 5), Arcane Energize (rank 5)
+
+#### Secondary: Atomos — config A
+
+- Forma: 0
+- Lens: Zenurik Lens
+- Mods: Barrel Diffusion (rank 5), Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Hornet Strike (rank 10)
+- Arcanes: none recorded
+
+#### Primary: Alternox Prime — config A
+
+- Forma: 0
+- Mods: Hellfire (rank 5), Galvanized Chamber (rank 10), Crash Course (rank 5), Serration (rank 10), Critical Delay (rank 5), Cryo Rounds (rank 5), High Voltage (rank 3)
+- Arcanes: none recorded
+
+#### Melee: Coda Caustacyst — config A
+
+- Forma: 5
+- Mods: Organ Shatter (rank 5), True Steel (rank 5), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -47,13 +50,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-#### Exalted weapon: Balefire Charger Prime — config A
-
-- Forma: 8
-- Mods: Primed Convulsion (rank 10), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 10), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
-- Arcanes: Secondary Enervate (rank 5)
-
-### Companion: Hildryn
+### Companion: E.T.A.
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -61,10 +58,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Artax — config A
+#### Companion weapon: Stinger — config A
 
 - Forma: 0
-- Mods: Sinister Reach (rank 3), Cryo Rounds (rank 5), Serration (rank 10)
+- Mods: Continuous Misery (rank 3), Rime Rounds (rank 3), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A

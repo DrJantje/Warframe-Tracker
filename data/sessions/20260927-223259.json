@@ -1,12 +1,78 @@
 {
-  "equipmentAdded": [],
-  "equipmentRemoved": [
+  "durationSeconds": 7068.249,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "configurationChanges": [
     {
-      "at": "2026-09-28T00:20:28.608291+00:00",
-      "item": "Nokko"
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T22:43:58.852750+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-27T23:31:04.783779+00:00",
+      "item": "Coda Caustacyst",
+      "configuration": "A",
+      "added": [
+        "Virulent Scourge",
+        "Primed Fever Strike",
+        "Pressure Point",
+        "Primed Reach",
+        "Reaping Spiral"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T00:03:06.731128+00:00",
+      "item": "Diwata Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Fever Strike",
+        "Primed Reach",
+        "Amalgam Organ Shatter",
+        "Melee Duplicate"
+      ],
+      "removed": [
+        "Shocking Touch",
+        "Fury",
+        "Body Count",
+        "Melee Influence"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
   "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "missionCount": 10,
   "startedAt": "2026-09-27T22:32:59.167153+00:00",
   "missions": [
     {
@@ -131,7 +197,13 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-28T00:20:28.608291+00:00",
+      "item": "Nokko"
+    }
+  ],
+  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -287,77 +359,7 @@
     }
   ],
   "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
-  "schemaVersion": 1,
-  "configurationChanges": [
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T22:43:58.852750+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-27T23:31:04.783779+00:00",
-      "item": "Coda Caustacyst",
-      "configuration": "A",
-      "added": [
-        "Virulent Scourge",
-        "Primed Fever Strike",
-        "Pressure Point",
-        "Primed Reach",
-        "Reaping Spiral"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T00:03:06.731128+00:00",
-      "item": "Diwata Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Fever Strike",
-        "Primed Reach",
-        "Amalgam Organ Shatter",
-        "Melee Duplicate"
-      ],
-      "removed": [
-        "Shocking Touch",
-        "Fury",
-        "Body Count",
-        "Melee Influence"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "missionCount": 10,
-  "durationSeconds": 7068.249,
+  "errorEventCount": 3,
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -404,8 +406,6 @@
       "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "errorEventCount": 3,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
