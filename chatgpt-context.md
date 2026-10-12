@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-12T17:20:28.274310+00:00
-Account snapshot: 2026-10-12T17:20:27.187Z
+Generated: 2026-10-12T17:46:56.497316+00:00
+Account snapshot: 2026-10-12T17:46:55.274Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: unknown (server-sent)
+- Location: CONCLAVE
+- Planet: unknown
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -21,28 +21,28 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Warframe: Caliban Prime — config A
 
-- Forma: 0
-- Mods: Flow (rank 5), Augur Secrets (rank 5), Archon Continuity (rank 10), Speed Drift (rank 5), Augur Reach (rank 5), Augur Message (rank 5), Umbral Intensify (rank 10), Adaptation (rank 10), Energy Siphon (rank 5), Cunning Drift (rank 5)
-- Arcanes: Molt Efficiency (rank 5), Arcane Energize (rank 5)
+- Forma: 1
+- Mods: Primed Flow (rank 10), Stretch (rank 5), Intensify (rank 5), Transient Fortitude (rank 10), Rolling Guard (rank 10), Streamline (rank 5), Archon Continuity (rank 10), Primed Redirection (rank 10), Energy Siphon (rank 5)
+- Arcanes: Molt Augmented (rank 5), Arcane Energize (rank 5)
 
 #### Secondary: Atomos — config A
 
-- Forma: 0
+- Forma: 1
 - Lens: Zenurik Lens
-- Mods: Barrel Diffusion (rank 5), Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Hornet Strike (rank 10)
-- Arcanes: none recorded
+- Mods: Heated Charge (rank 5), Ice Storm (rank 3), Pistol Pestilence (rank 3), Magnetic Might (rank 3), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Secondary Enervate (rank 5)
 
 #### Primary: Alternox Prime — config A
 
 - Forma: 0
-- Mods: Hellfire (rank 5), Galvanized Chamber (rank 10), Crash Course (rank 5), Serration (rank 10), Critical Delay (rank 5), Cryo Rounds (rank 5), High Voltage (rank 3)
-- Arcanes: none recorded
+- Mods: Critical Delay (rank 5), Galvanized Chamber (rank 10), Galvanized Aptitude (rank 10), Vile Acceleration (rank 5), Serration (rank 10), Malignant Force (rank 3), Rime Rounds (rank 3)
+- Arcanes: Primary Dexterity (rank 5)
 
 #### Melee: Coda Caustacyst — config A
 
-- Forma: 5
-- Mods: Organ Shatter (rank 5), True Steel (rank 5), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Virulent Scourge (rank 3), Pressure Point (rank 5), Primed Reach (rank 10), Reaping Spiral (rank 3)
-- Arcanes: none recorded
+- Forma: 6
+- Mods: Weeping Wounds (rank 5), Primed Reach (rank 10), Shocking Touch (rank 5), Blood Rush (rank 10), Condition Overload (rank 5), Galvanized Steel (rank 10), Reaping Spiral (rank 3)
+- Arcanes: Melee Influence (rank 5)
 
 #### Heavy weapon: Mausolon — config A
 

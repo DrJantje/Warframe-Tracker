@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-12T17:20:28.709000Z",
-      "worldStateAt": "2026-10-12T17:19:44Z",
-      "ageSecondsAtCheck": 45
+      "checkedAt": "2026-10-12T17:46:57.279000Z",
+      "worldStateAt": "2026-10-12T17:46:43Z",
+      "ageSecondsAtCheck": 14
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-12T17:20:28.709000Z",
-      "worldStateAt": "2026-10-12T17:19:44Z",
-      "ageSecondsAtCheck": 45
+      "checkedAt": "2026-10-12T17:46:57.279000Z",
+      "worldStateAt": "2026-10-12T17:46:43Z",
+      "ageSecondsAtCheck": 14
     },
     "rewards": [
       "Detonite Injector",
@@ -113,9 +113,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": 7971,
+        "count": 8816,
         "requiredRuns": 43000,
-        "completion": 59.26860465116279,
+        "completion": 60.25116279069768,
         "completed": false
       },
       {
@@ -146,9 +146,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -28062,
+        "count": -28531,
         "requiredRuns": 30000,
-        "completion": 6.459999999999999,
+        "completion": 4.896666666666672,
         "completed": false
       },
       {
@@ -212,9 +212,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -11915,
+        "count": -16803,
         "requiredRuns": 38000,
-        "completion": 68.64473684210526,
+        "completion": 55.781578947368416,
         "completed": false
       },
       {
@@ -245,13 +245,79 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -640,
+        "count": -2689,
         "requiredRuns": 45000,
-        "completion": 98.57777777777777,
+        "completion": 94.02444444444444,
+        "completed": false
+      },
+      {
+        "id": "6acd1a473037b38167b448a4",
+        "activation": "2026-10-12T17:35:02.573000Z",
+        "node": "War (Mars)",
+        "nodeKey": "SolNode99",
+        "desc": "Infested Invasion Boss",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Detonite Injector",
+                "key": "/Lotus/Types/Items/Research/ChemComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Detonite Injector"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "vsInfestation": true,
+        "count": -207,
+        "requiredRuns": 30000,
+        "completion": 99.31,
+        "completed": false
+      },
+      {
+        "id": "6acd1a473037b38167b448a5",
+        "activation": "2026-10-12T17:35:02.573000Z",
+        "node": "Ara (Mars)",
+        "nodeKey": "SolNode45",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Detonite Injector",
+                "key": "/Lotus/Types/Items/Research/ChemComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Detonite Injector"
+          },
+          "faction": "Grineer",
+          "factionKey": "Grineer"
+        },
+        "vsInfestation": true,
+        "count": -12,
+        "requiredRuns": 31000,
+        "completion": 99.96129032258064,
         "completed": false
       }
     ],
-    "activeCount": 4
+    "activeCount": 6
   },
   "cetusCycle": {
     "status": "verified",
@@ -259,9 +325,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-12T17:20:28.709000Z",
-      "worldStateAt": "2026-10-12T17:19:44Z",
-      "ageSecondsAtCheck": 45
+      "checkedAt": "2026-10-12T17:46:57.279000Z",
+      "worldStateAt": "2026-10-12T17:46:43Z",
+      "ageSecondsAtCheck": 14
     },
     "id": "cetusCycle1791827640000",
     "state": "day",
@@ -274,10 +340,10 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1791835200709",
+      "id": "earthCycle1791835200279",
       "state": "day",
-      "activation": "2026-10-12T16:00:00.709000Z",
-      "expiry": "2026-10-12T20:00:00.709000Z",
+      "activation": "2026-10-12T16:00:00.279000Z",
+      "expiry": "2026-10-12T20:00:00.279000Z",
       "isDay": true
     },
     "cetus": {
@@ -291,10 +357,10 @@
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1791826408000",
+      "id": "vallisCycle1791828008000",
       "state": "cold",
-      "activation": "2026-10-12T17:13:00Z",
-      "expiry": "2026-10-12T17:33:28Z",
+      "activation": "2026-10-12T17:40:00Z",
+      "expiry": "2026-10-12T18:00:08Z",
       "isWarm": false
     },
     "cambion": {
@@ -312,7 +378,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-10-12T17:20:28.709836+00:00",
+  "checkedAt": "2026-10-12T17:46:57.279094+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -408,7 +474,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-10-12T17:20:28.709000Z",
+    "checkedAt": "2026-10-12T17:46:57.279000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
       "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
