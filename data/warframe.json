@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-11",
-    "exportVerifiedAt": "2026-10-11 20:10:45 PDT",
+    "exportVerifiedAt": "2026-10-11 20:18:19 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167781,
-        "modified": "2026-10-11T20:10:44.220498-07:00",
-        "sha256": "4a957f9bb2dd15f0d3ae458130b34d4d3eea9c7bd72e09022db8f5ae82c684af"
+        "modified": "2026-10-11T20:18:18.614403-07:00",
+        "sha256": "3b7f75c3dc4b4c672cd24b795c6f018471bbc730f15299d5dc3290feb4df8583"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-11T20:10:44.224517-07:00",
+        "modified": "2026-10-11T20:18:18.616408-07:00",
         "sha256": "5a97a23ed2a269d3bbec12cb63699077b783e80ad90068ce39665ec8c2906be7"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-11T20:10:44.221503-07:00",
+        "modified": "2026-10-11T20:18:18.615407-07:00",
         "sha256": "74dc2919409ba368b9d04da8cb41f200d1357dd315bcfc3aa9b812183b245027"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-11T20:10:44.222503-07:00",
-        "sha256": "c1dfc92b3c6fb30b5722ccae7d43b82afd2130f9658919283ada287e30dd25f0"
+        "modified": "2026-10-11T20:18:18.616408-07:00",
+        "sha256": "0b3a9b5fafdd23b7158b89141561c3701c1863fc99f7a0de94e7eec86ce85f08"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-11T20:10:44.226525-07:00",
+        "modified": "2026-10-11T20:18:18.618509-07:00",
         "sha256": "38a850e40973ee5dc37d995314f41a4b9f6aded745f1d6069d57db9f5f0a816f"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Hespar",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -93,7 +109,7 @@
       "Meso X1 Radiant": 2,
       "Meso Y2 Intact": 40,
       "Neo A16 Intact": 5,
-      "Neo C7 Intact": 28,
+      "Neo C7 Intact": 27,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
       "Neo C9 Intact": 18,
@@ -2578,6 +2594,15 @@
   ],
   "owned": [
     {
+      "item": "Hespar",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Hespar"
+    },
+    {
       "item": "Ember Prime",
       "type": "warframe",
       "state": "Ready in Foundry",
@@ -2585,15 +2610,6 @@
       "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
       "source": "https://wiki.warframe.com/w/Ember_Prime"
-    },
-    {
-      "item": "Hespar",
-      "type": "melee",
-      "state": "Ready in Foundry",
-      "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Hespar"
     },
     {
       "item": "Vauban Prime",
@@ -8965,17 +8981,17 @@
     {
       "item": "Hespar",
       "type": "melee",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Chrysalith Tier 4 bounty + Zariman endless missions",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Hespar",
       "steps": ".",

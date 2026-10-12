@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-12T03:10:45.072337+00:00
-Account snapshot: 2026-10-12T03:10:44.078Z
+Generated: 2026-10-12T03:18:19.464382+00:00
+Account snapshot: 2026-10-12T03:18:18.495Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,7 +10,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (location-active)
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -38,11 +38,11 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
 - Arcanes: Primary Merciless (rank 5)
 
-#### Melee: Coda Mire — config A
+#### Melee: Hespar — config A
 
-- Forma: 5
-- Mods: Gladiator Might (rank 5), Amalgam Organ Shatter (rank 5), Galvanized Elementalist (rank 10), Galvanized Steel (rank 9), Gladiator Vice (rank 5), Blood Rush (rank 10), Primed Reach (rank 10), Condition Overload (rank 5), Swooping Falcon (rank 3)
-- Arcanes: Melee Doughty (rank 5)
+- Forma: 0
+- Mods: Primed Reach (rank 10), Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Fever Strike (rank 10), Galeforce Dawn (rank 3)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 
