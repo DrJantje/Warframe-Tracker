@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-12T03:46:28.225728+00:00
-Account snapshot: 2026-10-12T03:46:27.220Z
+Generated: 2026-10-12T03:55:48.656213+00:00
+Account snapshot: 2026-10-12T03:55:47.594Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: EARTH
-- Frame observation: Titania (mission-active)
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 1519
@@ -27,7 +27,7 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Secondary: Coda Pox — config A
 
-- Forma: 4
+- Forma: 5
 - Mods: Primed Heated Charge (rank 10), Primed Convulsion (rank 10), Barrel Diffusion (rank 5), Hornet Strike (rank 10)
 - Arcanes: none recorded
 
