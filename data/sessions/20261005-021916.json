@@ -1,11 +1,5 @@
 {
-  "startedAt": "2026-10-05T02:19:16.904139+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": null,
-  "errorEventCount": 5,
-  "schemaVersion": 1,
   "missionCount": 11,
-  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -96,6 +90,8 @@
       "delta": 1
     }
   ],
+  "errorEventCount": 5,
+  "focusCounterAtCaptureEnd": 0,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -106,6 +102,11 @@
       "delta": -1
     }
   ],
+  "stoppedAt": null,
+  "focusEarnedDuringCapture": 0,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
   "configurationChanges": [
     {
       "at": "2026-10-05T02:53:28.100082+00:00",
@@ -371,8 +372,7 @@
       "helminthAfter": null
     }
   ],
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
+  "startedAt": "2026-10-05T02:19:16.904139+00:00",
   "missions": [
     {
       "startedAt": "2026-10-05T02:19:21.558000+00:00",
@@ -508,8 +508,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": null,
+  "schemaVersion": 1,
+  "durationSeconds": null,
   "notableAcquisitions": [
     {
       "item": "Lith S18 Radiant",

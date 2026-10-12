@@ -1,11 +1,5 @@
 {
-  "startedAt": "2026-09-21T23:04:48.469936+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 4208.394,
-  "errorEventCount": 3,
-  "schemaVersion": 1,
   "missionCount": 6,
-  "focusEarnedDuringCapture": 37234,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -72,6 +66,8 @@
       "delta": 1
     }
   ],
+  "errorEventCount": 3,
+  "focusCounterAtCaptureEnd": 37234,
   "negativeItemDeltas": [
     {
       "item": "Salvage",
@@ -198,6 +194,11 @@
       "delta": -1
     }
   ],
+  "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
+  "focusEarnedDuringCapture": 37234,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
   "configurationChanges": [
     {
       "at": "2026-09-22T00:09:45.126997+00:00",
@@ -210,8 +211,7 @@
       "helminthAfter": null
     }
   ],
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
+  "startedAt": "2026-09-21T23:04:48.469936+00:00",
   "missions": [
     {
       "startedAt": "2026-09-21T23:04:51.539000+00:00",
@@ -287,8 +287,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 37234,
-  "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
+  "schemaVersion": 1,
+  "durationSeconds": 4208.394,
   "notableAcquisitions": [
     {
       "item": "Axi V14 Intact",
