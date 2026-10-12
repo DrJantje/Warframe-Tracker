@@ -1,9 +1,8 @@
 {
-  "focusEarnedDuringCapture": 0,
   "missionCount": 5,
-  "focusCounterAtCaptureStart": 0,
-  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
-  "startedAt": "2026-08-22T15:39:53.829909+00:00",
+  "focusEarnedDuringCapture": 0,
+  "equipmentAdded": [],
+  "durationSeconds": 3868.268,
   "configurationChanges": [
     {
       "at": "2026-08-22T16:42:15.853642+00:00",
@@ -122,7 +121,8 @@
       "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -193,16 +193,37 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 5,
-  "schemaVersion": 1,
-  "durationSeconds": 3868.268,
-  "equipmentRemoved": [
+  "negativeItemDeltas": [
     {
-      "at": "2026-08-22T16:42:15.853642+00:00",
-      "item": "Protea"
+      "item": "Blister Stalk",
+      "delta": -5
+    },
+    {
+      "item": "Nonono",
+      "delta": -5
+    },
+    {
+      "item": "Gamma Berry",
+      "delta": -4
+    },
+    {
+      "item": "Vomval Trumpet",
+      "delta": -4
+    },
+    {
+      "item": "Muck Bonnet",
+      "delta": -3
+    },
+    {
+      "item": "Reeking Puffball ",
+      "delta": -3
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
     }
   ],
+  "startedAt": "2026-08-22T15:39:53.829909+00:00",
   "missions": [
     {
       "startedAt": "2026-08-22T15:40:01.017000+00:00",
@@ -266,36 +287,15 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
+  "equipmentRemoved": [
     {
-      "item": "Blister Stalk",
-      "delta": -5
-    },
-    {
-      "item": "Nonono",
-      "delta": -5
-    },
-    {
-      "item": "Gamma Berry",
-      "delta": -4
-    },
-    {
-      "item": "Vomval Trumpet",
-      "delta": -4
-    },
-    {
-      "item": "Muck Bonnet",
-      "delta": -3
-    },
-    {
-      "item": "Reeking Puffball ",
-      "delta": -3
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
+      "at": "2026-08-22T16:42:15.853642+00:00",
+      "item": "Protea"
     }
   ],
+  "errorEventCount": 5,
+  "stoppedAt": "2026-08-22T16:44:22.097682+00:00",
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
