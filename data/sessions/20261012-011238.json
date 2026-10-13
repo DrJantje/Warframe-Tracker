@@ -1,8 +1,18 @@
 {
-  "missionCount": 3,
-  "equipmentAdded": [],
+  "stoppedAt": "2026-10-12T01:43:50.509115+00:00",
   "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
+  "configurationChanges": [],
+  "equipmentAdded": [],
+  "negativeItemDeltas": [
+    {
+      "item": "Steel Essence",
+      "delta": -170
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": -95
+    }
+  ],
   "missions": [
     {
       "startedAt": "2026-10-12T01:12:43.568000+00:00",
@@ -42,13 +52,6 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 5,
-  "stoppedAt": "2026-10-12T01:43:50.509115+00:00",
-  "configurationChanges": [],
-  "equipmentRemoved": [],
-  "durationSeconds": 1872.114,
-  "startedAt": "2026-10-12T01:12:38.394919+00:00",
-  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -108,16 +111,13 @@
     }
   ],
   "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Steel Essence",
-      "delta": -170
-    },
-    {
-      "item": "Riven Sliver",
-      "delta": -95
-    }
-  ],
+  "missionCount": 3,
+  "startedAt": "2026-10-12T01:12:38.394919+00:00",
+  "schemaVersion": 1,
+  "errorEventCount": 5,
+  "equipmentRemoved": [],
+  "durationSeconds": 1872.114,
+  "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {
       "item": "Lith V11 Intact",
