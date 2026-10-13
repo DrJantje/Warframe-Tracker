@@ -1,0 +1,173 @@
+{
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "missionCount": 6,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [],
+  "missions": [
+    {
+      "startedAt": "2026-10-12T23:24:42.944000+00:00",
+      "endedAt": "2026-10-12T23:24:42.947000+00:00",
+      "durationSeconds": 0.003,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode406_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T23:25:57.649000+00:00",
+      "endedAt": "2026-10-12T23:29:27.605000+00:00",
+      "durationSeconds": 209.956,
+      "type": "CAPTURE",
+      "node": "SolNode406",
+      "label": null,
+      "missionKey": "SolNode406_Hard",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T23:31:03.782000+00:00",
+      "endedAt": "2026-10-12T23:40:43.386000+00:00",
+      "durationSeconds": 579.604,
+      "type": "OPEN WORLD",
+      "node": "PLAINS",
+      "label": null,
+      "missionKey": "SolNode228_Hard",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T23:45:30.508000+00:00",
+      "endedAt": "2026-10-12T23:49:19.080000+00:00",
+      "durationSeconds": 228.572,
+      "type": "CAPTURE",
+      "node": "SolNode406",
+      "label": null,
+      "missionKey": "SolNode406_Hard",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T23:50:45.861000+00:00",
+      "endedAt": "2026-10-12T23:52:41.260000+00:00",
+      "durationSeconds": 115.399,
+      "type": "CAPTURE",
+      "node": "SolNode406",
+      "label": null,
+      "missionKey": "SolNode406_Hard",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T23:53:56.430000+00:00",
+      "endedAt": "2026-10-13T00:19:49.990781+00:00",
+      "durationSeconds": 1553.561,
+      "type": "SURVIVAL",
+      "node": "SolNode711",
+      "label": null,
+      "missionKey": "SolNode711_Hard",
+      "missionInstance": 5,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "stoppedAt": "2026-10-13T00:19:49.990781+00:00",
+  "errorEventCount": 4,
+  "focusCounterAtCaptureEnd": 0,
+  "schemaVersion": 1,
+  "positiveItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": 1816
+    },
+    {
+      "item": "Rubedo",
+      "delta": 150
+    },
+    {
+      "item": "Oxium",
+      "delta": 44
+    },
+    {
+      "item": "Argon Crystal",
+      "delta": 6
+    },
+    {
+      "item": "Control Module",
+      "delta": 6
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": 1
+    },
+    {
+      "item": "T3 Void Projection Citrine Prime ABronze",
+      "delta": 1
+    }
+  ],
+  "configurationChanges": [],
+  "focusEarnedDuringCapture": 0,
+  "durationSeconds": 3312.717,
+  "startedAt": "2026-10-12T23:24:37.273839+00:00",
+  "notableAcquisitions": [
+    {
+      "item": "T3 Void Projection Citrine Prime ABronze",
+      "delta": 1
+    }
+  ],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Ferrite",
+      "delta": 1816
+    },
+    {
+      "item": "Rubedo",
+      "delta": 150
+    },
+    {
+      "item": "Oxium",
+      "delta": 44
+    },
+    {
+      "item": "Argon Crystal",
+      "delta": 6
+    },
+    {
+      "item": "Control Module",
+      "delta": 6
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": 1
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
