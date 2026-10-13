@@ -1,4 +1,9 @@
 {
+  "errorEventCount": 6,
+  "equipmentRemoved": [],
+  "missionCount": 2,
+  "startedAt": "2026-10-09T02:20:02.294415+00:00",
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -89,22 +94,6 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 7448.184,
-  "equipmentRemoved": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Entropic Kuva Item",
-      "delta": -400
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "startedAt": "2026-10-09T02:20:02.294415+00:00",
-  "focusEarnedDuringCapture": 0,
-  "errorEventCount": 6,
-  "missionCount": 2,
   "configurationChanges": [
     {
       "at": "2026-10-09T03:22:34.937120+00:00",
@@ -147,10 +136,8 @@
       "helminthAfter": null
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "durationSeconds": 7448.184,
   "missions": [
     {
       "startedAt": "2026-10-09T02:20:27.329000+00:00",
@@ -178,7 +165,20 @@
       "incomplete": true
     }
   ],
+  "negativeItemDeltas": [
+    {
+      "item": "Entropic Kuva Item",
+      "delta": -400
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
   "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Duelist Bow Blueprint",

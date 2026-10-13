@@ -1,4 +1,9 @@
 {
+  "errorEventCount": 4,
+  "equipmentRemoved": [],
+  "missionCount": 6,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Koumei Helmet",
@@ -13,42 +18,6 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 6390.914,
-  "equipmentRemoved": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -8821
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": -5670
-    },
-    {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
-    }
-  ],
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "focusEarnedDuringCapture": 0,
-  "errorEventCount": 4,
-  "missionCount": 6,
   "configurationChanges": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -71,19 +40,8 @@
       "helminthAfter": null
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
-    }
-  ],
+  "focusEarnedDuringCapture": 0,
+  "durationSeconds": 6390.914,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -159,7 +117,49 @@
       "incomplete": true
     }
   ],
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -8821
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Koumei"
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Higasa"
+    }
+  ],
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "schemaVersion": 1,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
