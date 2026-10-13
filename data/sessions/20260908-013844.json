@@ -1,33 +1,7 @@
 {
-  "missionCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
+  "errorEventCount": 3,
   "durationSeconds": 1458.042,
-  "configurationChanges": [],
-  "focusCounterAtCaptureEnd": 0,
   "focusCounterAtCaptureStart": 0,
-  "positiveItemDeltas": [
-    {
-      "item": "Rubedo",
-      "delta": 1136
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": 764
-    },
-    {
-      "item": "Plastids",
-      "delta": 280
-    },
-    {
-      "item": "Oxium",
-      "delta": 94
-    },
-    {
-      "item": "Nav Coordinate",
-      "delta": 6
-    }
-  ],
   "negativeItemDeltas": [
     {
       "item": "Ren Hypercore",
@@ -35,6 +9,13 @@
     }
   ],
   "startedAt": "2026-09-08T01:38:44.297821+00:00",
+  "focusEarnedDuringCapture": 0,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "configurationChanges": [],
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
+  "equipmentAdded": [],
   "missions": [
     {
       "startedAt": "2026-09-08T01:38:50.939000+00:00",
@@ -86,10 +67,29 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
-  "errorEventCount": 3,
-  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
-  "schemaVersion": 1,
+  "missionCount": 4,
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 1136
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": 764
+    },
+    {
+      "item": "Plastids",
+      "delta": 280
+    },
+    {
+      "item": "Oxium",
+      "delta": 94
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    }
+  ],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
