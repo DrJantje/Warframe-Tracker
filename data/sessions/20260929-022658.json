@@ -1,8 +1,6 @@
 {
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
-  "missionCount": 9,
   "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 52836,
   "negativeItemDeltas": [
     {
       "item": "Luminous Dye",
@@ -128,10 +126,23 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "errorEventCount": 4,
-  "focusCounterAtCaptureEnd": 52836,
-  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentRemoved": [],
   "positiveItemDeltas": [
     {
       "item": "Fish Meat",
@@ -170,24 +181,13 @@
       "delta": 1
     }
   ],
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "schemaVersion": 1,
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
   "focusEarnedDuringCapture": 52836,
   "durationSeconds": 11058.549,
+  "errorEventCount": 4,
+  "equipmentAdded": [],
+  "missionCount": 9,
   "startedAt": "2026-09-29T02:26:58.481588+00:00",
   "notableAcquisitions": [
     {

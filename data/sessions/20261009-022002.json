@@ -1,8 +1,6 @@
 {
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
-  "missionCount": 2,
   "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 0,
   "negativeItemDeltas": [
     {
       "item": "Entropic Kuva Item",
@@ -40,10 +38,49 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
-  "errorEventCount": 6,
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Akmagnus Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Akmagnus Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Azothane",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-09T03:22:34.937120+00:00",
+      "item": "Azothane",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentRemoved": [],
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -134,50 +171,13 @@
       "delta": 1
     }
   ],
-  "configurationChanges": [
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Akmagnus Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Akmagnus Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Azothane",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-09T03:22:34.937120+00:00",
-      "item": "Azothane",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "schemaVersion": 1,
+  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
   "focusEarnedDuringCapture": 0,
   "durationSeconds": 7448.184,
+  "errorEventCount": 6,
+  "equipmentAdded": [],
+  "missionCount": 2,
   "startedAt": "2026-10-09T02:20:02.294415+00:00",
   "notableAcquisitions": [
     {
