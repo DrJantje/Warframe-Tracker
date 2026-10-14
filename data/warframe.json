@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-13",
-    "exportVerifiedAt": "2026-10-13 22:49:08 PDT",
+    "exportVerifiedAt": "2026-10-13 23:46:24 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167956,
-        "modified": "2026-10-13T22:49:07.308187-07:00",
-        "sha256": "a327807eec46dd544fc98b03dedb8760f18db085d420c74fa57353d6b84adf9c"
+        "bytes": 2167955,
+        "modified": "2026-10-13T23:46:23.011621-07:00",
+        "sha256": "622275a31cae27cca33186eb6b42fbc8574e9d73a69e84469d3ac792eecb87e1"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-13T22:49:07.311188-07:00",
+        "modified": "2026-10-13T23:46:23.018766-07:00",
         "sha256": "949ff9b0375bdcab84c19d0d42655179a5abbbdf84630cc98546524e1cd30a3b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-13T22:49:07.309686-07:00",
+        "modified": "2026-10-13T23:46:23.014632-07:00",
         "sha256": "8232d477ff3bd5145caa905f82184b745c18302a880228f4f203796419ce96d5"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-13T22:49:07.310688-07:00",
-        "sha256": "23a1c51d70c65c2a00151febacda5f70617922ea72ae89e31dee323176e14bf0"
+        "modified": "2026-10-13T23:46:23.016239-07:00",
+        "sha256": "2652e47b3dfb242b3fd92ef6e75ead3e335edfd7df4180e9aee2d9cd1a4410bf"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-13T22:49:07.313336-07:00",
+        "modified": "2026-10-13T23:46:23.021804-07:00",
         "sha256": "ca141e4a33f332dd89f4e037e222479592b90c47d3ba780779f48c210b69670b"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Ember Prime",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -78,7 +94,7 @@
       "Lith V11 Intact": 22,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 1,
-      "Meso A12 Intact": 40,
+      "Meso A12 Intact": 39,
       "Meso A9 Intact": 5,
       "Meso D8 Intact": 57,
       "Meso E7 Intact": 11,
@@ -2579,15 +2595,6 @@
     }
   ],
   "owned": [
-    {
-      "item": "Ember Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Ember_Prime"
-    },
     {
       "item": "Vauban Prime",
       "type": "warframe",
@@ -7179,15 +7186,15 @@
     {
       "item": "Ember Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,
