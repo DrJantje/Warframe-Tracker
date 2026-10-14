@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-14T06:46:24.003766+00:00",
+  "generatedAt": "2026-10-14T06:47:36.563028+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-14T06:46:22.817Z",
+  "accountSnapshotAt": "2026-10-14T06:44:50.631Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-14T06:46:22.817Z",
+      "capturedAt": "2026-10-14T06:44:50.631Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-14T06:46:16.072867+00:00",
+    "observedAt": "2026-10-14T06:47:30.392500+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -59,7 +59,7 @@
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "arsenal-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -1610,121 +1610,141 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261013-021707.json",
-    "startedAt": "2026-10-13T02:17:07.697403+00:00",
-    "stoppedAt": "2026-10-13T03:12:27.568729+00:00",
-    "durationSeconds": 3319.871,
-    "missionCount": 4,
+    "file": "20261014-020026.json",
+    "startedAt": "2026-10-14T02:00:26.607888+00:00",
+    "stoppedAt": "2026-10-14T06:47:30.932127+00:00",
+    "durationSeconds": 17224.324,
+    "missionCount": 14,
     "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Entrati Obols",
-        "delta": 15854
+        "item": "Salvage",
+        "delta": 35204
+      },
+      {
+        "item": "Kuva",
+        "delta": 28500
       },
       {
         "item": "Nano Spores",
-        "delta": 2126
+        "delta": 20616
       },
       {
-        "item": "Necracoil",
-        "delta": 292
+        "item": "Alloy Plate",
+        "delta": 4756
       },
       {
-        "item": "Stela",
-        "delta": 134
+        "item": "Circuit Effect",
+        "delta": 2326
       },
       {
-        "item": "Vessel Capillaries",
-        "delta": 25
+        "item": "Ferrite",
+        "delta": 1122
+      },
+      {
+        "item": "Oxium",
+        "delta": 712
+      },
+      {
+        "item": "Plastids",
+        "delta": 348
+      },
+      {
+        "item": "Ignia",
+        "delta": 341
       },
       {
         "item": "Vosfor",
-        "delta": 20
+        "delta": 200
       },
       {
-        "item": "Entrati Lanthorn",
-        "delta": 7
+        "item": "Hexenon",
+        "delta": 198
       },
       {
-        "item": "Mutagen Sample",
-        "delta": 4
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 4
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 2
-      },
-      {
-        "item": "<Shard_blue_simple> Tauforged Azure Archon Shard",
-        "delta": 1
-      },
-      {
-        "item": "<Shard_red_simple> Tauforged Crimson Archon Shard",
-        "delta": 1
+        "item": "Maphica",
+        "delta": 122
       }
     ],
     "notableAcquisitions": [
       {
-        "item": "Meso Y2 Intact",
+        "item": "Blueprint",
+        "delta": 2
+      },
+      {
+        "item": "Harrow Chassis Blueprint",
+        "delta": 2
+      },
+      {
+        "item": "Priest Helmet Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Receiver",
+        "delta": 1
+      },
+      {
+        "item": "Uriel Chassis Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Zariman Ship Avionics Blueprint",
         "delta": 1
       }
     ],
     "resourceGains": [
       {
-        "item": "Entrati Obols",
-        "delta": 15854
+        "item": "Salvage",
+        "delta": 35204
+      },
+      {
+        "item": "Kuva",
+        "delta": 28500
       },
       {
         "item": "Nano Spores",
-        "delta": 2126
+        "delta": 20616
       },
       {
-        "item": "Necracoil",
-        "delta": 292
+        "item": "Alloy Plate",
+        "delta": 4756
       },
       {
-        "item": "Stela",
-        "delta": 134
+        "item": "Circuit Effect",
+        "delta": 2326
       },
       {
-        "item": "Vessel Capillaries",
-        "delta": 25
+        "item": "Ferrite",
+        "delta": 1122
+      },
+      {
+        "item": "Oxium",
+        "delta": 712
+      },
+      {
+        "item": "Plastids",
+        "delta": 348
+      },
+      {
+        "item": "Ignia",
+        "delta": 341
       },
       {
         "item": "Vosfor",
-        "delta": 20
+        "delta": 200
       },
       {
-        "item": "Entrati Lanthorn",
-        "delta": 7
+        "item": "Hexenon",
+        "delta": 198
       },
       {
-        "item": "Mutagen Sample",
-        "delta": 4
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 4
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 2
-      },
-      {
-        "item": "<Shard_blue_simple> Tauforged Azure Archon Shard",
-        "delta": 1
-      },
-      {
-        "item": "<Shard_red_simple> Tauforged Crimson Archon Shard",
-        "delta": 1
+        "item": "Maphica",
+        "delta": 122
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 0,
-    "errorEventCount": 5
+    "configurationChangeCount": 3,
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
