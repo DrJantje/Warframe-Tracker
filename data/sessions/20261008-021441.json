@@ -1,9 +1,5 @@
 {
-  "durationSeconds": 5542.289,
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 5,
-  "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
-  "configurationChanges": [],
+  "startedAt": "2026-10-08T02:14:41.654047+00:00",
   "negativeItemDeltas": [
     {
       "item": "Salvage",
@@ -46,6 +42,10 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 5542.289,
+  "errorEventCount": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "missionCount": 5,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -152,9 +152,11 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 1,
   "equipmentAdded": [],
-  "startedAt": "2026-10-08T02:14:41.654047+00:00",
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-10-08T02:14:48.862000+00:00",
@@ -218,10 +220,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "configurationChanges": [],
+  "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
   "notableAcquisitions": [
     {
       "item": "Harrow Chassis Blueprint",

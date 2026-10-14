@@ -1,40 +1,5 @@
 {
-  "durationSeconds": 19058.296,
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 11,
-  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T21:30:11.540514+00:00",
-      "item": "Koumei",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
+  "startedAt": "2026-08-22T20:08:07.929878+00:00",
   "negativeItemDeltas": [
     {
       "item": "Ferrofungus",
@@ -81,6 +46,10 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 19058.296,
+  "errorEventCount": 7,
+  "focusCounterAtCaptureEnd": 0,
+  "missionCount": 11,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -155,9 +124,11 @@
       "delta": 1
     }
   ],
-  "errorEventCount": 7,
   "equipmentAdded": [],
-  "startedAt": "2026-08-22T20:08:07.929878+00:00",
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-08-22T20:08:13.048000+00:00",
@@ -293,10 +264,39 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T21:30:11.540514+00:00",
+      "item": "Koumei",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "stoppedAt": "2026-08-23T01:25:46.226214+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
