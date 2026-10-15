@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-15T01:38:32.971752+00:00",
+  "generatedAt": "2026-10-15T01:43:18.249255+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,52 +8,52 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-15T01:38:32.175Z",
+  "accountSnapshotAt": "2026-10-15T01:43:17.313Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-15T01:38:32.175Z",
+      "capturedAt": "2026-10-15T01:43:17.313Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-15T01:38:23.029Z",
-    "phase": "mission",
-    "node": "ORDIS NEXT",
-    "planet": "LOCAL AREA",
-    "mission": "LOCATION",
-    "missionKey": "\\/Lotus\\/Types\\/Keys\\/InfestedIntroQuest\\/MissionOne_Key",
+    "observedAt": "2026-10-15T01:42:43.496Z",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
+    "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
@@ -65,7 +65,7 @@
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
-      "name": "Hildryn",
+      "name": "Vauban",
       "slots": {
         "Warframe": {
           "buildRef": "suits-063",
@@ -327,25 +327,59 @@
           ]
         },
         "Melee": {
-          "buildRef": "melee-102",
+          "buildRef": "melee-060",
           "resolutionStatus": "exact-build-ref",
-          "item": "Furax Wraith",
+          "item": "Praedos",
           "category": "Melee",
           "configuration": "A",
-          "formaApplied": 0,
+          "formaApplied": 2,
           "focusLens": "Greater Unairu Lens",
-          "polarities": [],
+          "polarities": [
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 8,
+              "polarity": "AP_TACTIC"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
+            {
+              "name": "Galvanized Elementalist",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Drifting Contact",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Shocking Touch",
+              "rank": 5,
+              "kind": "mod"
+            },
             {
               "name": "Condition Overload",
               "rank": 5,
               "kind": "mod"
             },
             {
-              "name": "Amalgam Furax Body Count",
+              "name": "Berserker Fury",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Blood Rush",
+              "rank": 10,
+              "kind": "mod"
+            },
+            {
+              "name": "Weeping Wounds",
               "rank": 5,
               "kind": "mod"
             },
@@ -355,12 +389,18 @@
               "kind": "mod"
             },
             {
-              "name": "Gaia's Tragedy",
+              "name": "Sovereign Outcast",
               "rank": 3,
               "kind": "mod"
             }
           ],
-          "arcanes": []
+          "arcanes": [
+            {
+              "name": "Melee Influence",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
         },
         "Heavy weapon": {
           "buildRef": "spaceguns-002",
@@ -649,7 +689,7 @@
     },
     "DATAKNIFE": {
       "modeName": "Parazon and Plexus",
-      "name": "Hildryn",
+      "name": "Vauban",
       "slots": {
         "Parazon": {
           "buildRef": "dataknives-001",
@@ -1396,7 +1436,7 @@
     },
     "SENTINEL": {
       "modeName": "Companion",
-      "name": "Hildryn",
+      "name": "Vauban",
       "slots": {
         "Companion": {
           "buildRef": "kubrowpets-006",

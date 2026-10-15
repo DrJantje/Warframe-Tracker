@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-15T01:38:32.971752+00:00
-Account snapshot: 2026-10-15T01:38:32.175Z
+Generated: 2026-10-15T01:43:18.249255+00:00
+Account snapshot: 2026-10-15T01:43:17.313Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
+- Phase: orbiter
+- Location: LOADOUT
+- Planet: unknown
 - Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -17,7 +17,7 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: Vauban
 
 #### Warframe: Vauban Prime — config A
 
@@ -38,12 +38,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Charged Shell (rank 10), Magnetic Strafe (rank 3), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
 - Arcanes: Primary Merciless (rank 5)
 
-#### Melee: Furax Wraith — config A
+#### Melee: Praedos — config A
 
-- Forma: 0
+- Forma: 2
 - Lens: Greater Unairu Lens
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
-- Arcanes: none recorded
+- Mods: Galvanized Elementalist (rank 10), Drifting Contact (rank 3), Shocking Touch (rank 5), Condition Overload (rank 5), Berserker Fury (rank 5), Blood Rush (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Sovereign Outcast (rank 3)
+- Arcanes: Melee Influence (rank 5)
 
 #### Heavy weapon: Mausolon — config A
 
@@ -51,7 +51,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### Companion: Hildryn
+### Companion: Vauban
 
 #### Companion: Panzer Vulpaphyla — config A
 
