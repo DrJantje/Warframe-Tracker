@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-14",
-    "exportVerifiedAt": "2026-10-14 18:18:27 PDT",
+    "exportVerifiedAt": "2026-10-14 18:28:01 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167955,
-        "modified": "2026-10-14T18:18:26.499933-07:00",
-        "sha256": "7da808b7dfdae0062bcb82be095699b25e2ca811cad88bdc12c5903a04216c52"
+        "bytes": 2167975,
+        "modified": "2026-10-14T18:28:00.749205-07:00",
+        "sha256": "148cf9e93f76970eb9029cef5a66c1348ec58bee203bd09632bf74ef8e98e493"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-14T18:18:26.502442-07:00",
+        "modified": "2026-10-14T18:28:00.751218-07:00",
         "sha256": "949ff9b0375bdcab84c19d0d42655179a5abbbdf84630cc98546524e1cd30a3b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-14T18:18:26.500934-07:00",
+        "modified": "2026-10-14T18:28:00.749710-07:00",
         "sha256": "8232d477ff3bd5145caa905f82184b745c18302a880228f4f203796419ce96d5"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-14T18:18:26.501937-07:00",
+        "modified": "2026-10-14T18:28:00.751218-07:00",
         "sha256": "2652e47b3dfb242b3fd92ef6e75ead3e335edfd7df4180e9aee2d9cd1a4410bf"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-14T18:18:26.503952-07:00",
+        "modified": "2026-10-14T18:28:00.752266-07:00",
         "sha256": "ca141e4a33f332dd89f4e037e222479592b90c47d3ba780779f48c210b69670b"
       },
       "rivens.json": {
@@ -46,7 +46,38 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Vauban",
+        "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
+          "No",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Wolf Sledge",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -619,16 +650,16 @@
       "item": "Wolf Sledge",
       "type": "melee",
       "targetRank": "30",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 4 Nitain Extract, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
       "availabilityGroup": "nightwave",
-      "practicalPriority": 525
+      "practicalPriority": 520
     },
     {
       "ease": "5 — Long grind / trade",
@@ -17661,8 +17692,8 @@
     {
       "item": "Vauban",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -18516,14 +18547,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor; Nitain Extract (1/5)",
+      "missing": "Wolf Sledge Blueprint; Wolf Sledge Handle; Wolf Sledge Head; Wolf Sledge Motor",
       "ease": "5 — Long grind / trade",
       "route": "Nightwave Cred Offerings — permanent Wolf Beacon",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 7,
       "source": "https://wiki.warframe.com/w/Wolf_Sledge",
-      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, obtain 4 Nitain Extract, then build.",
+      "steps": "Buy Wolf Beacons from permanent Cred Offerings. Each Wolf kill awards one of the Blueprint, Head, Handle, or Motor at equal 25% odds; collect all four, then build.",
       "tip": "Wolf Beacon is permanent Cred Offering stock. Run beacon shares so each squad member contributes a summon.",
       "primeDetails": [],
       "liveMatches": [],

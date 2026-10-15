@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-15T01:18:27.210445+00:00",
+  "generatedAt": "2026-10-15T01:28:01.435341+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,132 +8,65 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-15T01:18:26.361Z",
+  "accountSnapshotAt": "2026-10-15T01:28:00.623Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-15T01:18:26.361Z",
+      "capturedAt": "2026-10-15T01:28:00.623Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-15T01:17:18.097675+00:00",
-    "phase": "location",
-    "node": "DOJO",
-    "planet": "CLAN",
-    "mission": "HUB",
-    "missionKey": null,
+    "observedAt": "2026-10-15T01:27:51.865Z",
+    "phase": "mission",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
+    "mission": "LOCATION",
+    "missionKey": "SolNode408_Hard",
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "sync-awaiting-snapshot",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "arsenal-active",
+    "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
     "NORMAL": {
       "modeName": "Arsenal",
       "name": "Hildryn",
       "slots": {
-        "Warframe": {
-          "buildRef": "suits-064",
-          "resolutionStatus": "exact-build-ref",
-          "item": "Vauban Prime",
-          "category": "Suits",
-          "configuration": "A",
-          "formaApplied": 0,
-          "focusLens": null,
-          "polarities": [],
-          "modularParts": [],
-          "archonShards": [],
-          "helminthAbility": null,
-          "mods": [
-            {
-              "name": "Primed Redirection",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Umbral Intensify",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Stretch",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Streamline",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Overextended",
-              "rank": 5,
-              "kind": "mod"
-            },
-            {
-              "name": "Archon Continuity",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Blind Rage",
-              "rank": 10,
-              "kind": "mod"
-            },
-            {
-              "name": "Energy Siphon",
-              "rank": 5,
-              "kind": "mod"
-            }
-          ],
-          "arcanes": [
-            {
-              "name": "Arcane Sculptor",
-              "rank": 5,
-              "kind": "arcane"
-            },
-            {
-              "name": "Molt Augmented",
-              "rank": 5,
-              "kind": "arcane"
-            }
-          ]
-        },
         "Melee": {
           "buildRef": "melee-102",
           "resolutionStatus": "exact-build-ref",
@@ -1027,7 +960,7 @@
       "name": "Loadout 1",
       "slots": {
         "Conclave Warframe": {
-          "buildRef": "suits-003",
+          "buildRef": "suits-002",
           "resolutionStatus": "exact-build-ref",
           "item": "Nyx",
           "category": "Suits",
