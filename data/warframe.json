@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-13",
-    "exportVerifiedAt": "2026-10-13 23:47:36 PDT",
+    "snapshotDate": "2026-10-14",
+    "exportVerifiedAt": "2026-10-14 18:02:32 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167955,
-        "modified": "2026-10-13T23:47:35.787593-07:00",
-        "sha256": "622275a31cae27cca33186eb6b42fbc8574e9d73a69e84469d3ac792eecb87e1"
+        "modified": "2026-10-14T18:02:31.897362-07:00",
+        "sha256": "e8677e864d2d43bc06ff8eb23787349dd56cb704450b191362d92f82be4fba2d"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-13T23:47:35.789978-07:00",
+        "modified": "2026-10-14T18:02:31.901887-07:00",
         "sha256": "949ff9b0375bdcab84c19d0d42655179a5abbbdf84630cc98546524e1cd30a3b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62486,
-        "modified": "2026-10-13T23:47:35.788931-07:00",
+        "modified": "2026-10-14T18:02:31.899374-07:00",
         "sha256": "8232d477ff3bd5145caa905f82184b745c18302a880228f4f203796419ce96d5"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-13T23:47:35.789461-07:00",
+        "modified": "2026-10-14T18:02:31.900882-07:00",
         "sha256": "2652e47b3dfb242b3fd92ef6e75ead3e335edfd7df4180e9aee2d9cd1a4410bf"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-13T23:47:35.791248-07:00",
+        "modified": "2026-10-14T18:02:31.904905-07:00",
         "sha256": "ca141e4a33f332dd89f4e037e222479592b90c47d3ba780779f48c210b69670b"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Latron Wraith",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Latron Wraith Barrel; Latron Wraith Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Latron Wraith Blueprint"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -1022,6 +1038,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Latron Wraith",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Latron Wraith Blueprint",
+      "route": "Invasion reward rotation / player trade",
+      "steps": "Watch active Invasions for each missing component or trade for the component.",
+      "tip": "Check both sides of active Invasions before choosing a reward.",
+      "source": "https://wiki.warframe.com/w/Latron_Wraith",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 755
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Strun Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1034,23 +1065,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 755
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Latron Wraith",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Latron Wraith Barrel; Latron Wraith Blueprint",
-      "route": "Invasion reward rotation / player trade",
-      "steps": "Watch active Invasions for each missing component or trade for the component.",
-      "tip": "Check both sides of active Invasions before choosing a reward.",
-      "source": "https://wiki.warframe.com/w/Latron_Wraith",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Latron Wraith Barrel"
-      ],
-      "practicalPriority": 760
     },
     {
       "ease": "5 — Long grind / trade",
@@ -10880,7 +10894,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Latron Wraith Barrel; Latron Wraith Blueprint",
+      "missing": "Latron Wraith Blueprint",
       "ease": "5 — Long grind / trade",
       "route": "Invasion reward rotation / player trade",
       "vaulted": "No",
@@ -10890,9 +10904,7 @@
       "steps": "Watch active Invasions for each missing component or trade for the component.",
       "tip": "Check both sides of active Invasions before choosing a reward.",
       "primeDetails": [],
-      "liveMatches": [
-        "Invasion: Latron Wraith Barrel"
-      ]
+      "liveMatches": []
     },
     {
       "item": "Lavos",
