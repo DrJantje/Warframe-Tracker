@@ -1,5 +1,4 @@
 {
-  "missionCount": 11,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -46,7 +45,12 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-09-24T20:22:51.026239+00:00",
+  "missionCount": 11,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-25T00:45:23.716778+00:00",
+  "durationSeconds": 15752.691,
+  "configurationChanges": [],
   "negativeItemDeltas": [
     {
       "item": "Void Traces",
@@ -57,14 +61,11 @@
       "delta": -3
     }
   ],
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureStart": 0,
   "equipmentAdded": [],
-  "configurationChanges": [],
-  "stoppedAt": "2026-09-25T00:45:23.716778+00:00",
-  "focusEarnedDuringCapture": 0,
   "equipmentRemoved": [],
-  "durationSeconds": 15752.691,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-24T20:22:54.117000+00:00",
@@ -200,8 +201,7 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-09-24T20:22:51.026239+00:00",
-  "errorEventCount": 3,
+  "focusCounterAtCaptureEnd": 0,
   "notableAcquisitions": [
     {
       "item": "Blueprint",

@@ -1,5 +1,4 @@
 {
-  "missionCount": 44,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -30,7 +29,12 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-09-27T19:02:02.811372+00:00",
+  "missionCount": 44,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
+  "durationSeconds": 7384.328,
+  "configurationChanges": [],
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -69,14 +73,11 @@
       "delta": -1
     }
   ],
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
+  "errorEventCount": 6,
+  "focusCounterAtCaptureStart": 0,
   "equipmentAdded": [],
-  "configurationChanges": [],
-  "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
-  "focusEarnedDuringCapture": 0,
   "equipmentRemoved": [],
-  "durationSeconds": 7384.328,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-27T19:02:07.468000+00:00",
@@ -608,8 +609,7 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-09-27T19:02:02.811372+00:00",
-  "errorEventCount": 6,
+  "focusCounterAtCaptureEnd": 0,
   "notableAcquisitions": [
     {
       "item": "Blueprint",

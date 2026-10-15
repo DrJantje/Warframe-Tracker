@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-15T01:37:02.606395+00:00
-Account snapshot: 2026-10-15T01:37:01.638Z
+Generated: 2026-10-15T01:38:32.971752+00:00
+Account snapshot: 2026-10-15T01:38:32.175Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: SPY
-- Planet: unknown
-- Frame observation: Titania (arsenal-active)
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -24,6 +24,19 @@ Use this as the player's current sanitized account and session context. Live obs
 - Forma: 0
 - Mods: Primed Redirection (rank 10), Umbral Intensify (rank 10), Stretch (rank 5), Streamline (rank 5), Overextended (rank 5), Archon Continuity (rank 10), Blind Rage (rank 10), Energy Siphon (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Molt Augmented (rank 5)
+
+#### Secondary: Tenet Cycron — config A
+
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
+
+#### Primary: Coda Bassocyst — config A
+
+- Forma: 5
+- Lens: Greater Unairu Lens
+- Mods: Primed Charged Shell (rank 10), Magnetic Strafe (rank 3), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
+- Arcanes: Primary Merciless (rank 5)
 
 #### Melee: Furax Wraith — config A
 
