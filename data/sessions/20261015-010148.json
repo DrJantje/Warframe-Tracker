@@ -1,0 +1,194 @@
+{
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "schemaVersion": 1,
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentRemoved": [],
+  "negativeItemDeltas": [
+    {
+      "item": "Amir's Shockwave Cred",
+      "delta": -60
+    },
+    {
+      "item": "Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Chassis Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Systems Blueprint",
+      "delta": -1
+    }
+  ],
+  "errorEventCount": 2,
+  "missions": [
+    {
+      "startedAt": "2026-10-15T01:01:54.660000+00:00",
+      "endedAt": "2026-10-15T01:01:54.662000+00:00",
+      "durationSeconds": 0.002,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:14:55.330000+00:00",
+      "endedAt": "2026-10-15T01:14:56.859000+00:00",
+      "durationSeconds": 1.529,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:15:45.420000+00:00",
+      "endedAt": "2026-10-15T01:17:08.431000+00:00",
+      "durationSeconds": 83.011,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "DojoHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:17:14.352000+00:00",
+      "endedAt": "2026-10-15T01:17:14.353000+00:00",
+      "durationSeconds": 0.001,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:19:09.503000+00:00",
+      "endedAt": "2026-10-15T01:24:52.149000+00:00",
+      "durationSeconds": 342.646,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode408_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:24:51.679000+00:00",
+      "endedAt": "2026-10-15T01:29:55.129000+00:00",
+      "durationSeconds": 303.45,
+      "type": "DEFENSE",
+      "node": "SolNode408",
+      "label": null,
+      "missionKey": "SolNode408_Hard",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:29:54.252000+00:00",
+      "endedAt": "2026-10-15T01:37:06.237000+00:00",
+      "durationSeconds": 431.985,
+      "type": "SPY",
+      "node": "\\/Lotus\\/Types\\/Keys\\/InfestedIntroQuest\\/MissionOne_Key",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/InfestedIntroQuest\\/MissionOne_Key",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:39:52.380000+00:00",
+      "endedAt": "2026-10-15T01:42:17.528000+00:00",
+      "durationSeconds": 145.148,
+      "type": "EXTERMINATE",
+      "node": "\\/Lotus\\/Types\\/Keys\\/InfestedIntroQuest\\/MissionTwo_Key",
+      "label": "Seven Sirens (Pluto Proxima) - Axi Void Storm",
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/InfestedIntroQuest\\/MissionTwo_Key",
+      "missionInstance": 3,
+      "voidTier": "VoidT4",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-15T01:45:25.071000+00:00",
+      "endedAt": "2026-10-15T01:49:30.497935+00:00",
+      "durationSeconds": 245.427,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": "Seven Sirens (Pluto Proxima) - Axi Void Storm",
+      "missionKey": "CrewBattleNode527_VoidStorm",
+      "missionInstance": 4,
+      "voidTier": "Axi",
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "focusCounterAtCaptureEnd": 20201,
+  "durationSeconds": 2861.991,
+  "focusEarnedDuringCapture": 20201,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
+  "missionCount": 9,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}

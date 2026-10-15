@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-15T01:50:33.631962+00:00
-Account snapshot: 2026-10-15T01:50:32.682Z
+Generated: 2026-10-15T03:22:18.387880+00:00
+Account snapshot: 2026-10-15T01:25:29.288Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -17,7 +17,7 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Vauban
+### Arsenal: Hildryn
 
 #### Warframe: Vauban Prime — config A
 
@@ -25,25 +25,12 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Redirection (rank 10), Umbral Intensify (rank 10), Stretch (rank 5), Streamline (rank 5), Overextended (rank 5), Archon Continuity (rank 10), Blind Rage (rank 10), Energy Siphon (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Molt Augmented (rank 5)
 
-#### Secondary: Tenet Cycron — config A
+#### Melee: Furax Wraith — config A
 
-- Forma: 5
-- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
-- Arcanes: Cascadia Flare (rank 5)
-
-#### Primary: Coda Bassocyst — config A
-
-- Forma: 5
+- Forma: 0
 - Lens: Greater Unairu Lens
-- Mods: Primed Charged Shell (rank 10), Magnetic Strafe (rank 3), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
-
-#### Melee: Praedos — config A
-
-- Forma: 2
-- Lens: Greater Unairu Lens
-- Mods: Galvanized Elementalist (rank 10), Drifting Contact (rank 3), Shocking Touch (rank 5), Condition Overload (rank 5), Berserker Fury (rank 5), Blood Rush (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Sovereign Outcast (rank 3)
-- Arcanes: Melee Influence (rank 5)
+- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
 
@@ -51,7 +38,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### Companion: Vauban
+### Companion: Hildryn
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -73,11 +60,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-10-14T02:00:26.607888+00:00
-- Duration seconds: 17224.324
-- Missions: 14
-- Focus earned: 0
-- Notable acquisitions: Blueprint (+2), Harrow Chassis Blueprint (+2), Priest Helmet Blueprint (+1), Receiver (+1), Uriel Chassis Blueprint (+1), Zariman Ship Avionics Blueprint (+1)
+- Started: 2026-10-15T01:01:48.506996+00:00
+- Duration seconds: 2861.991
+- Missions: 9
+- Focus earned: 20201
+- Notable acquisitions: none recorded
 
 ## Deeper files
 
