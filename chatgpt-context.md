@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-15T01:28:01.435341+00:00
-Account snapshot: 2026-10-15T01:28:00.623Z
+Generated: 2026-10-15T01:37:02.606395+00:00
+Account snapshot: 2026-10-15T01:37:01.638Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
+- Location: SPY
+- Planet: unknown
 - Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -18,6 +18,12 @@ Use this as the player's current sanitized account and session context. Live obs
 ## Current synchronized loadouts and builds
 
 ### Arsenal: Hildryn
+
+#### Warframe: Vauban Prime — config A
+
+- Forma: 0
+- Mods: Primed Redirection (rank 10), Umbral Intensify (rank 10), Stretch (rank 5), Streamline (rank 5), Overextended (rank 5), Archon Continuity (rank 10), Blind Rage (rank 10), Energy Siphon (rank 5)
+- Arcanes: Arcane Sculptor (rank 5), Molt Augmented (rank 5)
 
 #### Melee: Furax Wraith — config A
 
