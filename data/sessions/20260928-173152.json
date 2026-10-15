@@ -1,10 +1,4 @@
 {
-  "equipmentAdded": [],
-  "missionCount": 10,
-  "focusEarnedDuringCapture": 0,
-  "startedAt": "2026-09-28T17:31:52.789778+00:00",
-  "schemaVersion": 1,
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-28T17:31:57.444000+00:00",
@@ -128,48 +122,11 @@
       "incomplete": true
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Polymer Bundle",
-      "delta": -3000
-    },
-    {
-      "item": "Cipher",
-      "delta": -13
-    },
-    {
-      "item": "Cryptographic Alu",
-      "delta": -8
-    },
-    {
-      "item": "Gallium",
-      "delta": -6
-    },
-    {
-      "item": "Razorback Cipher",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -1
-    },
-    {
-      "item": "Eidolon Unairu Lens",
-      "delta": -1
-    },
-    {
-      "item": "Eidolon Vazarin Lens",
-      "delta": -1
-    },
-    {
-      "item": "Forma",
-      "delta": -1
-    }
-  ],
+  "durationSeconds": 2601.937,
   "errorEventCount": 2,
-  "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
   "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
   "configurationChanges": [
     {
       "at": "2026-09-28T17:43:08.850449+00:00",
@@ -255,6 +212,7 @@
       "helminthAfter": null
     }
   ],
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -337,7 +295,49 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 2601.937,
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-09-28T17:31:52.789778+00:00",
+  "missionCount": 10,
+  "negativeItemDeltas": [
+    {
+      "item": "Polymer Bundle",
+      "delta": -3000
+    },
+    {
+      "item": "Cipher",
+      "delta": -13
+    },
+    {
+      "item": "Cryptographic Alu",
+      "delta": -8
+    },
+    {
+      "item": "Gallium",
+      "delta": -6
+    },
+    {
+      "item": "Razorback Cipher",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -1
+    },
+    {
+      "item": "Eidolon Unairu Lens",
+      "delta": -1
+    },
+    {
+      "item": "Eidolon Vazarin Lens",
+      "delta": -1
+    },
+    {
+      "item": "Forma",
+      "delta": -1
+    }
+  ],
+  "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
+  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
