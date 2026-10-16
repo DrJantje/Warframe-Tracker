@@ -1,16 +1,5 @@
 {
   "missionCount": 7,
-  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
-  "errorEventCount": 11,
-  "focusEarnedDuringCapture": 42488,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
-  "durationSeconds": 8416.543,
   "missions": [
     {
       "startedAt": "2026-09-17T02:12:11.398000+00:00",
@@ -168,9 +157,12 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
+  "equipmentAdded": [],
   "startedAt": "2026-09-17T02:11:52.565728+00:00",
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 42488,
+  "stoppedAt": "2026-09-17T04:32:09.109168+00:00",
+  "durationSeconds": 8416.543,
   "focusCounterAtCaptureEnd": 42488,
   "configurationChanges": [
     {
@@ -218,7 +210,15 @@
       "helminthAfter": null
     }
   ],
+  "errorEventCount": 11,
   "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Meso Y2 Intact",

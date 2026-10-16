@@ -1,24 +1,5 @@
 {
   "missionCount": 9,
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "errorEventCount": 4,
-  "focusEarnedDuringCapture": 52836,
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
-  "durationSeconds": 11058.549,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -168,9 +149,12 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
+  "equipmentAdded": [],
   "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 52836,
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "durationSeconds": 11058.549,
   "focusCounterAtCaptureEnd": 52836,
   "configurationChanges": [
     {
@@ -188,7 +172,23 @@
       "helminthAfter": null
     }
   ],
+  "errorEventCount": 4,
   "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

@@ -1,24 +1,5 @@
 {
   "missionCount": 10,
-  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "errorEventCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Cubic Diodes",
-      "delta": -7000
-    },
-    {
-      "item": "Rubedo",
-      "delta": -6000
-    },
-    {
-      "item": "Forma",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
-  "durationSeconds": 5473.26,
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -152,9 +133,12 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
+  "equipmentAdded": [],
   "startedAt": "2026-09-02T02:12:11.653637+00:00",
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
+  "durationSeconds": 5473.26,
   "focusCounterAtCaptureEnd": 0,
   "configurationChanges": [
     {
@@ -168,10 +152,26 @@
       "helminthAfter": null
     }
   ],
+  "errorEventCount": 4,
   "equipmentRemoved": [
     {
       "at": "2026-09-02T03:05:13.753527+00:00",
       "item": "Octavia"
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Cubic Diodes",
+      "delta": -7000
+    },
+    {
+      "item": "Rubedo",
+      "delta": -6000
+    },
+    {
+      "item": "Forma",
+      "delta": -1
     }
   ],
   "notableAcquisitions": [
