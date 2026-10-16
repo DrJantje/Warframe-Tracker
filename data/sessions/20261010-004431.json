@@ -1,10 +1,13 @@
 {
-  "configurationChanges": [],
-  "equipmentAdded": [],
+  "schemaVersion": 1,
   "durationSeconds": 1114.343,
   "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
+  "errorEventCount": 3,
   "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "startedAt": "2026-10-10T00:44:31.498812+00:00",
+  "missionCount": 4,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -13,16 +16,6 @@
     {
       "item": "Mutagen Sample",
       "delta": 8
-    }
-  ],
-  "negativeItemDeltas": [
-    {
-      "item": "Ayatan Amber Star",
-      "delta": -1
-    },
-    {
-      "item": "Ayatan Cyan Star",
-      "delta": -1
     }
   ],
   "missions": [
@@ -76,12 +69,19 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-10-10T00:44:31.498812+00:00",
-  "missionCount": 4,
-  "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 3,
+  "negativeItemDeltas": [
+    {
+      "item": "Ayatan Amber Star",
+      "delta": -1
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": -1
+    }
+  ],
+  "equipmentRemoved": [],
+  "configurationChanges": [],
   "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

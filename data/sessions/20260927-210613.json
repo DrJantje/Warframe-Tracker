@@ -1,10 +1,13 @@
 {
-  "configurationChanges": [],
-  "equipmentAdded": [],
+  "schemaVersion": 1,
   "durationSeconds": 4404.41,
   "stoppedAt": "2026-09-27T22:19:37.486873+00:00",
+  "errorEventCount": 4,
   "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "startedAt": "2026-09-27T21:06:13.076944+00:00",
+  "missionCount": 26,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -21,48 +24,6 @@
     {
       "item": "Receiver",
       "delta": 1
-    }
-  ],
-  "negativeItemDeltas": [
-    {
-      "item": "Salvage",
-      "delta": -3800
-    },
-    {
-      "item": "Rubedo",
-      "delta": -1250
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -71
-    },
-    {
-      "item": "Neurodes",
-      "delta": -3
-    },
-    {
-      "item": "Blade",
-      "delta": -2
-    },
-    {
-      "item": "Nitain Extract",
-      "delta": -2
-    },
-    {
-      "item": "Carapace",
-      "delta": -1
-    },
-    {
-      "item": "Cerebrum",
-      "delta": -1
-    },
-    {
-      "item": "Handle",
-      "delta": -1
-    },
-    {
-      "item": "Systems",
-      "delta": -1
     }
   ],
   "missions": [
@@ -380,12 +341,51 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-09-27T21:06:13.076944+00:00",
-  "missionCount": 26,
-  "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 4,
+  "negativeItemDeltas": [
+    {
+      "item": "Salvage",
+      "delta": -3800
+    },
+    {
+      "item": "Rubedo",
+      "delta": -1250
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -71
+    },
+    {
+      "item": "Neurodes",
+      "delta": -3
+    },
+    {
+      "item": "Blade",
+      "delta": -2
+    },
+    {
+      "item": "Nitain Extract",
+      "delta": -2
+    },
+    {
+      "item": "Carapace",
+      "delta": -1
+    },
+    {
+      "item": "Cerebrum",
+      "delta": -1
+    },
+    {
+      "item": "Handle",
+      "delta": -1
+    },
+    {
+      "item": "Systems",
+      "delta": -1
+    }
+  ],
+  "equipmentRemoved": [],
+  "configurationChanges": [],
   "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Blueprint",

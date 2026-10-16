@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-15",
-    "exportVerifiedAt": "2026-10-15 19:45:29 PDT",
+    "exportVerifiedAt": "2026-10-15 19:48:47 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167949,
-        "modified": "2026-10-15T19:45:28.724977-07:00",
-        "sha256": "c313801ac5d005a02dc12ffabe971634ef7665f706d6f66f08fc50bfff9af275"
+        "bytes": 2167948,
+        "modified": "2026-10-15T19:48:46.724536-07:00",
+        "sha256": "bfe65999deab38bcecf16732348327f26a17327f13abfee734b5bee590af046e"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-15T19:45:28.727489-07:00",
+        "modified": "2026-10-15T19:48:46.728083-07:00",
         "sha256": "87d18712f63415c8339f69cee1f8b92cd55c16622435e03806fd225e0cdca32b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-15T19:45:28.726484-07:00",
+        "modified": "2026-10-15T19:48:46.726050-07:00",
         "sha256": "9c1f45f2d39741a3f8b4277713b2f40589c3759a1a9664057f803198112e6172"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-15T19:45:28.726484-07:00",
+        "modified": "2026-10-15T19:48:46.727055-07:00",
         "sha256": "7aaeed374427e1eaf3c3557637fbacc1ab32eed0cfaeb77e0581d15bde7d85e1"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-15T19:45:28.729115-07:00",
+        "modified": "2026-10-15T19:48:46.730095-07:00",
         "sha256": "237d0e78ff7480fd43c709a5008cd758b3c0509c9dc46449b2a65bc2f9f4115f"
       },
       "rivens.json": {
@@ -53,12 +53,12 @@
           "No",
           "No",
           "No",
-          "Imperator Vandal Receiver"
+          ""
         ],
         "after": [
           "No",
           "No",
-          "No",
+          "Yes",
           ""
         ]
       }
@@ -2581,9 +2581,9 @@
     {
       "item": "Imperator Vandal",
       "type": "archgun",
-      "state": "Ready to build",
+      "state": "Ready in Foundry",
       "targetRank": "30",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "steps": "Claim from Foundry; equip and level to 30.",
       "tip": "Level this archgun in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Imperator_Vandal"
     }
@@ -9261,21 +9261,21 @@
     {
       "item": "Imperator Vandal",
       "type": "archgun",
-      "state": "Ready to build",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "rankRule": "Claim from Foundry, then level to 30.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Build in Foundry",
+      "route": "Balor Fomorian",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Imperator_Vandal",
-      "steps": "Start crafting in Foundry, then claim and level to 30.",
-      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
+      "steps": "Farm the missing components during Fomorian Sabotage or trade for them.",
+      "tip": "During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.",
       "primeDetails": [],
       "liveMatches": []
     },

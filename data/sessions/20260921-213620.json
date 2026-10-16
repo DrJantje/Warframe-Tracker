@@ -1,10 +1,13 @@
 {
-  "configurationChanges": [],
-  "equipmentAdded": [],
+  "schemaVersion": 1,
   "durationSeconds": 4632.083,
   "stoppedAt": "2026-09-21T22:53:32.359183+00:00",
+  "errorEventCount": 1,
   "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "startedAt": "2026-09-21T21:36:20.276048+00:00",
+  "missionCount": 11,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -105,36 +108,6 @@
     {
       "item": "Rhino Chassis Blueprint",
       "delta": 1
-    }
-  ],
-  "negativeItemDeltas": [
-    {
-      "item": "Circuit Effect",
-      "delta": -148
-    },
-    {
-      "item": "Riven Sliver",
-      "delta": -91
-    },
-    {
-      "item": "Steel Essence",
-      "delta": -75
-    },
-    {
-      "item": "Mytocardia Spore",
-      "delta": -40
-    },
-    {
-      "item": "Gorgaricus Spore",
-      "delta": -20
-    },
-    {
-      "item": "Amir's Shockwave Cred",
-      "delta": -15
-    },
-    {
-      "item": "Argon Crystal",
-      "delta": -2
     }
   ],
   "missions": [
@@ -272,12 +245,39 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-09-21T21:36:20.276048+00:00",
-  "missionCount": 11,
-  "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 1,
+  "negativeItemDeltas": [
+    {
+      "item": "Circuit Effect",
+      "delta": -148
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": -91
+    },
+    {
+      "item": "Steel Essence",
+      "delta": -75
+    },
+    {
+      "item": "Mytocardia Spore",
+      "delta": -40
+    },
+    {
+      "item": "Gorgaricus Spore",
+      "delta": -20
+    },
+    {
+      "item": "Amir's Shockwave Cred",
+      "delta": -15
+    },
+    {
+      "item": "Argon Crystal",
+      "delta": -2
+    }
+  ],
+  "equipmentRemoved": [],
+  "configurationChanges": [],
   "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
