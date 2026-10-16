@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-15",
-    "exportVerifiedAt": "2026-10-15 19:40:06 PDT",
+    "exportVerifiedAt": "2026-10-15 19:45:29 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167949,
-        "modified": "2026-10-15T19:40:05.328395-07:00",
-        "sha256": "7ed8403667c7a6f34526feb557c5e167cd1acd4ddec46f715d6c6c14bc3bd20c"
+        "modified": "2026-10-15T19:45:28.724977-07:00",
+        "sha256": "c313801ac5d005a02dc12ffabe971634ef7665f706d6f66f08fc50bfff9af275"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-15T19:40:05.332574-07:00",
+        "modified": "2026-10-15T19:45:28.727489-07:00",
         "sha256": "87d18712f63415c8339f69cee1f8b92cd55c16622435e03806fd225e0cdca32b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-15T19:40:05.331066-07:00",
+        "modified": "2026-10-15T19:45:28.726484-07:00",
         "sha256": "9c1f45f2d39741a3f8b4277713b2f40589c3759a1a9664057f803198112e6172"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-15T19:40:05.331570-07:00",
+        "modified": "2026-10-15T19:45:28.726484-07:00",
         "sha256": "7aaeed374427e1eaf3c3557637fbacc1ab32eed0cfaeb77e0581d15bde7d85e1"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-15T19:40:05.334303-07:00",
+        "modified": "2026-10-15T19:45:28.729115-07:00",
         "sha256": "237d0e78ff7480fd43c709a5008cd758b3c0509c9dc46449b2a65bc2f9f4115f"
       },
       "rivens.json": {
@@ -53,13 +53,13 @@
           "No",
           "No",
           "No",
-          "Imperator Vandal Barrel; Imperator Vandal Receiver"
+          "Imperator Vandal Receiver"
         ],
         "after": [
           "No",
           "No",
           "No",
-          "Imperator Vandal Receiver"
+          ""
         ]
       }
     ],
@@ -68,7 +68,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 141
+      "missing": 140
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -1035,21 +1035,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 655
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Imperator Vandal",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Imperator Vandal Receiver",
-      "route": "Balor Fomorian",
-      "steps": "Farm the missing components during Fomorian Sabotage or trade for them.",
-      "tip": "During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.",
-      "source": "https://wiki.warframe.com/w/Imperator_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 755
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2592,7 +2577,17 @@
       "practicalPriority": 515
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Imperator Vandal",
+      "type": "archgun",
+      "state": "Ready to build",
+      "targetRank": "30",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "Level this archgun in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Imperator_Vandal"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -9266,21 +9261,21 @@
     {
       "item": "Imperator Vandal",
       "type": "archgun",
-      "state": "Missing",
+      "state": "Ready to build",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Imperator Vandal Receiver",
-      "ease": "5 — Long grind / trade",
-      "route": "Balor Fomorian",
+      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
+      "route": "Build in Foundry",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Imperator_Vandal",
-      "steps": "Farm the missing components during Fomorian Sabotage or trade for them.",
-      "tip": "During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
       "primeDetails": [],
       "liveMatches": []
     },
