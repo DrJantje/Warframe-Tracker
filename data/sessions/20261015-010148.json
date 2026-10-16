@@ -1,5 +1,43 @@
 {
+  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 2,
+  "schemaVersion": 1,
   "missionCount": 9,
+  "equipmentRemoved": [],
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 20201,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "focusEarnedDuringCapture": 20201,
+  "durationSeconds": 2861.991,
+  "equipmentAdded": [],
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -111,44 +149,6 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "equipmentAdded": [],
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 20201,
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "durationSeconds": 2861.991,
-  "focusCounterAtCaptureEnd": 20201,
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "errorEventCount": 2,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",

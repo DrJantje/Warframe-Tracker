@@ -1,5 +1,60 @@
 {
+  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 4,
+  "schemaVersion": 1,
   "missionCount": 6,
+  "equipmentRemoved": [],
+  "configurationChanges": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Prova Vandal",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "focusEarnedDuringCapture": 0,
+  "durationSeconds": 6390.914,
+  "equipmentAdded": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Koumei"
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Higasa"
+    }
+  ],
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -75,61 +130,6 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
-    }
-  ],
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "durationSeconds": 6390.914,
-  "focusCounterAtCaptureEnd": 0,
-  "configurationChanges": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Prova Vandal",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "errorEventCount": 4,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
