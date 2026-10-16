@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-16T03:28:47.682268+00:00
-Account snapshot: 2026-10-16T03:28:46.761Z
+Generated: 2026-10-16T05:15:57.739409+00:00
+Account snapshot: 2026-10-16T03:27:22.281Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -72,11 +72,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 ## Last completed session
 
-- Started: 2026-10-16T01:01:30.631123+00:00
-- Duration seconds: 7102.558
-- Missions: 22
+- Started: 2026-10-16T03:00:42.796892+00:00
+- Duration seconds: 1632.793
+- Missions: 5
 - Focus earned: 0
-- Notable acquisitions: Barrel (+1), Blueprint (+1), Receiver (+1)
+- Notable acquisitions: none recorded
 
 ## Deeper files
 

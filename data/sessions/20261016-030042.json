@@ -1,0 +1,167 @@
+{
+  "focusCounterAtCaptureEnd": 0,
+  "negativeItemDeltas": [],
+  "startedAt": "2026-10-16T03:00:42.796892+00:00",
+  "stoppedAt": "2026-10-16T03:27:55.589488+00:00",
+  "errorEventCount": 1,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "missionCount": 5,
+  "positiveItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": 20012
+    },
+    {
+      "item": "Plastids",
+      "delta": 956
+    },
+    {
+      "item": "Carbides",
+      "delta": 302
+    },
+    {
+      "item": "Cubic Diodes",
+      "delta": 184
+    },
+    {
+      "item": "Road To Tau Event Resource",
+      "delta": 90
+    },
+    {
+      "item": "Oxium",
+      "delta": 22
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 16
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": 8
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 4
+    }
+  ],
+  "missions": [
+    {
+      "startedAt": "2026-10-16T03:00:42.878000+00:00",
+      "endedAt": "2026-10-16T03:00:59.773000+00:00",
+      "durationSeconds": 16.895,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "/Lotus/Types/Keys/TauPrologue/TauPrologueAStage1Lua_Key",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-16T03:00:58.766000+00:00",
+      "endedAt": "2026-10-16T03:09:46.573000+00:00",
+      "durationSeconds": 527.807,
+      "type": "ANY",
+      "node": "SolNode716",
+      "label": null,
+      "missionKey": "\\/Lotus\\/Types\\/Keys\\/TauPrologue\\/TauPrologueAStage1Lua_Key",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-16T03:09:53.110000+00:00",
+      "endedAt": "2026-10-16T03:23:47.842000+00:00",
+      "durationSeconds": 834.732,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": "SolNode153_Alert",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-16T03:23:42.101000+00:00",
+      "endedAt": "2026-10-16T03:27:08.142000+00:00",
+      "durationSeconds": 206.041,
+      "type": "EXTERMINATE",
+      "node": "SolNode153",
+      "label": null,
+      "missionKey": "SolNode153_Alert",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-16T03:27:18.692000+00:00",
+      "endedAt": "2026-10-16T03:27:19.201000+00:00",
+      "durationSeconds": 0.509,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    }
+  ],
+  "durationSeconds": 1632.793,
+  "configurationChanges": [],
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [
+    {
+      "item": "Nano Spores",
+      "delta": 20012
+    },
+    {
+      "item": "Plastids",
+      "delta": 956
+    },
+    {
+      "item": "Carbides",
+      "delta": 302
+    },
+    {
+      "item": "Cubic Diodes",
+      "delta": 184
+    },
+    {
+      "item": "Road To Tau Event Resource",
+      "delta": 90
+    },
+    {
+      "item": "Oxium",
+      "delta": 22
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 16
+    },
+    {
+      "item": "Riven Sliver",
+      "delta": 8
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 4
+    }
+  ],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
