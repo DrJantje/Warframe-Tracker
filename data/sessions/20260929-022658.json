@@ -1,9 +1,6 @@
 {
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 52836,
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "missionCount": 9,
-  "durationSeconds": 11058.549,
+  "errorEventCount": 4,
+  "equipmentRemoved": [],
   "configurationChanges": [
     {
       "at": "2026-09-29T03:27:51.965885+00:00",
@@ -20,7 +17,9 @@
       "helminthAfter": null
     }
   ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
+  "missionCount": 9,
+  "durationSeconds": 11058.549,
   "positiveItemDeltas": [
     {
       "item": "Fish Meat",
@@ -59,23 +58,6 @@
       "delta": 1
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
-  "focusEarnedDuringCapture": 52836,
-  "schemaVersion": 1,
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -187,8 +169,26 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
-  "errorEventCount": 4,
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "focusEarnedDuringCapture": 52836,
+  "focusCounterAtCaptureEnd": 52836,
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
