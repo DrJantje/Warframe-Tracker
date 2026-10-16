@@ -1,5 +1,4 @@
 {
-  "equipmentAdded": [],
   "missions": [
     {
       "startedAt": "2026-10-05T02:19:21.558000+00:00",
@@ -135,6 +134,10 @@
       "incomplete": true
     }
   ],
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": null,
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -225,22 +228,7 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "startedAt": "2026-10-05T02:19:16.904139+00:00",
-  "schemaVersion": 1,
   "durationSeconds": null,
-  "missionCount": 11,
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    },
-    {
-      "item": "Wheelie To The Stars Poster",
-      "delta": -1
-    }
-  ],
   "configurationChanges": [
     {
       "at": "2026-10-05T02:53:28.100082+00:00",
@@ -506,10 +494,22 @@
       "helminthAfter": null
     }
   ],
-  "stoppedAt": null,
+  "startedAt": "2026-10-05T02:19:16.904139+00:00",
+  "missionCount": 11,
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    },
+    {
+      "item": "Wheelie To The Stars Poster",
+      "delta": -1
+    }
+  ],
   "errorEventCount": 5,
   "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 0,
   "notableAcquisitions": [
     {
       "item": "Lith S18 Radiant",
