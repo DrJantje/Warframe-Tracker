@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-14",
-    "exportVerifiedAt": "2026-10-14 20:22:18 PDT",
+    "snapshotDate": "2026-10-15",
+    "exportVerifiedAt": "2026-10-15 18:02:11 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167974,
-        "modified": "2026-10-14T20:22:17.646783-07:00",
-        "sha256": "089078c2da90f1e484becc917b9a5628a8e8cc2e2ac82415c3e7ae421f3f7ff6"
+        "modified": "2026-10-15T18:02:09.854802-07:00",
+        "sha256": "46fd09a76155cf8fd999be3620719df45b7c1edd4b9023264f055f4cea3a4cc9"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-14T20:22:17.652509-07:00",
+        "modified": "2026-10-15T18:02:09.861402-07:00",
         "sha256": "949ff9b0375bdcab84c19d0d42655179a5abbbdf84630cc98546524e1cd30a3b"
       },
       "inventoryMods.json": {
@@ -26,19 +26,19 @@
         "sha256": "e20076e33d3532afa4c7e4e4c1a3eb98c167fe2fd3219405ab90ad7efc8b4427"
       },
       "inventoryParts.json": {
-        "bytes": 62486,
-        "modified": "2026-10-14T20:22:17.647799-07:00",
-        "sha256": "8232d477ff3bd5145caa905f82184b745c18302a880228f4f203796419ce96d5"
+        "bytes": 62488,
+        "modified": "2026-10-15T18:02:09.857817-07:00",
+        "sha256": "9c1f45f2d39741a3f8b4277713b2f40589c3759a1a9664057f803198112e6172"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-14T20:22:17.650993-07:00",
-        "sha256": "2652e47b3dfb242b3fd92ef6e75ead3e335edfd7df4180e9aee2d9cd1a4410bf"
+        "modified": "2026-10-15T18:02:09.859389-07:00",
+        "sha256": "7aaeed374427e1eaf3c3557637fbacc1ab32eed0cfaeb77e0581d15bde7d85e1"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-14T20:22:17.654018-07:00",
-        "sha256": "ca141e4a33f332dd89f4e037e222479592b90c47d3ba780779f48c210b69670b"
+        "modified": "2026-10-15T18:02:09.864884-07:00",
+        "sha256": "237d0e78ff7480fd43c709a5008cd758b3c0509c9dc46449b2a65bc2f9f4115f"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -50,8 +50,23 @@
       {
         "item": "Vauban",
         "before": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ],
+        "after": [
           "No",
           "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vauban Prime",
+        "before": [
+          "Yes",
+          "No",
           "No",
           ""
         ],
@@ -91,7 +106,7 @@
       "Lith Q3 Intact": 0,
       "Lith S18 Intact": 11,
       "Lith T14 Intact": 18,
-      "Lith V11 Intact": 22,
+      "Lith V11 Intact": 23,
       "Lith V11 Radiant": 1,
       "Meso A10 Intact": 1,
       "Meso A12 Intact": 39,
@@ -109,7 +124,7 @@
       "Meso X1 Radiant": 2,
       "Meso Y2 Intact": 41,
       "Neo A16 Intact": 5,
-      "Neo C7 Intact": 28,
+      "Neo C7 Intact": 29,
       "Neo C7 Radiant": 0,
       "Neo C8 Intact": 7,
       "Neo C9 Intact": 18,
@@ -2592,17 +2607,7 @@
       "practicalPriority": 515
     }
   ],
-  "owned": [
-    {
-      "item": "Vauban Prime",
-      "type": "warframe",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
-      "source": "https://wiki.warframe.com/w/Vauban_Prime"
-    }
-  ],
+  "owned": [],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -17677,8 +17682,8 @@
     {
       "item": "Vauban",
       "type": "warframe",
-      "state": "Owned + mastered",
-      "owned": "Yes",
+      "state": "Mastered; not currently owned",
+      "owned": "No",
       "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "Complete",
@@ -17696,15 +17701,15 @@
     {
       "item": "Vauban Prime",
       "type": "warframe",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
-      "route": "Already owned",
+      "ease": "1 — Complete",
+      "route": "Mastery complete",
       "vaulted": "Yes",
       "pendingFoundry": "No",
       "minimumMr": -1,

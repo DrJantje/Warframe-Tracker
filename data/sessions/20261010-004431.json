@@ -1,8 +1,22 @@
 {
-  "startedAt": "2026-10-10T00:44:31.498812+00:00",
-  "schemaVersion": 1,
   "configurationChanges": [],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "schemaVersion": 1,
+  "missionCount": 4,
+  "equipmentAdded": [],
+  "startedAt": "2026-10-10T00:44:31.498812+00:00",
+  "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": 1982
+    },
+    {
+      "item": "Mutagen Sample",
+      "delta": 8
+    }
+  ],
   "negativeItemDeltas": [
     {
       "item": "Ayatan Amber Star",
@@ -13,6 +27,7 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 1114.343,
   "errorEventCount": 3,
   "missions": [
     {
@@ -65,23 +80,8 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
-  "focusCounterAtCaptureEnd": 0,
-  "durationSeconds": 1114.343,
   "focusEarnedDuringCapture": 0,
-  "positiveItemDeltas": [
-    {
-      "item": "Nano Spores",
-      "delta": 1982
-    },
-    {
-      "item": "Mutagen Sample",
-      "delta": 8
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "missionCount": 4,
+  "equipmentRemoved": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

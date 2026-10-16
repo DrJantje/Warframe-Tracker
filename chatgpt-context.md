@@ -1,36 +1,48 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-15T03:22:18.387880+00:00
-Account snapshot: 2026-10-15T01:25:29.288Z
+Generated: 2026-10-16T01:02:10.773421+00:00
+Account snapshot: 2026-10-16T01:02:09.685Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: Seven Sirens (Pluto Proxima) - Axi Void Storm
-- Planet: PROXIMA
-- Frame observation: Titania (location-active)
+- Location: LOCATION
+- Planet: LOCAL AREA
+- Frame observation: Titania (server-sent)
 - Steel Path: no
 - Matchmaking: PUBLIC
-- Focus during current capture: 20201
+- Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: Leveling
 
-#### Warframe: Vauban Prime — config A
-
-- Forma: 0
-- Mods: Primed Redirection (rank 10), Umbral Intensify (rank 10), Stretch (rank 5), Streamline (rank 5), Overextended (rank 5), Archon Continuity (rank 10), Blind Rage (rank 10), Energy Siphon (rank 5)
-- Arcanes: Arcane Sculptor (rank 5), Molt Augmented (rank 5)
-
-#### Melee: Furax Wraith — config A
+#### Warframe: Duelist — config A
 
 - Forma: 0
+- Mods: Continuity (rank 5), Primed Redirection (rank 10), Streamline (rank 5), Stretch (rank 5), Blind Rage (rank 10), Energy Siphon (rank 5)
+- Arcanes: Arcane Energize (rank 5), Molt Augmented (rank 5)
+
+#### Secondary: Tenet Cycron — config A
+
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
+
+#### Primary: Tenet Glaxion — config A
+
+- Forma: 5
+- Mods: Vital Sense (rank 5), Photon Overcharge (rank 5), Critical Delay (rank 5), Thermite Rounds (rank 3), Shivering Contagion (rank 5), Malignant Force (rank 3), Galvanized Aptitude (rank 10), Galvanized Chamber (rank 10), Sinister Reach (rank 3)
+- Arcanes: Primary Debilitate (rank 5)
+
+#### Melee: Praedos — config A
+
+- Forma: 2
 - Lens: Greater Unairu Lens
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
-- Arcanes: none recorded
+- Mods: Galvanized Elementalist (rank 10), Drifting Contact (rank 3), Shocking Touch (rank 5), Condition Overload (rank 5), Berserker Fury (rank 5), Blood Rush (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Sovereign Outcast (rank 3)
+- Arcanes: Melee Influence (rank 5)
 
 #### Heavy weapon: Mausolon — config A
 
@@ -38,7 +50,7 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
 - Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
 
-### Companion: Hildryn
+### Companion: Leveling
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -46,10 +58,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Artax — config A
+#### Companion weapon: Lacerten — config A
 
 - Forma: 0
-- Mods: Sinister Reach (rank 3), Cryo Rounds (rank 5), Serration (rank 10)
+- Mods: Magnetic Rush (rank 3), Pressure Point (rank 5), Primed Reach (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A

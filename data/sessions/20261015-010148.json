@@ -1,6 +1,4 @@
 {
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "schemaVersion": 1,
   "configurationChanges": [
     {
       "at": "2026-10-15T01:25:29.289410+00:00",
@@ -23,7 +21,19 @@
       "helminthAfter": null
     }
   ],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 20201,
+  "schemaVersion": 1,
+  "missionCount": 9,
+  "equipmentAdded": [],
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -46,6 +56,7 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 2861.991,
   "errorEventCount": 2,
   "missions": [
     {
@@ -158,19 +169,8 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "focusCounterAtCaptureEnd": 20201,
-  "durationSeconds": 2861.991,
   "focusEarnedDuringCapture": 20201,
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "missionCount": 9,
+  "equipmentRemoved": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
