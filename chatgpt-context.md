@@ -1,15 +1,15 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-16T01:49:08.552163+00:00
-Account snapshot: 2026-10-16T01:49:07.577Z
+Generated: 2026-10-16T02:06:26.720749+00:00
+Account snapshot: 2026-10-16T02:06:25.614Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
 - Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
+- Location: SABOTAGE
+- Planet: unknown
 - Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
@@ -47,8 +47,8 @@ Use this as the player's current sanitized account and session context. Live obs
 #### Heavy weapon: Mausolon — config A
 
 - Forma: 3
-- Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Venomous Clip (rank 5), Polar Magazine (rank 5), Primed Rubedo-Lined Barrel (rank 8)
-- Arcanes: Primary Merciless (rank 5), Cascadia Flare (rank 5)
+- Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Containment Breach (rank 3), Parallax Scope (rank 3), Primed Rubedo-Lined Barrel (rank 10)
+- Arcanes: Primary Merciless (rank 5), Secondary Enervate (rank 5)
 
 ### Companion: Leveling
 
