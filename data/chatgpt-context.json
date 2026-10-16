@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-16T02:52:05.982508+00:00",
+  "generatedAt": "2026-10-16T02:59:56.239411+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-16T02:52:04.839Z",
+  "accountSnapshotAt": "2026-10-16T02:45:31.769Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-16T02:52:04.839Z",
+      "capturedAt": "2026-10-16T02:45:31.769Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-16T02:52:02.606536+00:00",
+    "observedAt": "2026-10-16T02:59:52.679929+00:00",
     "phase": "location",
     "node": "SANCTUM",
     "planet": "DEIMOS",
@@ -1626,28 +1626,93 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261015-010148.json",
-    "startedAt": "2026-10-15T01:01:48.506996+00:00",
-    "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-    "durationSeconds": 2861.991,
-    "missionCount": 9,
-    "focusEarnedDuringCapture": 20201,
+    "file": "20261016-010130.json",
+    "startedAt": "2026-10-16T01:01:30.631123+00:00",
+    "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
+    "durationSeconds": 7102.558,
+    "missionCount": 22,
+    "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Nitain Extract",
-        "delta": 20
+        "item": "Alloy Plate",
+        "delta": 526
+      },
+      {
+        "item": "Rubedo",
+        "delta": 130
+      },
+      {
+        "item": "Plastids",
+        "delta": 92
+      },
+      {
+        "item": "Fieldron Sample",
+        "delta": 16
+      },
+      {
+        "item": "Morphics",
+        "delta": 2
+      },
+      {
+        "item": "Barrel",
+        "delta": 1
+      },
+      {
+        "item": "Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Orokin Catalyst",
+        "delta": 1
+      },
+      {
+        "item": "Receiver",
+        "delta": 1
       }
     ],
-    "notableAcquisitions": [],
+    "notableAcquisitions": [
+      {
+        "item": "Barrel",
+        "delta": 1
+      },
+      {
+        "item": "Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Receiver",
+        "delta": 1
+      }
+    ],
     "resourceGains": [
       {
-        "item": "Nitain Extract",
-        "delta": 20
+        "item": "Alloy Plate",
+        "delta": 526
+      },
+      {
+        "item": "Rubedo",
+        "delta": 130
+      },
+      {
+        "item": "Plastids",
+        "delta": 92
+      },
+      {
+        "item": "Fieldron Sample",
+        "delta": 16
+      },
+      {
+        "item": "Morphics",
+        "delta": 2
+      },
+      {
+        "item": "Orokin Catalyst",
+        "delta": 1
       }
     ],
     "railjackSalvageCount": 0,
-    "configurationChangeCount": 2,
-    "errorEventCount": 2
+    "configurationChangeCount": 5,
+    "errorEventCount": 14
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

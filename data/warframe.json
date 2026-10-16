@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-15",
-    "exportVerifiedAt": "2026-10-15 19:52:06 PDT",
+    "exportVerifiedAt": "2026-10-15 19:59:56 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167948,
-        "modified": "2026-10-15T19:52:05.013151-07:00",
-        "sha256": "bfe65999deab38bcecf16732348327f26a17327f13abfee734b5bee590af046e"
+        "bytes": 2167949,
+        "modified": "2026-10-15T19:59:55.476718-07:00",
+        "sha256": "c313801ac5d005a02dc12ffabe971634ef7665f706d6f66f08fc50bfff9af275"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-15T19:52:05.017179-07:00",
+        "modified": "2026-10-15T19:59:55.481088-07:00",
         "sha256": "87d18712f63415c8339f69cee1f8b92cd55c16622435e03806fd225e0cdca32b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-15T19:52:05.014661-07:00",
+        "modified": "2026-10-15T19:59:55.478240-07:00",
         "sha256": "9c1f45f2d39741a3f8b4277713b2f40589c3759a1a9664057f803198112e6172"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-15T19:52:05.016175-07:00",
+        "modified": "2026-10-15T19:59:55.479390-07:00",
         "sha256": "7aaeed374427e1eaf3c3557637fbacc1ab32eed0cfaeb77e0581d15bde7d85e1"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-15T19:52:05.018692-07:00",
+        "modified": "2026-10-15T19:59:55.483638-07:00",
         "sha256": "237d0e78ff7480fd43c709a5008cd758b3c0509c9dc46449b2a65bc2f9f4115f"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Imperator Vandal",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -2565,9 +2581,9 @@
     {
       "item": "Imperator Vandal",
       "type": "archgun",
-      "state": "Ready in Foundry",
+      "state": "Ready to build",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
       "tip": "Level this archgun in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Imperator_Vandal"
     }
@@ -9245,21 +9261,21 @@
     {
       "item": "Imperator Vandal",
       "type": "archgun",
-      "state": "Owned / in foundry; rank unknown",
+      "state": "Ready to build",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "All listed blueprints, components and materials are acquired; start crafting.",
       "missing": "",
       "ease": "1 — Now / no farming",
-      "route": "Balor Fomorian",
+      "route": "Build in Foundry",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 5,
       "source": "https://wiki.warframe.com/w/Imperator_Vandal",
-      "steps": "Farm the missing components during Fomorian Sabotage or trade for them.",
-      "tip": "During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.",
+      "steps": "Start crafting in Foundry, then claim and level to 30.",
+      "tip": "All listed blueprints, components and materials are acquired; no additional farming is needed for this recipe.",
       "primeDetails": [],
       "liveMatches": []
     },
