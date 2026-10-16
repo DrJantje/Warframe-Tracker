@@ -1,30 +1,6 @@
 {
+  "focusCounterAtCaptureEnd": 20201,
   "errorEventCount": 2,
-  "equipmentRemoved": [],
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentAdded": [],
-  "missionCount": 9,
   "durationSeconds": 2861.991,
   "positiveItemDeltas": [
     {
@@ -32,6 +8,30 @@
       "delta": 20
     }
   ],
+  "negativeItemDeltas": [
+    {
+      "item": "Amir's Shockwave Cred",
+      "delta": -60
+    },
+    {
+      "item": "Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Chassis Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Systems Blueprint",
+      "delta": -1
+    }
+  ],
+  "equipmentRemoved": [],
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -143,34 +143,34 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "focusEarnedDuringCapture": 20201,
-  "focusCounterAtCaptureEnd": 20201,
-  "focusCounterAtCaptureStart": 0,
-  "negativeItemDeltas": [
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "configurationChanges": [
     {
-      "item": "Amir's Shockwave Cred",
-      "delta": -60
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     },
     {
-      "item": "Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Chassis Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Systems Blueprint",
-      "delta": -1
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 20201,
+  "focusCounterAtCaptureStart": 0,
   "schemaVersion": 1,
+  "missionCount": 9,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

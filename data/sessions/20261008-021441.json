@@ -1,9 +1,6 @@
 {
+  "focusCounterAtCaptureEnd": 0,
   "errorEventCount": 1,
-  "equipmentRemoved": [],
-  "configurationChanges": [],
-  "equipmentAdded": [],
-  "missionCount": 5,
   "durationSeconds": 5542.289,
   "positiveItemDeltas": [
     {
@@ -111,6 +108,50 @@
       "delta": 1
     }
   ],
+  "negativeItemDeltas": [
+    {
+      "item": "Salvage",
+      "delta": -900
+    },
+    {
+      "item": "Polymer Bundle",
+      "delta": -650
+    },
+    {
+      "item": "Rubedo",
+      "delta": -400
+    },
+    {
+      "item": "Void Traces",
+      "delta": -154
+    },
+    {
+      "item": "Cryotic",
+      "delta": -100
+    },
+    {
+      "item": "T2 Void Projection Citrine Prime ABronze",
+      "delta": -3
+    },
+    {
+      "item": "T4 Void Projection Protea Ivara Vault ABronze",
+      "delta": -2
+    },
+    {
+      "item": "Meso E5 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Neurodes",
+      "delta": -1
+    },
+    {
+      "item": "T1 Void Projection Citrine Prime CPlatinum",
+      "delta": -1
+    }
+  ],
+  "equipmentRemoved": [],
+  "startedAt": "2026-10-08T02:14:41.654047+00:00",
   "missions": [
     {
       "startedAt": "2026-10-08T02:14:48.862000+00:00",
@@ -174,54 +215,13 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-10-08T02:14:41.654047+00:00",
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "focusCounterAtCaptureStart": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Salvage",
-      "delta": -900
-    },
-    {
-      "item": "Polymer Bundle",
-      "delta": -650
-    },
-    {
-      "item": "Rubedo",
-      "delta": -400
-    },
-    {
-      "item": "Void Traces",
-      "delta": -154
-    },
-    {
-      "item": "Cryotic",
-      "delta": -100
-    },
-    {
-      "item": "T2 Void Projection Citrine Prime ABronze",
-      "delta": -3
-    },
-    {
-      "item": "T4 Void Projection Protea Ivara Vault ABronze",
-      "delta": -2
-    },
-    {
-      "item": "Meso E5 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Neurodes",
-      "delta": -1
-    },
-    {
-      "item": "T1 Void Projection Citrine Prime CPlatinum",
-      "delta": -1
-    }
-  ],
   "stoppedAt": "2026-10-08T03:47:03.942856+00:00",
+  "configurationChanges": [],
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
   "schemaVersion": 1,
+  "missionCount": 5,
   "notableAcquisitions": [
     {
       "item": "Harrow Chassis Blueprint",
