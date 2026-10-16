@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-15",
-    "exportVerifiedAt": "2026-10-15 19:37:04 PDT",
+    "exportVerifiedAt": "2026-10-15 19:40:06 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167949,
-        "modified": "2026-10-15T19:37:03.289895-07:00",
-        "sha256": "8ab7da5e706840a1904dab53380b39c3745a4410bb34cc5cc45d4c43a4ad1647"
+        "modified": "2026-10-15T19:40:05.328395-07:00",
+        "sha256": "7ed8403667c7a6f34526feb557c5e167cd1acd4ddec46f715d6c6c14bc3bd20c"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-15T19:37:03.292506-07:00",
+        "modified": "2026-10-15T19:40:05.332574-07:00",
         "sha256": "87d18712f63415c8339f69cee1f8b92cd55c16622435e03806fd225e0cdca32b"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-15T19:37:03.290992-07:00",
+        "modified": "2026-10-15T19:40:05.331066-07:00",
         "sha256": "9c1f45f2d39741a3f8b4277713b2f40589c3759a1a9664057f803198112e6172"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-15T19:37:03.291501-07:00",
+        "modified": "2026-10-15T19:40:05.331570-07:00",
         "sha256": "7aaeed374427e1eaf3c3557637fbacc1ab32eed0cfaeb77e0581d15bde7d85e1"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-15T19:37:03.294480-07:00",
+        "modified": "2026-10-15T19:40:05.334303-07:00",
         "sha256": "237d0e78ff7480fd43c709a5008cd758b3c0509c9dc46449b2a65bc2f9f4115f"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Imperator Vandal",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Imperator Vandal Barrel; Imperator Vandal Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Imperator Vandal Receiver"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -1022,6 +1038,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Imperator Vandal",
+      "type": "archgun",
+      "targetRank": "30",
+      "missing": "Imperator Vandal Receiver",
+      "route": "Balor Fomorian",
+      "steps": "Farm the missing components during Fomorian Sabotage or trade for them.",
+      "tip": "During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.",
+      "source": "https://wiki.warframe.com/w/Imperator_Vandal",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 755
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Latron Wraith",
       "type": "primary",
       "targetRank": "30",
@@ -1049,21 +1080,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 755
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Imperator Vandal",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Imperator Vandal Barrel; Imperator Vandal Receiver",
-      "route": "Balor Fomorian",
-      "steps": "Farm the missing components during Fomorian Sabotage or trade for them.",
-      "tip": "During a Balor Fomorian event, collect Omega Isotopes and build Fomorian Disruptors before repeating Fomorian Sabotage.",
-      "source": "https://wiki.warframe.com/w/Imperator_Vandal",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 760
     },
     {
       "ease": "4 — Multi-step farm",
@@ -9256,7 +9272,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Imperator Vandal Barrel; Imperator Vandal Receiver",
+      "missing": "Imperator Vandal Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Balor Fomorian",
       "vaulted": "No",
