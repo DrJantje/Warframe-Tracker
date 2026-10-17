@@ -1,5 +1,37 @@
 {
+  "equipmentRemoved": [],
   "focusCounterAtCaptureEnd": 20201,
+  "schemaVersion": 1,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "equipmentAdded": [],
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -22,18 +54,11 @@
       "delta": -1
     }
   ],
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "errorEventCount": 2,
+  "focusEarnedDuringCapture": 20201,
   "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "missionCount": 9,
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
+  "durationSeconds": 2861.991,
+  "errorEventCount": 2,
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -145,32 +170,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 2861.991,
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentAdded": [],
-  "focusEarnedDuringCapture": 20201,
-  "equipmentRemoved": [],
+  "missionCount": 9,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
