@@ -1,45 +1,4 @@
 {
-  "configurationChanges": [
-    {
-      "at": "2026-10-14T04:59:56.492558+00:00",
-      "item": "Ember Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Redirection",
-        "Streamline",
-        "Stretch",
-        "Vitality",
-        "Intensify",
-        "Pistol Amp",
-        "Arcane Energize",
-        "Arcane Blessing"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-14T04:59:56.492558+00:00",
-      "item": "Ember Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-14T04:59:56.492558+00:00",
-      "item": "Ember Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
   "missions": [
     {
       "startedAt": "2026-10-14T02:00:31.773000+00:00",
@@ -211,6 +170,8 @@
       "incomplete": true
     }
   ],
+  "schemaVersion": 1,
+  "missionCount": 14,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -365,11 +326,12 @@
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureStart": 0,
   "equipmentAdded": [],
   "stoppedAt": "2026-10-14T06:47:30.932127+00:00",
-  "startedAt": "2026-10-14T02:00:26.607888+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "equipmentRemoved": [],
   "negativeItemDeltas": [
     {
       "item": "Polymer Bundle",
@@ -404,11 +366,49 @@
       "delta": -1
     }
   ],
-  "schemaVersion": 1,
-  "errorEventCount": 3,
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 14,
+  "configurationChanges": [
+    {
+      "at": "2026-10-14T04:59:56.492558+00:00",
+      "item": "Ember Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Redirection",
+        "Streamline",
+        "Stretch",
+        "Vitality",
+        "Intensify",
+        "Pistol Amp",
+        "Arcane Energize",
+        "Arcane Blessing"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-14T04:59:56.492558+00:00",
+      "item": "Ember Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-14T04:59:56.492558+00:00",
+      "item": "Ember Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "startedAt": "2026-10-14T02:00:26.607888+00:00",
+  "equipmentRemoved": [],
   "durationSeconds": 17224.324,
   "notableAcquisitions": [
     {

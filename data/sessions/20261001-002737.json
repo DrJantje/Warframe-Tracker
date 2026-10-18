@@ -1,26 +1,4 @@
 {
-  "configurationChanges": [
-    {
-      "at": "2026-10-01T00:40:10.052835+00:00",
-      "item": "Mirage Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-01T00:40:10.052835+00:00",
-      "item": "Mirage Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
   "missions": [
     {
       "startedAt": "2026-10-01T00:28:14.814000+00:00",
@@ -48,17 +26,20 @@
       "incomplete": true
     }
   ],
+  "schemaVersion": 1,
+  "missionCount": 2,
   "positiveItemDeltas": [
     {
       "item": "T1 Void Projection Citrine Prime CBronze",
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "errorEventCount": 1,
+  "focusCounterAtCaptureStart": 0,
   "equipmentAdded": [],
   "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
-  "startedAt": "2026-10-01T00:27:37.397896+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "equipmentRemoved": [],
   "negativeItemDeltas": [
     {
       "item": "Barrel",
@@ -81,11 +62,30 @@
       "delta": -1
     }
   ],
-  "schemaVersion": 1,
-  "errorEventCount": 1,
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 2,
+  "configurationChanges": [
+    {
+      "at": "2026-10-01T00:40:10.052835+00:00",
+      "item": "Mirage Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-01T00:40:10.052835+00:00",
+      "item": "Mirage Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "startedAt": "2026-10-01T00:27:37.397896+00:00",
+  "equipmentRemoved": [],
   "durationSeconds": 794.333,
   "notableAcquisitions": [
     {

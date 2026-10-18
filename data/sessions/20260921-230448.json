@@ -1,16 +1,4 @@
 {
-  "configurationChanges": [
-    {
-      "at": "2026-09-22T00:09:45.126997+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": true,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
   "missions": [
     {
       "startedAt": "2026-09-21T23:04:51.539000+00:00",
@@ -86,6 +74,8 @@
       "incomplete": true
     }
   ],
+  "schemaVersion": 1,
+  "missionCount": 6,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -152,11 +142,12 @@
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureEnd": 37234,
+  "focusEarnedDuringCapture": 37234,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureStart": 0,
   "equipmentAdded": [],
   "stoppedAt": "2026-09-22T00:14:56.864170+00:00",
-  "startedAt": "2026-09-21T23:04:48.469936+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "equipmentRemoved": [],
   "negativeItemDeltas": [
     {
       "item": "Salvage",
@@ -283,11 +274,20 @@
       "delta": -1
     }
   ],
-  "schemaVersion": 1,
-  "errorEventCount": 3,
-  "focusEarnedDuringCapture": 37234,
-  "focusCounterAtCaptureEnd": 37234,
-  "missionCount": 6,
+  "configurationChanges": [
+    {
+      "at": "2026-09-22T00:09:45.126997+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": true,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "startedAt": "2026-09-21T23:04:48.469936+00:00",
+  "equipmentRemoved": [],
   "durationSeconds": 4208.394,
   "notableAcquisitions": [
     {
