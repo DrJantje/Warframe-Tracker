@@ -1,9 +1,39 @@
 {
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 20201,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "focusEarnedDuringCapture": 20201,
+  "focusCounterAtCaptureStart": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
   "equipmentRemoved": [],
-  "durationSeconds": 2861.991,
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "focusCounterAtCaptureEnd": 20201,
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -115,39 +145,10 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 20201,
   "missionCount": 9,
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentAdded": [],
   "errorEventCount": 2,
+  "equipmentAdded": [],
+  "durationSeconds": 2861.991,
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -170,7 +171,6 @@
       "delta": -1
     }
   ],
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

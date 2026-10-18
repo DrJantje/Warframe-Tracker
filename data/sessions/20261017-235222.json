@@ -1,9 +1,18 @@
 {
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
-  "startedAt": "2026-10-17T23:52:22.857868+00:00",
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Orokin Ducats",
+      "delta": 450
+    }
+  ],
   "equipmentRemoved": [],
-  "durationSeconds": 3908.111,
+  "startedAt": "2026-10-17T23:52:22.857868+00:00",
+  "configurationChanges": [],
+  "focusCounterAtCaptureEnd": 0,
+  "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-10-17T23:53:02.972000+00:00",
@@ -31,16 +40,8 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 0,
   "missionCount": 2,
-  "positiveItemDeltas": [
-    {
-      "item": "Orokin Ducats",
-      "delta": 450
-    }
-  ],
-  "configurationChanges": [],
+  "errorEventCount": 3,
   "equipmentAdded": [
     {
       "at": "2026-10-18T00:29:55.058330+00:00",
@@ -55,7 +56,7 @@
       "item": "Vericres"
     }
   ],
-  "errorEventCount": 3,
+  "durationSeconds": 3908.111,
   "negativeItemDeltas": [
     {
       "item": "Blueprint",
@@ -138,7 +139,6 @@
       "delta": -1
     }
   ],
-  "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
