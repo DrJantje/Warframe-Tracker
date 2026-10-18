@@ -1,14 +1,28 @@
 {
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "positiveItemDeltas": [
+  "configurationChanges": [
     {
-      "item": "Nitain Extract",
-      "delta": 20
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "errorEventCount": 2,
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
   "focusEarnedDuringCapture": 20201,
-  "focusCounterAtCaptureEnd": 20201,
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -32,7 +46,6 @@
     }
   ],
   "equipmentAdded": [],
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -144,33 +157,20 @@
       "incomplete": true
     }
   ],
-  "configurationChanges": [
+  "durationSeconds": 2861.991,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 20201,
+  "missionCount": 9,
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "positiveItemDeltas": [
     {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Nitain Extract",
+      "delta": 20
     }
   ],
-  "durationSeconds": 2861.991,
-  "schemaVersion": 1,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "missionCount": 9,
-  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 2,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
