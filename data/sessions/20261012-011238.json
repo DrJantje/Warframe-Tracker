@@ -1,9 +1,54 @@
 {
-  "missionCount": 3,
-  "errorEventCount": 5,
-  "equipmentRemoved": [],
-  "stoppedAt": "2026-10-12T01:43:50.509115+00:00",
   "configurationChanges": [],
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "missions": [
+    {
+      "startedAt": "2026-10-12T01:12:43.568000+00:00",
+      "endedAt": "2026-10-12T01:20:32.369000+00:00",
+      "durationSeconds": 468.801,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IronwakeHUB3_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T01:29:56.285000+00:00",
+      "endedAt": "2026-10-12T01:32:02.379000+00:00",
+      "durationSeconds": 126.094,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode185_EliteAlert",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-12T01:32:01.202000+00:00",
+      "endedAt": "2026-10-12T01:43:50.509115+00:00",
+      "durationSeconds": 709.307,
+      "type": "INTERCEPTION",
+      "node": "SolNode185",
+      "label": null,
+      "missionKey": "SolNode185_EliteAlert",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "durationSeconds": 1872.114,
+  "errorEventCount": 5,
+  "stoppedAt": "2026-10-12T01:43:50.509115+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "missionCount": 3,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Steel Essence",
@@ -14,7 +59,6 @@
       "delta": -95
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -74,50 +118,6 @@
     }
   ],
   "startedAt": "2026-10-12T01:12:38.394919+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "missions": [
-    {
-      "startedAt": "2026-10-12T01:12:43.568000+00:00",
-      "endedAt": "2026-10-12T01:20:32.369000+00:00",
-      "durationSeconds": 468.801,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IronwakeHUB3_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-12T01:29:56.285000+00:00",
-      "endedAt": "2026-10-12T01:32:02.379000+00:00",
-      "durationSeconds": 126.094,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode185_EliteAlert",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-12T01:32:01.202000+00:00",
-      "endedAt": "2026-10-12T01:43:50.509115+00:00",
-      "durationSeconds": 709.307,
-      "type": "INTERCEPTION",
-      "node": "SolNode185",
-      "label": null,
-      "missionKey": "SolNode185_EliteAlert",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "equipmentAdded": [],
-  "durationSeconds": 1872.114,
-  "focusEarnedDuringCapture": 0,
-  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Lith V11 Intact",
