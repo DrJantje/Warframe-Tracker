@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-17",
-    "exportVerifiedAt": "2026-10-17 22:24:25 PDT",
+    "snapshotDate": "2026-10-18",
+    "exportVerifiedAt": "2026-10-18 08:48:21 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167946,
-        "modified": "2026-10-17T22:24:24.018513-07:00",
-        "sha256": "5ffbe4c632a81a383e4c4fa9925232a2924ae7f5b9b51948921cce04b376972d"
+        "bytes": 2167943,
+        "modified": "2026-10-18T08:48:20.428797-07:00",
+        "sha256": "6ef28d5356ddecbdb8eaf0fa4e4b26b9cfa6028662765ff346856d2bf488817f"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-17T22:24:24.024780-07:00",
-        "sha256": "500ec762137613ebaa3701e3b2074cffd9b0d292a201ee4f35bef8b1f98254da"
+        "modified": "2026-10-18T08:48:20.433341-07:00",
+        "sha256": "f52e6d1d9283a823a8563aeb9a3037388ffc4666e397dc27d609e04f9fa7f81d"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-17T22:24:24.021652-07:00",
-        "sha256": "d23b3f5efc082ede1405c541fd423f0da2d6398203d3929963ea013612b93378"
+        "modified": "2026-10-18T08:48:20.429801-07:00",
+        "sha256": "be806f77e0dd511a0bf8d7ac730aa2750385042ae2a4de9aca7b9295010c0ae4"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-17T22:24:24.023223-07:00",
-        "sha256": "1d54b4bfde26e1df326766eb53b913e7e9e2fbb56014a151e1ec7f2be5b388cb"
+        "modified": "2026-10-18T08:48:20.431829-07:00",
+        "sha256": "337b144e3cad5e77ad92bb9811bb5a90a50c12c9d0d9f25ef50d37189b94d30f"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-17T22:24:24.026820-07:00",
-        "sha256": "f6811dab64170eb97b13c083c0b19a8bf7efc92948dd24e3bef4d414301121d5"
+        "modified": "2026-10-18T08:48:20.435855-07:00",
+        "sha256": "750c67afd4cee21f236256b333205dfb7fb975bd0119ad9190456035a7082a35"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -46,7 +46,68 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Mandonel Receiver; Mandonel Stock"
+        ]
+      },
+      {
+        "item": "Prisma Tetra",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Prisma Twin Gremlins",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vericres",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -80,7 +141,7 @@
       "Meso A10 Intact": 1,
       "Meso A12 Intact": 39,
       "Meso A9 Intact": 5,
-      "Meso D8 Intact": 57,
+      "Meso D8 Intact": 56,
       "Meso E7 Intact": 11,
       "Meso K8 Intact": 53,
       "Meso L4 Intact": 6,
@@ -508,6 +569,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Mandonel",
+      "type": "archgun",
+      "targetRank": "30",
+      "missing": "Mandonel Barrel; Mandonel Receiver; Mandonel Stock",
+      "route": "Cavia bounties + Entrati Labs endless missions",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
+      "source": "https://wiki.warframe.com/w/Mandonel",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 515
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Cinta",
       "type": "primary",
       "targetRank": "30",
@@ -546,21 +622,6 @@
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
       "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
       "source": "https://wiki.warframe.com/w/Follie",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 520
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Mandonel",
-      "type": "archgun",
-      "targetRank": "30",
-      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
-      "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
-      "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
-      "source": "https://wiki.warframe.com/w/Mandonel",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2522,33 +2583,6 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this archgun in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Imperator_Vandal"
-    },
-    {
-      "item": "Prisma Tetra",
-      "type": "primary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Prisma_Tetra"
-    },
-    {
-      "item": "Prisma Twin Gremlins",
-      "type": "secondary",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Prisma_Twin_Gremlins"
-    },
-    {
-      "item": "Vericres",
-      "type": "melee",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Vericres"
     }
   ],
   "rank40": [
@@ -11236,14 +11270,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
@@ -13638,14 +13672,14 @@
     {
       "item": "Prisma Tetra",
       "type": "primary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -13660,14 +13694,14 @@
     {
       "item": "Prisma Twin Gremlins",
       "type": "secondary",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18002,14 +18036,14 @@
     {
       "item": "Vericres",
       "type": "melee",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
