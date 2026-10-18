@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T00:32:51.526165+00:00",
+  "generatedAt": "2026-10-18T00:57:33.494687+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-18T00:32:50.497Z",
+  "accountSnapshotAt": "2026-10-18T00:29:55.057Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-18T00:32:50.497Z",
+      "capturedAt": "2026-10-18T00:29:55.057Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-18T00:29:55.058330+00:00",
+    "observedAt": "2026-10-18T00:57:29.442271+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -1748,92 +1748,28 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261016-030042.json",
-    "startedAt": "2026-10-16T03:00:42.796892+00:00",
-    "stoppedAt": "2026-10-16T03:27:55.589488+00:00",
-    "durationSeconds": 1632.793,
-    "missionCount": 5,
+    "file": "20261017-235222.json",
+    "startedAt": "2026-10-17T23:52:22.857868+00:00",
+    "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
+    "durationSeconds": 3908.111,
+    "missionCount": 2,
     "focusEarnedDuringCapture": 0,
     "topGains": [
       {
-        "item": "Nano Spores",
-        "delta": 20012
-      },
-      {
-        "item": "Plastids",
-        "delta": 956
-      },
-      {
-        "item": "Carbides",
-        "delta": 302
-      },
-      {
-        "item": "Cubic Diodes",
-        "delta": 184
-      },
-      {
-        "item": "Road To Tau Event Resource",
-        "delta": 90
-      },
-      {
-        "item": "Oxium",
-        "delta": 22
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 16
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 8
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 4
+        "item": "Orokin Ducats",
+        "delta": 450
       }
     ],
     "notableAcquisitions": [],
     "resourceGains": [
       {
-        "item": "Nano Spores",
-        "delta": 20012
-      },
-      {
-        "item": "Plastids",
-        "delta": 956
-      },
-      {
-        "item": "Carbides",
-        "delta": 302
-      },
-      {
-        "item": "Cubic Diodes",
-        "delta": 184
-      },
-      {
-        "item": "Road To Tau Event Resource",
-        "delta": 90
-      },
-      {
-        "item": "Oxium",
-        "delta": 22
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 16
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 8
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 4
+        "item": "Orokin Ducats",
+        "delta": 450
       }
     ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 1
+    "errorEventCount": 3
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
