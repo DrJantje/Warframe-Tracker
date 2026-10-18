@@ -1,10 +1,23 @@
 {
-  "startedAt": "2026-10-10T00:44:31.498812+00:00",
-  "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "durationSeconds": 1114.343,
-  "focusEarnedDuringCapture": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Ayatan Amber Star",
+      "delta": -1
+    },
+    {
+      "item": "Ayatan Cyan Star",
+      "delta": -1
+    }
+  ],
+  "configurationChanges": [],
   "missionCount": 4,
+  "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
+  "durationSeconds": 1114.343,
+  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureEnd": 0,
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -15,7 +28,8 @@
       "delta": 8
     }
   ],
-  "stoppedAt": "2026-10-10T01:03:05.842114+00:00",
+  "startedAt": "2026-10-10T00:44:31.498812+00:00",
+  "equipmentAdded": [],
   "schemaVersion": 1,
   "missions": [
     {
@@ -68,20 +82,6 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Ayatan Amber Star",
-      "delta": -1
-    },
-    {
-      "item": "Ayatan Cyan Star",
-      "delta": -1
-    }
-  ],
-  "configurationChanges": [],
-  "errorEventCount": 3,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
