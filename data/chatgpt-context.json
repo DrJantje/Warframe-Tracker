@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T18:56:37.564984+00:00",
+  "generatedAt": "2026-10-18T19:19:44.518366+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,59 +8,59 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-18T16:15:19.015Z",
+  "accountSnapshotAt": "2026-10-18T19:19:43.363Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-18T16:15:19.015Z",
+      "capturedAt": "2026-10-18T19:19:43.363Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-18T16:33:47.395514+00:00",
+    "observedAt": "2026-10-18T19:19:28.823Z",
     "phase": "mission",
-    "node": "CORPUS",
-    "planet": "VENUS",
+    "node": "PLAYER SHIP",
+    "planet": "LOCAL AREA",
     "mission": "LOCATION",
-    "missionKey": "SolNode6_ActiveMission",
-    "voidTier": "VoidT3",
+    "missionKey": null,
+    "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
-    "accountSnapshotStatus": "resident-account-observed"
+    "frameConfidence": "server-sent",
+    "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
     "NORMAL": {
@@ -689,21 +689,54 @@
           "arcanes": []
         },
         "Archgun": {
-          "buildRef": "spaceguns-015",
+          "buildRef": "spaceguns-002",
           "resolutionStatus": "exact-build-ref",
-          "item": "Imperator Vandal",
+          "item": "Mausolon",
           "category": "SpaceGuns",
           "configuration": "A",
-          "formaApplied": 0,
+          "formaApplied": 3,
           "focusLens": null,
-          "polarities": [],
+          "polarities": [
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Rubedo-Lined Barrel",
-              "rank": 10,
+              "name": "Automatic Trigger",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Magnetized Cycle",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Hollowed Bullets",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Dual Rounds",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Combustion Rounds",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -717,12 +750,23 @@
               "kind": "mod"
             },
             {
-              "name": "Hollowed Bullets",
-              "rank": 3,
+              "name": "Primed Rubedo-Lined Barrel",
+              "rank": 10,
               "kind": "mod"
             }
           ],
-          "arcanes": []
+          "arcanes": [
+            {
+              "name": "Primary Merciless",
+              "rank": 5,
+              "kind": "arcane"
+            },
+            {
+              "name": "Secondary Enervate",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
         },
         "Archmelee": {
           "buildRef": "spacemelee-004",
@@ -1184,21 +1228,54 @@
           "arcanes": []
         },
         "Archgun": {
-          "buildRef": "spaceguns-015",
+          "buildRef": "spaceguns-002",
           "resolutionStatus": "exact-build-ref",
-          "item": "Imperator Vandal",
+          "item": "Mausolon",
           "category": "SpaceGuns",
           "configuration": "A",
-          "formaApplied": 0,
+          "formaApplied": 3,
           "focusLens": null,
-          "polarities": [],
+          "polarities": [
+            {
+              "slot": 7,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 3,
+              "polarity": "AP_ATTACK"
+            },
+            {
+              "slot": 2,
+              "polarity": "AP_ATTACK"
+            }
+          ],
           "modularParts": [],
           "archonShards": [],
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Primed Rubedo-Lined Barrel",
-              "rank": 10,
+              "name": "Automatic Trigger",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Magnetized Cycle",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Hollowed Bullets",
+              "rank": 3,
+              "kind": "mod"
+            },
+            {
+              "name": "Dual Rounds",
+              "rank": 5,
+              "kind": "mod"
+            },
+            {
+              "name": "Combustion Rounds",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -1212,12 +1289,23 @@
               "kind": "mod"
             },
             {
-              "name": "Hollowed Bullets",
-              "rank": 3,
+              "name": "Primed Rubedo-Lined Barrel",
+              "rank": 10,
               "kind": "mod"
             }
           ],
-          "arcanes": []
+          "arcanes": [
+            {
+              "name": "Primary Merciless",
+              "rank": 5,
+              "kind": "arcane"
+            },
+            {
+              "name": "Secondary Enervate",
+              "rank": 5,
+              "kind": "arcane"
+            }
+          ]
         },
         "Exalted weapon": {
           "buildRef": "specialitems-015",

@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-18",
-    "exportVerifiedAt": "2026-10-18 11:56:37 PDT",
+    "exportVerifiedAt": "2026-10-18 12:19:44 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167943,
-        "modified": "2026-10-18T11:56:36.673220-07:00",
-        "sha256": "264b095292f896f37de23d2d9ebae9f549672f77a2002a0b6658baf6d850c790"
+        "bytes": 2168020,
+        "modified": "2026-10-18T12:19:43.518450-07:00",
+        "sha256": "fef38a4c038cb89a9dcdba71f2573b882211967f487928c73aa77fb8fdada5d8"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -16,9 +16,9 @@
         "sha256": "2d7e4308a538e50ca0a5925929364ebb849c135a2baa8ab9557e129ca80f7b22"
       },
       "inventoryMisc.json": {
-        "bytes": 24911,
-        "modified": "2026-10-18T11:56:36.679233-07:00",
-        "sha256": "f52e6d1d9283a823a8563aeb9a3037388ffc4666e397dc27d609e04f9fa7f81d"
+        "bytes": 24913,
+        "modified": "2026-10-18T12:19:43.522542-07:00",
+        "sha256": "106a7047ccb9daa432f838f7a8a249d1351df7c03fc854291a9f0aea3b164a5c"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-18T11:56:36.675219-07:00",
+        "modified": "2026-10-18T12:19:43.520480-07:00",
         "sha256": "be806f77e0dd511a0bf8d7ac730aa2750385042ae2a4de9aca7b9295010c0ae4"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-18T11:56:36.677227-07:00",
-        "sha256": "337b144e3cad5e77ad92bb9811bb5a90a50c12c9d0d9f25ef50d37189b94d30f"
+        "modified": "2026-10-18T12:19:43.520985-07:00",
+        "sha256": "5cc3fe6504dce8fa762d0e60a9f49fa50cdf4c4eb359b1337553f3f9a2d23b48"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-18T11:56:36.681231-07:00",
+        "modified": "2026-10-18T12:19:43.524051-07:00",
         "sha256": "750c67afd4cee21f236256b333205dfb7fb975bd0119ad9190456035a7082a35"
       },
       "rivens.json": {
@@ -46,7 +46,53 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Aksomati Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Aksomati Prime Barrel (0/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Aksomati Prime Barrel (1/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)"
+        ]
+      },
+      {
+        "item": "Imperator Vandal",
+        "before": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "Yes",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Nyx Prime",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Nyx Prime Neuroptics Blueprint"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -55,7 +101,7 @@
       "missing": 137
     },
     "relicInventory": {
-      "Axi D6 Intact": 0,
+      "Axi D6 Intact": 1,
       "Axi S20 Intact": 4,
       "Axi T13 Intact": 1,
       "Lith A12 Intact": 8,
@@ -1194,16 +1240,16 @@
       "item": "Aksomati Prime",
       "type": "secondary",
       "targetRank": "30",
-      "missing": "Aksomati Prime Barrel (0/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)",
+      "missing": "Aksomati Prime Barrel (1/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)",
       "route": "Prime Resurgence — Varzia relics for Aya",
-      "steps": "Aksomati Prime Barrel ×2 (Uncommon): buy Neo P11 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Link (Rare): buy Axi A23 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Receiver ×2 (Common): buy Lith B12 from Varzia for Aya and open it Intact in a four-player share. Build Aksomati Prime and level it to 30.",
+      "steps": "Aksomati Prime Barrel (Uncommon): buy Neo P11 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Link (Rare): buy Axi A23 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Receiver ×2 (Common): buy Lith B12 from Varzia for Aya and open it Intact in a four-player share. Build Aksomati Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://wiki.warframe.com/w/Aksomati_Prime",
       "vaulted": "Yes",
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
         {
-          "part": "Aksomati Prime Barrel (0/2)",
+          "part": "Aksomati Prime Barrel (1/2)",
           "relic": "Neo P11",
           "rarity": "Uncommon",
           "ownedRelics": 0,
@@ -2015,22 +2061,14 @@
       "item": "Nyx Prime",
       "type": "warframe",
       "targetRank": "30",
-      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint",
+      "missing": "Nyx Prime Neuroptics Blueprint",
       "route": "Permanent Railjack relic pools",
-      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "steps": "Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "source": "https://www.warframe.com/droptables",
       "vaulted": "No",
       "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [
-        {
-          "part": "Nyx Prime Chassis Blueprint",
-          "relic": "Axi S8",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Radiant"
-        },
         {
           "part": "Nyx Prime Neuroptics Blueprint",
           "relic": "Meso N11",
@@ -2041,7 +2079,7 @@
         }
       ],
       "liveMatches": [],
-      "practicalPriority": 410
+      "practicalPriority": 405
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2513,17 +2551,7 @@
       "practicalPriority": 515
     }
   ],
-  "owned": [
-    {
-      "item": "Imperator Vandal",
-      "type": "archgun",
-      "state": "Rank unknown — verify in Arsenal",
-      "targetRank": "30",
-      "steps": "Check Arsenal and level to 30 if needed.",
-      "tip": "Level this archgun in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
-      "source": "https://wiki.warframe.com/w/Imperator_Vandal"
-    }
-  ],
+  "owned": [],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -3283,7 +3311,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Aksomati Prime Barrel (0/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)",
+      "missing": "Aksomati Prime Barrel (1/2); Aksomati Prime Link; Aksomati Prime Receiver (0/2)",
       "ease": "5 — Long grind / trade",
       "route": "Prime Resurgence — Varzia relics for Aya",
       "vaulted": "Yes",
@@ -3293,7 +3321,7 @@
       "primeStatus": "RESURGENCE ACTIVE",
       "primeDetails": [
         {
-          "part": "Aksomati Prime Barrel (0/2)",
+          "part": "Aksomati Prime Barrel (1/2)",
           "relic": "Neo P11",
           "rarity": "Uncommon",
           "ownedRelics": 0,
@@ -3320,7 +3348,7 @@
       "liveMatches": [
         "Prime Resurgence"
       ],
-      "steps": "Aksomati Prime Barrel ×2 (Uncommon): buy Neo P11 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Link (Rare): buy Axi A23 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Receiver ×2 (Common): buy Lith B12 from Varzia for Aya and open it Intact in a four-player share. Build Aksomati Prime and level it to 30.",
+      "steps": "Aksomati Prime Barrel (Uncommon): buy Neo P11 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Link (Rare): buy Axi A23 from Varzia for Aya and open it Radiant in a four-player share. Aksomati Prime Receiver ×2 (Common): buy Lith B12 from Varzia for Aya and open it Intact in a four-player share. Build Aksomati Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful."
     },
     {
@@ -9197,14 +9225,14 @@
     {
       "item": "Imperator Vandal",
       "type": "archgun",
-      "state": "Owned; rank unknown",
+      "state": "Owned + mastered",
       "owned": "Yes",
-      "mastered": "No",
+      "mastered": "Yes",
       "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "rankRule": "",
       "missing": "",
-      "ease": "1 — Now / no farming",
+      "ease": "1 — Complete",
       "route": "Balor Fomorian",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -12227,7 +12255,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Nyx Prime Chassis Blueprint; Nyx Prime Neuroptics Blueprint",
+      "missing": "Nyx Prime Neuroptics Blueprint",
       "ease": "4 — Multi-step farm",
       "route": "Permanent Railjack relic pools",
       "vaulted": "No",
@@ -12237,14 +12265,6 @@
       "primeStatus": "PERMANENT SPECIAL RELICS",
       "primeDetails": [
         {
-          "part": "Nyx Prime Chassis Blueprint",
-          "relic": "Axi S8",
-          "rarity": "Uncommon",
-          "ownedRelics": 0,
-          "relicSource": "Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards",
-          "refinement": "Radiant"
-        },
-        {
           "part": "Nyx Prime Neuroptics Blueprint",
           "relic": "Meso N11",
           "rarity": "Rare",
@@ -12253,7 +12273,7 @@
           "refinement": "Radiant"
         }
       ],
-      "steps": "Nyx Prime Chassis Blueprint (Uncommon): farm Axi S8 from Pluto and Veil Corpus Proxima abandoned-derelict cache B rewards, then open it Radiant in a four-player share. Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
+      "steps": "Nyx Prime Neuroptics Blueprint (Rare): farm Meso N11 from Corpus Railjack abandoned-derelict cache B and Grineer point-of-interest rewards, then open it Radiant in a four-player share. Build Nyx Prime and level it to 30.",
       "tip": "Keep Common rewards Intact. Use Radiant shares for Uncommon and Rare rewards; Flawless is only a trace-saving compromise when relic supply is plentiful.",
       "liveMatches": []
     },
