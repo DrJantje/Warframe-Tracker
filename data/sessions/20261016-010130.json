@@ -1,4 +1,7 @@
 {
+  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-10-16T01:01:30.631123+00:00",
+  "schemaVersion": 1,
   "configurationChanges": [
     {
       "at": "2026-10-16T02:05:44.593130+00:00",
@@ -63,8 +66,27 @@
       "helminthAfter": null
     }
   ],
+  "negativeItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": -31500
+    },
+    {
+      "item": "Cryotic",
+      "delta": -2700
+    },
+    {
+      "item": "Omega Isotope",
+      "delta": -36
+    },
+    {
+      "item": "Fomorian Disruptor",
+      "delta": -8
+    }
+  ],
   "equipmentRemoved": [],
-  "equipmentAdded": [],
+  "errorEventCount": 14,
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-10-16T01:01:36.264000+00:00",
@@ -331,32 +353,8 @@
       "steelPath": false
     }
   ],
-  "durationSeconds": 7102.558,
-  "errorEventCount": 14,
-  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
   "missionCount": 22,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Nano Spores",
-      "delta": -31500
-    },
-    {
-      "item": "Cryotic",
-      "delta": -2700
-    },
-    {
-      "item": "Omega Isotope",
-      "delta": -36
-    },
-    {
-      "item": "Fomorian Disruptor",
-      "delta": -8
-    }
-  ],
+  "durationSeconds": 7102.558,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -395,7 +393,9 @@
       "delta": 1
     }
   ],
-  "startedAt": "2026-10-16T01:01:30.631123+00:00",
+  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
+  "equipmentAdded": [],
+  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [
     {
       "item": "Barrel",
