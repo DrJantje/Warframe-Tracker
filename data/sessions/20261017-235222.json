@@ -1,40 +1,14 @@
 {
+  "startedAt": "2026-10-17T23:52:22.857868+00:00",
+  "missionCount": 2,
+  "configurationChanges": [],
   "positiveItemDeltas": [
     {
       "item": "Orokin Ducats",
       "delta": 450
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 3908.111,
-  "missions": [
-    {
-      "startedAt": "2026-10-17T23:53:02.972000+00:00",
-      "endedAt": "2026-10-17T23:56:40.761000+00:00",
-      "durationSeconds": 217.789,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "PlutoHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-17T23:56:47.222000+00:00",
-      "endedAt": "2026-10-18T00:57:30.968399+00:00",
-      "durationSeconds": 3643.746,
-      "type": "RAILJACK",
-      "node": "RAILJACK",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
   "negativeItemDeltas": [
     {
       "item": "Blueprint",
@@ -117,6 +91,8 @@
       "delta": -1
     }
   ],
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
   "equipmentAdded": [
     {
       "at": "2026-10-18T00:29:55.058330+00:00",
@@ -131,13 +107,37 @@
       "item": "Vericres"
     }
   ],
-  "configurationChanges": [],
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
   "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
-  "startedAt": "2026-10-17T23:52:22.857868+00:00",
-  "missionCount": 2,
+  "focusCounterAtCaptureStart": 0,
+  "missions": [
+    {
+      "startedAt": "2026-10-17T23:53:02.972000+00:00",
+      "endedAt": "2026-10-17T23:56:40.761000+00:00",
+      "durationSeconds": 217.789,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "PlutoHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-17T23:56:47.222000+00:00",
+      "endedAt": "2026-10-18T00:57:30.968399+00:00",
+      "durationSeconds": 3643.746,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "durationSeconds": 3908.111,
+  "focusEarnedDuringCapture": 0,
   "errorEventCount": 3,
   "notableAcquisitions": [],
   "railjackSalvage": [],

@@ -1,4 +1,70 @@
 {
+  "startedAt": "2026-10-16T01:01:30.631123+00:00",
+  "missionCount": 22,
+  "configurationChanges": [
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Mausolon",
+      "configuration": "A",
+      "added": [
+        "Containment Breach",
+        "Parallax Scope",
+        "Secondary Enervate"
+      ],
+      "removed": [
+        "Venomous Clip",
+        "Polar Magazine",
+        "Cascadia Flare"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Mausolon",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Mausolon",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Arquebex",
+      "configuration": "SP Orphix",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:45:31.770341+00:00",
+      "item": "Tenet Glaxion",
+      "configuration": "A",
+      "added": [
+        "High Voltage"
+      ],
+      "removed": [
+        "Thermite Rounds"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -37,8 +103,30 @@
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureEnd": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": -31500
+    },
+    {
+      "item": "Cryotic",
+      "delta": -2700
+    },
+    {
+      "item": "Omega Isotope",
+      "delta": -36
+    },
+    {
+      "item": "Fomorian Disruptor",
+      "delta": -8
+    }
+  ],
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
   "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 7102.558,
   "missions": [
     {
       "startedAt": "2026-10-16T01:01:36.264000+00:00",
@@ -305,96 +393,8 @@
       "steelPath": false
     }
   ],
-  "equipmentRemoved": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Nano Spores",
-      "delta": -31500
-    },
-    {
-      "item": "Cryotic",
-      "delta": -2700
-    },
-    {
-      "item": "Omega Isotope",
-      "delta": -36
-    },
-    {
-      "item": "Fomorian Disruptor",
-      "delta": -8
-    }
-  ],
-  "equipmentAdded": [],
-  "configurationChanges": [
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Mausolon",
-      "configuration": "A",
-      "added": [
-        "Containment Breach",
-        "Parallax Scope",
-        "Secondary Enervate"
-      ],
-      "removed": [
-        "Venomous Clip",
-        "Polar Magazine",
-        "Cascadia Flare"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Mausolon",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Mausolon",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Arquebex",
-      "configuration": "SP Orphix",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:45:31.770341+00:00",
-      "item": "Tenet Glaxion",
-      "configuration": "A",
-      "added": [
-        "High Voltage"
-      ],
-      "removed": [
-        "Thermite Rounds"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 7102.558,
   "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
-  "startedAt": "2026-10-16T01:01:30.631123+00:00",
-  "missionCount": 22,
   "errorEventCount": 14,
   "notableAcquisitions": [
     {
