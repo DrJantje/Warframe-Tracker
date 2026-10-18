@@ -1,37 +1,9 @@
 {
   "schemaVersion": 1,
-  "focusEarnedDuringCapture": 20201,
-  "errorEventCount": 2,
-  "equipmentAdded": [],
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "missionCount": 9,
+  "focusCounterAtCaptureEnd": 20201,
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "equipmentRemoved": [],
+  "durationSeconds": 2861.991,
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -143,6 +115,39 @@
       "incomplete": true
     }
   ],
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 20201,
+  "missionCount": 9,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "equipmentAdded": [],
+  "errorEventCount": 2,
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -165,12 +170,7 @@
       "delta": -1
     }
   ],
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "durationSeconds": 2861.991,
   "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 20201,
-  "equipmentRemoved": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
