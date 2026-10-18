@@ -1,7 +1,10 @@
 {
   "startedAt": "2026-09-27T19:02:02.811372+00:00",
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
+  "durationSeconds": 7384.328,
+  "focusEarnedDuringCapture": 0,
   "missionCount": 44,
-  "configurationChanges": [],
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -32,50 +35,8 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "negativeItemDeltas": [
-    {
-      "item": "Ferrite",
-      "delta": -1500
-    },
-    {
-      "item": "Plastids",
-      "delta": -900
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -65
-    },
-    {
-      "item": "Morphics",
-      "delta": -4
-    },
-    {
-      "item": "Control Module",
-      "delta": -3
-    },
-    {
-      "item": "Receiver",
-      "delta": -3
-    },
-    {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "String",
-      "delta": -1
-    }
-  ],
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
-  "equipmentAdded": [],
   "stoppedAt": "2026-09-27T21:05:07.139851+00:00",
-  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-27T19:02:07.468000+00:00",
@@ -607,8 +568,47 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 7384.328,
-  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -1500
+    },
+    {
+      "item": "Plastids",
+      "delta": -900
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -65
+    },
+    {
+      "item": "Morphics",
+      "delta": -4
+    },
+    {
+      "item": "Control Module",
+      "delta": -3
+    },
+    {
+      "item": "Receiver",
+      "delta": -3
+    },
+    {
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "String",
+      "delta": -1
+    }
+  ],
+  "configurationChanges": [],
   "errorEventCount": 6,
   "notableAcquisitions": [
     {
