@@ -1,4 +1,12 @@
 {
+  "equipmentRemoved": [],
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -21,6 +29,33 @@
       "delta": -1
     }
   ],
+  "durationSeconds": 2861.991,
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "missionCount": 9,
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -132,45 +167,10 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
   "equipmentAdded": [],
-  "durationSeconds": 2861.991,
-  "missionCount": 9,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "schemaVersion": 1,
   "errorEventCount": 2,
-  "focusCounterAtCaptureEnd": 20201,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 20201,
+  "focusCounterAtCaptureEnd": 20201,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
