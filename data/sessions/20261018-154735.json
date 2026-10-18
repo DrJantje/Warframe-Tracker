@@ -1,0 +1,94 @@
+{
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 5,
+  "durationSeconds": 2772.307,
+  "missions": [
+    {
+      "startedAt": "2026-10-18T15:47:41.928000+00:00",
+      "endedAt": "2026-10-18T15:47:41.930000+00:00",
+      "durationSeconds": 0.002,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode153_Alert",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-18T16:07:47.176000+00:00",
+      "endedAt": "2026-10-18T16:14:25.598000+00:00",
+      "durationSeconds": 398.422,
+      "type": "MOBILE DEF",
+      "node": "SolNode153",
+      "label": null,
+      "missionKey": "SolNode153_Alert",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-18T16:16:53.603000+00:00",
+      "endedAt": "2026-10-18T16:20:41.902000+00:00",
+      "durationSeconds": 228.299,
+      "type": "HIVE",
+      "node": "SolNode173",
+      "label": null,
+      "missionKey": "SolNode173_Alert",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-18T16:22:23.026000+00:00",
+      "endedAt": "2026-10-18T16:29:04.552000+00:00",
+      "durationSeconds": 401.526,
+      "type": "SURVIVAL",
+      "node": "SolNode175",
+      "label": null,
+      "missionKey": "SolNode175_Alert",
+      "missionInstance": 3,
+      "voidTier": "VoidT3",
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-18T16:33:43.623000+00:00",
+      "endedAt": "2026-10-18T16:33:48.051721+00:00",
+      "durationSeconds": 4.429,
+      "type": "EXCAVATION",
+      "node": "SolNode6",
+      "label": null,
+      "missionKey": "SolNode6_ActiveMission",
+      "missionInstance": 4,
+      "voidTier": "VoidT3",
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "positiveItemDeltas": [],
+  "negativeItemDeltas": [],
+  "errorEventCount": 3,
+  "configurationChanges": [],
+  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 0,
+  "startedAt": "2026-10-18T15:47:35.744749+00:00",
+  "stoppedAt": "2026-10-18T16:33:48.051721+00:00",
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "notableAcquisitions": [],
+  "railjackSalvage": [],
+  "resourceGains": [],
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "Warframe account and user identifiers",
+      "equipment, mod, Riven, and inventory instance identifiers",
+      "Platinum and premium-currency balances",
+      "raw account responses and memory addresses",
+      "communications, mailbox, trade, and purchase history",
+      "hardware, device, network, and local filesystem information",
+      "game settings and authentication material"
+    ]
+  }
+}
