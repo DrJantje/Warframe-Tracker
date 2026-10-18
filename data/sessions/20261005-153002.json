@@ -1,6 +1,7 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "durationSeconds": 13482.202,
+  "equipmentAdded": [],
+  "errorEventCount": 14,
+  "focusCounterAtCaptureEnd": 0,
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -119,10 +120,8 @@
       "delta": -1
     }
   ],
-  "errorEventCount": 14,
-  "startedAt": "2026-10-05T15:30:02.407948+00:00",
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 19,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
@@ -329,11 +328,6 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
-  "stoppedAt": "2026-10-05T19:14:44.609779+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "missionCount": 19,
   "configurationChanges": [
     {
       "at": "2026-10-05T16:42:37.955017+00:00",
@@ -387,6 +381,7 @@
       "helminthAfter": null
     }
   ],
+  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-10-05T15:30:07.048000+00:00",
@@ -618,6 +613,11 @@
       "incomplete": true
     }
   ],
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-10-05T19:14:44.609779+00:00",
+  "durationSeconds": 13482.202,
+  "schemaVersion": 1,
+  "startedAt": "2026-10-05T15:30:02.407948+00:00",
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

@@ -1,6 +1,12 @@
 {
-  "focusEarnedDuringCapture": 1519,
-  "durationSeconds": 3909.426,
+  "equipmentAdded": [
+    {
+      "at": "2026-10-12T03:18:44.202025+00:00",
+      "item": "Hespar"
+    }
+  ],
+  "errorEventCount": 2,
+  "focusCounterAtCaptureEnd": 1519,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -15,10 +21,8 @@
       "delta": -1
     }
   ],
-  "errorEventCount": 2,
-  "startedAt": "2026-10-12T02:57:27.193707+00:00",
-  "focusCounterAtCaptureEnd": 1519,
-  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "missionCount": 8,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -149,16 +153,6 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
-  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [
-    {
-      "at": "2026-10-12T03:18:44.202025+00:00",
-      "item": "Hespar"
-    }
-  ],
-  "missionCount": 8,
   "configurationChanges": [
     {
       "at": "2026-10-12T03:39:51.150952+00:00",
@@ -181,6 +175,7 @@
       "helminthAfter": null
     }
   ],
+  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-10-12T02:57:30.278000+00:00",
@@ -280,6 +275,11 @@
       "incomplete": true
     }
   ],
+  "focusEarnedDuringCapture": 1519,
+  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
+  "durationSeconds": 3909.426,
+  "schemaVersion": 1,
+  "startedAt": "2026-10-12T02:57:27.193707+00:00",
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
