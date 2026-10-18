@@ -1,53 +1,4 @@
 {
-  "equipmentAdded": [
-    {
-      "at": "2026-10-12T03:18:44.202025+00:00",
-      "item": "Hespar"
-    }
-  ],
-  "focusCounterAtCaptureEnd": 1519,
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 2,
-  "focusEarnedDuringCapture": 1519,
-  "startedAt": "2026-10-12T02:57:27.193707+00:00",
-  "durationSeconds": 3909.426,
-  "equipmentRemoved": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    },
-    {
-      "item": "Meso D8 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Neo C7 Intact",
-      "delta": -1
-    }
-  ],
-  "configurationChanges": [
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
   "missions": [
     {
       "startedAt": "2026-10-12T02:57:30.278000+00:00",
@@ -147,9 +98,7 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
-  "missionCount": 8,
+  "focusCounterAtCaptureEnd": 1519,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -278,6 +227,57 @@
     {
       "item": "Steel Essence",
       "delta": 1
+    }
+  ],
+  "durationSeconds": 3909.426,
+  "startedAt": "2026-10-12T02:57:27.193707+00:00",
+  "focusEarnedDuringCapture": 1519,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    },
+    {
+      "item": "Meso D8 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Neo C7 Intact",
+      "delta": -1
+    }
+  ],
+  "missionCount": 8,
+  "schemaVersion": 1,
+  "errorEventCount": 2,
+  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
+  "equipmentAdded": [
+    {
+      "at": "2026-10-12T03:18:44.202025+00:00",
+      "item": "Hespar"
+    }
+  ],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
   "notableAcquisitions": [
