@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-17T23:57:35.296000Z",
-      "worldStateAt": "2026-10-17T23:56:42Z",
-      "ageSecondsAtCheck": 53
+      "checkedAt": "2026-10-18T00:32:52.046000Z",
+      "worldStateAt": "2026-10-18T00:32:42Z",
+      "ageSecondsAtCheck": 10
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-17T23:57:35.296000Z",
-      "worldStateAt": "2026-10-17T23:56:42Z",
-      "ageSecondsAtCheck": 53
+      "checkedAt": "2026-10-18T00:32:52.046000Z",
+      "worldStateAt": "2026-10-18T00:32:42Z",
+      "ageSecondsAtCheck": 10
     },
     "rewards": [
       "Detonite Injector",
@@ -67,9 +67,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 10525,
+        "count": 11077,
         "requiredRuns": 32000,
-        "completion": 66.4453125,
+        "completion": 67.3078125,
         "completed": false
       },
       {
@@ -111,9 +111,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -17551,
+        "count": -17990,
         "requiredRuns": 44000,
-        "completion": 30.055681818181817,
+        "completion": 29.55681818181818,
         "completed": false
       },
       {
@@ -144,9 +144,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -29237,
+        "count": -29825,
         "requiredRuns": 30000,
-        "completion": 2.543333333333331,
+        "completion": 0.5833333333333357,
         "completed": false
       },
       {
@@ -309,9 +309,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -20213,
+        "count": -25216,
         "requiredRuns": 35000,
-        "completion": 42.248571428571424,
+        "completion": 27.95428571428571,
         "completed": false
       },
       {
@@ -342,9 +342,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -711,
+        "count": -3289,
         "requiredRuns": 41000,
-        "completion": 98.26585365853659,
+        "completion": 91.97804878048781,
         "completed": false
       },
       {
@@ -375,9 +375,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -4276,
+        "count": -9680,
         "requiredRuns": 38000,
-        "completion": 88.74736842105263,
+        "completion": 74.52631578947368,
         "completed": false
       },
       {
@@ -408,13 +408,46 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -55,
+        "count": -177,
         "requiredRuns": 34000,
-        "completion": 99.83823529411765,
+        "completion": 99.47941176470589,
+        "completed": false
+      },
+      {
+        "id": "6ad40f861db9e22a4be11bb4",
+        "activation": "2026-10-18T00:15:01.926000Z",
+        "node": "Psamathe (Neptune)",
+        "nodeKey": "SolNode127",
+        "desc": "Infested Invasion Boss",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 3,
+                "type": "Fieldron",
+                "key": "/Lotus/Types/Items/Research/EnergyComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "3 Fieldron"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": -267,
+        "requiredRuns": 30000,
+        "completion": 99.11,
         "completed": false
       }
     ],
-    "activeCount": 7
+    "activeCount": 8
   },
   "cetusCycle": {
     "status": "verified",
@@ -422,9 +455,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-17T23:57:35.296000Z",
-      "worldStateAt": "2026-10-17T23:56:42Z",
-      "ageSecondsAtCheck": 53
+      "checkedAt": "2026-10-18T00:32:52.046000Z",
+      "worldStateAt": "2026-10-18T00:32:42Z",
+      "ageSecondsAtCheck": 10
     },
     "id": "cetusCycle1792286580000",
     "state": "day",
@@ -437,11 +470,11 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1792281600296",
-      "state": "night",
-      "activation": "2026-10-17T20:00:00.296000Z",
-      "expiry": "2026-10-18T00:00:00.296000Z",
-      "isDay": false
+      "id": "earthCycle1792296000046",
+      "state": "day",
+      "activation": "2026-10-18T00:00:00.046000Z",
+      "expiry": "2026-10-18T04:00:00.046000Z",
+      "isDay": true
     },
     "cetus": {
       "id": "cetusCycle1792286580000",
@@ -454,10 +487,10 @@
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1792282408000",
+      "id": "vallisCycle1792284008000",
       "state": "cold",
-      "activation": "2026-10-17T23:53:00Z",
-      "expiry": "2026-10-18T00:13:28Z",
+      "activation": "2026-10-18T00:20:00Z",
+      "expiry": "2026-10-18T00:40:08Z",
       "isWarm": false
     },
     "cambion": {
@@ -475,7 +508,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-10-17T23:57:35.296765+00:00",
+  "checkedAt": "2026-10-18T00:32:52.046764+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -571,7 +604,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-10-17T23:57:35.296000Z",
+    "checkedAt": "2026-10-18T00:32:52.046000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
       "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",

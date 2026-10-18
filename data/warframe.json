@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-17",
-    "exportVerifiedAt": "2026-10-17 16:57:35 PDT",
+    "exportVerifiedAt": "2026-10-17 17:32:51 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2167948,
-        "modified": "2026-10-17T16:57:33.916922-07:00",
-        "sha256": "481e486fb2a668577ff996629fc079058df11412bcd86bd05fe874ad3b9ac1ab"
+        "bytes": 2167945,
+        "modified": "2026-10-17T17:32:50.715624-07:00",
+        "sha256": "9b08d3dd20333eec99fa6bdf2f5b46f8e2c9b9d9df700568e9ac65da2f4a5f99"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-17T16:57:33.919513-07:00",
+        "modified": "2026-10-17T17:32:50.720744-07:00",
         "sha256": "8c62e7925d461dd15acc0746cab831512432d1bac362d735b9ba411a434370e6"
       },
       "inventoryMods.json": {
@@ -27,18 +27,18 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-17T16:57:33.918437-07:00",
-        "sha256": "9c1f45f2d39741a3f8b4277713b2f40589c3759a1a9664057f803198112e6172"
+        "modified": "2026-10-17T17:32:50.717694-07:00",
+        "sha256": "f64b29404cc164b02707fb1ea7f8c96f59cbf073cfef3b317ebbce4320477d7a"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-17T16:57:33.918997-07:00",
+        "modified": "2026-10-17T17:32:50.719208-07:00",
         "sha256": "1d54b4bfde26e1df326766eb53b913e7e9e2fbb56014a151e1ec7f2be5b388cb"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-17T16:57:33.921051-07:00",
-        "sha256": "237d0e78ff7480fd43c709a5008cd758b3c0509c9dc46449b2a65bc2f9f4115f"
+        "modified": "2026-10-17T17:32:50.722256-07:00",
+        "sha256": "0efc18701aaabadc997a33fad520566ed3362119ccd7c4d5a116af0fcb546393"
       },
       "rivens.json": {
         "bytes": 88391,
@@ -48,12 +48,42 @@
     },
     "importChanges": [
       {
-        "item": "Imperator Vandal",
+        "item": "Prisma Tetra",
         "before": [
           "No",
           "No",
+          "No",
+          "Prisma Tetra (completed item)"
+        ],
+        "after": [
           "Yes",
+          "No",
+          "No",
           ""
+        ]
+      },
+      {
+        "item": "Prisma Twin Gremlins",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Prisma Twin Gremlins (completed item)"
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      },
+      {
+        "item": "Vericres",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Vericres (completed item)"
         ],
         "after": [
           "Yes",
@@ -68,7 +98,7 @@
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 140
+      "missing": 137
     },
     "relicInventory": {
       "Axi D6 Intact": 0,
@@ -398,38 +428,6 @@
     },
     {
       "ease": "4 — Multi-step farm",
-      "item": "Prisma Tetra",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Prisma Tetra (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Tetra",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Prisma Twin Gremlins",
-      "type": "secondary",
-      "targetRank": "30",
-      "missing": "Prisma Twin Gremlins (completed item)",
-      "route": "Baro Ki’Teer rotating inventory",
-      "steps": "Buy the completed weapon from Baro when it returns, or trade for it.",
-      "tip": "Check Baro’s current relay stock before trading.",
-      "source": "https://wiki.warframe.com/w/Prisma_Twin_Gremlins",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
       "item": "Prisma Veritux",
       "type": "archmelee",
       "targetRank": "30",
@@ -486,22 +484,6 @@
       "steps": "Buy the completed Vastilok when Baro carries it, or trade for an unranked copy.",
       "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
       "source": "https://wiki.warframe.com/w/Vastilok",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "availabilityGroup": "baro",
-      "practicalPriority": 405
-    },
-    {
-      "ease": "4 — Multi-step farm",
-      "item": "Vericres",
-      "type": "melee",
-      "targetRank": "30",
-      "missing": "Vericres (completed item)",
-      "route": "Baro Ki’Teer rotating inventory / player trade",
-      "steps": "Buy the completed Vericres when Baro carries it, or trade for an unranked copy.",
-      "tip": "Check the live Baro inventory before trading; his stock changes every visit.",
-      "source": "https://wiki.warframe.com/w/Vericres",
       "vaulted": "No",
       "primeDetails": [],
       "liveMatches": [],
@@ -2586,6 +2568,33 @@
       "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this archgun in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Imperator_Vandal"
+    },
+    {
+      "item": "Prisma Tetra",
+      "type": "primary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prisma_Tetra"
+    },
+    {
+      "item": "Prisma Twin Gremlins",
+      "type": "secondary",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this secondary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Prisma_Twin_Gremlins"
+    },
+    {
+      "item": "Vericres",
+      "type": "melee",
+      "state": "Rank unknown — verify in Arsenal",
+      "targetRank": "30",
+      "steps": "Check Arsenal and level to 30 if needed.",
+      "tip": "Level this melee in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Vericres"
     }
   ],
   "rank40": [
@@ -13675,14 +13684,14 @@
     {
       "item": "Prisma Tetra",
       "type": "primary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prisma Tetra (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -13697,14 +13706,14 @@
     {
       "item": "Prisma Twin Gremlins",
       "type": "secondary",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Prisma Twin Gremlins (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory",
       "vaulted": "No",
       "pendingFoundry": "No",
@@ -18039,14 +18048,14 @@
     {
       "item": "Vericres",
       "type": "melee",
-      "state": "Missing",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Vericres (completed item)",
-      "ease": "4 — Multi-step farm",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Baro Ki’Teer rotating inventory / player trade",
       "vaulted": "No",
       "pendingFoundry": "No",
