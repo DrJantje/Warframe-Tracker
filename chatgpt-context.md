@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-18T02:58:43.556074+00:00
-Account snapshot: 2026-10-18T02:58:42.559Z
+Generated: 2026-10-18T03:26:15.416006+00:00
+Account snapshot: 2026-10-18T03:26:14.222Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: mission
-- Location: LOCATION
-- Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Phase: location
+- Location: HUB
+- Planet: CLAN
+- Frame observation: Titania (sync-awaiting-snapshot)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
@@ -28,24 +28,22 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
-#### Secondary: Tenet Cycron — config A
-
-- Forma: 5
-- Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
-- Arcanes: Cascadia Flare (rank 5)
-
-#### Primary: Coda Bassocyst — config A
-
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Primed Charged Shell (rank 10), Magnetic Strafe (rank 3), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
-
-#### Melee: Furax Wraith — config A
+#### Secondary: Prisma Twin Gremlins — config A
 
 - Forma: 0
-- Lens: Greater Unairu Lens
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: Hornet Strike (rank 10), Lethal Torrent (rank 5), Barrel Diffusion (rank 5)
+- Arcanes: none recorded
+
+#### Primary: Prisma Tetra — config A
+
+- Forma: 0
+- Mods: Split Chamber (rank 5), Serration (rank 10)
+- Arcanes: none recorded
+
+#### Melee: Vericres — config A
+
+- Forma: 0
+- Mods: Pressure Point (rank 5), Drifting Contact (rank 3), Primed Reach (rank 10), Magnetic Rush (rank 3), Primed Fever Strike (rank 10), Slicing Feathers (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
