@@ -1,6 +1,28 @@
 {
-  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Blueprint",
+      "delta": 6
+    },
+    {
+      "item": "Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Nidus Prime Systems Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Receiver",
+      "delta": 1
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 4,
   "configurationChanges": [],
+  "equipmentAdded": [],
+  "schemaVersion": 1,
+  "stoppedAt": "2026-09-27T22:19:37.486873+00:00",
   "missions": [
     {
       "startedAt": "2026-09-27T21:06:16.718000+00:00",
@@ -316,31 +338,7 @@
       "incomplete": true
     }
   ],
-  "durationSeconds": 4404.41,
-  "positiveItemDeltas": [
-    {
-      "item": "Blueprint",
-      "delta": 6
-    },
-    {
-      "item": "Barrel",
-      "delta": 1
-    },
-    {
-      "item": "Nidus Prime Systems Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Receiver",
-      "delta": 1
-    }
-  ],
-  "stoppedAt": "2026-09-27T22:19:37.486873+00:00",
-  "startedAt": "2026-09-27T21:06:13.076944+00:00",
-  "schemaVersion": 1,
-  "errorEventCount": 4,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
   "negativeItemDeltas": [
     {
       "item": "Salvage",
@@ -383,9 +381,11 @@
       "delta": -1
     }
   ],
-  "equipmentRemoved": [],
+  "startedAt": "2026-09-27T21:06:13.076944+00:00",
   "focusEarnedDuringCapture": 0,
+  "durationSeconds": 4404.41,
   "missionCount": 26,
+  "focusCounterAtCaptureEnd": 0,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
