@@ -1,39 +1,5 @@
 {
-  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
-  "missionCount": 8,
-  "configurationChanges": [
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-12T03:39:51.150952+00:00",
-      "item": "Hespar",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
   "schemaVersion": 1,
-  "durationSeconds": 3909.426,
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [
-    {
-      "at": "2026-10-12T03:18:44.202025+00:00",
-      "item": "Hespar"
-    }
-  ],
-  "errorEventCount": 2,
-  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-10-12T02:57:30.278000+00:00",
@@ -133,6 +99,18 @@
       "incomplete": true
     }
   ],
+  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
+  "equipmentAdded": [
+    {
+      "at": "2026-10-12T03:18:44.202025+00:00",
+      "item": "Hespar"
+    }
+  ],
+  "startedAt": "2026-10-12T02:57:27.193707+00:00",
+  "focusEarnedDuringCapture": 1519,
+  "durationSeconds": 3909.426,
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 1519,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -263,6 +241,31 @@
       "delta": 1
     }
   ],
+  "equipmentRemoved": [],
+  "configurationChanges": [
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-12T03:39:51.150952+00:00",
+      "item": "Hespar",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "errorEventCount": 2,
+  "missionCount": 8,
   "negativeItemDeltas": [
     {
       "item": "Cipher",
@@ -277,9 +280,6 @@
       "delta": -1
     }
   ],
-  "focusEarnedDuringCapture": 1519,
-  "startedAt": "2026-10-12T02:57:27.193707+00:00",
-  "focusCounterAtCaptureEnd": 1519,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
