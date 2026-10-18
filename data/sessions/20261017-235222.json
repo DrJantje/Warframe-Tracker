@@ -1,33 +1,35 @@
 {
-  "missions": [
+  "durationSeconds": 3908.111,
+  "focusEarnedDuringCapture": 0,
+  "startedAt": "2026-10-17T23:52:22.857868+00:00",
+  "equipmentRemoved": [],
+  "positiveItemDeltas": [
     {
-      "startedAt": "2026-10-17T23:53:02.972000+00:00",
-      "endedAt": "2026-10-17T23:56:40.761000+00:00",
-      "durationSeconds": 217.789,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "PlutoHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-17T23:56:47.222000+00:00",
-      "endedAt": "2026-10-18T00:57:30.968399+00:00",
-      "durationSeconds": 3643.746,
-      "type": "RAILJACK",
-      "node": "RAILJACK",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
+      "item": "Orokin Ducats",
+      "delta": 450
     }
   ],
   "focusCounterAtCaptureStart": 0,
+  "missionCount": 2,
+  "configurationChanges": [],
+  "equipmentAdded": [
+    {
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Prisma Tetra"
+    },
+    {
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Prisma Twin Gremlins"
+    },
+    {
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Vericres"
+    }
+  ],
+  "errorEventCount": 3,
   "focusCounterAtCaptureEnd": 0,
+  "schemaVersion": 1,
+  "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
   "negativeItemDeltas": [
     {
       "item": "Blueprint",
@@ -110,35 +112,33 @@
       "delta": -1
     }
   ],
-  "positiveItemDeltas": [
+  "missions": [
     {
-      "item": "Orokin Ducats",
-      "delta": 450
-    }
-  ],
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "missionCount": 2,
-  "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
-  "durationSeconds": 3908.111,
-  "configurationChanges": [],
-  "equipmentAdded": [
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Prisma Tetra"
+      "startedAt": "2026-10-17T23:53:02.972000+00:00",
+      "endedAt": "2026-10-17T23:56:40.761000+00:00",
+      "durationSeconds": 217.789,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "PlutoHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
     },
     {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Prisma Twin Gremlins"
-    },
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Vericres"
+      "startedAt": "2026-10-17T23:56:47.222000+00:00",
+      "endedAt": "2026-10-18T00:57:30.968399+00:00",
+      "durationSeconds": 3643.746,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
     }
   ],
-  "errorEventCount": 3,
-  "startedAt": "2026-10-17T23:52:22.857868+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
