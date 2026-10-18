@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-17",
-    "exportVerifiedAt": "2026-10-17 21:11:14 PDT",
+    "exportVerifiedAt": "2026-10-17 21:18:40 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
         "bytes": 2167946,
-        "modified": "2026-10-17T21:11:12.840655-07:00",
-        "sha256": "120450f92d0086be61430c8a3f86424fda3af619d186ad78398d972603fdcabd"
+        "modified": "2026-10-17T21:18:38.987852-07:00",
+        "sha256": "5ffbe4c632a81a383e4c4fa9925232a2924ae7f5b9b51948921cce04b376972d"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24911,
-        "modified": "2026-10-17T21:11:12.844169-07:00",
-        "sha256": "3b2d7134ae094804cdaa03490ceb3e0a379d5c3ac1a2d796cc1d7dd875d6c356"
+        "modified": "2026-10-17T21:18:38.990768-07:00",
+        "sha256": "500ec762137613ebaa3701e3b2074cffd9b0d292a201ee4f35bef8b1f98254da"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-17T21:11:12.843165-07:00",
+        "modified": "2026-10-17T21:18:38.988861-07:00",
         "sha256": "d23b3f5efc082ede1405c541fd423f0da2d6398203d3929963ea013612b93378"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-17T21:11:12.843669-07:00",
+        "modified": "2026-10-17T21:18:38.990262-07:00",
         "sha256": "1d54b4bfde26e1df326766eb53b913e7e9e2fbb56014a151e1ec7f2be5b388cb"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-17T21:11:12.845422-07:00",
+        "modified": "2026-10-17T21:18:38.992767-07:00",
         "sha256": "f6811dab64170eb97b13c083c0b19a8bf7efc92948dd24e3bef4d414301121d5"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Mandonel",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock"
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -556,9 +572,9 @@
       "item": "Mandonel",
       "type": "archgun",
       "targetRank": "30",
-      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "route": "Cavia bounties + Entrati Labs endless missions",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "source": "https://wiki.warframe.com/w/Mandonel",
       "vaulted": "No",
@@ -11236,14 +11252,14 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Mandonel Barrel; Echo Voca (0/2); Mandonel Receiver; Mandonel Stock",
+      "missing": "Mandonel Barrel; Echo Voca (1/2); Mandonel Receiver; Mandonel Stock",
       "ease": "5 — Long grind / trade",
       "route": "Cavia bounties + Entrati Labs endless missions",
       "vaulted": "No",
       "pendingFoundry": "No",
       "minimumMr": 10,
       "source": "https://wiki.warframe.com/w/Mandonel",
-      "steps": "Barrel: Persto C, Munio C, or Cambire B. 2 Echo Voca (0/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
+      "steps": "Barrel: Persto C, Munio C, or Cambire B. 1 Echo Voca (1/2): check current Cavia rewards. Receiver: Persto C, Munio B, or Cambire C. Stock: Persto B, Munio C, or Cambire C.",
       "tip": "Persto: Stock on B, Barrel and Receiver on C. Munio: Receiver on B, Barrel and Stock on C. Cambire: Barrel on B, Receiver and Stock on C.",
       "primeDetails": [],
       "liveMatches": []
