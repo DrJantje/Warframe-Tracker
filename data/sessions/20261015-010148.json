@@ -1,5 +1,29 @@
 {
-  "durationSeconds": 2861.991,
+  "focusEarnedDuringCapture": 20201,
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "missionCount": 9,
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -111,44 +135,6 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 2,
-  "schemaVersion": 1,
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "missionCount": 9,
-  "focusEarnedDuringCapture": 20201,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 20201,
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -169,6 +155,20 @@
     {
       "item": "Hildryn Prime Systems Blueprint",
       "delta": -1
+    }
+  ],
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "equipmentRemoved": [],
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "errorEventCount": 2,
+  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "durationSeconds": 2861.991,
+  "focusCounterAtCaptureEnd": 20201,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
     }
   ],
   "notableAcquisitions": [],
