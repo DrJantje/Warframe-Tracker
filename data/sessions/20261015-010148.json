@@ -1,16 +1,31 @@
 {
-  "focusCounterAtCaptureStart": 0,
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
   "schemaVersion": 1,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "errorEventCount": 2,
-  "positiveItemDeltas": [
+  "missionCount": 9,
+  "equipmentAdded": [],
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 20201,
+  "configurationChanges": [
     {
-      "item": "Nitain Extract",
-      "delta": 20
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "equipmentAdded": [],
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -122,30 +137,15 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 20201,
   "durationSeconds": 2861.991,
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "errorEventCount": 2,
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
   "equipmentRemoved": [],
-  "focusEarnedDuringCapture": 20201,
-  "configurationChanges": [
+  "positiveItemDeltas": [
     {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Nitain Extract",
+      "delta": 20
     }
   ],
   "negativeItemDeltas": [
@@ -170,7 +170,7 @@
       "delta": -1
     }
   ],
-  "missionCount": 9,
+  "focusCounterAtCaptureEnd": 20201,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
