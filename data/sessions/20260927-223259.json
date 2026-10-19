@@ -1,8 +1,7 @@
 {
-  "missionCount": 10,
-  "schemaVersion": 1,
-  "startedAt": "2026-09-27T22:32:59.167153+00:00",
-  "errorEventCount": 3,
+  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
+  "durationSeconds": 7068.249,
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-09-27T22:33:02.827000+00:00",
@@ -194,6 +193,9 @@
       "helminthAfter": null
     }
   ],
+  "startedAt": "2026-09-27T22:32:59.167153+00:00",
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -240,15 +242,7 @@
       "delta": -1
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentAdded": [],
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-28T00:20:28.608291+00:00",
-      "item": "Nokko"
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Alloy Plate",
@@ -403,9 +397,15 @@
       "delta": 1
     }
   ],
-  "stoppedAt": "2026-09-28T00:30:47.416589+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 7068.249,
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-28T00:20:28.608291+00:00",
+      "item": "Nokko"
+    }
+  ],
+  "equipmentAdded": [],
+  "errorEventCount": 3,
+  "missionCount": 10,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
