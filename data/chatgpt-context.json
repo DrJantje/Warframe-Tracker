@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T00:07:57.000830+00:00",
+  "generatedAt": "2026-10-19T00:11:25.427224+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,40 +8,40 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-19T00:07:55.734Z",
+  "accountSnapshotAt": "2026-10-19T00:11:24.364Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-19T00:07:55.734Z",
+      "capturedAt": "2026-10-19T00:11:24.364Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },

@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-19T00:07:57.000830+00:00
-Account snapshot: 2026-10-19T00:07:55.734Z
+Generated: 2026-10-19T00:11:25.427224+00:00
+Account snapshot: 2026-10-19T00:11:24.364Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
