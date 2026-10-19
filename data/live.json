@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T03:31:50.400000Z",
-      "worldStateAt": "2026-10-19T03:31:28Z",
-      "ageSecondsAtCheck": 22
+      "checkedAt": "2026-10-19T03:33:56.432000Z",
+      "worldStateAt": "2026-10-19T03:33:16Z",
+      "ageSecondsAtCheck": 40
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T03:31:50.400000Z",
-      "worldStateAt": "2026-10-19T03:31:28Z",
-      "ageSecondsAtCheck": 22
+      "checkedAt": "2026-10-19T03:33:56.432000Z",
+      "worldStateAt": "2026-10-19T03:33:16Z",
+      "ageSecondsAtCheck": 40
     },
     "rewards": [
       "Detonite Injector",
@@ -113,9 +113,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 6243,
+        "count": 6248,
         "requiredRuns": 44000,
-        "completion": 57.09431818181818,
+        "completion": 57.099999999999994,
         "completed": false
       },
       {
@@ -157,9 +157,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -42110,
+        "count": -42112,
         "requiredRuns": 44000,
-        "completion": 2.1477272727272734,
+        "completion": 2.1454545454545446,
         "completed": false
       },
       {
@@ -256,9 +256,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -12667,
+        "count": -12682,
         "requiredRuns": 47000,
-        "completion": 73.04893617021277,
+        "completion": 73.01702127659576,
         "completed": false
       },
       {
@@ -289,13 +289,46 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -989,
+        "count": -1002,
         "requiredRuns": 30000,
-        "completion": 96.70333333333333,
+        "completion": 96.66,
+        "completed": false
+      },
+      {
+        "id": "6ad579a2eb0400fbc586d44c",
+        "activation": "2026-10-19T03:36:33.118000Z",
+        "node": "Palus (Pluto)",
+        "nodeKey": "SolNode81",
+        "desc": "Infested Invasion Generic",
+        "attacker": {
+          "reward": null,
+          "faction": "Infested",
+          "factionKey": "Infested"
+        },
+        "defender": {
+          "reward": {
+            "items": [],
+            "countedItems": [
+              {
+                "count": 2,
+                "type": "Mutagen Mass",
+                "key": "/Lotus/Types/Items/Research/BioComponent"
+              }
+            ],
+            "credits": 0,
+            "asString": "2 Mutagen Mass"
+          },
+          "faction": "Corpus",
+          "factionKey": "Corpus"
+        },
+        "vsInfestation": true,
+        "count": 0,
+        "requiredRuns": 47000,
+        "completion": 100.0,
         "completed": false
       }
     ],
-    "activeCount": 4
+    "activeCount": 5
   },
   "cetusCycle": {
     "status": "verified",
@@ -303,9 +336,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T03:31:50.400000Z",
-      "worldStateAt": "2026-10-19T03:31:28Z",
-      "ageSecondsAtCheck": 22
+      "checkedAt": "2026-10-19T03:33:56.432000Z",
+      "worldStateAt": "2026-10-19T03:33:16Z",
+      "ageSecondsAtCheck": 40
     },
     "id": "cetusCycle1792385580000",
     "state": "day",
@@ -318,10 +351,10 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1792382400400",
+      "id": "earthCycle1792382400432",
       "state": "day",
-      "activation": "2026-10-19T00:00:00.400000Z",
-      "expiry": "2026-10-19T04:00:00.400000Z",
+      "activation": "2026-10-19T00:00:00.432000Z",
+      "expiry": "2026-10-19T04:00:00.432000Z",
       "isDay": true
     },
     "cetus": {
@@ -356,7 +389,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-10-19T03:31:50.400456+00:00",
+  "checkedAt": "2026-10-19T03:33:56.432649+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -452,7 +485,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-10-19T03:31:50.400000Z",
+    "checkedAt": "2026-10-19T03:33:56.432000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
       "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
