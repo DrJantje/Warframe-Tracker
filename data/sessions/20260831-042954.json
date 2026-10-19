@@ -1,11 +1,11 @@
 {
-  "equipmentRemoved": [],
-  "durationSeconds": 2120.344,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "equipmentAdded": [],
-  "configurationChanges": [],
-  "startedAt": "2026-08-31T04:29:54.772896+00:00",
-  "errorEventCount": 2,
-  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-08-31T04:29:59.905000+00:00",
@@ -45,17 +45,17 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
   "stoppedAt": "2026-08-31T05:05:15.116591+00:00",
   "missionCount": 3,
+  "startedAt": "2026-08-31T04:29:54.772896+00:00",
+  "configurationChanges": [],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 2120.344,
+  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
+  "errorEventCount": 2,
   "positiveItemDeltas": [
     {
       "item": "Circuit Effect",

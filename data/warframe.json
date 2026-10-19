@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Warframe Acquisition Tracker",
-    "snapshotDate": "2026-10-18",
-    "exportVerifiedAt": "2026-10-18 21:01:25 PDT",
+    "snapshotDate": "2026-10-19",
+    "exportVerifiedAt": "2026-10-19 08:29:49 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2168020,
-        "modified": "2026-10-18T21:01:24.550160-07:00",
-        "sha256": "1e06b3f6c4a489c5922e06f6f78b7477969fdf555f35e0b82361645864d5ec90"
+        "bytes": 2168019,
+        "modified": "2026-10-19T08:29:47.713625-07:00",
+        "sha256": "a330fef4e6bd700bc87d04c3a2b79b3f0342a55870dc8a95f43d00042a379050"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24913,
-        "modified": "2026-10-18T21:01:24.553201-07:00",
+        "modified": "2026-10-19T08:29:47.720536-07:00",
         "sha256": "d2d3073b2be98af0c5cc0a75cd4567024ab8e709f9691f641fa5dc794cd37533"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-18T21:01:24.551683-07:00",
+        "modified": "2026-10-19T08:29:47.716132-07:00",
         "sha256": "be12fa881623176201a0d5a2971b7c7fe72db60645d21217ec650e713be94091"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-18T21:01:24.553201-07:00",
+        "modified": "2026-10-19T08:29:47.718517-07:00",
         "sha256": "30f4398e65a9de4743f1cfdfb684309cf3cf8b3238ed30a97bd17becbd8b6577"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-18T21:01:24.555934-07:00",
+        "modified": "2026-10-19T08:29:47.724036-07:00",
         "sha256": "b7aaea3fad11375a823b8ff4dc5a3dce20e0e5bf9425ba25efae62c18d21081e"
       },
       "rivens.json": {
@@ -46,13 +46,44 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Enkaus",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Enkaus Barrel; Enkaus Receiver; Enkaus Stock"
+        ],
+        "after": [
+          "No",
+          "No",
+          "No",
+          "Enkaus Receiver"
+        ]
+      },
+      {
+        "item": "Follie",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Follie Chassis Blueprint; Follie Neuroptics Blueprint; Follie Systems Blueprint"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 137
+      "missing": 136
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -477,6 +508,21 @@
     },
     {
       "ease": "5 — Long grind / trade",
+      "item": "Enkaus",
+      "type": "primary",
+      "targetRank": "30",
+      "missing": "Enkaus Receiver",
+      "route": "Follie’s Hunt / Aspirant Zorba",
+      "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
+      "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
+      "source": "https://wiki.warframe.com/w/Enkaus",
+      "vaulted": "No",
+      "primeDetails": [],
+      "liveMatches": [],
+      "practicalPriority": 505
+    },
+    {
+      "ease": "5 — Long grind / trade",
       "item": "Gotva Prime",
       "type": "primary",
       "targetRank": "30",
@@ -505,36 +551,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 505
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Enkaus",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Enkaus Barrel; Enkaus Receiver; Enkaus Stock",
-      "route": "Follie’s Hunt / Aspirant Zorba",
-      "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
-      "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
-      "source": "https://wiki.warframe.com/w/Enkaus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Follie",
-      "type": "warframe",
-      "targetRank": "30",
-      "missing": "Follie Chassis Blueprint; Follie Neuroptics Blueprint; Follie Systems Blueprint",
-      "route": "Follie’s Hunt / Aspirant Zorba",
-      "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
-      "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
-      "source": "https://wiki.warframe.com/w/Follie",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 515
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2505,7 +2521,17 @@
       "practicalPriority": 515
     }
   ],
-  "owned": [],
+  "owned": [
+    {
+      "item": "Follie",
+      "type": "warframe",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level in Sanctuary Onslaught, Helene, or Hydron.",
+      "source": "https://wiki.warframe.com/w/Follie"
+    }
+  ],
   "rank40": [
     {
       "item": "Bonewidow",
@@ -7150,7 +7176,7 @@
       "complete": "No",
       "targetRank": "30",
       "rankRule": "",
-      "missing": "Enkaus Barrel; Enkaus Receiver; Enkaus Stock",
+      "missing": "Enkaus Receiver",
       "ease": "5 — Long grind / trade",
       "route": "Follie’s Hunt / Aspirant Zorba",
       "vaulted": "No",
@@ -7575,17 +7601,17 @@
     {
       "item": "Follie",
       "type": "warframe",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Follie Chassis Blueprint; Follie Neuroptics Blueprint; Follie Systems Blueprint",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Follie’s Hunt / Aspirant Zorba",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": -1,
       "source": "https://wiki.warframe.com/w/Follie",
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",

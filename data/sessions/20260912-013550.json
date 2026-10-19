@@ -1,11 +1,11 @@
 {
-  "equipmentRemoved": [],
-  "durationSeconds": 3023.928,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "equipmentAdded": [],
-  "configurationChanges": [],
-  "startedAt": "2026-09-12T01:35:50.873126+00:00",
-  "errorEventCount": 3,
-  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-09-12T01:36:10.812000+00:00",
@@ -93,17 +93,17 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
   "stoppedAt": "2026-09-12T02:26:14.800802+00:00",
   "missionCount": 7,
+  "startedAt": "2026-09-12T01:35:50.873126+00:00",
+  "configurationChanges": [],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 3023.928,
+  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
+  "errorEventCount": 3,
   "positiveItemDeltas": [
     {
       "item": "Salvage",
