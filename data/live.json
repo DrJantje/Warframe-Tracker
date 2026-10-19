@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T00:36:50.191000Z",
-      "worldStateAt": "2026-10-19T00:35:59Z",
-      "ageSecondsAtCheck": 51
+      "checkedAt": "2026-10-19T00:44:25.687000Z",
+      "worldStateAt": "2026-10-19T00:44:05Z",
+      "ageSecondsAtCheck": 21
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T00:36:50.191000Z",
-      "worldStateAt": "2026-10-19T00:35:59Z",
-      "ageSecondsAtCheck": 51
+      "checkedAt": "2026-10-19T00:44:25.687000Z",
+      "worldStateAt": "2026-10-19T00:44:05Z",
+      "ageSecondsAtCheck": 21
     },
     "rewards": [
       "Detonite Injector",
@@ -112,9 +112,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 3576,
+        "count": 3646,
         "requiredRuns": 44000,
-        "completion": 54.063636363636355,
+        "completion": 54.143181818181816,
         "completed": false
       },
       {
@@ -156,9 +156,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -39118,
+        "count": -39208,
         "requiredRuns": 44000,
-        "completion": 5.547727272727271,
+        "completion": 5.445454545454548,
         "completed": false
       },
       {
@@ -189,9 +189,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": true,
-        "count": -28707,
+        "count": -28798,
         "requiredRuns": 30000,
-        "completion": 4.310000000000002,
+        "completion": 4.0066666666666695,
         "completed": false
       },
       {
@@ -236,60 +236,60 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T00:36:50.191000Z",
-      "worldStateAt": "2026-10-19T00:35:59Z",
-      "ageSecondsAtCheck": 51
+      "checkedAt": "2026-10-19T00:44:25.687000Z",
+      "worldStateAt": "2026-10-19T00:44:05Z",
+      "ageSecondsAtCheck": 21
     },
-    "id": "cetusCycle1792370580000",
-    "state": "night",
-    "activation": "2026-10-18T23:53:00Z",
-    "expiry": "2026-10-19T00:43:00Z",
-    "isDay": false,
+    "id": "cetusCycle1792376580000",
+    "state": "day",
+    "activation": "2026-10-19T00:43:00Z",
+    "expiry": "2026-10-19T02:23:00Z",
+    "isDay": true,
     "derivedFrom": "CetusSyndicate expiry",
-    "syndicateExpiry": "2026-10-19T00:43:07.462000Z",
+    "syndicateExpiry": "2026-10-19T03:13:06.337000Z",
     "logic": "WFCD 100-minute day / 50-minute night"
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1792382400191",
+      "id": "earthCycle1792382400687",
       "state": "day",
-      "activation": "2026-10-19T00:00:00.191000Z",
-      "expiry": "2026-10-19T04:00:00.191000Z",
+      "activation": "2026-10-19T00:00:00.687000Z",
+      "expiry": "2026-10-19T04:00:00.687000Z",
       "isDay": true
     },
     "cetus": {
-      "id": "cetusCycle1792370580000",
-      "state": "night",
-      "activation": "2026-10-18T23:53:00Z",
-      "expiry": "2026-10-19T00:43:00Z",
-      "isDay": false,
+      "id": "cetusCycle1792376580000",
+      "state": "day",
+      "activation": "2026-10-19T00:43:00Z",
+      "expiry": "2026-10-19T02:23:00Z",
+      "isDay": true,
       "derivedFrom": "CetusSyndicate expiry",
-      "syndicateExpiry": "2026-10-19T00:43:07.462000Z",
+      "syndicateExpiry": "2026-10-19T03:13:06.337000Z",
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1792370408000",
-      "state": "cold",
-      "activation": "2026-10-19T00:20:00Z",
-      "expiry": "2026-10-19T00:40:08Z",
-      "isWarm": false
+      "id": "vallisCycle1792370808000",
+      "state": "warm",
+      "activation": "2026-10-19T00:40:00Z",
+      "expiry": "2026-10-19T00:46:48Z",
+      "isWarm": true
     },
     "cambion": {
-      "id": "cambionCycle1792370580000",
-      "state": "vome",
-      "activation": "2026-10-18T23:53:00Z",
-      "expiry": "2026-10-19T00:43:00Z"
+      "id": "cambionCycle1792376580000",
+      "state": "fass",
+      "activation": "2026-10-19T00:43:00Z",
+      "expiry": "2026-10-19T02:23:00Z"
     },
     "zariman": {
-      "id": "zarimanCycle1792370580000",
-      "state": "grineer",
-      "activation": "2026-10-18T22:13:00Z",
-      "expiry": "2026-10-19T00:43:00Z",
-      "isCorpus": false
+      "id": "zarimanCycle1792379580000",
+      "state": "corpus",
+      "activation": "2026-10-19T00:43:00Z",
+      "expiry": "2026-10-19T03:13:00Z",
+      "isCorpus": true
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-10-19T00:36:50.191630+00:00",
+  "checkedAt": "2026-10-19T00:44:25.687393+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -385,7 +385,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-10-19T00:36:50.191000Z",
+    "checkedAt": "2026-10-19T00:44:25.687000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
       "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
