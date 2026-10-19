@@ -1,19 +1,19 @@
 {
-  "configurationChanges": [
+  "focusEarnedDuringCapture": 0,
+  "schemaVersion": 1,
+  "durationSeconds": 5473.26,
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
+  "focusCounterAtCaptureEnd": 0,
+  "positiveItemDeltas": [
     {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Coda Hirudo",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": 1
     }
   ],
-  "equipmentAdded": [],
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
-  "focusEarnedDuringCapture": 0,
   "negativeItemDeltas": [
     {
       "item": "Cubic Diodes",
@@ -28,9 +28,27 @@
       "delta": -1
     }
   ],
-  "missionCount": 10,
-  "durationSeconds": 5473.26,
+  "configurationChanges": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Coda Hirudo",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "focusCounterAtCaptureStart": 0,
+  "missionCount": 10,
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
+    }
+  ],
+  "errorEventCount": 4,
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -154,26 +172,8 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "errorEventCount": 4,
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
-    }
-  ],
+  "equipmentAdded": [],
   "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "focusCounterAtCaptureEnd": 0,
-  "positiveItemDeltas": [
-    {
-      "item": "Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": 1
-    }
-  ],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
