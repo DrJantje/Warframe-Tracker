@@ -1,10 +1,30 @@
 {
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "durationSeconds": 6390.914,
+  "equipmentAdded": [
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Koumei"
+    },
+    {
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Higasa"
+    }
+  ],
+  "missionCount": 6,
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
   "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
   "configurationChanges": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -27,6 +47,10 @@
       "helminthAfter": null
     }
   ],
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "schemaVersion": 1,
+  "durationSeconds": 6390.914,
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -102,31 +126,7 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
   "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
-    },
-    {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
-    }
-  ],
   "negativeItemDeltas": [
     {
       "item": "Ferrite",
@@ -157,9 +157,9 @@
       "delta": -2
     }
   ],
-  "errorEventCount": 4,
-  "missionCount": 6,
   "equipmentRemoved": [],
+  "errorEventCount": 4,
+  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
