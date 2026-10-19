@@ -1,9 +1,32 @@
 {
-  "focusEarnedDuringCapture": 0,
-  "configurationChanges": [],
-  "equipmentRemoved": [],
+  "startedAt": "2026-08-19T09:29:35.287515+00:00",
+  "errorEventCount": 0,
+  "missionCount": 3,
+  "schemaVersion": 1,
   "durationSeconds": 2201.95,
   "focusCounterAtCaptureStart": 9472,
+  "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
+  "equipmentRemoved": [],
+  "negativeItemDeltas": [
+    {
+      "item": "Ignia",
+      "delta": -100
+    },
+    {
+      "item": "Maphica",
+      "delta": -100
+    },
+    {
+      "item": "Laudavi",
+      "delta": -26
+    },
+    {
+      "item": "Cipher",
+      "delta": -4
+    }
+  ],
+  "equipmentAdded": [],
+  "configurationChanges": [],
   "positiveItemDeltas": [
     {
       "item": "Circuit Effect",
@@ -54,28 +77,6 @@
       "delta": 1
     }
   ],
-  "missionCount": 3,
-  "focusCounterAtCaptureEnd": 9472,
-  "negativeItemDeltas": [
-    {
-      "item": "Ignia",
-      "delta": -100
-    },
-    {
-      "item": "Maphica",
-      "delta": -100
-    },
-    {
-      "item": "Laudavi",
-      "delta": -26
-    },
-    {
-      "item": "Cipher",
-      "delta": -4
-    }
-  ],
-  "stoppedAt": "2026-08-19T10:06:17.237337+00:00",
-  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-08-19T08:56:58.953000+00:00",
@@ -115,9 +116,8 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-08-19T09:29:35.287515+00:00",
-  "errorEventCount": 0,
-  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 9472,
+  "focusEarnedDuringCapture": 0,
   "notableAcquisitions": [
     {
       "item": "Ascaris Prime",
