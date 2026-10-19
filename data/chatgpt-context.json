@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T04:00:32.106107+00:00",
+  "generatedAt": "2026-10-19T04:01:25.383799+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-19T04:00:30.621Z",
+  "accountSnapshotAt": "2026-10-19T03:58:21.418Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-19T04:00:30.621Z",
+      "capturedAt": "2026-10-19T03:58:21.418Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-19T04:00:14.718Z",
+    "observedAt": "2026-10-19T04:00:45.675226+00:00",
     "phase": "mission",
     "node": "PLAYER SHIP",
     "planet": "LOCAL AREA",
@@ -1764,18 +1764,249 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261018-154735.json",
-    "startedAt": "2026-10-18T15:47:35.744749+00:00",
-    "stoppedAt": "2026-10-18T16:33:48.051721+00:00",
-    "durationSeconds": 2772.307,
-    "missionCount": 5,
+    "file": "20261018-191856.json",
+    "startedAt": "2026-10-18T19:18:56.117522+00:00",
+    "stoppedAt": "2026-10-19T04:01:20.706600+00:00",
+    "durationSeconds": 31344.589,
+    "missionCount": 54,
     "focusEarnedDuringCapture": 0,
-    "topGains": [],
-    "notableAcquisitions": [],
-    "resourceGains": [],
+    "topGains": [
+      {
+        "item": "Nano Spores",
+        "delta": 1115190
+      },
+      {
+        "item": "Kuva",
+        "delta": 40994
+      },
+      {
+        "item": "Salvage",
+        "delta": 23938
+      },
+      {
+        "item": "Ferrite",
+        "delta": 15186
+      },
+      {
+        "item": "Plastids",
+        "delta": 13948
+      },
+      {
+        "item": "Cubic Diodes",
+        "delta": 4716
+      },
+      {
+        "item": "Carbides",
+        "delta": 4618
+      },
+      {
+        "item": "Rubedo",
+        "delta": 1286
+      },
+      {
+        "item": "Road To Tau Event Resource",
+        "delta": 523
+      },
+      {
+        "item": "Oxium",
+        "delta": 284
+      },
+      {
+        "item": "Nav Coordinate",
+        "delta": 244
+      },
+      {
+        "item": "Ignia",
+        "delta": 165
+      }
+    ],
+    "notableAcquisitions": [
+      {
+        "item": "Intact Sentient Core",
+        "delta": 59
+      },
+      {
+        "item": "Lith S18 Intact",
+        "delta": 4
+      },
+      {
+        "item": "Lith V11 Intact",
+        "delta": 4
+      },
+      {
+        "item": "Enkaus Barrel Blueprint",
+        "delta": 3
+      },
+      {
+        "item": "Enkaus Stock Blueprint",
+        "delta": 3
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime BBronze",
+        "delta": 3
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime CBronze",
+        "delta": 3
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime DBronze",
+        "delta": 3
+      },
+      {
+        "item": "T2 Void Projection Citrine Prime ABronze",
+        "delta": 3
+      },
+      {
+        "item": "Axi D6 Intact",
+        "delta": 2
+      },
+      {
+        "item": "Axi V14 Intact",
+        "delta": 2
+      },
+      {
+        "item": "Meso A12 Intact",
+        "delta": 2
+      },
+      {
+        "item": "Meso V13 Intact",
+        "delta": 2
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime DBronze",
+        "delta": 2
+      },
+      {
+        "item": "Axi A21 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Blade",
+        "delta": 1
+      },
+      {
+        "item": "Enkaus Receiver Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Follie Chassis Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Follie Helmet Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Follie Systems Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Harrow Chassis Blueprint",
+        "delta": 1
+      },
+      {
+        "item": "Meso D8 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Neo A16 Intact",
+        "delta": 1
+      },
+      {
+        "item": "Requiem Eterna Relic",
+        "delta": 1
+      },
+      {
+        "item": "T1 Void Projection Citrine Prime ABronze",
+        "delta": 1
+      },
+      {
+        "item": "T2 Void Projection Citrine Prime BBronze",
+        "delta": 1
+      },
+      {
+        "item": "T2 Void Projection Citrine Prime CBronze",
+        "delta": 1
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime ABronze",
+        "delta": 1
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime BBronze",
+        "delta": 1
+      },
+      {
+        "item": "T3 Void Projection Citrine Prime EBronze",
+        "delta": 1
+      },
+      {
+        "item": "T4 Void Projection Citrine Prime ABronze",
+        "delta": 1
+      },
+      {
+        "item": "T4 Void Projection Citrine Prime BPlatinum",
+        "delta": 1
+      },
+      {
+        "item": "Vinquibus Barrel Blueprint",
+        "delta": 1
+      }
+    ],
+    "resourceGains": [
+      {
+        "item": "Nano Spores",
+        "delta": 1115190
+      },
+      {
+        "item": "Kuva",
+        "delta": 40994
+      },
+      {
+        "item": "Salvage",
+        "delta": 23938
+      },
+      {
+        "item": "Ferrite",
+        "delta": 15186
+      },
+      {
+        "item": "Plastids",
+        "delta": 13948
+      },
+      {
+        "item": "Cubic Diodes",
+        "delta": 4716
+      },
+      {
+        "item": "Carbides",
+        "delta": 4618
+      },
+      {
+        "item": "Rubedo",
+        "delta": 1286
+      },
+      {
+        "item": "Road To Tau Event Resource",
+        "delta": 523
+      },
+      {
+        "item": "Oxium",
+        "delta": 284
+      },
+      {
+        "item": "Nav Coordinate",
+        "delta": 244
+      },
+      {
+        "item": "Ignia",
+        "delta": 165
+      }
+    ],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 3
+    "errorEventCount": 5
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",

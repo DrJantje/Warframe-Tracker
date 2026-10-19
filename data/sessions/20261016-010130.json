@@ -1,48 +1,7 @@
 {
-  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
-  "focusCounterAtCaptureEnd": 0,
-  "startedAt": "2026-10-16T01:01:30.631123+00:00",
-  "missionCount": 22,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "positiveItemDeltas": [
-    {
-      "item": "Alloy Plate",
-      "delta": 526
-    },
-    {
-      "item": "Rubedo",
-      "delta": 130
-    },
-    {
-      "item": "Plastids",
-      "delta": 92
-    },
-    {
-      "item": "Fieldron Sample",
-      "delta": 16
-    },
-    {
-      "item": "Morphics",
-      "delta": 2
-    },
-    {
-      "item": "Barrel",
-      "delta": 1
-    },
-    {
-      "item": "Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Orokin Catalyst",
-      "delta": 1
-    },
-    {
-      "item": "Receiver",
-      "delta": 1
-    }
-  ],
+  "equipmentRemoved": [],
+  "durationSeconds": 7102.558,
+  "equipmentAdded": [],
   "configurationChanges": [
     {
       "at": "2026-10-16T02:05:44.593130+00:00",
@@ -107,9 +66,9 @@
       "helminthAfter": null
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "equipmentRemoved": [],
-  "equipmentAdded": [],
+  "startedAt": "2026-10-16T01:01:30.631123+00:00",
+  "errorEventCount": 14,
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-10-16T01:01:36.264000+00:00",
@@ -376,8 +335,7 @@
       "steelPath": false
     }
   ],
-  "durationSeconds": 7102.558,
-  "errorEventCount": 14,
+  "schemaVersion": 1,
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -394,6 +352,48 @@
     {
       "item": "Fomorian Disruptor",
       "delta": -8
+    }
+  ],
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
+  "missionCount": 22,
+  "focusEarnedDuringCapture": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Alloy Plate",
+      "delta": 526
+    },
+    {
+      "item": "Rubedo",
+      "delta": 130
+    },
+    {
+      "item": "Plastids",
+      "delta": 92
+    },
+    {
+      "item": "Fieldron Sample",
+      "delta": 16
+    },
+    {
+      "item": "Morphics",
+      "delta": 2
+    },
+    {
+      "item": "Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Orokin Catalyst",
+      "delta": 1
+    },
+    {
+      "item": "Receiver",
+      "delta": 1
     }
   ],
   "notableAcquisitions": [
