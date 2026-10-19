@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-19T00:29:25.359732+00:00
-Account snapshot: 2026-10-19T00:29:24.267Z
+Generated: 2026-10-19T00:36:49.717472+00:00
+Account snapshot: 2026-10-19T00:36:48.567Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,22 +10,23 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (arsenal-selected)
+- Frame observation: Titania (location-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Dante
+### Arsenal: Titania
 
-#### Warframe: Dante — config A
+#### Warframe: Titania Prime — config A
 
-- Forma: 5
-- Lens: Greater Vazarin Lens
-- Archon shards: ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic
-- Mods: Umbral Intensify (rank 10), Archon Stretch (rank 10), Streamline (rank 5), Archon Continuity (rank 10), Primed Flow (rank 10), Equilibrium (rank 10), Augur Reach (rank 5), Transient Fortitude (rank 10), Growing Power (rank 5), Cunning Drift (rank 5)
-- Arcanes: Molt Augmented (rank 5), Arcane Impetus (rank 5)
+- Forma: 4
+- Lens: Eidolon Unairu Lens
+- Helminth: Xata's Whisper
+- Archon shards: ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_GREEN_MYTHIC Archon Crystal Upgrade Warframe Corrosive Stack Mythic, ACC_PURPLE_MYTHIC Archon Crystal Upgrade Equilibrium Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Starting Energy Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Globe Effect Energy Mythic
+- Mods: Fleeting Expertise (rank 5), Archon Continuity (rank 10), Narrow Minded (rank 10), Razorwing Blitz (rank 3), Precision Intensify (rank 5), Primed Flow (rank 10), Blind Rage (rank 10), Streamline (rank 5), Aerodynamic (rank 5), Aviator (rank 3)
+- Arcanes: Arcane Camisado (rank 5), Arcane Pistoleer (rank 5)
 
 #### Secondary: Tenet Cycron — config A
 
@@ -33,18 +34,17 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Coda Bubonico — config A
+#### Primary: Coda Bassocyst — config A
 
 - Forma: 5
 - Lens: Greater Unairu Lens
-- Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
+- Mods: Primed Charged Shell (rank 10), Magnetic Strafe (rank 3), Toxic Barrage (rank 3), Primed Chilling Grasp (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Savvy (rank 10), Galvanized Hell (rank 10), Galvanized Acceleration (rank 10)
 - Arcanes: Primary Merciless (rank 5)
 
-#### Melee: Furax Wraith — config A
+#### Melee: Orthos Prime — config A
 
 - Forma: 0
-- Lens: Greater Unairu Lens
-- Mods: Condition Overload (rank 5), Amalgam Furax Body Count (rank 5), Primed Reach (rank 10), Gaia's Tragedy (rank 3)
+- Mods: Boreal's Contempt (rank 5), Primed Reach (rank 10), Primed Fever Strike (rank 10), Shimmering Blight (rank 3)
 - Arcanes: none recorded
 
 #### Heavy weapon: Mausolon — config A
@@ -53,24 +53,24 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Containment Breach (rank 3), Parallax Scope (rank 3), Primed Rubedo-Lined Barrel (rank 10)
 - Arcanes: Primary Merciless (rank 5), Secondary Enervate (rank 5)
 
-#### Exalted weapon: Noctua — config A
+#### Exalted weapon: Dex Pixia Prime — config A
 
-- Forma: 6
-- Mods: Creeping Bullseye (rank 5), Merciless Gunfight (rank 5), Primed Target Cracker (rank 10), Hornet Strike (rank 10), Galvanized Shot (rank 10), Pathogen Rounds (rank 5), Lethal Torrent (rank 5), Galvanized Diffusion (rank 10), Lethal Momentum (rank 3)
-- Arcanes: Secondary Encumber (rank 5)
+- Forma: 7
+- Mods: Pistol Pestilence (rank 3), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Hornet Strike (rank 10), Primed Target Cracker (rank 10), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Primed Steady Hands (rank 10)
+- Arcanes: Secondary Enervate (rank 5)
 
-### Companion: Dante
+#### Second exalted weapon: Diwata Prime — config A
+
+- Forma: 4
+- Mods: Primed Fever Strike (rank 10), Weeping Wounds (rank 5), Primed Reach (rank 10), Galvanized Elementalist (rank 10), Blood Rush (rank 10), Amalgam Organ Shatter (rank 5), Condition Overload (rank 5), Galvanized Steel (rank 10), Guardian Derision (rank 5)
+- Arcanes: Melee Duplicate (rank 4)
+
+### Companion: Titania
 
 #### Companion: Panzer Vulpaphyla — config A
 
 - Forma: 0
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
-- Arcanes: none recorded
-
-#### Companion weapon: Stinger — config A
-
-- Forma: 0
-- Mods: Continuous Misery (rank 3), Rime Rounds (rank 3), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
