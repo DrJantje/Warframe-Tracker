@@ -1,7 +1,4 @@
 {
-  "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 4,
-  "missionCount": 6,
   "equipmentAdded": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -12,7 +9,41 @@
       "item": "Higasa"
     }
   ],
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Ferrite",
+      "delta": -8821
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
+    }
+  ],
   "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 6,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -88,39 +119,21 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
-  "negativeItemDeltas": [
+  "positiveItemDeltas": [
     {
-      "item": "Ferrite",
-      "delta": -8821
+      "item": "Koumei Helmet",
+      "delta": 1
     },
     {
-      "item": "Alloy Plate",
-      "delta": -5670
+      "item": "Voidplume Crest",
+      "delta": 1
     },
     {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
+      "item": "Voidplume Down",
+      "delta": 1
     }
   ],
+  "durationSeconds": 6390.914,
   "configurationChanges": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -143,23 +156,10 @@
       "helminthAfter": null
     }
   ],
-  "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "durationSeconds": 6390.914,
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
+  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "errorEventCount": 4,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

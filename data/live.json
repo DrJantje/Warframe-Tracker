@@ -7,9 +7,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T03:26:26.568000Z",
-      "worldStateAt": "2026-10-19T03:26:04Z",
-      "ageSecondsAtCheck": 23
+      "checkedAt": "2026-10-19T03:31:50.400000Z",
+      "worldStateAt": "2026-10-19T03:31:28Z",
+      "ageSecondsAtCheck": 22
     }
   },
   "invasions": {
@@ -18,9 +18,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T03:26:26.568000Z",
-      "worldStateAt": "2026-10-19T03:26:04Z",
-      "ageSecondsAtCheck": 23
+      "checkedAt": "2026-10-19T03:31:50.400000Z",
+      "worldStateAt": "2026-10-19T03:31:28Z",
+      "ageSecondsAtCheck": 22
     },
     "rewards": [
       "Detonite Injector",
@@ -113,9 +113,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": false,
-        "count": 6178,
+        "count": 6243,
         "requiredRuns": 44000,
-        "completion": 57.02045454545455,
+        "completion": 57.09431818181818,
         "completed": false
       },
       {
@@ -157,9 +157,9 @@
           "factionKey": "Corpus"
         },
         "vsInfestation": false,
-        "count": -42012,
+        "count": -42110,
         "requiredRuns": 44000,
-        "completion": 2.2590909090909106,
+        "completion": 2.1477272727272734,
         "completed": false
       },
       {
@@ -256,9 +256,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -11704,
+        "count": -12667,
         "requiredRuns": 47000,
-        "completion": 75.09787234042552,
+        "completion": 73.04893617021277,
         "completed": false
       },
       {
@@ -289,9 +289,9 @@
           "factionKey": "Grineer"
         },
         "vsInfestation": true,
-        "count": -897,
+        "count": -989,
         "requiredRuns": 30000,
-        "completion": 97.00999999999999,
+        "completion": 96.70333333333333,
         "completed": false
       }
     ],
@@ -303,9 +303,9 @@
       "provider": "Digital Extremes",
       "type": "primary",
       "url": "https://api.warframe.com/cdn/worldState.php",
-      "checkedAt": "2026-10-19T03:26:26.568000Z",
-      "worldStateAt": "2026-10-19T03:26:04Z",
-      "ageSecondsAtCheck": 23
+      "checkedAt": "2026-10-19T03:31:50.400000Z",
+      "worldStateAt": "2026-10-19T03:31:28Z",
+      "ageSecondsAtCheck": 22
     },
     "id": "cetusCycle1792385580000",
     "state": "day",
@@ -318,10 +318,10 @@
   },
   "cycles": {
     "earth": {
-      "id": "earthCycle1792382400568",
+      "id": "earthCycle1792382400400",
       "state": "day",
-      "activation": "2026-10-19T00:00:00.568000Z",
-      "expiry": "2026-10-19T04:00:00.568000Z",
+      "activation": "2026-10-19T00:00:00.400000Z",
+      "expiry": "2026-10-19T04:00:00.400000Z",
       "isDay": true
     },
     "cetus": {
@@ -335,11 +335,11 @@
       "logic": "WFCD 100-minute day / 50-minute night"
     },
     "vallis": {
-      "id": "vallisCycle1792380408000",
-      "state": "warm",
-      "activation": "2026-10-19T03:20:00Z",
-      "expiry": "2026-10-19T03:26:48Z",
-      "isWarm": true
+      "id": "vallisCycle1792381608000",
+      "state": "cold",
+      "activation": "2026-10-19T03:26:00Z",
+      "expiry": "2026-10-19T03:46:48Z",
+      "isWarm": false
     },
     "cambion": {
       "id": "cambionCycle1792385580000",
@@ -356,7 +356,7 @@
     }
   },
   "schemaVersion": 2,
-  "checkedAt": "2026-10-19T03:26:26.568756+00:00",
+  "checkedAt": "2026-10-19T03:31:50.400456+00:00",
   "baro": {
     "status": "unknown",
     "active": false,
@@ -452,7 +452,7 @@
     "relicCatalogStatus": "verified",
     "source": "https://api.warframe.com/cdn/worldState.php",
     "rewardsSource": "https://www.warframe.com/droptables",
-    "checkedAt": "2026-10-19T03:26:26.568000Z",
+    "checkedAt": "2026-10-19T03:31:50.400000Z",
     "relicItemTypes": [
       "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
       "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
