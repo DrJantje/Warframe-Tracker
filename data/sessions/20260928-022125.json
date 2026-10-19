@@ -1,9 +1,23 @@
 {
-  "startedAt": "2026-09-28T02:21:25.755368+00:00",
-  "errorEventCount": 3,
-  "equipmentRemoved": [],
-  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "positiveItemDeltas": [
+    {
+      "item": "Blueprint",
+      "delta": 3
+    },
+    {
+      "item": "Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Stock",
+      "delta": 1
+    }
+  ],
   "durationSeconds": 2203.941,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-09-28T02:21:30.936000+00:00",
@@ -115,33 +129,19 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Blueprint",
-      "delta": 3
-    },
-    {
-      "item": "Barrel",
-      "delta": 1
-    },
-    {
-      "item": "Stock",
-      "delta": 1
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": "2026-09-28T02:58:09.696059+00:00",
-  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 3,
   "missionCount": 9,
-  "equipmentAdded": [],
+  "stoppedAt": "2026-09-28T02:58:09.696059+00:00",
+  "equipmentRemoved": [],
+  "startedAt": "2026-09-28T02:21:25.755368+00:00",
   "focusEarnedDuringCapture": 0,
+  "configurationChanges": [],
   "negativeItemDeltas": [
     {
       "item": "Orokin Cell",
       "delta": -20
     }
   ],
-  "configurationChanges": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",

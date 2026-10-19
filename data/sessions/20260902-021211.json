@@ -1,14 +1,19 @@
 {
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
-  "errorEventCount": 4,
-  "equipmentRemoved": [
+  "equipmentAdded": [],
+  "positiveItemDeltas": [
     {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": 1
     }
   ],
-  "schemaVersion": 1,
   "durationSeconds": 5473.26,
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -132,22 +137,29 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
+  "errorEventCount": 4,
+  "missionCount": 10,
+  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
+  "equipmentRemoved": [
     {
-      "item": "Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": 1
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 10,
-  "equipmentAdded": [],
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
   "focusEarnedDuringCapture": 0,
+  "configurationChanges": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Coda Hirudo",
+      "configuration": "A",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
   "negativeItemDeltas": [
     {
       "item": "Cubic Diodes",
@@ -160,18 +172,6 @@
     {
       "item": "Forma",
       "delta": -1
-    }
-  ],
-  "configurationChanges": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Coda Hirudo",
-      "configuration": "A",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
     }
   ],
   "notableAcquisitions": [
