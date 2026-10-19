@@ -1,19 +1,4 @@
 {
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -125,32 +110,8 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
-  "missionCount": 9,
-  "startedAt": "2026-09-29T02:26:58.481588+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-09-29T03:27:51.965885+00:00",
-      "item": "Balefire Charger Prime",
-      "configuration": "A",
-      "added": [
-        "Accelerated Isotope"
-      ],
-      "removed": [
-        "Lethal Torrent"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 52836,
-  "durationSeconds": 11058.549,
   "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 52836,
-  "errorEventCount": 4,
+  "schemaVersion": 1,
   "positiveItemDeltas": [
     {
       "item": "Fish Meat",
@@ -189,6 +150,45 @@
       "delta": 1
     }
   ],
+  "focusCounterAtCaptureEnd": 52836,
+  "durationSeconds": 11058.549,
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "focusEarnedDuringCapture": 52836,
+  "errorEventCount": 4,
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
+  "configurationChanges": [
+    {
+      "at": "2026-09-29T03:27:51.965885+00:00",
+      "item": "Balefire Charger Prime",
+      "configuration": "A",
+      "added": [
+        "Accelerated Isotope"
+      ],
+      "removed": [
+        "Lethal Torrent"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "missionCount": 9,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "startedAt": "2026-09-29T02:26:58.481588+00:00",
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

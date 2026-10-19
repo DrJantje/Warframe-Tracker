@@ -1,27 +1,4 @@
 {
-  "negativeItemDeltas": [
-    {
-      "item": "Amir's Shockwave Cred",
-      "delta": -60
-    },
-    {
-      "item": "Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Chassis Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Systems Blueprint",
-      "delta": -1
-    }
-  ],
-  "equipmentAdded": [],
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -133,10 +110,41 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "schemaVersion": 1,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "focusCounterAtCaptureEnd": 20201,
+  "durationSeconds": 2861.991,
   "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "missionCount": 9,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "focusEarnedDuringCapture": 20201,
+  "errorEventCount": 2,
+  "negativeItemDeltas": [
+    {
+      "item": "Amir's Shockwave Cred",
+      "delta": -60
+    },
+    {
+      "item": "Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Chassis Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Systems Blueprint",
+      "delta": -1
+    }
+  ],
   "configurationChanges": [
     {
       "at": "2026-10-15T01:25:29.289410+00:00",
@@ -159,18 +167,10 @@
       "helminthAfter": null
     }
   ],
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 20201,
-  "durationSeconds": 2861.991,
-  "focusCounterAtCaptureStart": 0,
-  "focusEarnedDuringCapture": 20201,
-  "errorEventCount": 2,
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
+  "missionCount": 9,
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
