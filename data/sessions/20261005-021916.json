@@ -90,8 +90,10 @@
       "delta": 1
     }
   ],
-  "stoppedAt": null,
-  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-10-05T02:19:21.558000+00:00",
@@ -227,14 +229,6 @@
       "incomplete": true
     }
   ],
-  "startedAt": "2026-10-05T02:19:16.904139+00:00",
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [],
-  "durationSeconds": null,
-  "errorEventCount": 5,
-  "missionCount": 11,
-  "equipmentAdded": [],
   "configurationChanges": [
     {
       "at": "2026-10-05T02:53:28.100082+00:00",
@@ -510,6 +504,12 @@
       "delta": -1
     }
   ],
+  "stoppedAt": null,
+  "durationSeconds": null,
+  "errorEventCount": 5,
+  "startedAt": "2026-10-05T02:19:16.904139+00:00",
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 11,
   "notableAcquisitions": [
     {
       "item": "Lith S18 Radiant",
