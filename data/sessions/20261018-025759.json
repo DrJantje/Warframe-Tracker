@@ -1,12 +1,25 @@
 {
+  "negativeItemDeltas": [
+    {
+      "item": "Void Traces",
+      "delta": -43
+    },
+    {
+      "item": "Air Support Charges",
+      "delta": -1
+    },
+    {
+      "item": "Axi S8 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "missionCount": 12,
   "startedAt": "2026-10-18T02:57:59.093590+00:00",
-  "equipmentAdded": [],
   "focusCounterAtCaptureStart": 0,
-  "durationSeconds": 4919.992,
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentRemoved": [],
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -105,27 +118,11 @@
       "delta": 1
     }
   ],
-  "missionCount": 12,
-  "configurationChanges": [],
+  "equipmentRemoved": [],
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
   "stoppedAt": "2026-10-18T04:19:59.085992+00:00",
-  "negativeItemDeltas": [
-    {
-      "item": "Void Traces",
-      "delta": -43
-    },
-    {
-      "item": "Air Support Charges",
-      "delta": -1
-    },
-    {
-      "item": "Axi S8 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
+  "errorEventCount": 5,
   "missions": [
     {
       "startedAt": "2026-10-18T02:58:05.262000+00:00",
@@ -273,7 +270,10 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 5,
+  "configurationChanges": [],
+  "durationSeconds": 4919.992,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
