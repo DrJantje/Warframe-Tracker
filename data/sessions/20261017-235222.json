@@ -1,46 +1,21 @@
 {
-  "missionCount": 2,
+  "durationSeconds": 3908.111,
+  "equipmentRemoved": [],
   "focusCounterAtCaptureEnd": 0,
-  "missions": [
+  "equipmentAdded": [
     {
-      "startedAt": "2026-10-17T23:53:02.972000+00:00",
-      "endedAt": "2026-10-17T23:56:40.761000+00:00",
-      "durationSeconds": 217.789,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "PlutoHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Prisma Tetra"
     },
     {
-      "startedAt": "2026-10-17T23:56:47.222000+00:00",
-      "endedAt": "2026-10-18T00:57:30.968399+00:00",
-      "durationSeconds": 3643.746,
-      "type": "RAILJACK",
-      "node": "RAILJACK",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "configurationChanges": [],
-  "errorEventCount": 3,
-  "focusEarnedDuringCapture": 0,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureStart": 0,
-  "positiveItemDeltas": [
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Prisma Twin Gremlins"
+    },
     {
-      "item": "Orokin Ducats",
-      "delta": 450
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Vericres"
     }
   ],
-  "startedAt": "2026-10-17T23:52:22.857868+00:00",
-  "durationSeconds": 3908.111,
   "negativeItemDeltas": [
     {
       "item": "Blueprint",
@@ -123,21 +98,46 @@
       "delta": -1
     }
   ],
-  "equipmentAdded": [
+  "schemaVersion": 1,
+  "missionCount": 2,
+  "positiveItemDeltas": [
     {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Prisma Tetra"
-    },
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Prisma Twin Gremlins"
-    },
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Vericres"
+      "item": "Orokin Ducats",
+      "delta": 450
     }
   ],
-  "schemaVersion": 1,
+  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-10-17T23:52:22.857868+00:00",
+  "missions": [
+    {
+      "startedAt": "2026-10-17T23:53:02.972000+00:00",
+      "endedAt": "2026-10-17T23:56:40.761000+00:00",
+      "durationSeconds": 217.789,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "PlutoHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-17T23:56:47.222000+00:00",
+      "endedAt": "2026-10-18T00:57:30.968399+00:00",
+      "durationSeconds": 3643.746,
+      "type": "RAILJACK",
+      "node": "RAILJACK",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "errorEventCount": 3,
+  "focusEarnedDuringCapture": 0,
+  "configurationChanges": [],
   "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
