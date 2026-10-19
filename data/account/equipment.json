@@ -3815,7 +3815,18 @@
       {
         "index": 1,
         "name": "B",
-        "mods": [],
+        "mods": [
+          {
+            "name": "Shotgun Barrage",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Point Blank",
+            "rank": 10,
+            "kind": "mod"
+          }
+        ],
         "arcanes": [],
         "helminthAbility": null
       },
@@ -5536,12 +5547,12 @@
         "name": "B",
         "mods": [
           {
-            "name": "Vigilante Armaments",
-            "rank": 5,
+            "name": "Atomic Fallout",
+            "rank": 3,
             "kind": "mod"
           },
           {
-            "name": "Incendiary Coat",
+            "name": "Shotgun Barrage",
             "rank": 5,
             "kind": "mod"
           },
@@ -5551,8 +5562,13 @@
             "kind": "mod"
           },
           {
-            "name": "Ravage",
-            "rank": 5,
+            "name": "Primed Charged Shell",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Ravage",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -5578,7 +5594,7 @@
         ],
         "arcanes": [
           {
-            "name": "Primary Merciless",
+            "name": "Primary Dexterity",
             "rank": 5,
             "kind": "arcane"
           }
@@ -16006,6 +16022,11 @@
         "name": "B",
         "mods": [
           {
+            "name": "Blood Rush",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
             "name": "Primed Fever Strike",
             "rank": 10,
             "kind": "mod"
@@ -16036,13 +16057,7 @@
             "kind": "mod"
           }
         ],
-        "arcanes": [
-          {
-            "name": "Melee Influence",
-            "rank": 5,
-            "kind": "arcane"
-          }
-        ],
+        "arcanes": [],
         "helminthAbility": null
       },
       {
@@ -34273,8 +34288,60 @@
       {
         "index": 1,
         "name": "B",
-        "mods": [],
-        "arcanes": [],
+        "mods": [
+          {
+            "name": "Primed Heated Charge",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Pistol Pestilence",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Frostbite",
+            "rank": 3,
+            "kind": "mod"
+          },
+          {
+            "name": "Lethal Torrent",
+            "rank": 5,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Pistol Gambit",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Primed Target Cracker",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Galvanized Diffusion",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Galvanized Shot",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Ruinous Extension",
+            "rank": 3,
+            "kind": "mod"
+          }
+        ],
+        "arcanes": [
+          {
+            "name": "Secondary Dexterity",
+            "rank": 5,
+            "kind": "arcane"
+          }
+        ],
         "helminthAbility": null
       },
       {

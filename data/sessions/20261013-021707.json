@@ -1,57 +1,9 @@
 {
-  "durationSeconds": 3319.871,
-  "missions": [
-    {
-      "startedAt": "2026-10-13T02:17:38.730000+00:00",
-      "endedAt": "2026-10-13T02:19:02.135000+00:00",
-      "durationSeconds": 83.405,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "EntratiLabHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-13T02:31:30.978000+00:00",
-      "endedAt": "2026-10-13T02:50:56.443000+00:00",
-      "durationSeconds": 1165.465,
-      "type": "MISSION",
-      "node": "ALBRECHT LABS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-13T02:54:21.808000+00:00",
-      "endedAt": "2026-10-13T03:04:57.050000+00:00",
-      "durationSeconds": 635.242,
-      "type": "MISSION",
-      "node": "ALBRECHT LABS",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-13T03:05:25.400000+00:00",
-      "endedAt": "2026-10-13T03:12:27.568729+00:00",
-      "durationSeconds": 422.169,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": null,
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
   "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-10-13T03:12:27.568729+00:00",
+  "schemaVersion": 1,
+  "startedAt": "2026-10-13T02:17:07.697403+00:00",
+  "errorEventCount": 5,
   "positiveItemDeltas": [
     {
       "item": "Entrati Obols",
@@ -110,17 +62,65 @@
       "delta": 1
     }
   ],
-  "configurationChanges": [],
-  "equipmentRemoved": [],
-  "missionCount": 4,
-  "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-10-13T03:12:27.568729+00:00",
-  "errorEventCount": 5,
   "equipmentAdded": [],
-  "startedAt": "2026-10-13T02:17:07.697403+00:00",
-  "schemaVersion": 1,
-  "negativeItemDeltas": [],
+  "missions": [
+    {
+      "startedAt": "2026-10-13T02:17:38.730000+00:00",
+      "endedAt": "2026-10-13T02:19:02.135000+00:00",
+      "durationSeconds": 83.405,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "EntratiLabHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-13T02:31:30.978000+00:00",
+      "endedAt": "2026-10-13T02:50:56.443000+00:00",
+      "durationSeconds": 1165.465,
+      "type": "MISSION",
+      "node": "ALBRECHT LABS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-13T02:54:21.808000+00:00",
+      "endedAt": "2026-10-13T03:04:57.050000+00:00",
+      "durationSeconds": 635.242,
+      "type": "MISSION",
+      "node": "ALBRECHT LABS",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-13T03:05:25.400000+00:00",
+      "endedAt": "2026-10-13T03:12:27.568729+00:00",
+      "durationSeconds": 422.169,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": null,
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "focusCounterAtCaptureEnd": 0,
+  "durationSeconds": 3319.871,
+  "equipmentRemoved": [],
+  "focusEarnedDuringCapture": 0,
+  "configurationChanges": [],
+  "negativeItemDeltas": [],
+  "missionCount": 4,
   "notableAcquisitions": [
     {
       "item": "Meso Y2 Intact",
