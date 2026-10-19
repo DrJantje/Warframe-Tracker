@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-19",
-    "exportVerifiedAt": "2026-10-19 10:26:05 PDT",
+    "exportVerifiedAt": "2026-10-19 14:53:50 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2168019,
-        "modified": "2026-10-19T10:26:04.147305-07:00",
-        "sha256": "2f3b6cd0d092069636e6253bf48f4474861973f8603e9176be6371c1762f7702"
+        "bytes": 2168018,
+        "modified": "2026-10-19T14:53:48.778699-07:00",
+        "sha256": "262e61c6eebf578ace04f3d839285fb0c7924650a82762881a6fa8142afcfa70"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,8 +17,8 @@
       },
       "inventoryMisc.json": {
         "bytes": 24913,
-        "modified": "2026-10-19T10:26:04.150331-07:00",
-        "sha256": "3eee80637f6511d273cda8dbd7968d1018f7d9d444aef5d2361b0cec3a358f36"
+        "modified": "2026-10-19T14:53:48.786319-07:00",
+        "sha256": "053786c8817a9ef5b0447799ef2e81b8e5db9d7c7aaf998448902c6f1e30c2b9"
       },
       "inventoryMods.json": {
         "bytes": 564161,
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62488,
-        "modified": "2026-10-19T10:26:04.148812-07:00",
+        "modified": "2026-10-19T14:53:48.782225-07:00",
         "sha256": "359b6f7fe27ba38be32bc0a2bdf7c40fb33407ee84f683c73ab27a53a573b048"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-19T10:26:04.149827-07:00",
+        "modified": "2026-10-19T14:53:48.783770-07:00",
         "sha256": "30f4398e65a9de4743f1cfdfb684309cf3cf8b3238ed30a97bd17becbd8b6577"
       },
       "inventorySets.json": {
         "bytes": 181442,
-        "modified": "2026-10-19T10:26:04.151335-07:00",
+        "modified": "2026-10-19T14:53:48.789337-07:00",
         "sha256": "a68e7e9a121d4cdbbbdc7b863108db09f853822ed29701fe8ee31cd6ba7eb965"
       },
       "rivens.json": {
@@ -46,13 +46,29 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Enkaus",
+        "before": [
+          "No",
+          "No",
+          "No",
+          "Enkaus Receiver"
+        ],
+        "after": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
       "parkedAt30": 1,
       "currentRankUnknown": 0,
-      "missing": 136
+      "missing": 135
     },
     "relicInventory": {
       "Axi D6 Intact": 3,
@@ -474,21 +490,6 @@
       "primeDetails": [],
       "liveMatches": [],
       "practicalPriority": 410
-    },
-    {
-      "ease": "5 — Long grind / trade",
-      "item": "Enkaus",
-      "type": "primary",
-      "targetRank": "30",
-      "missing": "Enkaus Receiver",
-      "route": "Follie’s Hunt / Aspirant Zorba",
-      "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
-      "tip": "Follie’s Hunt gives 15 Atramentum normally or 25 on Steel Path after completion. Atramentum Balloons award currency squad-wide.",
-      "source": "https://wiki.warframe.com/w/Enkaus",
-      "vaulted": "No",
-      "primeDetails": [],
-      "liveMatches": [],
-      "practicalPriority": 505
     },
     {
       "ease": "5 — Long grind / trade",
@@ -2491,6 +2492,15 @@
     }
   ],
   "owned": [
+    {
+      "item": "Enkaus",
+      "type": "primary",
+      "state": "Ready in Foundry",
+      "targetRank": "30",
+      "steps": "Claim from Foundry; equip and level to 30.",
+      "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
+      "source": "https://wiki.warframe.com/w/Enkaus"
+    },
     {
       "item": "Follie",
       "type": "warframe",
@@ -7139,17 +7149,17 @@
     {
       "item": "Enkaus",
       "type": "primary",
-      "state": "Missing",
+      "state": "Owned / in foundry; rank unknown",
       "owned": "No",
       "mastered": "No",
       "complete": "No",
       "targetRank": "30",
-      "rankRule": "",
-      "missing": "Enkaus Receiver",
-      "ease": "5 — Long grind / trade",
+      "rankRule": "Claim from Foundry, then level to 30.",
+      "missing": "",
+      "ease": "1 — Now / no farming",
       "route": "Follie’s Hunt / Aspirant Zorba",
       "vaulted": "No",
-      "pendingFoundry": "No",
+      "pendingFoundry": "Yes",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Enkaus",
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
