@@ -1,11 +1,15 @@
 {
-  "focusCounterAtCaptureStart": 0,
-  "startedAt": "2026-09-12T20:38:21.811871+00:00",
-  "equipmentAdded": [],
   "errorEventCount": 12,
-  "durationSeconds": 15786.642,
-  "missionCount": 5,
-  "focusCounterAtCaptureEnd": 115888,
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 438
+    }
+  ],
+  "startedAt": "2026-09-12T20:38:21.811871+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "negativeItemDeltas": [],
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-09-12T20:38:25.393000+00:00",
@@ -69,16 +73,12 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
+  "durationSeconds": 15786.642,
+  "focusCounterAtCaptureEnd": 115888,
   "focusEarnedDuringCapture": 115888,
-  "positiveItemDeltas": [
-    {
-      "item": "Rubedo",
-      "delta": 438
-    }
-  ],
-  "negativeItemDeltas": [],
-  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "missionCount": 5,
+  "stoppedAt": "2026-09-13T01:01:28.453575+00:00",
   "equipmentRemoved": [],
   "configurationChanges": [
     {
