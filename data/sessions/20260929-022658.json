@@ -1,5 +1,23 @@
 {
-  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Luminous Dye",
+      "delta": -2
+    },
+    {
+      "item": "Norg Bait",
+      "delta": -1
+    },
+    {
+      "item": "Pharoma",
+      "delta": -1
+    }
+  ],
+  "focusEarnedDuringCapture": 52836,
+  "schemaVersion": 1,
+  "equipmentAdded": [],
+  "focusCounterAtCaptureEnd": 52836,
+  "errorEventCount": 4,
   "missions": [
     {
       "startedAt": "2026-09-29T02:27:04.644000+00:00",
@@ -149,29 +167,10 @@
       "delta": 1
     }
   ],
-  "equipmentRemoved": [],
   "missionCount": 9,
-  "focusEarnedDuringCapture": 52836,
-  "equipmentAdded": [],
-  "durationSeconds": 11058.549,
-  "schemaVersion": 1,
-  "focusCounterAtCaptureEnd": 52836,
-  "errorEventCount": 4,
-  "negativeItemDeltas": [
-    {
-      "item": "Luminous Dye",
-      "delta": -2
-    },
-    {
-      "item": "Norg Bait",
-      "delta": -1
-    },
-    {
-      "item": "Pharoma",
-      "delta": -1
-    }
-  ],
+  "stoppedAt": "2026-09-29T05:31:17.030606+00:00",
   "startedAt": "2026-09-29T02:26:58.481588+00:00",
+  "equipmentRemoved": [],
   "configurationChanges": [
     {
       "at": "2026-09-29T03:27:51.965885+00:00",
@@ -188,6 +187,7 @@
       "helminthAfter": null
     }
   ],
+  "durationSeconds": 11058.549,
   "focusCounterAtCaptureStart": 0,
   "notableAcquisitions": [
     {
