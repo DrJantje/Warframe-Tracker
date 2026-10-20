@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T03:56:40.770791+00:00",
+  "generatedAt": "2026-10-20T04:13:49.716045+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-20T03:56:39.707Z",
+  "accountSnapshotAt": "2026-10-20T04:13:48.537Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-20T03:56:39.707Z",
+      "capturedAt": "2026-10-20T04:13:48.537Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-20T03:56:01.979Z",
-    "phase": "location",
-    "node": "SANCTUM",
+    "observedAt": "2026-10-20T04:13:17.555Z",
+    "phase": "mission",
+    "node": "ALBRECHT LABS",
     "planet": "DEIMOS",
-    "mission": "HUB",
+    "mission": "MISSION",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "ONLINE",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "arsenal-active",
+    "frameConfidence": "mission-active",
     "accountSnapshotStatus": "waiting"
   },
   "currentLoadouts": {
@@ -73,7 +73,7 @@
           "item": "Hildryn Prime",
           "category": "Suits",
           "configuration": "A",
-          "formaApplied": 4,
+          "formaApplied": 5,
           "focusLens": "Eidolon Naramon Lens",
           "polarities": [
             {
@@ -82,7 +82,7 @@
             },
             {
               "slot": 1,
-              "polarity": "AP_UMBRA"
+              "polarity": "AP_ANY"
             },
             {
               "slot": 2,
@@ -148,8 +148,8 @@
               "kind": "mod"
             },
             {
-              "name": "Umbral Intensify",
-              "rank": 10,
+              "name": "Precision Intensify",
+              "rank": 5,
               "kind": "mod"
             },
             {
@@ -188,7 +188,7 @@
               "kind": "mod"
             },
             {
-              "name": "Cunning Drift",
+              "name": "Power Drift",
               "rank": 5,
               "kind": "mod"
             }

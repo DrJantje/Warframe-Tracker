@@ -1,16 +1,16 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-20T03:56:40.770791+00:00
-Account snapshot: 2026-10-20T03:56:39.707Z
+Generated: 2026-10-20T04:13:49.716045+00:00
+Account snapshot: 2026-10-20T04:13:48.537Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
 ## Live state
 
-- Phase: location
-- Location: HUB
+- Phase: mission
+- Location: MISSION
 - Planet: DEIMOS
-- Frame observation: Titania (arsenal-active)
+- Frame observation: Titania (mission-active)
 - Steel Path: no
 - Matchmaking: ONLINE
 - Focus during current capture: 0
@@ -21,11 +21,11 @@ Use this as the player's current sanitized account and session context. Live obs
 
 #### Warframe: Hildryn Prime — config A
 
-- Forma: 4
+- Forma: 5
 - Lens: Eidolon Naramon Lens
 - Helminth: Shed Ability
 - Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
-- Mods: Augur Reach (rank 5), Umbral Intensify (rank 10), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Cunning Drift (rank 5)
+- Mods: Augur Reach (rank 5), Precision Intensify (rank 5), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Power Drift (rank 5)
 - Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
 
 #### Secondary: Tenet Cycron — config A
