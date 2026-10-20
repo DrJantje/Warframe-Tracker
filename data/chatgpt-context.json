@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T00:14:49.835436+00:00",
+  "generatedAt": "2026-10-20T01:02:08.044149+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,58 +8,58 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-20T00:14:48.496Z",
+  "accountSnapshotAt": "2026-10-20T01:02:06.807Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-20T00:14:48.496Z",
+      "capturedAt": "2026-10-20T01:02:06.807Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-20T00:14:40.949Z",
-    "phase": "mission",
-    "node": "RAILJACK",
-    "planet": "PROXIMA",
-    "mission": "RAILJACK",
+    "observedAt": "2026-10-20T01:02:04.956Z",
+    "phase": "orbiter",
+    "node": "ORBITER",
+    "planet": "",
+    "mission": "LOADOUT",
     "missionKey": null,
     "voidTier": null,
     "steelPath": false,
     "matchmaking": "PUBLIC",
     "focusDuringCurrentCapture": 0,
     "frameCandidate": "Titania",
-    "frameConfidence": "mission-active",
+    "frameConfidence": "location-active",
     "accountSnapshotStatus": "account-snapshot-confirmed"
   },
   "currentLoadouts": {
@@ -967,7 +967,7 @@
             },
             {
               "name": "Forward Artillery",
-              "rank": 8,
+              "rank": 10,
               "kind": "mod"
             },
             {
@@ -977,7 +977,7 @@
             },
             {
               "name": "Cruising Speed",
-              "rank": 8,
+              "rank": 10,
               "kind": "mod"
             },
             {
