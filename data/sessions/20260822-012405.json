@@ -1,15 +1,58 @@
 {
-  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
-  "equipmentAdded": [
+  "focusCounterAtCaptureStart": 0,
+  "durationSeconds": 6390.914,
+  "startedAt": "2026-08-22T01:24:05.753111+00:00",
+  "focusEarnedDuringCapture": 0,
+  "schemaVersion": 1,
+  "negativeItemDeltas": [
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Koumei"
+      "item": "Ferrite",
+      "delta": -8821
     },
     {
-      "at": "2026-08-22T02:23:53.946993+00:00",
-      "item": "Higasa"
+      "item": "Alloy Plate",
+      "delta": -5670
+    },
+    {
+      "item": "Thrax Plasm",
+      "delta": -89
+    },
+    {
+      "item": "Voidgel Orb",
+      "delta": -12
+    },
+    {
+      "item": "Voidplume Quill",
+      "delta": -9
+    },
+    {
+      "item": "Entrati Lanthorn",
+      "delta": -5
+    },
+    {
+      "item": "Blueprint",
+      "delta": -2
     }
   ],
+  "missionCount": 6,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
+  "stoppedAt": "2026-08-22T03:10:36.667293+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Koumei Helmet",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Crest",
+      "delta": 1
+    },
+    {
+      "item": "Voidplume Down",
+      "delta": 1
+    }
+  ],
+  "errorEventCount": 4,
   "configurationChanges": [
     {
       "at": "2026-08-22T02:23:53.946993+00:00",
@@ -32,7 +75,6 @@
       "helminthAfter": null
     }
   ],
-  "focusEarnedDuringCapture": 0,
   "missions": [
     {
       "startedAt": "2026-08-22T01:34:41.806000+00:00",
@@ -108,58 +150,16 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 4,
-  "negativeItemDeltas": [
+  "equipmentAdded": [
     {
-      "item": "Ferrite",
-      "delta": -8821
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Koumei"
     },
     {
-      "item": "Alloy Plate",
-      "delta": -5670
-    },
-    {
-      "item": "Thrax Plasm",
-      "delta": -89
-    },
-    {
-      "item": "Voidgel Orb",
-      "delta": -12
-    },
-    {
-      "item": "Voidplume Quill",
-      "delta": -9
-    },
-    {
-      "item": "Entrati Lanthorn",
-      "delta": -5
-    },
-    {
-      "item": "Blueprint",
-      "delta": -2
+      "at": "2026-08-22T02:23:53.946993+00:00",
+      "item": "Higasa"
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Koumei Helmet",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Crest",
-      "delta": 1
-    },
-    {
-      "item": "Voidplume Down",
-      "delta": 1
-    }
-  ],
-  "focusCounterAtCaptureEnd": 0,
-  "schemaVersion": 1,
-  "missionCount": 6,
-  "equipmentRemoved": [],
-  "durationSeconds": 6390.914,
-  "focusCounterAtCaptureStart": 0,
-  "startedAt": "2026-08-22T01:24:05.753111+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
