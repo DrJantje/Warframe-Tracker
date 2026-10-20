@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T05:01:18.364867+00:00",
+  "generatedAt": "2026-10-20T05:33:31.791461+00:00",
   "purpose": "Current sanitized Warframe context for ordinary ChatGPT and personal analysis.",
   "instructionsForChatGPT": [
     "Treat liveState as observational and currentLoadouts as the latest synchronized account snapshot.",
@@ -8,47 +8,47 @@
     "Use the deeper linked files when the question needs owned mods, Arcanes, Rivens, resources, or alternate configurations.",
     "Do not infer ownership from recommendations; use the published account files."
   ],
-  "accountSnapshotAt": "2026-10-20T05:01:17.338Z",
+  "accountSnapshotAt": "2026-10-20T04:23:15.958Z",
   "dataProvenance": {
     "equipment": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "loadouts": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "focus": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus explicit school and intrinsic mappings"
     },
     "resources": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus tracker catalog"
     },
     "mods": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker mod metadata"
     },
     "arcanes": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "current item-name catalog plus static tracker Arcane metadata"
     },
     "rivens": {
-      "capturedAt": "2026-10-20T05:01:17.338Z",
+      "capturedAt": "2026-10-20T04:23:15.958Z",
       "ownershipSource": "direct read-only Digital Extremes account snapshot",
       "metadataSource": "direct fingerprints; trait values intentionally not decoded"
     },
     "metadataUpdatedAt": "2026-08-13T05:30:45.999Z"
   },
   "liveState": {
-    "observedAt": "2026-10-20T05:01:15.901Z",
+    "observedAt": "2026-10-20T05:02:45.390Z",
     "phase": "mission",
     "node": "CORPUS",
     "planet": "LOCAL AREA",
@@ -849,17 +849,12 @@
           "helminthAbility": null,
           "mods": [
             {
-              "name": "Xata",
+              "name": "Drive-Duster",
               "rank": 2,
               "kind": "mod"
             },
             {
-              "name": "Oull",
-              "rank": 1,
-              "kind": "mod"
-            },
-            {
-              "name": "Ris",
+              "name": "Byteryte",
               "rank": 2,
               "kind": "mod"
             }
@@ -1780,121 +1775,18 @@
     }
   },
   "lastCompletedSession": {
-    "file": "20261019-215301.json",
-    "startedAt": "2026-10-19T21:53:01.876942+00:00",
-    "stoppedAt": "2026-10-20T02:14:04.050020+00:00",
-    "durationSeconds": 15662.173,
-    "missionCount": 17,
+    "file": "20261020-033205.json",
+    "startedAt": "2026-10-20T03:32:05.696572+00:00",
+    "stoppedAt": null,
+    "durationSeconds": null,
+    "missionCount": 12,
     "focusEarnedDuringCapture": 0,
-    "topGains": [
-      {
-        "item": "Nano Spores",
-        "delta": 146750
-      },
-      {
-        "item": "Plastids",
-        "delta": 5712
-      },
-      {
-        "item": "Carbides",
-        "delta": 776
-      },
-      {
-        "item": "Cubic Diodes",
-        "delta": 670
-      },
-      {
-        "item": "Road To Tau Event Resource",
-        "delta": 261
-      },
-      {
-        "item": "Oxium",
-        "delta": 66
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 56
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 22
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 21
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 16
-      },
-      {
-        "item": "Neurodes",
-        "delta": 16
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      }
-    ],
-    "notableAcquisitions": [
-      {
-        "item": "Blueprint",
-        "delta": 1
-      }
-    ],
-    "resourceGains": [
-      {
-        "item": "Nano Spores",
-        "delta": 146750
-      },
-      {
-        "item": "Plastids",
-        "delta": 5712
-      },
-      {
-        "item": "Carbides",
-        "delta": 776
-      },
-      {
-        "item": "Cubic Diodes",
-        "delta": 670
-      },
-      {
-        "item": "Road To Tau Event Resource",
-        "delta": 261
-      },
-      {
-        "item": "Oxium",
-        "delta": 66
-      },
-      {
-        "item": "Nav Coordinate",
-        "delta": 56
-      },
-      {
-        "item": "Riven Sliver",
-        "delta": 22
-      },
-      {
-        "item": "Steel Essence",
-        "delta": 21
-      },
-      {
-        "item": "Mutagen Sample",
-        "delta": 16
-      },
-      {
-        "item": "Neurodes",
-        "delta": 16
-      },
-      {
-        "item": "Ayatan Cyan Star",
-        "delta": 1
-      }
-    ],
+    "topGains": [],
+    "notableAcquisitions": [],
+    "resourceGains": [],
     "railjackSalvageCount": 0,
     "configurationChangeCount": 0,
-    "errorEventCount": 10
+    "errorEventCount": 6
   },
   "deeperData": {
     "dashboard": "https://drjantje.github.io/Warframe-Tracker/account.html",
