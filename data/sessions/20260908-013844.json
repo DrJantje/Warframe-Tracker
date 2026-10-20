@@ -1,11 +1,4 @@
 {
-  "schemaVersion": 1,
-  "startedAt": "2026-09-08T01:38:44.297821+00:00",
-  "equipmentRemoved": [],
-  "missionCount": 4,
-  "equipmentAdded": [],
-  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
-  "errorEventCount": 3,
   "focusCounterAtCaptureStart": 0,
   "negativeItemDeltas": [
     {
@@ -13,9 +6,29 @@
       "delta": -5
     }
   ],
-  "configurationChanges": [],
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
+  "startedAt": "2026-09-08T01:38:44.297821+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Rubedo",
+      "delta": 1136
+    },
+    {
+      "item": "Alloy Plate",
+      "delta": 764
+    },
+    {
+      "item": "Plastids",
+      "delta": 280
+    },
+    {
+      "item": "Oxium",
+      "delta": 94
+    },
+    {
+      "item": "Nav Coordinate",
+      "delta": 6
+    }
+  ],
   "missions": [
     {
       "startedAt": "2026-09-08T01:38:50.939000+00:00",
@@ -67,29 +80,16 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Rubedo",
-      "delta": 1136
-    },
-    {
-      "item": "Alloy Plate",
-      "delta": 764
-    },
-    {
-      "item": "Plastids",
-      "delta": 280
-    },
-    {
-      "item": "Oxium",
-      "delta": 94
-    },
-    {
-      "item": "Nav Coordinate",
-      "delta": 6
-    }
-  ],
+  "schemaVersion": 1,
   "durationSeconds": 1458.042,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 4,
+  "stoppedAt": "2026-09-08T02:03:02.339558+00:00",
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "configurationChanges": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

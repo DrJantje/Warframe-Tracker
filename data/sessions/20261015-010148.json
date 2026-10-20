@@ -1,11 +1,4 @@
 {
-  "schemaVersion": 1,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "equipmentRemoved": [],
-  "missionCount": 9,
-  "equipmentAdded": [],
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "errorEventCount": 2,
   "focusCounterAtCaptureStart": 0,
   "negativeItemDeltas": [
     {
@@ -29,30 +22,13 @@
       "delta": -1
     }
   ],
-  "configurationChanges": [
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "positiveItemDeltas": [
     {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
+      "item": "Nitain Extract",
+      "delta": 20
     }
   ],
-  "focusCounterAtCaptureEnd": 20201,
-  "focusEarnedDuringCapture": 20201,
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -164,13 +140,37 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
+  "schemaVersion": 1,
+  "durationSeconds": 2861.991,
+  "errorEventCount": 2,
+  "focusCounterAtCaptureEnd": 20201,
+  "focusEarnedDuringCapture": 20201,
+  "missionCount": 9,
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "configurationChanges": [
     {
-      "item": "Nitain Extract",
-      "delta": 20
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
     }
   ],
-  "durationSeconds": 2861.991,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

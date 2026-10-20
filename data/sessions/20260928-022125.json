@@ -1,11 +1,4 @@
 {
-  "schemaVersion": 1,
-  "startedAt": "2026-09-28T02:21:25.755368+00:00",
-  "equipmentRemoved": [],
-  "missionCount": 9,
-  "equipmentAdded": [],
-  "stoppedAt": "2026-09-28T02:58:09.696059+00:00",
-  "errorEventCount": 3,
   "focusCounterAtCaptureStart": 0,
   "negativeItemDeltas": [
     {
@@ -13,9 +6,21 @@
       "delta": -20
     }
   ],
-  "configurationChanges": [],
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
+  "startedAt": "2026-09-28T02:21:25.755368+00:00",
+  "positiveItemDeltas": [
+    {
+      "item": "Blueprint",
+      "delta": 3
+    },
+    {
+      "item": "Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Stock",
+      "delta": 1
+    }
+  ],
   "missions": [
     {
       "startedAt": "2026-09-28T02:21:30.936000+00:00",
@@ -127,21 +132,16 @@
       "incomplete": true
     }
   ],
-  "positiveItemDeltas": [
-    {
-      "item": "Blueprint",
-      "delta": 3
-    },
-    {
-      "item": "Barrel",
-      "delta": 1
-    },
-    {
-      "item": "Stock",
-      "delta": 1
-    }
-  ],
+  "schemaVersion": 1,
   "durationSeconds": 2203.941,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureEnd": 0,
+  "focusEarnedDuringCapture": 0,
+  "missionCount": 9,
+  "stoppedAt": "2026-09-28T02:58:09.696059+00:00",
+  "equipmentRemoved": [],
+  "equipmentAdded": [],
+  "configurationChanges": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",

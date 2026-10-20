@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-20T04:27:23.426918+00:00
-Account snapshot: 2026-10-20T04:27:22.400Z
+Generated: 2026-10-20T04:30:32.460057+00:00
+Account snapshot: 2026-10-20T04:30:31.512Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,23 +10,23 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (server-sent)
+- Frame observation: Titania (arsenal-active)
 - Steel Path: no
 - Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
 
-### Arsenal: Hildryn
+### Arsenal: Mesa
 
-#### Warframe: Hildryn Prime — config A
+#### Warframe: Mesa Prime — config Heat
 
-- Forma: 5
-- Lens: Eidolon Naramon Lens
-- Helminth: Shed Ability
-- Archon shards: ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_RED_MYTHIC Archon Crystal Upgrade Warframe Ability Strength Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
-- Mods: Augur Reach (rank 5), Precision Intensify (rank 5), Transient Fortitude (rank 10), Stretch (rank 5), Aegis Gale (rank 3), Blind Rage (rank 10), Primed Redirection (rank 10), Archon Continuity (rank 10), Corrosive Projection (rank 5), Power Drift (rank 5)
-- Arcanes: Arcane Sculptor (rank 5), Arcane Expertise (rank 5)
+- Forma: 2
+- Lens: Greater Unairu Lens
+- Helminth: Xata's Whisper
+- Archon shards: ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_ORANGE_MYTHIC Archon Crystal Upgrade Weapon Crit Boost From Heat Mythic, ACC_YELLOW_MYTHIC Archon Crystal Upgrade Warframe Casting Speed Mythic
+- Mods: Archon Continuity (rank 10), Precision Intensify (rank 5), Fleeting Expertise (rank 5), Primed Flow (rank 10), Streamline (rank 5), Adaptation (rank 10), Archon Vitality (rank 10), Equilibrium (rank 10), Growing Power (rank 5), Mesa's Waltz (rank 3)
+- Arcanes: Arcane Hot Shot (rank 4), Arcane Velocity (rank 5)
 
 #### Secondary: Tenet Cycron — config A
 
@@ -54,13 +54,13 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Automatic Trigger (rank 5), Magnetized Cycle (rank 3), Hollowed Bullets (rank 3), Dual Rounds (rank 5), Combustion Rounds (rank 5), Containment Breach (rank 3), Parallax Scope (rank 3), Primed Rubedo-Lined Barrel (rank 10)
 - Arcanes: Primary Merciless (rank 5), Secondary Enervate (rank 5)
 
-#### Exalted weapon: Balefire Charger Prime — config A
+#### Exalted weapon: Regulators Prime — config Heat
 
-- Forma: 8
-- Mods: Primed Convulsion (rank 10), Primed Heated Charge (rank 10), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Target Cracker (rank 10), Primed Fulmination (rank 10), Galvanized Diffusion (rank 10), Hornet Strike (rank 10), Lethal Momentum (rank 3)
-- Arcanes: Secondary Enervate (rank 5)
+- Forma: 5
+- Mods: Primed Heated Charge (rank 10), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Galvanized Shot (rank 10), Galvanized Diffusion (rank 10), Suppress (rank 3)
+- Arcanes: Cascadia Flare (rank 5)
 
-### Companion: Hildryn
+### Companion: Mesa
 
 #### Companion: Panzer Vulpaphyla — config A
 
@@ -68,10 +68,10 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Viral Quills (rank 3), Fetch (rank 5), Synth Deconstruct (rank 5), Calculated Redirection (rank 10), Contagious Bond (rank 5), Panzer Devolution (rank 3), Primed Animal Instinct (rank 10), Resourceful Retriever (rank 5), Reinforced Bond (rank 5), Tenacious Bond (rank 5)
 - Arcanes: none recorded
 
-#### Companion weapon: Artax — config A
+#### Companion weapon: Verglas — config A
 
 - Forma: 0
-- Mods: Sinister Reach (rank 3), Cryo Rounds (rank 5), Serration (rank 10)
+- Mods: Split Chamber (rank 5), Serration (rank 10)
 - Arcanes: none recorded
 
 #### Companion natural weapon: Panzer Vulpaphyla Pet Weapon — config A
