@@ -1,37 +1,4 @@
 {
-  "startedAt": "2026-10-09T02:20:02.294415+00:00",
-  "missions": [
-    {
-      "startedAt": "2026-10-09T02:20:27.329000+00:00",
-      "endedAt": "2026-10-09T02:26:15.906000+00:00",
-      "durationSeconds": 348.577,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "ZarimanHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-09T02:33:34.986000+00:00",
-      "endedAt": "2026-10-09T04:24:10.478744+00:00",
-      "durationSeconds": 6635.493,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IceBladeHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "focusCounterAtCaptureStart": 0,
-  "focusCounterAtCaptureEnd": 0,
-  "missionCount": 2,
-  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
-  "equipmentRemoved": [],
   "schemaVersion": 1,
   "configurationChanges": [
     {
@@ -75,19 +42,11 @@
       "helminthAfter": null
     }
   ],
-  "errorEventCount": 6,
-  "equipmentAdded": [],
-  "negativeItemDeltas": [
-    {
-      "item": "Entropic Kuva Item",
-      "delta": -400
-    },
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
+  "equipmentRemoved": [],
   "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "missionCount": 2,
   "positiveItemDeltas": [
     {
       "item": "Kuva",
@@ -178,7 +137,48 @@
       "delta": 1
     }
   ],
+  "missions": [
+    {
+      "startedAt": "2026-10-09T02:20:27.329000+00:00",
+      "endedAt": "2026-10-09T02:26:15.906000+00:00",
+      "durationSeconds": 348.577,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "ZarimanHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-09T02:33:34.986000+00:00",
+      "endedAt": "2026-10-09T04:24:10.478744+00:00",
+      "durationSeconds": 6635.493,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IceBladeHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "durationSeconds": 7448.184,
+  "errorEventCount": 6,
+  "equipmentAdded": [],
+  "startedAt": "2026-10-09T02:20:02.294415+00:00",
+  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
+  "negativeItemDeltas": [
+    {
+      "item": "Entropic Kuva Item",
+      "delta": -400
+    },
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
   "notableAcquisitions": [
     {
       "item": "Duelist Bow Blueprint",
