@@ -1,7 +1,6 @@
 {
   "startedAt": "2026-09-28T17:31:52.789778+00:00",
-  "missionCount": 10,
-  "focusCounterAtCaptureStart": 0,
+  "equipmentAdded": [],
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -84,8 +83,6 @@
       "delta": 1
     }
   ],
-  "durationSeconds": 2601.937,
-  "schemaVersion": 1,
   "negativeItemDeltas": [
     {
       "item": "Polymer Bundle",
@@ -124,6 +121,100 @@
       "delta": -1
     }
   ],
+  "configurationChanges": [
+    {
+      "at": "2026-09-28T17:43:08.850449+00:00",
+      "item": "Vasto Prime",
+      "configuration": "A",
+      "added": [
+        "Primed Convulsion",
+        "Barrel Diffusion",
+        "Hornet Strike"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T17:43:08.850449+00:00",
+      "item": "Vasto Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T17:43:08.850449+00:00",
+      "item": "Vasto Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T17:43:08.850449+00:00",
+      "item": "Dakra Prime",
+      "configuration": "A",
+      "added": [
+        "Magnetic Rush",
+        "True Steel",
+        "Pressure Point",
+        "Primed Fever Strike",
+        "Primed Reach",
+        "Swooping Falcon"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T17:43:08.850449+00:00",
+      "item": "Dakra Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T17:43:08.850449+00:00",
+      "item": "Dakra Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-09-28T18:04:12.636185+00:00",
+      "item": "Diwata Prime",
+      "configuration": "A",
+      "added": [
+        "Parry"
+      ],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "schemaVersion": 1,
+  "missionCount": 10,
+  "durationSeconds": 2601.937,
+  "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
+  "errorEventCount": 2,
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-09-28T17:31:57.444000+00:00",
@@ -247,97 +338,6 @@
       "incomplete": true
     }
   ],
-  "stoppedAt": "2026-09-28T18:15:14.727134+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-09-28T17:43:08.850449+00:00",
-      "item": "Vasto Prime",
-      "configuration": "A",
-      "added": [
-        "Primed Convulsion",
-        "Barrel Diffusion",
-        "Hornet Strike"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T17:43:08.850449+00:00",
-      "item": "Vasto Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T17:43:08.850449+00:00",
-      "item": "Vasto Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T17:43:08.850449+00:00",
-      "item": "Dakra Prime",
-      "configuration": "A",
-      "added": [
-        "Magnetic Rush",
-        "True Steel",
-        "Pressure Point",
-        "Primed Fever Strike",
-        "Primed Reach",
-        "Swooping Falcon"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T17:43:08.850449+00:00",
-      "item": "Dakra Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T17:43:08.850449+00:00",
-      "item": "Dakra Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-09-28T18:04:12.636185+00:00",
-      "item": "Diwata Prime",
-      "configuration": "A",
-      "added": [
-        "Parry"
-      ],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
-  "errorEventCount": 2,
-  "equipmentRemoved": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
