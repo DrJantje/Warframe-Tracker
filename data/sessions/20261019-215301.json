@@ -1,12 +1,6 @@
 {
-  "startedAt": "2026-10-19T21:53:01.876942+00:00",
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    }
-  ],
-  "schemaVersion": 1,
+  "durationSeconds": 15662.173,
+  "errorEventCount": 10,
   "missions": [
     {
       "startedAt": "2026-10-19T21:53:07.562000+00:00",
@@ -214,16 +208,17 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "errorEventCount": 10,
-  "configurationChanges": [],
-  "stoppedAt": "2026-10-20T02:14:04.050020+00:00",
-  "equipmentRemoved": [],
   "focusCounterAtCaptureEnd": 0,
-  "equipmentAdded": [],
-  "durationSeconds": 15662.173,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    }
+  ],
+  "startedAt": "2026-10-19T21:53:01.876942+00:00",
+  "focusCounterAtCaptureStart": 0,
+  "configurationChanges": [],
   "focusEarnedDuringCapture": 0,
-  "missionCount": 17,
   "positiveItemDeltas": [
     {
       "item": "Nano Spores",
@@ -278,6 +273,11 @@
       "delta": 1
     }
   ],
+  "equipmentRemoved": [],
+  "missionCount": 17,
+  "equipmentAdded": [],
+  "stoppedAt": "2026-10-20T02:14:04.050020+00:00",
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Blueprint",
