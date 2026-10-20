@@ -1,32 +1,4 @@
 {
-  "errorEventCount": 2,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureStart": 0,
-  "missionCount": 9,
-  "startedAt": "2026-10-15T01:01:48.506996+00:00",
-  "configurationChanges": [
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-15T01:25:29.289410+00:00",
-      "item": "Vauban Prime",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "focusCounterAtCaptureEnd": 20201,
   "negativeItemDeltas": [
     {
       "item": "Amir's Shockwave Cred",
@@ -49,17 +21,7 @@
       "delta": -1
     }
   ],
-  "durationSeconds": 2861.991,
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
-  "schemaVersion": 1,
-  "equipmentRemoved": [],
-  "positiveItemDeltas": [
-    {
-      "item": "Nitain Extract",
-      "delta": 20
-    }
-  ],
-  "focusEarnedDuringCapture": 20201,
+  "focusCounterAtCaptureEnd": 20201,
   "missions": [
     {
       "startedAt": "2026-10-15T01:01:54.660000+00:00",
@@ -171,6 +133,44 @@
       "incomplete": true
     }
   ],
+  "equipmentAdded": [],
+  "focusCounterAtCaptureStart": 0,
+  "startedAt": "2026-10-15T01:01:48.506996+00:00",
+  "equipmentRemoved": [],
+  "durationSeconds": 2861.991,
+  "configurationChanges": [
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-15T01:25:29.289410+00:00",
+      "item": "Vauban Prime",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 20201,
+  "positiveItemDeltas": [
+    {
+      "item": "Nitain Extract",
+      "delta": 20
+    }
+  ],
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "missionCount": 9,
+  "errorEventCount": 2,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [
