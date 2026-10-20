@@ -1,4 +1,5 @@
 {
+  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-13T19:37:28.975530+00:00",
@@ -42,12 +43,8 @@
       "helminthAfter": null
     }
   ],
-  "startedAt": "2026-09-13T17:53:32.170299+00:00",
-  "focusEarnedDuringCapture": 283209,
-  "schemaVersion": 1,
   "equipmentAdded": [],
-  "equipmentRemoved": [],
-  "errorEventCount": 7,
+  "startedAt": "2026-09-13T17:53:32.170299+00:00",
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -106,6 +103,9 @@
       "delta": 1
     }
   ],
+  "missionCount": 1,
+  "durationSeconds": 14010.325,
+  "schemaVersion": 1,
   "negativeItemDeltas": [
     {
       "item": "Nano Spores",
@@ -232,8 +232,11 @@
       "delta": -1
     }
   ],
-  "missionCount": 1,
+  "errorEventCount": 7,
+  "focusEarnedDuringCapture": 283209,
   "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 283209,
+  "equipmentRemoved": [],
   "missions": [
     {
       "startedAt": "2026-09-13T17:53:36.300000+00:00",
@@ -249,9 +252,6 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 283209,
-  "durationSeconds": 14010.325,
-  "stoppedAt": "2026-09-13T21:47:02.495322+00:00",
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",

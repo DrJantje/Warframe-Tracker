@@ -1,4 +1,5 @@
 {
+  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
   "configurationChanges": [
     {
       "at": "2026-09-02T03:05:13.753527+00:00",
@@ -11,17 +12,8 @@
       "helminthAfter": null
     }
   ],
-  "startedAt": "2026-09-02T02:12:11.653637+00:00",
-  "focusEarnedDuringCapture": 0,
-  "schemaVersion": 1,
   "equipmentAdded": [],
-  "equipmentRemoved": [
-    {
-      "at": "2026-09-02T03:05:13.753527+00:00",
-      "item": "Octavia"
-    }
-  ],
-  "errorEventCount": 4,
+  "startedAt": "2026-09-02T02:12:11.653637+00:00",
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -32,6 +24,9 @@
       "delta": 1
     }
   ],
+  "missionCount": 10,
+  "durationSeconds": 5473.26,
+  "schemaVersion": 1,
   "negativeItemDeltas": [
     {
       "item": "Cubic Diodes",
@@ -46,8 +41,16 @@
       "delta": -1
     }
   ],
-  "missionCount": 10,
+  "errorEventCount": 4,
+  "focusEarnedDuringCapture": 0,
   "focusCounterAtCaptureStart": 0,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [
+    {
+      "at": "2026-09-02T03:05:13.753527+00:00",
+      "item": "Octavia"
+    }
+  ],
   "missions": [
     {
       "startedAt": "2026-09-02T02:12:18.346000+00:00",
@@ -171,9 +174,6 @@
       "incomplete": true
     }
   ],
-  "focusCounterAtCaptureEnd": 0,
-  "durationSeconds": 5473.26,
-  "stoppedAt": "2026-09-02T03:43:24.913760+00:00",
   "notableAcquisitions": [
     {
       "item": "Blueprint",
