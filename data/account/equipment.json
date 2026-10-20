@@ -1370,7 +1370,7 @@
     "buildRef": "pistols-010",
     "name": "Angstrum",
     "category": "Pistols",
-    "xp": 509435,
+    "xp": 1515550,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -1795,7 +1795,7 @@
     "buildRef": "specialitems-015",
     "name": "Arquebex",
     "category": "SpecialItems",
-    "xp": 4373470,
+    "xp": 5952115,
     "formaApplied": 2,
     "focusLens": null,
     "polarities": [
@@ -2767,7 +2767,7 @@
     "buildRef": "specialitems-056",
     "name": "Balefire Charger Prime",
     "category": "SpecialItems",
-    "xp": 239406454,
+    "xp": 241689219,
     "formaApplied": 8,
     "focusLens": null,
     "polarities": [
@@ -5439,7 +5439,7 @@
     "buildRef": "longguns-069",
     "name": "Coda Bubonico",
     "category": "LongGuns",
-    "xp": 68809831,
+    "xp": 69079155,
     "formaApplied": 5,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -7410,13 +7410,8 @@
         "name": "A",
         "mods": [
           {
-            "name": "Umbral Vitality",
-            "rank": 7,
-            "kind": "mod"
-          },
-          {
             "name": "Umbral Fiber",
-            "rank": 7,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -7464,10 +7459,15 @@
     "buildRef": "suits-047",
     "name": "Dagath",
     "category": "Suits",
-    "xp": 1460003,
-    "formaApplied": 0,
+    "xp": 0,
+    "formaApplied": 1,
     "focusLens": null,
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 4,
+        "polarity": "AP_UMBRA"
+      }
+    ],
     "modularParts": [],
     "archonShards": [],
     "configurations": [
@@ -7476,27 +7476,22 @@
         "name": "A",
         "mods": [
           {
-            "name": "Augur Message",
-            "rank": 5,
-            "kind": "mod"
-          },
-          {
-            "name": "Augur Reach",
-            "rank": 5,
-            "kind": "mod"
-          },
-          {
             "name": "Spectral Spirit",
             "rank": 3,
             "kind": "mod"
           },
           {
-            "name": "Augur Secrets",
-            "rank": 5,
+            "name": "Umbral Intensify",
+            "rank": 10,
             "kind": "mod"
           },
           {
-            "name": "Augur Accord",
+            "name": "Narrow Minded",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Augur Message",
             "rank": 5,
             "kind": "mod"
           },
@@ -8264,7 +8259,7 @@
     "buildRef": "crewshipharnesses-001",
     "name": "Default Harness",
     "category": "CrewShipHarnesses",
-    "xp": 8069653,
+    "xp": 8088895,
     "formaApplied": 3,
     "focusLens": null,
     "polarities": [
@@ -8368,17 +8363,17 @@
           },
           {
             "name": "Forward Artillery",
-            "rank": 8,
+            "rank": 10,
             "kind": "mod"
           },
           {
             "name": "Warhead",
-            "rank": 8,
+            "rank": 10,
             "kind": "mod"
           },
           {
             "name": "Cruising Speed",
-            "rank": 8,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -12312,7 +12307,7 @@
     "buildRef": "melee-102",
     "name": "Furax Wraith",
     "category": "Melee",
-    "xp": 25180314,
+    "xp": 25271813,
     "formaApplied": 0,
     "focusLens": "Greater Unairu Lens",
     "polarities": [],
@@ -14691,7 +14686,7 @@
     "buildRef": "suits-055",
     "name": "Hildryn Prime",
     "category": "Suits",
-    "xp": 294230641,
+    "xp": 296513406,
     "formaApplied": 4,
     "focusLens": "Eidolon Naramon Lens",
     "polarities": [
@@ -15355,32 +15350,27 @@
         "name": "A",
         "mods": [
           {
-            "name": "Continuity",
-            "rank": 5,
-            "kind": "mod"
-          },
-          {
             "name": "Stretch",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Pilfering Swarm",
-            "rank": 3,
-            "kind": "mod"
-          },
-          {
-            "name": "Vigor",
+            "name": "Streamline",
             "rank": 5,
             "kind": "mod"
           },
           {
-            "name": "Intensify",
-            "rank": 5,
+            "name": "Vitality",
+            "rank": 10,
             "kind": "mod"
           },
           {
-            "name": "Dreamer's Bond",
+            "name": "Primed Redirection",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Energy Siphon",
             "rank": 5,
             "kind": "mod"
           }
@@ -18839,10 +18829,15 @@
     "buildRef": "suits-012",
     "name": "Lavos Prime",
     "category": "Suits",
-    "xp": 4916080,
-    "formaApplied": 0,
+    "xp": 1086125,
+    "formaApplied": 1,
     "focusLens": "Greater Naramon Lens",
-    "polarities": [],
+    "polarities": [
+      {
+        "slot": 0,
+        "polarity": "AP_ATTACK"
+      }
+    ],
     "modularParts": [],
     "archonShards": [],
     "configurations": [
@@ -18851,8 +18846,13 @@
         "name": "A",
         "mods": [
           {
-            "name": "Valence Formation",
-            "rank": 3,
+            "name": "Archon Continuity",
+            "rank": 10,
+            "kind": "mod"
+          },
+          {
+            "name": "Umbral Vitality",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -18861,12 +18861,12 @@
             "kind": "mod"
           },
           {
-            "name": "Umbral Vitality",
-            "rank": 7,
+            "name": "Valence Formation",
+            "rank": 3,
             "kind": "mod"
           },
           {
-            "name": "Augur Secrets",
+            "name": "Augur Reach",
             "rank": 5,
             "kind": "mod"
           },
@@ -18876,8 +18876,8 @@
             "kind": "mod"
           },
           {
-            "name": "Umbral Fiber",
-            "rank": 7,
+            "name": "Umbral Intensify",
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -20775,7 +20775,7 @@
     "buildRef": "spaceguns-002",
     "name": "Mausolon",
     "category": "SpaceGuns",
-    "xp": 14761847,
+    "xp": 14981452,
     "formaApplied": 3,
     "focusLens": null,
     "polarities": [
@@ -21155,7 +21155,7 @@
     "buildRef": "suits-013",
     "name": "Mesa Prime",
     "category": "Suits",
-    "xp": 54121366,
+    "xp": 54687180,
     "formaApplied": 2,
     "focusLens": "Greater Unairu Lens",
     "polarities": [
@@ -22578,7 +22578,7 @@
     "buildRef": "melee-071",
     "name": "Nepheri",
     "category": "Melee",
-    "xp": 529194,
+    "xp": 1541825,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -22590,11 +22590,6 @@
         "name": "A",
         "mods": [
           {
-            "name": "Drifting Contact",
-            "rank": 3,
-            "kind": "mod"
-          },
-          {
             "name": "Pressure Point",
             "rank": 5,
             "kind": "mod"
@@ -22605,8 +22600,8 @@
             "kind": "mod"
           },
           {
-            "name": "Gnashing Payara",
-            "rank": 3,
+            "name": "Primed Reach",
+            "rank": 10,
             "kind": "mod"
           }
         ],
@@ -23275,11 +23270,6 @@
         "name": "A",
         "mods": [
           {
-            "name": "Umbral Vitality",
-            "rank": 7,
-            "kind": "mod"
-          },
-          {
             "name": "Archon Continuity",
             "rank": 10,
             "kind": "mod"
@@ -23291,7 +23281,7 @@
           },
           {
             "name": "Umbral Fiber",
-            "rank": 7,
+            "rank": 10,
             "kind": "mod"
           },
           {
@@ -23997,7 +23987,7 @@
     "buildRef": "operatoramps-006",
     "name": "Operator Amp Weapon",
     "category": "OperatorAmps",
-    "xp": 22118816,
+    "xp": 22368282,
     "formaApplied": 0,
     "focusLens": "Eidolon Vazarin Lens",
     "polarities": [],
@@ -25014,7 +25004,7 @@
     "buildRef": "kubrowpets-006",
     "name": "Panzer Vulpaphyla",
     "category": "KubrowPets",
-    "xp": 935954348,
+    "xp": 937789788,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [
@@ -25170,7 +25160,7 @@
     "buildRef": "specialitems-029",
     "name": "Panzer Vulpaphyla Pet Weapon",
     "category": "SpecialItems",
-    "xp": 896811046,
+    "xp": 898366711,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -28367,7 +28357,7 @@
     "buildRef": "specialitems-006",
     "name": "Regulators Prime",
     "category": "SpecialItems",
-    "xp": 40927336,
+    "xp": 41490181,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -28456,8 +28446,8 @@
             "kind": "mod"
           },
           {
-            "name": "Primed Steady Hands",
-            "rank": 10,
+            "name": "Suppress",
+            "rank": 3,
             "kind": "mod"
           }
         ],
@@ -34182,7 +34172,7 @@
     "buildRef": "pistols-065",
     "name": "Tenet Cycron",
     "category": "Pistols",
-    "xp": 52783648,
+    "xp": 52872419,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [
@@ -35218,7 +35208,7 @@
     "buildRef": "longguns-013",
     "name": "Tigris",
     "category": "LongGuns",
-    "xp": 1305038,
+    "xp": 2311153,
     "formaApplied": 0,
     "focusLens": null,
     "polarities": [],
@@ -35540,12 +35530,7 @@
         "name": "A",
         "mods": [
           {
-            "name": "Turbo Protect",
-            "rank": 3,
-            "kind": "mod"
-          },
-          {
-            "name": "Quick Correct",
+            "name": "Drive-Duster",
             "rank": 2,
             "kind": "mod"
           },
@@ -38612,7 +38597,7 @@
     "buildRef": "mechsuits-001",
     "name": "Voidrig",
     "category": "MechSuits",
-    "xp": 4373470,
+    "xp": 5952115,
     "formaApplied": 5,
     "focusLens": null,
     "polarities": [

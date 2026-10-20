@@ -1,11 +1,5 @@
 {
-  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
-  "schemaVersion": 1,
-  "errorEventCount": 2,
   "focusCounterAtCaptureEnd": 1519,
-  "focusEarnedDuringCapture": 1519,
-  "startedAt": "2026-10-12T02:57:27.193707+00:00",
-  "focusCounterAtCaptureStart": 0,
   "positiveItemDeltas": [
     {
       "item": "Ferrite",
@@ -136,6 +130,32 @@
       "delta": 1
     }
   ],
+  "durationSeconds": 3909.426,
+  "negativeItemDeltas": [
+    {
+      "item": "Cipher",
+      "delta": -1
+    },
+    {
+      "item": "Meso D8 Intact",
+      "delta": -1
+    },
+    {
+      "item": "Neo C7 Intact",
+      "delta": -1
+    }
+  ],
+  "equipmentAdded": [
+    {
+      "at": "2026-10-12T03:18:44.202025+00:00",
+      "item": "Hespar"
+    }
+  ],
+  "missionCount": 8,
+  "equipmentRemoved": [],
+  "startedAt": "2026-10-12T02:57:27.193707+00:00",
+  "focusEarnedDuringCapture": 1519,
+  "stoppedAt": "2026-10-12T04:02:36.620191+00:00",
   "configurationChanges": [
     {
       "at": "2026-10-12T03:39:51.150952+00:00",
@@ -158,20 +178,7 @@
       "helminthAfter": null
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Cipher",
-      "delta": -1
-    },
-    {
-      "item": "Meso D8 Intact",
-      "delta": -1
-    },
-    {
-      "item": "Neo C7 Intact",
-      "delta": -1
-    }
-  ],
+  "focusCounterAtCaptureStart": 0,
   "missions": [
     {
       "startedAt": "2026-10-12T02:57:30.278000+00:00",
@@ -271,15 +278,8 @@
       "incomplete": true
     }
   ],
-  "equipmentAdded": [
-    {
-      "at": "2026-10-12T03:18:44.202025+00:00",
-      "item": "Hespar"
-    }
-  ],
-  "missionCount": 8,
-  "durationSeconds": 3909.426,
-  "equipmentRemoved": [],
+  "errorEventCount": 2,
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Intact Sentient Core",
