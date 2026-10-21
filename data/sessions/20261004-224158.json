@@ -1,70 +1,4 @@
 {
-  "equipmentAdded": [],
-  "errorEventCount": 3,
-  "missions": [
-    {
-      "startedAt": "2026-10-04T22:42:05.256000+00:00",
-      "endedAt": "2026-10-04T22:42:05.259000+00:00",
-      "durationSeconds": 0.003,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "SolNode236_Hard",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-04T22:46:17.737000+00:00",
-      "endedAt": "2026-10-04T22:51:24.923000+00:00",
-      "durationSeconds": 307.186,
-      "type": "OPEN WORLD",
-      "node": "DUVIRI",
-      "label": null,
-      "missionKey": "SolNode236",
-      "missionInstance": 1,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-04T22:51:52.959000+00:00",
-      "endedAt": "2026-10-04T22:54:50.476000+00:00",
-      "durationSeconds": 177.517,
-      "type": "OPEN WORLD",
-      "node": "DUVIRI",
-      "label": null,
-      "missionKey": "SolNode236",
-      "missionInstance": 2,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-04T23:09:27.813000+00:00",
-      "endedAt": "2026-10-04T23:32:00.967000+00:00",
-      "durationSeconds": 1353.154,
-      "type": "OPEN WORLD",
-      "node": "DUVIRI",
-      "label": null,
-      "missionKey": "SolNode236",
-      "missionInstance": 3,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-04T23:48:14.276000+00:00",
-      "endedAt": "2026-10-05T00:16:18.790002+00:00",
-      "durationSeconds": 1684.514,
-      "type": "OPEN WORLD",
-      "node": "DUVIRI",
-      "label": null,
-      "missionKey": "SolNode236",
-      "missionInstance": 4,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "stoppedAt": "2026-10-05T00:16:18.790002+00:00",
   "negativeItemDeltas": [
     {
       "item": "Sunlight Threshcone",
@@ -141,15 +75,81 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "startedAt": "2026-10-04T22:41:58.538742+00:00",
+  "configurationChanges": [],
+  "missions": [
+    {
+      "startedAt": "2026-10-04T22:42:05.256000+00:00",
+      "endedAt": "2026-10-04T22:42:05.259000+00:00",
+      "durationSeconds": 0.003,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "SolNode236_Hard",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-04T22:46:17.737000+00:00",
+      "endedAt": "2026-10-04T22:51:24.923000+00:00",
+      "durationSeconds": 307.186,
+      "type": "OPEN WORLD",
+      "node": "DUVIRI",
+      "label": null,
+      "missionKey": "SolNode236",
+      "missionInstance": 1,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-04T22:51:52.959000+00:00",
+      "endedAt": "2026-10-04T22:54:50.476000+00:00",
+      "durationSeconds": 177.517,
+      "type": "OPEN WORLD",
+      "node": "DUVIRI",
+      "label": null,
+      "missionKey": "SolNode236",
+      "missionInstance": 2,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-04T23:09:27.813000+00:00",
+      "endedAt": "2026-10-04T23:32:00.967000+00:00",
+      "durationSeconds": 1353.154,
+      "type": "OPEN WORLD",
+      "node": "DUVIRI",
+      "label": null,
+      "missionKey": "SolNode236",
+      "missionInstance": 3,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-04T23:48:14.276000+00:00",
+      "endedAt": "2026-10-05T00:16:18.790002+00:00",
+      "durationSeconds": 1684.514,
+      "type": "OPEN WORLD",
+      "node": "DUVIRI",
+      "label": null,
+      "missionKey": "SolNode236",
+      "missionInstance": 4,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
   "missionCount": 5,
-  "equipmentRemoved": [],
+  "stoppedAt": "2026-10-05T00:16:18.790002+00:00",
   "durationSeconds": 5660.251,
   "focusCounterAtCaptureEnd": 0,
+  "errorEventCount": 3,
+  "equipmentAdded": [],
+  "startedAt": "2026-10-04T22:41:58.538742+00:00",
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
   "focusEarnedDuringCapture": 0,
-  "configurationChanges": [],
+  "schemaVersion": 1,
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

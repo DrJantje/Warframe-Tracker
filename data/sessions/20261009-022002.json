@@ -1,34 +1,4 @@
 {
-  "equipmentAdded": [],
-  "errorEventCount": 6,
-  "missions": [
-    {
-      "startedAt": "2026-10-09T02:20:27.329000+00:00",
-      "endedAt": "2026-10-09T02:26:15.906000+00:00",
-      "durationSeconds": 348.577,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "ZarimanHub_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false
-    },
-    {
-      "startedAt": "2026-10-09T02:33:34.986000+00:00",
-      "endedAt": "2026-10-09T04:24:10.478744+00:00",
-      "durationSeconds": 6635.493,
-      "type": "LOCATION",
-      "node": "PLAYER SHIP",
-      "label": null,
-      "missionKey": "IceBladeHUB_HUB",
-      "missionInstance": 0,
-      "voidTier": null,
-      "steelPath": false,
-      "incomplete": true
-    }
-  ],
-  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
   "negativeItemDeltas": [
     {
       "item": "Entropic Kuva Item",
@@ -129,14 +99,6 @@
       "delta": 1
     }
   ],
-  "focusCounterAtCaptureStart": 0,
-  "schemaVersion": 1,
-  "startedAt": "2026-10-09T02:20:02.294415+00:00",
-  "missionCount": 2,
-  "equipmentRemoved": [],
-  "durationSeconds": 7448.184,
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
   "configurationChanges": [
     {
       "at": "2026-10-09T03:22:34.937120+00:00",
@@ -179,6 +141,44 @@
       "helminthAfter": null
     }
   ],
+  "missions": [
+    {
+      "startedAt": "2026-10-09T02:20:27.329000+00:00",
+      "endedAt": "2026-10-09T02:26:15.906000+00:00",
+      "durationSeconds": 348.577,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "ZarimanHub_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false
+    },
+    {
+      "startedAt": "2026-10-09T02:33:34.986000+00:00",
+      "endedAt": "2026-10-09T04:24:10.478744+00:00",
+      "durationSeconds": 6635.493,
+      "type": "LOCATION",
+      "node": "PLAYER SHIP",
+      "label": null,
+      "missionKey": "IceBladeHUB_HUB",
+      "missionInstance": 0,
+      "voidTier": null,
+      "steelPath": false,
+      "incomplete": true
+    }
+  ],
+  "missionCount": 2,
+  "stoppedAt": "2026-10-09T04:24:10.478744+00:00",
+  "durationSeconds": 7448.184,
+  "focusCounterAtCaptureEnd": 0,
+  "errorEventCount": 6,
+  "equipmentAdded": [],
+  "startedAt": "2026-10-09T02:20:02.294415+00:00",
+  "equipmentRemoved": [],
+  "focusCounterAtCaptureStart": 0,
+  "focusEarnedDuringCapture": 0,
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Duelist Bow Blueprint",
