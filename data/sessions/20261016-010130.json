@@ -1,130 +1,5 @@
 {
-  "equipmentAdded": [],
-  "schemaVersion": 1,
-  "equipmentRemoved": [],
-  "startedAt": "2026-10-16T01:01:30.631123+00:00",
-  "errorEventCount": 14,
-  "negativeItemDeltas": [
-    {
-      "item": "Nano Spores",
-      "delta": -31500
-    },
-    {
-      "item": "Cryotic",
-      "delta": -2700
-    },
-    {
-      "item": "Omega Isotope",
-      "delta": -36
-    },
-    {
-      "item": "Fomorian Disruptor",
-      "delta": -8
-    }
-  ],
-  "durationSeconds": 7102.558,
-  "configurationChanges": [
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Mausolon",
-      "configuration": "A",
-      "added": [
-        "Containment Breach",
-        "Parallax Scope",
-        "Secondary Enervate"
-      ],
-      "removed": [
-        "Venomous Clip",
-        "Polar Magazine",
-        "Cascadia Flare"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Mausolon",
-      "configuration": "B",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Mausolon",
-      "configuration": "C",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:05:44.593130+00:00",
-      "item": "Arquebex",
-      "configuration": "SP Orphix",
-      "added": [],
-      "removed": [],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    },
-    {
-      "at": "2026-10-16T02:45:31.770341+00:00",
-      "item": "Tenet Glaxion",
-      "configuration": "A",
-      "added": [
-        "High Voltage"
-      ],
-      "removed": [
-        "Thermite Rounds"
-      ],
-      "orderChanged": false,
-      "helminthBefore": null,
-      "helminthAfter": null
-    }
-  ],
-  "positiveItemDeltas": [
-    {
-      "item": "Alloy Plate",
-      "delta": 526
-    },
-    {
-      "item": "Rubedo",
-      "delta": 130
-    },
-    {
-      "item": "Plastids",
-      "delta": 92
-    },
-    {
-      "item": "Fieldron Sample",
-      "delta": 16
-    },
-    {
-      "item": "Morphics",
-      "delta": 2
-    },
-    {
-      "item": "Barrel",
-      "delta": 1
-    },
-    {
-      "item": "Blueprint",
-      "delta": 1
-    },
-    {
-      "item": "Orokin Catalyst",
-      "delta": 1
-    },
-    {
-      "item": "Receiver",
-      "delta": 1
-    }
-  ],
+  "focusCounterAtCaptureEnd": 0,
   "missions": [
     {
       "startedAt": "2026-10-16T01:01:36.264000+00:00",
@@ -391,11 +266,136 @@
       "steelPath": false
     }
   ],
-  "missionCount": 22,
-  "focusCounterAtCaptureEnd": 0,
   "focusEarnedDuringCapture": 0,
-  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
+  "configurationChanges": [
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Mausolon",
+      "configuration": "A",
+      "added": [
+        "Containment Breach",
+        "Parallax Scope",
+        "Secondary Enervate"
+      ],
+      "removed": [
+        "Venomous Clip",
+        "Polar Magazine",
+        "Cascadia Flare"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Mausolon",
+      "configuration": "B",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Mausolon",
+      "configuration": "C",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:05:44.593130+00:00",
+      "item": "Arquebex",
+      "configuration": "SP Orphix",
+      "added": [],
+      "removed": [],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    },
+    {
+      "at": "2026-10-16T02:45:31.770341+00:00",
+      "item": "Tenet Glaxion",
+      "configuration": "A",
+      "added": [
+        "High Voltage"
+      ],
+      "removed": [
+        "Thermite Rounds"
+      ],
+      "orderChanged": false,
+      "helminthBefore": null,
+      "helminthAfter": null
+    }
+  ],
+  "missionCount": 22,
+  "equipmentAdded": [],
+  "positiveItemDeltas": [
+    {
+      "item": "Alloy Plate",
+      "delta": 526
+    },
+    {
+      "item": "Rubedo",
+      "delta": 130
+    },
+    {
+      "item": "Plastids",
+      "delta": 92
+    },
+    {
+      "item": "Fieldron Sample",
+      "delta": 16
+    },
+    {
+      "item": "Morphics",
+      "delta": 2
+    },
+    {
+      "item": "Barrel",
+      "delta": 1
+    },
+    {
+      "item": "Blueprint",
+      "delta": 1
+    },
+    {
+      "item": "Orokin Catalyst",
+      "delta": 1
+    },
+    {
+      "item": "Receiver",
+      "delta": 1
+    }
+  ],
+  "negativeItemDeltas": [
+    {
+      "item": "Nano Spores",
+      "delta": -31500
+    },
+    {
+      "item": "Cryotic",
+      "delta": -2700
+    },
+    {
+      "item": "Omega Isotope",
+      "delta": -36
+    },
+    {
+      "item": "Fomorian Disruptor",
+      "delta": -8
+    }
+  ],
   "focusCounterAtCaptureStart": 0,
+  "equipmentRemoved": [],
+  "durationSeconds": 7102.558,
+  "startedAt": "2026-10-16T01:01:30.631123+00:00",
+  "errorEventCount": 14,
+  "stoppedAt": "2026-10-16T02:59:53.189408+00:00",
+  "schemaVersion": 1,
   "notableAcquisitions": [
     {
       "item": "Barrel",
