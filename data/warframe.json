@@ -2,13 +2,13 @@
   "meta": {
     "title": "Warframe Acquisition Tracker",
     "snapshotDate": "2026-10-20",
-    "exportVerifiedAt": "2026-10-20 19:12:14 PDT",
+    "exportVerifiedAt": "2026-10-20 19:35:19 PDT",
     "exportSource": "Direct read-only account inventory pull from Digital Extremes",
     "exportManifest": {
       "foundry.json": {
-        "bytes": 2168019,
-        "modified": "2026-10-20T19:12:13.203802-07:00",
-        "sha256": "d7c06a125329fa71358e91060dadfcd1990e7db142e62270b9ae7189ed6f4c21"
+        "bytes": 2168090,
+        "modified": "2026-10-20T19:35:18.329036-07:00",
+        "sha256": "60bfeb44ae874170175d3807d803cde805111d0737fd5ccaafdb849678081643"
       },
       "inventoryArcanes.json": {
         "bytes": 91808,
@@ -17,7 +17,7 @@
       },
       "inventoryMisc.json": {
         "bytes": 24913,
-        "modified": "2026-10-20T19:12:13.211357-07:00",
+        "modified": "2026-10-20T19:35:18.334049-07:00",
         "sha256": "cbe4436e3324e142468e00e40661e58aacbb029689880f71159177b57ca04d44"
       },
       "inventoryMods.json": {
@@ -27,17 +27,17 @@
       },
       "inventoryParts.json": {
         "bytes": 62490,
-        "modified": "2026-10-20T19:12:13.206802-07:00",
+        "modified": "2026-10-20T19:35:18.331549-07:00",
         "sha256": "49726010e7789f080feb55a6fec9a794b2e0597b70377d742d87e2bb3e591012"
       },
       "inventoryRelics.json": {
         "bytes": 33451,
-        "modified": "2026-10-20T19:12:13.208302-07:00",
+        "modified": "2026-10-20T19:35:18.333047-07:00",
         "sha256": "30f4398e65a9de4743f1cfdfb684309cf3cf8b3238ed30a97bd17becbd8b6577"
       },
       "inventorySets.json": {
         "bytes": 181443,
-        "modified": "2026-10-20T19:12:13.214813-07:00",
+        "modified": "2026-10-20T19:35:18.338272-07:00",
         "sha256": "fed6778b58d873315709748f485f6ad3ded11a5f61cc48b7414fd07f92beecb1"
       },
       "rivens.json": {
@@ -46,7 +46,23 @@
         "sha256": "76fd684d0dfe7048ad660e2f36e342c0e76e45b204d7d2121da0a2b6b51d7856"
       }
     },
-    "importChanges": [],
+    "importChanges": [
+      {
+        "item": "Enkaus",
+        "before": [
+          "No",
+          "No",
+          "Yes",
+          ""
+        ],
+        "after": [
+          "Yes",
+          "No",
+          "No",
+          ""
+        ]
+      }
+    ],
     "summary": {
       "activeTo40": 2,
       "confirmedAt40": 15,
@@ -2479,9 +2495,9 @@
     {
       "item": "Enkaus",
       "type": "primary",
-      "state": "Ready in Foundry",
+      "state": "Rank unknown — verify in Arsenal",
       "targetRank": "30",
-      "steps": "Claim from Foundry; equip and level to 30.",
+      "steps": "Check Arsenal and level to 30 if needed.",
       "tip": "Level this primary in Sanctuary Onslaught, Helene, or Hydron; equip fewer other weapons to focus affinity.",
       "source": "https://wiki.warframe.com/w/Enkaus"
     },
@@ -7133,17 +7149,17 @@
     {
       "item": "Enkaus",
       "type": "primary",
-      "state": "Owned / in foundry; rank unknown",
-      "owned": "No",
+      "state": "Owned; rank unknown",
+      "owned": "Yes",
       "mastered": "No",
-      "complete": "No",
+      "complete": "Yes",
       "targetRank": "30",
-      "rankRule": "Claim from Foundry, then level to 30.",
+      "rankRule": "Export has no current rank/Forma; verify Arsenal rank and finish to 30 only if needed.",
       "missing": "",
       "ease": "1 — Now / no farming",
       "route": "Follie’s Hunt / Aspirant Zorba",
       "vaulted": "No",
-      "pendingFoundry": "Yes",
+      "pendingFoundry": "No",
       "minimumMr": 12,
       "source": "https://wiki.warframe.com/w/Enkaus",
       "steps": "Farm the main and component blueprints from Follie’s Hunt or buy them from Zorba in a Relay using Atramentum.",
