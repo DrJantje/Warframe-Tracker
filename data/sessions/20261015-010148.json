@@ -1,4 +1,6 @@
 {
+  "focusCounterAtCaptureEnd": 20201,
+  "focusCounterAtCaptureStart": 0,
   "configurationChanges": [
     {
       "at": "2026-10-15T01:25:29.289410+00:00",
@@ -21,14 +23,35 @@
       "helminthAfter": null
     }
   ],
-  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
   "durationSeconds": 2861.991,
-  "positiveItemDeltas": [
+  "errorEventCount": 2,
+  "negativeItemDeltas": [
     {
-      "item": "Nitain Extract",
-      "delta": 20
+      "item": "Amir's Shockwave Cred",
+      "delta": -60
+    },
+    {
+      "item": "Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Chassis Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Helmet Blueprint",
+      "delta": -1
+    },
+    {
+      "item": "Hildryn Prime Systems Blueprint",
+      "delta": -1
     }
   ],
+  "missionCount": 9,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 20201,
+  "stoppedAt": "2026-10-15T01:49:30.497935+00:00",
+  "equipmentRemoved": [],
   "startedAt": "2026-10-15T01:01:48.506996+00:00",
   "missions": [
     {
@@ -141,36 +164,13 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
-  "errorEventCount": 2,
-  "missionCount": 9,
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 20201,
-  "focusEarnedDuringCapture": 20201,
-  "negativeItemDeltas": [
+  "positiveItemDeltas": [
     {
-      "item": "Amir's Shockwave Cred",
-      "delta": -60
-    },
-    {
-      "item": "Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Chassis Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Helmet Blueprint",
-      "delta": -1
-    },
-    {
-      "item": "Hildryn Prime Systems Blueprint",
-      "delta": -1
+      "item": "Nitain Extract",
+      "delta": 20
     }
   ],
-  "schemaVersion": 1,
+  "equipmentAdded": [],
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

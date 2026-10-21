@@ -1,4 +1,6 @@
 {
+  "focusCounterAtCaptureEnd": 0,
+  "focusCounterAtCaptureStart": 0,
   "configurationChanges": [
     {
       "at": "2026-10-01T00:40:10.052835+00:00",
@@ -21,14 +23,35 @@
       "helminthAfter": null
     }
   ],
-  "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
   "durationSeconds": 794.333,
-  "positiveItemDeltas": [
+  "errorEventCount": 1,
+  "negativeItemDeltas": [
     {
-      "item": "T1 Void Projection Citrine Prime CBronze",
-      "delta": 1
+      "item": "Barrel",
+      "delta": -2
+    },
+    {
+      "item": "Handle",
+      "delta": -2
+    },
+    {
+      "item": "Receiver",
+      "delta": -2
+    },
+    {
+      "item": "Blade",
+      "delta": -1
+    },
+    {
+      "item": "Stock",
+      "delta": -1
     }
   ],
+  "missionCount": 2,
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
+  "stoppedAt": "2026-10-01T00:40:51.730564+00:00",
+  "equipmentRemoved": [],
   "startedAt": "2026-10-01T00:27:37.397896+00:00",
   "missions": [
     {
@@ -57,36 +80,13 @@
       "incomplete": true
     }
   ],
-  "equipmentRemoved": [],
-  "errorEventCount": 1,
-  "missionCount": 2,
-  "focusCounterAtCaptureStart": 0,
-  "equipmentAdded": [],
-  "focusCounterAtCaptureEnd": 0,
-  "focusEarnedDuringCapture": 0,
-  "negativeItemDeltas": [
+  "positiveItemDeltas": [
     {
-      "item": "Barrel",
-      "delta": -2
-    },
-    {
-      "item": "Handle",
-      "delta": -2
-    },
-    {
-      "item": "Receiver",
-      "delta": -2
-    },
-    {
-      "item": "Blade",
-      "delta": -1
-    },
-    {
-      "item": "Stock",
-      "delta": -1
+      "item": "T1 Void Projection Citrine Prime CBronze",
+      "delta": 1
     }
   ],
-  "schemaVersion": 1,
+  "equipmentAdded": [],
   "notableAcquisitions": [
     {
       "item": "T1 Void Projection Citrine Prime CBronze",
