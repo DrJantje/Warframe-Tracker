@@ -1,6 +1,53 @@
 {
-  "errorEventCount": 4,
+  "negativeItemDeltas": [
+    {
+      "item": "Salvage",
+      "delta": -3800
+    },
+    {
+      "item": "Rubedo",
+      "delta": -1250
+    },
+    {
+      "item": "Orokin Cell",
+      "delta": -71
+    },
+    {
+      "item": "Neurodes",
+      "delta": -3
+    },
+    {
+      "item": "Blade",
+      "delta": -2
+    },
+    {
+      "item": "Nitain Extract",
+      "delta": -2
+    },
+    {
+      "item": "Carapace",
+      "delta": -1
+    },
+    {
+      "item": "Cerebrum",
+      "delta": -1
+    },
+    {
+      "item": "Handle",
+      "delta": -1
+    },
+    {
+      "item": "Systems",
+      "delta": -1
+    }
+  ],
+  "durationSeconds": 4404.41,
   "missionCount": 26,
+  "startedAt": "2026-09-27T21:06:13.076944+00:00",
+  "schemaVersion": 1,
+  "focusEarnedDuringCapture": 0,
+  "focusCounterAtCaptureStart": 0,
+  "stoppedAt": "2026-09-27T22:19:37.486873+00:00",
   "missions": [
     {
       "startedAt": "2026-09-27T21:06:16.718000+00:00",
@@ -316,14 +363,10 @@
       "incomplete": true
     }
   ],
-  "schemaVersion": 1,
-  "configurationChanges": [],
-  "focusCounterAtCaptureStart": 0,
+  "errorEventCount": 4,
+  "equipmentRemoved": [],
   "focusCounterAtCaptureEnd": 0,
   "equipmentAdded": [],
-  "stoppedAt": "2026-09-27T22:19:37.486873+00:00",
-  "equipmentRemoved": [],
-  "durationSeconds": 4404.41,
   "positiveItemDeltas": [
     {
       "item": "Blueprint",
@@ -342,50 +385,7 @@
       "delta": 1
     }
   ],
-  "negativeItemDeltas": [
-    {
-      "item": "Salvage",
-      "delta": -3800
-    },
-    {
-      "item": "Rubedo",
-      "delta": -1250
-    },
-    {
-      "item": "Orokin Cell",
-      "delta": -71
-    },
-    {
-      "item": "Neurodes",
-      "delta": -3
-    },
-    {
-      "item": "Blade",
-      "delta": -2
-    },
-    {
-      "item": "Nitain Extract",
-      "delta": -2
-    },
-    {
-      "item": "Carapace",
-      "delta": -1
-    },
-    {
-      "item": "Cerebrum",
-      "delta": -1
-    },
-    {
-      "item": "Handle",
-      "delta": -1
-    },
-    {
-      "item": "Systems",
-      "delta": -1
-    }
-  ],
-  "focusEarnedDuringCapture": 0,
-  "startedAt": "2026-09-27T21:06:13.076944+00:00",
+  "configurationChanges": [],
   "notableAcquisitions": [
     {
       "item": "Blueprint",
