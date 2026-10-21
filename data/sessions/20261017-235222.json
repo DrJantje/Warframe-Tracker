@@ -1,4 +1,26 @@
 {
+  "durationSeconds": 3908.111,
+  "equipmentAdded": [
+    {
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Prisma Tetra"
+    },
+    {
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Prisma Twin Gremlins"
+    },
+    {
+      "at": "2026-10-18T00:29:55.058330+00:00",
+      "item": "Vericres"
+    }
+  ],
+  "focusEarnedDuringCapture": 0,
+  "positiveItemDeltas": [
+    {
+      "item": "Orokin Ducats",
+      "delta": 450
+    }
+  ],
   "negativeItemDeltas": [
     {
       "item": "Blueprint",
@@ -81,13 +103,13 @@
       "delta": -1
     }
   ],
-  "durationSeconds": 3908.111,
-  "missionCount": 2,
   "startedAt": "2026-10-17T23:52:22.857868+00:00",
-  "schemaVersion": 1,
-  "focusEarnedDuringCapture": 0,
+  "errorEventCount": 3,
+  "focusCounterAtCaptureEnd": 0,
+  "equipmentRemoved": [],
   "focusCounterAtCaptureStart": 0,
-  "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
+  "configurationChanges": [],
+  "schemaVersion": 1,
   "missions": [
     {
       "startedAt": "2026-10-17T23:53:02.972000+00:00",
@@ -115,30 +137,8 @@
       "incomplete": true
     }
   ],
-  "errorEventCount": 3,
-  "equipmentRemoved": [],
-  "focusCounterAtCaptureEnd": 0,
-  "equipmentAdded": [
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Prisma Tetra"
-    },
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Prisma Twin Gremlins"
-    },
-    {
-      "at": "2026-10-18T00:29:55.058330+00:00",
-      "item": "Vericres"
-    }
-  ],
-  "positiveItemDeltas": [
-    {
-      "item": "Orokin Ducats",
-      "delta": 450
-    }
-  ],
-  "configurationChanges": [],
+  "missionCount": 2,
+  "stoppedAt": "2026-10-18T00:57:30.968399+00:00",
   "notableAcquisitions": [],
   "railjackSalvage": [],
   "resourceGains": [

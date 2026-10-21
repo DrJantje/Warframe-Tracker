@@ -1,7 +1,7 @@
 # Current Warframe context for ChatGPT
 
-Generated: 2026-10-21T02:39:29.723130+00:00
-Account snapshot: 2026-10-21T02:39:28.579Z
+Generated: 2026-10-21T03:15:41.471847+00:00
+Account snapshot: 2026-10-21T03:15:40.333Z
 
 Use this as the player's current sanitized account and session context. Live observations and synchronized account snapshots have different timestamps; call out a mismatch rather than guessing.
 
@@ -10,9 +10,9 @@ Use this as the player's current sanitized account and session context. Live obs
 - Phase: mission
 - Location: LOCATION
 - Planet: LOCAL AREA
-- Frame observation: Titania (mission-active)
+- Frame observation: Titania (server-sent)
 - Steel Path: no
-- Matchmaking: UNKNOWN
+- Matchmaking: PUBLIC
 - Focus during current capture: 0
 
 ## Current synchronized loadouts and builds
@@ -34,12 +34,11 @@ Use this as the player's current sanitized account and session context. Live obs
 - Mods: Primed Heated Charge (rank 10), Pistol Pestilence (rank 3), Frostbite (rank 3), Lethal Torrent (rank 5), Primed Pistol Gambit (rank 10), Primed Target Cracker (rank 10), Galvanized Diffusion (rank 10), Galvanized Shot (rank 10), Ruinous Extension (rank 3)
 - Arcanes: Cascadia Flare (rank 5)
 
-#### Primary: Coda Bubonico — config A
+#### Primary: Enkaus — config A
 
-- Forma: 5
-- Lens: Greater Unairu Lens
-- Mods: Atomic Fallout (rank 3), Shotgun Barrage (rank 5), Primed Point Blank (rank 10), Primed Charged Shell (rank 10), Primed Ravage (rank 10), Critical Deceleration (rank 5), Galvanized Hell (rank 10), Galvanized Savvy (rank 10), Galvanized Acceleration (rank 10)
-- Arcanes: Primary Merciless (rank 5)
+- Forma: 0
+- Mods: Serration (rank 10), High Voltage (rank 3), Split Chamber (rank 5)
+- Arcanes: none recorded
 
 #### Melee: Furax Wraith — config A
 
